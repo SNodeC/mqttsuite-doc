@@ -1,0 +1,18 @@
+<map id="nlohmann::json_schema::root_schema::schema_file" name="nlohmann::json_schema::root_schema::schema_file">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,315,445,355"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="245,205,453,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="352,245,352,298,347,298,347,245"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="205,102,283,127"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,126,321,191,317,194,253,129"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="43,197,221,252"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="237,129,195,175,180,189,177,185,191,171,233,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="180,5,308,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,59,247,102,241,102,241,59"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="307,102,496,127"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="398,129,368,191,363,189,393,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="182,250,257,288,293,305,291,310,255,293,179,254"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,95,181,135"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="103,134,120,181,115,183,98,136"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="477,212,517,237"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="489,239,463,265,430,293,404,309,401,304,426,289,459,261,485,236"/>
+</map>

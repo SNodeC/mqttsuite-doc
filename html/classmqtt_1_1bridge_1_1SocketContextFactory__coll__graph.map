@@ -1,0 +1,18 @@
+<map id="mqtt::bridge::SocketContextFactory" name="mqtt::bridge::SocketContextFactory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,495,236,535"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,392,168,432"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,443,131,493,127,496,100,445"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html" title=" " alt="" coords="192,392,317,432"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,434,175,486,171,482,231,430"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html" title=" " alt="" coords="192,243,317,283"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,284,257,375,252,375,252,284"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="59,102,136,127"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="94,129,80,165,67,217,64,246,65,275,70,302,82,328,97,342,121,357,184,384,182,389,119,361,94,346,78,331,65,304,59,275,59,246,62,216,75,164,89,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="111,126,224,230,220,234,108,129"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="33,5,161,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="100,59,100,102,95,102,95,59"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="189,95,320,135"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="257,135,257,227,252,227,252,135"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="341,243,472,283"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="393,285,357,325,312,370,296,384,293,380,309,366,353,322,389,282"/>
+</map>

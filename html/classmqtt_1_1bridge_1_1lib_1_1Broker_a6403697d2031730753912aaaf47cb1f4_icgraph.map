@@ -1,0 +1,8 @@
+<map id="mqtt::bridge::lib::Broker::getWillMessage" name="mqtt::bridge::lib::Broker::getWillMessage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="199,61,375,101"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="11,29,145,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,68,145,62,146,57,186,63"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a5847611e17b94be67e5cf9743fb03a58" title=" " alt="" coords="5,93,151,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="186,100,151,105,151,100,185,94"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="113,18,101,11,78,8,58,10,46,15,42,21,44,28,39,30,37,20,43,10,57,5,78,3,102,6,116,13"/>
+</map>

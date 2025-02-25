@@ -1,0 +1,19 @@
+<map id="inja::SetStatementNode" name="inja::SetStatementNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="143,369,311,395"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="5,129,152,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,168,98,233,111,271,130,305,147,325,167,342,206,367,203,372,163,346,143,329,126,308,106,273,93,235,79,169"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="123,5,221,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,43,90,131,85,128,153,40"/>
+<area shape="rect" id="Node000006" href="$classinja_1_1ExpressionListNode.html" title=" " alt="" coords="140,281,313,307"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="176,44,183,122,200,218,223,280,218,282,195,219,178,123,171,45"/>
+<area shape="rect" id="Node000008" href="$classinja_1_1ExpressionNode.html" title=" " alt="" coords="209,80,359,105"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="203,36,267,78,265,82,200,40"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="376,281,453,307"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="396,309,320,348,275,366,273,361,318,343,393,304"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="383,179,511,219"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="438,232,421,282,416,280,433,231"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="229,307,229,352,224,352,224,307"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="209,179,359,219"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="275,220,245,269,240,266,270,217"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="287,105,287,162,281,162,281,105"/>
+</map>

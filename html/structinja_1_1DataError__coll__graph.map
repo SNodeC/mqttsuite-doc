@@ -1,0 +1,15 @@
+<map id="inja::DataError" name="inja::DataError">
+<area shape="rect" id="Node000001" title=" " alt="" coords="145,272,252,297"/>
+<area shape="rect" id="Node000002" href="$structinja_1_1InjaError.html" title=" " alt="" coords="149,197,248,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,237,201,272,196,272,196,237"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,95,133,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,126,186,195,182,199,93,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="13,13,117,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="69,51,71,95,66,95,64,52"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="160,95,237,120"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="201,120,201,181,196,181,196,120"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="141,5,269,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="205,59,202,95,197,94,200,59"/>
+<area shape="rect" id="Node000007" href="$structinja_1_1SourceLocation.html" title=" " alt="" coords="261,95,405,120"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="328,122,308,148,280,175,250,193,247,188,277,171,304,145,324,118"/>
+</map>

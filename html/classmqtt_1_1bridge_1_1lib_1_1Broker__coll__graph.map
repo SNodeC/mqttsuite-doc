@@ -1,0 +1,14 @@
+<map id="mqtt::bridge::lib::Broker" name="mqtt::bridge::lib::Broker">
+<area shape="rect" id="Node000001" title=" " alt="" coords="164,392,289,432"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html" title=" " alt="" coords="164,243,289,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,284,229,375,224,375,224,284"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="31,102,108,127"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="66,129,52,165,39,217,36,246,37,275,42,302,54,328,73,350,96,368,149,392,147,397,93,372,69,354,50,331,37,304,31,275,31,246,34,216,47,164,61,127"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,126,196,230,192,234,80,129"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,133,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="72,59,72,102,67,102,67,59"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="161,95,292,135"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="229,135,229,227,224,227,224,135"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="313,243,444,283"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="365,285,329,325,284,370,268,384,265,380,281,366,325,322,361,282"/>
+</map>

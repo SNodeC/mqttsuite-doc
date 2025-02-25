@@ -1,0 +1,11 @@
+<map id="nlohmann::json_schema::basic_error_handler::reset" name="nlohmann::json_schema::basic_error_handler::reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="317,30,497,85"/>
+<area shape="rect" id="Node000002" href="$classstore__err__handler.html#a52f6da608dec4b7de73fceb3dabff01d" title=" " alt="" coords="117,5,261,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,45,260,38,261,33,304,40"/>
+<area shape="rect" id="Node000004" href="$classstore__ptr__err__handler.html#aa0d1c04e90196bbfe464de25bc2c8cf9" title=" " alt="" coords="108,69,269,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,75,270,80,269,75,303,70"/>
+<area shape="rect" id="Node000003" href="$issue-149-entry-selection_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,28,60,28,60,23,103,23"/>
+<area shape="rect" id="Node000005" href="$binary-validation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,77,60,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,92,60,92,60,87,94,87"/>
+</map>

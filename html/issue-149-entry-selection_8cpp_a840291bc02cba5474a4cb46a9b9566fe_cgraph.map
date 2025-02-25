@@ -1,0 +1,7 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,20,60,45"/>
+<area shape="rect" id="Node000002" href="$classstore__err__handler.html#a52f6da608dec4b7de73fceb3dabff01d" title=" " alt="" coords="108,13,252,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,30,94,30,94,35,60,35"/>
+<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__schema_1_1basic__error__handler.html#ac174744b79e01d843276b3c47d5b62ad" title=" " alt="" coords="300,5,480,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="252,30,286,30,286,35,252,35"/>
+</map>
