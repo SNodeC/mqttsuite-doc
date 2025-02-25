@@ -149,7 +149,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00039">39</a> of file <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00061">61</a> of file <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
 
 </div>
 </div>
@@ -169,24 +169,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00076">76</a> of file <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   76</span>                                                                                     {</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_class" href="classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html">mqtt::mqttbridge::websocket::SubProtocolFactory</a>* subProtocolFactory = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   78</span> </div>
-<div class="line"><span class="lineno">   79</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* bridgeConfigFileEnvPtr = std::getenv(<span class="stringliteral">&quot;BRIDGE_CONFIG&quot;</span>);</div>
-<div class="line"><span class="lineno">   80</span>    <span class="keyword">const</span> std::string&amp; bridgeConfigFile = (bridgeConfigFileEnvPtr != <span class="keyword">nullptr</span>) ? bridgeConfigFileEnvPtr : <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">   81</span> </div>
-<div class="line"><span class="lineno">   82</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> success = <a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a>().<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a">loadAndValidate</a>(bridgeConfigFile);</div>
-<div class="line"><span class="lineno">   83</span> </div>
-<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">if</span> (success) {</div>
-<div class="line"><span class="lineno">   85</span>        subProtocolFactory = <span class="keyword">new</span> <a class="code hl_class" href="classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html">mqtt::mqttbridge::websocket::SubProtocolFactory</a>();</div>
-<div class="line"><span class="lineno">   86</span>    }</div>
-<div class="line"><span class="lineno">   87</span> </div>
-<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">return</span> subProtocolFactory;</div>
-<div class="line"><span class="lineno">   89</span>}</div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_a7b35204686d51d46798ecae6918527e1"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a></div><div class="ttdeci">static BridgeStore &amp; instance()</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00041">BridgeStore.cpp:41</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_ab8ade196caaa4d233f8dc1625619ed9a"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a">mqtt::bridge::lib::BridgeStore::loadAndValidate</a></div><div class="ttdeci">bool loadAndValidate(const std::string &amp;fileName)</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00047">BridgeStore.cpp:47</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory_html"><div class="ttname"><a href="classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html">mqtt::mqttbridge::websocket::SubProtocolFactory</a></div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2websocket_2SubProtocolFactory_8h_source.html#l00032">SubProtocolFactory.h:32</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00098">98</a> of file <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   98</span>                                                                                     {</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_class" href="classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html">mqtt::mqttbridge::websocket::SubProtocolFactory</a>* subProtocolFactory = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* bridgeConfigFileEnvPtr = std::getenv(<span class="stringliteral">&quot;BRIDGE_CONFIG&quot;</span>);</div>
+<div class="line"><span class="lineno">  102</span>    <span class="keyword">const</span> std::string&amp; bridgeConfigFile = (bridgeConfigFileEnvPtr != <span class="keyword">nullptr</span>) ? bridgeConfigFileEnvPtr : <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> success = <a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a>().<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a">loadAndValidate</a>(bridgeConfigFile);</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">if</span> (success) {</div>
+<div class="line"><span class="lineno">  107</span>        subProtocolFactory = <span class="keyword">new</span> <a class="code hl_class" href="classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html">mqtt::mqttbridge::websocket::SubProtocolFactory</a>();</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">return</span> subProtocolFactory;</div>
+<div class="line"><span class="lineno">  111</span>}</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_a7b35204686d51d46798ecae6918527e1"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a></div><div class="ttdeci">static BridgeStore &amp; instance()</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00063">BridgeStore.cpp:63</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_ab8ade196caaa4d233f8dc1625619ed9a"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a">mqtt::bridge::lib::BridgeStore::loadAndValidate</a></div><div class="ttdeci">bool loadAndValidate(const std::string &amp;fileName)</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00069">BridgeStore.cpp:69</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory_html"><div class="ttname"><a href="classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html">mqtt::mqttbridge::websocket::SubProtocolFactory</a></div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2websocket_2SubProtocolFactory_8h_source.html#l00054">SubProtocolFactory.h:54</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -196,7 +196,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b4d2bddd623593c6554de4ea77254950.html">mqttbridge</a></li><li class="navelem"><a class="el" href="dir_fcbf88c7042ce9756ade867b6282a277.html">websocket</a></li><li class="navelem"><a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html">SubProtocolFactory.cpp</a></li>
-    <li class="footer">Generated on Tue Feb 25 2025 14:40:36 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Feb 26 2025 00:04:15 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

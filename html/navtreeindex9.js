@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"structinja_1_1LexerConfig.html#abb5aff62c072f68eeae92fb5ab5b0896":[2,0,7,20,17],
+"structinja_1_1LexerConfig.html#abb5aff62c072f68eeae92fb5ab5b0896":[3,0,2,19,17],
 "structinja_1_1LexerConfig.html#ad1e05c6f084d788c98084c257f7819a5":[2,0,7,20,0],
 "structinja_1_1LexerConfig.html#ad1e05c6f084d788c98084c257f7819a5":[3,0,2,19,0],
 "structinja_1_1LexerConfig.html#ad55683b23ed64b994117e492a00d6ba2":[2,0,7,20,3],

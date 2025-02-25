@@ -123,7 +123,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8h_source.html#l00031">31</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8h_source.html">SocketContextFactory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8h_source.html#l00053">53</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8h_source.html">SocketContextFactory.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0667981d3feaa8d66a6ba2ecb81dc900" name="a0667981d3feaa8d66a6ba2ecb81dc900"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0667981d3feaa8d66a6ba2ecb81dc900">&#9670;&#160;</a></span>create()</h2>
@@ -148,24 +148,24 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00039">39</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   39</span>                                                                                                                  {</div>
-<div class="line"><span class="lineno">   40</span>        iot::mqtt::SocketContext* socketContext = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   41</span> </div>
-<div class="line"><span class="lineno">   42</span>        nlohmann::json&amp; mappingJson =</div>
-<div class="line"><span class="lineno">   43</span>            <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>));</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> (mappingJson.contains(<span class="stringliteral">&quot;connection&quot;</span>)) {</div>
-<div class="line"><span class="lineno">   46</span>            socketContext =</div>
-<div class="line"><span class="lineno">   47</span>                <span class="keyword">new</span> iot::mqtt::SocketContext(socketConnection,</div>
-<div class="line"><span class="lineno">   48</span>                                             <span class="keyword">new</span> <a class="code hl_class" href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html">mqtt::mqttintegrator::lib::Mqtt</a>(</div>
-<div class="line"><span class="lineno">   49</span>                                                 socketConnection-&gt;getConnectionName(), mappingJson[<span class="stringliteral">&quot;connection&quot;</span>], mappingJson[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
-<div class="line"><span class="lineno">   50</span>        }</div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">return</span> socketContext;</div>
-<div class="line"><span class="lineno">   53</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00041">JsonMappingReader.cpp:41</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_html"><div class="ttname"><a href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html">mqtt::mqttintegrator::lib::Mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="mqttintegrator_2lib_2Mqtt_8h_source.html#l00036">Mqtt.h:38</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00061">61</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   61</span>                                                                                                                  {</div>
+<div class="line"><span class="lineno">   62</span>        iot::mqtt::SocketContext* socketContext = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>        nlohmann::json&amp; mappingJson =</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>));</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (mappingJson.contains(<span class="stringliteral">&quot;connection&quot;</span>)) {</div>
+<div class="line"><span class="lineno">   68</span>            socketContext =</div>
+<div class="line"><span class="lineno">   69</span>                <span class="keyword">new</span> iot::mqtt::SocketContext(socketConnection,</div>
+<div class="line"><span class="lineno">   70</span>                                             <span class="keyword">new</span> <a class="code hl_class" href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html">mqtt::mqttintegrator::lib::Mqtt</a>(</div>
+<div class="line"><span class="lineno">   71</span>                                                 socketConnection-&gt;getConnectionName(), mappingJson[<span class="stringliteral">&quot;connection&quot;</span>], mappingJson[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
+<div class="line"><span class="lineno">   72</span>        }</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> socketContext;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00063">JsonMappingReader.cpp:63</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_html"><div class="ttname"><a href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html">mqtt::mqttintegrator::lib::Mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="mqttintegrator_2lib_2Mqtt_8h_source.html#l00058">Mqtt.h:60</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -179,7 +179,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemqtt.html">mqtt</a></li><li class="navelem"><a class="el" href="namespacemqtt_1_1mqttintegrator.html">mqttintegrator</a></li><li class="navelem"><a class="el" href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html">SocketContextFactory</a></li>
-    <li class="footer">Generated on Tue Feb 25 2025 14:40:36 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Feb 26 2025 00:04:15 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

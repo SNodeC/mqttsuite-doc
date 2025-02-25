@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"mqttbridge_2websocket_2SubProtocolFactory_8h_source.html":[4,0,1,1,1],
+"mqttbridge_8cpp.html":[4,0,1,2],
 "mqttbridge_8cpp.html#a006f58b80a01a3aa111e79970bd44c34":[4,0,1,2,2],
 "mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[4,0,1,2,0],
 "mqttbridge_8cpp.html#a3778dc96e8661f52ab44dfb543b2edca":[4,0,1,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "structinja_1_1LexerConfig.html#aa67a13a58678173e0cf1b0e88f1b5052":[2,0,7,20,11],
 "structinja_1_1LexerConfig.html#aa67a13a58678173e0cf1b0e88f1b5052":[3,0,2,19,11],
 "structinja_1_1LexerConfig.html#ab223a5ebfbea6b961cc8b2b9670a3f05":[2,0,7,20,16],
-"structinja_1_1LexerConfig.html#ab223a5ebfbea6b961cc8b2b9670a3f05":[3,0,2,19,16],
-"structinja_1_1LexerConfig.html#abb5aff62c072f68eeae92fb5ab5b0896":[2,0,7,20,17],
-"structinja_1_1LexerConfig.html#abb5aff62c072f68eeae92fb5ab5b0896":[3,0,2,19,17]
+"structinja_1_1LexerConfig.html#ab223a5ebfbea6b961cc8b2b9670a3f05":[3,0,2,19,16]
 };

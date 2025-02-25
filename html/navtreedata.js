@@ -74,8 +74,8 @@ var NAVTREEINDEX =
 "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaf8d73b588e50698be0fcd832148b1fc",
 "classnlohmann_1_1json__patch.html#ac5f9b9cd2e0b3269217a916dbf43249b",
 "functions_rela.html",
-"mqttbridge_8cpp.html#a006f58b80a01a3aa111e79970bd44c34",
-"structinja_1_1LexerConfig.html#ad1e05c6f084d788c98084c257f7819a5"
+"mqttbridge_2websocket_2SubProtocolFactory_8h_source.html",
+"structinja_1_1LexerConfig.html#abb5aff62c072f68eeae92fb5ab5b0896"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

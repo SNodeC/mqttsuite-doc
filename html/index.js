@@ -1,6 +1,8 @@
 var index =
 [
     [ "Table of Content", "index.html#table-of-content", null ],
+    [ "License", "index.html#license", null ],
+    [ "Copyright", "index.html#copyright", null ],
     [ "Installation", "index.html#installation", [
       [ "Supported Systems and Hardware", "index.html#supported-systems-and-hardware", null ],
       [ "Minimum required Compiler Versions", "index.html#minimum-required-compiler-versions", null ],
