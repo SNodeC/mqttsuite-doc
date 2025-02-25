@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SNode.C: mqttbroker/lib/Mqtt.h Source File</title>
+<title>MQTTSuite: mqttbroker/lib/Mqtt.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">SNode.C
+   <div id="projectname">MQTTSuite
    </div>
   </td>
  </tr>
@@ -154,7 +154,7 @@ $(function(){initNavTree('mqttbroker_2lib_2Mqtt_8h_source.html',''); initResizab
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="comment">// inherited from iot::mqtt::server::SocketContext - the plain and base MQTT broker</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a381e51fa3f75d81dc2501403b83d96f2">onConnect</a>(<span class="keyword">const</span> iot::mqtt::packets::Connect&amp; connect) <span class="keyword">final</span>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">void</span> onPublish(<span class="keyword">const</span> iot::mqtt::packets::Publish&amp; publish) <span class="keyword">final</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a35dd670ca3b7d67cffbbce1cf7c71ffb">onPublish</a>(<span class="keyword">const</span> iot::mqtt::packets::Publish&amp; publish) <span class="keyword">final</span>;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="comment">// inherited from core::socket::SocketContext (the root class of all SocketContext classes) via iot::mqtt::server::SocketContext</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a701d087aedd4cd329ba80f26a99d4f17">onDisconnected</a>() <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a701d087aedd4cd329ba80f26a99d4f17">final</a>;</div>
@@ -171,6 +171,7 @@ $(function(){initNavTree('mqttbroker_2lib_2Mqtt_8h_source.html',''); initResizab
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="#l00041">Mqtt.h:43</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html_a183033437406ea7be6c978ab3153bad5"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a183033437406ea7be6c978ab3153bad5">mqtt::mqttbroker::lib::Mqtt::Mqtt</a></div><div class="ttdeci">Mqtt(const std::string &amp;connectionName, const std::shared_ptr&lt; iot::mqtt::server::broker::Broker &gt; &amp;broker, const nlohmann::json &amp;mappingJson)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00035">Mqtt.cpp:35</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html_a3426a2c9d850ad17f0134580a09d9527"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a3426a2c9d850ad17f0134580a09d9527">mqtt::mqttbroker::lib::Mqtt::publishMapping</a></div><div class="ttdeci">void publishMapping(const std::string &amp;topic, const std::string &amp;message, uint8_t qoS, bool retain) final</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00058">Mqtt.cpp:58</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html_a35dd670ca3b7d67cffbbce1cf7c71ffb"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a35dd670ca3b7d67cffbbce1cf7c71ffb">mqtt::mqttbroker::lib::Mqtt::onPublish</a></div><div class="ttdeci">void onPublish(const iot::mqtt::packets::Publish &amp;publish) final</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00048">Mqtt.cpp:48</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html_a381e51fa3f75d81dc2501403b83d96f2"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a381e51fa3f75d81dc2501403b83d96f2">mqtt::mqttbroker::lib::Mqtt::onConnect</a></div><div class="ttdeci">void onConnect(const iot::mqtt::packets::Connect &amp;connect) final</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00042">Mqtt.cpp:42</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html_a701d087aedd4cd329ba80f26a99d4f17"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a701d087aedd4cd329ba80f26a99d4f17">mqtt::mqttbroker::lib::Mqtt::onDisconnected</a></div><div class="ttdeci">void onDisconnected() final</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00052">Mqtt.cpp:52</a></div></div>
 <div class="ttc" id="anamespaceiot_1_1mqtt_1_1server_html"><div class="ttname"><a href="namespaceiot_1_1mqtt_1_1server.html">iot::mqtt::server</a></div><div class="ttdef"><b>Definition</b> <a href="#l00025">Mqtt.h:25</a></div></div>
@@ -182,7 +183,7 @@ $(function(){initNavTree('mqttbroker_2lib_2Mqtt_8h_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6923aae39fdce29699351e77c1fed0e3.html">mqttbroker</a></li><li class="navelem"><a class="el" href="dir_33a2e85dcc838794c502b462b8aa1846.html">lib</a></li><li class="navelem"><a class="el" href="mqttbroker_2lib_2Mqtt_8h.html">Mqtt.h</a></li>
-    <li class="footer">Generated on Tue Feb 25 2025 13:45:06 for SNode.C by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Tue Feb 25 2025 13:53:21 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>

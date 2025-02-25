@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "SNode.C", "index.html", [
+  [ "MQTTSuite", "index.html", [
     [ "MQTTSuite: A lightweight MQTT Integration System", "index.html", "index" ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
