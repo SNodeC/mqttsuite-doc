@@ -109,7 +109,7 @@ $(function(){initNavTree('mqttbroker_8cpp.html',''); initResizable(true); });
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for mqttbroker.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="mqttbroker_8cpp__incl.svg" width="100%" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="mqttbroker_8cpp__incl.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="mqttbroker_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -546,74 +546,75 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  365</span>                                 {</div>
 <div class="line"><span class="lineno">  366</span>    utils::Config::addStringOption(<span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>, <span class="stringliteral">&quot;MQTT mapping file (json format) for integration&quot;</span>, <span class="stringliteral">&quot;[path]&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><span class="lineno">  367</span>    utils::Config::addStringOption(<span class="stringliteral">&quot;--mqtt-session-store&quot;</span>, <span class="stringliteral">&quot;Path to file for the persistent session store&quot;</span>, <span class="stringliteral">&quot;[path]&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">  368</span>    utils::Config::addStringOption(<span class="stringliteral">&quot;--html-dir&quot;</span>, <span class="stringliteral">&quot;Path to html source directory&quot;</span>, <span class="stringliteral">&quot;[path]&quot;</span>, <span class="stringliteral">&quot;/var/www/mqttsuite/mqttbroker&quot;</span>);</div>
-<div class="line"><span class="lineno">  369</span> </div>
-<div class="line"><span class="lineno">  370</span>    core::SNodeC::init(argc, argv);</div>
-<div class="line"><span class="lineno">  371</span> </div>
-<div class="line"><span class="lineno">  372</span>    setenv(<span class="stringliteral">&quot;MQTT_SESSION_STORE&quot;</span>, utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-session-store&quot;</span>).data(), 0);</div>
-<div class="line"><span class="lineno">  373</span> </div>
-<div class="line"><span class="lineno">  374</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in::stream::legacy::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in-mqtt&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  375</span>        config.setPort(1883);</div>
-<div class="line"><span class="lineno">  376</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  377</span>    });</div>
-<div class="line"><span class="lineno">  378</span> </div>
-<div class="line"><span class="lineno">  379</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in::stream::tls::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in-mqtts&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  380</span>        config.setPort(8883);</div>
-<div class="line"><span class="lineno">  381</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  382</span>    });</div>
-<div class="line"><span class="lineno">  383</span> </div>
-<div class="line"><span class="lineno">  384</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in6::stream::legacy::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in6-mqtt&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  385</span>        config.setPort(1883);</div>
-<div class="line"><span class="lineno">  386</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  387</span> </div>
-<div class="line"><span class="lineno">  388</span>        config.setIPv6Only();</div>
-<div class="line"><span class="lineno">  389</span>    });</div>
-<div class="line"><span class="lineno">  390</span> </div>
-<div class="line"><span class="lineno">  391</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in6::stream::tls::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in6-mqtts&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  392</span>        config.setPort(8883);</div>
-<div class="line"><span class="lineno">  393</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  394</span> </div>
-<div class="line"><span class="lineno">  395</span>        config.setIPv6Only();</div>
-<div class="line"><span class="lineno">  396</span>    });</div>
-<div class="line"><span class="lineno">  397</span> </div>
-<div class="line"><span class="lineno">  398</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::un::stream::legacy::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;un-mqtt&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  399</span>        config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
-<div class="line"><span class="lineno">  400</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  401</span>    });</div>
-<div class="line"><span class="lineno">  402</span> </div>
-<div class="line"><span class="lineno">  403</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::un::stream::tls::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;un-mqtts&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  404</span>        config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
-<div class="line"><span class="lineno">  405</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  406</span>    });</div>
-<div class="line"><span class="lineno">  407</span> </div>
-<div class="line"><span class="lineno">  408</span>    <a class="code hl_class" href="classinja_1_1Environment.html">inja::Environment</a> environment{utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--html-dir&quot;</span>) + <span class="stringliteral">&quot;/&quot;</span>};</div>
-<div class="line"><span class="lineno">  409</span> </div>
-<div class="line"><span class="lineno">  410</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::legacy::in::WebApp&gt;</a>(<span class="stringliteral">&quot;in-http&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  411</span>        config.setPort(8080);</div>
-<div class="line"><span class="lineno">  412</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  413</span>    });</div>
-<div class="line"><span class="lineno">  414</span> </div>
-<div class="line"><span class="lineno">  415</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::tls::in::WebApp&gt;</a>(<span class="stringliteral">&quot;in-https&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  416</span>        config.setPort(8088);</div>
-<div class="line"><span class="lineno">  417</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  418</span>    });</div>
-<div class="line"><span class="lineno">  419</span> </div>
-<div class="line"><span class="lineno">  420</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::legacy::in6::WebApp&gt;</a>(<span class="stringliteral">&quot;in6-http&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  421</span>        config.setPort(8080);</div>
-<div class="line"><span class="lineno">  422</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  423</span> </div>
-<div class="line"><span class="lineno">  424</span>        config.setIPv6Only();</div>
-<div class="line"><span class="lineno">  425</span>    });</div>
-<div class="line"><span class="lineno">  426</span> </div>
-<div class="line"><span class="lineno">  427</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::tls::in6::WebApp&gt;</a>(<span class="stringliteral">&quot;in6-https&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
-<div class="line"><span class="lineno">  428</span>        config.setPort(8088);</div>
-<div class="line"><span class="lineno">  429</span>        config.setRetry();</div>
-<div class="line"><span class="lineno">  430</span> </div>
-<div class="line"><span class="lineno">  431</span>        config.setIPv6Only();</div>
-<div class="line"><span class="lineno">  432</span>    });</div>
-<div class="line"><span class="lineno">  433</span> </div>
-<div class="line"><span class="lineno">  434</span>    <span class="keywordflow">return</span> core::SNodeC::start();</div>
-<div class="line"><span class="lineno">  435</span>}</div>
+<div class="line"><span class="lineno">  368</span>    utils::Config::addStringOption(</div>
+<div class="line"><span class="lineno">  369</span>        <span class="stringliteral">&quot;--html-dir&quot;</span>, <span class="stringliteral">&quot;Path to html source directory&quot;</span>, <span class="stringliteral">&quot;[path]&quot;</span>, std::string(CMAKE_INSTALL_PREFIX) + <span class="stringliteral">&quot;/var/www/mqttsuite/mqttbroker&quot;</span>);</div>
+<div class="line"><span class="lineno">  370</span> </div>
+<div class="line"><span class="lineno">  371</span>    core::SNodeC::init(argc, argv);</div>
+<div class="line"><span class="lineno">  372</span> </div>
+<div class="line"><span class="lineno">  373</span>    setenv(<span class="stringliteral">&quot;MQTT_SESSION_STORE&quot;</span>, utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-session-store&quot;</span>).data(), 0);</div>
+<div class="line"><span class="lineno">  374</span> </div>
+<div class="line"><span class="lineno">  375</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in::stream::legacy::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in-mqtt&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  376</span>        config.setPort(1883);</div>
+<div class="line"><span class="lineno">  377</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  378</span>    });</div>
+<div class="line"><span class="lineno">  379</span> </div>
+<div class="line"><span class="lineno">  380</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in::stream::tls::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in-mqtts&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  381</span>        config.setPort(8883);</div>
+<div class="line"><span class="lineno">  382</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  383</span>    });</div>
+<div class="line"><span class="lineno">  384</span> </div>
+<div class="line"><span class="lineno">  385</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in6::stream::legacy::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in6-mqtt&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  386</span>        config.setPort(1883);</div>
+<div class="line"><span class="lineno">  387</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  388</span> </div>
+<div class="line"><span class="lineno">  389</span>        config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  390</span>    });</div>
+<div class="line"><span class="lineno">  391</span> </div>
+<div class="line"><span class="lineno">  392</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::in6::stream::tls::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;in6-mqtts&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  393</span>        config.setPort(8883);</div>
+<div class="line"><span class="lineno">  394</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  395</span> </div>
+<div class="line"><span class="lineno">  396</span>        config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  397</span>    });</div>
+<div class="line"><span class="lineno">  398</span> </div>
+<div class="line"><span class="lineno">  399</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::un::stream::legacy::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;un-mqtt&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  400</span>        config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
+<div class="line"><span class="lineno">  401</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  402</span>    });</div>
+<div class="line"><span class="lineno">  403</span> </div>
+<div class="line"><span class="lineno">  404</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;net::un::stream::tls::SocketServer, mqtt::mqttbroker::SharedSocketContextFactory&gt;</a>(<span class="stringliteral">&quot;un-mqtts&quot;</span>, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  405</span>        config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
+<div class="line"><span class="lineno">  406</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  407</span>    });</div>
+<div class="line"><span class="lineno">  408</span> </div>
+<div class="line"><span class="lineno">  409</span>    <a class="code hl_class" href="classinja_1_1Environment.html">inja::Environment</a> environment{utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--html-dir&quot;</span>) + <span class="stringliteral">&quot;/&quot;</span>};</div>
+<div class="line"><span class="lineno">  410</span> </div>
+<div class="line"><span class="lineno">  411</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::legacy::in::WebApp&gt;</a>(<span class="stringliteral">&quot;in-http&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  412</span>        config.setPort(8080);</div>
+<div class="line"><span class="lineno">  413</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  414</span>    });</div>
+<div class="line"><span class="lineno">  415</span> </div>
+<div class="line"><span class="lineno">  416</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::tls::in::WebApp&gt;</a>(<span class="stringliteral">&quot;in-https&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  417</span>        config.setPort(8088);</div>
+<div class="line"><span class="lineno">  418</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  419</span>    });</div>
+<div class="line"><span class="lineno">  420</span> </div>
+<div class="line"><span class="lineno">  421</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::legacy::in6::WebApp&gt;</a>(<span class="stringliteral">&quot;in6-http&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  422</span>        config.setPort(8080);</div>
+<div class="line"><span class="lineno">  423</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  424</span> </div>
+<div class="line"><span class="lineno">  425</span>        config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  426</span>    });</div>
+<div class="line"><span class="lineno">  427</span> </div>
+<div class="line"><span class="lineno">  428</span>    <a class="code hl_function" href="#a56089521f567aa4fa0b6788a1edb489e">startServer&lt;express::tls::in6::WebApp&gt;</a>(<span class="stringliteral">&quot;in6-https&quot;</span>, environment, [](<span class="keyword">auto</span>&amp; config) {</div>
+<div class="line"><span class="lineno">  429</span>        config.setPort(8088);</div>
+<div class="line"><span class="lineno">  430</span>        config.setRetry();</div>
+<div class="line"><span class="lineno">  431</span> </div>
+<div class="line"><span class="lineno">  432</span>        config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  433</span>    });</div>
+<div class="line"><span class="lineno">  434</span> </div>
+<div class="line"><span class="lineno">  435</span>    <span class="keywordflow">return</span> core::SNodeC::start();</div>
+<div class="line"><span class="lineno">  436</span>}</div>
 <div class="ttc" id="aclassinja_1_1Environment_html"><div class="ttname"><a href="classinja_1_1Environment.html">inja::Environment</a></div><div class="ttdoc">Class for changing the configuration.</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02851">inja.hpp:2851</a></div></div>
 <div class="ttc" id="amqttbroker_8cpp_html_a56089521f567aa4fa0b6788a1edb489e"><div class="ttname"><a href="#a56089521f567aa4fa0b6788a1edb489e">startServer</a></div><div class="ttdeci">void startServer(const std::string &amp;instanceName, const std::function&lt; void(typename Server::Config &amp;)&gt; &amp;configurator, SocketContextFactoryArgs &amp;&amp;... socketContextFactoryArgs)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00321">mqttbroker.cpp:321</a></div></div>
 </div><!-- fragment -->
@@ -850,7 +851,7 @@ template&lt;template&lt; typename, typename... &gt; typename SocketServer, typen
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6923aae39fdce29699351e77c1fed0e3.html">mqttbroker</a></li><li class="navelem"><a class="el" href="mqttbroker_8cpp.html">mqttbroker.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 26 2025 00:04:15 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Sun Mar 9 2025 01:30:49 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 </body>
