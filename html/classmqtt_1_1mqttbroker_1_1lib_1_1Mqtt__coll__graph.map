@@ -1,55 +1,58 @@
 <map id="mqtt::mqttbroker::lib::Mqtt" name="mqtt::mqttbroker::lib::Mqtt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="527,1319,674,1359"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="471,1244,626,1269"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="566,1279,591,1317,586,1320,561,1282"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html" title=" " alt="" coords="650,1244,805,1269"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="699,1279,632,1321,629,1316,696,1274"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="591,1156,719,1181"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="658,1181,660,1200,668,1218,684,1233,680,1237,664,1222,655,1201,653,1182"/>
-<area shape="rect" id="Node000005" href="$classinja_1_1Environment.html" title="Class for changing the configuration." alt="" coords="743,1156,871,1181"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="802,1183,771,1222,756,1235,753,1232,767,1218,797,1180"/>
-<area shape="rect" id="Node000006" href="$structinja_1_1LexerConfig.html" title="Class for lexer configuration." alt="" coords="673,652,795,677"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="741,677,753,718,759,771,759,1074,762,1093,768,1111,788,1142,784,1145,764,1113,757,1094,754,1075,754,772,747,719,736,678"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="475,309,553,335"/>
-<area shape="poly" id="edge30_Node000005_Node000007" title=" " alt="" coords="538,333,553,343,566,357,604,422,624,478,632,538,633,614,633,1074,636,1084,644,1094,674,1114,714,1133,755,1148,753,1153,712,1138,671,1119,640,1098,631,1087,627,1075,627,614,626,538,619,479,599,424,561,360,549,347,535,337"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="553,321,603,330,629,341,651,357,677,389,697,425,713,463,724,503,735,578,738,636,732,636,730,578,718,504,708,465,693,427,673,392,647,361,626,345,602,335,552,326"/>
-<area shape="rect" id="Node000014" title=" " alt="" coords="409,1053,561,1093"/>
-<area shape="poly" id="edge14_Node000014_Node000007" title=" " alt="" coords="520,334,548,447,562,529,567,614,567,957,566,980,560,997,538,1031,526,1044,522,1041,533,1028,555,995,560,979,562,957,562,614,556,530,543,448,515,335"/>
-<area shape="rect" id="Node000015" href="$structinja_1_1Template.html" title="The main inja Template." alt="" coords="346,943,450,969"/>
-<area shape="poly" id="edge21_Node000015_Node000007" title=" " alt="" coords="516,335,487,625,465,798,455,861,446,898,423,933,419,930,441,896,450,860,460,797,481,625,510,335"/>
-<area shape="rect" id="Node000020" title=" " alt="" coords="235,804,425,859"/>
-<area shape="poly" id="edge23_Node000020_Node000007" title=" " alt="" coords="479,337,462,347,448,360,416,570,383,781,376,793,371,790,378,779,410,569,444,357,459,343,476,333"/>
-<area shape="rect" id="Node000022" href="$classinja_1_1BlockStatementNode.html" title=" " alt="" coords="181,603,362,628"/>
-<area shape="poly" id="edge28_Node000022_Node000007" title=" " alt="" coords="475,328,391,338,353,348,329,361,309,386,299,410,296,435,297,460,302,515,301,546,293,579,289,589,284,587,288,578,295,545,297,515,292,460,291,435,294,409,305,383,326,357,351,343,390,333,475,323"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="450,207,578,247"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="517,261,517,309,511,309,511,261"/>
-<area shape="rect" id="Node000009" href="$structinja_1_1ParserConfig.html" title="Class for parser configuration." alt="" coords="794,1061,922,1086"/>
-<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="854,1087,824,1143,819,1140,850,1085"/>
-<area shape="rect" id="Node000010" href="$structinja_1_1RenderConfig.html" title="Class for render configuration." alt="" coords="946,1061,1079,1086"/>
-<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="1002,1089,974,1112,938,1134,884,1154,882,1149,936,1130,971,1107,999,1084"/>
-<area shape="rect" id="Node000011" href="$classinja_1_1FunctionStorage.html" title="Class for builtin functions and user&#45;defined callbacks." alt="" coords="1103,1061,1253,1086"/>
-<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="1161,1089,1119,1112,1066,1135,974,1155,888,1166,887,1161,973,1150,1064,1129,1116,1108,1159,1084"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="1099,921,1257,991"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1181,991,1181,1044,1175,1044,1175,991"/>
-<area shape="rect" id="Node000013" href="$structinja_1_1FunctionStorage_1_1FunctionData.html" title=" " alt="" coords="1103,811,1253,851"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1181,852,1181,905,1175,905,1175,852"/>
-<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="482,1094,481,1113,488,1130,500,1136,523,1140,590,1147,727,1154,727,1159,590,1152,522,1145,498,1141,484,1134,476,1114,477,1093"/>
-<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="409,967,463,1038,458,1042,405,970"/>
-<area shape="rect" id="Node000016" href="$classinja_1_1BlockNode.html" title=" " alt="" coords="66,309,181,335"/>
-<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="126,335,126,614,126,832,131,862,146,887,169,906,197,922,229,933,264,942,330,950,329,956,263,947,228,938,195,927,166,911,142,890,126,864,121,833,121,614,121,335"/>
-<area shape="poly" id="edge29_Node000022_Node000016" title=" " alt="" coords="133,334,145,358,155,391,160,421,163,474,165,499,171,524,182,549,201,577,221,593,217,597,197,580,178,552,166,525,160,500,158,475,155,422,150,393,140,360,128,336"/>
-<area shape="rect" id="Node000017" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="65,5,163,31"/>
-<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="82,40,53,63,30,95,14,136,8,170,13,205,30,245,43,266,61,283,99,307,97,312,58,287,39,269,25,248,8,206,3,170,9,134,25,92,49,60,79,36"/>
-<area shape="rect" id="Node000019" title=" " alt="" coords="39,93,189,133"/>
-<area shape="poly" id="edge20_Node000019_Node000017" title=" " alt="" coords="117,31,117,77,111,77,111,31"/>
-<area shape="rect" id="Node000023" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="198,157,345,183"/>
-<area shape="poly" id="edge27_Node000023_Node000017" title=" " alt="" coords="141,38,203,91,263,155,259,159,199,95,137,42"/>
-<area shape="rect" id="Node000018" title=" " alt="" coords="39,207,207,247"/>
-<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="126,247,126,293,121,293,121,247"/>
-<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="113,134,110,157,111,182,113,191,108,192,106,183,105,157,107,134"/>
-<area shape="poly" id="edge22_Node000015_Node000020" title=" " alt="" coords="331,859,333,878,339,896,352,915,369,931,365,935,348,919,334,899,328,879,326,859"/>
-<area shape="rect" id="Node000021" title=" " alt="" coords="189,701,362,741"/>
-<area shape="poly" id="edge24_Node000020_Node000021" title=" " alt="" coords="287,740,306,779,311,788,306,790,301,781,282,743"/>
-<area shape="poly" id="edge25_Node000021_Node000022" title=" " alt="" coords="275,628,277,685,271,685,269,628"/>
-<area shape="poly" id="edge26_Node000022_Node000023" title=" " alt="" coords="274,196,274,602,269,602,269,196"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="116,1329,263,1369"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="60,1255,215,1280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,1290,179,1328,175,1331,150,1293"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html" title=" " alt="" coords="239,1255,393,1280"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="288,1290,221,1332,218,1327,285,1285"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="180,1167,308,1192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,1192,249,1210,257,1229,273,1244,269,1248,252,1232,244,1212,241,1192"/>
+<area shape="rect" id="Node000005" href="$classinja_1_1Environment.html" title="Class for changing the configuration." alt="" coords="332,1167,460,1192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="390,1194,359,1232,345,1246,341,1242,355,1229,386,1191"/>
+<area shape="rect" id="Node000006" href="$structinja_1_1LexerConfig.html" title="Class for lexer configuration." alt="" coords="5,667,128,692"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="72,692,80,745,85,815,85,1085,88,1103,96,1115,107,1123,123,1127,162,1132,206,1140,316,1163,315,1168,205,1145,162,1137,122,1132,105,1128,92,1119,83,1105,80,1086,80,815,75,746,66,693"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="684,309,761,335"/>
+<area shape="poly" id="edge32_Node000005_Node000007" title=" " alt="" coords="684,328,559,338,497,348,454,361,361,411,322,435,289,461,263,491,243,526,231,569,227,621,227,1085,229,1095,237,1104,266,1124,305,1143,345,1159,343,1164,303,1148,264,1129,234,1108,225,1097,221,1086,221,621,226,568,238,524,258,488,286,457,319,431,359,406,452,356,496,343,558,333,683,322"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="684,327,323,336,139,346,79,353,52,361,30,393,18,431,14,471,16,512,24,553,34,591,57,650,52,652,29,592,19,554,11,513,8,471,12,429,25,391,49,357,78,348,139,341,323,331,684,321"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="363,603,512,643"/>
+<area shape="poly" id="edge13_Node000013_Node000007" title=" " alt="" coords="685,335,656,345,628,361,598,386,570,415,521,478,482,539,455,589,451,587,478,536,517,475,566,412,595,383,625,356,653,340,683,330"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="647,1064,799,1104"/>
+<area shape="poly" id="edge16_Node000015_Node000007" title=" " alt="" coords="725,335,725,621,725,990,725,1047,720,1047,720,990,720,621,720,335"/>
+<area shape="rect" id="Node000016" href="$structinja_1_1Template.html" title="The main inja Template." alt="" coords="803,976,907,1001"/>
+<area shape="poly" id="edge23_Node000016_Node000007" title=" " alt="" coords="733,334,744,358,762,421,773,475,783,570,788,665,794,720,805,785,828,881,849,959,844,961,823,883,800,786,789,721,783,665,777,570,768,476,757,422,739,360,728,336"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="935,848,1124,903"/>
+<area shape="poly" id="edge25_Node000021_Node000007" title=" " alt="" coords="763,332,785,342,805,357,833,394,863,446,924,580,979,721,1018,831,1013,833,974,723,919,582,858,449,829,397,801,361,782,346,760,336"/>
+<area shape="rect" id="Node000023" href="$classinja_1_1BlockStatementNode.html" title=" " alt="" coords="1011,610,1192,635"/>
+<area shape="poly" id="edge30_Node000023_Node000007" title=" " alt="" coords="762,323,896,336,957,345,990,357,1009,384,1016,411,1014,438,1008,466,1001,493,998,520,1001,548,1016,577,1028,590,1044,601,1041,605,1025,595,1011,580,996,550,992,520,996,492,1003,464,1009,438,1010,412,1004,386,986,361,955,350,895,341,761,329"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="659,207,787,247"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="725,261,725,309,720,309,720,261"/>
+<area shape="rect" id="Node000009" href="$structinja_1_1ParserConfig.html" title="Class for parser configuration." alt="" coords="261,1071,389,1097"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="328,1097,331,1119,341,1141,356,1156,352,1160,336,1144,326,1120,323,1097"/>
+<area shape="rect" id="Node000010" href="$structinja_1_1RenderConfig.html" title="Class for render configuration." alt="" coords="413,1071,547,1097"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="474,1098,438,1144,425,1158,421,1154,434,1141,470,1095"/>
+<area shape="rect" id="Node000011" href="$classinja_1_1FunctionStorage.html" title="Class for builtin functions and user&#45;defined callbacks." alt="" coords="504,927,653,952"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="581,953,577,1052,569,1108,562,1129,552,1145,522,1160,477,1170,476,1165,520,1155,549,1141,557,1127,564,1106,572,1052,576,952"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="495,716,652,785"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="577,785,577,824,580,910,575,910,572,824,571,785"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="460,641,527,703,523,707,456,645"/>
+<area shape="rect" id="Node000014" href="$structinja_1_1FunctionStorage_1_1FunctionData.html" title=" " alt="" coords="536,603,685,643"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="608,644,590,701,585,700,602,642"/>
+<area shape="poly" id="edge15_Node000005_Node000015" title=" " alt="" coords="691,1107,650,1127,603,1145,539,1162,477,1172,476,1167,538,1156,602,1140,648,1122,688,1102"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="840,1004,764,1057,761,1052,837,999"/>
+<area shape="rect" id="Node000017" href="$classinja_1_1BlockNode.html" title=" " alt="" coords="885,309,1000,335"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="942,336,917,452,905,535,900,621,900,877,898,900,891,923,873,962,869,960,886,921,892,899,895,877,895,621,900,534,912,451,937,335"/>
+<area shape="poly" id="edge31_Node000023_Node000017" title=" " alt="" coords="1001,322,1040,333,1059,343,1074,357,1084,375,1092,401,1101,466,1105,593,1099,593,1096,466,1087,402,1079,377,1070,360,1056,347,1038,338,1000,328"/>
+<area shape="rect" id="Node000018" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="968,5,1067,31"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="986,40,956,63,933,95,923,123,918,154,919,216,929,271,941,308,936,310,924,272,914,217,912,154,918,122,928,92,953,60,983,36"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="943,93,1092,133"/>
+<area shape="poly" id="edge22_Node000020_Node000018" title=" " alt="" coords="1020,31,1020,77,1015,77,1015,31"/>
+<area shape="rect" id="Node000024" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="1101,157,1248,183"/>
+<area shape="poly" id="edge29_Node000024_Node000018" title=" " alt="" coords="1044,38,1106,91,1166,155,1163,159,1102,95,1041,42"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="939,207,1107,247"/>
+<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="1008,248,965,298,961,295,1004,245"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="1016,134,1015,183,1016,190,1011,191,1009,183,1011,134"/>
+<area shape="poly" id="edge24_Node000016_Node000021" title=" " alt="" coords="993,905,917,954,891,970,888,966,915,950,990,901"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1013,731,1187,771"/>
+<area shape="poly" id="edge26_Node000021_Node000022" title=" " alt="" coords="1091,772,1055,835,1050,833,1087,770"/>
+<area shape="poly" id="edge27_Node000022_Node000023" title=" " alt="" coords="1104,636,1103,714,1098,714,1099,636"/>
+<area shape="poly" id="edge28_Node000023_Node000024" title=" " alt="" coords="1183,196,1194,265,1201,364,1200,418,1193,474,1179,528,1158,580,1144,599,1126,612,1122,608,1140,595,1154,577,1174,527,1187,473,1194,418,1196,364,1189,266,1178,197"/>
 </map>

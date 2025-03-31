@@ -1,5 +1,4 @@
 <map id="mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::MqttModelEntry" name="mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::MqttModelEntry">
-<area shape="rect" id="Node000001" title=" " alt="" coords="224,5,436,60"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a25c771d5e71dea6657633466a4845174" title=" " alt="" coords="5,13,176,53"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,35,176,35,176,30,210,30"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,217,84"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="146,18,134,11,111,8,93,10,81,15,75,21,75,29,70,29,70,19,78,10,91,5,111,3,135,6,149,14"/>
 </map>

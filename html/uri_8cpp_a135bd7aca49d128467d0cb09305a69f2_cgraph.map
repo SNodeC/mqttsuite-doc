@@ -1,9 +1,0 @@
-<map id="EXPECT_EQ" name="EXPECT_EQ">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,103,60"/>
-<area shape="rect" id="Node000002" href="$uri_8cpp.html#ac73a0721d9400b0ab972fbe070316586" title=" " alt="" coords="175,5,273,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,36,161,26,162,31,103,42"/>
-<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f" title=" " alt="" coords="151,55,297,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,53,138,58,137,64,102,58"/>
-<area shape="rect" id="Node000004" href="$classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de" title=" " alt="" coords="345,55,492,95"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="297,73,331,73,331,78,297,78"/>
-</map>

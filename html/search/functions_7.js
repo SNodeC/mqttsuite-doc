@@ -20,7 +20,7 @@ var searchData=
   ['getinstancename_17',['getInstanceName',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a5524fd860edafd4abd60d6a26dc2f316',1,'mqtt::bridge::lib::Broker']]],
   ['getkeepalive_18',['getKeepAlive',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a537a5d925a917be20f784ac106bc7d2e',1,'mqtt::bridge::lib::Broker']]],
   ['getloopprevention_19',['getLoopPrevention',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a12c314cbad6137819c767bc6ead98d3e',1,'mqtt::bridge::lib::Broker']]],
-  ['getmqtt_20',['getmqtt',['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html#acb76370fc32ae314bd522c270327c6b1',1,'mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::getMqtt()'],['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf',1,'mqtt::mqttbroker::lib::MqttModel::getMqtt()']]],
+  ['getmqtt_20',['getMqtt',['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html#acb76370fc32ae314bd522c270327c6b1',1,'mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::getMqtt()'],['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf',1,'mqtt::mqttbroker::lib::MqttModel::getMqtt()']]],
   ['getmqttlist_21',['getMqttList',['../classmqtt_1_1bridge_1_1lib_1_1Bridge.html#ab34f9a5534188e5e946bc0a8dc57fd1e',1,'mqtt::bridge::lib::Bridge']]],
   ['getname_22',['getName',['../classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a0e0d9cc3ced601acae6ace51438070b7',1,'mqtt::bridge::lib::Bridge']]],
   ['getoverviewpage_23',['getOverviewPage',['../mqttbroker_8cpp.html#a8efa425515f60a2e93fb017517771a3e',1,'mqttbroker.cpp']]],

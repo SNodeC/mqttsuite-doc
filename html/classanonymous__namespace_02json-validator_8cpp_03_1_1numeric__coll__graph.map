@@ -1,8 +1,8 @@
 <map id="anonymous_namespace{json&#45;validator.cpp}::numeric&lt; T &gt;" name="anonymous_namespace{json&#45;validator.cpp}::numeric&lt; T &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="455,741,625,796"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="588,769,759,824"/>
 <area shape="rect" id="Node000002" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html" title=" " alt="" coords="455,637,625,692"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="534,706,535,741,529,741,529,706"/>
-<area shape="poly" id="edge16_Node000001_Node000002" title=" " alt="" coords="551,706,551,741,545,741,546,706"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="571,700,641,767,637,771,567,704"/>
+<area shape="poly" id="edge16_Node000001_Node000002" title=" " alt="" coords="587,700,656,767,652,771,583,703"/>
 <area shape="rect" id="Node000003" href="$classnlohmann_1_1json__schema_1_1root__schema.html" title=" " alt="" coords="285,535,456,575"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,572,486,626,484,631,399,577"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,102,195,127"/>
@@ -25,6 +25,10 @@
 <area shape="rect" id="Node000011" title=" " alt="" coords="371,95,547,135"/>
 <area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="460,135,457,181,452,181,455,135"/>
 <area shape="rect" id="Node000012" title=" " alt="" coords="628,212,668,237"/>
-<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="662,236,693,275,707,303,712,333,712,556,706,584,691,607,668,625,642,639,640,634,665,620,687,603,701,582,707,556,707,334,702,304,688,277,658,239"/>
+<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="662,236,693,275,707,303,712,333,712,557,703,576,682,596,618,632,616,628,678,592,699,573,707,555,707,334,702,304,688,277,658,239"/>
 <area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="629,237,548,278,500,308,497,303,545,274,627,233"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="649,652,788,677"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="717,678,690,755,685,753,712,677"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="812,645,956,685"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="867,687,834,717,792,748,760,765,757,760,789,743,830,713,864,683"/>
 </map>
