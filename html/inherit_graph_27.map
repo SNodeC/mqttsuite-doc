@@ -1,3 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classnlohmann_1_1json__patch.html" title=" " alt="" coords="5,5,171,31"/>
+<area shape="rect" id="Node000000" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="5,91,185,131"/>
+<area shape="rect" id="Node000001" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html" title=" " alt="" coords="234,5,414,60"/>
+<area shape="poly" id="edge42_Node000000_Node000001" title=" " alt="" coords="166,84,243,58,245,63,168,89"/>
+<area shape="rect" id="Node000002" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1throwing__error__handler.html" title=" " alt="" coords="233,84,415,139"/>
+<area shape="poly" id="edge43_Node000000_Node000002" title=" " alt="" coords="199,109,233,109,233,114,199,114"/>
+<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__schema_1_1basic__error__handler.html" title=" " alt="" coords="234,163,414,203"/>
+<area shape="poly" id="edge44_Node000000_Node000003" title=" " alt="" coords="173,133,260,161,259,166,172,138"/>
+<area shape="rect" id="Node000004" href="$classcustom__error__handler.html" title=" " alt="" coords="463,121,627,147"/>
+<area shape="poly" id="edge45_Node000003_Node000004" title=" " alt="" coords="427,158,487,144,488,149,428,163"/>
+<area shape="rect" id="Node000005" href="$classstore__err__handler.html" title=" " alt="" coords="477,171,613,196"/>
+<area shape="poly" id="edge46_Node000003_Node000005" title=" " alt="" coords="428,181,476,181,476,186,428,186"/>
+<area shape="rect" id="Node000006" href="$classstore__ptr__err__handler.html" title=" " alt="" coords="464,220,625,245"/>
+<area shape="poly" id="edge47_Node000003_Node000006" title=" " alt="" coords="428,204,488,217,487,223,427,209"/>
 </map>

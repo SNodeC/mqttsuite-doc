@@ -1,8 +1,0 @@
-<map id="inja::ExtendsStatementNode::ExtendsStatementNode" name="inja::ExtendsStatementNode::ExtendsStatementNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,213,69"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="66,30,64,20,71,10,86,5,109,3,136,6,151,13,148,18,135,11,109,8,87,10,74,15,69,21,72,28"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html#a0bba1af707ebbe637bcfe3e1684f63d6" title=" " alt="" coords="261,29,417,69"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="214,47,248,47,248,52,214,52"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec" title=" " alt="" coords="465,37,637,62"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="417,47,452,47,452,52,417,52"/>
-</map>

@@ -1,0 +1,15 @@
+<map id="nlohmann::json_schema::json_validator::validate" name="nlohmann::json_schema::json_validator::validate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="535,47,717,87"/>
+<area shape="rect" id="Node000002" href="$format_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="377,5,431,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="522,47,431,26,432,21,523,42"/>
+<area shape="rect" id="Node000003" href="$issue-189-default-values_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="377,55,431,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="521,70,432,70,432,65,521,65"/>
+<area shape="rect" id="Node000004" href="$classnlohmann_1_1json__patch.html#ac7aea9496e07beb821fb9e5423fb76f5" title=" " alt="" coords="321,105,487,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="535,93,483,107,481,102,534,88"/>
+<area shape="rect" id="Node000005" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="108,73,273,113"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="307,113,273,108,274,102,308,108"/>
+<area shape="rect" id="Node000006" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="108,137,273,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="308,142,274,147,273,142,307,136"/>
+<area shape="rect" id="Node000007" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,144,60,169"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,159,60,159,60,154,94,154"/>
+</map>

@@ -115,11 +115,9 @@ var hierarchy =
       [ "anonymous_namespace{json-validator.cpp}::type_schema", "classanonymous__namespace_02json-validator_8cpp_03_1_1type__schema.html", null ]
     ] ],
     [ "nlohmann::json_schema::root_schema::schema_file", "structnlohmann_1_1json__schema_1_1root__schema_1_1schema__file.html", null ],
-    [ "iot::mqtt::server::SharedSocketContextFactory", null, [
-      [ "mqtt::mqttbroker::SharedSocketContextFactory", "classmqtt_1_1mqttbroker_1_1SharedSocketContextFactory.html", null ]
-    ] ],
     [ "core::socket::stream::SocketContextFactory", null, [
       [ "mqtt::bridge::SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", null ],
+      [ "mqtt::mqttbroker::SocketContextFactory", "classmqtt_1_1mqttbroker_1_1SocketContextFactory.html", null ],
       [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ]
     ] ],
     [ "inja::SourceLocation", "structinja_1_1SourceLocation.html", null ],

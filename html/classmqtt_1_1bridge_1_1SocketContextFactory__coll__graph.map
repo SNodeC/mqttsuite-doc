@@ -1,18 +1,18 @@
 <map id="mqtt::bridge::SocketContextFactory" name="mqtt::bridge::SocketContextFactory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="41,495,236,535"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,392,168,432"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,443,131,493,127,496,100,445"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html" title=" " alt="" coords="192,392,317,432"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,434,175,486,171,482,231,430"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html" title=" " alt="" coords="192,243,317,283"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,284,257,375,252,375,252,284"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="59,102,136,127"/>
-<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="94,129,80,165,67,217,64,246,65,275,70,302,82,328,97,342,121,357,184,384,182,389,119,361,94,346,78,331,65,304,59,275,59,246,62,216,75,164,89,127"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="111,126,224,230,220,234,108,129"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="33,5,161,45"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="100,59,100,102,95,102,95,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,539,236,579"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,436,168,476"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,487,131,537,127,540,100,489"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html" title=" " alt="" coords="192,436,317,476"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,478,175,530,171,526,231,474"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html" title=" " alt="" coords="192,265,317,305"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,306,257,419,252,419,252,306"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="53,102,131,127"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="89,128,71,172,54,235,49,270,50,306,57,340,71,372,87,386,113,401,179,428,177,433,110,406,84,391,67,375,52,342,45,307,44,270,49,234,66,170,84,126"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="106,126,175,195,228,252,224,255,171,199,102,129"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="28,5,156,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="95,59,95,102,89,102,89,59"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="189,95,320,135"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="257,135,257,227,252,227,252,135"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="341,243,472,283"/>
-<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="393,285,357,325,312,370,296,384,293,380,309,366,353,322,389,282"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="257,135,257,249,252,249,252,135"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="341,265,472,305"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="397,307,361,357,313,414,297,427,294,424,309,410,357,354,392,304"/>
 </map>

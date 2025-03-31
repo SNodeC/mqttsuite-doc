@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['arguments_0',['Arguments',['../classinja_1_1Parser.html#a545a8c05b9b7efb3a20c791f258da173',1,'inja::Parser::Arguments'],['../namespaceinja.html#a012d663296619810e0a7a2d1f0986357',1,'inja::Arguments']]]
+  ['arguments_0',['arguments',['../classinja_1_1Parser.html#a5f4d05f1f2799888e032a1d01b99796a',1,'inja::Parser::Arguments'],['../namespaceinja.html#ab8025ad9e2056e6686294270ce15e669',1,'inja::Arguments']]]
 ];

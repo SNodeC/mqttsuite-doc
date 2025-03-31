@@ -92,7 +92,7 @@ var annotated_dup =
         [ "websocket", "namespacemqtt_1_1mqttbroker_1_1websocket.html", [
           [ "SubProtocolFactory", "classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory" ]
         ] ],
-        [ "SharedSocketContextFactory", "classmqtt_1_1mqttbroker_1_1SharedSocketContextFactory.html", "classmqtt_1_1mqttbroker_1_1SharedSocketContextFactory" ]
+        [ "SocketContextFactory", "classmqtt_1_1mqttbroker_1_1SocketContextFactory.html", "classmqtt_1_1mqttbroker_1_1SocketContextFactory" ]
       ] ],
       [ "mqttintegrator", "namespacemqtt_1_1mqttintegrator.html", [
         [ "lib", "namespacemqtt_1_1mqttintegrator_1_1lib.html", [

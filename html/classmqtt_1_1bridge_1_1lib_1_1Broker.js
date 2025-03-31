@@ -1,6 +1,6 @@
 var classmqtt_1_1bridge_1_1lib_1_1Broker =
 [
-    [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a3c683cffe7b00c79b05e1b4714cdd0c7", null ],
+    [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a6b26f7a60c87345de5df6473786704ab", null ],
     [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a168bdc6ee2ad853cc90235cd2e582a86", null ],
     [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aacf36003f5b23ef8ea75008fe750cd9b", null ],
     [ "getBridge", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#acff6cddc56c9cdc2b0688d6482034131", null ],
@@ -12,6 +12,7 @@ var classmqtt_1_1bridge_1_1lib_1_1Broker =
     [ "getLoopPrevention", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a12c314cbad6137819c767bc6ead98d3e", null ],
     [ "getPassword", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a8b0a98fcc637171cc995cee2a8bd5685", null ],
     [ "getProtocol", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a95796f4a7ef94d4ca6596fb436bb97ca", null ],
+    [ "getSessionStoreFileName", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a684990f7a76ea49f37375d6f6c6d1ba4", null ],
     [ "getTopics", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a42387cd6087e5d11c2bc441a64dfaffc", null ],
     [ "getTransport", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#ab06b48a9b2540604ca385935b79aa351", null ],
     [ "getUsername", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a750e20fe14960d3a5944ecb03bf7e269", null ],
@@ -28,6 +29,7 @@ var classmqtt_1_1bridge_1_1lib_1_1Broker =
     [ "loopPrevention", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a2e0ef30bbad5849b7f5795580f60f483", null ],
     [ "password", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#ab5f15bb1d2b8a3968a34e94de5896394", null ],
     [ "protocol", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaa8265adc8ead6315bb442b920e75ced", null ],
+    [ "sessionStoreFileName", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaf7fc6c7e4f71c1d4ffd18cb418a50c8", null ],
     [ "topics", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a4e0fa816851295ca09604ef6687edc1f", null ],
     [ "transport", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#ab0a68d43e69680a3218a9aacba1b484c", null ],
     [ "username", "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8", null ],

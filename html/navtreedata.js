@@ -25,7 +25,65 @@
 var NAVTREE =
 [
   [ "MQTTSuite", "index.html", [
-    [ "MQTTSuite: A lightweight MQTT Integration System", "index.html", "index" ],
+    [ "Table of Content", "index.html#table-of-content", null ],
+    [ "License", "index.html#license", null ],
+    [ "Copyright", "index.html#copyright", null ],
+    [ "Installation", "index.html#installation", [
+      [ "Supported Systems and Hardware", "index.html#supported-systems-and-hardware", null ],
+      [ "Minimum required Compiler Versions", "index.html#minimum-required-compiler-versions", null ],
+      [ "Requirements and Dependencies", "index.html#requirements-and-dependencies", [
+        [ "Tools", "index.html#tools", [
+          [ "Mandatory", "index.html#mandatory", null ],
+          [ "Optional", "index.html#optional", null ]
+        ] ],
+        [ "Frameworks", "index.html#frameworks", [
+          [ "Mandatory", "index.html#mandatory-1", null ]
+        ] ],
+        [ "Libraries", "index.html#libraries", [
+          [ "Mandatory", "index.html#mandatory-2", null ],
+          [ "Bundled", "index.html#bundled", null ]
+        ] ]
+      ] ],
+      [ "Installation on Debian Style Systems (x86-64, Arm)", "index.html#installation-on-debian-style-systems-x86-64-arm", [
+        [ "Requirements and Dependencies", "index.html#requirements-and-dependencies-1", null ],
+        [ "MQTTSuite", "index.html#mqttsuite", null ]
+      ] ],
+      [ "Deploment on OpenWRT", "index.html#deploment-on-openwrt", [
+        [ "Choose and Download a SDK", "index.html#choose-and-download-a-sdk", null ],
+        [ "Patch the SDK to Integrate the MQTTSuite Feed", "index.html#patch-the-sdk-to-integrate-the-mqttsuite-feed", null ],
+        [ "Install the MQTTSuite Package and its Dependencies", "index.html#install-the-mqttsuite-package-and-its-dependencies", null ],
+        [ "Configure the SDK", "index.html#configure-the-sdk", null ],
+        [ "Cross Compile MQTTSuite", "index.html#cross-compile-mqttsuite", null ],
+        [ "Deploy MQTTSuite", "index.html#deploy-mqttsuite", null ]
+      ] ]
+    ] ],
+    [ "MQTTSuite Usage Guide", "index.html#mqttsuite-usage-guide", [
+      [ "MQTTBroker", "index.html#mqttbroker", [
+        [ "Connection Options", "index.html#connection-options", [
+          [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip", null ],
+          [ "MQTT over Unix Domain Sockets", "index.html#mqtt-over-unix-domain-sockets", null ],
+          [ "MQTT over WebSockets", "index.html#mqtt-over-websockets", null ]
+        ] ],
+        [ "Web Interface", "index.html#web-interface", null ]
+      ] ],
+      [ "MQTTIntegrator", "index.html#mqttintegrator", [
+        [ "Connection Options", "index.html#connection-options-1", [
+          [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip-1", null ],
+          [ "MQTT over Unix Domain Sockets", "index.html#mqtt-over-unix-domain-sockets-1", null ],
+          [ "MQTT over WebSockets", "index.html#mqtt-over-websockets-1", null ]
+        ] ]
+      ] ],
+      [ "MQTT Mapping Description", "index.html#mqtt-mapping-description", [
+        [ "The Structure of the JSON Mapping Description", "index.html#the-structure-of-the-json-mapping-description", null ],
+        [ "Topic Levels and the JSON-Structure of the <tt>mapping</tt> Section", "index.html#topic-levels-and-the-json-structure-of-the-mapping-section", [
+          [ "Single Topic Level", "index.html#single-topic-level", null ],
+          [ "Nested Topic Levels", "index.html#nested-topic-levels", null ],
+          [ "Sibling and Nested Topic Levels", "index.html#sibling-and-nested-topic-levels", null ],
+          [ "A More Complex Topic Level Structure", "index.html#a-more-complex-topic-level-structure", null ],
+          [ "The <tt>subscription</tt> Object of a Topic Level", "index.html#the-subscription-object-of-a-topic-level", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -67,15 +125,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BridgeStore_8cpp.html",
-"classanonymous__namespace_02json-validator_8cpp_03_1_1numeric.html",
-"classinja_1_1BlockNode.html#afa264eaa0a42e9f38086e93530b164be",
-"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a7fb55ed0b7a30342ba6da306428cae04",
-"classinja_1_1Parser.html#aec019e830d16f2d81a30e0061d783780",
+"classanonymous__namespace_02json-validator_8cpp_03_1_1numeric.html#a0dc0d3e19cbc315188f862166c74d335",
+"classinja_1_1BlockStatementNode.html#a180db475bddb93c47bb312701eaedd08",
+"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a87ba2ecc8b6915e8bd6f5089918229fd",
+"classinja_1_1Renderer.html",
 "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaf8d73b588e50698be0fcd832148b1fc",
-"classnlohmann_1_1json__patch.html#ac5f9b9cd2e0b3269217a916dbf43249b",
-"functions_rela.html",
-"mqttbridge_2websocket_2SubProtocolFactory_8h_source.html",
-"structinja_1_1LexerConfig.html#abb5aff62c072f68eeae92fb5ab5b0896"
+"classnlohmann_1_1json__patch.html#a8559f73038c471c37a7d6f4234c6aaa7",
+"functions_j.html",
+"mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a88154b588a05d154f9f7bbdacc2693fb",
+"structinja_1_1LexerConfig.html#a990bd8c59af8bf6f31bd0debb390a5b8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

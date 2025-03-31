@@ -1,7 +1,7 @@
 var classinja_1_1Parser =
 [
-    [ "Arguments", "classinja_1_1Parser.html#a545a8c05b9b7efb3a20c791f258da173", null ],
-    [ "OperatorStack", "classinja_1_1Parser.html#a64e7395aa5f06b1e707648936a94de53", null ],
+    [ "Arguments", "classinja_1_1Parser.html#a5f4d05f1f2799888e032a1d01b99796a", null ],
+    [ "OperatorStack", "classinja_1_1Parser.html#ab100db0f2e51da8150ff30ce0e18fce8", null ],
     [ "Parser", "classinja_1_1Parser.html#a8408705eafb86a4a61df9ea82d5afccd", null ],
     [ "add_literal", "classinja_1_1Parser.html#ae7a1d8abdffac091becd3f59924a67a5", null ],
     [ "add_operator", "classinja_1_1Parser.html#a34dbff50fadd5a8089c2f55a7438ad55", null ],

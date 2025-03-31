@@ -1,5 +1,7 @@
 <map id="mqttintegrator/SocketContextFactory.h" name="mqttintegrator/SocketContextFactory.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,220,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="23,93,202,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,46,115,79,110,79,110,46"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="58,5,273,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,184,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,47,121,85,117,81,148,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="208,101,267,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,44,221,88,217,91,179,47"/>
 </map>
