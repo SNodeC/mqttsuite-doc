@@ -1,9 +1,0 @@
-<map id="inja::Parser::parse_statement" name="inja::Parser::parse_statement">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,144,77"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1Parser.html#ab8bb45bc1eeead74f630efa420ee6212" title=" " alt="" coords="192,5,352,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,44,178,38,179,43,145,49"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1Parser.html#aeb66164c89e8c71cae3c93c24d7c7be2" title=" " alt="" coords="203,69,341,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,66,189,73,188,79,144,71"/>
-<area shape="rect" id="Node000004" href="$classinja_1_1Parser.html#a7dda6b9f4295c215e097f45d573d8d69" title=" " alt="" coords="400,69,539,109"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="341,87,386,87,386,92,341,92"/>
-</map>

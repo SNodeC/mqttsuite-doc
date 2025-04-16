@@ -1,9 +1,9 @@
 var mqttbroker_8cpp =
 [
     [ "APPLICATION", "mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759", null ],
-    [ "getDetailedPage", "mqttbroker_8cpp.html#a113c358f84d4e5e7012f7726243b9d5e", null ],
-    [ "getOverviewPage", "mqttbroker_8cpp.html#a8efa425515f60a2e93fb017517771a3e", null ],
-    [ "getRouter", "mqttbroker_8cpp.html#a50ddcb3430ae14c608a8cb6c86033669", null ],
+    [ "getDetailedPage", "mqttbroker_8cpp.html#a049b5c955e78f60110433ce59da71607", null ],
+    [ "getOverviewPage", "mqttbroker_8cpp.html#aa8f2ee6199dc3a3910f521e5e66d4323", null ],
+    [ "getRouter", "mqttbroker_8cpp.html#a760fc46c377e0486748aceb5686e3741", null ],
     [ "href", "mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89", null ],
     [ "href", "mqttbroker_8cpp.html#a9dfd7c4353c3e607ddb8f6b0d920db36", null ],
     [ "main", "mqttbroker_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97", null ],

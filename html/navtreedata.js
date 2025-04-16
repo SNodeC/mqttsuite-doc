@@ -75,16 +75,12 @@ var NAVTREE =
       ] ],
       [ "MQTT Mapping Description", "index.html#mqtt-mapping-description", [
         [ "The Structure of the JSON Mapping Description", "index.html#the-structure-of-the-json-mapping-description", null ],
-        [ "Topic Levels and the JSON-Structure of the mapping Section", "index.html#topic-levels-and-the-json-structure-of-the-mapping-section", [
+        [ "Topic Levels and the JSON-Structure of the <tt>mapping</tt> Section", "index.html#topic-levels-and-the-json-structure-of-the-mapping-section", [
           [ "Single Topic Level", "index.html#single-topic-level", null ],
           [ "Nested Topic Levels", "index.html#nested-topic-levels", null ],
           [ "Sibling and Nested Topic Levels", "index.html#sibling-and-nested-topic-levels", null ],
           [ "A More Complex Topic Level Structure", "index.html#a-more-complex-topic-level-structure", null ],
-          [ "The subscription Object of a Topic Level", "index.html#the-subscription-object-of-a-topic-level", [
-            [ "Static Mapping", "index.html#static-mapping", null ],
-            [ "Value Mapping", "index.html#value-mapping", null ],
-            [ "JSON Mapping", "index.html#json-mapping", null ]
-          ] ]
+          [ "The <tt>subscription</tt> Object of a Topic Level", "index.html#the-subscription-object-of-a-topic-level", null ]
         ] ]
       ] ]
     ] ],
@@ -136,8 +132,8 @@ var NAVTREEINDEX =
 "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaf8d73b588e50698be0fcd832148b1fc",
 "classnlohmann_1_1json__patch.html#a8559f73038c471c37a7d6f4234c6aaa7",
 "functions_j.html",
-"mqttbridge_2lib_2Mqtt_8h_source.html",
-"structinja_1_1LexerConfig.html#a71a261e98a19cd3bd3f50bb5307c4590"
+"mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a88154b588a05d154f9f7bbdacc2693fb",
+"structinja_1_1LexerConfig.html#a990bd8c59af8bf6f31bd0debb390a5b8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['templatestorage_0',['TemplateStorage',['../namespaceinja.html#a931bd54de1093a20a02845e99266036e',1,'inja']]]
+  ['templatestorage_0',['TemplateStorage',['../namespaceinja.html#a0a60536cf33c514175a90ac0d6f9ed91',1,'inja']]]
 ];

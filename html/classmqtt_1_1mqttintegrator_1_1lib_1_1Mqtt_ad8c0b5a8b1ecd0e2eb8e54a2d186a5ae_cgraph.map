@@ -1,4 +1,6 @@
 <map id="mqtt::mqttintegrator::lib::Mqtt::Mqtt" name="mqtt::mqttintegrator::lib::Mqtt::Mqtt">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,29,161,69"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="54,29,52,20,57,11,67,5,83,3,102,6,112,13,109,17,100,11,83,8,69,10,60,14,57,21,59,28"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="44,30,42,20,48,10,62,5,83,3,108,6,121,13,118,18,106,11,83,8,63,10,51,15,47,21,49,28"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#ae244e3745588740bf513016cb0f06a74" title=" " alt="" coords="209,29,373,69"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="162,47,195,47,195,52,162,52"/>
 </map>
