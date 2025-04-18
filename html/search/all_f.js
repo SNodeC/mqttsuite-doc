@@ -15,7 +15,7 @@ var searchData=
   ['level_20structure_12',['A More Complex Topic Level Structure',['../index.html#a-more-complex-topic-level-structure',1,'']]],
   ['levels_13',['levels',['../index.html#nested-topic-levels',1,'Nested Topic Levels'],['../index.html#sibling-and-nested-topic-levels',1,'Sibling and Nested Topic Levels']]],
   ['levels_20and_20the_20json_20structure_20of_20the_20tt_20mapping_20tt_20section_14',['Topic Levels and the JSON-Structure of the &lt;tt&gt;mapping&lt;/tt&gt; Section',['../index.html#topic-levels-and-the-json-structure-of-the-mapping-section',1,'']]],
-  ['lexer_15',['lexer',['../classinja_1_1Lexer.html#ad272f0bdcfcb0a36580e418089d0c071',1,'inja::Lexer::Lexer()'],['../classinja_1_1Parser.html#aec019e830d16f2d81a30e0061d783780',1,'inja::Parser::lexer'],['../classinja_1_1Lexer.html',1,'inja::Lexer']]],
+  ['lexer_15',['lexer',['../classinja_1_1Parser.html#aec019e830d16f2d81a30e0061d783780',1,'inja::Parser::lexer'],['../classinja_1_1Lexer.html#ad272f0bdcfcb0a36580e418089d0c071',1,'inja::Lexer::Lexer()'],['../classinja_1_1Lexer.html',1,'inja::Lexer']]],
   ['lexer_5fconfig_16',['lexer_config',['../classinja_1_1Environment.html#a10ac5eaba2bf83bf9a13e3287c33fbe8',1,'inja::Environment']]],
   ['lexerconfig_17',['LexerConfig',['../structinja_1_1LexerConfig.html',1,'inja']]],
   ['libraries_18',['Libraries',['../index.html#libraries',1,'']]],

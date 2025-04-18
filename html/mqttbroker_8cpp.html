@@ -172,23 +172,23 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00098">98</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   98</span>                                          {</div>
-<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">if</span> (req-&gt;get(<span class="stringliteral">&quot;sec-websocket-protocol&quot;</span>).find(<span class="stringliteral">&quot;mqtt&quot;</span>) != std::string::npos) {</div>
-<div class="line"><span class="lineno">  100</span>        res-&gt;upgrade(req, [req, res](<span class="keyword">const</span> std::string&amp; name) {</div>
-<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">if</span> (!name.empty()) {</div>
-<div class="line"><span class="lineno">  102</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Successful upgrade to &#39;&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;&#39;  requested: &quot;</span> &lt;&lt; req-&gt;get(<span class="stringliteral">&quot;upgrade&quot;</span>);</div>
-<div class="line"><span class="lineno">  103</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  104</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Can not upgrade to any of &#39;&quot;</span> &lt;&lt; req-&gt;get(<span class="stringliteral">&quot;upgrade&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
-<div class="line"><span class="lineno">  105</span>            }</div>
-<div class="line"><span class="lineno">  106</span>            res-&gt;end();</div>
-<div class="line"><span class="lineno">  107</span>        });</div>
-<div class="line"><span class="lineno">  108</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  109</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Not supporting any of: &quot;</span> &lt;&lt; req-&gt;get(<span class="stringliteral">&quot;sec-websocket-protocol&quot;</span>);</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>        res-&gt;sendStatus(404);</div>
-<div class="line"><span class="lineno">  112</span>    }</div>
-<div class="line"><span class="lineno">  113</span>}</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00097">97</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   97</span>                                          {</div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">if</span> (req-&gt;get(<span class="stringliteral">&quot;sec-websocket-protocol&quot;</span>).find(<span class="stringliteral">&quot;mqtt&quot;</span>) != std::string::npos) {</div>
+<div class="line"><span class="lineno">   99</span>        res-&gt;upgrade(req, [req, res](<span class="keyword">const</span> std::string&amp; name) {</div>
+<div class="line"><span class="lineno">  100</span>            <span class="keywordflow">if</span> (!name.empty()) {</div>
+<div class="line"><span class="lineno">  101</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Successful upgrade to &#39;&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;&#39;  requested: &quot;</span> &lt;&lt; req-&gt;get(<span class="stringliteral">&quot;upgrade&quot;</span>);</div>
+<div class="line"><span class="lineno">  102</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  103</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Can not upgrade to any of &#39;&quot;</span> &lt;&lt; req-&gt;get(<span class="stringliteral">&quot;upgrade&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
+<div class="line"><span class="lineno">  104</span>            }</div>
+<div class="line"><span class="lineno">  105</span>            res-&gt;end();</div>
+<div class="line"><span class="lineno">  106</span>        });</div>
+<div class="line"><span class="lineno">  107</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  108</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Not supporting any of: &quot;</span> &lt;&lt; req-&gt;get(<span class="stringliteral">&quot;sec-websocket-protocol&quot;</span>);</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        res-&gt;sendStatus(404);</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
+<div class="line"><span class="lineno">  112</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -226,33 +226,33 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00209">209</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  209</span>                                                                                                 {</div>
-<div class="line"><span class="lineno">  210</span>    <span class="keywordflow">return</span> environment.<a class="code hl_function" href="classinja_1_1Environment.html#aaefdd9061b23f1764056689fe8c31e30">render_file</a>(<span class="stringliteral">&quot;DetailPage.html&quot;</span>,</div>
-<div class="line"><span class="lineno">  211</span>                                   {{<span class="stringliteral">&quot;client_id&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
-<div class="line"><span class="lineno">  212</span>                                    {<span class="stringliteral">&quot;title&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
-<div class="line"><span class="lineno">  213</span>                                    {<span class="stringliteral">&quot;header_row&quot;</span>, {<span class="stringliteral">&quot;Attribute&quot;</span>, <span class="stringliteral">&quot;Value&quot;</span>}},</div>
-<div class="line"><span class="lineno">  214</span>                                    {<span class="stringliteral">&quot;data_rows&quot;</span>,</div>
-<div class="line"><span class="lineno">  215</span>                                     inja::json::array({{<span class="stringliteral">&quot;Client ID&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
-<div class="line"><span class="lineno">  216</span>                                                        {<span class="stringliteral">&quot;Connection&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectionName()},</div>
-<div class="line"><span class="lineno">  217</span>                                                        {<span class="stringliteral">&quot;Clean Session&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getCleanSession() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
-<div class="line"><span class="lineno">  218</span>                                                        {<span class="stringliteral">&quot;Connect Flags&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectFlags())},</div>
-<div class="line"><span class="lineno">  219</span>                                                        {<span class="stringliteral">&quot;Username&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getUsername()},</div>
-<div class="line"><span class="lineno">  220</span>                                                        {<span class="stringliteral">&quot;Username Flag&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getUsernameFlag() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
-<div class="line"><span class="lineno">  221</span>                                                        {<span class="stringliteral">&quot;Password&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getPassword()},</div>
-<div class="line"><span class="lineno">  222</span>                                                        {<span class="stringliteral">&quot;Password Flag&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getPasswordFlag() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
-<div class="line"><span class="lineno">  223</span>                                                        {<span class="stringliteral">&quot;Keep Alive&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getKeepAlive())},</div>
-<div class="line"><span class="lineno">  224</span>                                                        {<span class="stringliteral">&quot;Protocol&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getProtocol()},</div>
-<div class="line"><span class="lineno">  225</span>                                                        {<span class="stringliteral">&quot;Protocol Level&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getLevel())},</div>
-<div class="line"><span class="lineno">  226</span>                                                        {<span class="stringliteral">&quot;Loop Prevention&quot;</span>, !<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getReflect() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
-<div class="line"><span class="lineno">  227</span>                                                        {<span class="stringliteral">&quot;Will Message&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillMessage()},</div>
-<div class="line"><span class="lineno">  228</span>                                                        {<span class="stringliteral">&quot;Will Topic&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillTopic()},</div>
-<div class="line"><span class="lineno">  229</span>                                                        {<span class="stringliteral">&quot;Will QoS&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillQoS())},</div>
-<div class="line"><span class="lineno">  230</span>                                                        {<span class="stringliteral">&quot;Will Flag&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillFlag() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
-<div class="line"><span class="lineno">  231</span>                                                        {<span class="stringliteral">&quot;Will Retain&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillRetain() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>}})},</div>
-<div class="line"><span class="lineno">  232</span>                                    {<span class="stringliteral">&quot;client_id&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
-<div class="line"><span class="lineno">  233</span>                                    {<span class="stringliteral">&quot;topics&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getSubscriptions()}});</div>
-<div class="line"><span class="lineno">  234</span>}</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00210">210</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  210</span>                                                                                                 {</div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">return</span> environment.<a class="code hl_function" href="classinja_1_1Environment.html#aaefdd9061b23f1764056689fe8c31e30">render_file</a>(<span class="stringliteral">&quot;DetailPage.html&quot;</span>,</div>
+<div class="line"><span class="lineno">  212</span>                                   {{<span class="stringliteral">&quot;client_id&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
+<div class="line"><span class="lineno">  213</span>                                    {<span class="stringliteral">&quot;title&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
+<div class="line"><span class="lineno">  214</span>                                    {<span class="stringliteral">&quot;header_row&quot;</span>, {<span class="stringliteral">&quot;Attribute&quot;</span>, <span class="stringliteral">&quot;Value&quot;</span>}},</div>
+<div class="line"><span class="lineno">  215</span>                                    {<span class="stringliteral">&quot;data_rows&quot;</span>,</div>
+<div class="line"><span class="lineno">  216</span>                                     inja::json::array({{<span class="stringliteral">&quot;Client ID&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
+<div class="line"><span class="lineno">  217</span>                                                        {<span class="stringliteral">&quot;Connection&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectionName()},</div>
+<div class="line"><span class="lineno">  218</span>                                                        {<span class="stringliteral">&quot;Clean Session&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getCleanSession() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
+<div class="line"><span class="lineno">  219</span>                                                        {<span class="stringliteral">&quot;Connect Flags&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectFlags())},</div>
+<div class="line"><span class="lineno">  220</span>                                                        {<span class="stringliteral">&quot;Username&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getUsername()},</div>
+<div class="line"><span class="lineno">  221</span>                                                        {<span class="stringliteral">&quot;Username Flag&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getUsernameFlag() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
+<div class="line"><span class="lineno">  222</span>                                                        {<span class="stringliteral">&quot;Password&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getPassword()},</div>
+<div class="line"><span class="lineno">  223</span>                                                        {<span class="stringliteral">&quot;Password Flag&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getPasswordFlag() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
+<div class="line"><span class="lineno">  224</span>                                                        {<span class="stringliteral">&quot;Keep Alive&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getKeepAlive())},</div>
+<div class="line"><span class="lineno">  225</span>                                                        {<span class="stringliteral">&quot;Protocol&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getProtocol()},</div>
+<div class="line"><span class="lineno">  226</span>                                                        {<span class="stringliteral">&quot;Protocol Level&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getLevel())},</div>
+<div class="line"><span class="lineno">  227</span>                                                        {<span class="stringliteral">&quot;Loop Prevention&quot;</span>, !<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getReflect() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
+<div class="line"><span class="lineno">  228</span>                                                        {<span class="stringliteral">&quot;Will Message&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillMessage()},</div>
+<div class="line"><span class="lineno">  229</span>                                                        {<span class="stringliteral">&quot;Will Topic&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillTopic()},</div>
+<div class="line"><span class="lineno">  230</span>                                                        {<span class="stringliteral">&quot;Will QoS&quot;</span>, std::to_string(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillQoS())},</div>
+<div class="line"><span class="lineno">  231</span>                                                        {<span class="stringliteral">&quot;Will Flag&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillFlag() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>},</div>
+<div class="line"><span class="lineno">  232</span>                                                        {<span class="stringliteral">&quot;Will Retain&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getWillRetain() ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>}})},</div>
+<div class="line"><span class="lineno">  233</span>                                    {<span class="stringliteral">&quot;client_id&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()},</div>
+<div class="line"><span class="lineno">  234</span>                                    {<span class="stringliteral">&quot;topics&quot;</span>, <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getSubscriptions()}});</div>
+<div class="line"><span class="lineno">  235</span>}</div>
 <div class="ttc" id="aclassinja_1_1Environment_html_aaefdd9061b23f1764056689fe8c31e30"><div class="ttname"><a href="classinja_1_1Environment.html#aaefdd9061b23f1764056689fe8c31e30">inja::Environment::render_file</a></div><div class="ttdeci">std::string render_file(const std::string &amp;filename, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02958">inja.hpp:2958</a></div></div>
 <div class="ttc" id="anamespacemqtt_html"><div class="ttname"><a href="namespacemqtt.html">mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00055">JsonMappingReader.cpp:55</a></div></div>
 </div><!-- fragment -->
@@ -298,79 +298,81 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00139">139</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  141</span>                                                                {</div>
-<div class="line"><span class="lineno">  142</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a> <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>;</div>
-<div class="line"><span class="lineno">  143</span> </div>
-<div class="line"><span class="lineno">  144</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;title&quot;</span>] = <span class="stringliteral">&quot;MQTTBroker | Active Clients&quot;</span>;</div>
-<div class="line"><span class="lineno">  145</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;voc&quot;</span>] = <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;Volker Christian&quot;</span>, <span class="stringliteral">&quot;https://github.com/VolkerChristian/&quot;</span>);</div>
-<div class="line"><span class="lineno">  146</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;broker&quot;</span>] = <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;MQTTBroker&quot;</span>, <span class="stringliteral">&quot;https://github.com/SNodeC/mqttsuite/tree/master/mqttbroker&quot;</span>);</div>
-<div class="line"><span class="lineno">  147</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;suite&quot;</span>] = <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;MQTTSuite&quot;</span>, <span class="stringliteral">&quot;https://github.com/SNodeC/mqttsuite&quot;</span>);</div>
-<div class="line"><span class="lineno">  148</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;snodec&quot;</span>] = <span class="stringliteral">&quot;Powered by &quot;</span> + <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;SNode.C&quot;</span>, <span class="stringliteral">&quot;https://github.com/SNodeC/snode.c&quot;</span>);</div>
-<div class="line"><span class="lineno">  149</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;since&quot;</span>] = mqttModel.<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a>();</div>
-<div class="line"><span class="lineno">  150</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;duration&quot;</span>] = mqttModel.<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a9423a3d458e7642931e54069583ac30d">onlineDuration</a>();</div>
-<div class="line"><span class="lineno">  151</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;header_row&quot;</span>] = {<span class="stringliteral">&quot;Client ID&quot;</span>, <span class="stringliteral">&quot;Online Since&quot;</span>, <span class="stringliteral">&quot;Duration&quot;</span>, <span class="stringliteral">&quot;Connection&quot;</span>, <span class="stringliteral">&quot;Local Address&quot;</span>, <span class="stringliteral">&quot;Remote Address&quot;</span>, <span class="stringliteral">&quot;Action&quot;</span>};</div>
-<div class="line"><span class="lineno">  152</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;data_rows&quot;</span>] = inja::json::array();</div>
-<div class="line"><span class="lineno">  153</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;subscribed_topics&quot;</span>] = inja::json::array();</div>
-<div class="line"><span class="lineno">  154</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;retained_topics&quot;</span>] = inja::json::array();</div>
-<div class="line"><span class="lineno">  155</span> </div>
-<div class="line"><span class="lineno">  156</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a>&amp; jsonDataRows = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;data_rows&quot;</span>];</div>
-<div class="line"><span class="lineno">  157</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [connectionName, mqttModelEntry] : mqttModel.getClients()) {</div>
-<div class="line"><span class="lineno">  158</span>        <span class="keyword">const</span> <a class="code hl_class" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a>* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = mqttModelEntry.getMqtt();</div>
-<div class="line"><span class="lineno">  159</span>        <span class="keyword">const</span> core::socket::stream::SocketConnection* socketConnection = <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()-&gt;getSocketConnection();</div>
-<div class="line"><span class="lineno">  160</span> </div>
-<div class="line"><span class="lineno">  161</span>        std::ostringstream windowId(<span class="stringliteral">&quot;window&quot;</span>);</div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">for</span> (<span class="keywordtype">char</span> ch : <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()) {</div>
-<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (std::isalnum(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(ch))) {</div>
-<div class="line"><span class="lineno">  164</span>                windowId &lt;&lt; ch;</div>
-<div class="line"><span class="lineno">  165</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  166</span>                windowId &lt;&lt; std::hex &lt;&lt; std::uppercase &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>)</div>
-<div class="line"><span class="lineno">  167</span>                         &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(ch));</div>
-<div class="line"><span class="lineno">  168</span>            }</div>
-<div class="line"><span class="lineno">  169</span>        }</div>
-<div class="line"><span class="lineno">  170</span> </div>
-<div class="line"><span class="lineno">  171</span>        jsonDataRows.push_back(</div>
-<div class="line"><span class="lineno">  172</span>            {<a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId(), <span class="stringliteral">&quot;/client?&quot;</span> + <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId(), windowId.str(), 450, 900),</div>
-<div class="line"><span class="lineno">  173</span>             mqttModelEntry.onlineSince(),</div>
-<div class="line"><span class="lineno">  174</span>             <span class="stringliteral">&quot;&lt;duration&gt;&quot;</span> + mqttModelEntry.onlineDuration() + <span class="stringliteral">&quot;&lt;/duration&gt;&quot;</span>,</div>
-<div class="line"><span class="lineno">  175</span>             <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectionName(),</div>
-<div class="line"><span class="lineno">  176</span>             socketConnection-&gt;getLocalAddress().toString(),</div>
-<div class="line"><span class="lineno">  177</span>             socketConnection-&gt;getRemoteAddress().toString(),</div>
-<div class="line"><span class="lineno">  178</span>             <span class="stringliteral">&quot;&lt;button class=\&quot;red-btn\&quot; onClick=\&quot;disconnectClient(&#39;&quot;</span> + <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId() + <span class="stringliteral">&quot;&#39;)\&quot;&gt;Disconnect&lt;/button&gt;&quot;</span>});</div>
-<div class="line"><span class="lineno">  179</span>    }</div>
-<div class="line"><span class="lineno">  180</span> </div>
-<div class="line"><span class="lineno">  181</span>    std::map&lt;std::string, std::list&lt;std::pair&lt;std::string, uint8_t&gt;&gt;&gt; subscribedTopics = broker-&gt;getSubscriptionTree();</div>
-<div class="line"><span class="lineno">  182</span> </div>
-<div class="line"><span class="lineno">  183</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a>&amp; topicsJson = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;subscribed_topics&quot;</span>];</div>
-<div class="line"><span class="lineno">  184</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [topic, clients] : subscribedTopics) {</div>
-<div class="line"><span class="lineno">  185</span>        <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a> topicJson;</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00138">138</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  140</span>                                                                {</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a> <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>;</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;title&quot;</span>] = <span class="stringliteral">&quot;MQTTBroker | Active Clients&quot;</span>;</div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;voc&quot;</span>] = <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;Volker Christian&quot;</span>, <span class="stringliteral">&quot;https://github.com/VolkerChristian/&quot;</span>);</div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;broker&quot;</span>] = <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;MQTTBroker&quot;</span>, <span class="stringliteral">&quot;https://github.com/SNodeC/mqttsuite/tree/master/mqttbroker&quot;</span>);</div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;suite&quot;</span>] = <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;MQTTSuite&quot;</span>, <span class="stringliteral">&quot;https://github.com/SNodeC/mqttsuite&quot;</span>);</div>
+<div class="line"><span class="lineno">  147</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;snodec&quot;</span>] = <span class="stringliteral">&quot;Powered by &quot;</span> + <a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<span class="stringliteral">&quot;SNode.C&quot;</span>, <span class="stringliteral">&quot;https://github.com/SNodeC/snode.c&quot;</span>);</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;since&quot;</span>] = mqttModel.<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a>();</div>
+<div class="line"><span class="lineno">  149</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;duration&quot;</span>] = mqttModel.<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a9423a3d458e7642931e54069583ac30d">onlineDuration</a>();</div>
+<div class="line"><span class="lineno">  150</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;header_row&quot;</span>] = {<span class="stringliteral">&quot;Client ID&quot;</span>, <span class="stringliteral">&quot;Online Since&quot;</span>, <span class="stringliteral">&quot;Duration&quot;</span>, <span class="stringliteral">&quot;Connection&quot;</span>, <span class="stringliteral">&quot;Local Address&quot;</span>, <span class="stringliteral">&quot;Remote Address&quot;</span>, <span class="stringliteral">&quot;Action&quot;</span>};</div>
+<div class="line"><span class="lineno">  151</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;data_rows&quot;</span>] = inja::json::array();</div>
+<div class="line"><span class="lineno">  152</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;subscribed_topics&quot;</span>] = inja::json::array();</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;retained_topics&quot;</span>] = inja::json::array();</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a>&amp; jsonDataRows = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;data_rows&quot;</span>];</div>
+<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [connectionName, mqttModelEntry] : mqttModel.getClients()) {</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keyword">const</span> <a class="code hl_class" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a>* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = mqttModelEntry.getMqtt();</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keyword">const</span> core::socket::stream::SocketConnection* socketConnection = <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()-&gt;getSocketConnection();</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>        std::ostringstream windowId(<span class="stringliteral">&quot;window&quot;</span>);</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">for</span> (<span class="keywordtype">char</span> ch : <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()) {</div>
+<div class="line"><span class="lineno">  162</span>            <span class="keywordflow">if</span> (std::isalnum(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(ch))) {</div>
+<div class="line"><span class="lineno">  163</span>                windowId &lt;&lt; ch;</div>
+<div class="line"><span class="lineno">  164</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  165</span>                windowId &lt;&lt; std::hex &lt;&lt; std::uppercase &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>)</div>
+<div class="line"><span class="lineno">  166</span>                         &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(ch));</div>
+<div class="line"><span class="lineno">  167</span>            }</div>
+<div class="line"><span class="lineno">  168</span>        }</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>        jsonDataRows.push_back(</div>
+<div class="line"><span class="lineno">  171</span>            {<a class="code hl_function" href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a>(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId(), <span class="stringliteral">&quot;/client?&quot;</span> + <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId(), windowId.str(), 450, 900),</div>
+<div class="line"><span class="lineno">  172</span>             mqttModelEntry.onlineSince(),</div>
+<div class="line"><span class="lineno">  173</span>             <span class="stringliteral">&quot;&lt;duration&gt;&quot;</span> + mqttModelEntry.onlineDuration() + <span class="stringliteral">&quot;&lt;/duration&gt;&quot;</span>,</div>
+<div class="line"><span class="lineno">  174</span>             <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectionName(),</div>
+<div class="line"><span class="lineno">  175</span>             socketConnection-&gt;getLocalAddress().toString(),</div>
+<div class="line"><span class="lineno">  176</span>             socketConnection-&gt;getRemoteAddress().toString(),</div>
+<div class="line"><span class="lineno">  177</span>             <span class="stringliteral">&quot;&lt;button class=\&quot;red-btn\&quot; onClick=\&quot;disconnectClient(&#39;&quot;</span> + <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId() + <span class="stringliteral">&quot;&#39;)\&quot;&gt;Disconnect&lt;/button&gt;&quot;</span>});</div>
+<div class="line"><span class="lineno">  178</span>    }</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>    std::map&lt;std::string, std::list&lt;std::pair&lt;std::string, uint8_t&gt;&gt;&gt; subscribedTopics = broker-&gt;getSubscriptionTree();</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a>&amp; subscribedTopicsJson = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;subscribed_topics&quot;</span>];</div>
+<div class="line"><span class="lineno">  183</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [topic, clients] : subscribedTopics) {</div>
+<div class="line"><span class="lineno">  184</span>        <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a> topicJson;</div>
+<div class="line"><span class="lineno">  185</span> </div>
 <div class="line"><span class="lineno">  186</span>        topicJson[<span class="stringliteral">&quot;key&quot;</span>] = topic;</div>
-<div class="line"><span class="lineno">  187</span> </div>
-<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; client : clients) {</div>
-<div class="line"><span class="lineno">  189</span>            topicJson[<span class="stringliteral">&quot;values&quot;</span>].push_back(</div>
-<div class="line"><span class="lineno">  190</span>                {{<span class="stringliteral">&quot;client_id&quot;</span>, client.first}, {<span class="stringliteral">&quot;topic&quot;</span>, topic}, {<span class="stringliteral">&quot;qos&quot;</span>, std::to_string(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(client.second))}});</div>
-<div class="line"><span class="lineno">  191</span>        }</div>
-<div class="line"><span class="lineno">  192</span> </div>
-<div class="line"><span class="lineno">  193</span>        topicsJson.push_back(topicJson);</div>
-<div class="line"><span class="lineno">  194</span>    }</div>
-<div class="line"><span class="lineno">  195</span> </div>
-<div class="line"><span class="lineno">  196</span>    std::list&lt;std::pair&lt;std::string, std::string&gt;&gt; retainTree = broker-&gt;getRetainedTree().getRetainedTree();</div>
-<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; client : clients) {</div>
+<div class="line"><span class="lineno">  188</span>            topicJson[<span class="stringliteral">&quot;values&quot;</span>].push_back(</div>
+<div class="line"><span class="lineno">  189</span>                {{<span class="stringliteral">&quot;client_id&quot;</span>, client.first}, {<span class="stringliteral">&quot;topic&quot;</span>, topic}, {<span class="stringliteral">&quot;qos&quot;</span>, std::to_string(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(client.second))}});</div>
+<div class="line"><span class="lineno">  190</span>        }</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>        subscribedTopicsJson.push_back(topicJson);</div>
+<div class="line"><span class="lineno">  193</span>    }</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>    std::list&lt;std::pair&lt;std::string, std::string&gt;&gt; retainTree = broker-&gt;getRetainTree();</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>    <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a>&amp; retainedTopicsJson = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;retained_topics&quot;</span>];</div>
 <div class="line"><span class="lineno">  198</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [topic, message] : retainTree) {</div>
 <div class="line"><span class="lineno">  199</span>        <a class="code hl_typedef" href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a> topicJson;</div>
-<div class="line"><span class="lineno">  200</span>        topicJson[<span class="stringliteral">&quot;key&quot;</span>] = topic;</div>
-<div class="line"><span class="lineno">  201</span>        topicJson[<span class="stringliteral">&quot;values&quot;</span>].push_back(message);</div>
-<div class="line"><span class="lineno">  202</span> </div>
-<div class="line"><span class="lineno">  203</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;retained_topics&quot;</span>].push_back(topicJson);</div>
-<div class="line"><span class="lineno">  204</span>    }</div>
-<div class="line"><span class="lineno">  205</span> </div>
-<div class="line"><span class="lineno">  206</span>    <span class="keywordflow">return</span> environment.<a class="code hl_function" href="classinja_1_1Environment.html#aaefdd9061b23f1764056689fe8c31e30">render_file</a>(<span class="stringliteral">&quot;OverviewPage.html&quot;</span>, <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>);</div>
-<div class="line"><span class="lineno">  207</span>}</div>
+<div class="line"><span class="lineno">  200</span> </div>
+<div class="line"><span class="lineno">  201</span>        topicJson[<span class="stringliteral">&quot;key&quot;</span>] = topic;</div>
+<div class="line"><span class="lineno">  202</span>        topicJson[<span class="stringliteral">&quot;values&quot;</span>].push_back(message);</div>
+<div class="line"><span class="lineno">  203</span> </div>
+<div class="line"><span class="lineno">  204</span>        retainedTopicsJson.push_back(topicJson);</div>
+<div class="line"><span class="lineno">  205</span>    }</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>    <span class="keywordflow">return</span> environment.<a class="code hl_function" href="classinja_1_1Environment.html#aaefdd9061b23f1764056689fe8c31e30">render_file</a>(<span class="stringliteral">&quot;OverviewPage.html&quot;</span>, <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>);</div>
+<div class="line"><span class="lineno">  208</span>}</div>
 <div class="ttc" id="abinary-validation_8cpp_html_a2fec365798124ac10ddd238c0b075720"><div class="ttname"><a href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00030">binary-validation.cpp:30</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a91fc1ed46bf75fded412034533ea60ce"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">mqtt::mqttbroker::lib::MqttModel::onlineSince</a></div><div class="ttdeci">std::string onlineSince()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00088">MqttModel.cpp:88</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a9423a3d458e7642931e54069583ac30d"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a9423a3d458e7642931e54069583ac30d">mqtt::mqttbroker::lib::MqttModel::onlineDuration</a></div><div class="ttdeci">std::string onlineDuration()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00092">MqttModel.cpp:92</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_html"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00063">Mqtt.h:65</a></div></div>
-<div class="ttc" id="amqttbroker_8cpp_html_a41a2989a69eb2abb480616f166598a89"><div class="ttname"><a href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a></div><div class="ttdeci">static std::string href(const std::string &amp;text, const std::string &amp;link)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00115">mqttbroker.cpp:115</a></div></div>
+<div class="ttc" id="amqttbroker_8cpp_html_a41a2989a69eb2abb480616f166598a89"><div class="ttname"><a href="mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89">href</a></div><div class="ttdeci">static std::string href(const std::string &amp;text, const std::string &amp;link)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00114">mqttbroker.cpp:114</a></div></div>
 <div class="ttc" id="anamespaceinja_html_abd4af4a50124615d94feefd32ccc7933"><div class="ttname"><a href="namespaceinja.html#abd4af4a50124615d94feefd32ccc7933">inja::json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="MqttMapperPlugin_8h_source.html#l00058">MqttMapperPlugin.h:58</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -409,68 +411,67 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00269">269</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  269</span>                                                                                                             {</div>
-<div class="line"><span class="lineno">  270</span>    <span class="keyword">const</span> express::Router router;</div>
-<div class="line"><span class="lineno">  271</span> </div>
-<div class="line"><span class="lineno">  272</span>    <span class="keyword">const</span> express::Router&amp; jsonRouter = express::middleware::JsonMiddleware();</div>
-<div class="line"><span class="lineno">  273</span>    jsonRouter.setStrictRouting();</div>
-<div class="line"><span class="lineno">  274</span> </div>
-<div class="line"><span class="lineno">  275</span>    jsonRouter.post(<span class="stringliteral">&quot;/clients&quot;</span>, [] <a class="code hl_function" href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a>(req, res) {</div>
-<div class="line"><span class="lineno">  276</span>        req-&gt;getAttribute&lt;nlohmann::json&gt;(</div>
-<div class="line"><span class="lineno">  277</span>            [&amp;res](nlohmann::json&amp; <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>) {</div>
-<div class="line"><span class="lineno">  278</span>                std::string jsonString = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(4);</div>
-<div class="line"><span class="lineno">  279</span> </div>
-<div class="line"><span class="lineno">  280</span>                std::string clientId = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;client_id&quot;</span>].get&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  281</span>                <span class="keyword">const</span> <a class="code hl_class" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a>* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f">mqtt::mqttbroker::lib::MqttModel::instance</a>().<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf">getMqtt</a>(clientId);</div>
-<div class="line"><span class="lineno">  282</span> </div>
-<div class="line"><span class="lineno">  283</span>                <span class="keywordflow">if</span> (<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">  284</span>                    <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()-&gt;getSocketConnection()-&gt;close();</div>
-<div class="line"><span class="lineno">  285</span>                    res-&gt;send(jsonString);</div>
-<div class="line"><span class="lineno">  286</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  287</span>                    res-&gt;status(404).send(<span class="stringliteral">&quot;MQTT client has never existed or already gone away: &#39;&quot;</span> + clientId + <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
-<div class="line"><span class="lineno">  288</span>                }</div>
-<div class="line"><span class="lineno">  289</span>            },</div>
-<div class="line"><span class="lineno">  290</span>            [&amp;res](<span class="keyword">const</span> std::string&amp; key) {</div>
-<div class="line"><span class="lineno">  291</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Attribute type not found: &quot;</span> &lt;&lt; key;</div>
-<div class="line"><span class="lineno">  292</span> </div>
-<div class="line"><span class="lineno">  293</span>                res-&gt;status(400).send(<span class="stringliteral">&quot;Attribute type not found: &quot;</span> + key);</div>
-<div class="line"><span class="lineno">  294</span>            });</div>
-<div class="line"><span class="lineno">  295</span>    });</div>
-<div class="line"><span class="lineno">  296</span> </div>
-<div class="line"><span class="lineno">  297</span>    jsonRouter.post(<span class="stringliteral">&quot;/unsubscribe&quot;</span>, [] <a class="code hl_function" href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a>(req, res) {</div>
-<div class="line"><span class="lineno">  298</span>        req-&gt;getAttribute&lt;nlohmann::json&gt;(</div>
-<div class="line"><span class="lineno">  299</span>            [&amp;res](nlohmann::json&amp; <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>) {</div>
-<div class="line"><span class="lineno">  300</span>                std::string jsonString = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(4);</div>
-<div class="line"><span class="lineno">  301</span> </div>
-<div class="line"><span class="lineno">  302</span>                std::string clientId = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;client_id&quot;</span>].get&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  303</span>                std::string topic = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;topic&quot;</span>].get&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  304</span> </div>
-<div class="line"><span class="lineno">  305</span>                <span class="keyword">const</span> <a class="code hl_class" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a>* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f">mqtt::mqttbroker::lib::MqttModel::instance</a>().<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf">getMqtt</a>(clientId);</div>
-<div class="line"><span class="lineno">  306</span> </div>
-<div class="line"><span class="lineno">  307</span>                <span class="keywordflow">if</span> (<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">  308</span>                    <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;unsubscribe(topic);</div>
-<div class="line"><span class="lineno">  309</span>                    res-&gt;send(jsonString);</div>
-<div class="line"><span class="lineno">  310</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  311</span>                    res-&gt;status(404).send(<span class="stringliteral">&quot;MQTT client has never existed or already gone away: &#39;&quot;</span> + clientId + <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
-<div class="line"><span class="lineno">  312</span>                }</div>
-<div class="line"><span class="lineno">  313</span>            },</div>
-<div class="line"><span class="lineno">  314</span>            [&amp;res](<span class="keyword">const</span> std::string&amp; key) {</div>
-<div class="line"><span class="lineno">  315</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Attribute type not found: &quot;</span> &lt;&lt; key;</div>
-<div class="line"><span class="lineno">  316</span> </div>
-<div class="line"><span class="lineno">  317</span>                res-&gt;status(400).send(<span class="stringliteral">&quot;Attribute type not found: &quot;</span> + key);</div>
-<div class="line"><span class="lineno">  318</span>            });</div>
-<div class="line"><span class="lineno">  319</span>    });</div>
-<div class="line"><span class="lineno">  320</span> </div>
-<div class="line"><span class="lineno">  321</span>    jsonRouter.post(<span class="stringliteral">&quot;/release&quot;</span>, [broker] <a class="code hl_function" href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a>(req, res) {</div>
-<div class="line"><span class="lineno">  322</span>        req-&gt;getAttribute&lt;nlohmann::json&gt;(</div>
-<div class="line"><span class="lineno">  323</span>            [&amp;res, broker](nlohmann::json&amp; <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>) {</div>
-<div class="line"><span class="lineno">  324</span>                std::string jsonString = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(4);</div>
-<div class="line"><span class="lineno">  325</span> </div>
-<div class="line"><span class="lineno">  326</span>                std::string topic = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;topic&quot;</span>].get&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  327</span> </div>
-<div class="line"><span class="lineno">  328</span>                <span class="comment">//                broker-&gt;getRetainedTree().retain({&quot;&quot;, topic, &quot;&quot;, 0, false});</span></div>
-<div class="line"><span class="lineno">  329</span>                broker-&gt;getRetainedTree().release(topic);</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00270">270</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  270</span>                                                                                                             {</div>
+<div class="line"><span class="lineno">  271</span>    <span class="keyword">const</span> express::Router router;</div>
+<div class="line"><span class="lineno">  272</span> </div>
+<div class="line"><span class="lineno">  273</span>    <span class="keyword">const</span> express::Router&amp; jsonRouter = express::middleware::JsonMiddleware();</div>
+<div class="line"><span class="lineno">  274</span>    jsonRouter.setStrictRouting();</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>    jsonRouter.post(<span class="stringliteral">&quot;/clients&quot;</span>, [] <a class="code hl_function" href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a>(req, res) {</div>
+<div class="line"><span class="lineno">  277</span>        req-&gt;getAttribute&lt;nlohmann::json&gt;(</div>
+<div class="line"><span class="lineno">  278</span>            [&amp;res](nlohmann::json&amp; <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>) {</div>
+<div class="line"><span class="lineno">  279</span>                std::string jsonString = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(4);</div>
+<div class="line"><span class="lineno">  280</span> </div>
+<div class="line"><span class="lineno">  281</span>                std::string clientId = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;client_id&quot;</span>].get&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  282</span>                <span class="keyword">const</span> <a class="code hl_class" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a>* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f">mqtt::mqttbroker::lib::MqttModel::instance</a>().<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf">getMqtt</a>(clientId);</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>                <span class="keywordflow">if</span> (<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">  285</span>                    <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()-&gt;getSocketConnection()-&gt;close();</div>
+<div class="line"><span class="lineno">  286</span>                    res-&gt;send(jsonString);</div>
+<div class="line"><span class="lineno">  287</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  288</span>                    res-&gt;status(404).send(<span class="stringliteral">&quot;MQTT client has never existed or already gone away: &#39;&quot;</span> + clientId + <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">  289</span>                }</div>
+<div class="line"><span class="lineno">  290</span>            },</div>
+<div class="line"><span class="lineno">  291</span>            [&amp;res](<span class="keyword">const</span> std::string&amp; key) {</div>
+<div class="line"><span class="lineno">  292</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Attribute type not found: &quot;</span> &lt;&lt; key;</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>                res-&gt;status(400).send(<span class="stringliteral">&quot;Attribute type not found: &quot;</span> + key);</div>
+<div class="line"><span class="lineno">  295</span>            });</div>
+<div class="line"><span class="lineno">  296</span>    });</div>
+<div class="line"><span class="lineno">  297</span> </div>
+<div class="line"><span class="lineno">  298</span>    jsonRouter.post(<span class="stringliteral">&quot;/unsubscribe&quot;</span>, [] <a class="code hl_function" href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a>(req, res) {</div>
+<div class="line"><span class="lineno">  299</span>        req-&gt;getAttribute&lt;nlohmann::json&gt;(</div>
+<div class="line"><span class="lineno">  300</span>            [&amp;res](nlohmann::json&amp; <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>) {</div>
+<div class="line"><span class="lineno">  301</span>                std::string jsonString = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(4);</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>                std::string clientId = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;client_id&quot;</span>].get&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  304</span>                std::string topic = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;topic&quot;</span>].get&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  305</span> </div>
+<div class="line"><span class="lineno">  306</span>                <span class="keyword">const</span> <a class="code hl_class" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">mqtt::mqttbroker::lib::Mqtt</a>* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f">mqtt::mqttbroker::lib::MqttModel::instance</a>().<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf">getMqtt</a>(clientId);</div>
+<div class="line"><span class="lineno">  307</span> </div>
+<div class="line"><span class="lineno">  308</span>                <span class="keywordflow">if</span> (<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">  309</span>                    <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;unsubscribe(topic);</div>
+<div class="line"><span class="lineno">  310</span>                    res-&gt;send(jsonString);</div>
+<div class="line"><span class="lineno">  311</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  312</span>                    res-&gt;status(404).send(<span class="stringliteral">&quot;MQTT client has never existed or already gone away: &#39;&quot;</span> + clientId + <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">  313</span>                }</div>
+<div class="line"><span class="lineno">  314</span>            },</div>
+<div class="line"><span class="lineno">  315</span>            [&amp;res](<span class="keyword">const</span> std::string&amp; key) {</div>
+<div class="line"><span class="lineno">  316</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Attribute type not found: &quot;</span> &lt;&lt; key;</div>
+<div class="line"><span class="lineno">  317</span> </div>
+<div class="line"><span class="lineno">  318</span>                res-&gt;status(400).send(<span class="stringliteral">&quot;Attribute type not found: &quot;</span> + key);</div>
+<div class="line"><span class="lineno">  319</span>            });</div>
+<div class="line"><span class="lineno">  320</span>    });</div>
+<div class="line"><span class="lineno">  321</span> </div>
+<div class="line"><span class="lineno">  322</span>    jsonRouter.post(<span class="stringliteral">&quot;/release&quot;</span>, [broker] <a class="code hl_function" href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a>(req, res) {</div>
+<div class="line"><span class="lineno">  323</span>        req-&gt;getAttribute&lt;nlohmann::json&gt;(</div>
+<div class="line"><span class="lineno">  324</span>            [&amp;res, broker](nlohmann::json&amp; <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>) {</div>
+<div class="line"><span class="lineno">  325</span>                std::string jsonString = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(4);</div>
+<div class="line"><span class="lineno">  326</span> </div>
+<div class="line"><span class="lineno">  327</span>                std::string topic = <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>[<span class="stringliteral">&quot;topic&quot;</span>].get&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  328</span> </div>
+<div class="line"><span class="lineno">  329</span>                broker-&gt;release(topic);</div>
 <div class="line"><span class="lineno">  330</span> </div>
 <div class="line"><span class="lineno">  331</span>                res-&gt;send(jsonString);</div>
 <div class="line"><span class="lineno">  332</span>            },</div>
@@ -596,10 +597,10 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  452</span>}</div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a472d48d30d9626c722b64ddce4002e5f"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f">mqtt::mqttbroker::lib::MqttModel::instance</a></div><div class="ttdeci">static MqttModel &amp; instance()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00060">MqttModel.cpp:60</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_ab7589b5b3019346fa6c381b2dbde42bf"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf">mqtt::mqttbroker::lib::MqttModel::getMqtt</a></div><div class="ttdeci">const Mqtt * getMqtt(const std::string &amp;clientId)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00078">MqttModel.cpp:78</a></div></div>
-<div class="ttc" id="amqttbroker_8cpp_html_a049b5c955e78f60110433ce59da71607"><div class="ttname"><a href="mqttbroker_8cpp.html#a049b5c955e78f60110433ce59da71607">getDetailedPage</a></div><div class="ttdeci">static std::string getDetailedPage(inja::Environment environment, const mqtt::mqttbroker::lib::Mqtt *mqtt)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00209">mqttbroker.cpp:209</a></div></div>
-<div class="ttc" id="amqttbroker_8cpp_html_a060eea8fb783d5b54f6fa11cf4e32be9"><div class="ttname"><a href="mqttbroker_8cpp.html#a060eea8fb783d5b54f6fa11cf4e32be9">urlDecode</a></div><div class="ttdeci">static std::string urlDecode(const std::string &amp;encoded)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00236">mqttbroker.cpp:236</a></div></div>
-<div class="ttc" id="amqttbroker_8cpp_html_aa8f2ee6199dc3a3910f521e5e66d4323"><div class="ttname"><a href="mqttbroker_8cpp.html#aa8f2ee6199dc3a3910f521e5e66d4323">getOverviewPage</a></div><div class="ttdeci">static std::string getOverviewPage(std::shared_ptr&lt; iot::mqtt::server::broker::Broker &gt; broker, mqtt::mqttbroker::lib::MqttModel &amp;mqttModel, inja::Environment environment)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00139">mqttbroker.cpp:139</a></div></div>
-<div class="ttc" id="amqttbroker_8cpp_html_abcf60cb690f64fa70b8f3728e1de0759"><div class="ttname"><a href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a></div><div class="ttdeci">static void upgrade APPLICATION(req, res)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00098">mqttbroker.cpp:98</a></div></div>
+<div class="ttc" id="amqttbroker_8cpp_html_a049b5c955e78f60110433ce59da71607"><div class="ttname"><a href="mqttbroker_8cpp.html#a049b5c955e78f60110433ce59da71607">getDetailedPage</a></div><div class="ttdeci">static std::string getDetailedPage(inja::Environment environment, const mqtt::mqttbroker::lib::Mqtt *mqtt)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00210">mqttbroker.cpp:210</a></div></div>
+<div class="ttc" id="amqttbroker_8cpp_html_a060eea8fb783d5b54f6fa11cf4e32be9"><div class="ttname"><a href="mqttbroker_8cpp.html#a060eea8fb783d5b54f6fa11cf4e32be9">urlDecode</a></div><div class="ttdeci">static std::string urlDecode(const std::string &amp;encoded)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00237">mqttbroker.cpp:237</a></div></div>
+<div class="ttc" id="amqttbroker_8cpp_html_aa8f2ee6199dc3a3910f521e5e66d4323"><div class="ttname"><a href="mqttbroker_8cpp.html#aa8f2ee6199dc3a3910f521e5e66d4323">getOverviewPage</a></div><div class="ttdeci">static std::string getOverviewPage(std::shared_ptr&lt; iot::mqtt::server::broker::Broker &gt; broker, mqtt::mqttbroker::lib::MqttModel &amp;mqttModel, inja::Environment environment)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00138">mqttbroker.cpp:138</a></div></div>
+<div class="ttc" id="amqttbroker_8cpp_html_abcf60cb690f64fa70b8f3728e1de0759"><div class="ttname"><a href="mqttbroker_8cpp.html#abcf60cb690f64fa70b8f3728e1de0759">APPLICATION</a></div><div class="ttdeci">static void upgrade APPLICATION(req, res)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00097">mqttbroker.cpp:97</a></div></div>
 <div class="ttc" id="astructinja_1_1InjaError_html"><div class="ttname"><a href="structinja_1_1InjaError.html">inja::InjaError</a></div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00255">inja.hpp:255</a></div></div>
 <div class="ttc" id="astructinja_1_1InjaError_html_a427af6ae1ff2209118a01c03a6f650a1"><div class="ttname"><a href="structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1">inja::InjaError::type</a></div><div class="ttdeci">const std::string type</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00256">inja.hpp:256</a></div></div>
 <div class="ttc" id="astructinja_1_1InjaError_html_a42b0040364f55512c36ae90303fad033"><div class="ttname"><a href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">inja::InjaError::location</a></div><div class="ttdeci">const SourceLocation location</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00259">inja.hpp:259</a></div></div>
@@ -643,10 +644,10 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00115">115</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  115</span>                                                                    {</div>
-<div class="line"><span class="lineno">  116</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;a href=\&quot;&quot;</span> + link + <span class="stringliteral">&quot;\&quot; style=\&quot;color:inherit;\&quot;&gt;&quot;</span> + text + <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno">  117</span>}</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00114">114</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  114</span>                                                                    {</div>
+<div class="line"><span class="lineno">  115</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;a href=\&quot;&quot;</span> + link + <span class="stringliteral">&quot;\&quot; style=\&quot;color:inherit;\&quot;&gt;&quot;</span> + text + <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  116</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -702,26 +703,26 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00119">119</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  119</span>                                                                                                                               {</div>
-<div class="line"><span class="lineno">  120</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;a href=\&quot;#\&quot; onClick=\&quot;&quot;</span></div>
-<div class="line"><span class="lineno">  121</span>           <span class="stringliteral">&quot;let key = &#39;&quot;</span> +</div>
-<div class="line"><span class="lineno">  122</span>           windowId +</div>
-<div class="line"><span class="lineno">  123</span>           <span class="stringliteral">&quot;&#39;; &quot;</span></div>
-<div class="line"><span class="lineno">  124</span>           <span class="stringliteral">&quot;if (!localStorage.getItem(key)) &quot;</span></div>
-<div class="line"><span class="lineno">  125</span>           <span class="stringliteral">&quot;  localStorage.setItem(key, key + &#39;-&#39; + Math.random().toString(36).substr(2, 6)); &quot;</span></div>
-<div class="line"><span class="lineno">  126</span>           <span class="stringliteral">&quot;let uniqueId = localStorage.getItem(key); &quot;</span></div>
-<div class="line"><span class="lineno">  127</span>           <span class="stringliteral">&quot;if (!window._openWindows) window._openWindows = {}; &quot;</span></div>
-<div class="line"><span class="lineno">  128</span>           <span class="stringliteral">&quot;if (!window._openWindows[uniqueId] || window._openWindows[uniqueId].closed) { &quot;</span></div>
-<div class="line"><span class="lineno">  129</span>           <span class="stringliteral">&quot;  window._openWindows[uniqueId] = window.open(&#39;&quot;</span> +</div>
-<div class="line"><span class="lineno">  130</span>           url + <span class="stringliteral">&quot;&#39;, uniqueId, &#39;width=&quot;</span> + std::to_string(width) + <span class="stringliteral">&quot;, height=&quot;</span> + std::to_string(height) +</div>
-<div class="line"><span class="lineno">  131</span>           <span class="stringliteral">&quot;,location=no, menubar=no, status=no, toolbar=no&#39;); &quot;</span></div>
-<div class="line"><span class="lineno">  132</span>           <span class="stringliteral">&quot;} else { &quot;</span></div>
-<div class="line"><span class="lineno">  133</span>           <span class="stringliteral">&quot;  window._openWindows[uniqueId].focus(); &quot;</span></div>
-<div class="line"><span class="lineno">  134</span>           <span class="stringliteral">&quot;} return false;\&quot; &quot;</span></div>
-<div class="line"><span class="lineno">  135</span>           <span class="stringliteral">&quot;style=\&quot;color:inherit;\&quot;&gt;&quot;</span> +</div>
-<div class="line"><span class="lineno">  136</span>           text + <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno">  137</span>}</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00118">118</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  118</span>                                                                                                                               {</div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;a href=\&quot;#\&quot; onClick=\&quot;&quot;</span></div>
+<div class="line"><span class="lineno">  120</span>           <span class="stringliteral">&quot;let key = &#39;&quot;</span> +</div>
+<div class="line"><span class="lineno">  121</span>           windowId +</div>
+<div class="line"><span class="lineno">  122</span>           <span class="stringliteral">&quot;&#39;; &quot;</span></div>
+<div class="line"><span class="lineno">  123</span>           <span class="stringliteral">&quot;if (!localStorage.getItem(key)) &quot;</span></div>
+<div class="line"><span class="lineno">  124</span>           <span class="stringliteral">&quot;  localStorage.setItem(key, key + &#39;-&#39; + Math.random().toString(36).substr(2, 6)); &quot;</span></div>
+<div class="line"><span class="lineno">  125</span>           <span class="stringliteral">&quot;let uniqueId = localStorage.getItem(key); &quot;</span></div>
+<div class="line"><span class="lineno">  126</span>           <span class="stringliteral">&quot;if (!window._openWindows) window._openWindows = {}; &quot;</span></div>
+<div class="line"><span class="lineno">  127</span>           <span class="stringliteral">&quot;if (!window._openWindows[uniqueId] || window._openWindows[uniqueId].closed) { &quot;</span></div>
+<div class="line"><span class="lineno">  128</span>           <span class="stringliteral">&quot;  window._openWindows[uniqueId] = window.open(&#39;&quot;</span> +</div>
+<div class="line"><span class="lineno">  129</span>           url + <span class="stringliteral">&quot;&#39;, uniqueId, &#39;width=&quot;</span> + std::to_string(width) + <span class="stringliteral">&quot;, height=&quot;</span> + std::to_string(height) +</div>
+<div class="line"><span class="lineno">  130</span>           <span class="stringliteral">&quot;,location=no, menubar=no, status=no, toolbar=no&#39;); &quot;</span></div>
+<div class="line"><span class="lineno">  131</span>           <span class="stringliteral">&quot;} else { &quot;</span></div>
+<div class="line"><span class="lineno">  132</span>           <span class="stringliteral">&quot;  window._openWindows[uniqueId].focus(); &quot;</span></div>
+<div class="line"><span class="lineno">  133</span>           <span class="stringliteral">&quot;} return false;\&quot; &quot;</span></div>
+<div class="line"><span class="lineno">  134</span>           <span class="stringliteral">&quot;style=\&quot;color:inherit;\&quot;&gt;&quot;</span> +</div>
+<div class="line"><span class="lineno">  135</span>           text + <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  136</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -853,7 +854,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  625</span>    <span class="keywordflow">return</span> core::SNodeC::start();</div>
 <div class="line"><span class="lineno">  626</span>}</div>
 <div class="ttc" id="aclassinja_1_1Environment_html"><div class="ttname"><a href="classinja_1_1Environment.html">inja::Environment</a></div><div class="ttdoc">Class for changing the configuration.</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02851">inja.hpp:2851</a></div></div>
-<div class="ttc" id="amqttbroker_8cpp_html_a760fc46c377e0486748aceb5686e3741"><div class="ttname"><a href="mqttbroker_8cpp.html#a760fc46c377e0486748aceb5686e3741">getRouter</a></div><div class="ttdeci">static express::Router getRouter(inja::Environment environment, std::shared_ptr&lt; iot::mqtt::server::broker::Broker &gt; broker)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00269">mqttbroker.cpp:269</a></div></div>
+<div class="ttc" id="amqttbroker_8cpp_html_a760fc46c377e0486748aceb5686e3741"><div class="ttname"><a href="mqttbroker_8cpp.html#a760fc46c377e0486748aceb5686e3741">getRouter</a></div><div class="ttdeci">static express::Router getRouter(inja::Environment environment, std::shared_ptr&lt; iot::mqtt::server::broker::Broker &gt; broker)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00270">mqttbroker.cpp:270</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1084,39 +1085,39 @@ template&lt;template&lt; typename, typename... &gt; typename SocketServer, typen
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00236">236</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  236</span>                                                     {</div>
-<div class="line"><span class="lineno">  237</span>    std::string decoded;</div>
-<div class="line"><span class="lineno">  238</span>    <span class="keywordtype">size_t</span> i = 0;</div>
-<div class="line"><span class="lineno">  239</span> </div>
-<div class="line"><span class="lineno">  240</span>    <span class="keywordflow">while</span> (i &lt; encoded.length()) {</div>
-<div class="line"><span class="lineno">  241</span>        <span class="keywordtype">char</span> ch = encoded[i];</div>
-<div class="line"><span class="lineno">  242</span>        <span class="keywordflow">if</span> (ch == <span class="charliteral">&#39;%&#39;</span>) {</div>
-<div class="line"><span class="lineno">  243</span>            <span class="comment">// Make sure there are at least two characters after &#39;%&#39;</span></div>
-<div class="line"><span class="lineno">  244</span>            <span class="keywordflow">if</span> (i + 2 &lt; encoded.length() &amp;&amp; std::isxdigit(encoded[i + 1]) &amp;&amp; std::isxdigit(encoded[i + 2])) {</div>
-<div class="line"><span class="lineno">  245</span>                <span class="comment">// Convert the two hex digits to a character</span></div>
-<div class="line"><span class="lineno">  246</span>                std::string hexValue = encoded.substr(i + 1, 2);</div>
-<div class="line"><span class="lineno">  247</span>                <span class="keywordtype">char</span> decodedChar = <span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(std::stoi(hexValue, <span class="keyword">nullptr</span>, 16));</div>
-<div class="line"><span class="lineno">  248</span>                decoded.push_back(decodedChar);</div>
-<div class="line"><span class="lineno">  249</span>                i += 3; <span class="comment">// Skip over the % and the two hex digits</span></div>
-<div class="line"><span class="lineno">  250</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  251</span>                <span class="comment">// Malformed encoding, just add the &#39;%&#39; as is.</span></div>
-<div class="line"><span class="lineno">  252</span>                decoded.push_back(ch);</div>
-<div class="line"><span class="lineno">  253</span>                ++i;</div>
-<div class="line"><span class="lineno">  254</span>            }</div>
-<div class="line"><span class="lineno">  255</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ch == <span class="charliteral">&#39;+&#39;</span>) {</div>
-<div class="line"><span class="lineno">  256</span>            <span class="comment">// Convert &#39;+&#39; to space (common in URL encoding)</span></div>
-<div class="line"><span class="lineno">  257</span>            decoded.push_back(<span class="charliteral">&#39; &#39;</span>);</div>
-<div class="line"><span class="lineno">  258</span>            ++i;</div>
-<div class="line"><span class="lineno">  259</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  260</span>            <span class="comment">// Regular character, just append it.</span></div>
-<div class="line"><span class="lineno">  261</span>            decoded.push_back(ch);</div>
-<div class="line"><span class="lineno">  262</span>            ++i;</div>
-<div class="line"><span class="lineno">  263</span>        }</div>
-<div class="line"><span class="lineno">  264</span>    }</div>
-<div class="line"><span class="lineno">  265</span> </div>
-<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">return</span> decoded;</div>
-<div class="line"><span class="lineno">  267</span>}</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_8cpp_source.html#l00237">237</a> of file <a class="el" href="mqttbroker_8cpp_source.html">mqttbroker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  237</span>                                                     {</div>
+<div class="line"><span class="lineno">  238</span>    std::string decoded;</div>
+<div class="line"><span class="lineno">  239</span>    <span class="keywordtype">size_t</span> i = 0;</div>
+<div class="line"><span class="lineno">  240</span> </div>
+<div class="line"><span class="lineno">  241</span>    <span class="keywordflow">while</span> (i &lt; encoded.length()) {</div>
+<div class="line"><span class="lineno">  242</span>        <span class="keywordtype">char</span> ch = encoded[i];</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">if</span> (ch == <span class="charliteral">&#39;%&#39;</span>) {</div>
+<div class="line"><span class="lineno">  244</span>            <span class="comment">// Make sure there are at least two characters after &#39;%&#39;</span></div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">if</span> (i + 2 &lt; encoded.length() &amp;&amp; std::isxdigit(encoded[i + 1]) &amp;&amp; std::isxdigit(encoded[i + 2])) {</div>
+<div class="line"><span class="lineno">  246</span>                <span class="comment">// Convert the two hex digits to a character</span></div>
+<div class="line"><span class="lineno">  247</span>                std::string hexValue = encoded.substr(i + 1, 2);</div>
+<div class="line"><span class="lineno">  248</span>                <span class="keywordtype">char</span> decodedChar = <span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(std::stoi(hexValue, <span class="keyword">nullptr</span>, 16));</div>
+<div class="line"><span class="lineno">  249</span>                decoded.push_back(decodedChar);</div>
+<div class="line"><span class="lineno">  250</span>                i += 3; <span class="comment">// Skip over the % and the two hex digits</span></div>
+<div class="line"><span class="lineno">  251</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  252</span>                <span class="comment">// Malformed encoding, just add the &#39;%&#39; as is.</span></div>
+<div class="line"><span class="lineno">  253</span>                decoded.push_back(ch);</div>
+<div class="line"><span class="lineno">  254</span>                ++i;</div>
+<div class="line"><span class="lineno">  255</span>            }</div>
+<div class="line"><span class="lineno">  256</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ch == <span class="charliteral">&#39;+&#39;</span>) {</div>
+<div class="line"><span class="lineno">  257</span>            <span class="comment">// Convert &#39;+&#39; to space (common in URL encoding)</span></div>
+<div class="line"><span class="lineno">  258</span>            decoded.push_back(<span class="charliteral">&#39; &#39;</span>);</div>
+<div class="line"><span class="lineno">  259</span>            ++i;</div>
+<div class="line"><span class="lineno">  260</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  261</span>            <span class="comment">// Regular character, just append it.</span></div>
+<div class="line"><span class="lineno">  262</span>            decoded.push_back(ch);</div>
+<div class="line"><span class="lineno">  263</span>            ++i;</div>
+<div class="line"><span class="lineno">  264</span>        }</div>
+<div class="line"><span class="lineno">  265</span>    }</div>
+<div class="line"><span class="lineno">  266</span> </div>
+<div class="line"><span class="lineno">  267</span>    <span class="keywordflow">return</span> decoded;</div>
+<div class="line"><span class="lineno">  268</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1126,7 +1127,7 @@ template&lt;template&lt; typename, typename... &gt; typename SocketServer, typen
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6923aae39fdce29699351e77c1fed0e3.html">mqttbroker</a></li><li class="navelem"><a class="el" href="mqttbroker_8cpp.html">mqttbroker.cpp</a></li>
-    <li class="footer">Generated on Wed Apr 16 2025 09:07:41 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Apr 18 2025 17:16:45 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
