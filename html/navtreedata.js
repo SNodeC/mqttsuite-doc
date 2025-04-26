@@ -112,7 +112,7 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
+        [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
@@ -132,8 +132,8 @@ var NAVTREEINDEX =
 "classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaf8d73b588e50698be0fcd832148b1fc",
 "classnlohmann_1_1json__patch.html#a8559f73038c471c37a7d6f4234c6aaa7",
 "functions_j.html",
-"mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a88154b588a05d154f9f7bbdacc2693fb",
-"structinja_1_1LexerConfig.html#a990bd8c59af8bf6f31bd0debb390a5b8"
+"mqttbroker_2websocket_2SubProtocolFactory_8h.html#a54175f6171046940c37fd95dda73b7d7",
+"structinja_1_1ParserError.html#aa76b83dd1badd3fcf64aff6feee7583c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

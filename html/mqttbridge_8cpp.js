@@ -2,7 +2,5 @@ var mqttbridge_8cpp =
 [
     [ "main", "mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97", null ],
     [ "reportState", "mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0", null ],
-    [ "startClient", "mqttbridge_8cpp.html#a006f58b80a01a3aa111e79970bd44c34", null ],
-    [ "startClient", "mqttbridge_8cpp.html#a7fd9184265ebd2802be64fa96411a5b8", null ],
     [ "startClient", "mqttbridge_8cpp.html#a3778dc96e8661f52ab44dfb543b2edca", null ]
 ];
