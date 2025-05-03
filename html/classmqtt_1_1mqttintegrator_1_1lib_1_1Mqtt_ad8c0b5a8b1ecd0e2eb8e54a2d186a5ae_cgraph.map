@@ -1,5 +1,20 @@
 <map id="mqtt::mqttintegrator::lib::Mqtt::Mqtt" name="mqtt::mqttintegrator::lib::Mqtt::Mqtt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,161,45"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#ae244e3745588740bf513016cb0f06a74" title=" " alt="" coords="209,5,373,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,23,195,23,195,28,162,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,92,161,132"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#ae244e3745588740bf513016cb0f06a74" title=" " alt="" coords="209,92,373,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,109,195,109,195,115,162,115"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Environment.html#aacf2afb515ec7efb0b844174093fed6d" title="Adds a variadic callback." alt="" coords="421,5,567,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,89,433,48,435,53,340,94"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1Environment.html#accda3196054131f8e8cd484ef92c0627" title="Adds a callback with given number or arguments." alt="" coords="615,60,760,100"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="373,103,601,84,601,90,374,108"/>
+<area shape="rect" id="Node000007" href="$classinja_1_1Environment.html#abf3676db94a59534d715e83f4d5e4940" title="Adds a variadic void callback." alt="" coords="421,120,567,160"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="374,121,408,126,408,131,373,126"/>
+<area shape="rect" id="Node000008" href="$classinja_1_1Environment.html#a3467986ae633a7c546a62c387b6c613f" title="Adds a void callback with given number or arguments." alt="" coords="615,124,760,164"/>
+<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="327,130,371,152,422,169,467,176,514,176,601,164,602,169,514,181,467,181,421,175,369,157,324,135"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="566,43,604,54,602,59,565,48"/>
+<area shape="rect" id="Node000005" href="$classinja_1_1FunctionStorage.html#ae6060e88dacd550e8b48992fd6f0500f" title=" " alt="" coords="808,92,967,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="761,89,795,95,794,100,760,94"/>
+<area shape="rect" id="Node000006" href="$structinja_1_1FunctionStorage_1_1FunctionData.html#a7e038999d61d736eb2868f64e4820ad7" title=" " alt="" coords="1015,92,1225,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="967,109,1001,109,1001,115,967,115"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="567,139,601,140,600,145,567,144"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="760,130,794,124,795,129,761,135"/>
 </map>

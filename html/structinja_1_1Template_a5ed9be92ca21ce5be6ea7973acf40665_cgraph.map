@@ -1,0 +1,9 @@
+<map id="inja::Template::count_variables" name="inja::Template::count_variables">
+<area shape="rect" id="Node000001" title="Return number of variables (total number, not distinct ones) in the template." alt="" coords="5,35,164,75"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1BlockNode.html#afa264eaa0a42e9f38086e93530b164be" title=" " alt="" coords="212,13,387,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,41,198,36,199,42,165,46"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1StatisticsVisitor.html#ab8dfd9b9d27662d06449e2abe9767082" title=" " alt="" coords="221,63,377,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,62,208,68,207,73,164,68"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1NodeVisitor.html#afecb3de947b76e68094be2a72eedea09" title=" " alt="" coords="435,5,573,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,23,421,23,421,28,387,28"/>
+</map>

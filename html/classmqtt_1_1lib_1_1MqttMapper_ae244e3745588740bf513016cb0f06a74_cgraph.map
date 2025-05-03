@@ -1,0 +1,18 @@
+<map id="mqtt::lib::MqttMapper::MqttMapper" name="mqtt::lib::MqttMapper::MqttMapper">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,92,169,132"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#aacf2afb515ec7efb0b844174093fed6d" title="Adds a variadic callback." alt="" coords="217,5,363,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,89,229,48,231,53,136,94"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Environment.html#accda3196054131f8e8cd484ef92c0627" title="Adds a callback with given number or arguments." alt="" coords="411,60,556,100"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="169,103,397,84,397,90,170,108"/>
+<area shape="rect" id="Node000006" href="$classinja_1_1Environment.html#abf3676db94a59534d715e83f4d5e4940" title="Adds a variadic void callback." alt="" coords="217,120,363,160"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="170,121,204,126,204,131,169,126"/>
+<area shape="rect" id="Node000007" href="$classinja_1_1Environment.html#a3467986ae633a7c546a62c387b6c613f" title="Adds a void callback with given number or arguments." alt="" coords="411,124,556,164"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="123,130,167,152,218,169,263,176,310,176,397,164,398,169,310,181,263,181,217,175,165,157,120,135"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,43,400,54,398,59,361,48"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1FunctionStorage.html#ae6060e88dacd550e8b48992fd6f0500f" title=" " alt="" coords="604,92,763,132"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="557,89,591,95,590,100,556,94"/>
+<area shape="rect" id="Node000005" href="$structinja_1_1FunctionStorage_1_1FunctionData.html#a7e038999d61d736eb2868f64e4820ad7" title=" " alt="" coords="811,92,1021,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="763,109,797,109,797,115,763,115"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="363,139,397,140,396,145,363,144"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="556,130,590,124,591,129,557,135"/>
+</map>

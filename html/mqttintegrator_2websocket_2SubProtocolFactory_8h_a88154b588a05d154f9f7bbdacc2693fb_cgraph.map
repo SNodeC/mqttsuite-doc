@@ -1,6 +1,7 @@
 <map id="mqttClientSubProtocolFactory" name="mqttClientSubProtocolFactory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,44,221,69"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#ade7db7c88aa941a79c804e5812ce6170" title=" " alt="" coords="269,29,508,84"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,54,255,54,255,59,222,59"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="336,29,336,19,345,10,363,5,389,3,420,6,437,14,435,18,418,11,389,8,364,10,348,15,341,21,341,29"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,60,221,85"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#ade7db7c88aa941a79c804e5812ce6170" title=" " alt="" coords="269,5,508,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,57,255,49,256,55,202,63"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html#aaf0d96b9d91cd579fe4c68d4884b22c0" title=" " alt="" coords="273,84,505,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,83,259,90,259,96,204,88"/>
 </map>

@@ -2,4 +2,8 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,200,45"/>
 <area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#a1f9a18345aa7b2b8fc5745ce4aea9e7a" title=" " alt="" coords="248,5,435,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,23,234,23,234,28,200,28"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html#a510c9f6435a9a660cdaa24dc1157ccd1" title=" " alt="" coords="483,5,669,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,23,469,23,469,28,435,28"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1MqttMapper.html#a621835aa27e24b3893052ef5227f6deb" title=" " alt="" coords="717,5,881,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="670,23,704,23,704,28,670,28"/>
 </map>

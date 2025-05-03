@@ -1,0 +1,13 @@
+<map id="inja::Environment::add_callback" name="inja::Environment::add_callback">
+<area shape="rect" id="Node000001" title="Adds a variadic callback." alt="" coords="655,49,800,89"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#ae244e3745588740bf513016cb0f06a74" title=" " alt="" coords="443,49,607,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="641,71,607,71,607,66,641,66"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#ad8c0b5a8b1ecd0e2eb8e54a2d186a5ae" title=" " alt="" coords="238,15,394,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="429,56,394,50,395,45,430,51"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a183033437406ea7be6c978ab3153bad5" title=" " alt="" coords="237,81,395,121"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="430,86,395,91,394,86,429,81"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="11,5,183,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="224,37,184,36,184,31,225,32"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="5,85,189,125"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="224,105,190,106,189,100,224,100"/>
+</map>

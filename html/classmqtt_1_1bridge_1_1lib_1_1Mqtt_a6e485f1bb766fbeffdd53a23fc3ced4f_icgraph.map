@@ -1,4 +1,7 @@
 <map id="mqtt::bridge::lib::Mqtt::Mqtt" name="mqtt::bridge::lib::Mqtt::Mqtt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,140,69"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="94,17,87,10,73,8,60,10,53,14,50,20,52,29,47,29,45,20,49,11,59,5,73,3,89,6,98,13"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="264,37,399,77"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html#a1f9ab899e4c3205913ba2841ae69dc33" title=" " alt="" coords="9,5,213,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,48,212,43,213,37,250,43"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#a843ee73f0182cea879cd45d9e924db8e" title=" " alt="" coords="5,69,216,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,72,217,77,216,71,250,66"/>
 </map>

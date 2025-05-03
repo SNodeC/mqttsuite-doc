@@ -46,7 +46,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 769;
+var viewWidth = 948;
 var viewHeight = 159;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,8 +58,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="357,-151 257,-151 257,-132 357,-132 357,-151"/>
-<text text-anchor="middle" x="307" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">lib/MqttMapper.h</text>
+<polygon fill="#999999" stroke="#666666" points="442,-151 342,-151 342,-132 442,-132 442,-151"/>
+<text text-anchor="middle" x="392" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">lib/MqttMapper.h</text>
 </a>
 </g>
 </g>
@@ -67,8 +67,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="MqttMapper_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="228.5,-90.5 117.5,-90.5 117.5,-71.5 228.5,-71.5 228.5,-90.5"/>
-<text text-anchor="middle" x="173" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">lib/MqttMapper.cpp</text>
+<polygon fill="white" stroke="#666666" points="313.5,-90.5 202.5,-90.5 202.5,-71.5 313.5,-71.5 313.5,-90.5"/>
+<text text-anchor="middle" x="258" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">lib/MqttMapper.cpp</text>
 </a>
 </g>
 </g>
@@ -76,8 +76,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M278.21,-127.93C252.34,-116.64 215.05,-100.36 192.51,-90.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="276.95,-131.2 287.52,-131.99 279.75,-124.78 276.95,-131.2"/>
+<path fill="none" stroke="#63b8ff" d="M363.21,-127.93C337.34,-116.64 300.05,-100.36 277.51,-90.52"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="361.95,-131.2 372.52,-131.99 364.75,-124.78 361.95,-131.2"/>
 </a>
 </g>
 </g>
@@ -85,8 +85,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="mqttbroker_2lib_2Mqtt_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="367,-90.5 247,-90.5 247,-71.5 367,-71.5 367,-90.5"/>
-<text text-anchor="middle" x="307" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbroker/lib/Mqtt.h</text>
+<polygon fill="white" stroke="#666666" points="452,-90.5 332,-90.5 332,-71.5 452,-71.5 452,-90.5"/>
+<text text-anchor="middle" x="392" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbroker/lib/Mqtt.h</text>
 </a>
 </g>
 </g>
@@ -94,27 +94,27 @@ var sectionId = 'dynsection-0';
 <g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M307,-121.66C307,-111.24 307,-98.8 307,-90.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="303.5,-121.87 307,-131.87 310.5,-121.87 303.5,-121.87"/>
+<path fill="none" stroke="#63b8ff" d="M392,-121.66C392,-111.24 392,-98.8 392,-90.67"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="388.5,-121.87 392,-131.87 395.5,-121.87 388.5,-121.87"/>
 </a>
 </g>
 </g>
-<!-- Node7 -->
-<g id="Node000007" class="node">
-<title>Node7</title>
-<g id="a_Node000007"><a xlink:href="mqttintegrator_2lib_2Mqtt_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="610.5,-96 507.5,-96 507.5,-66 610.5,-66 610.5,-96"/>
-<text text-anchor="start" x="515.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/lib</text>
-<text text-anchor="middle" x="559" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/Mqtt.h</text>
+<!-- Node8 -->
+<g id="Node000008" class="node">
+<title>Node8</title>
+<g id="a_Node000008"><a xlink:href="mqttintegrator_2lib_2Mqtt_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="789.5,-96 686.5,-96 686.5,-66 789.5,-66 789.5,-96"/>
+<text text-anchor="start" x="694.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/lib</text>
+<text text-anchor="middle" x="738" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/Mqtt.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6_Node000001_Node000007" class="edge">
-<title>Node1&#45;&gt;Node7</title>
-<g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M353.43,-129.72C397.05,-119.59 462.23,-104.47 507.45,-93.97"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="352.59,-126.32 343.64,-131.99 354.18,-133.14 352.59,-126.32"/>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7_Node000001_Node000008" class="edge">
+<title>Node1&#45;&gt;Node8</title>
+<g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M452.2,-130.32C518.47,-119.12 623.91,-101.29 686.5,-90.71"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="451.59,-126.88 442.31,-131.99 452.75,-133.78 451.59,-126.88"/>
 </a>
 </g>
 </g>
@@ -132,8 +132,8 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M265.47,-68.69C225.97,-57.93 166.42,-41.72 123.83,-30.12"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="264.74,-72.12 275.31,-71.37 266.58,-65.36 264.74,-72.12"/>
+<path fill="none" stroke="#63b8ff" d="M339.15,-69.43C285.31,-58.66 201.5,-41.9 142.12,-30.02"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="338.68,-72.91 349.18,-71.44 340.06,-66.04 338.68,-72.91"/>
 </a>
 </g>
 </g>
@@ -150,17 +150,17 @@ var sectionId = 'dynsection-0';
 <g id="edge4_Node000003_Node000005" class="edge">
 <title>Node3&#45;&gt;Node5</title>
 <g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M288.47,-64.99C273,-52.46 251.5,-35.04 238.74,-24.7"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="286.37,-67.79 296.35,-71.37 290.78,-62.35 286.37,-67.79"/>
+<path fill="none" stroke="#63b8ff" d="M360.42,-67.68C328.01,-55.03 278.43,-35.68 250.03,-24.6"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="359.29,-70.99 369.88,-71.37 361.84,-64.47 359.29,-70.99"/>
 </a>
 </g>
 </g>
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="mqttbroker_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="460,-24.5 312,-24.5 312,-5.5 460,-5.5 460,-24.5"/>
-<text text-anchor="middle" x="386" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbroker/mqttbroker.cpp</text>
+<g id="a_Node000006"><a xlink:href="MqttModel_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="472.5,-24.5 311.5,-24.5 311.5,-5.5 472.5,-5.5 472.5,-24.5"/>
+<text text-anchor="middle" x="392" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbroker/lib/MqttModel.cpp</text>
 </a>
 </g>
 </g>
@@ -168,46 +168,64 @@ var sectionId = 'dynsection-0';
 <g id="edge5_Node000003_Node000006" class="edge">
 <title>Node3&#45;&gt;Node6</title>
 <g id="a_edge5_Node000003_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M325.53,-64.99C341,-52.46 362.5,-35.04 375.26,-24.7"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="323.22,-62.35 317.65,-71.37 327.63,-67.79 323.22,-62.35"/>
+<path fill="none" stroke="#63b8ff" d="M392,-61.08C392,-49.13 392,-34.22 392,-24.91"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="388.5,-61.37 392,-71.37 395.5,-61.37 388.5,-61.37"/>
 </a>
 </g>
 </g>
-<!-- Node8 -->
-<g id="Node000008" class="node">
-<title>Node8</title>
-<g id="a_Node000008"><a xlink:href="mqttintegrator_2SocketContextFactory_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="639.5,-30 478.5,-30 478.5,0 639.5,0 639.5,-30"/>
-<text text-anchor="start" x="486.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/SocketContext</text>
-<text text-anchor="middle" x="559" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Factory.cpp</text>
+<!-- Node7 -->
+<g id="Node000007" class="node">
+<title>Node7</title>
+<g id="a_Node000007"><a xlink:href="mqttbroker_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="639,-24.5 491,-24.5 491,-5.5 639,-5.5 639,-24.5"/>
+<text text-anchor="middle" x="565" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbroker/mqttbroker.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7_Node000007_Node000008" class="edge">
-<title>Node7&#45;&gt;Node8</title>
-<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M559,-55.54C559,-46.96 559,-37.61 559,-30.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="555.5,-55.8 559,-65.8 562.5,-55.8 555.5,-55.8"/>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge6_Node000003_Node000007" class="edge">
+<title>Node3&#45;&gt;Node7</title>
+<g id="a_edge6_Node000003_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M424.87,-67.84C459.05,-55.2 511.67,-35.73 541.76,-24.6"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="423.5,-64.62 415.33,-71.37 425.92,-71.18 423.5,-64.62"/>
 </a>
 </g>
 </g>
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="mqttintegrator_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="760.5,-30 657.5,-30 657.5,0 760.5,0 760.5,-30"/>
-<text text-anchor="start" x="665.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/lib</text>
-<text text-anchor="middle" x="709" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/Mqtt.cpp</text>
+<g id="a_Node000009"><a xlink:href="mqttintegrator_2SocketContextFactory_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="818.5,-30 657.5,-30 657.5,0 818.5,0 818.5,-30"/>
+<text text-anchor="start" x="665.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/SocketContext</text>
+<text text-anchor="middle" x="738" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Factory.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge8_Node000007_Node000009" class="edge">
-<title>Node7&#45;&gt;Node9</title>
-<g id="a_edge8_Node000007_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M601.38,-61.92C625.08,-51.8 654.19,-39.38 676.16,-30.01"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="599.74,-58.81 591.92,-65.95 602.49,-65.25 599.74,-58.81"/>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge8_Node000008_Node000009" class="edge">
+<title>Node8&#45;&gt;Node9</title>
+<g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M738,-55.54C738,-46.96 738,-37.61 738,-30.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="734.5,-55.8 738,-65.8 741.5,-55.8 734.5,-55.8"/>
+</a>
+</g>
+</g>
+<!-- Node10 -->
+<g id="Node000010" class="node">
+<title>Node10</title>
+<g id="a_Node000010"><a xlink:href="mqttintegrator_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="939.5,-30 836.5,-30 836.5,0 939.5,0 939.5,-30"/>
+<text text-anchor="start" x="844.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/lib</text>
+<text text-anchor="middle" x="888" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/Mqtt.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge9_Node000008_Node000010" class="edge">
+<title>Node8&#45;&gt;Node10</title>
+<g id="a_edge9_Node000008_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M780.38,-61.92C804.08,-51.8 833.19,-39.38 855.16,-30.01"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="778.74,-58.81 770.92,-65.95 781.49,-65.25 778.74,-58.81"/>
 </a>
 </g>
 </g>

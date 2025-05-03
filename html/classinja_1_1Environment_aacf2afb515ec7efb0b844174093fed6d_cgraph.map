@@ -1,0 +1,9 @@
+<map id="inja::Environment::add_callback" name="inja::Environment::add_callback">
+<area shape="rect" id="Node000001" title="Adds a variadic callback." alt="" coords="5,5,151,45"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#accda3196054131f8e8cd484ef92c0627" title="Adds a callback with given number or arguments." alt="" coords="199,5,344,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,23,184,23,184,28,151,28"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1FunctionStorage.html#ae6060e88dacd550e8b48992fd6f0500f" title=" " alt="" coords="392,5,551,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,23,379,23,379,28,344,28"/>
+<area shape="rect" id="Node000004" href="$structinja_1_1FunctionStorage_1_1FunctionData.html#a7e038999d61d736eb2868f64e4820ad7" title=" " alt="" coords="599,5,809,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="551,23,585,23,585,28,551,28"/>
+</map>

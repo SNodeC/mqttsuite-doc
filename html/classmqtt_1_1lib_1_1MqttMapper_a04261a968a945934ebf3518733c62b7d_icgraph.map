@@ -1,5 +1,13 @@
 <map id="mqtt::lib::MqttMapper::publishMappedTemplate" name="mqtt::lib::MqttMapper::publishMappedTemplate">
-<area shape="rect" id="Node000001" title=" " alt="" coords="249,5,439,45"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#aae1c8da19646ae1ada8d497fef0df12d" title=" " alt="" coords="5,5,201,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,28,202,28,202,23,236,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="680,69,869,109"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#aae1c8da19646ae1ada8d497fef0df12d" title=" " alt="" coords="436,69,632,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,92,632,92,632,87,666,87"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html#a279b13d33784be36c0b524a8796e194a" title=" " alt="" coords="224,69,388,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,92,388,92,388,87,422,87"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a35dd670ca3b7d67cffbbce1cf7c71ffb" title=" " alt="" coords="12,5,169,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="224,68,158,48,159,43,225,63"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a211408365844787ce77340f454b9cbd0" title=" " alt="" coords="13,69,169,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="210,92,169,92,169,87,210,87"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a3426a2c9d850ad17f0134580a09d9527" title=" " alt="" coords="5,133,176,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="225,116,159,136,158,131,224,111"/>
 </map>

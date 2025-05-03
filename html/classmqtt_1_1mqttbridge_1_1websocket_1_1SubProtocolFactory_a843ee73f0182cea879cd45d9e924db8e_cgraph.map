@@ -1,21 +1,46 @@
 <map id="mqtt::mqttbridge::websocket::SubProtocolFactory::create" name="mqtt::mqttbridge::websocket::SubProtocolFactory::create">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,261,216,301"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,312,216,352"/>
 <area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#acff6cddc56c9cdc2b0688d6482034131" title=" " alt="" coords="290,5,425,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,260,138,217,170,162,211,105,236,79,262,55,276,46,279,51,266,59,239,82,215,109,174,165,143,220,123,262"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,311,132,260,162,191,205,119,232,85,262,55,276,45,280,50,266,59,236,89,209,122,167,194,137,262,120,313"/>
 <area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab1a10df244656b0538341abe0d1b575e" title=" " alt="" coords="273,69,442,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,260,180,191,219,153,263,119,273,113,276,118,265,124,222,157,184,195,128,263"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a6d2569d96d1c3c9775d3094a57d298e0" title=" " alt="" coords="286,133,429,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,259,194,221,263,183,278,176,281,181,265,188,197,226,141,263"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a6eb76f6da39d0e64d2795ff275841042" title=" " alt="" coords="276,197,439,237"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="188,259,266,238,267,243,189,264"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a5524fd860edafd4abd60d6a26dc2f316" title=" " alt="" coords="264,261,451,301"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="216,279,250,279,250,284,216,284"/>
-<area shape="rect" id="Node000007" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a0e0d9cc3ced601acae6ace51438070b7" title=" " alt="" coords="290,325,425,365"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="189,299,277,322,276,327,188,304"/>
-<area shape="rect" id="Node000008" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a95796f4a7ef94d4ca6596fb436bb97ca" title=" " alt="" coords="284,389,431,429"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="141,299,197,337,265,375,281,382,278,387,263,380,194,341,138,304"/>
-<area shape="rect" id="Node000009" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#ab06b48a9b2540604ca385935b79aa351" title=" " alt="" coords="280,453,435,493"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="128,300,184,368,222,406,265,439,276,445,273,450,263,444,219,410,180,371,124,303"/>
-<area shape="rect" id="Node000010" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1" title=" " alt="" coords="277,517,438,557"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="123,301,143,343,174,397,215,454,239,480,266,503,273,508,270,513,262,507,236,484,211,457,170,400,138,345,118,303"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,311,142,272,173,223,214,172,262,126,281,113,284,118,266,130,218,175,178,226,146,275,125,313"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a6d2569d96d1c3c9775d3094a57d298e0" title=" " alt="" coords="547,204,689,244"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="121,310,143,277,175,237,215,199,263,170,302,157,342,151,383,151,424,156,500,173,563,196,561,201,498,178,423,161,383,157,342,157,303,162,265,174,218,203,179,241,147,280,126,313"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a6eb76f6da39d0e64d2795ff275841042" title=" " alt="" coords="276,184,439,224"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="138,310,194,272,263,234,278,227,281,232,265,238,197,277,141,314"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a5524fd860edafd4abd60d6a26dc2f316" title=" " alt="" coords="264,248,451,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="188,309,266,289,267,294,189,315"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a0e0d9cc3ced601acae6ace51438070b7" title=" " alt="" coords="290,312,425,352"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="216,329,276,329,276,335,216,335"/>
+<area shape="rect" id="Node000008" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a95796f4a7ef94d4ca6596fb436bb97ca" title=" " alt="" coords="284,376,431,416"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="189,349,272,371,270,376,188,355"/>
+<area shape="rect" id="Node000009" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a42387cd6087e5d11c2bc441a64dfaffc" title=" " alt="" coords="290,440,425,480"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="141,350,197,387,265,426,281,432,278,437,263,430,194,392,138,354"/>
+<area shape="rect" id="Node000010" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#ab06b48a9b2540604ca385935b79aa351" title=" " alt="" coords="280,504,435,544"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="128,350,184,418,222,456,265,490,276,496,273,500,263,494,219,460,180,422,124,354"/>
+<area shape="rect" id="Node000011" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1" title=" " alt="" coords="277,568,438,608"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="123,351,143,394,174,448,215,505,239,531,266,554,273,559,270,563,262,558,236,535,211,508,170,451,138,396,118,354"/>
+<area shape="rect" id="Node000012" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="290,632,425,672"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="120,352,136,405,165,476,208,552,235,587,266,618,279,628,276,632,262,622,231,591,204,555,160,479,131,406,115,353"/>
+<area shape="poly" id="edge13_Node000012_Node000004" title=" " alt="" coords="423,637,449,618,472,583,482,549,484,515,480,482,476,447,474,411,480,372,496,331,512,307,531,285,572,250,575,254,535,289,516,310,501,333,485,374,479,411,481,447,485,481,489,515,487,550,477,585,453,622,427,641"/>
+<area shape="rect" id="Node000013" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a7ef2ec65092282a8690a4c1f6ddeba8b" title=" " alt="" coords="528,344,708,384"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="424,636,449,618,467,590,474,563,474,535,471,507,468,479,468,451,477,423,497,394,514,381,517,385,501,398,482,425,474,452,473,479,476,507,480,535,479,564,472,593,453,622,427,640"/>
+<area shape="rect" id="Node000014" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a537a5d925a917be20f784ac106bc7d2e" title=" " alt="" coords="539,408,697,448"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="424,635,449,618,463,599,470,579,471,539,473,499,481,478,497,458,524,440,527,444,500,462,486,481,479,500,477,539,475,580,468,601,453,622,427,640"/>
+<area shape="rect" id="Node000015" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a12c314cbad6137819c767bc6ead98d3e" title=" " alt="" coords="521,472,715,512"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="424,634,449,618,466,595,472,571,478,546,485,534,497,522,507,515,510,519,500,526,490,537,483,548,477,572,471,597,452,622,426,638"/>
+<area shape="rect" id="Node000016" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a8b0a98fcc637171cc995cee2a8bd5685" title=" " alt="" coords="541,536,695,576"/>
+<area shape="poly" id="edge16_Node000012_Node000016" title=" " alt="" coords="422,629,449,618,473,601,497,586,527,574,528,579,500,590,476,606,452,622,424,634"/>
+<area shape="rect" id="Node000017" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a684990f7a76ea49f37375d6f6c6d1ba4" title=" " alt="" coords="499,600,737,640"/>
+<area shape="poly" id="edge17_Node000012_Node000017" title=" " alt="" coords="424,641,485,634,485,639,425,646"/>
+<area shape="rect" id="Node000018" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a750e20fe14960d3a5944ecb03bf7e269" title=" " alt="" coords="538,664,698,704"/>
+<area shape="poly" id="edge18_Node000012_Node000018" title=" " alt="" coords="425,658,525,670,524,675,424,663"/>
+<area shape="rect" id="Node000019" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a6403697d2031730753912aaaf47cb1f4" title=" " alt="" coords="530,728,706,768"/>
+<area shape="poly" id="edge19_Node000012_Node000019" title=" " alt="" coords="399,670,500,714,523,721,522,727,498,718,397,675"/>
+<area shape="rect" id="Node000020" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#ae421318ee7d0d6287cdb43d605277a5b" title=" " alt="" coords="546,792,690,832"/>
+<area shape="poly" id="edge20_Node000012_Node000020" title=" " alt="" coords="377,670,428,724,463,753,500,778,534,792,532,797,497,782,459,757,425,728,373,674"/>
+<area shape="rect" id="Node000021" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a41d9b2f5e10294198b45d1e217574f60" title=" " alt="" coords="538,856,698,896"/>
+<area shape="poly" id="edge21_Node000012_Node000021" title=" " alt="" coords="370,671,389,708,418,754,455,802,500,842,526,856,524,860,497,846,451,805,413,757,384,711,365,674"/>
+<area shape="rect" id="Node000022" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#a345589d52b437b118f272a50df7b4b7d" title=" " alt="" coords="543,920,693,960"/>
+<area shape="poly" id="edge22_Node000012_Node000022" title=" " alt="" coords="366,671,382,720,408,783,448,850,472,880,500,906,531,923,528,928,497,910,468,883,443,853,404,786,377,721,361,673"/>
 </map>

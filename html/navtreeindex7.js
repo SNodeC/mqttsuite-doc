@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"functions_j.html":[7,3,0,10],
-"functions_k.html":[7,3,0,11],
 "functions_l.html":[7,3,0,12],
 "functions_m.html":[7,3,0,13],
 "functions_n.html":[7,3,0,14],
@@ -205,17 +203,17 @@ var NAVTREEINDEX7 =
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076":[8,0,0,0,1,5,19],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076":[8,0,0,0,1,5,18],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a0794f1ca76a956200498f15bc9940fd8":[8,0,0,0,1,5,18,2],
-"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a0794f1ca76a956200498f15bc9940fd8":[8,0,0,0,1,5,19,5],
-"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a0794f1ca76a956200498f15bc9940fd8":[8,0,0,0,1,5,19,2],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a0794f1ca76a956200498f15bc9940fd8":[8,0,0,0,1,5,18,5],
-"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a1939e03aa9ded3dab6485604bf3d97cf":[8,0,0,0,1,5,18,4],
+"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a0794f1ca76a956200498f15bc9940fd8":[8,0,0,0,1,5,19,2],
+"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a0794f1ca76a956200498f15bc9940fd8":[8,0,0,0,1,5,19,5],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a1939e03aa9ded3dab6485604bf3d97cf":[8,0,0,0,1,5,19,1],
-"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a1939e03aa9ded3dab6485604bf3d97cf":[8,0,0,0,1,5,18,1],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a1939e03aa9ded3dab6485604bf3d97cf":[8,0,0,0,1,5,19,4],
-"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076abb88899f75b988ce0c344b43abe01a56":[8,0,0,0,1,5,18,0],
-"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076abb88899f75b988ce0c344b43abe01a56":[8,0,0,0,1,5,18,3],
+"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a1939e03aa9ded3dab6485604bf3d97cf":[8,0,0,0,1,5,18,1],
+"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076a1939e03aa9ded3dab6485604bf3d97cf":[8,0,0,0,1,5,18,4],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076abb88899f75b988ce0c344b43abe01a56":[8,0,0,0,1,5,19,0],
 "json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076abb88899f75b988ce0c344b43abe01a56":[8,0,0,0,1,5,19,3],
+"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076abb88899f75b988ce0c344b43abe01a56":[8,0,0,0,1,5,18,0],
+"json-validator_8cpp.html#aace25987c9413e5aafd90a1cf04eb076abb88899f75b988ce0c344b43abe01a56":[8,0,0,0,1,5,18,3],
 "json-validator_8cpp_source.html":[8,0,0,0,1,5],
 "mqttbridge_2SocketContextFactory_8cpp.html":[8,0,1,3],
 "mqttbridge_2SocketContextFactory_8cpp_source.html":[8,0,1,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "mqttbroker_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e":[8,0,2,1,0,0],
 "mqttbroker_2websocket_2SubProtocolFactory_8cpp.html#a54175f6171046940c37fd95dda73b7d7":[8,0,2,1,0,1],
 "mqttbroker_2websocket_2SubProtocolFactory_8cpp_source.html":[8,0,2,1,0],
-"mqttbroker_2websocket_2SubProtocolFactory_8h.html":[8,0,2,1,1]
+"mqttbroker_2websocket_2SubProtocolFactory_8h.html":[8,0,2,1,1],
+"mqttbroker_2websocket_2SubProtocolFactory_8h.html#a54175f6171046940c37fd95dda73b7d7":[8,0,2,1,1,1],
+"mqttbroker_2websocket_2SubProtocolFactory_8h_source.html":[8,0,2,1,1]
 };

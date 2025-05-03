@@ -1,0 +1,21 @@
+<map id="inja::Environment::render_file" name="inja::Environment::render_file">
+<area shape="rect" id="Node000001" title=" " alt="" coords="545,97,691,137"/>
+<area shape="rect" id="Node000002" href="$mqttbroker_8cpp.html#a049b5c955e78f60110433ce59da71607" title=" " alt="" coords="337,5,468,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="577,91,539,66,496,44,464,33,466,28,498,40,542,62,580,87"/>
+<area shape="rect" id="Node000005" href="$mqttbroker_8cpp.html#ad9d315824898337732fd1b67f05846c9" title=" " alt="" coords="334,55,471,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="532,100,458,83,459,77,533,94"/>
+<area shape="rect" id="Node000006" href="$mqttbroker_8cpp.html#adaabce72814f1277ee38fab80aaa1f34" title=" " alt="" coords="313,104,492,129"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="532,119,492,119,492,114,532,114"/>
+<area shape="rect" id="Node000007" href="$classinja_1_1Environment.html#a6e6c345cd66ebdfe8a9d47d59efb5e84" title=" " alt="" coords="308,154,497,194"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="533,142,479,156,478,151,531,137"/>
+<area shape="rect" id="Node000008" href="$classinja_1_1Environment.html#ab9334d7f4ebb85f36dcc27e1ecae2f3d" title=" " alt="" coords="330,218,475,258"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="585,148,545,179,499,208,472,220,470,216,496,204,542,175,582,144"/>
+<area shape="rect" id="Node000003" href="$mqttbroker_8cpp.html#a760fc46c377e0486748aceb5686e3741" title=" " alt="" coords="141,55,227,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,36,228,60,227,55,332,31"/>
+<area shape="rect" id="Node000004" href="$mqttbroker_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="127,70,60,70,60,65,127,65"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="320,70,228,70,228,65,320,65"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="332,104,227,80,228,74,333,98"/>
+<area shape="rect" id="Node000009" href="$classinja_1_1Environment.html#ad3e8c39b341641a872e62010693c27c3" title=" " alt="" coords="108,218,260,258"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="316,241,260,241,260,235,316,235"/>
+</map>

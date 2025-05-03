@@ -1,0 +1,9 @@
+<map id="inja::ForObjectStatementNode::ForObjectStatementNode" name="inja::ForObjectStatementNode::ForObjectStatementNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,233,45"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1ForStatementNode.html#ac25033c5f8e4fd975a619ccde75ae5a9" title=" " alt="" coords="281,5,457,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,23,268,23,268,28,233,28"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1StatementNode.html#a0bba1af707ebbe637bcfe3e1684f63d6" title=" " alt="" coords="505,5,661,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="458,23,492,23,492,28,458,28"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec" title=" " alt="" coords="709,13,881,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="661,23,696,23,696,28,661,28"/>
+</map>

@@ -1,6 +1,5 @@
 <map id="mqtt::mqttbridge::websocket::SubProtocolFactory::SubProtocolFactory" name="mqtt::mqttbridge::websocket::SubProtocolFactory::SubProtocolFactory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="269,29,508,84"/>
-<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="435,18,418,11,389,8,364,10,348,15,341,21,341,29,336,29,336,19,345,10,363,5,389,3,420,6,437,14"/>
-<area shape="rect" id="Node000002" href="$mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a88154b588a05d154f9f7bbdacc2693fb" title=" " alt="" coords="5,44,221,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,59,222,59,222,54,256,54"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="269,5,508,60"/>
+<area shape="rect" id="Node000002" href="$mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a88154b588a05d154f9f7bbdacc2693fb" title=" " alt="" coords="5,20,221,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,35,222,35,222,30,256,30"/>
 </map>
