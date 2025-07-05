@@ -1,9 +1,27 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,69,177,109"/>
-<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html" title=" " alt="" coords="225,5,429,45"/>
-<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="178,63,252,43,254,48,180,68"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html" title=" " alt="" coords="235,69,419,109"/>
-<area shape="poly" id="edge15_Node000000_Node000002" title=" " alt="" coords="191,87,235,87,235,92,191,92"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html" title=" " alt="" coords="241,133,413,173"/>
-<area shape="poly" id="edge16_Node000000_Node000003" title=" " alt="" coords="180,110,254,131,252,136,178,116"/>
+<area shape="rect" id="Node000000" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html" title=" " alt="" coords="5,444,185,499"/>
+<area shape="rect" id="Node000001" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1array.html" title=" " alt="" coords="237,5,417,60"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="97,430,108,354,131,259,148,208,170,159,198,112,231,69,245,58,248,62,235,73,202,115,175,161,153,210,136,261,113,355,102,430"/>
+<area shape="rect" id="Node000002" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1boolean.html" title=" " alt="" coords="237,84,417,139"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="101,430,116,369,141,294,179,217,203,181,231,148,246,137,249,141,235,152,207,184,184,219,146,296,121,370,106,431"/>
+<area shape="rect" id="Node000003" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1boolean__type.html" title=" " alt="" coords="237,163,417,217"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="108,430,127,384,153,330,188,276,232,228,249,215,252,220,235,232,193,279,158,333,131,386,113,432"/>
+<area shape="rect" id="Node000004" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html" title=" " alt="" coords="237,242,417,311"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="124,431,172,376,232,321,250,309,253,314,235,325,175,380,128,434"/>
+<area shape="rect" id="Node000005" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1logical__not.html" title=" " alt="" coords="237,336,417,391"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="161,435,232,401,260,388,262,393,234,406,164,440"/>
+<area shape="rect" id="Node000006" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1null.html" title=" " alt="" coords="233,415,420,455"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="199,453,233,447,234,452,199,458"/>
+<area shape="rect" id="Node000007" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1numeric.html" title=" " alt="" coords="237,480,417,535"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="200,485,237,491,236,496,199,490"/>
+<area shape="rect" id="Node000008" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1object.html" title=" " alt="" coords="237,559,417,613"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="158,503,235,544,261,556,259,561,232,548,156,508"/>
+<area shape="rect" id="Node000009" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1required.html" title=" " alt="" coords="237,637,417,692"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="126,508,173,566,203,596,235,622,255,635,252,640,232,627,199,600,169,570,121,512"/>
+<area shape="rect" id="Node000010" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1schema__ref.html" title=" " alt="" coords="237,716,417,771"/>
+<area shape="poly" id="edge10_Node000000_Node000010" title=" " alt="" coords="114,511,133,554,160,605,194,656,235,701,252,714,249,718,232,705,189,660,155,608,128,557,109,513"/>
+<area shape="rect" id="Node000011" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1string.html" title=" " alt="" coords="237,795,417,849"/>
+<area shape="poly" id="edge11_Node000000_Node000011" title=" " alt="" coords="107,511,123,570,148,642,185,715,208,749,235,780,251,792,247,797,231,784,204,753,180,718,143,644,117,572,102,513"/>
+<area shape="rect" id="Node000012" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1type__schema.html" title=" " alt="" coords="237,873,417,928"/>
+<area shape="poly" id="edge12_Node000000_Node000012" title=" " alt="" coords="103,512,114,584,137,677,155,725,176,773,203,818,235,859,250,871,246,875,231,863,199,821,172,776,150,727,132,678,109,586,98,512"/>
 </map>

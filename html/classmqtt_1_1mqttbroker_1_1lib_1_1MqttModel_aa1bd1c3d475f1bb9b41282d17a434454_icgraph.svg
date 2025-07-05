@@ -104,7 +104,7 @@ var sectionId = 'dynsection-13';
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="mqttbroker_8cpp.html#a760fc46c377e0486748aceb5686e3741" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="mqttbroker_8cpp.html#a6a886a53c0261b1fa115609c34e8e607" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="142,-24.5 77,-24.5 77,-5.5 142,-5.5 142,-24.5"/>
 <text text-anchor="middle" x="109.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">getRouter</text>
 </a>

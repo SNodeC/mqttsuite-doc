@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['check_5fno_5fthrow_0',['CHECK_NO_THROW',['../issue-117-format-error_8cpp.html#acba00d4f8be04d97647a40cc596ee053',1,'issue-117-format-error.cpp']]],
-  ['check_5fthrow_1',['CHECK_THROW',['../issue-117-format-error_8cpp.html#a977e241eeedf0d723c922543ce37c74a',1,'issue-117-format-error.cpp']]]
+  ['assert_5feq_0',['ASSERT_EQ',['../issue-105-verbose-combination-errors_8cpp.html#adb8409e3cb8249bf8587c40d2c6b4948',1,'issue-105-verbose-combination-errors.cpp']]],
+  ['assert_5for_5fexpect_5feq_1',['ASSERT_OR_EXPECT_EQ',['../issue-105-verbose-combination-errors_8cpp.html#a9adecf3813569570fd326ece7a6723fb',1,'issue-105-verbose-combination-errors.cpp']]]
 ];

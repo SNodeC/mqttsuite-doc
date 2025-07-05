@@ -102,7 +102,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="mqttbridge_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="ridge_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="643.5,-85 512.5,-85 512.5,-66 643.5,-66 643.5,-85"/>
 <text text-anchor="middle" x="578" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Mqtt.cpp</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="ridge_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="482,-30 350,-30 350,0 482,0 482,-30"/>
 <text text-anchor="start" x="358" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/websocket</text>
 <text text-anchor="middle" x="416" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>

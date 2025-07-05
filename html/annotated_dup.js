@@ -1,11 +1,15 @@
 var annotated_dup =
 [
+    [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}", "namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html", [
+      [ "MyErrorHandler", "classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler.html", "classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler" ]
+    ] ],
     [ "anonymous_namespace{json-validator.cpp}", "namespaceanonymous__namespace_02json-validator_8cpp_03.html", [
       [ "array", "classanonymous__namespace_02json-validator_8cpp_03_1_1array.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1array" ],
       [ "boolean", "classanonymous__namespace_02json-validator_8cpp_03_1_1boolean.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1boolean" ],
       [ "boolean_type", "classanonymous__namespace_02json-validator_8cpp_03_1_1boolean__type.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1boolean__type" ],
       [ "first_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler" ],
       [ "logical_combination", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination" ],
+      [ "logical_combination_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler" ],
       [ "logical_not", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__not.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__not" ],
       [ "null", "classanonymous__namespace_02json-validator_8cpp_03_1_1null.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1null" ],
       [ "numeric", "classanonymous__namespace_02json-validator_8cpp_03_1_1numeric.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1numeric" ],
@@ -79,6 +83,15 @@ var annotated_dup =
         [ "MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", "classmqtt_1_1lib_1_1MqttMapper" ],
         [ "VoidFunction", "structmqtt_1_1lib_1_1VoidFunction.html", "structmqtt_1_1lib_1_1VoidFunction" ]
       ] ],
+      [ "mqtt", "namespacemqtt_1_1mqtt.html", [
+        [ "lib", "namespacemqtt_1_1mqtt_1_1lib.html", [
+          [ "Mqtt", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt" ]
+        ] ],
+        [ "websocket", "namespacemqtt_1_1mqtt_1_1websocket.html", [
+          [ "SubProtocolFactory", "classmqtt_1_1mqtt_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqtt_1_1websocket_1_1SubProtocolFactory" ]
+        ] ],
+        [ "SocketContextFactory", "classmqtt_1_1mqtt_1_1SocketContextFactory.html", "classmqtt_1_1mqtt_1_1SocketContextFactory" ]
+      ] ],
       [ "mqttbridge", "namespacemqtt_1_1mqttbridge.html", [
         [ "websocket", "namespacemqtt_1_1mqttbridge_1_1websocket.html", [
           [ "SubProtocolFactory", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory" ]
@@ -102,6 +115,24 @@ var annotated_dup =
           [ "SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory" ]
         ] ],
         [ "SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory" ]
+      ] ],
+      [ "mqttpub", "namespacemqtt_1_1mqttpub.html", [
+        [ "lib", "namespacemqtt_1_1mqttpub_1_1lib.html", [
+          [ "Mqtt", "classmqtt_1_1mqttpub_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttpub_1_1lib_1_1Mqtt" ]
+        ] ],
+        [ "websocket", "namespacemqtt_1_1mqttpub_1_1websocket.html", [
+          [ "SubProtocolFactory", "classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory" ]
+        ] ],
+        [ "SocketContextFactory", "classmqtt_1_1mqttpub_1_1SocketContextFactory.html", "classmqtt_1_1mqttpub_1_1SocketContextFactory" ]
+      ] ],
+      [ "mqttsub", "namespacemqtt_1_1mqttsub.html", [
+        [ "lib", "namespacemqtt_1_1mqttsub_1_1lib.html", [
+          [ "Mqtt", "classmqtt_1_1mqttsub_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttsub_1_1lib_1_1Mqtt" ]
+        ] ],
+        [ "websocket", "namespacemqtt_1_1mqttsub_1_1websocket.html", [
+          [ "SubProtocolFactory", "classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory" ]
+        ] ],
+        [ "SocketContextFactory", "classmqtt_1_1mqttsub_1_1SocketContextFactory.html", "classmqtt_1_1mqttsub_1_1SocketContextFactory" ]
       ] ]
     ] ],
     [ "nlohmann", "namespacenlohmann.html", [

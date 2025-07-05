@@ -6,5 +6,5 @@ var MqttMapperPlugin_8h =
     [ "Arguments", "MqttMapperPlugin_8h.html#ab8025ad9e2056e6686294270ce15e669", null ],
     [ "json", "MqttMapperPlugin_8h.html#abd4af4a50124615d94feefd32ccc7933", null ],
     [ "functions", "MqttMapperPlugin_8h.html#a33a89adcfe80866f20ab94d04284b163", null ],
-    [ "voidFunctions", "MqttMapperPlugin_8h.html#ac20ef2d643869d8b6859c4ce4dc2747d", null ]
+    [ "voidFunctions", "MqttMapperPlugin_8h.html#a466e105feee3640432740482e6d91d87", null ]
 ];

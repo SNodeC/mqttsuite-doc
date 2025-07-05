@@ -1,5 +1,6 @@
 var string_format_check_8cpp =
 [
+    [ "REGEX_NAMESPACE", "string-format-check_8cpp.html#a43392626d44fd6262051a4a90405c9d7", null ],
     [ "default_string_format_check", "string-format-check_8cpp.html#aa85e264f222e36fe1108824f0699db71", null ],
     [ "is_ascii", "string-format-check_8cpp.html#a63b1fb98ca5a11d6c9c782a5f117d8bb", null ],
     [ "range_check", "string-format-check_8cpp.html#a6340a152b415fab84af156f3afff080b", null ],

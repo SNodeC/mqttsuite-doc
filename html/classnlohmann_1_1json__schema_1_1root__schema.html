@@ -223,7 +223,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l00146">content_check_</a>, <a class="el" href="json-validator_8cpp_source.html#l00145">format_check_</a>, and <a class="el" href="json-validator_8cpp_source.html#l00144">loader_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01401">nlohmann::json_schema::json_validator::json_validator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01457">nlohmann::json_schema::json_validator::json_validator()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -310,7 +310,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l00146">content_check_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00782">anonymous_namespace{json-validator.cpp}::string::string()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00726">anonymous_namespace{json-validator.cpp}::string::validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00817">anonymous_namespace{json-validator.cpp}::string::string()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00761">anonymous_namespace{json-validator.cpp}::string::validate()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -375,7 +375,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l00145">format_check_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00782">anonymous_namespace{json-validator.cpp}::string::string()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00726">anonymous_namespace{json-validator.cpp}::string::validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00817">anonymous_namespace{json-validator.cpp}::string::string()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00761">anonymous_namespace{json-validator.cpp}::string::validate()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -448,7 +448,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l00157">files_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00243">get_or_create_ref()</a>, <a class="el" href="json-validator_8cpp_source.html#l00182">insert()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00201">insert_unknown_keyword()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00244">get_or_create_ref()</a>, <a class="el" href="json-validator_8cpp_source.html#l00182">insert()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00201">insert_unknown_keyword()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -516,51 +516,51 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00243">243</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  244</span>    {</div>
-<div class="line"><span class="lineno">  245</span>        <span class="keyword">auto</span> &amp;file = <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4e3471b8e7c245a72c469b7695d2d327">get_or_create_file</a>(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
-<div class="line"><span class="lineno">  246</span> </div>
-<div class="line"><span class="lineno">  247</span>        <span class="comment">// existing schema</span></div>
-<div class="line"><span class="lineno">  248</span>        <span class="keyword">auto</span> sch = file.schemas.find(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (sch != file.schemas.end())</div>
-<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">return</span> sch-&gt;second;</div>
-<div class="line"><span class="lineno">  251</span> </div>
-<div class="line"><span class="lineno">  252</span>        <span class="comment">// referencing an unknown keyword, turn it into schema</span></div>
-<div class="line"><span class="lineno">  253</span>        <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  254</span>        <span class="comment">// an unknown keyword can only be referenced by a json-pointer,</span></div>
-<div class="line"><span class="lineno">  255</span>        <span class="comment">// not by a plain name fragment</span></div>
-<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">if</span> (uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>().to_string() != <span class="stringliteral">&quot;&quot;</span>) {</div>
-<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  258</span>                <span class="keyword">auto</span> &amp;subschema = file.unknown_keywords.at(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>()); <span class="comment">// null is returned if not existing</span></div>
-<div class="line"><span class="lineno">  259</span>                <span class="keyword">auto</span> s = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(subschema, <span class="keyword">this</span>, {}, {{uri}});       <span class="comment">//  A JSON Schema MUST be an object or a boolean.</span></div>
-<div class="line"><span class="lineno">  260</span>                <span class="keywordflow">if</span> (s) {                                                   <span class="comment">// nullptr if invalid schema, e.g. null</span></div>
-<div class="line"><span class="lineno">  261</span>                    file.unknown_keywords.erase(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  263</span>                }</div>
-<div class="line"><span class="lineno">  264</span>            } <span class="keywordflow">catch</span> (nlohmann::detail::out_of_range &amp;) { <span class="comment">// at() did not find it</span></div>
-<div class="line"><span class="lineno">  265</span>            }</div>
-<div class="line"><span class="lineno">  266</span>        }</div>
-<div class="line"><span class="lineno">  267</span> </div>
-<div class="line"><span class="lineno">  268</span>        <span class="comment">// get or create a schema_ref</span></div>
-<div class="line"><span class="lineno">  269</span>        <span class="keyword">auto</span> r = file.unresolved.lower_bound(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  270</span>        <span class="keywordflow">if</span> (r != file.unresolved.end() &amp;&amp; !(file.unresolved.key_comp()(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), r-&gt;first))) {</div>
-<div class="line"><span class="lineno">  271</span>            <span class="keywordflow">return</span> r-&gt;second; <span class="comment">// unresolved, already seen previously - use existing reference</span></div>
-<div class="line"><span class="lineno">  272</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  273</span>            <span class="keywordflow">return</span> file.unresolved.insert(r,</div>
-<div class="line"><span class="lineno">  274</span>                                          {uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), std::make_shared&lt;schema_ref&gt;(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>(), <span class="keyword">this</span>)})</div>
-<div class="line"><span class="lineno">  275</span>                -&gt;second; <span class="comment">// unresolved, create reference</span></div>
-<div class="line"><span class="lineno">  276</span>        }</div>
-<div class="line"><span class="lineno">  277</span>    }</div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1schema_html_aafee860997369c77204d5b1a7d095c3f"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">anonymous_namespace{json-validator.cpp}::schema::make</a></div><div class="ttdeci">static std::shared_ptr&lt; schema &gt; make(json &amp;schema, root_schema *root, const std::vector&lt; std::string &gt; &amp;key, std::vector&lt; nlohmann::json_uri &gt; uris)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01306">json-validator.cpp:1306</a></div></div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00244">244</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  245</span>    {</div>
+<div class="line"><span class="lineno">  246</span>        <span class="keyword">auto</span> &amp;file = <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4e3471b8e7c245a72c469b7695d2d327">get_or_create_file</a>(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
+<div class="line"><span class="lineno">  247</span> </div>
+<div class="line"><span class="lineno">  248</span>        <span class="comment">// existing schema</span></div>
+<div class="line"><span class="lineno">  249</span>        <span class="keyword">auto</span> sch = file.schemas.find(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">if</span> (sch != file.schemas.end())</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">return</span> sch-&gt;second;</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>        <span class="comment">// referencing an unknown keyword, turn it into schema</span></div>
+<div class="line"><span class="lineno">  254</span>        <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  255</span>        <span class="comment">// an unknown keyword can only be referenced by a json-pointer,</span></div>
+<div class="line"><span class="lineno">  256</span>        <span class="comment">// not by a plain name fragment</span></div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">if</span> (!uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>().to_string().empty()) {</div>
+<div class="line"><span class="lineno">  258</span>            <span class="keywordtype">bool</span> contains_pointer = file.unknown_keywords.contains(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>());</div>
+<div class="line"><span class="lineno">  259</span>            <span class="keywordflow">if</span> (contains_pointer) {</div>
+<div class="line"><span class="lineno">  260</span>                <span class="keyword">auto</span> &amp;subschema = file.unknown_keywords.at(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>());</div>
+<div class="line"><span class="lineno">  261</span>                <span class="keyword">auto</span> s = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(subschema, <span class="keyword">this</span>, {}, {{uri}});</div>
+<div class="line"><span class="lineno">  262</span>                <span class="keywordflow">if</span> (s) { <span class="comment">// if schema is valid (non-null)</span></div>
+<div class="line"><span class="lineno">  263</span>                    file.unknown_keywords.erase(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  264</span>                    <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  265</span>                }</div>
+<div class="line"><span class="lineno">  266</span>            }</div>
+<div class="line"><span class="lineno">  267</span>        }</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>        <span class="comment">// get or create a schema_ref</span></div>
+<div class="line"><span class="lineno">  270</span>        <span class="keyword">auto</span> r = file.unresolved.lower_bound(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  271</span>        <span class="keywordflow">if</span> (r != file.unresolved.end() &amp;&amp; !(file.unresolved.key_comp()(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), r-&gt;first))) {</div>
+<div class="line"><span class="lineno">  272</span>            <span class="keywordflow">return</span> r-&gt;second; <span class="comment">// unresolved, already seen previously - use existing reference</span></div>
+<div class="line"><span class="lineno">  273</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  274</span>            <span class="keywordflow">return</span> file.unresolved.insert(r,</div>
+<div class="line"><span class="lineno">  275</span>                                          {uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), std::make_shared&lt;schema_ref&gt;(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>(), <span class="keyword">this</span>)})</div>
+<div class="line"><span class="lineno">  276</span>                -&gt;second; <span class="comment">// unresolved, create reference</span></div>
+<div class="line"><span class="lineno">  277</span>        }</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1schema_html_aafee860997369c77204d5b1a7d095c3f"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">anonymous_namespace{json-validator.cpp}::schema::make</a></div><div class="ttdeci">static std::shared_ptr&lt; schema &gt; make(json &amp;schema, root_schema *root, const std::vector&lt; std::string &gt; &amp;key, std::vector&lt; nlohmann::json_uri &gt; uris)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01355">json-validator.cpp:1355</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__schema_1_1root__schema_html_a4e3471b8e7c245a72c469b7695d2d327"><div class="ttname"><a href="classnlohmann_1_1json__schema_1_1root__schema.html#a4e3471b8e7c245a72c469b7695d2d327">nlohmann::json_schema::root_schema::get_or_create_file</a></div><div class="ttdeci">schema_file &amp; get_or_create_file(const std::string &amp;loc)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l00159">json-validator.cpp:159</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__uri_html_a21ba5d6a76804eabd867a2d03370c945"><div class="ttname"><a href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">nlohmann::json_uri::fragment</a></div><div class="ttdeci">std::string fragment() const</div><div class="ttdef"><b>Definition</b> <a href="json-schema_8hpp_source.html#l00080">json-schema.hpp:80</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__uri_html_a416eb06b53676b215761f43200da309f"><div class="ttname"><a href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">nlohmann::json_uri::to_string</a></div><div class="ttdeci">std::string to_string() const</div><div class="ttdef"><b>Definition</b> <a href="json-uri_8cpp_source.html#l00118">json-uri.cpp:118</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__uri_html_a63674f908919cb2496e772e864be35de"><div class="ttname"><a href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">nlohmann::json_uri::location</a></div><div class="ttdeci">std::string location() const</div><div class="ttdef"><b>Definition</b> <a href="json-uri_8cpp_source.html#l00102">json-uri.cpp:102</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__uri_html_ab01bdcb8bf65ee07703d1ccb69c9f3ee"><div class="ttname"><a href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">nlohmann::json_uri::pointer</a></div><div class="ttdeci">const json::json_pointer &amp; pointer() const</div><div class="ttdef"><b>Definition</b> <a href="json-schema_8hpp_source.html#l00077">json-schema.hpp:77</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-schema_8hpp_source.html#l00080">nlohmann::json_uri::fragment()</a>, <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-uri_8cpp_source.html#l00102">nlohmann::json_uri::location()</a>, <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-schema_8hpp_source.html#l00077">nlohmann::json_uri::pointer()</a>, <a class="el" href="json-validator_8cpp_source.html#l00151">nlohmann::json_schema::root_schema::schema_file::schemas</a>, <a class="el" href="json-uri_8cpp_source.html#l00118">nlohmann::json_uri::to_string()</a>, <a class="el" href="json-validator_8cpp_source.html#l00153">nlohmann::json_schema::root_schema::schema_file::unknown_keywords</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
+<p class="reference">References <a class="el" href="json-schema_8hpp_source.html#l00080">nlohmann::json_uri::fragment()</a>, <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-uri_8cpp_source.html#l00102">nlohmann::json_uri::location()</a>, <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-schema_8hpp_source.html#l00077">nlohmann::json_uri::pointer()</a>, <a class="el" href="json-validator_8cpp_source.html#l00151">nlohmann::json_schema::root_schema::schema_file::schemas</a>, <a class="el" href="json-uri_8cpp_source.html#l00118">nlohmann::json_uri::to_string()</a>, <a class="el" href="json-validator_8cpp_source.html#l00153">nlohmann::json_schema::root_schema::schema_file::unknown_keywords</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -598,41 +598,41 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00243">243</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  244</span>    {</div>
-<div class="line"><span class="lineno">  245</span>        <span class="keyword">auto</span> &amp;file = <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4e3471b8e7c245a72c469b7695d2d327">get_or_create_file</a>(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
-<div class="line"><span class="lineno">  246</span> </div>
-<div class="line"><span class="lineno">  247</span>        <span class="comment">// existing schema</span></div>
-<div class="line"><span class="lineno">  248</span>        <span class="keyword">auto</span> sch = file.schemas.find(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (sch != file.schemas.end())</div>
-<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">return</span> sch-&gt;second;</div>
-<div class="line"><span class="lineno">  251</span> </div>
-<div class="line"><span class="lineno">  252</span>        <span class="comment">// referencing an unknown keyword, turn it into schema</span></div>
-<div class="line"><span class="lineno">  253</span>        <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  254</span>        <span class="comment">// an unknown keyword can only be referenced by a json-pointer,</span></div>
-<div class="line"><span class="lineno">  255</span>        <span class="comment">// not by a plain name fragment</span></div>
-<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">if</span> (uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>().to_string() != <span class="stringliteral">&quot;&quot;</span>) {</div>
-<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  258</span>                <span class="keyword">auto</span> &amp;subschema = file.unknown_keywords.at(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>()); <span class="comment">// null is returned if not existing</span></div>
-<div class="line"><span class="lineno">  259</span>                <span class="keyword">auto</span> s = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(subschema, <span class="keyword">this</span>, {}, {{uri}});       <span class="comment">//  A JSON Schema MUST be an object or a boolean.</span></div>
-<div class="line"><span class="lineno">  260</span>                <span class="keywordflow">if</span> (s) {                                                   <span class="comment">// nullptr if invalid schema, e.g. null</span></div>
-<div class="line"><span class="lineno">  261</span>                    file.unknown_keywords.erase(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  263</span>                }</div>
-<div class="line"><span class="lineno">  264</span>            } <span class="keywordflow">catch</span> (nlohmann::detail::out_of_range &amp;) { <span class="comment">// at() did not find it</span></div>
-<div class="line"><span class="lineno">  265</span>            }</div>
-<div class="line"><span class="lineno">  266</span>        }</div>
-<div class="line"><span class="lineno">  267</span> </div>
-<div class="line"><span class="lineno">  268</span>        <span class="comment">// get or create a schema_ref</span></div>
-<div class="line"><span class="lineno">  269</span>        <span class="keyword">auto</span> r = file.unresolved.lower_bound(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  270</span>        <span class="keywordflow">if</span> (r != file.unresolved.end() &amp;&amp; !(file.unresolved.key_comp()(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), r-&gt;first))) {</div>
-<div class="line"><span class="lineno">  271</span>            <span class="keywordflow">return</span> r-&gt;second; <span class="comment">// unresolved, already seen previously - use existing reference</span></div>
-<div class="line"><span class="lineno">  272</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  273</span>            <span class="keywordflow">return</span> file.unresolved.insert(r,</div>
-<div class="line"><span class="lineno">  274</span>                                          {uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), std::make_shared&lt;schema_ref&gt;(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>(), <span class="keyword">this</span>)})</div>
-<div class="line"><span class="lineno">  275</span>                -&gt;second; <span class="comment">// unresolved, create reference</span></div>
-<div class="line"><span class="lineno">  276</span>        }</div>
-<div class="line"><span class="lineno">  277</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00244">244</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  245</span>    {</div>
+<div class="line"><span class="lineno">  246</span>        <span class="keyword">auto</span> &amp;file = <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4e3471b8e7c245a72c469b7695d2d327">get_or_create_file</a>(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
+<div class="line"><span class="lineno">  247</span> </div>
+<div class="line"><span class="lineno">  248</span>        <span class="comment">// existing schema</span></div>
+<div class="line"><span class="lineno">  249</span>        <span class="keyword">auto</span> sch = file.schemas.find(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">if</span> (sch != file.schemas.end())</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">return</span> sch-&gt;second;</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>        <span class="comment">// referencing an unknown keyword, turn it into schema</span></div>
+<div class="line"><span class="lineno">  254</span>        <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  255</span>        <span class="comment">// an unknown keyword can only be referenced by a json-pointer,</span></div>
+<div class="line"><span class="lineno">  256</span>        <span class="comment">// not by a plain name fragment</span></div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">if</span> (!uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>().to_string().empty()) {</div>
+<div class="line"><span class="lineno">  258</span>            <span class="keywordtype">bool</span> contains_pointer = file.unknown_keywords.contains(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>());</div>
+<div class="line"><span class="lineno">  259</span>            <span class="keywordflow">if</span> (contains_pointer) {</div>
+<div class="line"><span class="lineno">  260</span>                <span class="keyword">auto</span> &amp;subschema = file.unknown_keywords.at(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee">pointer</a>());</div>
+<div class="line"><span class="lineno">  261</span>                <span class="keyword">auto</span> s = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(subschema, <span class="keyword">this</span>, {}, {{uri}});</div>
+<div class="line"><span class="lineno">  262</span>                <span class="keywordflow">if</span> (s) { <span class="comment">// if schema is valid (non-null)</span></div>
+<div class="line"><span class="lineno">  263</span>                    file.unknown_keywords.erase(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  264</span>                    <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  265</span>                }</div>
+<div class="line"><span class="lineno">  266</span>            }</div>
+<div class="line"><span class="lineno">  267</span>        }</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>        <span class="comment">// get or create a schema_ref</span></div>
+<div class="line"><span class="lineno">  270</span>        <span class="keyword">auto</span> r = file.unresolved.lower_bound(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  271</span>        <span class="keywordflow">if</span> (r != file.unresolved.end() &amp;&amp; !(file.unresolved.key_comp()(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), r-&gt;first))) {</div>
+<div class="line"><span class="lineno">  272</span>            <span class="keywordflow">return</span> r-&gt;second; <span class="comment">// unresolved, already seen previously - use existing reference</span></div>
+<div class="line"><span class="lineno">  273</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  274</span>            <span class="keywordflow">return</span> file.unresolved.insert(r,</div>
+<div class="line"><span class="lineno">  275</span>                                          {uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>(), std::make_shared&lt;schema_ref&gt;(uri.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>(), <span class="keyword">this</span>)})</div>
+<div class="line"><span class="lineno">  276</span>                -&gt;second; <span class="comment">// unresolved, create reference</span></div>
+<div class="line"><span class="lineno">  277</span>        }</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -691,7 +691,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json-schema_8hpp_source.html#l00080">nlohmann::json_uri::fragment()</a>, <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-uri_8cpp_source.html#l00102">nlohmann::json_uri::location()</a>, <a class="el" href="json-validator_8cpp_source.html#l00151">nlohmann::json_schema::root_schema::schema_file::schemas</a>, <a class="el" href="json-validator_8cpp_source.html#l00127">anonymous_namespace{json-validator.cpp}::schema_ref::set_target()</a>, <a class="el" href="json-uri_8cpp_source.html#l00118">nlohmann::json_uri::to_string()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -828,25 +828,26 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  226</span>            <span class="comment">// for each token create an object, if not already existing</span></div>
 <div class="line"><span class="lineno">  227</span>            <span class="keyword">auto</span> unk_kw = &amp;file.unknown_keywords;</div>
 <div class="line"><span class="lineno">  228</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;rt : ref_tokens) {</div>
-<div class="line"><span class="lineno">  229</span>                <span class="keyword">auto</span> existing_object = unk_kw-&gt;find(rt);</div>
-<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">if</span> (existing_object == unk_kw-&gt;end())</div>
-<div class="line"><span class="lineno">  231</span>                    (*unk_kw)[rt] = json::object();</div>
-<div class="line"><span class="lineno">  232</span>                unk_kw = &amp;(*unk_kw)[rt];</div>
-<div class="line"><span class="lineno">  233</span>            }</div>
-<div class="line"><span class="lineno">  234</span>            (*unk_kw)[key] = value;</div>
-<div class="line"><span class="lineno">  235</span>        }</div>
-<div class="line"><span class="lineno">  236</span> </div>
-<div class="line"><span class="lineno">  237</span>        <span class="comment">// recursively add possible subschemas of unknown keywords</span></div>
-<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (value.type() == json::value_t::object)</div>
-<div class="line"><span class="lineno">  239</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : value.items())</div>
-<div class="line"><span class="lineno">  240</span>                <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4c543fe7b89e76b3fdd17a6883696238">insert_unknown_keyword</a>(new_uri, subsch.key(), subsch.value());</div>
-<div class="line"><span class="lineno">  241</span>    }</div>
+<div class="line"><span class="lineno">  229</span>                <span class="comment">// create a json_pointer from rt as rt can be an stringified integer doing find on an array won&#39;t work</span></div>
+<div class="line"><span class="lineno">  230</span>                json::json_pointer rt_ptr{<span class="stringliteral">&quot;/&quot;</span> + rt};</div>
+<div class="line"><span class="lineno">  231</span>                <span class="keywordflow">if</span> (unk_kw-&gt;contains(rt_ptr) == <span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  232</span>                    (*unk_kw)[rt] = json::object();</div>
+<div class="line"><span class="lineno">  233</span>                unk_kw = &amp;(*unk_kw)[rt_ptr];</div>
+<div class="line"><span class="lineno">  234</span>            }</div>
+<div class="line"><span class="lineno">  235</span>            (*unk_kw)[key] = value;</div>
+<div class="line"><span class="lineno">  236</span>        }</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        <span class="comment">// recursively add possible subschemas of unknown keywords</span></div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">if</span> (value.type() == json::value_t::object)</div>
+<div class="line"><span class="lineno">  240</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : value.items())</div>
+<div class="line"><span class="lineno">  241</span>                <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4c543fe7b89e76b3fdd17a6883696238">insert_unknown_keyword</a>(new_uri, subsch.key(), subsch.value());</div>
+<div class="line"><span class="lineno">  242</span>    }</div>
 <div class="ttc" id="aclassnlohmann_1_1json__schema_1_1root__schema_html_a4c543fe7b89e76b3fdd17a6883696238"><div class="ttname"><a href="classnlohmann_1_1json__schema_1_1root__schema.html#a4c543fe7b89e76b3fdd17a6883696238">nlohmann::json_schema::root_schema::insert_unknown_keyword</a></div><div class="ttdeci">void insert_unknown_keyword(const json_uri &amp;uri, const std::string &amp;key, json &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l00201">json-validator.cpp:201</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__uri_html_acef9db8f1ac5317e1f124453d9587938"><div class="ttname"><a href="classnlohmann_1_1json__uri.html#acef9db8f1ac5317e1f124453d9587938">nlohmann::json_uri::append</a></div><div class="ttdeci">json_uri append(const std::string &amp;field) const</div><div class="ttdef"><b>Definition</b> <a href="json-schema_8hpp_source.html#l00103">json-schema.hpp:103</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-schema_8hpp_source.html#l00103">nlohmann::json_uri::append()</a>, <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-validator_8cpp_source.html#l00201">insert_unknown_keyword()</a>, <a class="el" href="json-uri_8cpp_source.html#l00102">nlohmann::json_uri::location()</a>, <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-schema_8hpp_source.html#l00077">nlohmann::json_uri::pointer()</a>, <a class="el" href="json-validator_8cpp_source.html#l00153">nlohmann::json_schema::root_schema::schema_file::unknown_keywords</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
+<p class="reference">References <a class="el" href="json-schema_8hpp_source.html#l00103">nlohmann::json_uri::append()</a>, <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-validator_8cpp_source.html#l00201">insert_unknown_keyword()</a>, <a class="el" href="json-uri_8cpp_source.html#l00102">nlohmann::json_uri::location()</a>, <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-schema_8hpp_source.html#l00077">nlohmann::json_uri::pointer()</a>, <a class="el" href="json-validator_8cpp_source.html#l00153">nlohmann::json_schema::root_schema::schema_file::unknown_keywords</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00201">insert_unknown_keyword()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00201">insert_unknown_keyword()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -928,19 +929,20 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  226</span>            <span class="comment">// for each token create an object, if not already existing</span></div>
 <div class="line"><span class="lineno">  227</span>            <span class="keyword">auto</span> unk_kw = &amp;file.unknown_keywords;</div>
 <div class="line"><span class="lineno">  228</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;rt : ref_tokens) {</div>
-<div class="line"><span class="lineno">  229</span>                <span class="keyword">auto</span> existing_object = unk_kw-&gt;find(rt);</div>
-<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">if</span> (existing_object == unk_kw-&gt;end())</div>
-<div class="line"><span class="lineno">  231</span>                    (*unk_kw)[rt] = json::object();</div>
-<div class="line"><span class="lineno">  232</span>                unk_kw = &amp;(*unk_kw)[rt];</div>
-<div class="line"><span class="lineno">  233</span>            }</div>
-<div class="line"><span class="lineno">  234</span>            (*unk_kw)[key] = value;</div>
-<div class="line"><span class="lineno">  235</span>        }</div>
-<div class="line"><span class="lineno">  236</span> </div>
-<div class="line"><span class="lineno">  237</span>        <span class="comment">// recursively add possible subschemas of unknown keywords</span></div>
-<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (value.type() == json::value_t::object)</div>
-<div class="line"><span class="lineno">  239</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : value.items())</div>
-<div class="line"><span class="lineno">  240</span>                <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4c543fe7b89e76b3fdd17a6883696238">insert_unknown_keyword</a>(new_uri, subsch.key(), subsch.value());</div>
-<div class="line"><span class="lineno">  241</span>    }</div>
+<div class="line"><span class="lineno">  229</span>                <span class="comment">// create a json_pointer from rt as rt can be an stringified integer doing find on an array won&#39;t work</span></div>
+<div class="line"><span class="lineno">  230</span>                json::json_pointer rt_ptr{<span class="stringliteral">&quot;/&quot;</span> + rt};</div>
+<div class="line"><span class="lineno">  231</span>                <span class="keywordflow">if</span> (unk_kw-&gt;contains(rt_ptr) == <span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  232</span>                    (*unk_kw)[rt] = json::object();</div>
+<div class="line"><span class="lineno">  233</span>                unk_kw = &amp;(*unk_kw)[rt_ptr];</div>
+<div class="line"><span class="lineno">  234</span>            }</div>
+<div class="line"><span class="lineno">  235</span>            (*unk_kw)[key] = value;</div>
+<div class="line"><span class="lineno">  236</span>        }</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        <span class="comment">// recursively add possible subschemas of unknown keywords</span></div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">if</span> (value.type() == json::value_t::object)</div>
+<div class="line"><span class="lineno">  240</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : value.items())</div>
+<div class="line"><span class="lineno">  241</span>                <a class="code hl_function" href="classnlohmann_1_1json__schema_1_1root__schema.html#a4c543fe7b89e76b3fdd17a6883696238">insert_unknown_keyword</a>(new_uri, subsch.key(), subsch.value());</div>
+<div class="line"><span class="lineno">  242</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -968,71 +970,71 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00279">279</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  280</span>    {</div>
-<div class="line"><span class="lineno">  281</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.clear();</div>
-<div class="line"><span class="lineno">  282</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(sch, <span class="keyword">this</span>, {}, {{<span class="stringliteral">&quot;#&quot;</span>}});</div>
-<div class="line"><span class="lineno">  283</span> </div>
-<div class="line"><span class="lineno">  284</span>        <span class="comment">// load all files which have not yet been loaded</span></div>
-<div class="line"><span class="lineno">  285</span>        <span class="keywordflow">do</span> {</div>
-<div class="line"><span class="lineno">  286</span>            <span class="keywordtype">bool</span> new_schema_loaded = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  287</span> </div>
-<div class="line"><span class="lineno">  288</span>            <span class="comment">// files_ is modified during parsing, iterators are invalidated</span></div>
-<div class="line"><span class="lineno">  289</span>            std::vector&lt;std::string&gt; locations;</div>
-<div class="line"><span class="lineno">  290</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>)</div>
-<div class="line"><span class="lineno">  291</span>                locations.push_back(file.first);</div>
-<div class="line"><span class="lineno">  292</span> </div>
-<div class="line"><span class="lineno">  293</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;loc : locations) {</div>
-<div class="line"><span class="lineno">  294</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>[loc].schemas.size() == 0) { <span class="comment">// nothing has been loaded for this file</span></div>
-<div class="line"><span class="lineno">  295</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>) {</div>
-<div class="line"><span class="lineno">  296</span>                        <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a> loaded_schema;</div>
-<div class="line"><span class="lineno">  297</span> </div>
-<div class="line"><span class="lineno">  298</span>                        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>(loc, loaded_schema);</div>
-<div class="line"><span class="lineno">  299</span> </div>
-<div class="line"><span class="lineno">  300</span>                        <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(loaded_schema, <span class="keyword">this</span>, {}, {{loc}});</div>
-<div class="line"><span class="lineno">  301</span>                        new_schema_loaded = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  302</span>                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  303</span>                        <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;external schema reference &#39;&quot;</span> + loc + <span class="stringliteral">&quot;&#39; needs loading, but no loader callback given&quot;</span>);</div>
-<div class="line"><span class="lineno">  304</span>                    }</div>
-<div class="line"><span class="lineno">  305</span>                }</div>
-<div class="line"><span class="lineno">  306</span>            }</div>
-<div class="line"><span class="lineno">  307</span> </div>
-<div class="line"><span class="lineno">  308</span>            <span class="keywordflow">if</span> (!new_schema_loaded) <span class="comment">// if no new schema loaded, no need to try again</span></div>
-<div class="line"><span class="lineno">  309</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  310</span>        } <span class="keywordflow">while</span> (1);</div>
-<div class="line"><span class="lineno">  311</span> </div>
-<div class="line"><span class="lineno">  312</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>) {</div>
-<div class="line"><span class="lineno">  313</span>            <span class="keywordflow">if</span> (file.second.unresolved.size() != 0) {</div>
-<div class="line"><span class="lineno">  314</span>                <span class="comment">// Build a representation of the undefined</span></div>
-<div class="line"><span class="lineno">  315</span>                <span class="comment">// references as a list of comma-separated strings.</span></div>
-<div class="line"><span class="lineno">  316</span>                <span class="keyword">auto</span> n_urefs = file.second.unresolved.size();</div>
-<div class="line"><span class="lineno">  317</span>                std::string urefs = <span class="stringliteral">&quot;[&quot;</span>;</div>
-<div class="line"><span class="lineno">  318</span> </div>
-<div class="line"><span class="lineno">  319</span>                <span class="keyword">decltype</span>(n_urefs) counter = 0;</div>
-<div class="line"><span class="lineno">  320</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;p : file.second.unresolved) {</div>
-<div class="line"><span class="lineno">  321</span>                    urefs += p.first;</div>
-<div class="line"><span class="lineno">  322</span> </div>
-<div class="line"><span class="lineno">  323</span>                    <span class="keywordflow">if</span> (counter != n_urefs - 1u) {</div>
-<div class="line"><span class="lineno">  324</span>                        urefs += <span class="stringliteral">&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  325</span>                    }</div>
-<div class="line"><span class="lineno">  326</span> </div>
-<div class="line"><span class="lineno">  327</span>                    ++counter;</div>
-<div class="line"><span class="lineno">  328</span>                }</div>
-<div class="line"><span class="lineno">  329</span> </div>
-<div class="line"><span class="lineno">  330</span>                urefs += <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><span class="lineno">  331</span> </div>
-<div class="line"><span class="lineno">  332</span>                <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;after all files have been parsed, &#39;&quot;</span> +</div>
-<div class="line"><span class="lineno">  333</span>                                            (file.first == <span class="stringliteral">&quot;&quot;</span> ? <span class="stringliteral">&quot;&lt;root&gt;&quot;</span> : file.first) +</div>
-<div class="line"><span class="lineno">  334</span>                                            <span class="stringliteral">&quot;&#39; has still the following undefined references: &quot;</span> + urefs);</div>
-<div class="line"><span class="lineno">  335</span>            }</div>
-<div class="line"><span class="lineno">  336</span>        }</div>
-<div class="line"><span class="lineno">  337</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00280">280</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  281</span>    {</div>
+<div class="line"><span class="lineno">  282</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.clear();</div>
+<div class="line"><span class="lineno">  283</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(sch, <span class="keyword">this</span>, {}, {{<span class="stringliteral">&quot;#&quot;</span>}});</div>
+<div class="line"><span class="lineno">  284</span> </div>
+<div class="line"><span class="lineno">  285</span>        <span class="comment">// load all files which have not yet been loaded</span></div>
+<div class="line"><span class="lineno">  286</span>        <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">  287</span>            <span class="keywordtype">bool</span> new_schema_loaded = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  288</span> </div>
+<div class="line"><span class="lineno">  289</span>            <span class="comment">// files_ is modified during parsing, iterators are invalidated</span></div>
+<div class="line"><span class="lineno">  290</span>            std::vector&lt;std::string&gt; locations;</div>
+<div class="line"><span class="lineno">  291</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>)</div>
+<div class="line"><span class="lineno">  292</span>                locations.push_back(file.first);</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;loc : locations) {</div>
+<div class="line"><span class="lineno">  295</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>[loc].schemas.size() == 0) { <span class="comment">// nothing has been loaded for this file</span></div>
+<div class="line"><span class="lineno">  296</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>) {</div>
+<div class="line"><span class="lineno">  297</span>                        <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a> loaded_schema;</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>                        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>(loc, loaded_schema);</div>
+<div class="line"><span class="lineno">  300</span> </div>
+<div class="line"><span class="lineno">  301</span>                        <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(loaded_schema, <span class="keyword">this</span>, {}, {{loc}});</div>
+<div class="line"><span class="lineno">  302</span>                        new_schema_loaded = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  303</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  304</span>                        <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;external schema reference &#39;&quot;</span> + loc + <span class="stringliteral">&quot;&#39; needs loading, but no loader callback given&quot;</span>);</div>
+<div class="line"><span class="lineno">  305</span>                    }</div>
+<div class="line"><span class="lineno">  306</span>                }</div>
+<div class="line"><span class="lineno">  307</span>            }</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>            <span class="keywordflow">if</span> (!new_schema_loaded) <span class="comment">// if no new schema loaded, no need to try again</span></div>
+<div class="line"><span class="lineno">  310</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  311</span>        } <span class="keywordflow">while</span> (1);</div>
+<div class="line"><span class="lineno">  312</span> </div>
+<div class="line"><span class="lineno">  313</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>) {</div>
+<div class="line"><span class="lineno">  314</span>            <span class="keywordflow">if</span> (file.second.unresolved.size() != 0) {</div>
+<div class="line"><span class="lineno">  315</span>                <span class="comment">// Build a representation of the undefined</span></div>
+<div class="line"><span class="lineno">  316</span>                <span class="comment">// references as a list of comma-separated strings.</span></div>
+<div class="line"><span class="lineno">  317</span>                <span class="keyword">auto</span> n_urefs = file.second.unresolved.size();</div>
+<div class="line"><span class="lineno">  318</span>                std::string urefs = <span class="stringliteral">&quot;[&quot;</span>;</div>
+<div class="line"><span class="lineno">  319</span> </div>
+<div class="line"><span class="lineno">  320</span>                <span class="keyword">decltype</span>(n_urefs) counter = 0;</div>
+<div class="line"><span class="lineno">  321</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;p : file.second.unresolved) {</div>
+<div class="line"><span class="lineno">  322</span>                    urefs += p.first;</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>                    <span class="keywordflow">if</span> (counter != n_urefs - 1u) {</div>
+<div class="line"><span class="lineno">  325</span>                        urefs += <span class="stringliteral">&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  326</span>                    }</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>                    ++counter;</div>
+<div class="line"><span class="lineno">  329</span>                }</div>
+<div class="line"><span class="lineno">  330</span> </div>
+<div class="line"><span class="lineno">  331</span>                urefs += <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><span class="lineno">  332</span> </div>
+<div class="line"><span class="lineno">  333</span>                <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;after all files have been parsed, &#39;&quot;</span> +</div>
+<div class="line"><span class="lineno">  334</span>                                            (file.first == <span class="stringliteral">&quot;&quot;</span> ? <span class="stringliteral">&quot;&lt;root&gt;&quot;</span> : file.first) +</div>
+<div class="line"><span class="lineno">  335</span>                                            <span class="stringliteral">&quot;&#39; has still the following undefined references: &quot;</span> + urefs);</div>
+<div class="line"><span class="lineno">  336</span>            }</div>
+<div class="line"><span class="lineno">  337</span>        }</div>
+<div class="line"><span class="lineno">  338</span>    }</div>
 <div class="ttc" id="abinary-validation_8cpp_html_a2fec365798124ac10ddd238c0b075720"><div class="ttname"><a href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00030">binary-validation.cpp:30</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__schema_1_1root__schema_html_a9b9df60fa53b0386b27d408760f37b91"><div class="ttname"><a href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">nlohmann::json_schema::root_schema::root_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; root_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l00148">json-validator.cpp:148</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l00157">files_</a>, <a class="el" href="json-validator_8cpp_source.html#l00144">loader_</a>, <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-validator_8cpp_source.html#l00148">root_</a>, <a class="el" href="json-validator_8cpp_source.html#l00151">nlohmann::json_schema::root_schema::schema_file::schemas</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
+<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l00157">files_</a>, <a class="el" href="json-validator_8cpp_source.html#l00144">loader_</a>, <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-validator_8cpp_source.html#l00148">root_</a>, <a class="el" href="json-validator_8cpp_source.html#l00151">nlohmann::json_schema::root_schema::schema_file::schemas</a>, and <a class="el" href="json-validator_8cpp_source.html#l00152">nlohmann::json_schema::root_schema::schema_file::unresolved</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01439">nlohmann::json_schema::json_validator::set_root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01444">nlohmann::json_schema::json_validator::set_root_schema()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01495">nlohmann::json_schema::json_validator::set_root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01500">nlohmann::json_schema::json_validator::set_root_schema()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1070,65 +1072,65 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00279">279</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  280</span>    {</div>
-<div class="line"><span class="lineno">  281</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.clear();</div>
-<div class="line"><span class="lineno">  282</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(sch, <span class="keyword">this</span>, {}, {{<span class="stringliteral">&quot;#&quot;</span>}});</div>
-<div class="line"><span class="lineno">  283</span> </div>
-<div class="line"><span class="lineno">  284</span>        <span class="comment">// load all files which have not yet been loaded</span></div>
-<div class="line"><span class="lineno">  285</span>        <span class="keywordflow">do</span> {</div>
-<div class="line"><span class="lineno">  286</span>            <span class="keywordtype">bool</span> new_schema_loaded = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  287</span> </div>
-<div class="line"><span class="lineno">  288</span>            <span class="comment">// files_ is modified during parsing, iterators are invalidated</span></div>
-<div class="line"><span class="lineno">  289</span>            std::vector&lt;std::string&gt; locations;</div>
-<div class="line"><span class="lineno">  290</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>)</div>
-<div class="line"><span class="lineno">  291</span>                locations.push_back(file.first);</div>
-<div class="line"><span class="lineno">  292</span> </div>
-<div class="line"><span class="lineno">  293</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;loc : locations) {</div>
-<div class="line"><span class="lineno">  294</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>[loc].schemas.size() == 0) { <span class="comment">// nothing has been loaded for this file</span></div>
-<div class="line"><span class="lineno">  295</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>) {</div>
-<div class="line"><span class="lineno">  296</span>                        <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a> loaded_schema;</div>
-<div class="line"><span class="lineno">  297</span> </div>
-<div class="line"><span class="lineno">  298</span>                        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>(loc, loaded_schema);</div>
-<div class="line"><span class="lineno">  299</span> </div>
-<div class="line"><span class="lineno">  300</span>                        <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(loaded_schema, <span class="keyword">this</span>, {}, {{loc}});</div>
-<div class="line"><span class="lineno">  301</span>                        new_schema_loaded = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  302</span>                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  303</span>                        <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;external schema reference &#39;&quot;</span> + loc + <span class="stringliteral">&quot;&#39; needs loading, but no loader callback given&quot;</span>);</div>
-<div class="line"><span class="lineno">  304</span>                    }</div>
-<div class="line"><span class="lineno">  305</span>                }</div>
-<div class="line"><span class="lineno">  306</span>            }</div>
-<div class="line"><span class="lineno">  307</span> </div>
-<div class="line"><span class="lineno">  308</span>            <span class="keywordflow">if</span> (!new_schema_loaded) <span class="comment">// if no new schema loaded, no need to try again</span></div>
-<div class="line"><span class="lineno">  309</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  310</span>        } <span class="keywordflow">while</span> (1);</div>
-<div class="line"><span class="lineno">  311</span> </div>
-<div class="line"><span class="lineno">  312</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>) {</div>
-<div class="line"><span class="lineno">  313</span>            <span class="keywordflow">if</span> (file.second.unresolved.size() != 0) {</div>
-<div class="line"><span class="lineno">  314</span>                <span class="comment">// Build a representation of the undefined</span></div>
-<div class="line"><span class="lineno">  315</span>                <span class="comment">// references as a list of comma-separated strings.</span></div>
-<div class="line"><span class="lineno">  316</span>                <span class="keyword">auto</span> n_urefs = file.second.unresolved.size();</div>
-<div class="line"><span class="lineno">  317</span>                std::string urefs = <span class="stringliteral">&quot;[&quot;</span>;</div>
-<div class="line"><span class="lineno">  318</span> </div>
-<div class="line"><span class="lineno">  319</span>                <span class="keyword">decltype</span>(n_urefs) counter = 0;</div>
-<div class="line"><span class="lineno">  320</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;p : file.second.unresolved) {</div>
-<div class="line"><span class="lineno">  321</span>                    urefs += p.first;</div>
-<div class="line"><span class="lineno">  322</span> </div>
-<div class="line"><span class="lineno">  323</span>                    <span class="keywordflow">if</span> (counter != n_urefs - 1u) {</div>
-<div class="line"><span class="lineno">  324</span>                        urefs += <span class="stringliteral">&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  325</span>                    }</div>
-<div class="line"><span class="lineno">  326</span> </div>
-<div class="line"><span class="lineno">  327</span>                    ++counter;</div>
-<div class="line"><span class="lineno">  328</span>                }</div>
-<div class="line"><span class="lineno">  329</span> </div>
-<div class="line"><span class="lineno">  330</span>                urefs += <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><span class="lineno">  331</span> </div>
-<div class="line"><span class="lineno">  332</span>                <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;after all files have been parsed, &#39;&quot;</span> +</div>
-<div class="line"><span class="lineno">  333</span>                                            (file.first == <span class="stringliteral">&quot;&quot;</span> ? <span class="stringliteral">&quot;&lt;root&gt;&quot;</span> : file.first) +</div>
-<div class="line"><span class="lineno">  334</span>                                            <span class="stringliteral">&quot;&#39; has still the following undefined references: &quot;</span> + urefs);</div>
-<div class="line"><span class="lineno">  335</span>            }</div>
-<div class="line"><span class="lineno">  336</span>        }</div>
-<div class="line"><span class="lineno">  337</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00280">280</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  281</span>    {</div>
+<div class="line"><span class="lineno">  282</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.clear();</div>
+<div class="line"><span class="lineno">  283</span>        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(sch, <span class="keyword">this</span>, {}, {{<span class="stringliteral">&quot;#&quot;</span>}});</div>
+<div class="line"><span class="lineno">  284</span> </div>
+<div class="line"><span class="lineno">  285</span>        <span class="comment">// load all files which have not yet been loaded</span></div>
+<div class="line"><span class="lineno">  286</span>        <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">  287</span>            <span class="keywordtype">bool</span> new_schema_loaded = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  288</span> </div>
+<div class="line"><span class="lineno">  289</span>            <span class="comment">// files_ is modified during parsing, iterators are invalidated</span></div>
+<div class="line"><span class="lineno">  290</span>            std::vector&lt;std::string&gt; locations;</div>
+<div class="line"><span class="lineno">  291</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>)</div>
+<div class="line"><span class="lineno">  292</span>                locations.push_back(file.first);</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;loc : locations) {</div>
+<div class="line"><span class="lineno">  295</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>[loc].schemas.size() == 0) { <span class="comment">// nothing has been loaded for this file</span></div>
+<div class="line"><span class="lineno">  296</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>) {</div>
+<div class="line"><span class="lineno">  297</span>                        <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a> loaded_schema;</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>                        <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#ad147eead045c078a6f07680a1991fc44">loader_</a>(loc, loaded_schema);</div>
+<div class="line"><span class="lineno">  300</span> </div>
+<div class="line"><span class="lineno">  301</span>                        <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(loaded_schema, <span class="keyword">this</span>, {}, {{loc}});</div>
+<div class="line"><span class="lineno">  302</span>                        new_schema_loaded = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  303</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  304</span>                        <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;external schema reference &#39;&quot;</span> + loc + <span class="stringliteral">&quot;&#39; needs loading, but no loader callback given&quot;</span>);</div>
+<div class="line"><span class="lineno">  305</span>                    }</div>
+<div class="line"><span class="lineno">  306</span>                }</div>
+<div class="line"><span class="lineno">  307</span>            }</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>            <span class="keywordflow">if</span> (!new_schema_loaded) <span class="comment">// if no new schema loaded, no need to try again</span></div>
+<div class="line"><span class="lineno">  310</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  311</span>        } <span class="keywordflow">while</span> (1);</div>
+<div class="line"><span class="lineno">  312</span> </div>
+<div class="line"><span class="lineno">  313</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;file : <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>) {</div>
+<div class="line"><span class="lineno">  314</span>            <span class="keywordflow">if</span> (file.second.unresolved.size() != 0) {</div>
+<div class="line"><span class="lineno">  315</span>                <span class="comment">// Build a representation of the undefined</span></div>
+<div class="line"><span class="lineno">  316</span>                <span class="comment">// references as a list of comma-separated strings.</span></div>
+<div class="line"><span class="lineno">  317</span>                <span class="keyword">auto</span> n_urefs = file.second.unresolved.size();</div>
+<div class="line"><span class="lineno">  318</span>                std::string urefs = <span class="stringliteral">&quot;[&quot;</span>;</div>
+<div class="line"><span class="lineno">  319</span> </div>
+<div class="line"><span class="lineno">  320</span>                <span class="keyword">decltype</span>(n_urefs) counter = 0;</div>
+<div class="line"><span class="lineno">  321</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;p : file.second.unresolved) {</div>
+<div class="line"><span class="lineno">  322</span>                    urefs += p.first;</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>                    <span class="keywordflow">if</span> (counter != n_urefs - 1u) {</div>
+<div class="line"><span class="lineno">  325</span>                        urefs += <span class="stringliteral">&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  326</span>                    }</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>                    ++counter;</div>
+<div class="line"><span class="lineno">  329</span>                }</div>
+<div class="line"><span class="lineno">  330</span> </div>
+<div class="line"><span class="lineno">  331</span>                urefs += <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><span class="lineno">  332</span> </div>
+<div class="line"><span class="lineno">  333</span>                <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;after all files have been parsed, &#39;&quot;</span> +</div>
+<div class="line"><span class="lineno">  334</span>                                            (file.first == <span class="stringliteral">&quot;&quot;</span> ? <span class="stringliteral">&quot;&lt;root&gt;&quot;</span> : file.first) +</div>
+<div class="line"><span class="lineno">  335</span>                                            <span class="stringliteral">&quot;&#39; has still the following undefined references: &quot;</span> + urefs);</div>
+<div class="line"><span class="lineno">  336</span>            }</div>
+<div class="line"><span class="lineno">  337</span>        }</div>
+<div class="line"><span class="lineno">  338</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1184,34 +1186,34 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00339">339</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  344</span>    {</div>
-<div class="line"><span class="lineno">  345</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a>) {</div>
-<div class="line"><span class="lineno">  346</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no root schema has yet been set for validating an instance&quot;</span>);</div>
-<div class="line"><span class="lineno">  347</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  348</span>        }</div>
-<div class="line"><span class="lineno">  349</span> </div>
-<div class="line"><span class="lineno">  350</span>        <span class="keyword">auto</span> file_entry = <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
-<div class="line"><span class="lineno">  351</span>        <span class="keywordflow">if</span> (file_entry == <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.end()) {</div>
-<div class="line"><span class="lineno">  352</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no file found serving requested root-URI. &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
-<div class="line"><span class="lineno">  353</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  354</span>        }</div>
-<div class="line"><span class="lineno">  355</span> </div>
-<div class="line"><span class="lineno">  356</span>        <span class="keyword">auto</span> &amp;file = file_entry-&gt;second;</div>
-<div class="line"><span class="lineno">  357</span>        <span class="keyword">auto</span> sch = file.schemas.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  358</span>        <span class="keywordflow">if</span> (sch == file.schemas.end()) {</div>
-<div class="line"><span class="lineno">  359</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no schema find for request initial URI: &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>());</div>
-<div class="line"><span class="lineno">  360</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  361</span>        }</div>
-<div class="line"><span class="lineno">  362</span> </div>
-<div class="line"><span class="lineno">  363</span>        sch-&gt;second-&gt;validate(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, patch, e);</div>
-<div class="line"><span class="lineno">  364</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00340">340</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  345</span>    {</div>
+<div class="line"><span class="lineno">  346</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a>) {</div>
+<div class="line"><span class="lineno">  347</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no root schema has yet been set for validating an instance&quot;</span>);</div>
+<div class="line"><span class="lineno">  348</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  349</span>        }</div>
+<div class="line"><span class="lineno">  350</span> </div>
+<div class="line"><span class="lineno">  351</span>        <span class="keyword">auto</span> file_entry = <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
+<div class="line"><span class="lineno">  352</span>        <span class="keywordflow">if</span> (file_entry == <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.end()) {</div>
+<div class="line"><span class="lineno">  353</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no file found serving requested root-URI. &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
+<div class="line"><span class="lineno">  354</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  355</span>        }</div>
+<div class="line"><span class="lineno">  356</span> </div>
+<div class="line"><span class="lineno">  357</span>        <span class="keyword">auto</span> &amp;file = file_entry-&gt;second;</div>
+<div class="line"><span class="lineno">  358</span>        <span class="keyword">auto</span> sch = file.schemas.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  359</span>        <span class="keywordflow">if</span> (sch == file.schemas.end()) {</div>
+<div class="line"><span class="lineno">  360</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no schema find for request initial URI: &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>());</div>
+<div class="line"><span class="lineno">  361</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  362</span>        }</div>
+<div class="line"><span class="lineno">  363</span> </div>
+<div class="line"><span class="lineno">  364</span>        sch-&gt;second-&gt;validate(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, patch, e);</div>
+<div class="line"><span class="lineno">  365</span>    }</div>
 <div class="ttc" id="aclassnlohmann_1_1json__schema_1_1error__handler_html_a6518c4580b8dd8063000e183f1541650"><div class="ttname"><a href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">nlohmann::json_schema::error_handler::error</a></div><div class="ttdeci">virtual void error(const json::json_pointer &amp;, const json &amp;, const std::string &amp;)=0</div></div>
 <div class="ttc" id="aissue-93_8cpp_html_a44068119bf1b501581a96d624c4f4b8c"><div class="ttname"><a href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a></div><div class="ttdeci">static const auto instance</div><div class="ttdef"><b>Definition</b> <a href="issue-93_8cpp_source.html#l00014">issue-93.cpp:14</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">nlohmann::json_schema::error_handler::error()</a>, <a class="el" href="json-validator_8cpp_source.html#l00157">files_</a>, <a class="el" href="json-schema_8hpp_source.html#l00080">nlohmann::json_uri::fragment()</a>, <a class="el" href="json-uri_8cpp_source.html#l00102">nlohmann::json_uri::location()</a>, <a class="el" href="json-validator_8cpp_source.html#l00148">root_</a>, <a class="el" href="json-validator_8cpp_source.html#l00151">nlohmann::json_schema::root_schema::schema_file::schemas</a>, <a class="el" href="json-uri_8cpp_source.html#l00118">nlohmann::json_uri::to_string()</a>, and <a class="el" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a2509ace246d9dcec607e75377753a5ea">anonymous_namespace{json-validator.cpp}::schema::validate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01455">nlohmann::json_schema::json_validator::validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01511">nlohmann::json_schema::json_validator::validate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1220,7 +1222,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classnlohmann_1_1json__schema_1_1root__schema_a32f6012c2d81f29ca16e4409dd2b5ea3_icgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classnlohmann_1_1json__schema_1_1root__schema_a32f6012c2d81f29ca16e4409dd2b5ea3_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1277,28 +1279,28 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00339">339</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  344</span>    {</div>
-<div class="line"><span class="lineno">  345</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a>) {</div>
-<div class="line"><span class="lineno">  346</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no root schema has yet been set for validating an instance&quot;</span>);</div>
-<div class="line"><span class="lineno">  347</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  348</span>        }</div>
-<div class="line"><span class="lineno">  349</span> </div>
-<div class="line"><span class="lineno">  350</span>        <span class="keyword">auto</span> file_entry = <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
-<div class="line"><span class="lineno">  351</span>        <span class="keywordflow">if</span> (file_entry == <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.end()) {</div>
-<div class="line"><span class="lineno">  352</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no file found serving requested root-URI. &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
-<div class="line"><span class="lineno">  353</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  354</span>        }</div>
-<div class="line"><span class="lineno">  355</span> </div>
-<div class="line"><span class="lineno">  356</span>        <span class="keyword">auto</span> &amp;file = file_entry-&gt;second;</div>
-<div class="line"><span class="lineno">  357</span>        <span class="keyword">auto</span> sch = file.schemas.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
-<div class="line"><span class="lineno">  358</span>        <span class="keywordflow">if</span> (sch == file.schemas.end()) {</div>
-<div class="line"><span class="lineno">  359</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no schema find for request initial URI: &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>());</div>
-<div class="line"><span class="lineno">  360</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  361</span>        }</div>
-<div class="line"><span class="lineno">  362</span> </div>
-<div class="line"><span class="lineno">  363</span>        sch-&gt;second-&gt;validate(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, patch, e);</div>
-<div class="line"><span class="lineno">  364</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00340">340</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  345</span>    {</div>
+<div class="line"><span class="lineno">  346</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91">root_</a>) {</div>
+<div class="line"><span class="lineno">  347</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no root schema has yet been set for validating an instance&quot;</span>);</div>
+<div class="line"><span class="lineno">  348</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  349</span>        }</div>
+<div class="line"><span class="lineno">  350</span> </div>
+<div class="line"><span class="lineno">  351</span>        <span class="keyword">auto</span> file_entry = <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
+<div class="line"><span class="lineno">  352</span>        <span class="keywordflow">if</span> (file_entry == <a class="code hl_variable" href="classnlohmann_1_1json__schema_1_1root__schema.html#a7c2b03f96c5f4d510559ef021c779f85">files_</a>.end()) {</div>
+<div class="line"><span class="lineno">  353</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no file found serving requested root-URI. &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de">location</a>());</div>
+<div class="line"><span class="lineno">  354</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  355</span>        }</div>
+<div class="line"><span class="lineno">  356</span> </div>
+<div class="line"><span class="lineno">  357</span>        <span class="keyword">auto</span> &amp;file = file_entry-&gt;second;</div>
+<div class="line"><span class="lineno">  358</span>        <span class="keyword">auto</span> sch = file.schemas.find(initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945">fragment</a>());</div>
+<div class="line"><span class="lineno">  359</span>        <span class="keywordflow">if</span> (sch == file.schemas.end()) {</div>
+<div class="line"><span class="lineno">  360</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;no schema find for request initial URI: &quot;</span> + initial.<a class="code hl_function" href="classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f">to_string</a>());</div>
+<div class="line"><span class="lineno">  361</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  362</span>        }</div>
+<div class="line"><span class="lineno">  363</span> </div>
+<div class="line"><span class="lineno">  364</span>        sch-&gt;second-&gt;validate(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, patch, e);</div>
+<div class="line"><span class="lineno">  365</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1351,7 +1353,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00157">157</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-validator_8cpp_source.html#l00279">set_root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00339">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00159">get_or_create_file()</a>, <a class="el" href="json-validator_8cpp_source.html#l00280">set_root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00340">validate()</a>.</p>
 
 </div>
 </div>
@@ -1403,7 +1405,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00144">144</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00169">root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00279">set_root_schema()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00169">root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00280">set_root_schema()</a>.</p>
 
 </div>
 </div>
@@ -1429,7 +1431,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l00148">148</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00279">set_root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00339">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l00280">set_root_schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l00340">validate()</a>.</p>
 
 </div>
 </div>
@@ -1442,7 +1444,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacenlohmann.html">nlohmann</a></li><li class="navelem"><a class="el" href="namespacenlohmann_1_1json__schema.html">json_schema</a></li><li class="navelem"><a class="el" href="classnlohmann_1_1json__schema_1_1root__schema.html">root_schema</a></li>
-    <li class="footer">Generated on Sat May 3 2025 13:36:53 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Jul 5 2025 22:36:23 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

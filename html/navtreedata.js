@@ -112,7 +112,7 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
@@ -125,15 +125,17 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BridgeStore_8cpp.html",
-"classanonymous__namespace_02json-validator_8cpp_03_1_1numeric.html#a0dc0d3e19cbc315188f862166c74d335",
-"classinja_1_1BlockStatementNode.html#a180db475bddb93c47bb312701eaedd08",
-"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a87ba2ecc8b6915e8bd6f5089918229fd",
-"classinja_1_1Renderer.html",
-"classmqtt_1_1bridge_1_1lib_1_1Broker.html#aaf8d73b588e50698be0fcd832148b1fc",
-"classnlohmann_1_1json__patch.html#a9c19775204cb643dc6966d2ec212a3c8",
-"functions_l.html",
-"mqttbroker_8cpp.html",
-"structinja_1_1RenderConfig.html"
+"classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html#afd6a0bd8e30b3f24a728c5d7637c8fda",
+"classconanfile_1_1JsonSchemaValidatorConan.html#af5d367806dcc1f51cf21ad83bc55f3c7",
+"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a35537fbc25d87ffe59e4f35fefcd34b7",
+"classinja_1_1Parser.html#a7dda6b9f4295c215e097f45d573d8d69",
+"classmqtt_1_1bridge_1_1lib_1_1Broker.html#a554eb6627aa4d92607f47aca793b6952",
+"classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15",
+"classnlohmann_1_1json__schema_1_1json__validator.html#a9b658ef82ef777074679e2a60d539821",
+"globals.html",
+"mqttbridge_2SocketContextFactory_8cpp.html",
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#a95e25aeba0b2f9861d90f24da4dc4f6f",
+"ub_2websocket_2SubProtocolFactory_8cpp.html#a0e1d80ca3feca531eb06e21bbb056e61"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -259,7 +259,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="inja_8hpp_source.html#l03012">inja::Environment::add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03026">inja::Environment::add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03019">inja::Environment::add_void_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03033">inja::Environment::add_void_callback()</a>, <a class="el" href="MqttMapper_8h_source.html#l00103">injaEnvironment</a>, <a class="el" href="MqttMapper_8h_source.html#l00099">mappingJson</a>, <a class="el" href="MqttMapperPlugin_8h_source.html#l00068">mqtt::lib::FunctionBase::name</a>, <a class="el" href="MqttMapperPlugin_8h_source.html#l00069">mqtt::lib::FunctionBase::numArgs</a>, and <a class="el" href="MqttMapper_8h_source.html#l00101">pluginHandles</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00060">mqtt::mqttintegrator::lib::Mqtt::Mqtt()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00057">mqtt::mqttbroker::lib::Mqtt::Mqtt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ntegrator_2lib_2Mqtt_8cpp_source.html#l00060">mqtt::mqttintegrator::lib::Mqtt::Mqtt()</a>, and <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00057">mqtt::mqttbroker::lib::Mqtt::Mqtt()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -474,7 +474,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00235">extractSubscriptions()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00099">mappingJson</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00101">mqtt::mqttintegrator::lib::Mqtt::onConnack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ntegrator_2lib_2Mqtt_8cpp_source.html#l00101">mqtt::mqttintegrator::lib::Mqtt::onConnack()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -600,7 +600,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  251</span>            <span class="keyword">const</span> std::string::size_type slashPosition = topic.find(<span class="charliteral">&#39;/&#39;</span>);</div>
 <div class="line"><span class="lineno">  252</span>            <span class="keyword">const</span> std::string topicLevelName = topic.substr(0, slashPosition);</div>
 <div class="line"><span class="lineno">  253</span> </div>
-<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">if</span> (topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == topicLevelName) {</div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">if</span> (topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == topicLevelName || topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == <span class="stringliteral">&quot;+&quot;</span> || topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == <span class="stringliteral">&quot;#&quot;</span>) {</div>
 <div class="line"><span class="lineno">  255</span>                <span class="keywordflow">if</span> (slashPosition == std::string::npos) {</div>
 <div class="line"><span class="lineno">  256</span>                    foundTopicLevel = topicLevel;</div>
 <div class="line"><span class="lineno">  257</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (topicLevel.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
@@ -1216,7 +1216,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00247">findMatchingTopicLevel()</a>, <a class="el" href="MqttMapper_8h_source.html#l00099">mappingJson</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00393">publishMappedMessages()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00327">publishMappedTemplates()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00070">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>, <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00115">mqtt::mqttintegrator::lib::Mqtt::onPublish()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00080">mqtt::mqttbroker::lib::Mqtt::publishMapping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00070">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>, <a class="el" href="ntegrator_2lib_2Mqtt_8cpp_source.html#l00115">mqtt::mqttintegrator::lib::Mqtt::onPublish()</a>, and <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00080">mqtt::mqttbroker::lib::Mqtt::publishMapping()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1319,7 +1319,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemqtt.html">mqtt</a></li><li class="navelem"><a class="el" href="namespacemqtt_1_1lib.html">lib</a></li><li class="navelem"><a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html">MqttMapper</a></li>
-    <li class="footer">Generated on Sat May 3 2025 13:36:53 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Jul 5 2025 22:36:23 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

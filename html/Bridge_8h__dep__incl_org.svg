@@ -56,7 +56,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="mqttbridge_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="ridge_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="484.5,-85 353.5,-85 353.5,-66 484.5,-66 484.5,-85"/>
 <text text-anchor="middle" x="419" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Mqtt.cpp</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="ridge_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="482,-30 350,-30 350,0 482,0 482,-30"/>
 <text text-anchor="start" x="358" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/websocket</text>
 <text text-anchor="middle" x="416" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>

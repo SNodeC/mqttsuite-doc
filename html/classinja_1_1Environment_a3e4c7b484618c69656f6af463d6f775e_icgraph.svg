@@ -348,7 +348,7 @@ var sectionId = 'dynsection-21';
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="mqttbroker_8cpp.html#a760fc46c377e0486748aceb5686e3741" target="_top" xlink:title=" ">
+<g id="a_Node000012"><a xlink:href="mqttbroker_8cpp.html#a6a886a53c0261b1fa115609c34e8e607" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="429,-200.5 364,-200.5 364,-181.5 429,-181.5 429,-200.5"/>
 <text text-anchor="middle" x="396.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">getRouter</text>
 </a>

@@ -1,6 +1,7 @@
 var namespaces_dup =
 [
     [ "anonymous_namespace{errors.cpp}", "namespaceanonymous__namespace_02errors_8cpp_03.html", null ],
+    [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}", "namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html", "namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03" ],
     [ "anonymous_namespace{issue-149-entry-selection.cpp}", "namespaceanonymous__namespace_02issue-149-entry-selection_8cpp_03.html", [
       [ "error_count", "namespaceanonymous__namespace_02issue-149-entry-selection_8cpp_03.html#abe6ea0e7ec52a61d71b906c3ed3a1659", null ]
     ] ],

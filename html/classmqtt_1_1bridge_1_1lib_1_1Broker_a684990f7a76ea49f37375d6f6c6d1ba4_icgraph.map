@@ -1,9 +1,7 @@
 <map id="mqtt::bridge::lib::Broker::getSessionStoreFileName" name="mqtt::bridge::lib::Broker::getSessionStoreFileName">
-<area shape="rect" id="Node000001" title=" " alt="" coords="447,37,685,77"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="264,37,399,77"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="433,60,399,60,399,55,433,55"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html#a1f9ab899e4c3205913ba2841ae69dc33" title=" " alt="" coords="9,5,213,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,48,212,43,213,37,250,43"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#a843ee73f0182cea879cd45d9e924db8e" title=" " alt="" coords="5,69,216,109"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="251,72,217,77,216,71,250,66"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="440,5,679,45"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="257,5,392,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,28,392,28,392,23,427,23"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html#a1f9ab899e4c3205913ba2841ae69dc33" title=" " alt="" coords="5,5,209,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="244,28,209,28,209,23,244,23"/>
 </map>

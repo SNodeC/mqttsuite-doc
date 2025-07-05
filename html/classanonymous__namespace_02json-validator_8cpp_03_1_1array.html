@@ -177,7 +177,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01150">1150</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01199">1199</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad16bb35faff550ae0c7014de82822e71" name="ad16bb35faff550ae0c7014de82822e71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad16bb35faff550ae0c7014de82822e71">&#9670;&#160;</a></span>array() <span class="overload">[1/2]</span></h2>
@@ -219,65 +219,65 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01219">1219</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1220</span>        : <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>(root)</div>
-<div class="line"><span class="lineno"> 1221</span>    {</div>
-<div class="line"><span class="lineno"> 1222</span>        <span class="keyword">auto</span> attr = sch.find(<span class="stringliteral">&quot;maxItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1223</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1224</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
-<div class="line"><span class="lineno"> 1225</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1226</span>        }</div>
-<div class="line"><span class="lineno"> 1227</span> </div>
-<div class="line"><span class="lineno"> 1228</span>        attr = sch.find(<span class="stringliteral">&quot;minItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1229</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1230</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
-<div class="line"><span class="lineno"> 1231</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1232</span>        }</div>
-<div class="line"><span class="lineno"> 1233</span> </div>
-<div class="line"><span class="lineno"> 1234</span>        attr = sch.find(<span class="stringliteral">&quot;uniqueItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1235</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1236</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a> = attr.value().get&lt;<span class="keywordtype">bool</span>&gt;();</div>
-<div class="line"><span class="lineno"> 1237</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1238</span>        }</div>
-<div class="line"><span class="lineno"> 1239</span> </div>
-<div class="line"><span class="lineno"> 1240</span>        attr = sch.find(<span class="stringliteral">&quot;items&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1241</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1242</span> </div>
-<div class="line"><span class="lineno"> 1243</span>            <span class="keywordflow">if</span> (attr.value().type() == json::value_t::array) {</div>
-<div class="line"><span class="lineno"> 1244</span>                <span class="keywordtype">size_t</span> c = 0;</div>
-<div class="line"><span class="lineno"> 1245</span>                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : attr.value())</div>
-<div class="line"><span class="lineno"> 1246</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.push_back(<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>::<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">make</a>(subsch, root, {<span class="stringliteral">&quot;items&quot;</span>, std::to_string(c++)}, uris));</div>
-<div class="line"><span class="lineno"> 1247</span> </div>
-<div class="line"><span class="lineno"> 1248</span>                <span class="keyword">auto</span> attr_add = sch.find(<span class="stringliteral">&quot;additionalItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1249</span>                <span class="keywordflow">if</span> (attr_add != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1250</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr_add.value(), root, {<span class="stringliteral">&quot;additionalItems&quot;</span>}, uris);</div>
-<div class="line"><span class="lineno"> 1251</span>                    sch.erase(attr_add);</div>
-<div class="line"><span class="lineno"> 1252</span>                }</div>
-<div class="line"><span class="lineno"> 1253</span> </div>
-<div class="line"><span class="lineno"> 1254</span>            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attr.value().type() == json::value_t::object ||</div>
-<div class="line"><span class="lineno"> 1255</span>                       attr.value().type() == json::value_t::boolean)</div>
-<div class="line"><span class="lineno"> 1256</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;items&quot;</span>}, uris);</div>
-<div class="line"><span class="lineno"> 1257</span> </div>
-<div class="line"><span class="lineno"> 1258</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1259</span>        }</div>
-<div class="line"><span class="lineno"> 1260</span> </div>
-<div class="line"><span class="lineno"> 1261</span>        attr = sch.find(<span class="stringliteral">&quot;contains&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1262</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1263</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;contains&quot;</span>}, uris);</div>
-<div class="line"><span class="lineno"> 1264</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1265</span>        }</div>
-<div class="line"><span class="lineno"> 1266</span>    }</div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a0b1cf64522eb0ac097ed43c87be9bed4"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">anonymous_namespace{json-validator.cpp}::array::items_schema_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; items_schema_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01156">json-validator.cpp:1156</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a155ff707c21f2a4f0fbe5a095233ffc0"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">anonymous_namespace{json-validator.cpp}::array::contains_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; contains_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01161">json-validator.cpp:1161</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a67f00be7a298b3bf1c73f23cdfdd898c"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">anonymous_namespace{json-validator.cpp}::array::maxItems_</a></div><div class="ttdeci">std::pair&lt; bool, size_t &gt; maxItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01152">json-validator.cpp:1152</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a952bf2876337d9bf09aff0f3d92df5f7"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">anonymous_namespace{json-validator.cpp}::array::minItems_</a></div><div class="ttdeci">std::pair&lt; bool, size_t &gt; minItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01153">json-validator.cpp:1153</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_ab3f416a1aec8332a05ebfb2240914382"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">anonymous_namespace{json-validator.cpp}::array::additionalItems_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; additionalItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01159">json-validator.cpp:1159</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_abd09efcc004794fefb897101794b2fff"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">anonymous_namespace{json-validator.cpp}::array::items_</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; schema &gt; &gt; items_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01158">json-validator.cpp:1158</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_ae6d66d6ea85a7698237854ff3d48692b"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">anonymous_namespace{json-validator.cpp}::array::uniqueItems_</a></div><div class="ttdeci">bool uniqueItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01154">json-validator.cpp:1154</a></div></div>
-<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1schema_html_aafee860997369c77204d5b1a7d095c3f"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">anonymous_namespace{json-validator.cpp}::schema::make</a></div><div class="ttdeci">static std::shared_ptr&lt; schema &gt; make(json &amp;schema, root_schema *root, const std::vector&lt; std::string &gt; &amp;key, std::vector&lt; nlohmann::json_uri &gt; uris)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01306">json-validator.cpp:1306</a></div></div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01268">1268</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1269</span>        : <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>(root)</div>
+<div class="line"><span class="lineno"> 1270</span>    {</div>
+<div class="line"><span class="lineno"> 1271</span>        <span class="keyword">auto</span> attr = sch.find(<span class="stringliteral">&quot;maxItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1272</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1273</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
+<div class="line"><span class="lineno"> 1274</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1275</span>        }</div>
+<div class="line"><span class="lineno"> 1276</span> </div>
+<div class="line"><span class="lineno"> 1277</span>        attr = sch.find(<span class="stringliteral">&quot;minItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1278</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1279</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
+<div class="line"><span class="lineno"> 1280</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1281</span>        }</div>
+<div class="line"><span class="lineno"> 1282</span> </div>
+<div class="line"><span class="lineno"> 1283</span>        attr = sch.find(<span class="stringliteral">&quot;uniqueItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1284</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1285</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a> = attr.value().get&lt;<span class="keywordtype">bool</span>&gt;();</div>
+<div class="line"><span class="lineno"> 1286</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1287</span>        }</div>
+<div class="line"><span class="lineno"> 1288</span> </div>
+<div class="line"><span class="lineno"> 1289</span>        attr = sch.find(<span class="stringliteral">&quot;items&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1290</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1291</span> </div>
+<div class="line"><span class="lineno"> 1292</span>            <span class="keywordflow">if</span> (attr.value().type() == json::value_t::array) {</div>
+<div class="line"><span class="lineno"> 1293</span>                <span class="keywordtype">size_t</span> c = 0;</div>
+<div class="line"><span class="lineno"> 1294</span>                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : attr.value())</div>
+<div class="line"><span class="lineno"> 1295</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.push_back(<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>::<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">make</a>(subsch, root, {<span class="stringliteral">&quot;items&quot;</span>, std::to_string(c++)}, uris));</div>
+<div class="line"><span class="lineno"> 1296</span> </div>
+<div class="line"><span class="lineno"> 1297</span>                <span class="keyword">auto</span> attr_add = sch.find(<span class="stringliteral">&quot;additionalItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1298</span>                <span class="keywordflow">if</span> (attr_add != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1299</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr_add.value(), root, {<span class="stringliteral">&quot;additionalItems&quot;</span>}, uris);</div>
+<div class="line"><span class="lineno"> 1300</span>                    sch.erase(attr_add);</div>
+<div class="line"><span class="lineno"> 1301</span>                }</div>
+<div class="line"><span class="lineno"> 1302</span> </div>
+<div class="line"><span class="lineno"> 1303</span>            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attr.value().type() == json::value_t::object ||</div>
+<div class="line"><span class="lineno"> 1304</span>                       attr.value().type() == json::value_t::boolean)</div>
+<div class="line"><span class="lineno"> 1305</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;items&quot;</span>}, uris);</div>
+<div class="line"><span class="lineno"> 1306</span> </div>
+<div class="line"><span class="lineno"> 1307</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1308</span>        }</div>
+<div class="line"><span class="lineno"> 1309</span> </div>
+<div class="line"><span class="lineno"> 1310</span>        attr = sch.find(<span class="stringliteral">&quot;contains&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1311</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1312</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;contains&quot;</span>}, uris);</div>
+<div class="line"><span class="lineno"> 1313</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1314</span>        }</div>
+<div class="line"><span class="lineno"> 1315</span>    }</div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a0b1cf64522eb0ac097ed43c87be9bed4"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">anonymous_namespace{json-validator.cpp}::array::items_schema_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; items_schema_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01205">json-validator.cpp:1205</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a155ff707c21f2a4f0fbe5a095233ffc0"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">anonymous_namespace{json-validator.cpp}::array::contains_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; contains_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01210">json-validator.cpp:1210</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a67f00be7a298b3bf1c73f23cdfdd898c"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">anonymous_namespace{json-validator.cpp}::array::maxItems_</a></div><div class="ttdeci">std::pair&lt; bool, size_t &gt; maxItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01201">json-validator.cpp:1201</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_a952bf2876337d9bf09aff0f3d92df5f7"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">anonymous_namespace{json-validator.cpp}::array::minItems_</a></div><div class="ttdeci">std::pair&lt; bool, size_t &gt; minItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01202">json-validator.cpp:1202</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_ab3f416a1aec8332a05ebfb2240914382"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">anonymous_namespace{json-validator.cpp}::array::additionalItems_</a></div><div class="ttdeci">std::shared_ptr&lt; schema &gt; additionalItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01208">json-validator.cpp:1208</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_abd09efcc004794fefb897101794b2fff"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">anonymous_namespace{json-validator.cpp}::array::items_</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; schema &gt; &gt; items_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01207">json-validator.cpp:1207</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1array_html_ae6d66d6ea85a7698237854ff3d48692b"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">anonymous_namespace{json-validator.cpp}::array::uniqueItems_</a></div><div class="ttdeci">bool uniqueItems_</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01203">json-validator.cpp:1203</a></div></div>
+<div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1schema_html_aafee860997369c77204d5b1a7d095c3f"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">anonymous_namespace{json-validator.cpp}::schema::make</a></div><div class="ttdeci">static std::shared_ptr&lt; schema &gt; make(json &amp;schema, root_schema *root, const std::vector&lt; std::string &gt; &amp;key, std::vector&lt; nlohmann::json_uri &gt; uris)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01355">json-validator.cpp:1355</a></div></div>
 <div class="ttc" id="aclassanonymous__namespace_02json-validator_8cpp_03_1_1schema_html_ac4014ccd3e19d2c94ff6cb782b9b6ece"><div class="ttname"><a href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">anonymous_namespace{json-validator.cpp}::schema::schema</a></div><div class="ttdeci">schema(root_schema *root)</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l00057">json-validator.cpp:57</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01159">additionalItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01161">contains_</a>, <a class="el" href="json-validator_8cpp_source.html#l01158">items_</a>, <a class="el" href="json-validator_8cpp_source.html#l01156">items_schema_</a>, <a class="el" href="json-validator_8cpp_source.html#l01306">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-validator_8cpp_source.html#l01152">maxItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01153">minItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l00057">anonymous_namespace{json-validator.cpp}::schema::schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01154">uniqueItems_</a>.</p>
+<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01208">additionalItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01210">contains_</a>, <a class="el" href="json-validator_8cpp_source.html#l01207">items_</a>, <a class="el" href="json-validator_8cpp_source.html#l01205">items_schema_</a>, <a class="el" href="json-validator_8cpp_source.html#l01355">anonymous_namespace{json-validator.cpp}::schema::make()</a>, <a class="el" href="json-validator_8cpp_source.html#l01201">maxItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01202">minItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l00057">anonymous_namespace{json-validator.cpp}::schema::schema()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01203">uniqueItems_</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -326,54 +326,54 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01219">1219</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1220</span>        : <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>(root)</div>
-<div class="line"><span class="lineno"> 1221</span>    {</div>
-<div class="line"><span class="lineno"> 1222</span>        <span class="keyword">auto</span> attr = sch.find(<span class="stringliteral">&quot;maxItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1223</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1224</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
-<div class="line"><span class="lineno"> 1225</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1226</span>        }</div>
-<div class="line"><span class="lineno"> 1227</span> </div>
-<div class="line"><span class="lineno"> 1228</span>        attr = sch.find(<span class="stringliteral">&quot;minItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1229</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1230</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
-<div class="line"><span class="lineno"> 1231</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1232</span>        }</div>
-<div class="line"><span class="lineno"> 1233</span> </div>
-<div class="line"><span class="lineno"> 1234</span>        attr = sch.find(<span class="stringliteral">&quot;uniqueItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1235</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1236</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a> = attr.value().get&lt;<span class="keywordtype">bool</span>&gt;();</div>
-<div class="line"><span class="lineno"> 1237</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1238</span>        }</div>
-<div class="line"><span class="lineno"> 1239</span> </div>
-<div class="line"><span class="lineno"> 1240</span>        attr = sch.find(<span class="stringliteral">&quot;items&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1241</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1242</span> </div>
-<div class="line"><span class="lineno"> 1243</span>            <span class="keywordflow">if</span> (attr.value().type() == json::value_t::array) {</div>
-<div class="line"><span class="lineno"> 1244</span>                <span class="keywordtype">size_t</span> c = 0;</div>
-<div class="line"><span class="lineno"> 1245</span>                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : attr.value())</div>
-<div class="line"><span class="lineno"> 1246</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.push_back(<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>::<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">make</a>(subsch, root, {<span class="stringliteral">&quot;items&quot;</span>, std::to_string(c++)}, uris));</div>
-<div class="line"><span class="lineno"> 1247</span> </div>
-<div class="line"><span class="lineno"> 1248</span>                <span class="keyword">auto</span> attr_add = sch.find(<span class="stringliteral">&quot;additionalItems&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1249</span>                <span class="keywordflow">if</span> (attr_add != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1250</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr_add.value(), root, {<span class="stringliteral">&quot;additionalItems&quot;</span>}, uris);</div>
-<div class="line"><span class="lineno"> 1251</span>                    sch.erase(attr_add);</div>
-<div class="line"><span class="lineno"> 1252</span>                }</div>
-<div class="line"><span class="lineno"> 1253</span> </div>
-<div class="line"><span class="lineno"> 1254</span>            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attr.value().type() == json::value_t::object ||</div>
-<div class="line"><span class="lineno"> 1255</span>                       attr.value().type() == json::value_t::boolean)</div>
-<div class="line"><span class="lineno"> 1256</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;items&quot;</span>}, uris);</div>
-<div class="line"><span class="lineno"> 1257</span> </div>
-<div class="line"><span class="lineno"> 1258</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1259</span>        }</div>
-<div class="line"><span class="lineno"> 1260</span> </div>
-<div class="line"><span class="lineno"> 1261</span>        attr = sch.find(<span class="stringliteral">&quot;contains&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1262</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
-<div class="line"><span class="lineno"> 1263</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;contains&quot;</span>}, uris);</div>
-<div class="line"><span class="lineno"> 1264</span>            sch.erase(attr);</div>
-<div class="line"><span class="lineno"> 1265</span>        }</div>
-<div class="line"><span class="lineno"> 1266</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01268">1268</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1269</span>        : <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>(root)</div>
+<div class="line"><span class="lineno"> 1270</span>    {</div>
+<div class="line"><span class="lineno"> 1271</span>        <span class="keyword">auto</span> attr = sch.find(<span class="stringliteral">&quot;maxItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1272</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1273</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
+<div class="line"><span class="lineno"> 1274</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1275</span>        }</div>
+<div class="line"><span class="lineno"> 1276</span> </div>
+<div class="line"><span class="lineno"> 1277</span>        attr = sch.find(<span class="stringliteral">&quot;minItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1278</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1279</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a> = {<span class="keyword">true</span>, attr.value().get&lt;<span class="keywordtype">size_t</span>&gt;()};</div>
+<div class="line"><span class="lineno"> 1280</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1281</span>        }</div>
+<div class="line"><span class="lineno"> 1282</span> </div>
+<div class="line"><span class="lineno"> 1283</span>        attr = sch.find(<span class="stringliteral">&quot;uniqueItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1284</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1285</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a> = attr.value().get&lt;<span class="keywordtype">bool</span>&gt;();</div>
+<div class="line"><span class="lineno"> 1286</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1287</span>        }</div>
+<div class="line"><span class="lineno"> 1288</span> </div>
+<div class="line"><span class="lineno"> 1289</span>        attr = sch.find(<span class="stringliteral">&quot;items&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1290</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1291</span> </div>
+<div class="line"><span class="lineno"> 1292</span>            <span class="keywordflow">if</span> (attr.value().type() == json::value_t::array) {</div>
+<div class="line"><span class="lineno"> 1293</span>                <span class="keywordtype">size_t</span> c = 0;</div>
+<div class="line"><span class="lineno"> 1294</span>                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;subsch : attr.value())</div>
+<div class="line"><span class="lineno"> 1295</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.push_back(<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#ac4014ccd3e19d2c94ff6cb782b9b6ece">schema</a>::<a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">make</a>(subsch, root, {<span class="stringliteral">&quot;items&quot;</span>, std::to_string(c++)}, uris));</div>
+<div class="line"><span class="lineno"> 1296</span> </div>
+<div class="line"><span class="lineno"> 1297</span>                <span class="keyword">auto</span> attr_add = sch.find(<span class="stringliteral">&quot;additionalItems&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1298</span>                <span class="keywordflow">if</span> (attr_add != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1299</span>                    <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr_add.value(), root, {<span class="stringliteral">&quot;additionalItems&quot;</span>}, uris);</div>
+<div class="line"><span class="lineno"> 1300</span>                    sch.erase(attr_add);</div>
+<div class="line"><span class="lineno"> 1301</span>                }</div>
+<div class="line"><span class="lineno"> 1302</span> </div>
+<div class="line"><span class="lineno"> 1303</span>            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attr.value().type() == json::value_t::object ||</div>
+<div class="line"><span class="lineno"> 1304</span>                       attr.value().type() == json::value_t::boolean)</div>
+<div class="line"><span class="lineno"> 1305</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;items&quot;</span>}, uris);</div>
+<div class="line"><span class="lineno"> 1306</span> </div>
+<div class="line"><span class="lineno"> 1307</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1308</span>        }</div>
+<div class="line"><span class="lineno"> 1309</span> </div>
+<div class="line"><span class="lineno"> 1310</span>        attr = sch.find(<span class="stringliteral">&quot;contains&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1311</span>        <span class="keywordflow">if</span> (attr != sch.end()) {</div>
+<div class="line"><span class="lineno"> 1312</span>            <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a> = <a class="code hl_function" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#aafee860997369c77204d5b1a7d095c3f">schema::make</a>(attr.value(), root, {<span class="stringliteral">&quot;contains&quot;</span>}, uris);</div>
+<div class="line"><span class="lineno"> 1313</span>            sch.erase(attr);</div>
+<div class="line"><span class="lineno"> 1314</span>        }</div>
+<div class="line"><span class="lineno"> 1315</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -426,64 +426,64 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a2509ace246d9dcec607e75377753a5ea">anonymous_namespace{json-validator.cpp}::schema</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01163">1163</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1164</span>    {</div>
-<div class="line"><span class="lineno"> 1165</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &gt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.second)</div>
-<div class="line"><span class="lineno"> 1166</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too many items&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1167</span> </div>
-<div class="line"><span class="lineno"> 1168</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &lt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.second)</div>
-<div class="line"><span class="lineno"> 1169</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too few items&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1170</span> </div>
-<div class="line"><span class="lineno"> 1171</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a>) {</div>
-<div class="line"><span class="lineno"> 1172</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cbegin(); it != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cend(); ++it) {</div>
-<div class="line"><span class="lineno"> 1173</span>                <span class="keyword">auto</span> v = std::find(it + 1, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end(), *it);</div>
-<div class="line"><span class="lineno"> 1174</span>                <span class="keywordflow">if</span> (v != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end())</div>
-<div class="line"><span class="lineno"> 1175</span>                    e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;items have to be unique for this array&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1176</span>            }</div>
-<div class="line"><span class="lineno"> 1177</span>        }</div>
-<div class="line"><span class="lineno"> 1178</span> </div>
-<div class="line"><span class="lineno"> 1179</span>        <span class="keywordtype">size_t</span> index = 0;</div>
-<div class="line"><span class="lineno"> 1180</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>)</div>
-<div class="line"><span class="lineno"> 1181</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
-<div class="line"><span class="lineno"> 1182</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>-&gt;validate(ptr / index, i, patch, e);</div>
-<div class="line"><span class="lineno"> 1183</span>                index++;</div>
-<div class="line"><span class="lineno"> 1184</span>            }</div>
-<div class="line"><span class="lineno"> 1185</span>        <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno"> 1186</span>            <span class="keyword">auto</span> item = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cbegin();</div>
-<div class="line"><span class="lineno"> 1187</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
-<div class="line"><span class="lineno"> 1188</span>                std::shared_ptr&lt;schema&gt; item_validator;</div>
-<div class="line"><span class="lineno"> 1189</span>                <span class="keywordflow">if</span> (item == <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cend())</div>
-<div class="line"><span class="lineno"> 1190</span>                    item_validator = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a>;</div>
-<div class="line"><span class="lineno"> 1191</span>                <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno"> 1192</span>                    item_validator = *item;</div>
-<div class="line"><span class="lineno"> 1193</span>                    item++;</div>
-<div class="line"><span class="lineno"> 1194</span>                }</div>
-<div class="line"><span class="lineno"> 1195</span> </div>
-<div class="line"><span class="lineno"> 1196</span>                <span class="keywordflow">if</span> (!item_validator)</div>
-<div class="line"><span class="lineno"> 1197</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1198</span> </div>
-<div class="line"><span class="lineno"> 1199</span>                item_validator-&gt;validate(ptr / index, i, patch, e);</div>
-<div class="line"><span class="lineno"> 1200</span>            }</div>
-<div class="line"><span class="lineno"> 1201</span>        }</div>
-<div class="line"><span class="lineno"> 1202</span> </div>
-<div class="line"><span class="lineno"> 1203</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>) {</div>
-<div class="line"><span class="lineno"> 1204</span>            <span class="keywordtype">bool</span> contained = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1205</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;item : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
-<div class="line"><span class="lineno"> 1206</span>                first_error_handler local_e;</div>
-<div class="line"><span class="lineno"> 1207</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>-&gt;validate(ptr, item, patch, local_e);</div>
-<div class="line"><span class="lineno"> 1208</span>                <span class="keywordflow">if</span> (!local_e) {</div>
-<div class="line"><span class="lineno"> 1209</span>                    contained = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1210</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1211</span>                }</div>
-<div class="line"><span class="lineno"> 1212</span>            }</div>
-<div class="line"><span class="lineno"> 1213</span>            <span class="keywordflow">if</span> (!contained)</div>
-<div class="line"><span class="lineno"> 1214</span>                e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array does not contain required element as per &#39;contains&#39;&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1215</span>        }</div>
-<div class="line"><span class="lineno"> 1216</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01212">1212</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1213</span>    {</div>
+<div class="line"><span class="lineno"> 1214</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &gt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.second)</div>
+<div class="line"><span class="lineno"> 1215</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too many items&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1216</span> </div>
+<div class="line"><span class="lineno"> 1217</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &lt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.second)</div>
+<div class="line"><span class="lineno"> 1218</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too few items&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1219</span> </div>
+<div class="line"><span class="lineno"> 1220</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a>) {</div>
+<div class="line"><span class="lineno"> 1221</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cbegin(); it != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cend(); ++it) {</div>
+<div class="line"><span class="lineno"> 1222</span>                <span class="keyword">auto</span> v = std::find(it + 1, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end(), *it);</div>
+<div class="line"><span class="lineno"> 1223</span>                <span class="keywordflow">if</span> (v != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end())</div>
+<div class="line"><span class="lineno"> 1224</span>                    e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;items have to be unique for this array&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1225</span>            }</div>
+<div class="line"><span class="lineno"> 1226</span>        }</div>
+<div class="line"><span class="lineno"> 1227</span> </div>
+<div class="line"><span class="lineno"> 1228</span>        <span class="keywordtype">size_t</span> index = 0;</div>
+<div class="line"><span class="lineno"> 1229</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>)</div>
+<div class="line"><span class="lineno"> 1230</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
+<div class="line"><span class="lineno"> 1231</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>-&gt;validate(ptr / index, i, patch, e);</div>
+<div class="line"><span class="lineno"> 1232</span>                index++;</div>
+<div class="line"><span class="lineno"> 1233</span>            }</div>
+<div class="line"><span class="lineno"> 1234</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno"> 1235</span>            <span class="keyword">auto</span> item = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cbegin();</div>
+<div class="line"><span class="lineno"> 1236</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
+<div class="line"><span class="lineno"> 1237</span>                std::shared_ptr&lt;schema&gt; item_validator;</div>
+<div class="line"><span class="lineno"> 1238</span>                <span class="keywordflow">if</span> (item == <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cend())</div>
+<div class="line"><span class="lineno"> 1239</span>                    item_validator = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a>;</div>
+<div class="line"><span class="lineno"> 1240</span>                <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno"> 1241</span>                    item_validator = *item;</div>
+<div class="line"><span class="lineno"> 1242</span>                    item++;</div>
+<div class="line"><span class="lineno"> 1243</span>                }</div>
+<div class="line"><span class="lineno"> 1244</span> </div>
+<div class="line"><span class="lineno"> 1245</span>                <span class="keywordflow">if</span> (!item_validator)</div>
+<div class="line"><span class="lineno"> 1246</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1247</span> </div>
+<div class="line"><span class="lineno"> 1248</span>                item_validator-&gt;validate(ptr / index, i, patch, e);</div>
+<div class="line"><span class="lineno"> 1249</span>            }</div>
+<div class="line"><span class="lineno"> 1250</span>        }</div>
+<div class="line"><span class="lineno"> 1251</span> </div>
+<div class="line"><span class="lineno"> 1252</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>) {</div>
+<div class="line"><span class="lineno"> 1253</span>            <span class="keywordtype">bool</span> contained = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1254</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;item : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
+<div class="line"><span class="lineno"> 1255</span>                first_error_handler local_e;</div>
+<div class="line"><span class="lineno"> 1256</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>-&gt;validate(ptr, item, patch, local_e);</div>
+<div class="line"><span class="lineno"> 1257</span>                <span class="keywordflow">if</span> (!local_e) {</div>
+<div class="line"><span class="lineno"> 1258</span>                    contained = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1259</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1260</span>                }</div>
+<div class="line"><span class="lineno"> 1261</span>            }</div>
+<div class="line"><span class="lineno"> 1262</span>            <span class="keywordflow">if</span> (!contained)</div>
+<div class="line"><span class="lineno"> 1263</span>                e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array does not contain required element as per &#39;contains&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1264</span>        }</div>
+<div class="line"><span class="lineno"> 1265</span>    }</div>
 <div class="ttc" id="aclassnlohmann_1_1json__schema_1_1error__handler_html_a6518c4580b8dd8063000e183f1541650"><div class="ttname"><a href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">nlohmann::json_schema::error_handler::error</a></div><div class="ttdeci">virtual void error(const json::json_pointer &amp;, const json &amp;, const std::string &amp;)=0</div></div>
 <div class="ttc" id="aissue-93_8cpp_html_a44068119bf1b501581a96d624c4f4b8c"><div class="ttname"><a href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a></div><div class="ttdeci">static const auto instance</div><div class="ttdef"><b>Definition</b> <a href="issue-93_8cpp_source.html#l00014">issue-93.cpp:14</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01159">additionalItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01161">contains_</a>, <a class="el" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">nlohmann::json_schema::error_handler::error()</a>, <a class="el" href="json-validator_8cpp_source.html#l01158">items_</a>, <a class="el" href="json-validator_8cpp_source.html#l01156">items_schema_</a>, <a class="el" href="json-validator_8cpp_source.html#l01152">maxItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01153">minItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01154">uniqueItems_</a>, and <a class="el" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a2509ace246d9dcec607e75377753a5ea">anonymous_namespace{json-validator.cpp}::schema::validate()</a>.</p>
+<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01208">additionalItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01210">contains_</a>, <a class="el" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">nlohmann::json_schema::error_handler::error()</a>, <a class="el" href="json-validator_8cpp_source.html#l01207">items_</a>, <a class="el" href="json-validator_8cpp_source.html#l01205">items_schema_</a>, <a class="el" href="json-validator_8cpp_source.html#l01201">maxItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01202">minItems_</a>, <a class="el" href="json-validator_8cpp_source.html#l01203">uniqueItems_</a>, and <a class="el" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a2509ace246d9dcec607e75377753a5ea">anonymous_namespace{json-validator.cpp}::schema::validate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -540,60 +540,60 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a2509ace246d9dcec607e75377753a5ea">anonymous_namespace{json-validator.cpp}::schema</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01163">1163</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1164</span>    {</div>
-<div class="line"><span class="lineno"> 1165</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &gt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.second)</div>
-<div class="line"><span class="lineno"> 1166</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too many items&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1167</span> </div>
-<div class="line"><span class="lineno"> 1168</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &lt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.second)</div>
-<div class="line"><span class="lineno"> 1169</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too few items&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1170</span> </div>
-<div class="line"><span class="lineno"> 1171</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a>) {</div>
-<div class="line"><span class="lineno"> 1172</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cbegin(); it != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cend(); ++it) {</div>
-<div class="line"><span class="lineno"> 1173</span>                <span class="keyword">auto</span> v = std::find(it + 1, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end(), *it);</div>
-<div class="line"><span class="lineno"> 1174</span>                <span class="keywordflow">if</span> (v != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end())</div>
-<div class="line"><span class="lineno"> 1175</span>                    e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;items have to be unique for this array&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1176</span>            }</div>
-<div class="line"><span class="lineno"> 1177</span>        }</div>
-<div class="line"><span class="lineno"> 1178</span> </div>
-<div class="line"><span class="lineno"> 1179</span>        <span class="keywordtype">size_t</span> index = 0;</div>
-<div class="line"><span class="lineno"> 1180</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>)</div>
-<div class="line"><span class="lineno"> 1181</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
-<div class="line"><span class="lineno"> 1182</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>-&gt;validate(ptr / index, i, patch, e);</div>
-<div class="line"><span class="lineno"> 1183</span>                index++;</div>
-<div class="line"><span class="lineno"> 1184</span>            }</div>
-<div class="line"><span class="lineno"> 1185</span>        <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno"> 1186</span>            <span class="keyword">auto</span> item = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cbegin();</div>
-<div class="line"><span class="lineno"> 1187</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
-<div class="line"><span class="lineno"> 1188</span>                std::shared_ptr&lt;schema&gt; item_validator;</div>
-<div class="line"><span class="lineno"> 1189</span>                <span class="keywordflow">if</span> (item == <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cend())</div>
-<div class="line"><span class="lineno"> 1190</span>                    item_validator = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a>;</div>
-<div class="line"><span class="lineno"> 1191</span>                <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno"> 1192</span>                    item_validator = *item;</div>
-<div class="line"><span class="lineno"> 1193</span>                    item++;</div>
-<div class="line"><span class="lineno"> 1194</span>                }</div>
-<div class="line"><span class="lineno"> 1195</span> </div>
-<div class="line"><span class="lineno"> 1196</span>                <span class="keywordflow">if</span> (!item_validator)</div>
-<div class="line"><span class="lineno"> 1197</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1198</span> </div>
-<div class="line"><span class="lineno"> 1199</span>                item_validator-&gt;validate(ptr / index, i, patch, e);</div>
-<div class="line"><span class="lineno"> 1200</span>            }</div>
-<div class="line"><span class="lineno"> 1201</span>        }</div>
-<div class="line"><span class="lineno"> 1202</span> </div>
-<div class="line"><span class="lineno"> 1203</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>) {</div>
-<div class="line"><span class="lineno"> 1204</span>            <span class="keywordtype">bool</span> contained = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1205</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;item : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
-<div class="line"><span class="lineno"> 1206</span>                first_error_handler local_e;</div>
-<div class="line"><span class="lineno"> 1207</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>-&gt;validate(ptr, item, patch, local_e);</div>
-<div class="line"><span class="lineno"> 1208</span>                <span class="keywordflow">if</span> (!local_e) {</div>
-<div class="line"><span class="lineno"> 1209</span>                    contained = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1210</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1211</span>                }</div>
-<div class="line"><span class="lineno"> 1212</span>            }</div>
-<div class="line"><span class="lineno"> 1213</span>            <span class="keywordflow">if</span> (!contained)</div>
-<div class="line"><span class="lineno"> 1214</span>                e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array does not contain required element as per &#39;contains&#39;&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1215</span>        }</div>
-<div class="line"><span class="lineno"> 1216</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01212">1212</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1213</span>    {</div>
+<div class="line"><span class="lineno"> 1214</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &gt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a67f00be7a298b3bf1c73f23cdfdd898c">maxItems_</a>.second)</div>
+<div class="line"><span class="lineno"> 1215</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too many items&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1216</span> </div>
+<div class="line"><span class="lineno"> 1217</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.first &amp;&amp; <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.size() &lt; <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a952bf2876337d9bf09aff0f3d92df5f7">minItems_</a>.second)</div>
+<div class="line"><span class="lineno"> 1218</span>            e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array has too few items&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1219</span> </div>
+<div class="line"><span class="lineno"> 1220</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ae6d66d6ea85a7698237854ff3d48692b">uniqueItems_</a>) {</div>
+<div class="line"><span class="lineno"> 1221</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cbegin(); it != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.cend(); ++it) {</div>
+<div class="line"><span class="lineno"> 1222</span>                <span class="keyword">auto</span> v = std::find(it + 1, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end(), *it);</div>
+<div class="line"><span class="lineno"> 1223</span>                <span class="keywordflow">if</span> (v != <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>.end())</div>
+<div class="line"><span class="lineno"> 1224</span>                    e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;items have to be unique for this array&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1225</span>            }</div>
+<div class="line"><span class="lineno"> 1226</span>        }</div>
+<div class="line"><span class="lineno"> 1227</span> </div>
+<div class="line"><span class="lineno"> 1228</span>        <span class="keywordtype">size_t</span> index = 0;</div>
+<div class="line"><span class="lineno"> 1229</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>)</div>
+<div class="line"><span class="lineno"> 1230</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
+<div class="line"><span class="lineno"> 1231</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a0b1cf64522eb0ac097ed43c87be9bed4">items_schema_</a>-&gt;validate(ptr / index, i, patch, e);</div>
+<div class="line"><span class="lineno"> 1232</span>                index++;</div>
+<div class="line"><span class="lineno"> 1233</span>            }</div>
+<div class="line"><span class="lineno"> 1234</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno"> 1235</span>            <span class="keyword">auto</span> item = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cbegin();</div>
+<div class="line"><span class="lineno"> 1236</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;i : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
+<div class="line"><span class="lineno"> 1237</span>                std::shared_ptr&lt;schema&gt; item_validator;</div>
+<div class="line"><span class="lineno"> 1238</span>                <span class="keywordflow">if</span> (item == <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#abd09efcc004794fefb897101794b2fff">items_</a>.cend())</div>
+<div class="line"><span class="lineno"> 1239</span>                    item_validator = <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#ab3f416a1aec8332a05ebfb2240914382">additionalItems_</a>;</div>
+<div class="line"><span class="lineno"> 1240</span>                <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno"> 1241</span>                    item_validator = *item;</div>
+<div class="line"><span class="lineno"> 1242</span>                    item++;</div>
+<div class="line"><span class="lineno"> 1243</span>                }</div>
+<div class="line"><span class="lineno"> 1244</span> </div>
+<div class="line"><span class="lineno"> 1245</span>                <span class="keywordflow">if</span> (!item_validator)</div>
+<div class="line"><span class="lineno"> 1246</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1247</span> </div>
+<div class="line"><span class="lineno"> 1248</span>                item_validator-&gt;validate(ptr / index, i, patch, e);</div>
+<div class="line"><span class="lineno"> 1249</span>            }</div>
+<div class="line"><span class="lineno"> 1250</span>        }</div>
+<div class="line"><span class="lineno"> 1251</span> </div>
+<div class="line"><span class="lineno"> 1252</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>) {</div>
+<div class="line"><span class="lineno"> 1253</span>            <span class="keywordtype">bool</span> contained = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1254</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;item : <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>) {</div>
+<div class="line"><span class="lineno"> 1255</span>                first_error_handler local_e;</div>
+<div class="line"><span class="lineno"> 1256</span>                <a class="code hl_variable" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html#a155ff707c21f2a4f0fbe5a095233ffc0">contains_</a>-&gt;validate(ptr, item, patch, local_e);</div>
+<div class="line"><span class="lineno"> 1257</span>                <span class="keywordflow">if</span> (!local_e) {</div>
+<div class="line"><span class="lineno"> 1258</span>                    contained = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1259</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1260</span>                }</div>
+<div class="line"><span class="lineno"> 1261</span>            }</div>
+<div class="line"><span class="lineno"> 1262</span>            <span class="keywordflow">if</span> (!contained)</div>
+<div class="line"><span class="lineno"> 1263</span>                e.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650">error</a>(ptr, <a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="stringliteral">&quot;array does not contain required element as per &#39;contains&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1264</span>        }</div>
+<div class="line"><span class="lineno"> 1265</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -618,9 +618,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01159">1159</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01208">1208</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -644,9 +644,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01161">1161</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01210">1210</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -670,9 +670,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01158">1158</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01207">1207</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -696,9 +696,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01156">1156</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01205">1205</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -722,10 +722,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01152">1152</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1152</span>{<span class="keyword">false</span>, 0};</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01201">1201</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1201</span>{<span class="keyword">false</span>, 0};</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -749,10 +749,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01153">1153</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1153</span>{<span class="keyword">false</span>, 0};</div>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01202">1202</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1202</span>{<span class="keyword">false</span>, 0};</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -776,9 +776,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01154">1154</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json-validator_8cpp_source.html#l01203">1203</a> of file <a class="el" href="json-validator_8cpp_source.html">json-validator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01219">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01163">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="json-validator_8cpp_source.html#l01268">array()</a>, and <a class="el" href="json-validator_8cpp_source.html#l01212">validate()</a>.</p>
 
 </div>
 </div>
@@ -791,7 +791,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceanonymous__namespace_02json-validator_8cpp_03.html">anonymous_namespace{json-validator.cpp}</a></li><li class="navelem"><a class="el" href="classanonymous__namespace_02json-validator_8cpp_03_1_1array.html">array</a></li>
-    <li class="footer">Generated on Sat May 3 2025 13:36:53 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Jul 5 2025 22:36:23 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

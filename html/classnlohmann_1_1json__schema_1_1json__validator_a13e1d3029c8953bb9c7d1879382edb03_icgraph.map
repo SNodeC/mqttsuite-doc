@@ -1,31 +1,42 @@
 <map id="nlohmann::json_schema::json_validator::set_root_schema" name="nlohmann::json_schema::json_validator::set_root_schema">
-<area shape="rect" id="Node000001" title=" " alt="" coords="879,216,1059,271"/>
-<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1json__validator.html#ad8f46dfed69afe463732ae335879dabb" title=" " alt="" coords="651,127,831,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="884,213,810,184,812,179,886,208"/>
-<area shape="rect" id="Node000013" href="$format_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="713,205,768,231"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="864,234,768,224,768,218,865,229"/>
-<area shape="rect" id="Node000014" href="$json-schema-validate_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="713,255,768,280"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="865,257,768,267,768,262,864,252"/>
-<area shape="rect" id="Node000015" href="$errors_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="713,304,768,329"/>
-<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="880,278,831,294,769,312,767,307,830,289,878,273"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="389,34,602,74"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="659,124,544,77,546,72,661,119"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b" title=" " alt="" coords="388,134,603,174"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="637,157,603,157,603,151,637,151"/>
-<area shape="rect" id="Node000009" href="$classnlohmann_1_1json__patch.html#ac7aea9496e07beb821fb9e5423fb76f5" title=" " alt="" coords="413,278,578,318"/>
-<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="662,190,652,195,582,239,524,280,521,276,579,234,649,190,660,185"/>
-<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="197,5,251,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="375,41,252,24,252,19,375,35"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="138,55,310,109"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="406,133,309,107,311,102,407,128"/>
-<area shape="rect" id="Node000007" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="132,134,316,174"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="374,157,316,157,316,151,374,151"/>
-<area shape="rect" id="Node000008" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html#ae88373a69cdee4d08cf58c4c618041d6" title=" " alt="" coords="108,199,340,253"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="407,180,328,201,327,196,406,175"/>
-<area shape="rect" id="Node000010" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="141,278,307,318"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="399,301,307,301,307,295,399,295"/>
-<area shape="rect" id="Node000011" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="141,342,307,382"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="400,323,307,345,306,340,399,318"/>
-<area shape="rect" id="Node000012" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,349,60,375"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="128,365,60,365,60,359,128,359"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="908,279,1088,333"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1json__validator.html#ad8f46dfed69afe463732ae335879dabb" title=" " alt="" coords="652,165,832,220"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="938,274,859,234,831,223,833,218,861,229,941,269"/>
+<area shape="rect" id="Node000014" href="$format_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="715,244,769,269"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="894,289,769,264,770,259,895,283"/>
+<area shape="rect" id="Node000015" href="$json-schema-validate_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="715,293,769,319"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="894,309,770,309,770,303,894,303"/>
+<area shape="rect" id="Node000016" href="$errors_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="715,343,769,368"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="895,329,770,353,769,348,894,323"/>
+<area shape="rect" id="Node000017" href="$namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#a5d2fa2fa048e5520dbcbad50438526ad" title=" " alt="" coords="624,392,860,447"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="939,342,861,382,830,394,828,389,859,377,937,338"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="351,34,565,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="672,162,499,77,501,72,674,157"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b" title=" " alt="" coords="351,134,565,174"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="638,181,565,171,566,166,638,176"/>
+<area shape="rect" id="Node000008" href="$issue-293_8cpp.html#a8ee39622edc153e58dfa5711984ac185" title=" " alt="" coords="403,199,513,224"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="638,202,513,210,513,205,638,197"/>
+<area shape="rect" id="Node000010" href="$classnlohmann_1_1json__patch.html#ac7aea9496e07beb821fb9e5423fb76f5" title=" " alt="" coords="375,249,541,289"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="639,223,534,251,533,246,638,218"/>
+<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="173,5,227,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,40,227,24,228,19,338,35"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="114,55,286,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="372,133,285,108,287,103,373,128"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="108,134,292,174"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="337,157,292,157,292,151,337,151"/>
+<area shape="rect" id="Node000009" href="$issue-293_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="173,199,227,224"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="390,214,227,214,227,209,390,209"/>
+<area shape="rect" id="Node000011" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="117,249,283,289"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="362,271,283,271,283,266,362,266"/>
+<area shape="rect" id="Node000012" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="117,313,283,353"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="364,295,282,315,280,310,363,289"/>
+<area shape="rect" id="Node000013" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,320,60,345"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="104,335,60,335,60,330,104,330"/>
+<area shape="rect" id="Node000018" href="$namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#a4b7578a08dda4165bf9c386de4bc2bed" title=" " alt="" coords="340,332,576,387"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="610,394,576,387,577,382,611,389"/>
+<area shape="rect" id="Node000020" href="$namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#a6c5072c56623259eab0124fc223a4bfc" title=" " alt="" coords="340,411,576,465"/>
+<area shape="poly" id="edge19_Node000017_Node000020" title=" " alt="" coords="611,431,576,433,576,428,610,425"/>
+<area shape="rect" id="Node000019" href="$issue-105-verbose-combination-errors_8cpp.html#a8216c1645620cdb2f629cde3ac02ffef" title=" " alt="" coords="173,401,227,427"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="327,390,228,411,227,406,326,385"/>
+<area shape="poly" id="edge20_Node000020_Node000019" title=" " alt="" coords="326,428,227,419,228,414,327,423"/>
 </map>

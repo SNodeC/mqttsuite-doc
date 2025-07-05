@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_0',['name',['../mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e',1,'NAME:&#160;SubProtocolFactory.cpp'],['../mqttbroker_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e',1,'NAME:&#160;SubProtocolFactory.cpp'],['../mqttintegrator_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e',1,'NAME:&#160;SubProtocolFactory.cpp']]]
+  ['ko_0',['KO',['../test_2json-patch_8cpp.html#a0fa46bb174505ff18d06a0c7512f3e71',1,'json-patch.cpp']]]
 ];

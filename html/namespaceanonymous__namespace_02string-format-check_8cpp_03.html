@@ -155,17 +155,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00185">185</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  186</span>{</div>
-<div class="line"><span class="lineno">  187</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> ch : value) {</div>
-<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">if</span> (ch &amp; 0x80) {</div>
-<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  190</span>        }</div>
-<div class="line"><span class="lineno">  191</span>    }</div>
-<div class="line"><span class="lineno">  192</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  193</span>}</div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00195">195</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  196</span>{</div>
+<div class="line"><span class="lineno">  197</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> ch : value) {</div>
+<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">if</span> (ch &amp; 0x80) {</div>
+<div class="line"><span class="lineno">  199</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  200</span>        }</div>
+<div class="line"><span class="lineno">  201</span>    }</div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  203</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -208,16 +208,16 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00021">21</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   22</span>{</div>
-<div class="line"><span class="lineno">   23</span>    <span class="keywordflow">if</span> (!((value &gt;= min) &amp;&amp; (value &lt;= max))) {</div>
-<div class="line"><span class="lineno">   24</span>        std::stringstream out;</div>
-<div class="line"><span class="lineno">   25</span>        out &lt;&lt; <span class="stringliteral">&quot;Value &quot;</span> &lt;&lt; value &lt;&lt; <span class="stringliteral">&quot; should be in interval [&quot;</span> &lt;&lt; min &lt;&lt; <span class="stringliteral">&quot;,&quot;</span> &lt;&lt; max &lt;&lt; <span class="stringliteral">&quot;] but is not!&quot;</span>;</div>
-<div class="line"><span class="lineno">   26</span>        <span class="keywordflow">throw</span> std::invalid_argument(out.str());</div>
-<div class="line"><span class="lineno">   27</span>    }</div>
-<div class="line"><span class="lineno">   28</span>}</div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00031">31</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">if</span> (!((value &gt;= min) &amp;&amp; (value &lt;= max))) {</div>
+<div class="line"><span class="lineno">   34</span>        std::stringstream out;</div>
+<div class="line"><span class="lineno">   35</span>        out &lt;&lt; <span class="stringliteral">&quot;Value &quot;</span> &lt;&lt; value &lt;&lt; <span class="stringliteral">&quot; should be in interval [&quot;</span> &lt;&lt; min &lt;&lt; <span class="stringliteral">&quot;,&quot;</span> &lt;&lt; max &lt;&lt; <span class="stringliteral">&quot;] but is not!&quot;</span>;</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">throw</span> std::invalid_argument(out.str());</div>
+<div class="line"><span class="lineno">   37</span>    }</div>
+<div class="line"><span class="lineno">   38</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00031">rfc3339_date_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00057">rfc3339_time_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00041">rfc3339_date_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00067">rfc3339_time_check()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -243,35 +243,35 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section see"><dt>See also</dt><dd>date_time_check </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00031">31</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <span class="keyword">const</span> <span class="keyword">static</span> std::regex dateRegex{R<span class="stringliteral">&quot;(^([0-9]{4})\-([0-9]{2})\-([0-9]{2})$)&quot;};</span></div>
-<div class="line"><span class="lineno">   34</span><span class="stringliteral"></span> </div>
-<div class="line"><span class="lineno">   35</span><span class="stringliteral">    std::smatch matches;</span></div>
-<div class="line"><span class="lineno">   36</span><span class="stringliteral">    </span><span class="keywordflow">if</span> (!std::regex_match(value, matches, dateRegex)) {</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a date string according to RFC 3339.&quot;</span>);</div>
-<div class="line"><span class="lineno">   38</span>    }</div>
-<div class="line"><span class="lineno">   39</span> </div>
-<div class="line"><span class="lineno">   40</span>    <span class="keyword">const</span> <span class="keyword">auto</span> year = std::stoi(matches[1].str());</div>
-<div class="line"><span class="lineno">   41</span>    <span class="keyword">const</span> <span class="keyword">auto</span> month = std::stoi(matches[2].str());</div>
-<div class="line"><span class="lineno">   42</span>    <span class="keyword">const</span> <span class="keyword">auto</span> mday = std::stoi(matches[3].str());</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="keyword">const</span> <span class="keyword">auto</span> isLeapYear = (year % 4 == 0) &amp;&amp; ((year % 100 != 0) || (year % 400 == 0));</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(month, 1, 12);</div>
-<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (month == 2) {</div>
-<div class="line"><span class="lineno">   48</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(mday, 1, isLeapYear ? 29 : 28);</div>
-<div class="line"><span class="lineno">   49</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (month &lt;= 7) {</div>
-<div class="line"><span class="lineno">   50</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(mday, 1, month % 2 == 0 ? 30 : 31);</div>
-<div class="line"><span class="lineno">   51</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">   52</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(mday, 1, month % 2 == 0 ? 31 : 30);</div>
-<div class="line"><span class="lineno">   53</span>    }</div>
-<div class="line"><span class="lineno">   54</span>}</div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a6340a152b415fab84af156f3afff080b"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">anonymous_namespace{string-format-check.cpp}::range_check</a></div><div class="ttdeci">void range_check(const T value, const T min, const T max)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00021">string-format-check.cpp:21</a></div></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00041">41</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keyword">const</span> <span class="keyword">static</span> REGEX_NAMESPACE::regex dateRegex{R<span class="stringliteral">&quot;(^([0-9]{4})\-([0-9]{2})\-([0-9]{2})$)&quot;};</span></div>
+<div class="line"><span class="lineno">   44</span><span class="stringliteral"></span> </div>
+<div class="line"><span class="lineno">   45</span><span class="stringliteral">    REGEX_NAMESPACE::smatch matches;</span></div>
+<div class="line"><span class="lineno">   46</span><span class="stringliteral">    </span><span class="keywordflow">if</span> (!REGEX_NAMESPACE::regex_match(value, matches, dateRegex)) {</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a date string according to RFC 3339.&quot;</span>);</div>
+<div class="line"><span class="lineno">   48</span>    }</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="keyword">const</span> <span class="keyword">auto</span> year = std::stoi(matches[1].str());</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keyword">const</span> <span class="keyword">auto</span> month = std::stoi(matches[2].str());</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keyword">const</span> <span class="keyword">auto</span> mday = std::stoi(matches[3].str());</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <span class="keyword">const</span> <span class="keyword">auto</span> isLeapYear = (year % 4 == 0) &amp;&amp; ((year % 100 != 0) || (year % 400 == 0));</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(month, 1, 12);</div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">if</span> (month == 2) {</div>
+<div class="line"><span class="lineno">   58</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(mday, 1, isLeapYear ? 29 : 28);</div>
+<div class="line"><span class="lineno">   59</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (month &lt;= 7) {</div>
+<div class="line"><span class="lineno">   60</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(mday, 1, month % 2 == 0 ? 30 : 31);</div>
+<div class="line"><span class="lineno">   61</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   62</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(mday, 1, month % 2 == 0 ? 31 : 30);</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="line"><span class="lineno">   64</span>}</div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a6340a152b415fab84af156f3afff080b"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">anonymous_namespace{string-format-check.cpp}::range_check</a></div><div class="ttdeci">void range_check(const T value, const T min, const T max)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00031">string-format-check.cpp:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00021">range_check()</a>.</p>
+<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00031">range_check()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00132">rfc3339_date_time_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00142">rfc3339_date_time_check()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -321,24 +321,24 @@ Here is the caller graph for this function:</div>
 * date-time       = full-date "T" full-time
 * </pre><p> NOTE: Per [ABNF] and ISO8601, the "T" and "Z" characters in this syntax may alternatively be lower case "t" or "z" respectively. </p>
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00132">132</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  133</span>{</div>
-<div class="line"><span class="lineno">  134</span>    <span class="keyword">const</span> <span class="keyword">static</span> std::regex dateTimeRegex{R<span class="stringliteral">&quot;(^([0-9]{4}\-[0-9]{2}\-[0-9]{2})[Tt]([0-9]{2}\:[0-9]{2}\:[0-9]{2}(?:\.[0-9]+)?(?:[Zz]|(?:\+|\-)[0-9]{2}\:[0-9]{2}))$)&quot;};</span></div>
-<div class="line"><span class="lineno">  135</span><span class="stringliteral"></span> </div>
-<div class="line"><span class="lineno">  136</span><span class="stringliteral">    std::smatch matches;</span></div>
-<div class="line"><span class="lineno">  137</span><span class="stringliteral">    </span><span class="keywordflow">if</span> (!std::regex_match(value, matches, dateTimeRegex)) {</div>
-<div class="line"><span class="lineno">  138</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a date-time string according to RFC 3339.&quot;</span>);</div>
-<div class="line"><span class="lineno">  139</span>    }</div>
-<div class="line"><span class="lineno">  140</span> </div>
-<div class="line"><span class="lineno">  141</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#abc6a6f514b36ca48ec57a49552b4a7ff">rfc3339_date_check</a>(matches[1].str());</div>
-<div class="line"><span class="lineno">  142</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a94b42f28f7bbba3d1292744b2d3c4760">rfc3339_time_check</a>(matches[2].str());</div>
-<div class="line"><span class="lineno">  143</span>}</div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a94b42f28f7bbba3d1292744b2d3c4760"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a94b42f28f7bbba3d1292744b2d3c4760">anonymous_namespace{string-format-check.cpp}::rfc3339_time_check</a></div><div class="ttdeci">void rfc3339_time_check(const std::string &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00057">string-format-check.cpp:57</a></div></div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_abc6a6f514b36ca48ec57a49552b4a7ff"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#abc6a6f514b36ca48ec57a49552b4a7ff">anonymous_namespace{string-format-check.cpp}::rfc3339_date_check</a></div><div class="ttdeci">void rfc3339_date_check(const std::string &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00031">string-format-check.cpp:31</a></div></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00142">142</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
+<div class="line"><span class="lineno">  144</span>    <span class="keyword">const</span> <span class="keyword">static</span> REGEX_NAMESPACE::regex dateTimeRegex{R<span class="stringliteral">&quot;(^([0-9]{4}\-[0-9]{2}\-[0-9]{2})[Tt]([0-9]{2}\:[0-9]{2}\:[0-9]{2}(?:\.[0-9]+)?(?:[Zz]|(?:\+|\-)[0-9]{2}\:[0-9]{2}))$)&quot;};</span></div>
+<div class="line"><span class="lineno">  145</span><span class="stringliteral"></span> </div>
+<div class="line"><span class="lineno">  146</span><span class="stringliteral">    REGEX_NAMESPACE::smatch matches;</span></div>
+<div class="line"><span class="lineno">  147</span><span class="stringliteral">    </span><span class="keywordflow">if</span> (!REGEX_NAMESPACE::regex_match(value, matches, dateTimeRegex)) {</div>
+<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a date-time string according to RFC 3339.&quot;</span>);</div>
+<div class="line"><span class="lineno">  149</span>    }</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#abc6a6f514b36ca48ec57a49552b4a7ff">rfc3339_date_check</a>(matches[1].str());</div>
+<div class="line"><span class="lineno">  152</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a94b42f28f7bbba3d1292744b2d3c4760">rfc3339_time_check</a>(matches[2].str());</div>
+<div class="line"><span class="lineno">  153</span>}</div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a94b42f28f7bbba3d1292744b2d3c4760"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a94b42f28f7bbba3d1292744b2d3c4760">anonymous_namespace{string-format-check.cpp}::rfc3339_time_check</a></div><div class="ttdeci">void rfc3339_time_check(const std::string &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00067">string-format-check.cpp:67</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_abc6a6f514b36ca48ec57a49552b4a7ff"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#abc6a6f514b36ca48ec57a49552b4a7ff">anonymous_namespace{string-format-check.cpp}::rfc3339_date_check</a></div><div class="ttdeci">void rfc3339_date_check(const std::string &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00041">string-format-check.cpp:41</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00031">rfc3339_date_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00057">rfc3339_time_check()</a>.</p>
+<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00041">rfc3339_date_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00067">rfc3339_time_check()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -372,52 +372,52 @@ Here is the caller graph for this function:</div>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Could be made more exact by querying a leap second database and choosing the correct maximum in {58,59,60}. This current solution might match some invalid dates but it won't lead to false negatives. This only works if we know the full date, however </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Could be made more exact by querying a leap second database and choosing the correct maximum in {58,59,60}. This current solution might match some invalid dates but it won't lead to false negatives. This only works if we know the full date, however </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00057">57</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
-<div class="line"><span class="lineno">   59</span>    <span class="keyword">const</span> <span class="keyword">static</span> std::regex timeRegex{R<span class="stringliteral">&quot;(^([0-9]{2})\:([0-9]{2})\:([0-9]{2})(\.[0-9]+)?(?:[Zz]|((?:\+|\-)[0-9]{2})\:([0-9]{2}))$)&quot;};</span></div>
-<div class="line"><span class="lineno">   60</span><span class="stringliteral"></span> </div>
-<div class="line"><span class="lineno">   61</span><span class="stringliteral">    std::smatch matches;</span></div>
-<div class="line"><span class="lineno">   62</span><span class="stringliteral">    </span><span class="keywordflow">if</span> (!std::regex_match(value, matches, timeRegex)) {</div>
-<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a time string according to RFC 3339.&quot;</span>);</div>
-<div class="line"><span class="lineno">   64</span>    }</div>
-<div class="line"><span class="lineno">   65</span> </div>
-<div class="line"><span class="lineno">   66</span>    <span class="keyword">auto</span> hour = std::stoi(matches[1].str());</div>
-<div class="line"><span class="lineno">   67</span>    <span class="keyword">auto</span> minute = std::stoi(matches[2].str());</div>
-<div class="line"><span class="lineno">   68</span>    <span class="keyword">auto</span> second = std::stoi(matches[3].str());</div>
-<div class="line"><span class="lineno">   69</span>    <span class="comment">// const auto secfrac      = std::stof( matches[4].str() );</span></div>
-<div class="line"><span class="lineno">   70</span> </div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(hour, 0, 23);</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(minute, 0, 59);</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>    <span class="keywordtype">int</span> offsetHour = 0,</div>
-<div class="line"><span class="lineno">   75</span>        offsetMinute = 0;</div>
-<div class="line"><span class="lineno">   76</span> </div>
-<div class="line"><span class="lineno">   77</span>    <span class="comment">/* don&#39;t check the numerical offset if time zone is specified as &#39;Z&#39; */</span></div>
-<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (!matches[5].str().empty()) {</div>
-<div class="line"><span class="lineno">   79</span>        offsetHour = std::stoi(matches[5].str());</div>
-<div class="line"><span class="lineno">   80</span>        offsetMinute = std::stoi(matches[6].str());</div>
-<div class="line"><span class="lineno">   81</span> </div>
-<div class="line"><span class="lineno">   82</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(offsetHour, -23, 23);</div>
-<div class="line"><span class="lineno">   83</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(offsetMinute, 0, 59);</div>
-<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">if</span> (offsetHour &lt; 0)</div>
-<div class="line"><span class="lineno">   85</span>            offsetMinute *= -1;</div>
-<div class="line"><span class="lineno">   86</span>    }</div>
-<div class="line"><span class="lineno">   87</span> </div>
-<div class="line"><span class="lineno">   94</span>    <span class="keyword">auto</span> day_minutes = hour * 60 + minute - (offsetHour * 60 + offsetMinute);</div>
-<div class="line"><span class="lineno">   95</span>    <span class="keywordflow">if</span> (day_minutes &lt; 0)</div>
-<div class="line"><span class="lineno">   96</span>        day_minutes += 60 * 24;</div>
-<div class="line"><span class="lineno">   97</span>    hour = day_minutes % 24;</div>
-<div class="line"><span class="lineno">   98</span>    minute = day_minutes / 24;</div>
-<div class="line"><span class="lineno">   99</span> </div>
-<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (hour == 23 &amp;&amp; minute == 59)</div>
-<div class="line"><span class="lineno">  101</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(second, 0, 60); <span class="comment">// possible leap-second</span></div>
-<div class="line"><span class="lineno">  102</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  103</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(second, 0, 59);</div>
-<div class="line"><span class="lineno">  104</span>}</div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00067">67</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
+<div class="line"><span class="lineno">   69</span>    <span class="keyword">const</span> <span class="keyword">static</span> REGEX_NAMESPACE::regex timeRegex{R<span class="stringliteral">&quot;(^([0-9]{2})\:([0-9]{2})\:([0-9]{2})(\.[0-9]+)?(?:[Zz]|((?:\+|\-)[0-9]{2})\:([0-9]{2}))$)&quot;};</span></div>
+<div class="line"><span class="lineno">   70</span><span class="stringliteral"></span> </div>
+<div class="line"><span class="lineno">   71</span><span class="stringliteral">    REGEX_NAMESPACE::smatch matches;</span></div>
+<div class="line"><span class="lineno">   72</span><span class="stringliteral">    </span><span class="keywordflow">if</span> (!REGEX_NAMESPACE::regex_match(value, matches, timeRegex)) {</div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a time string according to RFC 3339.&quot;</span>);</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <span class="keyword">auto</span> hour = std::stoi(matches[1].str());</div>
+<div class="line"><span class="lineno">   77</span>    <span class="keyword">auto</span> minute = std::stoi(matches[2].str());</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keyword">auto</span> second = std::stoi(matches[3].str());</div>
+<div class="line"><span class="lineno">   79</span>    <span class="comment">// const auto secfrac      = std::stof( matches[4].str() );</span></div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(hour, 0, 23);</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(minute, 0, 59);</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordtype">int</span> offsetHour = 0,</div>
+<div class="line"><span class="lineno">   85</span>        offsetMinute = 0;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>    <span class="comment">/* don&#39;t check the numerical offset if time zone is specified as &#39;Z&#39; */</span></div>
+<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">if</span> (!matches[5].str().empty()) {</div>
+<div class="line"><span class="lineno">   89</span>        offsetHour = std::stoi(matches[5].str());</div>
+<div class="line"><span class="lineno">   90</span>        offsetMinute = std::stoi(matches[6].str());</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(offsetHour, -23, 23);</div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(offsetMinute, 0, 59);</div>
+<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">if</span> (offsetHour &lt; 0)</div>
+<div class="line"><span class="lineno">   95</span>            offsetMinute *= -1;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">  104</span>    <span class="keyword">auto</span> day_minutes = hour * 60 + minute - (offsetHour * 60 + offsetMinute);</div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">if</span> (day_minutes &lt; 0)</div>
+<div class="line"><span class="lineno">  106</span>        day_minutes += 60 * 24;</div>
+<div class="line"><span class="lineno">  107</span>    hour = day_minutes % 24;</div>
+<div class="line"><span class="lineno">  108</span>    minute = day_minutes / 24;</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">if</span> (hour == 23 &amp;&amp; minute == 59)</div>
+<div class="line"><span class="lineno">  111</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(second, 0, 60); <span class="comment">// possible leap-second</span></div>
+<div class="line"><span class="lineno">  112</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  113</span>        <a class="code hl_function" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b">range_check</a>(second, 0, 59);</div>
+<div class="line"><span class="lineno">  114</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00021">range_check()</a>.</p>
+<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00031">range_check()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00132">rfc3339_date_time_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>, and <a class="el" href="string-format-check_8cpp_source.html#l00142">rfc3339_date_time_check()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -530,53 +530,53 @@ Here is the caller graph for this function:</div>
 *
 * </pre> <dl class="section see"><dt>See also</dt><dd>adapted from: <a href="https://github.com/jhermsmeier/uri.regex/blob/master/uri.regex">https://github.com/jhermsmeier/uri.regex/blob/master/uri.regex</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00284">284</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  285</span>{</div>
-<div class="line"><span class="lineno">  286</span>    <span class="keyword">const</span> <span class="keyword">static</span> std::string scheme{R<span class="stringliteral">&quot;(([A-Za-z][A-Za-z0-9+\-.]*):)&quot;};</span></div>
-<div class="line"><span class="lineno">  287</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string hierPart{</div>
-<div class="line"><span class="lineno">  288</span>        R<span class="stringliteral">&quot;((?:(\/\/)(?:((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:]|)&quot;</span></div>
-<div class="line"><span class="lineno">  289</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)@)?((?:\[(?:(?:(?:(?:[0-9A-Fa-f]{1,4}:){6}|)&quot;</span></div>
-<div class="line"><span class="lineno">  290</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(::(?:[0-9A-Fa-f]{1,4}:){5}|)&quot;</span></div>
-<div class="line"><span class="lineno">  291</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){4}|)&quot;</span></div>
-<div class="line"><span class="lineno">  292</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,1}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){3}|)&quot;</span></div>
-<div class="line"><span class="lineno">  293</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,2}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){2}|)&quot;</span></div>
-<div class="line"><span class="lineno">  294</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,3}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}:|)&quot;</span></div>
-<div class="line"><span class="lineno">  295</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,4}[0-9A-Fa-f]{1,4})?::)(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|)&quot;</span></div>
-<div class="line"><span class="lineno">  296</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:25[0-5]|2[0-4][0-9]|)&quot;</span></div>
-<div class="line"><span class="lineno">  297</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?)\.){3}(?:25[0-5]|)&quot;</span></div>
-<div class="line"><span class="lineno">  298</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(2[0-4][0-9]|)&quot;</span></div>
-<div class="line"><span class="lineno">  299</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?))|)&quot;</span></div>
-<div class="line"><span class="lineno">  300</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,5}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}|)&quot;</span></div>
-<div class="line"><span class="lineno">  301</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,6}[0-9A-Fa-f]{1,4})?::)|)&quot;</span></div>
-<div class="line"><span class="lineno">  302</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([Vv][0-9A-Fa-f]+\.[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:]+)\]|)&quot;</span></div>
-<div class="line"><span class="lineno">  303</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:25[0-5]|)&quot;</span></div>
-<div class="line"><span class="lineno">  304</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(2[0-4][0-9]|)&quot;</span></div>
-<div class="line"><span class="lineno">  305</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?)\.){3}(?:25[0-5]|)&quot;</span></div>
-<div class="line"><span class="lineno">  306</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(2[0-4][0-9]|)&quot;</span></div>
-<div class="line"><span class="lineno">  307</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?)|)&quot;</span></div>
-<div class="line"><span class="lineno">  308</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=]|)&quot;</span></div>
-<div class="line"><span class="lineno">  309</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*))(?::([0-9]*))?((?:\/(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
-<div class="line"><span class="lineno">  310</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)*)|)&quot;</span></div>
-<div class="line"><span class="lineno">  311</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(\/((?:(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
-<div class="line"><span class="lineno">  312</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})+(?:\/(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
-<div class="line"><span class="lineno">  313</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)*)?)|)&quot;</span></div>
-<div class="line"><span class="lineno">  314</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
-<div class="line"><span class="lineno">  315</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})+(?:\/(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
-<div class="line"><span class="lineno">  316</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)*)|))&quot;};</span></div>
-<div class="line"><span class="lineno">  317</span><span class="stringliteral"></span> </div>
-<div class="line"><span class="lineno">  318</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string query{R<span class="stringliteral">&quot;((?:\?((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@\/?]|%[0-9A-Fa-f]{2})*))?)&quot;};</span></div>
-<div class="line"><span class="lineno">  319</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string fragment{</div>
-<div class="line"><span class="lineno">  320</span>        R<span class="stringliteral">&quot;((?:\#((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@\/?]|%[0-9A-Fa-f]{2})*))?)&quot;};</span></div>
-<div class="line"><span class="lineno">  321</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string uriFormat{scheme + hierPart + query + fragment};</div>
-<div class="line"><span class="lineno">  322</span> </div>
-<div class="line"><span class="lineno">  323</span>    <span class="keyword">const</span> <span class="keyword">static</span> std::regex uriRegex{uriFormat};</div>
-<div class="line"><span class="lineno">  324</span> </div>
-<div class="line"><span class="lineno">  325</span>    <span class="keywordflow">if</span> (!std::regex_match(value, uriRegex)) {</div>
-<div class="line"><span class="lineno">  326</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a URI string according to RFC 3986.&quot;</span>);</div>
-<div class="line"><span class="lineno">  327</span>    }</div>
-<div class="line"><span class="lineno">  328</span>}</div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00294">294</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  295</span>{</div>
+<div class="line"><span class="lineno">  296</span>    <span class="keyword">const</span> <span class="keyword">static</span> std::string scheme{R<span class="stringliteral">&quot;(([A-Za-z][A-Za-z0-9+\-.]*):)&quot;};</span></div>
+<div class="line"><span class="lineno">  297</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string hierPart{</div>
+<div class="line"><span class="lineno">  298</span>        R<span class="stringliteral">&quot;((?:(\/\/)(?:((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:]|)&quot;</span></div>
+<div class="line"><span class="lineno">  299</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)@)?((?:\[(?:(?:(?:(?:[0-9A-Fa-f]{1,4}:){6}|)&quot;</span></div>
+<div class="line"><span class="lineno">  300</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(::(?:[0-9A-Fa-f]{1,4}:){5}|)&quot;</span></div>
+<div class="line"><span class="lineno">  301</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){4}|)&quot;</span></div>
+<div class="line"><span class="lineno">  302</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,1}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){3}|)&quot;</span></div>
+<div class="line"><span class="lineno">  303</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,2}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){2}|)&quot;</span></div>
+<div class="line"><span class="lineno">  304</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,3}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}:|)&quot;</span></div>
+<div class="line"><span class="lineno">  305</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,4}[0-9A-Fa-f]{1,4})?::)(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|)&quot;</span></div>
+<div class="line"><span class="lineno">  306</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:25[0-5]|2[0-4][0-9]|)&quot;</span></div>
+<div class="line"><span class="lineno">  307</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?)\.){3}(?:25[0-5]|)&quot;</span></div>
+<div class="line"><span class="lineno">  308</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(2[0-4][0-9]|)&quot;</span></div>
+<div class="line"><span class="lineno">  309</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?))|)&quot;</span></div>
+<div class="line"><span class="lineno">  310</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,5}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}|)&quot;</span></div>
+<div class="line"><span class="lineno">  311</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:[0-9A-Fa-f]{1,4}:){0,6}[0-9A-Fa-f]{1,4})?::)|)&quot;</span></div>
+<div class="line"><span class="lineno">  312</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([Vv][0-9A-Fa-f]+\.[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:]+)\]|)&quot;</span></div>
+<div class="line"><span class="lineno">  313</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:(?:25[0-5]|)&quot;</span></div>
+<div class="line"><span class="lineno">  314</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(2[0-4][0-9]|)&quot;</span></div>
+<div class="line"><span class="lineno">  315</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?)\.){3}(?:25[0-5]|)&quot;</span></div>
+<div class="line"><span class="lineno">  316</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(2[0-4][0-9]|)&quot;</span></div>
+<div class="line"><span class="lineno">  317</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;([01]?[0-9][0-9]?)|)&quot;</span></div>
+<div class="line"><span class="lineno">  318</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=]|)&quot;</span></div>
+<div class="line"><span class="lineno">  319</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*))(?::([0-9]*))?((?:\/(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
+<div class="line"><span class="lineno">  320</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)*)|)&quot;</span></div>
+<div class="line"><span class="lineno">  321</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(\/((?:(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
+<div class="line"><span class="lineno">  322</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})+(?:\/(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
+<div class="line"><span class="lineno">  323</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)*)?)|)&quot;</span></div>
+<div class="line"><span class="lineno">  324</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
+<div class="line"><span class="lineno">  325</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})+(?:\/(?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@]|)&quot;</span></div>
+<div class="line"><span class="lineno">  326</span><span class="stringliteral">        R</span><span class="stringliteral">&quot;(%[0-9A-Fa-f]{2})*)*)|))&quot;};</span></div>
+<div class="line"><span class="lineno">  327</span><span class="stringliteral"></span> </div>
+<div class="line"><span class="lineno">  328</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string query{R<span class="stringliteral">&quot;((?:\?((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@\/?]|%[0-9A-Fa-f]{2})*))?)&quot;};</span></div>
+<div class="line"><span class="lineno">  329</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string fragment{</div>
+<div class="line"><span class="lineno">  330</span>        R<span class="stringliteral">&quot;((?:\#((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:@\/?]|%[0-9A-Fa-f]{2})*))?)&quot;};</span></div>
+<div class="line"><span class="lineno">  331</span><span class="stringliteral">    </span><span class="keyword">const</span> <span class="keyword">static</span> std::string uriFormat{scheme + hierPart + query + fragment};</div>
+<div class="line"><span class="lineno">  332</span> </div>
+<div class="line"><span class="lineno">  333</span>    <span class="keyword">const</span> <span class="keyword">static</span> REGEX_NAMESPACE::regex uriRegex{uriFormat};</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>    <span class="keywordflow">if</span> (!REGEX_NAMESPACE::regex_match(value, uriRegex)) {</div>
+<div class="line"><span class="lineno">  336</span>        <span class="keywordflow">throw</span> std::invalid_argument(value + <span class="stringliteral">&quot; is not a URI string according to RFC 3986.&quot;</span>);</div>
+<div class="line"><span class="lineno">  337</span>    }</div>
+<div class="line"><span class="lineno">  338</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -598,8 +598,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00145">145</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  145</span>{R<span class="stringliteral">&quot;((?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9]))&quot;}; </span><span class="comment">// matches numbers 0-255</span></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00155">155</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  155</span>{R<span class="stringliteral">&quot;((?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9]))&quot;}; </span><span class="comment">// matches numbers 0-255</span></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -615,8 +615,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00147">147</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  147</span>{R<span class="stringliteral">&quot;([0-9A-Fa-f]{1,4})&quot;};</span></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00157">157</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  157</span>{R<span class="stringliteral">&quot;([0-9A-Fa-f]{1,4})&quot;};</span></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -632,9 +632,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00148">148</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  148</span>{<span class="stringliteral">&quot;(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;:)&quot;</span>};</div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a6b0fe705e135a1d82f4d6198695dad71"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">anonymous_namespace{string-format-check.cpp}::h16</a></div><div class="ttdeci">const std::string h16</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00147">string-format-check.cpp:147</a></div></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00158">158</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  158</span>{<span class="stringliteral">&quot;(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;:)&quot;</span>};</div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a6b0fe705e135a1d82f4d6198695dad71"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">anonymous_namespace{string-format-check.cpp}::h16</a></div><div class="ttdeci">const std::string h16</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00157">string-format-check.cpp:157</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -656,19 +656,19 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="stringliteral">    </span><span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">ipv4Address</a> +</div>
 <div class="line">    <span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5">regName</a> +</div>
 <div class="line">    <span class="stringliteral">&quot;)&quot;</span>}</div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a153ea71ee898c38c369b827b14bfd894"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a153ea71ee898c38c369b827b14bfd894">anonymous_namespace{string-format-check.cpp}::ipvFuture</a></div><div class="ttdeci">const std::string ipvFuture</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00170">string-format-check.cpp:170</a></div></div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a586bc015b83b67dd7770451545d94597"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a586bc015b83b67dd7770451545d94597">anonymous_namespace{string-format-check.cpp}::ipv6Address</a></div><div class="ttdeci">const std::string ipv6Address</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00149">string-format-check.cpp:149</a></div></div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_ade6fe956201eb3ef34901499abe0ce69"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">anonymous_namespace{string-format-check.cpp}::ipv4Address</a></div><div class="ttdeci">const std::string ipv4Address</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00146">string-format-check.cpp:146</a></div></div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_af9627d084d7fc8db80f3506b9679beb5"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5">anonymous_namespace{string-format-check.cpp}::regName</a></div><div class="ttdeci">const std::string regName</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00171">string-format-check.cpp:171</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a153ea71ee898c38c369b827b14bfd894"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a153ea71ee898c38c369b827b14bfd894">anonymous_namespace{string-format-check.cpp}::ipvFuture</a></div><div class="ttdeci">const std::string ipvFuture</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00180">string-format-check.cpp:180</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a586bc015b83b67dd7770451545d94597"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a586bc015b83b67dd7770451545d94597">anonymous_namespace{string-format-check.cpp}::ipv6Address</a></div><div class="ttdeci">const std::string ipv6Address</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00159">string-format-check.cpp:159</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_ade6fe956201eb3ef34901499abe0ce69"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">anonymous_namespace{string-format-check.cpp}::ipv4Address</a></div><div class="ttdeci">const std::string ipv4Address</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00156">string-format-check.cpp:156</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_af9627d084d7fc8db80f3506b9679beb5"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5">anonymous_namespace{string-format-check.cpp}::regName</a></div><div class="ttdeci">const std::string regName</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00181">string-format-check.cpp:181</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00172">172</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  172</span>                    {</div>
-<div class="line"><span class="lineno">  173</span>    <span class="stringliteral">&quot;(?:&quot;</span></div>
-<div class="line"><span class="lineno">  174</span>    R<span class="stringliteral">&quot;(\[(?:)&quot; +</span></div>
-<div class="line"><span class="lineno">  175</span><span class="stringliteral">    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a586bc015b83b67dd7770451545d94597">ipv6Address</a> + </span><span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a153ea71ee898c38c369b827b14bfd894">ipvFuture</a> + R<span class="stringliteral">&quot;()\])&quot; +</span></div>
-<div class="line"><span class="lineno">  176</span><span class="stringliteral">    </span><span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">ipv4Address</a> +</div>
-<div class="line"><span class="lineno">  177</span>    <span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5">regName</a> +</div>
-<div class="line"><span class="lineno">  178</span>    <span class="stringliteral">&quot;)&quot;</span>};</div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00182">182</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  182</span>                    {</div>
+<div class="line"><span class="lineno">  183</span>    <span class="stringliteral">&quot;(?:&quot;</span></div>
+<div class="line"><span class="lineno">  184</span>    R<span class="stringliteral">&quot;(\[(?:)&quot; +</span></div>
+<div class="line"><span class="lineno">  185</span><span class="stringliteral">    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a586bc015b83b67dd7770451545d94597">ipv6Address</a> + </span><span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a153ea71ee898c38c369b827b14bfd894">ipvFuture</a> + R<span class="stringliteral">&quot;()\])&quot; +</span></div>
+<div class="line"><span class="lineno">  186</span><span class="stringliteral">    </span><span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">ipv4Address</a> +</div>
+<div class="line"><span class="lineno">  187</span>    <span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5">regName</a> +</div>
+<div class="line"><span class="lineno">  188</span>    <span class="stringliteral">&quot;)&quot;</span>};</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -684,10 +684,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00183">183</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  183</span>{R<span class="stringliteral">&quot;(^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])(\.([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9]))*$)&quot;};</span></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00193">193</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  193</span>{R<span class="stringliteral">&quot;(^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])(\.([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9]))*$)&quot;};</span></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 
 </div>
 </div>
@@ -703,11 +703,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00146">146</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  146</span>{<span class="stringliteral">&quot;(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#aa15be2a2deeb899284803513f789415f">decOctet</a> + R<span class="stringliteral">&quot;(\.){3})&quot; + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#aa15be2a2deeb899284803513f789415f">decOctet</a>};</span></div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_aa15be2a2deeb899284803513f789415f"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#aa15be2a2deeb899284803513f789415f">anonymous_namespace{string-format-check.cpp}::decOctet</a></div><div class="ttdeci">const std::string decOctet</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00145">string-format-check.cpp:145</a></div></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00156">156</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  156</span>{<span class="stringliteral">&quot;(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#aa15be2a2deeb899284803513f789415f">decOctet</a> + R<span class="stringliteral">&quot;(\.){3})&quot; + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#aa15be2a2deeb899284803513f789415f">decOctet</a>};</span></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_aa15be2a2deeb899284803513f789415f"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#aa15be2a2deeb899284803513f789415f">anonymous_namespace{string-format-check.cpp}::decOctet</a></div><div class="ttdeci">const std::string decOctet</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00155">string-format-check.cpp:155</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 
 </div>
 </div>
@@ -743,32 +743,32 @@ Here is the caller graph for this function:</div>
 <div class="line">    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,5}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> +</div>
 <div class="line">    <span class="stringliteral">&quot;|(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,6}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span></div>
 <div class="line">                                       <span class="stringliteral">&quot;)&quot;</span>}</div>
-<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a54c65cc83d76e45b60212f72305bfe23"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">anonymous_namespace{string-format-check.cpp}::h16Left</a></div><div class="ttdeci">const std::string h16Left</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00148">string-format-check.cpp:148</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02string-format-check_8cpp_03_html_a54c65cc83d76e45b60212f72305bfe23"><div class="ttname"><a href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">anonymous_namespace{string-format-check.cpp}::h16Left</a></div><div class="ttdeci">const std::string h16Left</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00158">string-format-check.cpp:158</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00149">149</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  149</span>                           {</div>
-<div class="line"><span class="lineno">  150</span>    <span class="stringliteral">&quot;(?:&quot;</span></div>
-<div class="line"><span class="lineno">  151</span>    <span class="stringliteral">&quot;(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  152</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{6}&quot;</span></div>
-<div class="line"><span class="lineno">  153</span>              <span class="stringliteral">&quot;|::&quot;</span> +</div>
-<div class="line"><span class="lineno">  154</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{5}&quot;</span></div>
-<div class="line"><span class="lineno">  155</span>              <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  156</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{4}&quot;</span></div>
-<div class="line"><span class="lineno">  157</span>                             <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  158</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,1}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{3}&quot;</span></div>
-<div class="line"><span class="lineno">  159</span>                                                 <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  160</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,2}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{2}&quot;</span></div>
-<div class="line"><span class="lineno">  161</span>                                                 <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  162</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,3}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> +</div>
-<div class="line"><span class="lineno">  163</span>    <span class="stringliteral">&quot;|(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,4}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span></div>
-<div class="line"><span class="lineno">  164</span>                                       <span class="stringliteral">&quot;)(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  165</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">ipv4Address</a> + <span class="stringliteral">&quot;)&quot;</span></div>
-<div class="line"><span class="lineno">  166</span>                                        <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
-<div class="line"><span class="lineno">  167</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,5}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> +</div>
-<div class="line"><span class="lineno">  168</span>    <span class="stringliteral">&quot;|(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,6}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span></div>
-<div class="line"><span class="lineno">  169</span>                                       <span class="stringliteral">&quot;)&quot;</span>};</div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00159">159</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  159</span>                           {</div>
+<div class="line"><span class="lineno">  160</span>    <span class="stringliteral">&quot;(?:&quot;</span></div>
+<div class="line"><span class="lineno">  161</span>    <span class="stringliteral">&quot;(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  162</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{6}&quot;</span></div>
+<div class="line"><span class="lineno">  163</span>              <span class="stringliteral">&quot;|::&quot;</span> +</div>
+<div class="line"><span class="lineno">  164</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{5}&quot;</span></div>
+<div class="line"><span class="lineno">  165</span>              <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{4}&quot;</span></div>
+<div class="line"><span class="lineno">  167</span>                             <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  168</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,1}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{3}&quot;</span></div>
+<div class="line"><span class="lineno">  169</span>                                                 <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  170</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,2}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{2}&quot;</span></div>
+<div class="line"><span class="lineno">  171</span>                                                 <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  172</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,3}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> +</div>
+<div class="line"><span class="lineno">  173</span>    <span class="stringliteral">&quot;|(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,4}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span></div>
+<div class="line"><span class="lineno">  174</span>                                       <span class="stringliteral">&quot;)(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  175</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;|&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69">ipv4Address</a> + <span class="stringliteral">&quot;)&quot;</span></div>
+<div class="line"><span class="lineno">  176</span>                                        <span class="stringliteral">&quot;|(?:&quot;</span> +</div>
+<div class="line"><span class="lineno">  177</span>    <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,5}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> +</div>
+<div class="line"><span class="lineno">  178</span>    <span class="stringliteral">&quot;|(?:&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a54c65cc83d76e45b60212f72305bfe23">h16Left</a> + <span class="stringliteral">&quot;{0,6}&quot;</span> + <a class="code hl_variable" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6b0fe705e135a1d82f4d6198695dad71">h16</a> + <span class="stringliteral">&quot;)?::&quot;</span></div>
+<div class="line"><span class="lineno">  179</span>                                       <span class="stringliteral">&quot;)&quot;</span>};</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 
 </div>
 </div>
@@ -784,8 +784,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00170">170</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  170</span>{R<span class="stringliteral">&quot;([Vv][0-9A-Fa-f]+\.[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:]+)&quot;};</span></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00180">180</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  180</span>{R<span class="stringliteral">&quot;([Vv][0-9A-Fa-f]+\.[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=:]+)&quot;};</span></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -801,8 +801,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00171">171</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  171</span>{R<span class="stringliteral">&quot;((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=]|%[0-9A-Fa-f]{2})*)&quot;};</span></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00181">181</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  181</span>{R<span class="stringliteral">&quot;((?:[A-Za-z0-9\-._~!$&amp;&#39;()*+,;=]|%[0-9A-Fa-f]{2})*)&quot;};</span></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -818,10 +818,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00180">180</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  180</span>{R<span class="stringliteral">&quot;([0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12})&quot;};</span></div>
+<p class="definition">Definition at line <a class="el" href="string-format-check_8cpp_source.html#l00190">190</a> of file <a class="el" href="string-format-check_8cpp_source.html">string-format-check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  190</span>{R<span class="stringliteral">&quot;([0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12})&quot;};</span></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00343">nlohmann::json_schema::default_string_format_check()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>.</p>
 
 </div>
 </div>
@@ -831,7 +831,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceanonymous__namespace_02string-format-check_8cpp_03.html">anonymous_namespace{string-format-check.cpp}</a></li>
-    <li class="footer">Generated on Sat May 3 2025 13:36:53 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Jul 5 2025 22:36:23 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

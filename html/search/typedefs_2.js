@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['format_5fchecker_0',['format_checker',['../namespacenlohmann_1_1json__schema.html#a3d527dae88a9fa392e682f07fdfff63c',1,'nlohmann::json_schema']]]
+  ['errorentrylist_0',['errorentrylist',['../classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler.html#a664fc8cdc4f8b297df154db4df15e4c0',1,'anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler::ErrorEntryList'],['../classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler.html#a664fc8cdc4f8b297df154db4df15e4c0',1,'anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler::ErrorEntryList']]]
 ];

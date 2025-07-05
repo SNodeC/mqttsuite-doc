@@ -5,6 +5,7 @@ var namespaceanonymous__namespace_02json_validator_8cpp_03 =
     [ "boolean_type", "classanonymous__namespace_02json-validator_8cpp_03_1_1boolean__type.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1boolean__type" ],
     [ "first_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler" ],
     [ "logical_combination", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination" ],
+    [ "logical_combination_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler" ],
     [ "logical_not", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__not.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__not" ],
     [ "null", "classanonymous__namespace_02json-validator_8cpp_03_1_1null.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1null" ],
     [ "numeric", "classanonymous__namespace_02json-validator_8cpp_03_1_1numeric.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1numeric" ],

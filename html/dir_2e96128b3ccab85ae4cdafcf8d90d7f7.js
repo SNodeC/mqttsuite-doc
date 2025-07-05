@@ -6,6 +6,6 @@ var dir_2e96128b3ccab85ae4cdafcf8d90d7f7 =
     [ "BridgeStore.h", "BridgeStore_8h.html", "BridgeStore_8h" ],
     [ "Broker.cpp", "Broker_8cpp.html", null ],
     [ "Broker.h", "Broker_8h.html", "Broker_8h" ],
-    [ "Mqtt.cpp", "mqttbridge_2lib_2Mqtt_8cpp.html", null ],
-    [ "Mqtt.h", "mqttbridge_2lib_2Mqtt_8h.html", "mqttbridge_2lib_2Mqtt_8h" ]
+    [ "Mqtt.cpp", "ridge_2lib_2Mqtt_8cpp.html", null ],
+    [ "Mqtt.h", "ridge_2lib_2Mqtt_8h.html", "ridge_2lib_2Mqtt_8h" ]
 ];

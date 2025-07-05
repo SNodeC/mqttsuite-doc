@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ok_0',['OK',['../test_2json-patch_8cpp.html#ab5790239fcf418d0bafc0a6a40db91b3',1,'json-patch.cpp']]]
+  ['log_5ferror_0',['LOG_ERROR',['../issue-105-verbose-combination-errors_8cpp.html#abab43548f0161104a5343449fbf936a0',1,'issue-105-verbose-combination-errors.cpp']]]
 ];

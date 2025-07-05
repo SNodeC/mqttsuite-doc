@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ko_0',['KO',['../test_2json-patch_8cpp.html#a0fa46bb174505ff18d06a0c7512f3e71',1,'json-patch.cpp']]]
+  ['json_5fschema_5fvalidator_5fapi_0',['JSON_SCHEMA_VALIDATOR_API',['../json-schema_8hpp.html#a5f89c25d0ecc5ab6b10797f4f17a50c8',1,'json-schema.hpp']]]
 ];

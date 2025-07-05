@@ -25,12 +25,19 @@ var hierarchy =
     [ "mqtt::bridge::lib::BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", null ],
     [ "mqtt::bridge::lib::Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html", null ],
     [ "inja::Environment", "classinja_1_1Environment.html", null ],
+    [ "anonymous_namespace{json-validator.cpp}::logical_combination_error_handler::error_entry", "structanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler_1_1error__entry.html", null ],
     [ "nlohmann::json_schema::error_handler", "classnlohmann_1_1json__schema_1_1error__handler.html", [
+      [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler", "classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler.html", null ],
+      [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler", "classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler.html", null ],
       [ "anonymous_namespace{json-validator.cpp}::first_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html", null ],
       [ "anonymous_namespace{json-validator.cpp}::first_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html", null ],
+      [ "anonymous_namespace{json-validator.cpp}::logical_combination_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html", null ],
+      [ "anonymous_namespace{json-validator.cpp}::logical_combination_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html", null ],
       [ "anonymous_namespace{json-validator.cpp}::throwing_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1throwing__error__handler.html", null ],
       [ "anonymous_namespace{json-validator.cpp}::throwing_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1throwing__error__handler.html", null ],
       [ "nlohmann::json_schema::basic_error_handler", "classnlohmann_1_1json__schema_1_1basic__error__handler.html", [
+        [ "custom_error_handler", "classcustom__error__handler.html", null ],
+        [ "custom_error_handler", "classcustom__error__handler.html", null ],
         [ "custom_error_handler", "classcustom__error__handler.html", null ],
         [ "custom_error_handler", "classcustom__error__handler.html", null ],
         [ "store_err_handler", "classstore__err__handler.html", null ],
@@ -43,6 +50,7 @@ var hierarchy =
         [ "store_ptr_err_handler", "classstore__ptr__err__handler.html", null ]
       ] ]
     ] ],
+    [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler::ErrorEntry", "structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html", null ],
     [ "std::exception", null, [
       [ "nlohmann::JsonPatchFormatException", "classnlohmann_1_1JsonPatchFormatException.html", null ],
       [ "std::runtime_error", null, [
@@ -69,7 +77,10 @@ var hierarchy =
     [ "inja::LexerConfig", "structinja_1_1LexerConfig.html", null ],
     [ "iot::mqtt::client::Mqtt", null, [
       [ "mqtt::bridge::lib::Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", null ],
-      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ]
+      [ "mqtt::mqtt::lib::Mqtt", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html", null ],
+      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ],
+      [ "mqtt::mqttpub::lib::Mqtt", "classmqtt_1_1mqttpub_1_1lib_1_1Mqtt.html", null ],
+      [ "mqtt::mqttsub::lib::Mqtt", "classmqtt_1_1mqttsub_1_1lib_1_1Mqtt.html", null ]
     ] ],
     [ "iot::mqtt::server::Mqtt", null, [
       [ "mqtt::mqttbroker::lib::Mqtt", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html", null ]
@@ -117,15 +128,21 @@ var hierarchy =
     [ "nlohmann::json_schema::root_schema::schema_file", "structnlohmann_1_1json__schema_1_1root__schema_1_1schema__file.html", null ],
     [ "core::socket::stream::SocketContextFactory", null, [
       [ "mqtt::bridge::SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", null ],
+      [ "mqtt::mqtt::SocketContextFactory", "classmqtt_1_1mqtt_1_1SocketContextFactory.html", null ],
       [ "mqtt::mqttbroker::SocketContextFactory", "classmqtt_1_1mqttbroker_1_1SocketContextFactory.html", null ],
-      [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ]
+      [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ],
+      [ "mqtt::mqttpub::SocketContextFactory", "classmqtt_1_1mqttpub_1_1SocketContextFactory.html", null ],
+      [ "mqtt::mqttsub::SocketContextFactory", "classmqtt_1_1mqttsub_1_1SocketContextFactory.html", null ]
     ] ],
     [ "inja::SourceLocation", "structinja_1_1SourceLocation.html", null ],
     [ "mqtt::lib::plugins::storage_plugin::Storage", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html", null ],
     [ "web::websocket::SubProtocolFactory", null, [
+      [ "mqtt::mqtt::websocket::SubProtocolFactory", "classmqtt_1_1mqtt_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttbridge::websocket::SubProtocolFactory", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttbroker::websocket::SubProtocolFactory", "classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html", null ],
-      [ "mqtt::mqttintegrator::websocket::SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", null ]
+      [ "mqtt::mqttintegrator::websocket::SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", null ],
+      [ "mqtt::mqttpub::websocket::SubProtocolFactory", "classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory.html", null ],
+      [ "mqtt::mqttsub::websocket::SubProtocolFactory", "classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory.html", null ]
     ] ],
     [ "inja::Template", "structinja_1_1Template.html", null ],
     [ "inja::Token", "structinja_1_1Token.html", null ],
