@@ -115,24 +115,6 @@ var annotated_dup =
           [ "SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory" ]
         ] ],
         [ "SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory" ]
-      ] ],
-      [ "mqttpub", "namespacemqtt_1_1mqttpub.html", [
-        [ "lib", "namespacemqtt_1_1mqttpub_1_1lib.html", [
-          [ "Mqtt", "classmqtt_1_1mqttpub_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttpub_1_1lib_1_1Mqtt" ]
-        ] ],
-        [ "websocket", "namespacemqtt_1_1mqttpub_1_1websocket.html", [
-          [ "SubProtocolFactory", "classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory" ]
-        ] ],
-        [ "SocketContextFactory", "classmqtt_1_1mqttpub_1_1SocketContextFactory.html", "classmqtt_1_1mqttpub_1_1SocketContextFactory" ]
-      ] ],
-      [ "mqttsub", "namespacemqtt_1_1mqttsub.html", [
-        [ "lib", "namespacemqtt_1_1mqttsub_1_1lib.html", [
-          [ "Mqtt", "classmqtt_1_1mqttsub_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttsub_1_1lib_1_1Mqtt" ]
-        ] ],
-        [ "websocket", "namespacemqtt_1_1mqttsub_1_1websocket.html", [
-          [ "SubProtocolFactory", "classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory" ]
-        ] ],
-        [ "SocketContextFactory", "classmqtt_1_1mqttsub_1_1SocketContextFactory.html", "classmqtt_1_1mqttsub_1_1SocketContextFactory" ]
       ] ]
     ] ],
     [ "nlohmann", "namespacenlohmann.html", [

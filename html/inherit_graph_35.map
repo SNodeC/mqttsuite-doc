@@ -1,15 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,165,216,205"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,101,216,141"/>
 <area shape="rect" id="Node000001" href="$classmqtt_1_1mqtt_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="295,5,465,45"/>
-<area shape="poly" id="edge63_Node000000_Node000001" title=" " alt="" coords="138,153,193,103,227,77,263,55,294,42,296,47,265,60,230,82,196,107,142,157"/>
+<area shape="poly" id="edge59_Node000000_Node000001" title=" " alt="" coords="168,93,263,55,301,43,303,48,265,60,169,98"/>
 <area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="275,69,485,109"/>
-<area shape="poly" id="edge64_Node000000_Node000002" title=" " alt="" coords="168,157,263,119,301,107,303,112,265,124,169,162"/>
+<area shape="poly" id="edge60_Node000000_Node000002" title=" " alt="" coords="230,105,274,99,275,104,230,110"/>
 <area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="275,133,485,173"/>
-<area shape="poly" id="edge65_Node000000_Node000003" title=" " alt="" coords="230,169,274,163,275,168,230,174"/>
+<area shape="poly" id="edge61_Node000000_Node000003" title=" " alt="" coords="230,133,275,138,274,143,230,138"/>
 <area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="264,197,496,237"/>
-<area shape="poly" id="edge66_Node000000_Node000004" title=" " alt="" coords="230,197,264,201,264,206,229,202"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="283,261,477,301"/>
-<area shape="poly" id="edge67_Node000000_Node000005" title=" " alt="" coords="169,209,265,247,303,259,301,264,263,252,168,214"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="284,325,476,365"/>
-<area shape="poly" id="edge68_Node000000_Node000006" title=" " alt="" coords="142,213,196,264,230,289,265,311,292,323,290,328,263,316,227,293,193,268,138,217"/>
+<area shape="poly" id="edge62_Node000000_Node000004" title=" " alt="" coords="169,145,265,183,303,195,301,200,263,188,168,150"/>
 </map>

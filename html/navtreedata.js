@@ -130,12 +130,11 @@ var NAVTREEINDEX =
 "classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a35537fbc25d87ffe59e4f35fefcd34b7",
 "classinja_1_1Parser.html#a7dda6b9f4295c215e097f45d573d8d69",
 "classmqtt_1_1bridge_1_1lib_1_1Broker.html#a554eb6627aa4d92607f47aca793b6952",
-"classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15",
-"classnlohmann_1_1json__schema_1_1json__validator.html#a9b658ef82ef777074679e2a60d539821",
-"globals.html",
-"mqttbridge_2SocketContextFactory_8cpp.html",
-"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#a95e25aeba0b2f9861d90f24da4dc4f6f",
-"ub_2websocket_2SubProtocolFactory_8cpp.html#a0e1d80ca3feca531eb06e21bbb056e61"
+"classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a968592376aacc4c7f02e44ce8a01654d",
+"classstore__err__handler.html#a046d3156f8f3a0f2d29849386409846b",
+"issue-105-verbose-combination-errors_8cpp.html#aa5ddc4bed950df759d72d3cadaa2b896",
+"namespacemqtt_1_1lib_1_1plugins_1_1double__plugin.html",
+"structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa40fb6af3b9add1a64fcf24e8069de243"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

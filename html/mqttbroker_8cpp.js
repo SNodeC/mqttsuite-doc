@@ -9,6 +9,5 @@ var mqttbroker_8cpp =
     [ "href", "mqttbroker_8cpp.html#a9dfd7c4353c3e607ddb8f6b0d920db36", null ],
     [ "main", "mqttbroker_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97", null ],
     [ "reportState", "mqttbroker_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0", null ],
-    [ "startServer", "mqttbroker_8cpp.html#a9bd5000706dbaec44e9b35f57f8bd27f", null ],
     [ "urlDecode", "mqttbroker_8cpp.html#a060eea8fb783d5b54f6fa11cf4e32be9", null ]
 ];

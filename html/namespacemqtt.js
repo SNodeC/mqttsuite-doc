@@ -5,7 +5,5 @@ var namespacemqtt =
     [ "mqtt", "namespacemqtt_1_1mqtt.html", "namespacemqtt_1_1mqtt" ],
     [ "mqttbridge", "namespacemqtt_1_1mqttbridge.html", "namespacemqtt_1_1mqttbridge" ],
     [ "mqttbroker", "namespacemqtt_1_1mqttbroker.html", "namespacemqtt_1_1mqttbroker" ],
-    [ "mqttintegrator", "namespacemqtt_1_1mqttintegrator.html", "namespacemqtt_1_1mqttintegrator" ],
-    [ "mqttpub", "namespacemqtt_1_1mqttpub.html", "namespacemqtt_1_1mqttpub" ],
-    [ "mqttsub", "namespacemqtt_1_1mqttsub.html", "namespacemqtt_1_1mqttsub" ]
+    [ "mqttintegrator", "namespacemqtt_1_1mqttintegrator.html", "namespacemqtt_1_1mqttintegrator" ]
 ];

@@ -78,9 +78,7 @@ var hierarchy =
     [ "iot::mqtt::client::Mqtt", null, [
       [ "mqtt::bridge::lib::Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", null ],
       [ "mqtt::mqtt::lib::Mqtt", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html", null ],
-      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ],
-      [ "mqtt::mqttpub::lib::Mqtt", "classmqtt_1_1mqttpub_1_1lib_1_1Mqtt.html", null ],
-      [ "mqtt::mqttsub::lib::Mqtt", "classmqtt_1_1mqttsub_1_1lib_1_1Mqtt.html", null ]
+      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ]
     ] ],
     [ "iot::mqtt::server::Mqtt", null, [
       [ "mqtt::mqttbroker::lib::Mqtt", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html", null ]
@@ -130,9 +128,7 @@ var hierarchy =
       [ "mqtt::bridge::SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", null ],
       [ "mqtt::mqtt::SocketContextFactory", "classmqtt_1_1mqtt_1_1SocketContextFactory.html", null ],
       [ "mqtt::mqttbroker::SocketContextFactory", "classmqtt_1_1mqttbroker_1_1SocketContextFactory.html", null ],
-      [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ],
-      [ "mqtt::mqttpub::SocketContextFactory", "classmqtt_1_1mqttpub_1_1SocketContextFactory.html", null ],
-      [ "mqtt::mqttsub::SocketContextFactory", "classmqtt_1_1mqttsub_1_1SocketContextFactory.html", null ]
+      [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ]
     ] ],
     [ "inja::SourceLocation", "structinja_1_1SourceLocation.html", null ],
     [ "mqtt::lib::plugins::storage_plugin::Storage", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html", null ],
@@ -140,9 +136,7 @@ var hierarchy =
       [ "mqtt::mqtt::websocket::SubProtocolFactory", "classmqtt_1_1mqtt_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttbridge::websocket::SubProtocolFactory", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttbroker::websocket::SubProtocolFactory", "classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html", null ],
-      [ "mqtt::mqttintegrator::websocket::SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", null ],
-      [ "mqtt::mqttpub::websocket::SubProtocolFactory", "classmqtt_1_1mqttpub_1_1websocket_1_1SubProtocolFactory.html", null ],
-      [ "mqtt::mqttsub::websocket::SubProtocolFactory", "classmqtt_1_1mqttsub_1_1websocket_1_1SubProtocolFactory.html", null ]
+      [ "mqtt::mqttintegrator::websocket::SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", null ]
     ] ],
     [ "inja::Template", "structinja_1_1Template.html", null ],
     [ "inja::Token", "structinja_1_1Token.html", null ],

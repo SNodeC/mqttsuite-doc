@@ -1,11 +1,9 @@
 <map id="getTerminalWidth" name="getTerminalWidth">
-<area shape="rect" id="Node000001" title=" " alt="" coords="533,45,671,70"/>
-<area shape="rect" id="Node000002" href="$lib_2Mqtt_8cpp.html#a37ddab91e49593b85ab2a449ebe31926" title=" " alt="" coords="399,45,485,70"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="520,60,485,60,485,55,520,55"/>
-<area shape="rect" id="Node000003" href="$lib_2Mqtt_8cpp.html#a8d58cc20b4ddf52a51f359c4cd9abbb2" title=" " alt="" coords="208,45,351,70"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="385,60,351,60,351,55,385,55"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="533,13,671,38"/>
+<area shape="rect" id="Node000002" href="$lib_2Mqtt_8cpp.html#a37ddab91e49593b85ab2a449ebe31926" title=" " alt="" coords="399,13,485,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="520,28,485,28,485,23,520,23"/>
+<area shape="rect" id="Node000003" href="$lib_2Mqtt_8cpp.html#a8d58cc20b4ddf52a51f359c4cd9abbb2" title=" " alt="" coords="208,13,351,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="385,28,351,28,351,23,385,23"/>
 <area shape="rect" id="Node000004" href="$classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#a2f670691e9e8ceda8044760271ea6dab" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,46,160,41,161,35,195,41"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttsub_1_1lib_1_1Mqtt.html#a29d6940ccbd89601da8e3eb5a99d2c29" title=" " alt="" coords="13,69,152,109"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="195,74,153,81,152,75,194,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
 </map>
