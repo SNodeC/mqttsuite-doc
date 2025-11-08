@@ -1,7 +1,9 @@
 <map id="mqtt::lib::JsonMappingReader::readMappingFromFile" name="mqtt::lib::JsonMappingReader::readMappingFromFile">
-<area shape="rect" id="Node000001" title=" " alt="" coords="237,49,452,89"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="11,5,183,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,54,183,48,184,43,224,48"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="5,85,189,125"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,89,190,94,189,89,223,84"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="285,85,500,125"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="35,5,207,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,84,207,58,208,53,304,79"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="29,85,213,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,107,214,107,214,102,272,102"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html#ae88373a69cdee4d08cf58c4c618041d6" title=" " alt="" coords="5,149,237,204"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,131,225,152,224,147,303,126"/>
 </map>

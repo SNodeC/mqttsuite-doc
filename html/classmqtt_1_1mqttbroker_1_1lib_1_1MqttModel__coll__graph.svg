@@ -46,7 +46,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1022;
+var viewWidth = 901;
 var viewHeight = 1265;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,10 +58,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="transparent" points="136,-30 26,-30 26,0 136,0 136,-30"/>
-<text text-anchor="start" x="30" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text text-anchor="start" x="51.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel</text>
-<polygon fill="none" stroke="#666666" points="26,0 26,-30 136,-30 136,0 26,0"/>
+<polygon fill="#999999" stroke="transparent" points="360.6,-30 250.6,-30 250.6,0 360.6,0 360.6,-30"/>
+<text text-anchor="start" x="254.6" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text text-anchor="start" x="276.1" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel</text>
+<polygon fill="none" stroke="#666666" points="250.6,0 250.6,-30 360.6,-30 360.6,0 250.6,0"/>
 </a>
 </g>
 </g>
@@ -69,11 +69,11 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="162,-118 0,-118 0,-77 162,-77 162,-118"/>
-<text text-anchor="start" x="4" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::string,</text>
-<text text-anchor="start" x="4" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mqtt::mqttbroker::lib</text>
-<text text-anchor="start" x="4" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel::MqttModelEntry &gt;</text>
-<polygon fill="none" stroke="#666666" points="0,-77 0,-118 162,-118 162,-77 0,-77"/>
+<polygon fill="white" stroke="transparent" points="294.6,-118 132.6,-118 132.6,-77 294.6,-77 294.6,-118"/>
+<text text-anchor="start" x="136.6" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::string,</text>
+<text text-anchor="start" x="136.6" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mqtt::mqttbroker::lib</text>
+<text text-anchor="start" x="136.6" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel::MqttModelEntry &gt;</text>
+<polygon fill="none" stroke="#666666" points="132.6,-77 132.6,-118 294.6,-118 294.6,-77 132.6,-77"/>
 </a>
 </g>
 </g>
@@ -81,19 +81,19 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M81,-76.6C81,-66.29 81,-53.57 81,-42.45"/>
-<polygon fill="none" stroke="#63b8ff" points="81,-42.37 77,-36.37 81,-30.37 85,-36.37 81,-42.37"/>
+<path fill="none" stroke="#63b8ff" d="M236.34,-76.6C249.62,-64.99 266.4,-50.3 280.12,-38.3"/>
+<polygon fill="none" stroke="#63b8ff" points="280.44,-38.02 282.32,-31.06 289.47,-30.12 287.59,-37.08 280.44,-38.02"/>
 </a>
 </g>
-<text text-anchor="middle" x="113" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> #modelMap</text>
+<text text-anchor="middle" x="300.6" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> #modelMap</text>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="695,-1029 637,-1029 637,-1010 695,-1010 695,-1029"/>
-<text text-anchor="start" x="641.5" y="-1016.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::string</text>
-<polygon fill="none" stroke="#666666" points="637,-1010 637,-1029 695,-1029 695,-1010 637,-1010"/>
+<polygon fill="white" stroke="transparent" points="573.6,-1029 515.6,-1029 515.6,-1010 573.6,-1010 573.6,-1029"/>
+<text text-anchor="start" x="520.1" y="-1016.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::string</text>
+<polygon fill="none" stroke="#666666" points="515.6,-1010 515.6,-1029 573.6,-1029 573.6,-1010 515.6,-1010"/>
 </a>
 </g>
 </g>
@@ -101,19 +101,19 @@ var sectionId = 'dynsection-0';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M636.8,-1017.2C598.67,-1014.88 530.15,-1008.6 474,-992 281.52,-935.08 65,-1001.22 65,-800.5 65,-800.5 65,-800.5 65,-179 65,-162.69 68.2,-144.87 71.74,-130.15"/>
-<polygon fill="none" stroke="#63b8ff" points="71.84,-129.75 69.48,-122.93 74.86,-118.13 77.22,-124.95 71.84,-129.75"/>
+<path fill="none" stroke="#63b8ff" d="M515.54,-1018.79C416.66,-1019.54 97.47,-1019.75 61.6,-992 -9.04,-937.33 0.6,-889.82 0.6,-800.5 0.6,-800.5 0.6,-800.5 0.6,-179 0.6,-151.54 63.33,-130.18 120.71,-116.38"/>
+<polygon fill="none" stroke="#63b8ff" points="120.78,-116.36 125.72,-111.1 132.47,-113.64 127.53,-118.89 120.78,-116.36"/>
 </a>
 </g>
-<text text-anchor="middle" x="82" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +keys</text>
+<text text-anchor="middle" x="17.6" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +keys</text>
 </g>
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="classinja_1_1Environment.html" target="_top" xlink:title="Class for changing the configuration.">
-<polygon fill="white" stroke="transparent" points="448,-394 352,-394 352,-375 448,-375 448,-394"/>
-<text text-anchor="start" x="356.5" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment</text>
-<polygon fill="none" stroke="#666666" points="352,-375 352,-394 448,-394 448,-375 352,-375"/>
+<polygon fill="white" stroke="transparent" points="302.6,-394 206.6,-394 206.6,-375 302.6,-375 302.6,-394"/>
+<text text-anchor="start" x="211.1" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment</text>
+<polygon fill="none" stroke="#666666" points="206.6,-375 206.6,-394 302.6,-394 302.6,-375 206.6,-375"/>
 </a>
 </g>
 </g>
@@ -121,20 +121,20 @@ var sectionId = 'dynsection-0';
 <g id="edge34_Node000010_Node000003" class="edge">
 <title>Node3&#45;&gt;Node10</title>
 <g id="a_edge34_Node000010_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M636.73,-1017.61C596.41,-1015.72 526.86,-1009.89 510,-992 451.27,-929.7 489,-886.12 489,-800.5 489,-800.5 489,-800.5 489,-455 489,-434.9 489.03,-426.39 475,-412 469.68,-406.55 463.18,-402.22 456.25,-398.78"/>
-<polygon fill="none" stroke="#63b8ff" points="456.16,-398.74 449.07,-400.09 445.11,-394.07 452.19,-392.72 456.16,-398.74"/>
+<path fill="none" stroke="#63b8ff" d="M515.54,-1018.75C411.33,-1017.98 62.6,-1000.48 62.6,-800.5 62.6,-800.5 62.6,-800.5 62.6,-455 62.6,-426.6 137.83,-406.52 194.11,-395.48"/>
+<polygon fill="none" stroke="#63b8ff" points="194.36,-395.43 199.51,-390.38 206.15,-393.19 201,-398.24 194.36,-395.43"/>
 </a>
 </g>
-<text text-anchor="middle" x="522.5" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> #input_path</text>
-<text text-anchor="middle" x="522.5" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">#output_path</text>
+<text text-anchor="middle" x="96.1" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> #input_path</text>
+<text text-anchor="middle" x="96.1" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">#output_path</text>
 </g>
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="structinja_1_1LexerConfig.html" target="_top" xlink:title="Class for lexer configuration.">
-<polygon fill="white" stroke="transparent" points="613,-772 521,-772 521,-753 613,-753 613,-772"/>
-<text text-anchor="start" x="525.5" y="-759.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::LexerConfig</text>
-<polygon fill="none" stroke="#666666" points="521,-753 521,-772 613,-772 613,-753 521,-753"/>
+<polygon fill="white" stroke="transparent" points="484.6,-772 392.6,-772 392.6,-753 484.6,-753 484.6,-772"/>
+<text text-anchor="start" x="397.1" y="-759.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::LexerConfig</text>
+<polygon fill="none" stroke="#666666" points="392.6,-753 392.6,-772 484.6,-772 484.6,-753 392.6,-753"/>
 </a>
 </g>
 </g>
@@ -142,34 +142,34 @@ var sectionId = 'dynsection-0';
 <g id="edge11_Node000011_Node000003" class="edge">
 <title>Node3&#45;&gt;Node11</title>
 <g id="a_edge11_Node000011_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M636.94,-1016.74C602.59,-1013.99 548.49,-1007.3 536,-992 485.42,-930.06 532.65,-825.66 555.84,-782.78"/>
-<polygon fill="none" stroke="#63b8ff" points="555.91,-782.66 555.35,-775.47 561.77,-772.18 562.33,-779.37 555.91,-782.66"/>
+<path fill="none" stroke="#63b8ff" d="M515.55,-1016.74C481.19,-1013.99 427.1,-1007.3 414.6,-992 364.31,-930.42 406.88,-826.21 428.2,-783.09"/>
+<polygon fill="none" stroke="#63b8ff" points="428.31,-782.88 427.48,-775.71 433.78,-772.2 434.6,-779.36 428.31,-782.88"/>
 </a>
 </g>
-<text text-anchor="middle" x="594" y="-984" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +comment_close</text>
-<text text-anchor="start" x="536" y="-973" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+comment_close_force</text>
-<text text-anchor="middle" x="594" y="-962" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_rstrip</text>
-<text text-anchor="middle" x="594" y="-951" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+comment_open</text>
-<text text-anchor="start" x="536" y="-940" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+comment_open_force</text>
-<text text-anchor="middle" x="594" y="-929" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_lstrip</text>
-<text text-anchor="middle" x="594" y="-918" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_close</text>
-<text text-anchor="start" x="536" y="-907" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_close</text>
-<text text-anchor="middle" x="594" y="-896" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_force_rstrip</text>
-<text text-anchor="middle" x="594" y="-885" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_open</text>
-<text text-anchor="start" x="536" y="-874" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_open</text>
-<text text-anchor="middle" x="594" y="-863" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_force_lstrip</text>
-<text text-anchor="middle" x="594" y="-852" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+line_statement</text>
-<text text-anchor="middle" x="594" y="-841" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+open_chars</text>
-<text text-anchor="middle" x="594" y="-830" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">...</text>
+<text text-anchor="middle" x="472.6" y="-984" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +comment_close</text>
+<text text-anchor="start" x="414.6" y="-973" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+comment_close_force</text>
+<text text-anchor="middle" x="472.6" y="-962" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_rstrip</text>
+<text text-anchor="middle" x="472.6" y="-951" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+comment_open</text>
+<text text-anchor="start" x="414.6" y="-940" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+comment_open_force</text>
+<text text-anchor="middle" x="472.6" y="-929" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_lstrip</text>
+<text text-anchor="middle" x="472.6" y="-918" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_close</text>
+<text text-anchor="start" x="414.6" y="-907" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_close</text>
+<text text-anchor="middle" x="472.6" y="-896" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_force_rstrip</text>
+<text text-anchor="middle" x="472.6" y="-885" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_open</text>
+<text text-anchor="start" x="414.6" y="-874" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+expression_open</text>
+<text text-anchor="middle" x="472.6" y="-863" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_force_lstrip</text>
+<text text-anchor="middle" x="472.6" y="-852" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+line_statement</text>
+<text text-anchor="middle" x="472.6" y="-841" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+open_chars</text>
+<text text-anchor="middle" x="472.6" y="-830" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">...</text>
 </g>
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
 <g id="a_Node000017"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="726,-471 612,-471 612,-441 726,-441 726,-471"/>
-<text text-anchor="start" x="616" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::string,</text>
-<text text-anchor="start" x="639" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00"> Template &gt;</text>
-<polygon fill="none" stroke="#666666" points="612,-441 612,-471 726,-471 726,-441 612,-441"/>
+<polygon fill="white" stroke="transparent" points="604.6,-471 490.6,-471 490.6,-441 604.6,-441 604.6,-471"/>
+<text text-anchor="start" x="494.6" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::string,</text>
+<text text-anchor="start" x="517.6" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00"> Template &gt;</text>
+<polygon fill="none" stroke="#666666" points="490.6,-441 490.6,-471 604.6,-471 604.6,-441 490.6,-441"/>
 </a>
 </g>
 </g>
@@ -177,19 +177,19 @@ var sectionId = 'dynsection-0';
 <g id="edge18_Node000017_Node000003" class="edge">
 <title>Node3&#45;&gt;Node17</title>
 <g id="a_edge18_Node000017_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M666,-1009.78C666,-980.33 666,-881.87 666,-800.5 666,-800.5 666,-800.5 666,-543 666,-522.98 666.82,-500.35 667.61,-483.33"/>
-<polygon fill="none" stroke="#63b8ff" points="667.61,-483.28 663.91,-477.1 668.2,-471.3 671.9,-477.49 667.61,-483.28"/>
+<path fill="none" stroke="#63b8ff" d="M544.6,-1009.78C544.6,-980.33 544.6,-881.87 544.6,-800.5 544.6,-800.5 544.6,-800.5 544.6,-543 544.6,-522.98 545.42,-500.35 546.21,-483.33"/>
+<polygon fill="none" stroke="#63b8ff" points="546.21,-483.28 542.51,-477.1 546.8,-471.3 550.5,-477.49 546.21,-483.28"/>
 </a>
 </g>
-<text text-anchor="middle" x="683" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +keys</text>
+<text text-anchor="middle" x="561.6" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +keys</text>
 </g>
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
 <g id="a_Node000018"><a xlink:href="structinja_1_1Template.html" target="_top" xlink:title="The main inja Template.">
-<polygon fill="white" stroke="transparent" points="840,-553.5 762,-553.5 762,-534.5 840,-534.5 840,-553.5"/>
-<text text-anchor="start" x="766" y="-541" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Template</text>
-<polygon fill="none" stroke="#666666" points="762,-534.5 762,-553.5 840,-553.5 840,-534.5 762,-534.5"/>
+<polygon fill="white" stroke="transparent" points="701.6,-553.5 623.6,-553.5 623.6,-534.5 701.6,-534.5 701.6,-553.5"/>
+<text text-anchor="start" x="627.6" y="-541" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Template</text>
+<polygon fill="none" stroke="#666666" points="623.6,-534.5 623.6,-553.5 701.6,-553.5 701.6,-534.5 623.6,-534.5"/>
 </a>
 </g>
 </g>
@@ -197,21 +197,21 @@ var sectionId = 'dynsection-0';
 <g id="edge25_Node000018_Node000003" class="edge">
 <title>Node3&#45;&gt;Node18</title>
 <g id="a_edge25_Node000018_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M671.3,-1009.95C674.23,-1004.89 677.73,-998.26 680,-992 724.44,-869.4 704.45,-830.18 741,-705 756.07,-653.4 779.86,-594.69 792.48,-564.79"/>
-<polygon fill="none" stroke="#63b8ff" points="792.58,-564.56 791.25,-557.47 797.29,-553.52 798.61,-560.61 792.58,-564.56"/>
+<path fill="none" stroke="#63b8ff" d="M549.9,-1009.95C552.83,-1004.89 556.33,-998.26 558.6,-992 603.04,-869.4 589.11,-831.79 619.6,-705 631.73,-654.56 648.12,-595.77 656.74,-565.43"/>
+<polygon fill="none" stroke="#63b8ff" points="656.81,-565.17 654.62,-558.3 660.11,-553.63 662.31,-560.5 656.81,-565.17"/>
 </a>
 </g>
-<text text-anchor="middle" x="765.5" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +content</text>
+<text text-anchor="middle" x="644.1" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +content</text>
 </g>
 <!-- Node23 -->
 <g id="Node000023" class="node">
 <title>Node23</title>
 <g id="a_Node000023"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="1005,-658 863,-658 863,-617 1005,-617 1005,-658"/>
-<text text-anchor="start" x="867.5" y="-645.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::string,</text>
-<text text-anchor="start" x="867.5" y="-634.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; inja</text>
-<text text-anchor="start" x="867.5" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BlockStatementNode &gt; &gt;</text>
-<polygon fill="none" stroke="#666666" points="863,-617 863,-658 1005,-658 1005,-617 863,-617"/>
+<polygon fill="white" stroke="transparent" points="883.6,-658 741.6,-658 741.6,-617 883.6,-617 883.6,-658"/>
+<text text-anchor="start" x="746.1" y="-645.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::string,</text>
+<text text-anchor="start" x="746.1" y="-634.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; inja</text>
+<text text-anchor="start" x="746.1" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BlockStatementNode &gt; &gt;</text>
+<polygon fill="none" stroke="#666666" points="741.6,-617 741.6,-658 883.6,-658 883.6,-617 741.6,-617"/>
 </a>
 </g>
 </g>
@@ -219,19 +219,19 @@ var sectionId = 'dynsection-0';
 <g id="edge27_Node000023_Node000003" class="edge">
 <title>Node3&#45;&gt;Node23</title>
 <g id="a_edge27_Node000023_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M695.2,-1011.74C706.36,-1007.76 718.25,-1001.55 726,-992 773.25,-933.8 740.76,-899.18 761,-827 770.41,-793.44 772.88,-784.87 787,-753 796.83,-730.82 795.9,-722.21 813,-705 829.97,-687.92 852.26,-674.01 873.07,-663.4"/>
-<polygon fill="none" stroke="#63b8ff" points="873.33,-663.28 876.96,-657.05 884.11,-658.01 880.47,-664.24 873.33,-663.28"/>
+<path fill="none" stroke="#63b8ff" d="M573.8,-1011.74C584.96,-1007.76 596.85,-1001.55 604.6,-992 651.85,-933.8 619.36,-899.18 639.6,-827 649.02,-793.44 651.48,-784.87 665.6,-753 675.43,-730.82 674.5,-722.21 691.6,-705 708.58,-687.92 730.86,-674.01 751.67,-663.4"/>
+<polygon fill="none" stroke="#63b8ff" points="751.93,-663.28 755.56,-657.05 762.71,-658.01 759.08,-664.24 751.93,-663.28"/>
 </a>
 </g>
-<text text-anchor="middle" x="804" y="-760" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +keys</text>
+<text text-anchor="middle" x="682.6" y="-760" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +keys</text>
 </g>
 <!-- Node25 -->
 <g id="Node000025" class="node">
 <title>Node25</title>
 <g id="a_Node000025"><a xlink:href="classinja_1_1BlockStatementNode.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="1003,-809 867,-809 867,-790 1003,-790 1003,-809"/>
-<text text-anchor="start" x="871" y="-796.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::BlockStatementNode</text>
-<polygon fill="none" stroke="#666666" points="867,-790 867,-809 1003,-809 1003,-790 867,-790"/>
+<polygon fill="white" stroke="transparent" points="881.6,-809 745.6,-809 745.6,-790 881.6,-790 881.6,-809"/>
+<text text-anchor="start" x="749.6" y="-796.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::BlockStatementNode</text>
+<polygon fill="none" stroke="#666666" points="745.6,-790 745.6,-809 881.6,-809 881.6,-790 745.6,-790"/>
 </a>
 </g>
 </g>
@@ -239,20 +239,20 @@ var sectionId = 'dynsection-0';
 <g id="edge32_Node000025_Node000003" class="edge">
 <title>Node3&#45;&gt;Node25</title>
 <g id="a_edge32_Node000025_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M695.43,-1017.26C715.6,-1014.86 741.57,-1008.48 758,-992 811.84,-938 749.06,-878.82 805,-827 813.02,-819.57 832.97,-814.01 854.9,-809.95"/>
-<polygon fill="none" stroke="#63b8ff" points="855.03,-809.92 860.27,-804.97 866.86,-807.9 861.62,-812.86 855.03,-809.92"/>
+<path fill="none" stroke="#63b8ff" d="M574.03,-1017.26C594.2,-1014.86 620.17,-1008.48 636.6,-992 690.44,-938 627.67,-878.82 683.6,-827 691.62,-819.57 711.57,-814.01 733.5,-809.95"/>
+<polygon fill="none" stroke="#63b8ff" points="733.63,-809.92 738.87,-804.97 745.46,-807.9 740.22,-812.86 733.63,-809.92"/>
 </a>
 </g>
-<text text-anchor="middle" x="825" y="-907" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +name</text>
+<text text-anchor="middle" x="703.6" y="-907" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +name</text>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="714,-1106 618,-1106 618,-1076 714,-1076 714,-1106"/>
-<text text-anchor="start" x="622" y="-1094" font-family="Helvetica,sans-Serif" font-size="10.00">std::basic_string&lt;</text>
-<text text-anchor="start" x="647.5" y="-1083" font-family="Helvetica,sans-Serif" font-size="10.00"> Char &gt;</text>
-<polygon fill="none" stroke="#666666" points="618,-1076 618,-1106 714,-1106 714,-1076 618,-1076"/>
+<polygon fill="white" stroke="transparent" points="592.6,-1106 496.6,-1106 496.6,-1076 592.6,-1076 592.6,-1106"/>
+<text text-anchor="start" x="500.6" y="-1094" font-family="Helvetica,sans-Serif" font-size="10.00">std::basic_string&lt;</text>
+<text text-anchor="start" x="526.1" y="-1083" font-family="Helvetica,sans-Serif" font-size="10.00"> Char &gt;</text>
+<polygon fill="none" stroke="#666666" points="496.6,-1076 496.6,-1106 592.6,-1106 592.6,-1076 496.6,-1076"/>
 </a>
 </g>
 </g>
@@ -260,8 +260,8 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node4&#45;&gt;Node3</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M666,-1065.56C666,-1052.95 666,-1038.35 666,-1029.27"/>
-<polygon fill="none" stroke="#63b8ff" points="662.5,-1065.94 666,-1075.94 669.5,-1065.94 662.5,-1065.94"/>
+<path fill="none" stroke="#63b8ff" d="M544.6,-1065.56C544.6,-1052.95 544.6,-1038.35 544.6,-1029.27"/>
+<polygon fill="none" stroke="#63b8ff" points="541.1,-1065.94 544.6,-1075.94 548.1,-1065.94 541.1,-1065.94"/>
 </a>
 </g>
 </g>
@@ -269,10 +269,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="363,-195 211,-195 211,-165 363,-165 363,-195"/>
-<text text-anchor="start" x="215.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text text-anchor="start" x="215.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel::MqttModelEntry</text>
-<polygon fill="none" stroke="#666666" points="211,-165 211,-195 363,-195 363,-165 211,-165"/>
+<polygon fill="white" stroke="transparent" points="304.6,-195 152.6,-195 152.6,-165 304.6,-165 304.6,-195"/>
+<text text-anchor="start" x="157.1" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text text-anchor="start" x="157.1" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel::MqttModelEntry</text>
+<polygon fill="none" stroke="#666666" points="152.6,-165 152.6,-195 304.6,-195 304.6,-165 152.6,-165"/>
 </a>
 </g>
 </g>
@@ -280,20 +280,20 @@ var sectionId = 'dynsection-0';
 <g id="edge4_Node000002_Node000005" class="edge">
 <title>Node5&#45;&gt;Node2</title>
 <g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M251.12,-164.98C221.16,-153.27 177.79,-136.32 142.34,-122.47"/>
-<polygon fill="none" stroke="#63b8ff" points="142.31,-122.46 135.26,-124 131.13,-118.09 138.17,-116.55 142.31,-122.46"/>
+<path fill="none" stroke="#63b8ff" d="M225.99,-164.98C224.2,-155.35 221.74,-142.17 219.49,-130.09"/>
+<polygon fill="none" stroke="#63b8ff" points="219.45,-129.89 214.42,-124.72 217.25,-118.09 222.28,-123.26 219.45,-129.89"/>
 </a>
 </g>
-<text text-anchor="middle" x="232" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
+<text text-anchor="middle" x="251.6" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
 </g>
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="455,-272 345,-272 345,-242 455,-242 455,-272"/>
-<text text-anchor="start" x="349" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text text-anchor="start" x="385.5" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt</text>
-<polygon fill="none" stroke="#666666" points="345,-242 345,-272 455,-272 455,-242 345,-242"/>
+<polygon fill="white" stroke="transparent" points="309.6,-272 199.6,-272 199.6,-242 309.6,-242 309.6,-272"/>
+<text text-anchor="start" x="203.6" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text text-anchor="start" x="240.1" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt</text>
+<polygon fill="none" stroke="#666666" points="199.6,-242 199.6,-272 309.6,-272 309.6,-242 199.6,-242"/>
 </a>
 </g>
 </g>
@@ -301,19 +301,19 @@ var sectionId = 'dynsection-0';
 <g id="edge5_Node000005_Node000006" class="edge">
 <title>Node6&#45;&gt;Node5</title>
 <g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M378.75,-241.89C361.7,-230.58 337.53,-214.54 318.27,-201.76"/>
-<polygon fill="none" stroke="#63b8ff" points="318.16,-201.68 310.95,-201.69 308.16,-195.04 315.37,-195.03 318.16,-201.68"/>
+<path fill="none" stroke="#63b8ff" d="M249.71,-241.89C246.26,-231.94 241.54,-218.33 237.44,-206.5"/>
+<polygon fill="none" stroke="#63b8ff" points="237.4,-206.38 231.66,-202.02 233.47,-195.04 239.22,-199.4 237.4,-206.38"/>
 </a>
 </g>
-<text text-anchor="middle" x="366.5" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;mqtt</text>
+<text text-anchor="middle" x="259.1" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;mqtt</text>
 </g>
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="592,-328 476,-328 476,-309 592,-309 592,-328"/>
-<text text-anchor="start" x="480" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">iot::mqtt::server::Mqtt</text>
-<polygon fill="none" stroke="#666666" points="476,-309 476,-328 592,-328 592,-309 476,-309"/>
+<polygon fill="white" stroke="transparent" points="446.6,-328 330.6,-328 330.6,-309 446.6,-309 446.6,-328"/>
+<text text-anchor="start" x="334.6" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">iot::mqtt::server::Mqtt</text>
+<polygon fill="none" stroke="#666666" points="330.6,-309 330.6,-328 446.6,-328 446.6,-309 330.6,-309"/>
 </a>
 </g>
 </g>
@@ -321,8 +321,8 @@ var sectionId = 'dynsection-0';
 <g id="edge6_Node000006_Node000007" class="edge">
 <title>Node7&#45;&gt;Node6</title>
 <g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M505.47,-304.83C483.79,-295.2 453.98,-281.97 431.58,-272.02"/>
-<polygon fill="none" stroke="#63b8ff" points="504.24,-308.12 514.8,-308.98 507.08,-301.72 504.24,-308.12"/>
+<path fill="none" stroke="#63b8ff" d="M360.07,-304.83C338.39,-295.2 308.58,-281.97 286.18,-272.02"/>
+<polygon fill="none" stroke="#63b8ff" points="358.84,-308.12 369.4,-308.98 361.68,-301.72 358.84,-308.12"/>
 </a>
 </g>
 </g>
@@ -330,9 +330,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="458,-328 342,-328 342,-309 458,-309 458,-328"/>
-<text text-anchor="start" x="346.5" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
-<polygon fill="none" stroke="#666666" points="342,-309 342,-328 458,-328 458,-309 342,-309"/>
+<polygon fill="white" stroke="transparent" points="312.6,-328 196.6,-328 196.6,-309 312.6,-309 312.6,-328"/>
+<text text-anchor="start" x="201.1" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
+<polygon fill="none" stroke="#666666" points="196.6,-309 196.6,-328 312.6,-328 312.6,-309 196.6,-309"/>
 </a>
 </g>
 </g>
@@ -340,8 +340,8 @@ var sectionId = 'dynsection-0';
 <g id="edge7_Node000006_Node000008" class="edge">
 <title>Node8&#45;&gt;Node6</title>
 <g id="a_edge7_Node000006_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M400,-298.73C400,-290.09 400,-280 400,-272.02"/>
-<polygon fill="none" stroke="#63b8ff" points="396.5,-298.98 400,-308.98 403.5,-298.98 396.5,-298.98"/>
+<path fill="none" stroke="#63b8ff" d="M254.6,-298.73C254.6,-290.09 254.6,-280 254.6,-272.02"/>
+<polygon fill="none" stroke="#63b8ff" points="251.1,-298.98 254.6,-308.98 258.1,-298.98 251.1,-298.98"/>
 </a>
 </g>
 </g>
@@ -349,9 +349,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="562,-394 466,-394 466,-375 562,-375 562,-394"/>
-<text text-anchor="start" x="470" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; void * &gt;</text>
-<polygon fill="none" stroke="#666666" points="466,-375 466,-394 562,-394 562,-375 466,-375"/>
+<polygon fill="white" stroke="transparent" points="416.6,-394 320.6,-394 320.6,-375 416.6,-375 416.6,-394"/>
+<text text-anchor="start" x="324.6" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; void * &gt;</text>
+<polygon fill="none" stroke="#666666" points="320.6,-375 320.6,-394 416.6,-394 416.6,-375 320.6,-375"/>
 </a>
 </g>
 </g>
@@ -359,39 +359,39 @@ var sectionId = 'dynsection-0';
 <g id="edge8_Node000008_Node000009" class="edge">
 <title>Node9&#45;&gt;Node8</title>
 <g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M511.06,-374.76C507.75,-366.2 501.54,-353.41 492,-346 484.52,-340.19 475.82,-335.66 466.81,-332.12"/>
-<polygon fill="none" stroke="#63b8ff" points="466.63,-332.06 459.66,-333.88 455.29,-328.14 462.27,-326.32 466.63,-332.06"/>
+<path fill="none" stroke="#63b8ff" d="M365.67,-374.76C362.35,-366.2 356.14,-353.41 346.6,-346 339.13,-340.19 330.42,-335.66 321.41,-332.12"/>
+<polygon fill="none" stroke="#63b8ff" points="321.24,-332.06 314.26,-333.88 309.89,-328.14 316.87,-326.32 321.24,-332.06"/>
 </a>
 </g>
-<text text-anchor="middle" x="540.5" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;pluginHandles</text>
+<text text-anchor="middle" x="395.1" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;pluginHandles</text>
 </g>
 <!-- Node10&#45;&gt;Node8 -->
 <g id="edge9_Node000008_Node000010" class="edge">
 <title>Node10&#45;&gt;Node8</title>
 <g id="a_edge9_Node000008_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M400,-374.87C400,-366.14 400,-352.31 400,-340.65"/>
-<polygon fill="none" stroke="#63b8ff" points="400,-340.41 396,-334.41 400,-328.41 404,-334.41 400,-340.41"/>
+<path fill="none" stroke="#63b8ff" d="M254.6,-374.87C254.6,-366.14 254.6,-352.31 254.6,-340.65"/>
+<polygon fill="none" stroke="#63b8ff" points="254.6,-340.41 250.6,-334.41 254.6,-328.41 258.6,-334.41 254.6,-340.41"/>
 </a>
 </g>
-<text text-anchor="middle" x="444" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;injaEnvironment</text>
+<text text-anchor="middle" x="298.6" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;injaEnvironment</text>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
 <g id="edge10_Node000010_Node000011" class="edge">
 <title>Node11&#45;&gt;Node10</title>
 <g id="a_edge10_Node000010_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M570.12,-752.86C575.03,-738.47 584,-708.59 584,-682.5 584,-682.5 584,-682.5 584,-455 584,-428.02 513.87,-407.86 460.2,-396.39"/>
-<polygon fill="none" stroke="#63b8ff" points="460.09,-396.37 453.41,-399.07 448.34,-393.93 455.03,-391.23 460.09,-396.37"/>
+<path fill="none" stroke="#63b8ff" d="M443,-752.99C449.93,-738.78 462.6,-709.16 462.6,-682.5 462.6,-682.5 462.6,-682.5 462.6,-455 462.6,-433.53 458.1,-424.44 440.6,-412 419.32,-396.86 354.74,-397.75 314.81,-394.09"/>
+<polygon fill="none" stroke="#63b8ff" points="314.72,-394.08 308.31,-397.38 302.8,-392.72 309.22,-389.43 314.72,-394.08"/>
 </a>
 </g>
-<text text-anchor="middle" x="617.5" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;lexer_config</text>
+<text text-anchor="middle" x="496.1" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;lexer_config</text>
 </g>
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="structinja_1_1ParserConfig.html" target="_top" xlink:title="Class for parser configuration.">
-<polygon fill="white" stroke="transparent" points="343,-465.5 247,-465.5 247,-446.5 343,-446.5 343,-465.5"/>
-<text text-anchor="start" x="251.5" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">inja::ParserConfig</text>
-<polygon fill="none" stroke="#666666" points="247,-446.5 247,-465.5 343,-465.5 343,-446.5 247,-446.5"/>
+<polygon fill="white" stroke="transparent" points="186.6,-465.5 90.6,-465.5 90.6,-446.5 186.6,-446.5 186.6,-465.5"/>
+<text text-anchor="start" x="95.1" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">inja::ParserConfig</text>
+<polygon fill="none" stroke="#666666" points="90.6,-446.5 90.6,-465.5 186.6,-465.5 186.6,-446.5 90.6,-446.5"/>
 </a>
 </g>
 </g>
@@ -399,19 +399,19 @@ var sectionId = 'dynsection-0';
 <g id="edge12_Node000010_Node000012" class="edge">
 <title>Node12&#45;&gt;Node10</title>
 <g id="a_edge12_Node000010_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M298.63,-446.17C303.03,-436.48 311.34,-421.1 323,-412 330.29,-406.32 338.87,-401.81 347.62,-398.24"/>
-<polygon fill="none" stroke="#63b8ff" points="347.82,-398.17 352.11,-392.37 359.11,-394.08 354.83,-399.89 347.82,-398.17"/>
+<path fill="none" stroke="#63b8ff" d="M144.49,-446.21C151.38,-436.55 163.63,-421.21 177.6,-412 186.26,-406.3 196.27,-401.69 206.15,-398.01"/>
+<polygon fill="none" stroke="#63b8ff" points="206.24,-397.98 210.64,-392.26 217.6,-394.12 213.21,-399.83 206.24,-397.98"/>
 </a>
 </g>
-<text text-anchor="middle" x="359.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;parser_config</text>
+<text text-anchor="middle" x="214.1" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;parser_config</text>
 </g>
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:href="structinja_1_1RenderConfig.html" target="_top" xlink:title="Class for render configuration.">
-<polygon fill="white" stroke="transparent" points="461,-465.5 361,-465.5 361,-446.5 461,-446.5 461,-465.5"/>
-<text text-anchor="start" x="365.5" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">inja::RenderConfig</text>
-<polygon fill="none" stroke="#666666" points="361,-446.5 361,-465.5 461,-465.5 461,-446.5 361,-446.5"/>
+<polygon fill="white" stroke="transparent" points="304.6,-465.5 204.6,-465.5 204.6,-446.5 304.6,-446.5 304.6,-465.5"/>
+<text text-anchor="start" x="209.1" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">inja::RenderConfig</text>
+<polygon fill="none" stroke="#666666" points="204.6,-446.5 204.6,-465.5 304.6,-465.5 304.6,-446.5 204.6,-446.5"/>
 </a>
 </g>
 </g>
@@ -419,19 +419,19 @@ var sectionId = 'dynsection-0';
 <g id="edge13_Node000010_Node000013" class="edge">
 <title>Node13&#45;&gt;Node10</title>
 <g id="a_edge13_Node000010_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M407.62,-446.46C405.28,-440.11 402.36,-431.15 401,-423 400.11,-417.66 399.7,-411.83 399.54,-406.4"/>
-<polygon fill="none" stroke="#63b8ff" points="399.54,-406.2 395.55,-400.2 399.56,-394.2 403.55,-400.21 399.54,-406.2"/>
+<path fill="none" stroke="#63b8ff" d="M254.6,-446.48C254.6,-436.58 254.6,-419.89 254.6,-406.47"/>
+<polygon fill="none" stroke="#63b8ff" points="254.6,-406.09 250.6,-400.09 254.6,-394.09 258.6,-400.09 254.6,-406.09"/>
 </a>
 </g>
-<text text-anchor="middle" x="438" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;render_config</text>
+<text text-anchor="middle" x="291.6" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;render_config</text>
 </g>
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
 <g id="a_Node000014"><a xlink:href="classinja_1_1FunctionStorage.html" target="_top" xlink:title="Class for builtin functions and user&#45;defined callbacks.">
-<polygon fill="white" stroke="transparent" points="229,-465.5 117,-465.5 117,-446.5 229,-446.5 229,-465.5"/>
-<text text-anchor="start" x="121.5" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">inja::FunctionStorage</text>
-<polygon fill="none" stroke="#666666" points="117,-446.5 117,-465.5 229,-465.5 229,-446.5 117,-446.5"/>
+<polygon fill="white" stroke="transparent" points="434.6,-465.5 322.6,-465.5 322.6,-446.5 434.6,-446.5 434.6,-465.5"/>
+<text text-anchor="start" x="327.1" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00">inja::FunctionStorage</text>
+<polygon fill="none" stroke="#666666" points="322.6,-446.5 322.6,-465.5 434.6,-465.5 434.6,-446.5 322.6,-446.5"/>
 </a>
 </g>
 </g>
@@ -439,22 +439,22 @@ var sectionId = 'dynsection-0';
 <g id="edge14_Node000010_Node000014" class="edge">
 <title>Node14&#45;&gt;Node10</title>
 <g id="a_edge14_Node000010_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M179.6,-446.43C187.86,-436.38 203.02,-420.07 220,-412 257.26,-394.3 303.35,-387.76 339.56,-385.6"/>
-<polygon fill="none" stroke="#63b8ff" points="339.94,-385.58 345.75,-381.3 351.93,-385.01 346.13,-389.29 339.94,-385.58"/>
+<path fill="none" stroke="#63b8ff" d="M371.32,-446.25C362.89,-436.64 348.17,-421.32 332.6,-412 323.15,-406.34 312.33,-401.69 301.81,-397.95"/>
+<polygon fill="none" stroke="#63b8ff" points="301.56,-397.86 294.61,-399.79 290.16,-394.11 297.11,-392.19 301.56,-397.86"/>
 </a>
 </g>
-<text text-anchor="middle" x="264.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;function_storage</text>
+<text text-anchor="middle" x="392.1" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;function_storage</text>
 </g>
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
 <g id="a_Node000015"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="232,-570 114,-570 114,-518 232,-518 232,-570"/>
-<text text-anchor="start" x="118.5" y="-558" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::pair</text>
-<text text-anchor="start" x="118.5" y="-547" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::string, int &gt;</text>
-<text text-anchor="start" x="118.5" y="-536" font-family="Helvetica,sans-Serif" font-size="10.00">, inja::FunctionStorage</text>
-<text text-anchor="start" x="132" y="-525" font-family="Helvetica,sans-Serif" font-size="10.00">::FunctionData &gt;</text>
-<polygon fill="none" stroke="#666666" points="114,-518 114,-570 232,-570 232,-518 114,-518"/>
+<polygon fill="white" stroke="transparent" points="417.6,-570 299.6,-570 299.6,-518 417.6,-518 417.6,-570"/>
+<text text-anchor="start" x="304.1" y="-558" font-family="Helvetica,sans-Serif" font-size="10.00">std::map&lt; std::pair</text>
+<text text-anchor="start" x="304.1" y="-547" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::string, int &gt;</text>
+<text text-anchor="start" x="304.1" y="-536" font-family="Helvetica,sans-Serif" font-size="10.00">, inja::FunctionStorage</text>
+<text text-anchor="start" x="317.6" y="-525" font-family="Helvetica,sans-Serif" font-size="10.00">::FunctionData &gt;</text>
+<polygon fill="none" stroke="#666666" points="299.6,-518 299.6,-570 417.6,-570 417.6,-518 299.6,-518"/>
 </a>
 </g>
 </g>
@@ -462,20 +462,20 @@ var sectionId = 'dynsection-0';
 <g id="edge15_Node000014_Node000015" class="edge">
 <title>Node15&#45;&gt;Node14</title>
 <g id="a_edge15_Node000014_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M173,-517.66C173,-504.98 173,-489.83 173,-477.84"/>
-<polygon fill="none" stroke="#63b8ff" points="173,-477.55 169,-471.55 173,-465.55 177,-471.55 173,-477.55"/>
+<path fill="none" stroke="#63b8ff" d="M356.41,-517.87C356.3,-508.64 356.99,-498.2 359.6,-489 360.86,-484.58 362.89,-480.14 365.16,-476.04"/>
+<polygon fill="none" stroke="#63b8ff" points="365.32,-475.78 365.17,-468.57 371.77,-465.66 371.92,-472.87 365.32,-475.78"/>
 </a>
 </g>
-<text text-anchor="middle" x="217.5" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;function_storage</text>
+<text text-anchor="middle" x="404.1" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;function_storage</text>
 </g>
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
 <g id="a_Node000016"><a xlink:href="structinja_1_1FunctionStorage_1_1FunctionData.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="229,-652.5 117,-652.5 117,-622.5 229,-622.5 229,-652.5"/>
-<text text-anchor="start" x="121.5" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::FunctionStorage</text>
-<text text-anchor="start" x="137.5" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">::FunctionData</text>
-<polygon fill="none" stroke="#666666" points="117,-622.5 117,-652.5 229,-652.5 229,-622.5 117,-622.5"/>
+<polygon fill="white" stroke="transparent" points="414.6,-652.5 302.6,-652.5 302.6,-622.5 414.6,-622.5 414.6,-652.5"/>
+<text text-anchor="start" x="307.1" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::FunctionStorage</text>
+<text text-anchor="start" x="323.1" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">::FunctionData</text>
+<polygon fill="none" stroke="#666666" points="302.6,-622.5 302.6,-652.5 414.6,-652.5 414.6,-622.5 302.6,-622.5"/>
 </a>
 </g>
 </g>
@@ -483,39 +483,39 @@ var sectionId = 'dynsection-0';
 <g id="edge16_Node000015_Node000016" class="edge">
 <title>Node16&#45;&gt;Node15</title>
 <g id="a_edge16_Node000015_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M173,-622.2C173,-611.58 173,-596.58 173,-582.62"/>
-<polygon fill="none" stroke="#63b8ff" points="173,-582.24 169,-576.25 173,-570.24 177,-576.24 173,-582.24"/>
+<path fill="none" stroke="#63b8ff" d="M358.6,-622.2C358.6,-611.58 358.6,-596.58 358.6,-582.62"/>
+<polygon fill="none" stroke="#63b8ff" points="358.6,-582.24 354.6,-576.25 358.6,-570.24 362.6,-576.24 358.6,-582.24"/>
 </a>
 </g>
-<text text-anchor="middle" x="202" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
+<text text-anchor="middle" x="387.6" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
 </g>
 <!-- Node17&#45;&gt;Node10 -->
 <g id="edge17_Node000010_Node000017" class="edge">
 <title>Node17&#45;&gt;Node10</title>
 <g id="a_edge17_Node000010_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M650.5,-440.82C636.77,-431.06 617.18,-418.69 598,-412 541.85,-392.4 521.92,-401.43 460.22,-394.29"/>
-<polygon fill="none" stroke="#63b8ff" points="460.1,-394.27 453.64,-397.49 448.19,-392.76 454.65,-389.55 460.1,-394.27"/>
+<path fill="none" stroke="#63b8ff" d="M529.43,-440.92C515.71,-431.08 495.98,-418.57 476.6,-412 410.28,-389.53 387.12,-402.01 314.82,-394.25"/>
+<polygon fill="none" stroke="#63b8ff" points="314.7,-394.23 308.27,-397.5 302.79,-392.82 309.22,-389.56 314.7,-394.23"/>
 </a>
 </g>
-<text text-anchor="middle" x="668" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;template_storage</text>
+<text text-anchor="middle" x="545.6" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &#45;template_storage</text>
 </g>
 <!-- Node18&#45;&gt;Node17 -->
 <g id="edge19_Node000017_Node000018" class="edge">
 <title>Node18&#45;&gt;Node17</title>
 <g id="a_edge19_Node000017_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M787.86,-534.44C767.74,-521.33 728.7,-495.89 700.85,-477.75"/>
-<polygon fill="none" stroke="#63b8ff" points="700.84,-477.75 693.63,-477.82 690.79,-471.2 698,-471.12 700.84,-477.75"/>
+<path fill="none" stroke="#63b8ff" d="M651.16,-534.44C633.86,-521.5 600.51,-496.56 576.32,-478.47"/>
+<polygon fill="none" stroke="#63b8ff" points="576.19,-478.38 568.99,-477.99 566.58,-471.2 573.79,-471.59 576.19,-478.38"/>
 </a>
 </g>
-<text text-anchor="middle" x="764" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
+<text text-anchor="middle" x="633.6" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
 </g>
 <!-- Node19 -->
 <g id="Node000019" class="node">
 <title>Node19</title>
 <g id="a_Node000019"><a xlink:href="classinja_1_1BlockNode.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="878,-1029 792,-1029 792,-1010 878,-1010 878,-1029"/>
-<text text-anchor="start" x="796.5" y="-1016.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::BlockNode</text>
-<polygon fill="none" stroke="#666666" points="792,-1010 792,-1029 878,-1029 878,-1010 792,-1010"/>
+<polygon fill="white" stroke="transparent" points="756.6,-1029 670.6,-1029 670.6,-1010 756.6,-1010 756.6,-1029"/>
+<text text-anchor="start" x="675.1" y="-1016.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::BlockNode</text>
+<polygon fill="none" stroke="#666666" points="670.6,-1010 670.6,-1029 756.6,-1029 756.6,-1010 670.6,-1010"/>
 </a>
 </g>
 </g>
@@ -523,30 +523,30 @@ var sectionId = 'dynsection-0';
 <g id="edge20_Node000018_Node000019" class="edge">
 <title>Node19&#45;&gt;Node18</title>
 <g id="a_edge20_Node000018_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M835,-1009.78C835,-980.33 835,-881.87 835,-800.5 835,-800.5 835,-800.5 835,-636.5 835,-610.21 822.52,-582.19 812.68,-564.18"/>
-<polygon fill="none" stroke="#63b8ff" points="812.62,-564.08 806.15,-560.89 806.61,-553.69 813.08,-556.88 812.62,-564.08"/>
+<path fill="none" stroke="#63b8ff" d="M713.6,-1009.78C713.6,-980.33 713.6,-881.87 713.6,-800.5 713.6,-800.5 713.6,-800.5 713.6,-636.5 713.6,-607.92 694.38,-579.95 679.54,-562.61"/>
+<polygon fill="none" stroke="#63b8ff" points="679.54,-562.6 672.54,-560.83 671.49,-553.7 678.48,-555.47 679.54,-562.6"/>
 </a>
 </g>
-<text text-anchor="middle" x="850.5" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +root</text>
+<text text-anchor="middle" x="729.1" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +root</text>
 </g>
 <!-- Node19&#45;&gt;Node25 -->
 <g id="edge33_Node000025_Node000019" class="edge">
 <title>Node19&#45;&gt;Node25</title>
 <g id="a_edge33_Node000025_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M840.24,-1009.93C843.16,-1004.86 846.66,-998.24 849,-992 875.48,-921.45 842.71,-887.23 888,-827 891.38,-822.5 895.77,-818.65 900.5,-815.4"/>
-<polygon fill="none" stroke="#63b8ff" points="900.79,-815.23 903.96,-808.76 911.16,-809.2 907.98,-815.67 900.79,-815.23"/>
+<path fill="none" stroke="#63b8ff" d="M718.85,-1009.93C721.76,-1004.86 725.26,-998.24 727.6,-992 754.08,-921.45 721.31,-887.23 766.6,-827 769.99,-822.5 774.37,-818.65 779.11,-815.4"/>
+<polygon fill="none" stroke="#63b8ff" points="779.39,-815.23 782.57,-808.76 789.76,-809.2 786.59,-815.67 779.39,-815.23"/>
 </a>
 </g>
-<text text-anchor="middle" x="908" y="-912.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +block</text>
-<text text-anchor="middle" x="908" y="-901.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+parent</text>
+<text text-anchor="middle" x="786.6" y="-912.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +block</text>
+<text text-anchor="middle" x="786.6" y="-901.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">+parent</text>
 </g>
 <!-- Node20 -->
 <g id="Node000020" class="node">
 <title>Node20</title>
 <g id="a_Node000020"><a xlink:href="classinja_1_1AstNode.html" target="_top" xlink:title="Base node class for the abstract syntax tree (AST).">
-<polygon fill="white" stroke="transparent" points="865,-1257 791,-1257 791,-1238 865,-1238 865,-1257"/>
-<text text-anchor="start" x="795" y="-1244.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::AstNode</text>
-<polygon fill="none" stroke="#666666" points="791,-1238 791,-1257 865,-1257 865,-1238 791,-1238"/>
+<polygon fill="white" stroke="transparent" points="743.6,-1257 669.6,-1257 669.6,-1238 743.6,-1238 743.6,-1257"/>
+<text text-anchor="start" x="673.6" y="-1244.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::AstNode</text>
+<polygon fill="none" stroke="#666666" points="669.6,-1238 669.6,-1257 743.6,-1257 743.6,-1238 669.6,-1238"/>
 </a>
 </g>
 </g>
@@ -554,8 +554,8 @@ var sectionId = 'dynsection-0';
 <g id="edge21_Node000019_Node000020" class="edge">
 <title>Node20&#45;&gt;Node19</title>
 <g id="a_edge21_Node000019_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M802.69,-1232.5C788.14,-1222.92 771.18,-1208.74 763,-1191 741.6,-1144.59 740.44,-1121.87 763,-1076 773.93,-1053.76 798.54,-1037.93 815.93,-1029"/>
-<polygon fill="none" stroke="#63b8ff" points="800.99,-1235.56 811.33,-1237.86 804.68,-1229.62 800.99,-1235.56"/>
+<path fill="none" stroke="#63b8ff" d="M681.29,-1232.5C666.74,-1222.92 649.78,-1208.74 641.6,-1191 620.2,-1144.59 619.05,-1121.87 641.6,-1076 652.54,-1053.76 677.14,-1037.93 694.53,-1029"/>
+<polygon fill="none" stroke="#63b8ff" points="679.59,-1235.56 689.93,-1237.86 683.28,-1229.62 679.59,-1235.56"/>
 </a>
 </g>
 </g>
@@ -563,10 +563,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000022" class="node">
 <title>Node22</title>
 <g id="a_Node000022"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="884,-1191 772,-1191 772,-1161 884,-1161 884,-1191"/>
-<text text-anchor="start" x="776.5" y="-1179" font-family="Helvetica,sans-Serif" font-size="10.00">std::shared_ptr&lt; inja</text>
-<text text-anchor="start" x="798.5" y="-1168" font-family="Helvetica,sans-Serif" font-size="10.00">::AstNode &gt;</text>
-<polygon fill="none" stroke="#666666" points="772,-1161 772,-1191 884,-1191 884,-1161 772,-1161"/>
+<polygon fill="white" stroke="transparent" points="762.6,-1191 650.6,-1191 650.6,-1161 762.6,-1161 762.6,-1191"/>
+<text text-anchor="start" x="655.1" y="-1179" font-family="Helvetica,sans-Serif" font-size="10.00">std::shared_ptr&lt; inja</text>
+<text text-anchor="start" x="677.1" y="-1168" font-family="Helvetica,sans-Serif" font-size="10.00">::AstNode &gt;</text>
+<polygon fill="none" stroke="#666666" points="650.6,-1161 650.6,-1191 762.6,-1191 762.6,-1161 650.6,-1161"/>
 </a>
 </g>
 </g>
@@ -574,19 +574,19 @@ var sectionId = 'dynsection-0';
 <g id="edge24_Node000022_Node000020" class="edge">
 <title>Node20&#45;&gt;Node22</title>
 <g id="a_edge24_Node000022_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M828,-1237.98C828,-1229.41 828,-1215.75 828,-1203.52"/>
-<polygon fill="none" stroke="#63b8ff" points="828,-1203.14 824,-1197.14 828,-1191.14 832,-1197.14 828,-1203.14"/>
+<path fill="none" stroke="#63b8ff" d="M706.6,-1237.98C706.6,-1229.41 706.6,-1215.75 706.6,-1203.52"/>
+<polygon fill="none" stroke="#63b8ff" points="706.6,-1203.14 702.6,-1197.14 706.6,-1191.14 710.6,-1197.14 706.6,-1203.14"/>
 </a>
 </g>
-<text text-anchor="middle" x="840.5" y="-1212" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +ptr</text>
+<text text-anchor="middle" x="719.1" y="-1212" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +ptr</text>
 </g>
 <!-- Node26 -->
 <g id="Node000026" class="node">
 <title>Node26</title>
 <g id="a_Node000026"><a xlink:href="classinja_1_1StatementNode.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="999,-1143 889,-1143 889,-1124 999,-1124 999,-1143"/>
-<text text-anchor="start" x="893.5" y="-1130.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::StatementNode</text>
-<polygon fill="none" stroke="#666666" points="889,-1124 889,-1143 999,-1143 999,-1124 889,-1124"/>
+<polygon fill="white" stroke="transparent" points="877.6,-1143 767.6,-1143 767.6,-1124 877.6,-1124 877.6,-1143"/>
+<text text-anchor="start" x="772.1" y="-1130.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::StatementNode</text>
+<polygon fill="none" stroke="#666666" points="767.6,-1124 767.6,-1143 877.6,-1143 877.6,-1124 767.6,-1124"/>
 </a>
 </g>
 </g>
@@ -594,8 +594,8 @@ var sectionId = 'dynsection-0';
 <g id="edge31_Node000026_Node000020" class="edge">
 <title>Node20&#45;&gt;Node26</title>
 <g id="a_edge31_Node000026_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M846.93,-1231.44C860.21,-1220.61 878.17,-1205.43 893,-1191 909.48,-1174.97 927.12,-1154.63 936.73,-1143.24"/>
-<polygon fill="none" stroke="#63b8ff" points="844.54,-1228.87 838.96,-1237.87 848.94,-1234.31 844.54,-1228.87"/>
+<path fill="none" stroke="#63b8ff" d="M725.53,-1231.44C738.81,-1220.61 756.77,-1205.43 771.6,-1191 788.08,-1174.97 805.72,-1154.63 815.33,-1143.24"/>
+<polygon fill="none" stroke="#63b8ff" points="723.14,-1228.87 717.56,-1237.87 727.54,-1234.31 723.14,-1228.87"/>
 </a>
 </g>
 </g>
@@ -603,10 +603,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000021" class="node">
 <title>Node21</title>
 <g id="a_Node000021"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="898,-1106 772,-1106 772,-1076 898,-1076 898,-1106"/>
-<text text-anchor="start" x="776" y="-1094" font-family="Helvetica,sans-Serif" font-size="10.00">std::vector&lt; std::shared</text>
-<text text-anchor="start" x="776" y="-1083" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; inja::AstNode &gt; &gt;</text>
-<polygon fill="none" stroke="#666666" points="772,-1076 772,-1106 898,-1106 898,-1076 772,-1076"/>
+<polygon fill="white" stroke="transparent" points="776.6,-1106 650.6,-1106 650.6,-1076 776.6,-1076 776.6,-1106"/>
+<text text-anchor="start" x="654.6" y="-1094" font-family="Helvetica,sans-Serif" font-size="10.00">std::vector&lt; std::shared</text>
+<text text-anchor="start" x="654.6" y="-1083" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; inja::AstNode &gt; &gt;</text>
+<polygon fill="none" stroke="#666666" points="650.6,-1076 650.6,-1106 776.6,-1106 776.6,-1076 650.6,-1076"/>
 </a>
 </g>
 </g>
@@ -614,40 +614,40 @@ var sectionId = 'dynsection-0';
 <g id="edge22_Node000019_Node000021" class="edge">
 <title>Node21&#45;&gt;Node19</title>
 <g id="a_edge22_Node000019_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M835,-1075.94C835,-1066.01 835,-1052.54 835,-1041.37"/>
-<polygon fill="none" stroke="#63b8ff" points="835,-1041.27 831,-1035.27 835,-1029.27 839,-1035.27 835,-1041.27"/>
+<path fill="none" stroke="#63b8ff" d="M713.6,-1075.94C713.6,-1066.01 713.6,-1052.54 713.6,-1041.37"/>
+<polygon fill="none" stroke="#63b8ff" points="713.6,-1041.27 709.6,-1035.27 713.6,-1029.27 717.6,-1035.27 713.6,-1041.27"/>
 </a>
 </g>
-<text text-anchor="middle" x="855.5" y="-1050" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +nodes</text>
+<text text-anchor="middle" x="734.1" y="-1050" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +nodes</text>
 </g>
 <!-- Node22&#45;&gt;Node21 -->
 <g id="edge23_Node000021_Node000022" class="edge">
 <title>Node22&#45;&gt;Node21</title>
 <g id="a_edge23_Node000021_Node000022"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M823.95,-1160.62C821.63,-1150.35 819.61,-1136.25 822,-1124 822.4,-1121.94 822.94,-1119.84 823.57,-1117.75"/>
-<polygon fill="none" stroke="#63b8ff" points="823.64,-1117.54 821.98,-1110.52 827.82,-1106.29 829.48,-1113.31 823.64,-1117.54"/>
+<path fill="none" stroke="#63b8ff" d="M702.55,-1160.62C700.23,-1150.35 698.21,-1136.25 700.6,-1124 701.01,-1121.94 701.54,-1119.84 702.17,-1117.75"/>
+<polygon fill="none" stroke="#63b8ff" points="702.25,-1117.54 700.58,-1110.52 706.42,-1106.29 708.08,-1113.31 702.25,-1117.54"/>
 </a>
 </g>
-<text text-anchor="middle" x="851" y="-1131" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
+<text text-anchor="middle" x="729.6" y="-1131" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
 </g>
 <!-- Node23&#45;&gt;Node18 -->
 <g id="edge26_Node000018_Node000023" class="edge">
 <title>Node23&#45;&gt;Node18</title>
 <g id="a_edge26_Node000018_Node000023"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M905.47,-616.87C880.94,-599.99 846.04,-575.98 823.45,-560.45"/>
-<polygon fill="none" stroke="#63b8ff" points="823.34,-560.37 816.13,-560.27 813.46,-553.57 820.67,-553.67 823.34,-560.37"/>
+<path fill="none" stroke="#63b8ff" d="M780.42,-616.87C752.5,-599.84 712.68,-575.55 687.23,-560.03"/>
+<polygon fill="none" stroke="#63b8ff" points="686.89,-559.82 679.69,-560.11 676.65,-553.57 683.86,-553.28 686.89,-559.82"/>
 </a>
 </g>
-<text text-anchor="middle" x="919" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +block_storage</text>
+<text text-anchor="middle" x="790.6" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +block_storage</text>
 </g>
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
 <g id="a_Node000024"><a xlink:title=" ">
-<polygon fill="white" stroke="transparent" points="1014,-735 884,-735 884,-705 1014,-705 1014,-735"/>
-<text text-anchor="start" x="888.5" y="-723" font-family="Helvetica,sans-Serif" font-size="10.00">std::shared_ptr&lt; inja</text>
-<text text-anchor="start" x="888.5" y="-712" font-family="Helvetica,sans-Serif" font-size="10.00">::BlockStatementNode &gt;</text>
-<polygon fill="none" stroke="#666666" points="884,-705 884,-735 1014,-735 1014,-705 884,-705"/>
+<polygon fill="white" stroke="transparent" points="892.6,-735 762.6,-735 762.6,-705 892.6,-705 892.6,-735"/>
+<text text-anchor="start" x="767.1" y="-723" font-family="Helvetica,sans-Serif" font-size="10.00">std::shared_ptr&lt; inja</text>
+<text text-anchor="start" x="767.1" y="-712" font-family="Helvetica,sans-Serif" font-size="10.00">::BlockStatementNode &gt;</text>
+<polygon fill="none" stroke="#666666" points="762.6,-705 762.6,-735 892.6,-735 892.6,-705 762.6,-705"/>
 </a>
 </g>
 </g>
@@ -655,30 +655,93 @@ var sectionId = 'dynsection-0';
 <g id="edge28_Node000023_Node000024" class="edge">
 <title>Node24&#45;&gt;Node23</title>
 <g id="a_edge28_Node000023_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M946.39,-704.98C944.59,-695.35 942.14,-682.17 939.89,-670.09"/>
-<polygon fill="none" stroke="#63b8ff" points="939.85,-669.89 934.82,-664.72 937.65,-658.09 942.68,-663.26 939.85,-669.89"/>
+<path fill="none" stroke="#63b8ff" d="M824.99,-704.98C823.2,-695.35 820.74,-682.17 818.49,-670.09"/>
+<polygon fill="none" stroke="#63b8ff" points="818.45,-669.89 813.42,-664.72 816.25,-658.09 821.28,-663.26 818.45,-669.89"/>
 </a>
 </g>
-<text text-anchor="middle" x="971" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
+<text text-anchor="middle" x="849.6" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
 </g>
 <!-- Node25&#45;&gt;Node24 -->
 <g id="edge29_Node000024_Node000025" class="edge">
 <title>Node25&#45;&gt;Node24</title>
 <g id="a_edge29_Node000024_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M936.55,-789.91C938.4,-779.67 941.58,-762.07 944.26,-747.22"/>
-<polygon fill="none" stroke="#63b8ff" points="944.31,-746.94 941.44,-740.33 946.45,-735.14 949.32,-741.75 944.31,-746.94"/>
+<path fill="none" stroke="#63b8ff" d="M815.15,-789.91C817,-779.67 820.18,-762.07 822.87,-747.22"/>
+<polygon fill="none" stroke="#63b8ff" points="822.92,-746.94 820.05,-740.33 825.05,-735.14 827.92,-741.75 822.92,-746.94"/>
 </a>
 </g>
-<text text-anchor="middle" x="954.5" y="-760" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +ptr</text>
+<text text-anchor="middle" x="833.1" y="-760" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +ptr</text>
 </g>
 <!-- Node26&#45;&gt;Node25 -->
 <g id="edge30_Node000025_Node000026" class="edge">
 <title>Node26&#45;&gt;Node25</title>
 <g id="a_edge30_Node000025_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M943.49,-1113.69C941.8,-1051.42 936.44,-853.45 935.24,-809.29"/>
-<polygon fill="none" stroke="#63b8ff" points="940,-1114.06 943.77,-1123.96 947,-1113.87 940,-1114.06"/>
+<path fill="none" stroke="#63b8ff" d="M822.09,-1113.69C820.4,-1051.42 815.04,-853.45 813.84,-809.29"/>
+<polygon fill="none" stroke="#63b8ff" points="818.6,-1114.06 822.37,-1123.96 825.6,-1113.87 818.6,-1114.06"/>
 </a>
 </g>
+</g>
+<!-- Node27 -->
+<g id="Node000027" class="node">
+<title>Node27</title>
+<g id="a_Node000027"><a xlink:title=" ">
+<polygon fill="white" stroke="transparent" points="486.6,-112.5 312.6,-112.5 312.6,-82.5 486.6,-82.5 486.6,-112.5"/>
+<text text-anchor="start" x="317.1" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; mqtt::mqttbroker</text>
+<text text-anchor="start" x="317.1" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">::lib::MqttModel::EventReceiver &gt;</text>
+<polygon fill="none" stroke="#666666" points="312.6,-82.5 312.6,-112.5 486.6,-112.5 486.6,-82.5 312.6,-82.5"/>
+</a>
+</g>
+</g>
+<!-- Node27&#45;&gt;Node1 -->
+<g id="edge35_Node000001_Node000027" class="edge">
+<title>Node27&#45;&gt;Node1</title>
+<g id="a_edge35_Node000001_Node000027"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M383.23,-82.48C368.89,-70.2 347.83,-52.16 331.26,-37.97"/>
+<polygon fill="none" stroke="#63b8ff" points="331.22,-37.94 324.06,-37.07 322.1,-30.13 329.26,-31 331.22,-37.94"/>
+</a>
+</g>
+<text text-anchor="middle" x="405.6" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> #eventReceiverList</text>
+</g>
+<!-- Node28 -->
+<g id="Node000028" class="node">
+<title>Node28</title>
+<g id="a_Node000028"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="transparent" points="471.6,-195 327.6,-195 327.6,-165 471.6,-165 471.6,-195"/>
+<text text-anchor="start" x="331.6" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text text-anchor="start" x="331.6" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">::MqttModel::EventReceiver</text>
+<polygon fill="none" stroke="#666666" points="327.6,-165 327.6,-195 471.6,-195 471.6,-165 327.6,-165"/>
+</a>
+</g>
+</g>
+<!-- Node28&#45;&gt;Node27 -->
+<g id="edge36_Node000027_Node000028" class="edge">
+<title>Node28&#45;&gt;Node27</title>
+<g id="a_edge36_Node000027_Node000028"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M399.6,-164.98C399.6,-153.96 399.6,-138.31 399.6,-124.96"/>
+<polygon fill="none" stroke="#63b8ff" points="399.6,-124.63 395.6,-118.63 399.6,-112.63 403.6,-118.63 399.6,-124.63"/>
+</a>
+</g>
+<text text-anchor="middle" x="428.6" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +elements</text>
+</g>
+<!-- Node29 -->
+<g id="Node000029" class="node">
+<title>Node29</title>
+<g id="a_Node000029"><a xlink:title=" ">
+<polygon fill="white" stroke="transparent" points="461.6,-272 337.6,-272 337.6,-242 461.6,-242 461.6,-272"/>
+<text text-anchor="start" x="341.6" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">std::weak_ptr&lt; express</text>
+<text text-anchor="start" x="367.1" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">::Response &gt;</text>
+<polygon fill="none" stroke="#666666" points="337.6,-242 337.6,-272 461.6,-272 461.6,-242 337.6,-242"/>
+</a>
+</g>
+</g>
+<!-- Node29&#45;&gt;Node28 -->
+<g id="edge37_Node000028_Node000029" class="edge">
+<title>Node29&#45;&gt;Node28</title>
+<g id="a_edge37_Node000028_Node000029"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M399.6,-241.89C399.6,-232.15 399.6,-218.9 399.6,-207.25"/>
+<polygon fill="none" stroke="#63b8ff" points="399.6,-207.04 395.6,-201.04 399.6,-195.04 403.6,-201.04 399.6,-207.04"/>
+</a>
+</g>
+<text text-anchor="middle" x="427.6" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> +response</text>
 </g>
 </g>
 </svg>

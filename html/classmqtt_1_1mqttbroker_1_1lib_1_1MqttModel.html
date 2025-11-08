@@ -111,6 +111,8 @@ Collaboration diagram for mqtt::mqttbroker::lib::MqttModel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html">EventReceiver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html">MqttModelEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -118,8 +120,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a25c771d5e71dea6657633466a4845174" id="r_a25c771d5e71dea6657633466a4845174"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a25c771d5e71dea6657633466a4845174">addClient</a> (const std::string &amp;clientId, <a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">Mqtt</a> *mqtt)</td></tr>
 <tr class="separator:a25c771d5e71dea6657633466a4845174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370cc92f5dddaffeea8fec7d075dfb14" id="r_a370cc92f5dddaffeea8fec7d075dfb14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a370cc92f5dddaffeea8fec7d075dfb14">delClient</a> (const std::string &amp;clientIt)</td></tr>
-<tr class="separator:a370cc92f5dddaffeea8fec7d075dfb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141dedccc7faab0f7fd3f1107030864d" id="r_a141dedccc7faab0f7fd3f1107030864d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a141dedccc7faab0f7fd3f1107030864d">delClient</a> (const std::string &amp;clientId)</td></tr>
+<tr class="separator:a141dedccc7faab0f7fd3f1107030864d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968592376aacc4c7f02e44ce8a01654d" id="r_a968592376aacc4c7f02e44ce8a01654d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html">MqttModelEntry</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a968592376aacc4c7f02e44ce8a01654d">getClients</a> ()</td></tr>
 <tr class="separator:a968592376aacc4c7f02e44ce8a01654d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7589b5b3019346fa6c381b2dbde42bf" id="r_ab7589b5b3019346fa6c381b2dbde42bf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html">Mqtt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab7589b5b3019346fa6c381b2dbde42bf">getMqtt</a> (const std::string &amp;clientId)</td></tr>
@@ -128,6 +130,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a91fc1ed46bf75fded412034533ea60ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9423a3d458e7642931e54069583ac30d" id="r_a9423a3d458e7642931e54069583ac30d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a9423a3d458e7642931e54069583ac30d">onlineDuration</a> ()</td></tr>
 <tr class="separator:a9423a3d458e7642931e54069583ac30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860c900fe750b32b6cc66111f4e20125" id="r_a860c900fe750b32b6cc66111f4e20125"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a860c900fe750b32b6cc66111f4e20125">addEventReceiver</a> (const std::shared_ptr&lt; express::Response &gt; &amp;response, const std::string &amp;lastEventId)</td></tr>
+<tr class="separator:a860c900fe750b32b6cc66111f4e20125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b7bdb8217007503c7452709698f902" id="r_a05b7bdb8217007503c7452709698f902"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a05b7bdb8217007503c7452709698f902">publish</a> (const iot::mqtt::packets::Publish &amp;publish)</td></tr>
+<tr class="separator:a05b7bdb8217007503c7452709698f902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -138,13 +144,19 @@ Static Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a69f9355a952fbbb7a3ee7ff37ee0b262" id="r_a69f9355a952fbbb7a3ee7ff37ee0b262"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html">MqttModelEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a></td></tr>
 <tr class="separator:a69f9355a952fbbb7a3ee7ff37ee0b262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f69c8451e812ee155116a9a12ff851a" id="r_a5f69c8451e812ee155116a9a12ff851a"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html">EventReceiver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a5f69c8451e812ee155116a9a12ff851a">eventReceiverList</a></td></tr>
+<tr class="separator:a5f69c8451e812ee155116a9a12ff851a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10fe475d9f4a173c6b588220a68b4fd0" id="r_a10fe475d9f4a173c6b588220a68b4fd0"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::system_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a></td></tr>
 <tr class="separator:a10fe475d9f4a173c6b588220a68b4fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19426588bf9226b3b6f134ee79cb5d6b" id="r_a19426588bf9226b3b6f134ee79cb5d6b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a19426588bf9226b3b6f134ee79cb5d6b">id</a> = 0</td></tr>
+<tr class="separator:a19426588bf9226b3b6f134ee79cb5d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a99cfe2819085bca81db8998270896e48" id="r_a99cfe2819085bca81db8998270896e48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a99cfe2819085bca81db8998270896e48">MqttModel</a> ()</td></tr>
 <tr class="separator:a99cfe2819085bca81db8998270896e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07170b2273f528a0498479600ad2a95b" id="r_a07170b2273f528a0498479600ad2a95b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b">sendEvent</a> (const std::string &amp;data, const std::string &amp;event=&quot;&quot;, const std::string &amp;<a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a19426588bf9226b3b6f134ee79cb5d6b">id</a>=&quot;&quot;)</td></tr>
+<tr class="separator:a07170b2273f528a0498479600ad2a95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -155,7 +167,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00059">59</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00071">71</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a99cfe2819085bca81db8998270896e48" name="a99cfe2819085bca81db8998270896e48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99cfe2819085bca81db8998270896e48">&#9670;&#160;</a></span>MqttModel()</h2>
@@ -180,12 +192,12 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00062">62</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   63</span>        : <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a>(std::chrono::system_clock::now()) {</div>
-<div class="line"><span class="lineno">   64</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a10fe475d9f4a173c6b588220a68b4fd0"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">mqtt::mqttbroker::lib::MqttModel::onlineSinceTimePoint</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; onlineSinceTimePoint</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00100">MqttModel.h:100</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00074">74</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>        : <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a>(std::chrono::system_clock::now()) {</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a10fe475d9f4a173c6b588220a68b4fd0"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">mqtt::mqttbroker::lib::MqttModel::onlineSinceTimePoint</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; onlineSinceTimePoint</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00136">MqttModel.h:136</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00100">onlineSinceTimePoint</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00136">onlineSinceTimePoint</a>.</p>
 
 </div>
 </div>
@@ -216,20 +228,36 @@ Static Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00072">72</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   72</span>                                                                   {</div>
-<div class="line"><span class="lineno">   73</span>        <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>[clientId] = MqttModelEntry(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>);</div>
-<div class="line"><span class="lineno">   74</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a69f9355a952fbbb7a3ee7ff37ee0b262"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">mqtt::mqttbroker::lib::MqttModel::modelMap</a></div><div class="ttdeci">std::map&lt; std::string, MqttModelEntry &gt; modelMap</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00098">MqttModel.h:98</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00118">118</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  118</span>                                                                   {</div>
+<div class="line"><span class="lineno">  119</span>        MqttModelEntry mqttModelEntry(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>);</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>        nlohmann::json <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>({<a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a02d5d1cde3771e3752ad77b18c0e2095">href</a>(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId(), <span class="stringliteral">&quot;/client?&quot;</span> + <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId(), <a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a>(<a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId()), 450, 900),</div>
+<div class="line"><span class="lineno">  122</span>                             mqttModelEntry.onlineSince(),</div>
+<div class="line"><span class="lineno">  123</span>                             <span class="stringliteral">&quot;&lt;duration&gt;&quot;</span> + mqttModelEntry.onlineDuration() + <span class="stringliteral">&quot;&lt;/duration&gt;&quot;</span>,</div>
+<div class="line"><span class="lineno">  124</span>                             <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getConnectionName(),</div>
+<div class="line"><span class="lineno">  125</span>                             <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()-&gt;getSocketConnection()-&gt;getLocalAddress().toString(),</div>
+<div class="line"><span class="lineno">  126</span>                             <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()-&gt;getSocketConnection()-&gt;getRemoteAddress().toString(),</div>
+<div class="line"><span class="lineno">  127</span>                             <span class="stringliteral">&quot;&lt;button class=\&quot;red-btn\&quot; onClick=\&quot;disconnectClient(&#39;&quot;</span> + <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getClientId() + <span class="stringliteral">&quot;&#39;)\&quot;&gt;Disconnect&lt;/button&gt;&quot;</span>});</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b">sendEvent</a>(<a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(), <span class="stringliteral">&quot;connect&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>.emplace(clientId, std::move(mqttModelEntry));</div>
+<div class="line"><span class="lineno">  132</span>    }</div>
+<div class="ttc" id="abinary-validation_8cpp_html_a2fec365798124ac10ddd238c0b075720"><div class="ttname"><a href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00030">binary-validation.cpp:30</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a07170b2273f528a0498479600ad2a95b"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b">mqtt::mqttbroker::lib::MqttModel::sendEvent</a></div><div class="ttdeci">void sendEvent(const std::string &amp;data, const std::string &amp;event=&quot;&quot;, const std::string &amp;id=&quot;&quot;)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00207">MqttModel.cpp:207</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a69f9355a952fbbb7a3ee7ff37ee0b262"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">mqtt::mqttbroker::lib::MqttModel::modelMap</a></div><div class="ttdeci">std::map&lt; std::string, MqttModelEntry &gt; modelMap</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00132">MqttModel.h:132</a></div></div>
+<div class="ttc" id="anamespacemqtt_1_1mqttbroker_1_1lib_html_a02d5d1cde3771e3752ad77b18c0e2095"><div class="ttname"><a href="namespacemqtt_1_1mqttbroker_1_1lib.html#a02d5d1cde3771e3752ad77b18c0e2095">mqtt::mqttbroker::lib::href</a></div><div class="ttdeci">static std::string href(const std::string &amp;text, const std::string &amp;url, const std::string &amp;windowId, uint16_t width, uint16_t height)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00098">MqttModel.cpp:98</a></div></div>
+<div class="ttc" id="anamespacemqtt_1_1mqttbroker_1_1lib_html_a84d9d071543d085c7a76251f47fc7f31"><div class="ttname"><a href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">mqtt::mqttbroker::lib::windowId</a></div><div class="ttdeci">static std::string windowId(const std::string &amp;clientId)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00084">MqttModel.cpp:84</a></div></div>
 <div class="ttc" id="anamespacemqtt_html"><div class="ttname"><a href="namespacemqtt.html">mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00055">JsonMappingReader.cpp:55</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00098">modelMap</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00102">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::MqttModelEntry()</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8cpp_source.html#l00098">mqtt::mqttbroker::lib::href()</a>, <a class="el" href="MqttModel_8h_source.html#l00138">id</a>, <a class="el" href="MqttModel_8h_source.html#l00132">modelMap</a>, <a class="el" href="MqttModel_8cpp_source.html#l00188">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::MqttModelEntry()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00199">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::onlineDuration()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00195">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::onlineSince()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00207">sendEvent()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00084">mqtt::mqttbroker::lib::windowId()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00064">mqtt::mqttbroker::lib::Mqtt::onConnect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00064">mqtt::mqttbroker::lib::Mqtt::onConnect()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a25c771d5e71dea6657633466a4845174_cgraph.svg" width="442" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a25c771d5e71dea6657633466a4845174_cgraph.svg" width="442" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -239,8 +267,66 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a370cc92f5dddaffeea8fec7d075dfb14" name="a370cc92f5dddaffeea8fec7d075dfb14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a370cc92f5dddaffeea8fec7d075dfb14">&#9670;&#160;</a></span>delClient()</h2>
+<a id="a860c900fe750b32b6cc66111f4e20125" name="a860c900fe750b32b6cc66111f4e20125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860c900fe750b32b6cc66111f4e20125">&#9670;&#160;</a></span>addEventReceiver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mqtt::mqttbroker::lib::MqttModel::addEventReceiver </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; express::Response &gt; &amp;&#160;</td>
+          <td class="paramname"><em>response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>lastEventId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00163">163</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  163</span>                                                                                                                                  {</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keyword">auto</span>&amp; eventReceiver = <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a5f69c8451e812ee155116a9a12ff851a">eventReceiverList</a>.emplace_back(response);</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>        response-&gt;getSocketContext()-&gt;onDisconnected([<span class="keyword">this</span>, &amp;eventReceiver]() {</div>
+<div class="line"><span class="lineno">  167</span>            <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a5f69c8451e812ee155116a9a12ff851a">eventReceiverList</a>.remove(eventReceiver);</div>
+<div class="line"><span class="lineno">  168</span>        });</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; mqttModel : <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>) {</div>
+<div class="line"><span class="lineno">  171</span>            nlohmann::json <a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>({<a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a02d5d1cde3771e3752ad77b18c0e2095">href</a>(mqttModel.first, <span class="stringliteral">&quot;/client?&quot;</span> + mqttModel.first, <a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a>(mqttModel.first), 450, 900),</div>
+<div class="line"><span class="lineno">  172</span>                                 mqttModel.second.onlineSince(),</div>
+<div class="line"><span class="lineno">  173</span>                                 <span class="stringliteral">&quot;&lt;duration&gt;&quot;</span> + mqttModel.second.onlineDuration() + <span class="stringliteral">&quot;&lt;/duration&gt;&quot;</span>,</div>
+<div class="line"><span class="lineno">  174</span>                                 mqttModel.second.getMqtt()-&gt;getConnectionName(),</div>
+<div class="line"><span class="lineno">  175</span>                                 mqttModel.second.getMqtt()-&gt;getMqttContext()-&gt;getSocketConnection()-&gt;getLocalAddress().toString(),</div>
+<div class="line"><span class="lineno">  176</span>                                 mqttModel.second.getMqtt()-&gt;getMqttContext()-&gt;getSocketConnection()-&gt;getRemoteAddress().toString(),</div>
+<div class="line"><span class="lineno">  177</span>                                 <span class="stringliteral">&quot;&lt;button class=\&quot;red-btn\&quot; onClick=\&quot;disconnectClient(&#39;&quot;</span> + mqttModel.second.getMqtt()-&gt;getClientId() +</div>
+<div class="line"><span class="lineno">  178</span>                                     <span class="stringliteral">&quot;&#39;)\&quot;&gt;Disconnect&lt;/button&gt;&quot;</span>});</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>            <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b">sendEvent</a>(<a class="code hl_typedef" href="binary-validation_8cpp.html#a2fec365798124ac10ddd238c0b075720">json</a>.dump(), <span class="stringliteral">&quot;connect&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  181</span>        }</div>
+<div class="line"><span class="lineno">  182</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a5f69c8451e812ee155116a9a12ff851a"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a5f69c8451e812ee155116a9a12ff851a">mqtt::mqttbroker::lib::MqttModel::eventReceiverList</a></div><div class="ttdeci">std::list&lt; EventReceiver &gt; eventReceiverList</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00134">MqttModel.h:134</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00134">eventReceiverList</a>, <a class="el" href="MqttModel_8cpp_source.html#l00203">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::getMqtt()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00098">mqtt::mqttbroker::lib::href()</a>, <a class="el" href="MqttModel_8h_source.html#l00138">id</a>, <a class="el" href="MqttModel_8h_source.html#l00132">modelMap</a>, <a class="el" href="MqttModel_8cpp_source.html#l00199">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::onlineDuration()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00195">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::onlineSince()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00207">sendEvent()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00084">mqtt::mqttbroker::lib::windowId()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a860c900fe750b32b6cc66111f4e20125_cgraph.svg" width="498" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a141dedccc7faab0f7fd3f1107030864d" name="a141dedccc7faab0f7fd3f1107030864d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141dedccc7faab0f7fd3f1107030864d">&#9670;&#160;</a></span>delClient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,24 +335,31 @@ Here is the caller graph for this function:</div>
           <td class="memname">void mqtt::mqttbroker::lib::MqttModel::delClient </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>clientIt</em></td><td>)</td>
+          <td class="paramname"><em>clientId</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00076">76</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   76</span>                                                       {</div>
-<div class="line"><span class="lineno">   77</span>        <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>.erase(clientIt);</div>
-<div class="line"><span class="lineno">   78</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00134">134</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  134</span>                                                       {</div>
+<div class="line"><span class="lineno">  135</span>        <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b">sendEvent</a>(clientId, <span class="stringliteral">&quot;disconnect&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>        <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>.erase(clientId);</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00098">modelMap</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00138">id</a>, <a class="el" href="MqttModel_8h_source.html#l00132">modelMap</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00207">sendEvent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00074">mqtt::mqttbroker::lib::Mqtt::onDisconnected()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00076">mqtt::mqttbroker::lib::Mqtt::onDisconnected()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a141dedccc7faab0f7fd3f1107030864d_cgraph.svg" width="402" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a370cc92f5dddaffeea8fec7d075dfb14_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a141dedccc7faab0f7fd3f1107030864d_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -305,38 +398,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00133">133</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  134</span>                                                                                                     {</div>
-<div class="line"><span class="lineno">  135</span>        <span class="keyword">using </span>seconds_duration_type = std::chrono::duration&lt;std::chrono::seconds::rep&gt;::rep;</div>
-<div class="line"><span class="lineno">  136</span> </div>
-<div class="line"><span class="lineno">  137</span>        seconds_duration_type totalSeconds = std::chrono::duration_cast&lt;std::chrono::seconds&gt;(later - bevore).count();</div>
-<div class="line"><span class="lineno">  138</span> </div>
-<div class="line"><span class="lineno">  139</span>        <span class="comment">// Compute days, hours, minutes, and seconds</span></div>
-<div class="line"><span class="lineno">  140</span>        seconds_duration_type days = totalSeconds / 86400; <span class="comment">// 86400 seconds in a day</span></div>
-<div class="line"><span class="lineno">  141</span>        seconds_duration_type remainder = totalSeconds % 86400;</div>
-<div class="line"><span class="lineno">  142</span>        seconds_duration_type hours = remainder / 3600;</div>
-<div class="line"><span class="lineno">  143</span>        remainder = remainder % 3600;</div>
-<div class="line"><span class="lineno">  144</span>        seconds_duration_type minutes = remainder / 60;</div>
-<div class="line"><span class="lineno">  145</span>        seconds_duration_type seconds = remainder % 60;</div>
-<div class="line"><span class="lineno">  146</span> </div>
-<div class="line"><span class="lineno">  147</span>        <span class="comment">// Format the components into a string using stringstream</span></div>
-<div class="line"><span class="lineno">  148</span>        std::ostringstream oss;</div>
-<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (days &gt; 0) {</div>
-<div class="line"><span class="lineno">  150</span>            oss &lt;&lt; days &lt;&lt; <span class="stringliteral">&quot; day&quot;</span> &lt;&lt; (days == 1 ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;s&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  151</span>        }</div>
-<div class="line"><span class="lineno">  152</span>        oss &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; hours &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; minutes &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2)</div>
-<div class="line"><span class="lineno">  153</span>            &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; seconds;</div>
-<div class="line"><span class="lineno">  154</span> </div>
-<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">return</span> oss.str();</div>
-<div class="line"><span class="lineno">  156</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00239">239</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  240</span>                                                                                                     {</div>
+<div class="line"><span class="lineno">  241</span>        <span class="keyword">using </span>seconds_duration_type = std::chrono::duration&lt;std::chrono::seconds::rep&gt;::rep;</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>        seconds_duration_type totalSeconds = std::chrono::duration_cast&lt;std::chrono::seconds&gt;(later - bevore).count();</div>
+<div class="line"><span class="lineno">  244</span> </div>
+<div class="line"><span class="lineno">  245</span>        <span class="comment">// Compute days, hours, minutes, and seconds</span></div>
+<div class="line"><span class="lineno">  246</span>        seconds_duration_type days = totalSeconds / 86400; <span class="comment">// 86400 seconds in a day</span></div>
+<div class="line"><span class="lineno">  247</span>        seconds_duration_type remainder = totalSeconds % 86400;</div>
+<div class="line"><span class="lineno">  248</span>        seconds_duration_type hours = remainder / 3600;</div>
+<div class="line"><span class="lineno">  249</span>        remainder = remainder % 3600;</div>
+<div class="line"><span class="lineno">  250</span>        seconds_duration_type minutes = remainder / 60;</div>
+<div class="line"><span class="lineno">  251</span>        seconds_duration_type seconds = remainder % 60;</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>        <span class="comment">// Format the components into a string using stringstream</span></div>
+<div class="line"><span class="lineno">  254</span>        std::ostringstream oss;</div>
+<div class="line"><span class="lineno">  255</span>        <span class="keywordflow">if</span> (days &gt; 0) {</div>
+<div class="line"><span class="lineno">  256</span>            oss &lt;&lt; days &lt;&lt; <span class="stringliteral">&quot; day&quot;</span> &lt;&lt; (days == 1 ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;s&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  257</span>        }</div>
+<div class="line"><span class="lineno">  258</span>        oss &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; hours &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; minutes &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2)</div>
+<div class="line"><span class="lineno">  259</span>            &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; seconds;</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">return</span> oss.str();</div>
+<div class="line"><span class="lineno">  262</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00098">onlineDuration()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a8b3d54a6f79701479d576e8b50f52a15_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
 </div>
 </div>
 <a id="a968592376aacc4c7f02e44ce8a01654d" name="a968592376aacc4c7f02e44ce8a01654d"></a>
@@ -354,19 +440,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00080">80</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   80</span>                                                                      {</div>
-<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>;</div>
-<div class="line"><span class="lineno">   82</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00140">140</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  140</span>                                                                      {</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>;</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00098">modelMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00159">getOverviewPage()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a968592376aacc4c7f02e44ce8a01654d_icgraph.svg" width="608" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00132">modelMap</a>.</p>
 
 </div>
 </div>
@@ -386,29 +465,23 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00084">84</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   84</span>                                                            {</div>
-<div class="line"><span class="lineno">   85</span>        <span class="keyword">const</span> Mqtt* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   86</span> </div>
-<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>.contains(clientId)) {</div>
-<div class="line"><span class="lineno">   88</span>            <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>[clientId].getMqtt();</div>
-<div class="line"><span class="lineno">   89</span>        }</div>
-<div class="line"><span class="lineno">   90</span> </div>
-<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">return</span> <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>;</div>
-<div class="line"><span class="lineno">   92</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00144">144</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  144</span>                                                            {</div>
+<div class="line"><span class="lineno">  145</span>        <span class="keyword">const</span> Mqtt* <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>        <span class="keyword">auto</span> modelIt = <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>.find(clientId);</div>
+<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">if</span> (modelIt != <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a69f9355a952fbbb7a3ee7ff37ee0b262">modelMap</a>.end()) {</div>
+<div class="line"><span class="lineno">  149</span>            <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a> = modelIt-&gt;second.getMqtt();</div>
+<div class="line"><span class="lineno">  150</span>        }</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span> <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>;</div>
+<div class="line"><span class="lineno">  153</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8cpp_source.html#l00114">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::getMqtt()</a>, and <a class="el" href="MqttModel_8h_source.html#l00098">modelMap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00307">getRouter()</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8cpp_source.html#l00203">mqtt::mqttbroker::lib::MqttModel::MqttModelEntry::getMqtt()</a>, and <a class="el" href="MqttModel_8h_source.html#l00132">modelMap</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_ab7589b5b3019346fa6c381b2dbde42bf_cgraph.svg" width="430" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_ab7589b5b3019346fa6c381b2dbde42bf_icgraph.svg" width="407" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -436,19 +509,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00066">66</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   66</span>                                   {</div>
-<div class="line"><span class="lineno">   67</span>        <span class="keyword">static</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a99cfe2819085bca81db8998270896e48">MqttModel</a> mqttModel;</div>
-<div class="line"><span class="lineno">   68</span> </div>
-<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span> mqttModel;</div>
-<div class="line"><span class="lineno">   70</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a99cfe2819085bca81db8998270896e48"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a99cfe2819085bca81db8998270896e48">mqtt::mqttbroker::lib::MqttModel::MqttModel</a></div><div class="ttdeci">MqttModel()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00062">MqttModel.cpp:62</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00078">78</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   78</span>                                   {</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keyword">static</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a99cfe2819085bca81db8998270896e48">MqttModel</a> mqttModel;</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> mqttModel;</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a99cfe2819085bca81db8998270896e48"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a99cfe2819085bca81db8998270896e48">mqtt::mqttbroker::lib::MqttModel::MqttModel</a></div><div class="ttdeci">MqttModel()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00074">MqttModel.cpp:74</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00307">getRouter()</a>, <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00064">mqtt::mqttbroker::lib::Mqtt::onConnect()</a>, and <a class="el" href="roker_2lib_2Mqtt_8cpp_source.html#l00074">mqtt::mqttbroker::lib::Mqtt::onDisconnected()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00317">getRouter()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00064">mqtt::mqttbroker::lib::Mqtt::onConnect()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00076">mqtt::mqttbroker::lib::Mqtt::onDisconnected()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00070">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a472d48d30d9626c722b64ddce4002e5f_icgraph.svg" width="496" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a472d48d30d9626c722b64ddce4002e5f_icgraph.svg" width="496" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -468,20 +541,15 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00098">98</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   98</span>                                        {</div>
-<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15">durationToString</a>(<a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a>);</div>
-<div class="line"><span class="lineno">  100</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a8b3d54a6f79701479d576e8b50f52a15"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15">mqtt::mqttbroker::lib::MqttModel::durationToString</a></div><div class="ttdeci">static std::string durationToString(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;bevore, const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;later=std::chrono::system_clock::now())</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00133">MqttModel.cpp:133</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00159">159</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  159</span>                                        {</div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15">durationToString</a>(<a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a>);</div>
+<div class="line"><span class="lineno">  161</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a8b3d54a6f79701479d576e8b50f52a15"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15">mqtt::mqttbroker::lib::MqttModel::durationToString</a></div><div class="ttdeci">static std::string durationToString(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;bevore, const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;later=std::chrono::system_clock::now())</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00239">MqttModel.cpp:239</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8cpp_source.html#l00133">durationToString()</a>, and <a class="el" href="MqttModel_8h_source.html#l00100">onlineSinceTimePoint</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00136">onlineSinceTimePoint</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00159">getOverviewPage()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a9423a3d458e7642931e54069583ac30d_cgraph.svg" width="478" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00192">getOverviewPage()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -505,24 +573,126 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00094">94</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   94</span>                                     {</div>
-<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#aa1bd1c3d475f1bb9b41282d17a434454">timePointToString</a>(<a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a>);</div>
-<div class="line"><span class="lineno">   96</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_aa1bd1c3d475f1bb9b41282d17a434454"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#aa1bd1c3d475f1bb9b41282d17a434454">mqtt::mqttbroker::lib::MqttModel::timePointToString</a></div><div class="ttdeci">static std::string timePointToString(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;timePoint)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00118">MqttModel.cpp:118</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00155">155</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  155</span>                                     {</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#aa1bd1c3d475f1bb9b41282d17a434454">timePointToString</a>(<a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0">onlineSinceTimePoint</a>);</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_aa1bd1c3d475f1bb9b41282d17a434454"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#aa1bd1c3d475f1bb9b41282d17a434454">mqtt::mqttbroker::lib::MqttModel::timePointToString</a></div><div class="ttdeci">static std::string timePointToString(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;timePoint)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00224">MqttModel.cpp:224</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00100">onlineSinceTimePoint</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00118">timePointToString()</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00136">onlineSinceTimePoint</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00159">getOverviewPage()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a91fc1ed46bf75fded412034533ea60ce_cgraph.svg" width="464" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_8cpp_source.html#l00192">getOverviewPage()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a91fc1ed46bf75fded412034533ea60ce_icgraph.svg" width="616" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a05b7bdb8217007503c7452709698f902" name="a05b7bdb8217007503c7452709698f902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b7bdb8217007503c7452709698f902">&#9670;&#160;</a></span>publish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mqtt::mqttbroker::lib::MqttModel::publish </td>
+          <td>(</td>
+          <td class="paramtype">const iot::mqtt::packets::Publish &amp;&#160;</td>
+          <td class="paramname"><em>publish</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00184">184</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  184</span>                                                                {</div>
+<div class="line"><span class="lineno">  185</span>        <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b">sendEvent</a>(<a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a05b7bdb8217007503c7452709698f902">publish</a>.getTopic() + <span class="stringliteral">&quot; : &quot;</span> + <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a05b7bdb8217007503c7452709698f902">publish</a>.getMessage(), <span class="stringliteral">&quot;publish&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  186</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a05b7bdb8217007503c7452709698f902"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a05b7bdb8217007503c7452709698f902">mqtt::mqttbroker::lib::MqttModel::publish</a></div><div class="ttdeci">void publish(const iot::mqtt::packets::Publish &amp;publish)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00184">MqttModel.cpp:184</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00138">id</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00207">sendEvent()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00070">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a05b7bdb8217007503c7452709698f902_cgraph.svg" width="392" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a05b7bdb8217007503c7452709698f902_icgraph.svg" width="374" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a07170b2273f528a0498479600ad2a95b" name="a07170b2273f528a0498479600ad2a95b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07170b2273f528a0498479600ad2a95b">&#9670;&#160;</a></span>sendEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mqtt::mqttbroker::lib::MqttModel::sendEvent </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>event</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00207">207</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  207</span>                                                                                                {</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; eventReceiver : <a class="code hl_variable" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a5f69c8451e812ee155116a9a12ff851a">eventReceiverList</a>) {</div>
+<div class="line"><span class="lineno">  209</span>            <span class="keywordflow">if</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; response = eventReceiver.response.lock()) {</div>
+<div class="line"><span class="lineno">  210</span>                <span class="keywordflow">if</span> (response-&gt;isConnected()) {</div>
+<div class="line"><span class="lineno">  211</span>                    <span class="keywordflow">if</span> (!event.empty()) {</div>
+<div class="line"><span class="lineno">  212</span>                        response-&gt;sendFragment(<span class="stringliteral">&quot;event:&quot;</span> + event);</div>
+<div class="line"><span class="lineno">  213</span>                    }</div>
+<div class="line"><span class="lineno">  214</span>                    <span class="keywordflow">if</span> (!<span class="keywordtype">id</span>.empty()) {</div>
+<div class="line"><span class="lineno">  215</span>                        response-&gt;sendFragment(<span class="stringliteral">&quot;id:&quot;</span> + <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  216</span>                    }</div>
+<div class="line"><span class="lineno">  217</span>                    response-&gt;sendFragment(<span class="stringliteral">&quot;data:&quot;</span> + data);</div>
+<div class="line"><span class="lineno">  218</span>                    response-&gt;sendFragment();</div>
+<div class="line"><span class="lineno">  219</span>                }</div>
+<div class="line"><span class="lineno">  220</span>            }</div>
+<div class="line"><span class="lineno">  221</span>        }</div>
+<div class="line"><span class="lineno">  222</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00134">eventReceiverList</a>, and <a class="el" href="MqttModel_8h_source.html#l00096">mqtt::mqttbroker::lib::MqttModel::EventReceiver::response</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00118">addClient()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00163">addEventReceiver()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00134">delClient()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00184">publish()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_a07170b2273f528a0498479600ad2a95b_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -551,33 +721,78 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00118">118</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  118</span>                                                                                                      {</div>
-<div class="line"><span class="lineno">  119</span>        std::time_t time = std::chrono::system_clock::to_time_t(timePoint);</div>
-<div class="line"><span class="lineno">  120</span>        std::tm* tm_ptr = std::gmtime(&amp;time);</div>
-<div class="line"><span class="lineno">  121</span> </div>
-<div class="line"><span class="lineno">  122</span>        <span class="keywordtype">char</span> buffer[100];</div>
-<div class="line"><span class="lineno">  123</span>        std::string <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a> = <span class="stringliteral">&quot;Formatting error&quot;</span>;</div>
-<div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>        <span class="comment">// Format: &quot;2025-02-02 14:30:00&quot;</span></div>
-<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">if</span> (std::strftime(buffer, <span class="keyword">sizeof</span>(buffer), <span class="stringliteral">&quot;%Y-%m-%d %H:%M:%S&quot;</span>, tm_ptr)) {</div>
-<div class="line"><span class="lineno">  127</span>            <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a> = std::string(buffer) + <span class="stringliteral">&quot; UTC&quot;</span>;</div>
-<div class="line"><span class="lineno">  128</span>        }</div>
-<div class="line"><span class="lineno">  129</span> </div>
-<div class="line"><span class="lineno">  130</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a>;</div>
-<div class="line"><span class="lineno">  131</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a91fc1ed46bf75fded412034533ea60ce"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">mqtt::mqttbroker::lib::MqttModel::onlineSince</a></div><div class="ttdeci">std::string onlineSince()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00094">MqttModel.cpp:94</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00224">224</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  224</span>                                                                                                      {</div>
+<div class="line"><span class="lineno">  225</span>        std::time_t time = std::chrono::system_clock::to_time_t(timePoint);</div>
+<div class="line"><span class="lineno">  226</span>        std::tm* tm_ptr = std::gmtime(&amp;time);</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordtype">char</span> buffer[100];</div>
+<div class="line"><span class="lineno">  229</span>        std::string <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a> = <span class="stringliteral">&quot;Formatting error&quot;</span>;</div>
+<div class="line"><span class="lineno">  230</span> </div>
+<div class="line"><span class="lineno">  231</span>        <span class="comment">// Format: &quot;2025-02-02 14:30:00&quot;</span></div>
+<div class="line"><span class="lineno">  232</span>        <span class="keywordflow">if</span> (std::strftime(buffer, <span class="keyword">sizeof</span>(buffer), <span class="stringliteral">&quot;%Y-%m-%d %H:%M:%S&quot;</span>, tm_ptr)) {</div>
+<div class="line"><span class="lineno">  233</span>            <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a> = std::string(buffer) + <span class="stringliteral">&quot; UTC&quot;</span>;</div>
+<div class="line"><span class="lineno">  234</span>        }</div>
+<div class="line"><span class="lineno">  235</span> </div>
+<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">onlineSince</a>;</div>
+<div class="line"><span class="lineno">  237</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_html_a91fc1ed46bf75fded412034533ea60ce"><div class="ttname"><a href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce">mqtt::mqttbroker::lib::MqttModel::onlineSince</a></div><div class="ttdeci">std::string onlineSince()</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00155">MqttModel.cpp:155</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00094">onlineSince()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_aa1bd1c3d475f1bb9b41282d17a434454_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5f69c8451e812ee155116a9a12ff851a" name="a5f69c8451e812ee155116a9a12ff851a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f69c8451e812ee155116a9a12ff851a">&#9670;&#160;</a></span>eventReceiverList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html">EventReceiver</a>&gt; mqtt::mqttbroker::lib::MqttModel::eventReceiverList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00134">134</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00163">addEventReceiver()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00207">sendEvent()</a>.</p>
+
+</div>
+</div>
+<a id="a19426588bf9226b3b6f134ee79cb5d6b" name="a19426588bf9226b3b6f134ee79cb5d6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19426588bf9226b3b6f134ee79cb5d6b">&#9670;&#160;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t mqtt::mqttbroker::lib::MqttModel::id = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00138">138</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00118">addClient()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00163">addEventReceiver()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00134">delClient()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00184">publish()</a>.</p>
+
+</div>
+</div>
 <a id="a69f9355a952fbbb7a3ee7ff37ee0b262" name="a69f9355a952fbbb7a3ee7ff37ee0b262"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69f9355a952fbbb7a3ee7ff37ee0b262">&#9670;&#160;</a></span>modelMap</h2>
 
@@ -598,9 +813,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00098">98</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00132">132</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00072">addClient()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00076">delClient()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00080">getClients()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00084">getMqtt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00118">addClient()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00163">addEventReceiver()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00134">delClient()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00140">getClients()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00144">getMqtt()</a>.</p>
 
 </div>
 </div>
@@ -624,9 +839,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00100">100</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00136">136</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00062">MqttModel()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00098">onlineDuration()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00094">onlineSince()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00074">MqttModel()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00159">onlineDuration()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00155">onlineSince()</a>.</p>
 
 </div>
 </div>
@@ -640,7 +855,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemqtt.html">mqtt</a></li><li class="navelem"><a class="el" href="namespacemqtt_1_1mqttbroker.html">mqttbroker</a></li><li class="navelem"><a class="el" href="namespacemqtt_1_1mqttbroker_1_1lib.html">lib</a></li><li class="navelem"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html">MqttModel</a></li>
-    <li class="footer">Generated on Fri Sep 12 2025 19:12:20 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Nov 8 2025 15:54:28 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

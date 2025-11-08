@@ -12,17 +12,17 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="488.5,-140 359.5,-140 359.5,-121 488.5,-121 488.5,-140"/>
-<text text-anchor="middle" x="424" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.h</text>
+<polygon fill="#999999" stroke="#666666" points="405.5,-140 276.5,-140 276.5,-121 405.5,-121 405.5,-140"/>
+<text text-anchor="middle" x="341" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.h</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="BridgeStore_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="335.5,-85 180.5,-85 180.5,-66 335.5,-66 335.5,-85"/>
-<text text-anchor="middle" x="258" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/BridgeStore.h</text>
+<g id="a_Node000002"><a xlink:href="Bridge_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="162,-85 22,-85 22,-66 162,-66 162,-85"/>
+<text text-anchor="middle" x="92" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Bridge.cpp</text>
 </a>
 </g>
 </g>
@@ -30,35 +30,35 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M387.75,-117.93C356.75,-108.03 312.83,-94.01 284.88,-85.08"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="386.74,-121.28 397.33,-120.98 388.87,-114.61 386.74,-121.28"/>
+<path fill="none" stroke="#63b8ff" d="M291.1,-118.88C244.43,-108.94 175.61,-94.3 132.32,-85.08"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="290.48,-122.33 300.99,-120.98 291.94,-115.48 290.48,-122.33"/>
 </a>
 </g>
 </g>
-<!-- Node6 -->
-<g id="Node000006" class="node">
-<title>Node6</title>
-<g id="a_Node000006"><a xlink:href="Broker_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="494,-85 354,-85 354,-66 494,-66 494,-85"/>
-<text text-anchor="middle" x="424" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.cpp</text>
+<!-- Node3 -->
+<g id="Node000003" class="node">
+<title>Node3</title>
+<g id="a_Node000003"><a xlink:href="BridgeStore_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="335.5,-85 180.5,-85 180.5,-66 335.5,-66 335.5,-85"/>
+<text text-anchor="middle" x="258" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/BridgeStore.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge5_Node000001_Node000006" class="edge">
-<title>Node1&#45;&gt;Node6</title>
-<g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M424,-110.66C424,-101.93 424,-91.99 424,-85.09"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="420.5,-110.75 424,-120.75 427.5,-110.75 420.5,-110.75"/>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2_Node000001_Node000003" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M318.96,-115.42C303.89,-105.81 284.41,-93.37 271.58,-85.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="317.35,-118.55 327.66,-120.98 321.12,-112.65 317.35,-118.55"/>
 </a>
 </g>
 </g>
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="ridge_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="643.5,-85 512.5,-85 512.5,-66 643.5,-66 643.5,-85"/>
-<text text-anchor="middle" x="578" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Mqtt.cpp</text>
+<g id="a_Node000007"><a xlink:href="Broker_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="494,-85 354,-85 354,-66 494,-66 494,-85"/>
+<text text-anchor="middle" x="424" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.cpp</text>
 </a>
 </g>
 </g>
@@ -66,61 +66,79 @@
 <g id="edge6_Node000001_Node000007" class="edge">
 <title>Node1&#45;&gt;Node7</title>
 <g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M458.38,-117.67C487.09,-107.79 527.36,-93.93 553.06,-85.08"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="457.06,-114.42 448.74,-120.98 459.34,-121.04 457.06,-114.42"/>
+<path fill="none" stroke="#63b8ff" d="M363.04,-115.42C378.11,-105.81 397.59,-93.37 410.42,-85.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="360.88,-112.65 354.34,-120.98 364.65,-118.55 360.88,-112.65"/>
 </a>
 </g>
 </g>
-<!-- Node3 -->
-<g id="Node000003" class="node">
-<title>Node3</title>
-<g id="a_Node000003"><a xlink:href="BridgeStore_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="166,-24.5 0,-24.5 0,-5.5 166,-5.5 166,-24.5"/>
-<text text-anchor="middle" x="83" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/BridgeStore.cpp</text>
+<!-- Node8 -->
+<g id="Node000008" class="node">
+<title>Node8</title>
+<g id="a_Node000008"><a xlink:href="mqttbridge_2lib_2Mqtt_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="643.5,-85 512.5,-85 512.5,-66 643.5,-66 643.5,-85"/>
+<text text-anchor="middle" x="578" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Mqtt.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2_Node000002_Node000003" class="edge">
-<title>Node2&#45;&gt;Node3</title>
-<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M223.05,-62.82C189.2,-51.5 138.69,-34.62 108.48,-24.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="221.96,-66.14 232.55,-65.99 224.18,-59.5 221.96,-66.14"/>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7_Node000001_Node000008" class="edge">
+<title>Node1&#45;&gt;Node8</title>
+<g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M389.06,-118.75C433.47,-108.82 498.6,-94.26 539.62,-85.08"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="388.07,-115.39 379.08,-120.98 389.6,-122.22 388.07,-115.39"/>
 </a>
 </g>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="mqttbridge_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="332,-24.5 184,-24.5 184,-5.5 332,-5.5 332,-24.5"/>
-<text text-anchor="middle" x="258" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/mqttbridge.cpp</text>
+<g id="a_Node000004"><a xlink:href="BridgeStore_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="166,-24.5 0,-24.5 0,-5.5 166,-5.5 166,-24.5"/>
+<text text-anchor="middle" x="83" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/BridgeStore.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge3_Node000002_Node000004" class="edge">
-<title>Node2&#45;&gt;Node4</title>
-<g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M258,-55.66C258,-45.24 258,-32.8 258,-24.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="254.5,-55.87 258,-65.87 261.5,-55.87 254.5,-55.87"/>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3_Node000003_Node000004" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M223.05,-62.82C189.2,-51.5 138.69,-34.62 108.48,-24.52"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="221.96,-66.14 232.55,-65.99 224.18,-59.5 221.96,-66.14"/>
 </a>
 </g>
 </g>
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="ridge_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="mqttbridge_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="332,-24.5 184,-24.5 184,-5.5 332,-5.5 332,-24.5"/>
+<text text-anchor="middle" x="258" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/mqttbridge.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge4_Node000003_Node000005" class="edge">
+<title>Node3&#45;&gt;Node5</title>
+<g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M258,-55.66C258,-45.24 258,-32.8 258,-24.67"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="254.5,-55.87 258,-65.87 261.5,-55.87 254.5,-55.87"/>
+</a>
+</g>
+</g>
+<!-- Node6 -->
+<g id="Node000006" class="node">
+<title>Node6</title>
+<g id="a_Node000006"><a xlink:href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="482,-30 350,-30 350,0 482,0 482,-30"/>
 <text text-anchor="start" x="358" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/websocket</text>
 <text text-anchor="middle" x="416" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node5 -->
-<g id="edge4_Node000002_Node000005" class="edge">
-<title>Node2&#45;&gt;Node5</title>
-<g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
+<!-- Node3&#45;&gt;Node6 -->
+<g id="edge5_Node000003_Node000006" class="edge">
+<title>Node3&#45;&gt;Node6</title>
+<g id="a_edge5_Node000003_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M290.52,-62.46C315.94,-53.05 351.3,-39.95 378.01,-30.06"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="289.14,-59.24 280.97,-65.99 291.57,-65.8 289.14,-59.24"/>
 </a>

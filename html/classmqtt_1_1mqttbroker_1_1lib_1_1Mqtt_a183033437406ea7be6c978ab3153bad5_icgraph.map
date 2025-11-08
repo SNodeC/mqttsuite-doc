@@ -1,5 +1,0 @@
-<map id="mqtt::mqttbroker::lib::Mqtt::Mqtt" name="mqtt::mqttbroker::lib::Mqtt::Mqtt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="237,5,395,45"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="5,5,189,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,28,189,28,189,23,224,23"/>
-</map>

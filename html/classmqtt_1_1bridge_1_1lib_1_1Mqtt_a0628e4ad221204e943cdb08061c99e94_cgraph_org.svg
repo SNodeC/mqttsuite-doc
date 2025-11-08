@@ -40,7 +40,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a7cd506c126c0cf6327483b1957ab26af" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="classmqtt_1_1bridge_1_1lib_1_1Bridge.html#afa30b1de86ead152082545890c307400" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="273,-30 159,-30 159,0 273,0 273,-30"/>
 <text text-anchor="start" x="167" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::bridge::lib::</text>
 <text text-anchor="middle" x="216" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Bridge::removeMqtt</text>

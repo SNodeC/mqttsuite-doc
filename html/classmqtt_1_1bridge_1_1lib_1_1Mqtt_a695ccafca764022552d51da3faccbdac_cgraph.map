@@ -1,6 +1,6 @@
 <map id="mqtt::bridge::lib::Mqtt::onConnack" name="mqtt::bridge::lib::Mqtt::onConnack">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,69,140,109"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#afc6a7517e01531667e33724562fbf23e" title=" " alt="" coords="188,5,323,45"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a3a4293a660369d5d5976c303eb5e7262" title=" " alt="" coords="188,5,323,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,67,184,47,186,52,131,72"/>
 <area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#acff6cddc56c9cdc2b0688d6482034131" title=" " alt="" coords="188,69,323,109"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,87,174,87,174,92,140,92"/>

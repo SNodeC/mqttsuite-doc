@@ -57,7 +57,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="roker_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="mqttbroker_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="461.5,-30 329.5,-30 329.5,0 461.5,0 461.5,-30"/>
 <text text-anchor="start" x="337.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbroker/websocket</text>
 <text text-anchor="middle" x="395.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>
@@ -95,7 +95,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="ntegrator_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="802,-30 659,-30 659,0 802,0 802,-30"/>
 <text text-anchor="start" x="667" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/websocket</text>
 <text text-anchor="middle" x="730.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>

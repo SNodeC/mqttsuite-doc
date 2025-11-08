@@ -126,15 +126,15 @@ var NAVTREEINDEX =
 [
 "BridgeStore_8cpp.html",
 "classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html#afd6a0bd8e30b3f24a728c5d7637c8fda",
-"classconanfile_1_1JsonSchemaValidatorConan.html#af5d367806dcc1f51cf21ad83bc55f3c7",
-"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a35537fbc25d87ffe59e4f35fefcd34b7",
-"classinja_1_1Parser.html#a7dda6b9f4295c215e097f45d573d8d69",
-"classmqtt_1_1bridge_1_1lib_1_1Broker.html#a554eb6627aa4d92607f47aca793b6952",
-"classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a968592376aacc4c7f02e44ce8a01654d",
-"classstore__err__handler.html#a046d3156f8f3a0f2d29849386409846b",
-"issue-105-verbose-combination-errors_8cpp.html#aa5ddc4bed950df759d72d3cadaa2b896",
-"namespacemqtt_1_1lib_1_1plugins_1_1double__plugin.html",
-"structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa40fb6af3b9add1a64fcf24e8069de243"
+"classconanfile_1_1JsonSchemaValidatorConan.html#accb4576ef6666ef947b6c305d2f4230a",
+"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a3025cdaab2deb0bb2cd642449e570833",
+"classinja_1_1Parser.html#a6236ac0578bc5b349df772733c59ef32",
+"classmqtt_1_1bridge_1_1lib_1_1Broker.html#a2e0ef30bbad5849b7f5795580f60f483",
+"classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a381e51fa3f75d81dc2501403b83d96f2",
+"classnlohmann_1_1json__uri.html#a612abf8a5796eed9fde39cd8869c3aa6",
+"inja_8hpp.html#a32fa90251e3f05c520128a8245c49e25",
+"namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#adfbd7ec30d423e477bb7ebbc5b622e57",
+"structinja_1_1SourceLocation.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

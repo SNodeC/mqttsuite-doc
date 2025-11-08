@@ -1,9 +1,19 @@
 <map id="mqtt::mqttbroker::lib::Mqtt::onConnect" name="mqtt::mqttbroker::lib::Mqtt::onConnect">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,45,163,85"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a25c771d5e71dea6657633466a4845174" title=" " alt="" coords="211,13,381,53"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,50,197,45,198,50,163,55"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f" title=" " alt="" coords="215,77,377,117"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,74,202,80,201,85,162,79"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html#a9195c7ab0fbabb26a29dc826fb9a3c1a" title=" " alt="" coords="429,5,641,60"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,30,416,30,416,35,381,35"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,228,163,268"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a25c771d5e71dea6657633466a4845174" title=" " alt="" coords="211,196,381,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,234,197,228,198,234,163,239"/>
+<area shape="rect" id="Node000009" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f" title=" " alt="" coords="215,260,377,300"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="163,257,202,263,201,268,162,262"/>
+<area shape="rect" id="Node000003" href="$namespacemqtt_1_1mqttbroker_1_1lib.html#a02d5d1cde3771e3752ad77b18c0e2095" title=" " alt="" coords="457,5,614,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,194,354,126,388,88,428,55,443,47,445,51,431,60,392,92,358,129,311,197"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html#a9195c7ab0fbabb26a29dc826fb9a3c1a" title=" " alt="" coords="429,70,641,125"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="325,194,373,164,428,134,441,128,443,133,431,138,375,168,328,198"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html#ad5176b21cbb0e6fbcbf06adbbd8e0ef5" title=" " alt="" coords="429,149,641,203"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="381,199,415,193,416,199,382,204"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html#aa1e16191c7815af56c3986dd7eaf0394" title=" " alt="" coords="429,227,641,282"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="382,227,416,233,415,238,381,232"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b" title=" " alt="" coords="447,307,623,347"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="360,234,383,246,398,258,407,269,417,280,431,291,446,299,443,304,428,296,413,284,403,273,394,261,380,250,358,239"/>
+<area shape="rect" id="Node000008" href="$namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31" title=" " alt="" coords="457,371,614,411"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="367,234,383,246,395,260,402,275,407,303,413,331,420,344,431,357,446,367,443,371,428,361,415,347,408,332,402,304,397,277,391,263,380,250,364,238"/>
 </map>

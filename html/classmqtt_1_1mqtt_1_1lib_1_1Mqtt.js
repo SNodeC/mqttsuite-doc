@@ -10,7 +10,6 @@ var classmqtt_1_1mqtt_1_1lib_1_1Mqtt =
     [ "onSignal", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#ac6676c69766316e7b353491c346f53fd", null ],
     [ "onSuback", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#affad45a3280103f7120fdd3323eadacd", null ],
     [ "cleanSession", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#aab1971de871f3b23640055587e9d0e7f", null ],
-    [ "keepAlive", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#a19b795358b1e7e43d7c61e48e2534bc0", null ],
     [ "password", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#a3b80ddf059839ca7fa61387f69e7c7dc", null ],
     [ "pubMessage", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#a197a943a7c6f61cbd9e819d6f3c71509", null ],
     [ "pubRetain", "classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#aa00210ceecad60cb11c322b3fccc7514", null ],

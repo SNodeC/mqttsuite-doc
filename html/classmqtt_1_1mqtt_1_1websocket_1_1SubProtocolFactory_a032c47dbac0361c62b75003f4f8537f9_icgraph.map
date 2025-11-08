@@ -1,5 +1,5 @@
 <map id="mqtt::mqtt::websocket::SubProtocolFactory::SubProtocolFactory" name="mqtt::mqtt::websocket::SubProtocolFactory::SubProtocolFactory">
 <area shape="rect" id="Node000001" title=" " alt="" coords="269,5,439,60"/>
-<area shape="rect" id="Node000002" href="$websocket_2SubProtocolFactory_8cpp.html#a88154b588a05d154f9f7bbdacc2693fb" title=" " alt="" coords="5,20,221,45"/>
+<area shape="rect" id="Node000002" href="$mqttcli_2websocket_2SubProtocolFactory_8cpp.html#ada18b6509e0175615591f50481dedf2d" title=" " alt="" coords="5,20,221,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,35,221,35,221,30,256,30"/>
 </map>

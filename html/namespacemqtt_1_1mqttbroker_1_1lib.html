@@ -91,7 +91,8 @@ $(document).ready(function(){initNavTree('namespacemqtt_1_1mqttbroker_1_1lib.htm
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">mqtt::mqttbroker::lib Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -102,14 +103,153 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html">MqttModel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a84d9d071543d085c7a76251f47fc7f31" id="r_a84d9d071543d085c7a76251f47fc7f31"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a> (const std::string &amp;clientId)</td></tr>
+<tr class="separator:a84d9d071543d085c7a76251f47fc7f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d5d1cde3771e3752ad77b18c0e2095" id="r_a02d5d1cde3771e3752ad77b18c0e2095"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a02d5d1cde3771e3752ad77b18c0e2095">href</a> (const std::string &amp;text, const std::string &amp;url, const std::string &amp;<a class="el" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a>, uint16_t width, uint16_t height)</td></tr>
+<tr class="separator:a02d5d1cde3771e3752ad77b18c0e2095"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a02d5d1cde3771e3752ad77b18c0e2095" name="a02d5d1cde3771e3752ad77b18c0e2095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d5d1cde3771e3752ad77b18c0e2095">&#9670;&#160;</a></span>href()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string mqtt::mqttbroker::lib::href </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>windowId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00098">98</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   98</span>                                                                                                                                   {</div>
+<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;a href=\&quot;#\&quot; onClick=\&quot;&quot;</span></div>
+<div class="line"><span class="lineno">  100</span>               <span class="stringliteral">&quot;let key = &#39;&quot;</span> +</div>
+<div class="line"><span class="lineno">  101</span>               <a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a> +</div>
+<div class="line"><span class="lineno">  102</span>               <span class="stringliteral">&quot;&#39;; &quot;</span></div>
+<div class="line"><span class="lineno">  103</span>               <span class="stringliteral">&quot;if (!localStorage.getItem(key)) &quot;</span></div>
+<div class="line"><span class="lineno">  104</span>               <span class="stringliteral">&quot;  localStorage.setItem(key, key + &#39;-&#39; + Math.random().toString(36).substr(2, 6)); &quot;</span></div>
+<div class="line"><span class="lineno">  105</span>               <span class="stringliteral">&quot;let uniqueId = localStorage.getItem(key); &quot;</span></div>
+<div class="line"><span class="lineno">  106</span>               <span class="stringliteral">&quot;if (!window._openWindows) window._openWindows = {}; &quot;</span></div>
+<div class="line"><span class="lineno">  107</span>               <span class="stringliteral">&quot;if (!window._openWindows[uniqueId] || window._openWindows[uniqueId].closed) { &quot;</span></div>
+<div class="line"><span class="lineno">  108</span>               <span class="stringliteral">&quot;  window._openWindows[uniqueId] = window.open(&#39;&quot;</span> +</div>
+<div class="line"><span class="lineno">  109</span>               url + <span class="stringliteral">&quot;&#39;, uniqueId, &#39;width=&quot;</span> + std::to_string(width) + <span class="stringliteral">&quot;, height=&quot;</span> + std::to_string(height) +</div>
+<div class="line"><span class="lineno">  110</span>               <span class="stringliteral">&quot;,location=no, menubar=no, status=no, toolbar=no&#39;); &quot;</span></div>
+<div class="line"><span class="lineno">  111</span>               <span class="stringliteral">&quot;} else { &quot;</span></div>
+<div class="line"><span class="lineno">  112</span>               <span class="stringliteral">&quot;  window._openWindows[uniqueId].focus(); &quot;</span></div>
+<div class="line"><span class="lineno">  113</span>               <span class="stringliteral">&quot;} return false;\&quot; &quot;</span></div>
+<div class="line"><span class="lineno">  114</span>               <span class="stringliteral">&quot;style=\&quot;color:inherit;\&quot;&gt;&quot;</span> +</div>
+<div class="line"><span class="lineno">  115</span>               text + <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
+<div class="ttc" id="anamespacemqtt_1_1mqttbroker_1_1lib_html_a84d9d071543d085c7a76251f47fc7f31"><div class="ttname"><a href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">mqtt::mqttbroker::lib::windowId</a></div><div class="ttdeci">static std::string windowId(const std::string &amp;clientId)</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8cpp_source.html#l00084">MqttModel.cpp:84</a></div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00118">mqtt::mqttbroker::lib::MqttModel::addClient()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00163">mqtt::mqttbroker::lib::MqttModel::addEventReceiver()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacemqtt_1_1mqttbroker_1_1lib_a02d5d1cde3771e3752ad77b18c0e2095_icgraph.svg" width="648" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a84d9d071543d085c7a76251f47fc7f31" name="a84d9d071543d085c7a76251f47fc7f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84d9d071543d085c7a76251f47fc7f31">&#9670;&#160;</a></span>windowId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string mqtt::mqttbroker::lib::windowId </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>clientId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00084">84</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   84</span>                                                         {</div>
+<div class="line"><span class="lineno">   85</span>        std::ostringstream <a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a>(<span class="stringliteral">&quot;window&quot;</span>);</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">for</span> (<span class="keywordtype">char</span> ch : clientId) {</div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">if</span> (std::isalnum(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(ch))) {</div>
+<div class="line"><span class="lineno">   88</span>                <a class="code hl_function" href="namespacemqtt_1_1mqttbroker_1_1lib.html#a84d9d071543d085c7a76251f47fc7f31">windowId</a> &lt;&lt; ch;</div>
+<div class="line"><span class="lineno">   89</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   90</span>                windowId &lt;&lt; std::hex &lt;&lt; std::uppercase &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>)</div>
+<div class="line"><span class="lineno">   91</span>                         &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(ch));</div>
+<div class="line"><span class="lineno">   92</span>            }</div>
+<div class="line"><span class="lineno">   93</span>        }</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">return</span> windowId.str();</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00118">mqtt::mqttbroker::lib::MqttModel::addClient()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00163">mqtt::mqttbroker::lib::MqttModel::addEventReceiver()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacemqtt_1_1mqttbroker_1_1lib_a84d9d071543d085c7a76251f47fc7f31_icgraph.svg" width="648" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemqtt.html">mqtt</a></li><li class="navelem"><a class="el" href="namespacemqtt_1_1mqttbroker.html">mqttbroker</a></li><li class="navelem"><a class="el" href="namespacemqtt_1_1mqttbroker_1_1lib.html">lib</a></li>
-    <li class="footer">Generated on Fri Sep 12 2025 19:12:20 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Nov 8 2025 15:54:28 for MQTTSuite by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

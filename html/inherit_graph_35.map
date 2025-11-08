@@ -1,11 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,101,216,141"/>
-<area shape="rect" id="Node000001" href="$classmqtt_1_1mqtt_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="295,5,465,45"/>
-<area shape="poly" id="edge59_Node000000_Node000001" title=" " alt="" coords="168,93,263,55,301,43,303,48,265,60,169,98"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="275,69,485,109"/>
-<area shape="poly" id="edge60_Node000000_Node000002" title=" " alt="" coords="230,105,274,99,275,104,230,110"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="275,133,485,173"/>
-<area shape="poly" id="edge61_Node000000_Node000003" title=" " alt="" coords="230,133,275,138,274,143,230,138"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="264,197,496,237"/>
-<area shape="poly" id="edge62_Node000000_Node000004" title=" " alt="" coords="169,145,265,183,303,195,301,200,263,188,168,150"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,52,120,77"/>
+<area shape="rect" id="Node000001" href="$classnlohmann_1_1JsonPatchFormatException.html" title=" " alt="" coords="168,15,372,55"/>
+<area shape="poly" id="edge52_Node000000_Node000001" title=" " alt="" coords="134,52,167,47,168,52,134,57"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="201,80,339,105"/>
+<area shape="poly" id="edge53_Node000000_Node000002" title=" " alt="" coords="135,72,201,81,200,86,134,77"/>
+<area shape="rect" id="Node000003" href="$structinja_1_1InjaError.html" title=" " alt="" coords="420,80,529,105"/>
+<area shape="poly" id="edge54_Node000002_Node000003" title=" " alt="" coords="353,90,420,90,420,95,353,95"/>
+<area shape="rect" id="Node000004" href="$structinja_1_1DataError.html" title=" " alt="" coords="585,5,701,31"/>
+<area shape="poly" id="edge55_Node000003_Node000004" title=" " alt="" coords="510,71,576,40,605,28,607,33,578,44,513,76"/>
+<area shape="rect" id="Node000005" href="$structinja_1_1FileError.html" title=" " alt="" coords="589,55,696,80"/>
+<area shape="poly" id="edge56_Node000003_Node000005" title=" " alt="" coords="543,80,589,73,589,78,543,85"/>
+<area shape="rect" id="Node000006" href="$structinja_1_1ParserError.html" title=" " alt="" coords="579,104,706,129"/>
+<area shape="poly" id="edge57_Node000003_Node000006" title=" " alt="" coords="543,100,580,105,579,110,543,105"/>
+<area shape="rect" id="Node000007" href="$structinja_1_1RenderError.html" title=" " alt="" coords="577,153,708,179"/>
+<area shape="poly" id="edge58_Node000003_Node000007" title=" " alt="" coords="515,109,578,138,609,151,607,156,576,143,513,114"/>
 </map>

@@ -1,21 +1,10 @@
 var searchData=
 [
-  ['mqtt_0',['mqtt',['../namespacemqtt.html',1,'']]],
-  ['mqtt_3a_3abridge_1',['bridge',['../namespacemqtt_1_1bridge.html',1,'mqtt']]],
-  ['mqtt_3a_3abridge_3a_3alib_2',['lib',['../namespacemqtt_1_1bridge_1_1lib.html',1,'mqtt::bridge']]],
-  ['mqtt_3a_3alib_3',['lib',['../namespacemqtt_1_1lib.html',1,'mqtt']]],
-  ['mqtt_3a_3alib_3a_3aplugins_4',['plugins',['../namespacemqtt_1_1lib_1_1plugins.html',1,'mqtt::lib']]],
-  ['mqtt_3a_3alib_3a_3aplugins_3a_3adouble_5fplugin_5',['double_plugin',['../namespacemqtt_1_1lib_1_1plugins_1_1double__plugin.html',1,'mqtt::lib::plugins']]],
-  ['mqtt_3a_3alib_3a_3aplugins_3a_3astorage_5fplugin_6',['storage_plugin',['../namespacemqtt_1_1lib_1_1plugins_1_1storage__plugin.html',1,'mqtt::lib::plugins']]],
-  ['mqtt_3a_3amqtt_7',['mqtt',['../namespacemqtt_1_1mqtt.html',1,'mqtt']]],
-  ['mqtt_3a_3amqtt_3a_3alib_8',['lib',['../namespacemqtt_1_1mqtt_1_1lib.html',1,'mqtt::mqtt']]],
-  ['mqtt_3a_3amqtt_3a_3awebsocket_9',['websocket',['../namespacemqtt_1_1mqtt_1_1websocket.html',1,'mqtt::mqtt']]],
-  ['mqtt_3a_3amqttbridge_10',['mqttbridge',['../namespacemqtt_1_1mqttbridge.html',1,'mqtt']]],
-  ['mqtt_3a_3amqttbridge_3a_3awebsocket_11',['websocket',['../namespacemqtt_1_1mqttbridge_1_1websocket.html',1,'mqtt::mqttbridge']]],
-  ['mqtt_3a_3amqttbroker_12',['mqttbroker',['../namespacemqtt_1_1mqttbroker.html',1,'mqtt']]],
-  ['mqtt_3a_3amqttbroker_3a_3alib_13',['lib',['../namespacemqtt_1_1mqttbroker_1_1lib.html',1,'mqtt::mqttbroker']]],
-  ['mqtt_3a_3amqttbroker_3a_3awebsocket_14',['websocket',['../namespacemqtt_1_1mqttbroker_1_1websocket.html',1,'mqtt::mqttbroker']]],
-  ['mqtt_3a_3amqttintegrator_15',['mqttintegrator',['../namespacemqtt_1_1mqttintegrator.html',1,'mqtt']]],
-  ['mqtt_3a_3amqttintegrator_3a_3alib_16',['lib',['../namespacemqtt_1_1mqttintegrator_1_1lib.html',1,'mqtt::mqttintegrator']]],
-  ['mqtt_3a_3amqttintegrator_3a_3awebsocket_17',['websocket',['../namespacemqtt_1_1mqttintegrator_1_1websocket.html',1,'mqtt::mqttintegrator']]]
+  ['inja_0',['inja',['../namespaceinja.html',1,'']]],
+  ['inja_3a_3astring_5fview_1',['string_view',['../namespaceinja_1_1string__view.html',1,'inja']]],
+  ['iot_2',['iot',['../namespaceiot.html',1,'']]],
+  ['iot_3a_3amqtt_3',['mqtt',['../namespaceiot_1_1mqtt.html',1,'iot']]],
+  ['iot_3a_3amqtt_3a_3apackets_4',['packets',['../namespaceiot_1_1mqtt_1_1packets.html',1,'iot::mqtt']]],
+  ['iot_3a_3amqtt_3a_3aserver_5',['server',['../namespaceiot_1_1mqtt_1_1server.html',1,'iot::mqtt']]],
+  ['iot_3a_3amqtt_3a_3aserver_3a_3abroker_6',['broker',['../namespaceiot_1_1mqtt_1_1server_1_1broker.html',1,'iot::mqtt::server']]]
 ];

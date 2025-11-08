@@ -51,6 +51,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler::ErrorEntry", "structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html", null ],
+    [ "mqtt::mqttbroker::lib::MqttModel::EventReceiver", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html", null ],
     [ "std::exception", null, [
       [ "nlohmann::JsonPatchFormatException", "classnlohmann_1_1JsonPatchFormatException.html", null ],
       [ "std::runtime_error", null, [

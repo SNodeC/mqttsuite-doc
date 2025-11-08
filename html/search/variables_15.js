@@ -7,6 +7,6 @@ var searchData=
   ['url_4',['url',['../classconanfile_1_1JsonSchemaValidatorConan.html#a07e69e30b8cb47ee686a6ab315a4ab16',1,'conanfile::JsonSchemaValidatorConan']]],
   ['urn_5f_5',['urn_',['../classnlohmann_1_1json__uri.html#a40174958358d078f1f46fe8ad33cde40',1,'nlohmann::json_uri']]],
   ['use_5ftabchars_6',['use_tabchars',['../_8cmake-format_8py.html#ae8d8dd08b44557cba0e8877585fb81e4',1,'.cmake-format.py']]],
-  ['username_7',['username',['../classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#ad92b387ccb7d02be85d5dfc28bf16efe',1,'mqtt::mqtt::lib::Mqtt::username'],['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a592f9e75b69e64fd26723132b8e65f94',1,'mqtt::mqttintegrator::lib::Mqtt::username']]],
+  ['username_7',['username',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#ad92b387ccb7d02be85d5dfc28bf16efe',1,'mqtt::mqtt::lib::Mqtt::username']]],
   ['uuid_8',['uuid',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191',1,'anonymous_namespace{string-format-check.cpp}']]]
 ];

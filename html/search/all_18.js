@@ -17,7 +17,7 @@ var searchData=
   ['usage_14',['usage',['../json-schema-validate_8cpp.html#ab24984492570c9e0e802e45300d2eb82',1,'json-schema-validate.cpp']]],
   ['usage_20guide_15',['MQTTSuite Usage Guide',['../index.html#mqttsuite-usage-guide',1,'']]],
   ['use_5ftabchars_16',['use_tabchars',['../_8cmake-format_8py.html#ae8d8dd08b44557cba0e8877585fb81e4',1,'.cmake-format.py']]],
-  ['username_17',['username',['../classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#ad92b387ccb7d02be85d5dfc28bf16efe',1,'mqtt::mqtt::lib::Mqtt::username'],['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a592f9e75b69e64fd26723132b8e65f94',1,'mqtt::mqttintegrator::lib::Mqtt::username']]],
+  ['username_17',['username',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqtt_1_1lib_1_1Mqtt.html#ad92b387ccb7d02be85d5dfc28bf16efe',1,'mqtt::mqtt::lib::Mqtt::username']]],
   ['utf8_5flength_18',['utf8_length',['../classanonymous__namespace_02json-validator_8cpp_03_1_1string.html#ad3376ca03b9932ee0fdd33849ef5ebde',1,'anonymous_namespace{json-validator.cpp}::string::utf8_length(const std::string &amp;s) const'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1string.html#ad3376ca03b9932ee0fdd33849ef5ebde',1,'anonymous_namespace{json-validator.cpp}::string::utf8_length(const std::string &amp;s) const']]],
   ['uuid_19',['uuid',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191',1,'anonymous_namespace{string-format-check.cpp}']]]
 ];

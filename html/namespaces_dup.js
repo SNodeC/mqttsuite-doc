@@ -27,6 +27,7 @@ var namespaces_dup =
       [ "uuid", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191", null ]
     ] ],
     [ "conanfile", "namespaceconanfile.html", "namespaceconanfile" ],
+    [ "express", "namespaceexpress.html", null ],
     [ "inja", "namespaceinja.html", "namespaceinja" ],
     [ "iot", "namespaceiot.html", "namespaceiot" ],
     [ "mqtt", "namespacemqtt.html", "namespacemqtt" ],
