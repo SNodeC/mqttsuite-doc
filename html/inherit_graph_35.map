@@ -1,17 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,52,120,77"/>
-<area shape="rect" id="Node000001" href="$classnlohmann_1_1JsonPatchFormatException.html" title=" " alt="" coords="168,15,372,55"/>
-<area shape="poly" id="edge52_Node000000_Node000001" title=" " alt="" coords="134,52,167,47,168,52,134,57"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="201,80,339,105"/>
-<area shape="poly" id="edge53_Node000000_Node000002" title=" " alt="" coords="135,72,201,81,200,86,134,77"/>
-<area shape="rect" id="Node000003" href="$structinja_1_1InjaError.html" title=" " alt="" coords="420,80,529,105"/>
-<area shape="poly" id="edge54_Node000002_Node000003" title=" " alt="" coords="353,90,420,90,420,95,353,95"/>
-<area shape="rect" id="Node000004" href="$structinja_1_1DataError.html" title=" " alt="" coords="585,5,701,31"/>
-<area shape="poly" id="edge55_Node000003_Node000004" title=" " alt="" coords="510,71,576,40,605,28,607,33,578,44,513,76"/>
-<area shape="rect" id="Node000005" href="$structinja_1_1FileError.html" title=" " alt="" coords="589,55,696,80"/>
-<area shape="poly" id="edge56_Node000003_Node000005" title=" " alt="" coords="543,80,589,73,589,78,543,85"/>
-<area shape="rect" id="Node000006" href="$structinja_1_1ParserError.html" title=" " alt="" coords="579,104,706,129"/>
-<area shape="poly" id="edge57_Node000003_Node000006" title=" " alt="" coords="543,100,580,105,579,110,543,105"/>
-<area shape="rect" id="Node000007" href="$structinja_1_1RenderError.html" title=" " alt="" coords="577,153,708,179"/>
-<area shape="poly" id="edge58_Node000003_Node000007" title=" " alt="" coords="515,109,578,138,609,151,607,156,576,143,513,114"/>
+<area shape="rect" id="Node000000" href="$classnlohmann_1_1json__schema_1_1root__schema.html" title=" " alt="" coords="5,5,185,45"/>
 </map>

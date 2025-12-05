@@ -1,5 +1,5 @@
 <map id="mqtt::mqttbroker::lib::MqttModel::EventReceiver" name="mqtt::mqttbroker::lib::MqttModel::EventReceiver">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,108,197,148"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,116,197,156"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="19,5,184,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,45,104,92,99,92,99,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,45,104,99,99,99,99,45"/>
 </map>

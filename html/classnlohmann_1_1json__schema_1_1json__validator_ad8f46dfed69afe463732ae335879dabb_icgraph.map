@@ -1,25 +1,25 @@
 <map id="nlohmann::json_schema::json_validator::json_validator" name="nlohmann::json_schema::json_validator::json_validator">
-<area shape="rect" id="Node000001" title=" " alt="" coords="651,181,831,236"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="389,93,602,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="672,178,602,147,568,135,569,130,604,142,674,173"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b" title=" " alt="" coords="388,157,603,197"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="636,198,603,193,603,188,637,193"/>
-<area shape="rect" id="Node000007" href="$issue-293_8cpp.html#a8ee39622edc153e58dfa5711984ac185" title=" " alt="" coords="441,224,550,249"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="637,223,551,233,550,228,637,218"/>
-<area shape="rect" id="Node000009" href="$classnlohmann_1_1json__patch.html#ac7aea9496e07beb821fb9e5423fb76f5" title=" " alt="" coords="413,278,578,318"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="657,243,604,263,555,280,554,275,602,258,655,238"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="138,5,310,60"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,152,386,147,370,129,361,110,354,92,338,75,309,57,311,53,342,71,358,89,366,108,374,126,390,143,397,148"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="132,85,316,125"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="406,156,300,127,301,122,407,151"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html#ae88373a69cdee4d08cf58c4c618041d6" title=" " alt="" coords="108,149,340,204"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="374,179,340,179,340,174,374,174"/>
-<area shape="rect" id="Node000008" href="$issue-293_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="197,228,251,253"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="427,240,252,243,252,238,427,235"/>
-<area shape="rect" id="Node000010" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="141,278,307,318"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="399,301,307,301,307,295,399,295"/>
-<area shape="rect" id="Node000011" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="141,342,307,382"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="400,323,307,345,306,340,399,318"/>
-<area shape="rect" id="Node000012" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,349,60,375"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="128,365,60,365,60,359,128,359"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="651,181,831,235"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="389,92,602,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="672,177,602,146,568,135,569,130,604,142,674,172"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b" title=" " alt="" coords="388,156,603,196"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="636,197,603,193,603,187,637,192"/>
+<area shape="rect" id="Node000007" href="$issue-293_8cpp.html#a8ee39622edc153e58dfa5711984ac185" title=" " alt="" coords="441,223,550,249"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="637,222,551,232,550,227,637,217"/>
+<area shape="rect" id="Node000009" href="$classnlohmann_1_1json__patch.html#ac7aea9496e07beb821fb9e5423fb76f5" title=" " alt="" coords="413,277,578,317"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="657,243,604,263,555,280,554,275,602,257,655,238"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" title=" " alt="" coords="132,5,316,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="393,151,386,146,369,124,362,101,355,80,338,59,315,46,318,41,342,55,360,77,367,100,373,121,390,142,396,147"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" title=" " alt="" coords="138,70,310,125"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="412,155,309,125,311,120,413,150"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html#ae88373a69cdee4d08cf58c4c618041d6" title=" " alt="" coords="108,149,340,203"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="374,179,340,179,340,173,374,173"/>
+<area shape="rect" id="Node000008" href="$issue-293_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="197,227,251,253"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="427,240,252,242,252,237,427,234"/>
+<area shape="rect" id="Node000010" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="141,277,307,317"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="399,300,307,300,307,295,399,295"/>
+<area shape="rect" id="Node000011" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="141,341,307,381"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="400,322,307,345,306,339,399,317"/>
+<area shape="rect" id="Node000012" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,349,60,374"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="128,364,60,364,60,359,128,359"/>
 </map>

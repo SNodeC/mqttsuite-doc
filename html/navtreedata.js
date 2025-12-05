@@ -25,64 +25,190 @@
 var NAVTREE =
 [
   [ "MQTTSuite", "index.html", [
+    [ "Overview", "index.html#overview", [
+      [ "License", "index.html#license", null ],
+      [ "Copyright", "index.html#copyright", null ]
+    ] ],
     [ "Table of Content", "index.html#table-of-content", null ],
-    [ "License", "index.html#license", null ],
-    [ "Copyright", "index.html#copyright", null ],
     [ "Installation", "index.html#installation", [
-      [ "Supported Systems and Hardware", "index.html#supported-systems-and-hardware", null ],
-      [ "Minimum required Compiler Versions", "index.html#minimum-required-compiler-versions", null ],
-      [ "Requirements and Dependencies", "index.html#requirements-and-dependencies", [
+      [ "Supported Systems &amp; Hardware", "index.html#supported-systems--hardware", null ],
+      [ "Minimum Required Compiler Versions", "index.html#minimum-required-compiler-versions", null ],
+      [ "Requirements &amp; Dependencies", "index.html#requirements--dependencies", [
         [ "Tools", "index.html#tools", [
           [ "Mandatory", "index.html#mandatory", null ],
-          [ "Optional", "index.html#optional", null ]
+          [ "Optional (useful for development/QA)", "index.html#optional-useful-for-developmentqa", null ]
         ] ],
-        [ "Frameworks", "index.html#frameworks", [
-          [ "Mandatory", "index.html#mandatory-1", null ]
+        [ "Mandatory Libraries and Frameworks", "index.html#mandatory-libraries-and-frameworks", [
+          [ "Frameworks", "index.html#frameworks", null ],
+          [ "Libraries", "index.html#libraries", null ]
         ] ],
-        [ "Libraries", "index.html#libraries", [
-          [ "Mandatory", "index.html#mandatory-2", null ],
-          [ "Bundled", "index.html#bundled", null ]
-        ] ]
+        [ "Bundled (no separate installation required)", "index.html#bundled-no-separate-installation-required", null ]
       ] ],
-      [ "Installation on Debian Style Systems (x86-64, Arm)", "index.html#installation-on-debian-style-systems-x86-64-arm", [
-        [ "Requirements and Dependencies", "index.html#requirements-and-dependencies-1", null ],
-        [ "MQTTSuite", "index.html#mqttsuite", null ]
+      [ "Installation on Debian-Style Systems (x86-64, ARM)", "index.html#installation-on-debian-style-systems-x86-64-arm", [
+        [ "Install SNode.C", "index.html#install-snodec", null ],
+        [ "Install system packages", "index.html#install-system-packages", null ],
+        [ "Build &amp; Install MQTTSuite", "index.html#build--install-mqttsuite", null ]
       ] ],
-      [ "Deploment on OpenWRT", "index.html#deploment-on-openwrt", [
-        [ "Choose and Download a SDK", "index.html#choose-and-download-a-sdk", null ],
-        [ "Patch the SDK to Integrate the MQTTSuite Feed", "index.html#patch-the-sdk-to-integrate-the-mqttsuite-feed", null ],
-        [ "Install the MQTTSuite Package and its Dependencies", "index.html#install-the-mqttsuite-package-and-its-dependencies", null ],
+      [ "Deployment on OpenWrt", "index.html#deployment-on-openwrt", [
+        [ "Choose &amp; download an SDK", "index.html#choose--download-an-sdk", null ],
+        [ "Patch the SDK to integrate the SNode.C feed", "index.html#patch-the-sdk-to-integrate-the-snodec-feed", null ],
+        [ "Install the MQTTSuite package definition and its dependencies", "index.html#install-the-mqttsuite-package-definition-and-its-dependencies", null ],
         [ "Configure the SDK", "index.html#configure-the-sdk", null ],
-        [ "Cross Compile MQTTSuite", "index.html#cross-compile-mqttsuite", null ],
+        [ "Cross-compile MQTTSuite", "index.html#cross-compile-mqttsuite", null ],
         [ "Deploy MQTTSuite", "index.html#deploy-mqttsuite", null ]
-      ] ]
+      ] ],
+      [ "Post-Install Tips", "index.html#post-install-tips", null ]
     ] ],
-    [ "MQTTSuite Usage Guide", "index.html#mqttsuite-usage-guide", [
-      [ "MQTTBroker", "index.html#mqttbroker", [
-        [ "Connection Options", "index.html#connection-options", [
-          [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip", null ],
-          [ "MQTT over Unix Domain Sockets", "index.html#mqtt-over-unix-domain-sockets", null ],
-          [ "MQTT over WebSockets", "index.html#mqtt-over-websockets", null ]
+    [ "MQTTBroker", "index.html#mqttbroker", [
+      [ "Connection instances of default builds of <em>MQTTBroker</em>", "index.html#connection-instances-of-default-builds-of-mqttbroker", null ],
+      [ "Configuration", "index.html#configuration", null ],
+      [ "Notes", "index.html#notes", null ],
+      [ "Quick Start (Recommended Flow)", "index.html#quick-start-recommended-flow", [
+        [ "Disable all but the <span class=\"tt\">in-mqtt</span> instance", "index.html#disable-all-but-the-in-mqtt-instance", null ],
+        [ "Start a plain MQTT listener on TCP/IPv4", "index.html#start-a-plain-mqtt-listener-on-tcpipv4", null ],
+        [ "Add a persistent session store (survives restarts)", "index.html#add-a-persistent-session-store-survives-restarts", null ],
+        [ "Enable the Web Interface (HTTP)", "index.html#enable-the-web-interface-http", null ],
+        [ "Persist your configuration using <span class=\"tt\">-w</span> (so you don’t repeat flags)", "index.html#persist-your-configuration-using--w-so-you-dont-repeat-flags", null ],
+        [ "(Optional) Embed the integrator (after the configuration has been saved)", "index.html#optional-embed-the-integrator--after-the-configuration-has-been-saved", null ],
+        [ "(For development only) Use custom HTML templates for the Web UI (after the configuration has been saved)", "index.html#for-development-only-use-custom-html-templates-for-the-web-ui-after-the-configuration-has-been-saved", null ]
+      ] ],
+      [ "Supported Transports", "index.html#supported-transports", [
+        [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip", null ],
+        [ "MQTT over UNIX Domain Sockets", "index.html#mqtt-over-unix-domain-sockets", null ],
+        [ "MQTT over WebSockets", "index.html#mqtt-over-websockets", null ],
+        [ "MQTT over UNIX Domain WebSockets", "index.html#mqtt-over-unix-domain-websockets", null ]
+      ] ],
+      [ "Web Interface", "index.html#web-interface", [
+        [ "Web Interface over TCP/IP", "index.html#web-interface-over-tcpip", null ],
+        [ "Web Interface over UNIX Domain Sockets", "index.html#web-interface-over-unix-domain-sockets", null ]
+      ] ],
+      [ "Additions &amp; Field-Tested Guidance", "index.html#additions--field-tested-guidance", [
+        [ "Quick TLS checklist for MQTT(TCP) and MQTT over WebSockets", "index.html#quick-tls-checklist-for-mqtttcp-and-mqtt-over-websockets", [
+          [ "Example (TCP/TLS):", "index.html#example-tcptls", null ],
+          [ "Example (WebSockets/TLS):", "index.html#example-websocketstls", null ]
         ] ],
-        [ "Web Interface", "index.html#web-interface", null ]
+        [ "Making configuration persistent (recommended)", "index.html#making-configuration-persistent-recommended", null ],
+        [ "WebSockets specifics that often trip clients", "index.html#websockets-specifics-that-often-trip-clients", null ],
+        [ "Quick sanity checks with common tools", "index.html#quick-sanity-checks-with-common-tools", null ],
+        [ "Quick sanity checks with MQTTSuites command line tool", "index.html#quick-sanity-checks-with-mqttsuites-command-line-tool", null ],
+        [ "Notes for UNIX domain sockets", "index.html#notes-for-unix-domain-sockets", null ],
+        [ "Embedded MQTTIntegrator (when <span class=\"tt\">--mqtt-mapping-file</span> is provided)", "index.html#embedded-mqttintegrator-when---mqtt-mapping-file-is-provided", null ],
+        [ "Extending transports", "index.html#extending-transports", null ],
+        [ "Diagnostics, hardening &amp; tips", "index.html#diagnostics-hardening--tips", null ]
       ] ],
-      [ "MQTTIntegrator", "index.html#mqttintegrator", [
-        [ "Connection Options", "index.html#connection-options-1", [
-          [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip-1", null ],
-          [ "MQTT over Unix Domain Sockets", "index.html#mqtt-over-unix-domain-sockets-1", null ],
-          [ "MQTT over WebSockets", "index.html#mqtt-over-websockets-1", null ]
+      [ "Protocol version note", "index.html#protocol-version-note", null ],
+      [ "Why this layout works well in production", "index.html#why-this-layout-works-well-in-production", null ]
+    ] ],
+    [ "MQTT Mapping Description", "index.html#mqtt-mapping-description", [
+      [ "Purpose", "index.html#purpose", null ],
+      [ "Top-Level Structure", "index.html#top-level-structure", [
+        [ "<span class=\"tt\">connection</span> options (summary)", "index.html#connection-options-summary", null ],
+        [ "The <span class=\"tt\">mapping</span> Object (big picture)", "index.html#the-mapping-object-big-picture", [
+          [ "Minimal shapes", "index.html#minimal-shapes", null ],
+          [ "Wildcard examples", "index.html#wildcard-examples", null ],
+          [ "A more complex hierarchy", "index.html#a-more-complex-hierarchy", null ]
         ] ]
       ] ],
-      [ "MQTT Mapping Description", "index.html#mqtt-mapping-description", [
-        [ "The Structure of the JSON Mapping Description", "index.html#the-structure-of-the-json-mapping-description", null ],
-        [ "Topic Levels and the JSON-Structure of the <tt>mapping</tt> Section", "index.html#topic-levels-and-the-json-structure-of-the-mapping-section", [
-          [ "Single Topic Level", "index.html#single-topic-level", null ],
-          [ "Nested Topic Levels", "index.html#nested-topic-levels", null ],
-          [ "Sibling and Nested Topic Levels", "index.html#sibling-and-nested-topic-levels", null ],
-          [ "A More Complex Topic Level Structure", "index.html#a-more-complex-topic-level-structure", null ],
-          [ "The <tt>subscription</tt> Object of a Topic Level", "index.html#the-subscription-object-of-a-topic-level", null ]
+      [ "Subscriptions &amp; Translation Rules", "index.html#subscriptions--translation-rules", null ],
+      [ "Mapping Sections", "index.html#mapping-sections", [
+        [ "<span class=\"tt\">static</span> mapping", "index.html#static-mapping", null ],
+        [ "<span class=\"tt\">value</span> mapping (template, scalar)", "index.html#value-mapping-template-scalar", null ],
+        [ "<span class=\"tt\">json</span> mapping (template, object)", "index.html#json-mapping-template-object", [
+          [ "Example input", "index.html#example-input", null ],
+          [ "Rendered output → <span class=\"tt\">5 to 11pm</span>", "index.html#rendered-output--5-to-11pm", null ]
+        ] ],
+        [ "Template extras", "index.html#template-extras", null ]
+      ] ],
+      [ "Optional: <span class=\"tt\">plugins</span>", "index.html#optional-plugins", null ],
+      [ "Quick Start (Recommended Flow)", "index.html#quick-start-recommended-flow-1", [
+        [ "Skeleton mapping file", "index.html#skeleton-mapping-file", null ],
+        [ "Add a concrete subscription with a simple static mapping", "index.html#add-a-concrete-subscription-with-a-simple-static-mapping", null ],
+        [ "Switch to a template mapping when you need logic", "index.html#switch-to-a-template-mapping-when-you-need-logic", null ],
+        [ "Validate against the schema (example with <span class=\"tt\">ajv-cli</span>)", "index.html#validate-against-the-schema-example-with-ajv-cli", null ],
+        [ "Run the integrator with your mapping", "index.html#run-the-integrator-with-your-mapping", null ]
+      ] ],
+      [ "Field-Tested Guidance", "index.html#field-tested-guidance", null ],
+      [ "Schema Highlights", "index.html#schema-highlights", null ],
+      [ "In one sentence", "index.html#in-one-sentence", null ]
+    ] ],
+    [ "MQTTIntegrator", "index.html#mqttintegrator", [
+      [ "Connection instances of default builds of <em>MQTTIntegrator</em>", "index.html#connection-instances-of-default-builds-of-mqttintegrator", null ],
+      [ "Configuration", "index.html#configuration-1", null ],
+      [ "Notes", "index.html#notes-1", null ],
+      [ "Quick Start (Recommended Flow)", "index.html#quick-start-recommended-flow-2", [
+        [ "Disable all but the <span class=\"tt\">in-mqtt</span> instance", "index.html#disable-all-but-the-in-mqtt-instance-1", null ],
+        [ "Connect to a plain MQTT broker over TCP/IPv4", "index.html#connect-to-a-plain-mqtt-broker-over-tcpipv4", null ],
+        [ "Add a persistent session store (survives restarts)", "index.html#add-a-persistent-session-store-survives-restarts-1", null ],
+        [ "Attach your mapping file (canonical test case below)", "index.html#attach-your-mapping-file-canonical-test-case-below", null ],
+        [ "Persist your configuration using <span class=\"tt\">-w</span>", "index.html#persist-your-configuration-using--w", null ],
+        [ "(Optional) Use TLS (MQTTS) instead of plain TCP", "index.html#optional-use-tls-mqtts-instead-of-plain-tcp", null ],
+        [ "(Optional) Use WebSockets (WSS)", "index.html#optional-use-websockets-wss", null ],
+        [ "(Optional) Use Unix Domain WebSockets", "index.html#optional-use-unix-domain-websockets", null ]
+      ] ],
+      [ "Supported Transports", "index.html#supported-transports-1", [
+        [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip-1", null ],
+        [ "MQTT over UNIX Domain Sockets", "index.html#mqtt-over-unix-domain-sockets-1", null ],
+        [ "MQTT over WebSockets", "index.html#mqtt-over-websockets-1", null ],
+        [ "MQTT over UNIX Domain WebSockets", "index.html#mqtt-over-unix-domain-websockets-1", null ],
+        [ "Notes", "index.html#notes-2", null ]
+      ] ],
+      [ "Canonical Mapping &amp; Test Case", "index.html#canonical-mapping--test-case", [
+        [ "Save as <span class=\"tt\">~/mapping-example.json</span>:", "index.html#save-as-mapping-examplejson", null ],
+        [ "Run the integrator for this mapping (in-mqtt):", "index.html#run-the-integrator-for-this-mapping-in-mqtt", null ],
+        [ "Persist once:", "index.html#persist-once", null ],
+        [ "Then just run", "index.html#then-just-run", null ],
+        [ "Verification", "index.html#verification", null ]
+      ] ],
+      [ "Behavior aligned with the Mapping Description", "index.html#behavior-aligned-with-the-mapping-description", null ],
+      [ "Additions &amp; Field-Tested Guidance", "index.html#additions--field-tested-guidance-1", [
+        [ "TLS checklist for client connections (MQTTS / WSS / UDS-WSS)", "index.html#tls-checklist-for-client-connections-mqtts--wss--uds-wss", [
+          [ "Example (TCP/TLS) with mutual TLS:", "index.html#example-tcptls-with-mutual-tls", null ],
+          [ "Example (WebSockets/TLS):", "index.html#example-websocketstls-1", null ],
+          [ "Example (Unix Domain WebSockets, TLS layered on the WS endpoint):", "index.html#example-unix-domain-websockets-tls-layered-on-the-ws-endpoint", null ]
+        ] ],
+        [ "Persist-once workflow (recommended)", "index.html#persist-once-workflow-recommended", null ],
+        [ "WebSockets specifics that often trip clients", "index.html#websockets-specifics-that-often-trip-clients-1", null ],
+        [ "Diagnostics, hardening &amp; common pitfalls", "index.html#diagnostics-hardening--common-pitfalls", null ]
+      ] ],
+      [ "Protocol version note", "index.html#protocol-version-note-1", null ],
+      [ "Why this layout works well in production", "index.html#why-this-layout-works-well-in-production-1", null ]
+    ] ],
+    [ "MQTTBridge", "index.html#mqttbridge", [
+      [ "Quick Start (Recommended Flow)", "index.html#quick-start-recommended-flow-3", [
+        [ "Create a minimal <span class=\"tt\">bridge-config.json</span>", "index.html#create-a-minimal-bridge-configjson", null ],
+        [ "Run the bridge:", "index.html#run-the-bridge", null ],
+        [ "Verify (example):", "index.html#verify-example", null ]
+      ] ],
+      [ "Bridge Configuration JSON", "index.html#bridge-configuration-json", [
+        [ "Overall Structure (at a glance)", "index.html#overall-structure-at-a-glance", null ],
+        [ "Elements in Detail", "index.html#elements-in-detail", [
+          [ "Root Object", "index.html#root-object", null ],
+          [ "<span class=\"tt\">bridge</span> (each item in <span class=\"tt\">bridges</span>)", "index.html#bridge-each-item-in-bridges", null ],
+          [ "<span class=\"tt\">broker</span> (each item in <span class=\"tt\">brokers</span>)", "index.html#broker-each-item-in-brokers", null ],
+          [ "<span class=\"tt\">mqtt</span> (client options)", "index.html#mqtt-client-options", null ],
+          [ "<span class=\"tt\">topics</span> (subscriptions for a broker)", "index.html#topics-subscriptions-for-a-broker", null ],
+          [ "<span class=\"tt\">network</span> (transport selection + addressing)", "index.html#network-transport-selection--addressing", null ]
         ] ]
-      ] ]
+      ] ],
+      [ "Best Practices &amp; Validation Tips", "index.html#best-practices--validation-tips", null ]
+    ] ],
+    [ "MQTTCli", "index.html#mqttcli", [
+      [ "Quick Start (Recommended Flow)", "index.html#quick-start-recommended-flow-4", null ],
+      [ "Command Structure", "index.html#command-structure", null ],
+      [ "Supported Transports", "index.html#supported-transports-2", [
+        [ "MQTT over TCP/IP", "index.html#mqtt-over-tcpip-2", null ],
+        [ "MQTT over UNIX Domain Sockets", "index.html#mqtt-over-unix-domain-sockets-2", null ],
+        [ "MQTT over WebSockets", "index.html#mqtt-over-websockets-2", null ],
+        [ "MQTT over UNIX Domain WebSockets", "index.html#mqtt-over-unix-domain-websockets-2", null ]
+      ] ],
+      [ "Additions &amp; Field-Tested Guidance", "index.html#additions--field-tested-guidance-2", [
+        [ "TLS quick checklist", "index.html#tls-quick-checklist", null ],
+        [ "WebSockets specifics", "index.html#websockets-specifics", null ],
+        [ "UNIX domain sockets", "index.html#unix-domain-sockets", null ],
+        [ "Persist once (optional)", "index.html#persist-once-optional", null ]
+      ] ],
+      [ "Handy Patterns", "index.html#handy-patterns", null ],
+      [ "Notes", "index.html#notes-3", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -125,17 +251,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BridgeStore_8cpp.html",
-"classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html#afd6a0bd8e30b3f24a728c5d7637c8fda",
-"classconanfile_1_1JsonSchemaValidatorConan.html#accb4576ef6666ef947b6c305d2f4230a",
-"classinja_1_1FunctionStorage.html#aeb78440163bb7cd83add1d3dfbd31522a3025cdaab2deb0bb2cd642449e570833",
-"classinja_1_1Parser.html#a6236ac0578bc5b349df772733c59ef32",
-"classmqtt_1_1bridge_1_1lib_1_1Broker.html#a2e0ef30bbad5849b7f5795580f60f483",
-"classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a381e51fa3f75d81dc2501403b83d96f2",
-"classnlohmann_1_1json__uri.html#a612abf8a5796eed9fde39cd8869c3aa6",
-"inja_8hpp.html#a32fa90251e3f05c520128a8245c49e25",
-"namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#adfbd7ec30d423e477bb7ebbc5b622e57",
-"structinja_1_1SourceLocation.html"
+"classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html#aadc5f55b348e69e83b600375ab3d1f6c",
+"classconanfile_1_1JsonSchemaValidatorConan.html#a07e69e30b8cb47ee686a6ab315a4ab16",
+"classinja_1_1FunctionStorage.html#ac2639295aca0260ec320e1c71da3e35e",
+"classinja_1_1Parser.html#a08f9845245e383ab99e73b200c3cdb5f",
+"classjson__validator.html#a48f742fda328ff2dc2de223e9452c4d1",
+"classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#a843ee73f0182cea879cd45d9e924db8e",
+"classnlohmann_1_1json__schema_1_1json__validator.html#ad8f46dfed69afe463732ae335879dabb",
+"globals_a.html",
+"issue-293_8cpp.html#a8ee39622edc153e58dfa5711984ac185",
+"namespacenlohmann_1_1json__schema.html#ae33bec52699b28a669ec433ac0c095f8",
+"structmqtt_1_1lib_1_1FunctionBase.html#a15fc5fdcf57f98d352c6a40500bd75cb"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

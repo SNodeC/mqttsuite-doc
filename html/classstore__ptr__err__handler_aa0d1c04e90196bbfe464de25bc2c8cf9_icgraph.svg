@@ -7,7 +7,8 @@
 <svg width="206pt" height="38pt"
  viewBox="0.00 0.00 206.00 38.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
 <style type="text/css"><![CDATA[
 .node, .edge {opacity: 0.7;}
 .node.selected, .edge.selected {opacity: 1;}
@@ -31,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="issue-70-root-schema-constructor_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="binary-validation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="41,-24.5 0,-24.5 0,-5.5 41,-5.5 41,-24.5"/>
 <text text-anchor="middle" x="20.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

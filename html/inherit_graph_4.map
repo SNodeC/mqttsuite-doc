@@ -1,11 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" title=" " alt="" coords="5,101,177,141"/>
-<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html" title=" " alt="" coords="225,5,429,45"/>
-<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="142,93,224,55,257,43,259,48,226,60,144,97"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqtt_1_1SocketContextFactory.html" title=" " alt="" coords="230,69,425,109"/>
-<area shape="poly" id="edge15_Node000000_Node000002" title=" " alt="" coords="190,105,229,100,230,105,191,111"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html" title=" " alt="" coords="235,133,419,173"/>
-<area shape="poly" id="edge16_Node000000_Node000003" title=" " alt="" coords="191,132,236,138,235,144,191,137"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html" title=" " alt="" coords="241,197,413,237"/>
-<area shape="poly" id="edge17_Node000000_Node000004" title=" " alt="" coords="144,145,226,183,259,195,257,200,224,188,142,150"/>
+<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html" title=" " alt="" coords="228,5,432,45"/>
+<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="141,93,224,55,258,43,260,48,226,60,143,98"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html" title=" " alt="" coords="238,69,422,109"/>
+<area shape="poly" id="edge15_Node000000_Node000002" title=" " alt="" coords="191,105,237,99,238,104,192,111"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttcli_1_1SocketContextFactory.html" title=" " alt="" coords="225,133,435,173"/>
+<area shape="poly" id="edge16_Node000000_Node000003" title=" " alt="" coords="192,132,225,137,225,142,191,137"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html" title=" " alt="" coords="244,197,416,237"/>
+<area shape="poly" id="edge17_Node000000_Node000004" title=" " alt="" coords="143,145,226,183,260,195,258,200,224,188,141,150"/>
 </map>

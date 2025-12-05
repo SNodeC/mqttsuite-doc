@@ -7,6 +7,7 @@
 <!--zoomable 374 -->
 
 <svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+
 <style type="text/css"><![CDATA[
 .node, .edge {opacity: 0.7;}
 .node.selected, .edge.selected {opacity: 1;}
@@ -237,11 +238,10 @@ var sectionId = 'dynsection-8';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="228.5,-366 99.5,-366 99.5,-325 228.5,-325 228.5,-366"/>
-<text text-anchor="start" x="107.5" y="-354" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text text-anchor="start" x="107.5" y="-343" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextFactory</text>
-<text text-anchor="middle" x="164" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
+<g id="a_Node000005"><a xlink:href="classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="233,-365.5 95,-365.5 95,-335.5 233,-335.5 233,-365.5"/>
+<text text-anchor="start" x="103" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::Socket</text>
+<text text-anchor="middle" x="164" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextFactory::create</text>
 </a>
 </g>
 </g>
@@ -249,18 +249,19 @@ var sectionId = 'dynsection-8';
 <g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M293.45,-257.3C291.22,-258.61 289.07,-260.01 287,-261.5 263.61,-278.38 273.8,-297.83 251,-315.5 244.25,-320.73 236.52,-325.09 228.53,-328.71"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="295.09,-260.39 302.33,-252.65 291.85,-254.18 295.09,-260.39"/>
+<path fill="none" stroke="#63b8ff" d="M292.05,-257.87C290.31,-259.01 288.63,-260.22 287,-261.5 261.04,-281.91 276.91,-306.03 251,-326.5 245.65,-330.73 239.6,-334.21 233.24,-337.08"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="294.21,-260.66 301.15,-252.66 290.73,-254.59 294.21,-260.66"/>
 </a>
 </g>
 </g>
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="233,-306.5 95,-306.5 95,-276.5 233,-276.5 233,-306.5"/>
-<text text-anchor="start" x="103" y="-294.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::Socket</text>
-<text text-anchor="middle" x="164" y="-283.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextFactory::create</text>
+<g id="a_Node000006"><a xlink:href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="228.5,-317 99.5,-317 99.5,-276 228.5,-276 228.5,-317"/>
+<text text-anchor="start" x="107.5" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
+<text text-anchor="start" x="107.5" y="-294" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextFactory</text>
+<text text-anchor="middle" x="164" y="-283" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
 </a>
 </g>
 </g>
@@ -268,8 +269,8 @@ var sectionId = 'dynsection-8';
 <g id="edge5_Node000004_Node000006" class="edge">
 <title>Node4&#45;&gt;Node6</title>
 <g id="a_edge5_Node000004_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M306.45,-255.04C279.65,-261.95 249.19,-269.8 223.41,-276.45"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="307.33,-258.43 316.14,-252.54 305.59,-251.65 307.33,-258.43"/>
+<path fill="none" stroke="#63b8ff" d="M309.74,-255.17C302.07,-257.29 294.36,-259.44 287,-261.5 268.01,-266.83 247.39,-272.71 228.6,-278.1"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="310.69,-258.54 319.39,-252.51 308.82,-251.79 310.69,-258.54"/>
 </a>
 </g>
 </g>

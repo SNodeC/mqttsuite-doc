@@ -1,28 +1,28 @@
 <map id="inja::Template" name="inja::Template">
-<area shape="rect" id="Node000001" title="The main inja Template." alt="" coords="132,720,236,745"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1BlockNode.html" title=" " alt="" coords="291,309,405,335"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="354,334,364,373,369,423,369,632,366,651,358,668,346,683,330,695,293,713,253,724,252,719,291,708,328,690,342,679,354,665,361,650,364,631,364,423,359,374,349,336"/>
-<area shape="rect" id="Node000010" href="$classinja_1_1BlockStatementNode.html" title=" " alt="" coords="145,412,327,437"/>
-<area shape="poly" id="edge15_Node000010_Node000002" title=" " alt="" coords="330,337,296,361,257,401,254,397,293,357,327,332"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="280,5,379,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,44,350,309,345,309,328,44"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="371,93,520,133"/>
-<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="345,29,410,81,407,85,342,33"/>
-<area shape="rect" id="Node000011" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="163,157,309,183"/>
-<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="317,44,246,158,241,156,313,41"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="367,207,535,247"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="432,249,375,300,371,296,428,245"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="449,133,452,190,446,191,444,134"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="69,309,147,335"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="83,337,59,351,34,371,15,395,10,409,8,424,8,631,11,649,18,664,43,689,78,707,117,719,115,724,76,712,40,694,13,667,5,651,3,632,3,423,5,407,11,392,30,367,56,347,81,332"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="89,603,279,657"/>
-<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="110,335,114,421,121,480,136,539,159,588,154,590,131,541,116,481,108,422,105,335"/>
-<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="118,333,138,359,166,386,193,403,190,407,162,390,134,363,114,337"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="44,207,172,247"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="111,261,111,309,105,309,105,261"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="187,658,187,704,181,704,181,658"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="145,500,319,540"/>
-<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="226,541,205,589,200,586,221,539"/>
-<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="238,437,236,484,231,484,233,437"/>
-<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="239,196,239,412,233,412,233,196"/>
+<area shape="rect" id="Node000001" title="The main inja Template." alt="" coords="135,773,239,799"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1BlockNode.html" title=" " alt="" coords="295,325,409,351"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="358,351,368,395,373,453,373,677,370,697,362,715,350,730,334,743,296,763,256,776,254,771,294,758,331,739,346,726,358,712,365,696,368,676,368,453,362,396,353,352"/>
+<area shape="rect" id="Node000010" href="$classinja_1_1BlockStatementNode.html" title=" " alt="" coords="149,441,331,467"/>
+<area shape="poly" id="edge15_Node000010_Node000002" title=" " alt="" coords="328,353,292,377,271,402,255,428,251,425,267,398,289,373,325,348"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="284,5,383,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,44,354,325,349,325,332,45"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="375,101,524,141"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="348,29,417,88,413,92,345,33"/>
+<area shape="rect" id="Node000011" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="167,165,313,191"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="322,44,249,166,245,164,317,41"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="371,215,539,255"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="437,257,377,316,374,312,433,253"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="453,141,456,198,450,199,448,142"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="73,325,151,351"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="90,353,64,369,37,392,16,420,10,436,8,453,8,676,11,695,18,711,30,726,44,738,80,757,119,770,118,775,78,762,41,742,26,729,14,714,6,697,3,677,3,452,5,434,12,417,33,388,61,365,87,349"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="92,648,281,703"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="114,351,118,446,125,511,140,577,164,632,159,634,135,578,120,512,112,446,109,351"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="121,349,143,386,166,415,192,432,189,437,162,419,139,389,116,352"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="48,215,176,255"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="115,269,115,325,109,325,109,269"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="189,703,189,757,184,757,184,703"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="149,537,323,577"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="230,579,207,634,202,632,225,577"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="242,467,240,521,235,521,237,467"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="243,204,243,441,237,441,237,204"/>
 </map>

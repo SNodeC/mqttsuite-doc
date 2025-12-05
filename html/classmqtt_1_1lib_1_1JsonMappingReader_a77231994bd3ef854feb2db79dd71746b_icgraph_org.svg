@@ -5,27 +5,26 @@
  -->
 <!-- Title: mqtt::lib::JsonMappingReader::readMappingFromFile Pages: 1 -->
 <svg width="379pt" height="157pt"
- viewBox="0.00 0.00 379.00 157.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 153)">
+ viewBox="0.00 0.00 379.00 156.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 152.5)">
 <title>mqtt::lib::JsonMappingReader::readMappingFromFile</title>
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="371,-89.5 210,-89.5 210,-59.5 371,-59.5 371,-89.5"/>
-<text text-anchor="start" x="218" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::JsonMappingReader</text>
-<text text-anchor="middle" x="290.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">::readMappingFromFile</text>
+<polygon fill="#999999" stroke="#666666" points="371,-94.5 210,-94.5 210,-64.5 371,-64.5 371,-94.5"/>
+<text text-anchor="start" x="218" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::JsonMappingReader</text>
+<text text-anchor="middle" x="290.5" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">::readMappingFromFile</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="151.5,-149 22.5,-149 22.5,-108 151.5,-108 151.5,-149"/>
-<text text-anchor="start" x="30.5" y="-137" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text text-anchor="start" x="30.5" y="-126" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextFactory</text>
-<text text-anchor="middle" x="87" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
+<g id="a_Node000002"><a xlink:href="classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="156,-148.5 18,-148.5 18,-118.5 156,-118.5 156,-148.5"/>
+<text text-anchor="start" x="26" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::Socket</text>
+<text text-anchor="middle" x="87" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextFactory::create</text>
 </a>
 </g>
 </g>
@@ -33,18 +32,19 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M223.65,-92.15C200.52,-98.35 174.58,-105.3 151.64,-111.45"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="224.62,-95.51 233.37,-89.54 222.81,-88.75 224.62,-95.51"/>
+<path fill="none" stroke="#63b8ff" d="M223.71,-97.13C198.02,-104.02 168.86,-111.83 144.18,-118.45"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="224.62,-100.51 233.37,-94.54 222.81,-93.75 224.62,-100.51"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="156,-89.5 18,-89.5 18,-59.5 156,-59.5 156,-89.5"/>
-<text text-anchor="start" x="26" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::Socket</text>
-<text text-anchor="middle" x="87" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextFactory::create</text>
+<g id="a_Node000003"><a xlink:href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="151.5,-100 22.5,-100 22.5,-59 151.5,-59 151.5,-100"/>
+<text text-anchor="start" x="30.5" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
+<text text-anchor="start" x="30.5" y="-77" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextFactory</text>
+<text text-anchor="middle" x="87" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
 </a>
 </g>
 </g>
@@ -52,8 +52,8 @@
 <g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M199.82,-74.5C185.22,-74.5 170.3,-74.5 156.32,-74.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="199.86,-78 209.86,-74.5 199.86,-71 199.86,-78"/>
+<path fill="none" stroke="#63b8ff" d="M199.8,-79.5C183.53,-79.5 166.87,-79.5 151.55,-79.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="199.86,-83 209.86,-79.5 199.86,-76 199.86,-83"/>
 </a>
 </g>
 </g>
@@ -72,8 +72,8 @@
 <g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
 <g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M223.68,-56.86C204.78,-51.8 184.02,-46.23 164.54,-41.01"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="222.81,-60.25 233.37,-59.46 224.62,-53.49 222.81,-60.25"/>
+<path fill="none" stroke="#63b8ff" d="M228.52,-61.64C206.37,-55.16 181.17,-47.78 158.28,-41.08"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="227.55,-65.01 238.13,-64.46 229.52,-58.29 227.55,-65.01"/>
 </a>
 </g>
 </g>

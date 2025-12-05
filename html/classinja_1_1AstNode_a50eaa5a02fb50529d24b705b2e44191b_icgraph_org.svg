@@ -12,18 +12,17 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="273,-40 153,-40 153,-21 273,-21 273,-40"/>
-<text text-anchor="middle" x="213" y="-28" font-family="Helvetica,sans-Serif" font-size="10.00">inja::AstNode::accept</text>
+<polygon fill="#999999" stroke="#666666" points="273,-45.5 153,-45.5 153,-26.5 273,-26.5 273,-45.5"/>
+<text text-anchor="middle" x="213" y="-33.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::AstNode::accept</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classinja_1_1StatisticsVisitor.html#a77b9ef2d1c03a3c20c4da00b5f62b5fd" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="117,-67.5 0,-67.5 0,-37.5 117,-37.5 117,-67.5"/>
-<text text-anchor="start" x="8" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::StatisticsVisitor</text>
-<text text-anchor="middle" x="58.5" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00">::visit</text>
+<g id="a_Node000002"><a xlink:href="classinja_1_1Renderer.html#ad8439b95a55495925008d913e00173b5" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="114.5,-67.5 2.5,-67.5 2.5,-48.5 114.5,-48.5 114.5,-67.5"/>
+<text text-anchor="middle" x="58.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Renderer::visit</text>
 </a>
 </g>
 </g>
@@ -31,17 +30,18 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M142.49,-40.53C134.13,-41.73 125.66,-42.96 117.48,-44.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="143.21,-43.96 152.6,-39.07 142.21,-37.03 143.21,-43.96"/>
+<path fill="none" stroke="#63b8ff" d="M142.63,-46.01C133.37,-47.34 123.98,-48.7 114.99,-49.99"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="143.21,-49.46 152.6,-44.57 142.21,-42.53 143.21,-49.46"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="classinja_1_1Renderer.html#ad8439b95a55495925008d913e00173b5" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="114.5,-19 2.5,-19 2.5,0 114.5,0 114.5,-19"/>
-<text text-anchor="middle" x="58.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Renderer::visit</text>
+<g id="a_Node000003"><a xlink:href="classinja_1_1StatisticsVisitor.html#a77b9ef2d1c03a3c20c4da00b5f62b5fd" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="117,-30 0,-30 0,0 117,0 117,-30"/>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">inja::StatisticsVisitor</text>
+<text text-anchor="middle" x="58.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::visit</text>
 </a>
 </g>
 </g>
@@ -49,8 +49,8 @@
 <g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M142.63,-20.95C133.37,-19.67 123.98,-18.38 114.99,-17.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="142.22,-24.42 152.6,-22.32 143.17,-17.49 142.22,-24.42"/>
+<path fill="none" stroke="#63b8ff" d="M142.49,-26.43C134.13,-25.28 125.66,-24.11 117.48,-22.98"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="142.22,-29.92 152.6,-27.82 143.17,-22.99 142.22,-29.92"/>
 </a>
 </g>
 </g>

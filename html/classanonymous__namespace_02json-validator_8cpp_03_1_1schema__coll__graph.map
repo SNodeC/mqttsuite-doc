@@ -1,27 +1,24 @@
 <map id="anonymous_namespace{json&#45;validator.cpp}::schema" name="anonymous_namespace{json&#45;validator.cpp}::schema">
-<area shape="rect" id="Node000001" title=" " alt="" coords="455,637,625,692"/>
-<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1root__schema.html" title=" " alt="" coords="285,535,456,575"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,572,486,626,484,631,399,577"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,677,185,732"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1root__schema.html" title=" " alt="" coords="15,567,185,607"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,607,103,661,97,661,97,607"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,102,195,127"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,129,62,169,50,195,45,224,45,446,51,462,66,477,90,490,120,503,193,523,269,537,268,542,192,528,119,508,88,495,63,481,46,465,40,446,40,223,45,194,57,166,87,126"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="80,205,288,245"/>
-<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="109,126,141,172,157,191,153,194,137,175,105,129"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="268,417,473,472"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="373,473,373,518,368,518,368,473"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="269,102,347,127"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="312,127,353,354,363,401,358,402,348,355,307,128"/>
-<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="296,130,220,196,217,192,293,125"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="363,197,541,252"/>
-<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="325,125,406,186,403,190,322,130"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="244,5,372,45"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="311,59,311,102,305,102,305,59"/>
-<area shape="rect" id="Node000007" href="$structnlohmann_1_1json__schema_1_1root__schema_1_1schema__file.html" title=" " alt="" coords="363,315,555,355"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="445,356,404,406,400,403,441,353"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="193,244,205,268,224,289,244,298,274,306,346,319,345,325,272,312,243,303,221,293,201,271,188,246"/>
-<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="436,253,430,271,431,290,435,300,430,302,425,291,425,271,431,251"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="371,95,547,135"/>
-<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="460,135,457,181,452,181,455,135"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="628,212,668,237"/>
-<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="662,236,693,275,707,303,712,333,712,556,706,584,691,607,668,625,642,639,640,634,665,620,687,603,701,582,707,556,707,334,702,304,688,277,658,239"/>
-<area shape="poly" id="edge13_Node000007_Node000011" title=" " alt="" coords="629,237,548,278,500,308,497,303,545,274,627,233"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,129,88,174,81,231,81,470,85,512,93,550,88,551,80,512,76,470,76,231,83,173,94,127"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="261,213,469,253"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="127,125,308,204,306,209,125,130"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="121,441,327,496"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="198,498,134,557,131,553,194,494"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="327,102,404,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="342,130,294,160,270,181,252,207,230,262,220,321,218,377,221,425,216,425,213,378,215,321,225,261,247,204,266,178,291,156,339,125"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="368,127,368,196,363,196,363,127"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="493,205,672,260"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="388,125,520,195,518,200,386,130"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="301,5,429,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="368,59,368,102,363,102,363,59"/>
+<area shape="rect" id="Node000007" href="$structnlohmann_1_1json__schema_1_1root__schema_1_1schema__file.html" title=" " alt="" coords="269,331,461,371"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="344,373,271,433,267,429,340,369"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="368,253,368,314,363,314,363,253"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="536,262,449,309,418,326,415,321,447,304,534,258"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="495,95,671,135"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="585,135,585,189,580,189,580,135"/>
 </map>

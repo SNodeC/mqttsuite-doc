@@ -8,6 +8,5 @@ var searchData=
   ['_5faddress_5fkey_5foffsets_5',['_address_key_offsets',['../smtp-address-validator_8cpp.html#a2bb4b5d7549d0409565c0e29d21bd8d3',1,'smtp-address-validator.cpp']]],
   ['_5faddress_5frange_5flengths_6',['_address_range_lengths',['../smtp-address-validator_8cpp.html#a11d4e0336c1ac11ab62b591fd8f15621',1,'smtp-address-validator.cpp']]],
   ['_5faddress_5fsingle_5flengths_7',['_address_single_lengths',['../smtp-address-validator_8cpp.html#a5f74a761030f441973d555da030b1cb7',1,'smtp-address-validator.cpp']]],
-  ['_5faddress_5ftrans_5fkeys_8',['_address_trans_keys',['../smtp-address-validator_8cpp.html#a5ffe8dc1468486c06474cb601a9815e7',1,'smtp-address-validator.cpp']]],
-  ['_5fjson_9',['_json',['../src_2json-patch_8cpp.html#a2f40cb19d5b4e2769df43bf4419f189b',1,'_json:&#160;json-patch.cpp'],['../errors_8cpp.html#a4ff849685af2d1bc46095b4311f6a708',1,'_json:&#160;errors.cpp'],['../issue-149-entry-selection_8cpp.html#a4ff849685af2d1bc46095b4311f6a708',1,'_json:&#160;issue-149-entry-selection.cpp'],['../issue-70-root-schema-constructor_8cpp.html#a4ff849685af2d1bc46095b4311f6a708',1,'_json:&#160;issue-70-root-schema-constructor.cpp']]]
+  ['_5faddress_5ftrans_5fkeys_8',['_address_trans_keys',['../smtp-address-validator_8cpp.html#a5ffe8dc1468486c06474cb601a9815e7',1,'smtp-address-validator.cpp']]]
 ];

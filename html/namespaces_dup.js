@@ -1,12 +1,12 @@
 var namespaces_dup =
 [
-    [ "anonymous_namespace{errors.cpp}", "namespaceanonymous__namespace_02errors_8cpp_03.html", null ],
+    [ "anonymous_namespace{errors.cpp}", "namespaceanonymous__namespace_02errors_8cpp_03.html", "namespaceanonymous__namespace_02errors_8cpp_03" ],
     [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}", "namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html", "namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03" ],
-    [ "anonymous_namespace{issue-149-entry-selection.cpp}", "namespaceanonymous__namespace_02issue-149-entry-selection_8cpp_03.html", [
-      [ "error_count", "namespaceanonymous__namespace_02issue-149-entry-selection_8cpp_03.html#abe6ea0e7ec52a61d71b906c3ed3a1659", null ]
+    [ "anonymous_namespace{issue-149-entry-selection.cpp}", "namespaceanonymous__namespace_02issue-149-entry-selection_8cpp_03.html", "namespaceanonymous__namespace_02issue-149-entry-selection_8cpp_03" ],
+    [ "anonymous_namespace{issue-70-root-schema-constructor.cpp}", "namespaceanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03.html", "namespaceanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03" ],
+    [ "anonymous_namespace{json-patch.cpp}", "namespaceanonymous__namespace_02json-patch_8cpp_03.html", [
+      [ "patch_schema", "namespaceanonymous__namespace_02json-patch_8cpp_03.html#a79131602ed1f430c1aaaed3c6a4f5beb", null ]
     ] ],
-    [ "anonymous_namespace{issue-70-root-schema-constructor.cpp}", "namespaceanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03.html", null ],
-    [ "anonymous_namespace{json-patch.cpp}", "namespaceanonymous__namespace_02json-patch_8cpp_03.html", null ],
     [ "anonymous_namespace{json-validator.cpp}", "namespaceanonymous__namespace_02json-validator_8cpp_03.html", "namespaceanonymous__namespace_02json-validator_8cpp_03" ],
     [ "anonymous_namespace{string-format-check.cpp}", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html", [
       [ "is_ascii", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a63b1fb98ca5a11d6c9c782a5f117d8bb", null ],

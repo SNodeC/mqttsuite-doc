@@ -12,6 +12,6 @@ var searchData=
   ['array_5fof_5ftypes_9',['array_of_types',['../binary-validation_8cpp.html#a2b0b191cf688e9afa9abe8e67965a9a0',1,'binary-validation.cpp']]],
   ['array_5fof_5ftypes_5fwithout_5fbinary_10',['array_of_types_without_binary',['../binary-validation_8cpp.html#a4e72efec479e08d5f1dc4d74e95fdfdd',1,'binary-validation.cpp']]],
   ['associativity_11',['associativity',['../classinja_1_1FunctionNode.html#a69eb8e9c6ca44e798bfcc6c44518fd6e',1,'inja::FunctionNode']]],
-  ['authority_5f_12',['authority_',['../classnlohmann_1_1json__uri.html#a024acf65dc3388f4c651bd26c4ed0390',1,'nlohmann::json_uri']]],
+  ['authority_5f_12',['authority_',['../classnlohmann_1_1json__uri.html#a024acf65dc3388f4c651bd26c4ed0390',1,'nlohmann::json_uri::authority_'],['../classjson__uri.html#a024acf65dc3388f4c651bd26c4ed0390',1,'json_uri::authority_']]],
   ['autosort_13',['autosort',['../_8cmake-format_8py.html#af2d9dab966ea5cb253a0fa6801dc6f61',1,'.cmake-format.py']]]
 ];

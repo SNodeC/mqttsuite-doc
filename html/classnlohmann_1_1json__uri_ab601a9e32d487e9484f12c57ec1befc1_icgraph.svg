@@ -7,6 +7,7 @@
 <!--zoomable 792 -->
 
 <svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+
 <style type="text/css"><![CDATA[
 .node, .edge {opacity: 0.7;}
 .node.selected, .edge.selected {opacity: 1;}
@@ -48,7 +49,7 @@
 <script type="application/ecmascript">
 var viewWidth = 1368;
 var viewHeight = 792;
-var sectionId = 'dynsection-5';
+var sectionId = 'dynsection-6';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -520,9 +521,9 @@ var sectionId = 'dynsection-5';
 <g id="Node000015" class="node">
 <title>Node15</title>
 <g id="a_Node000015"><a xlink:href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="456,-560.5 295,-560.5 295,-530.5 456,-530.5 456,-560.5"/>
-<text text-anchor="start" x="303" y="-548.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::JsonMappingReader</text>
-<text text-anchor="middle" x="375.5" y="-537.5" font-family="Helvetica,sans-Serif" font-size="10.00">::readMappingFromFile</text>
+<polygon fill="white" stroke="#666666" points="456,-563.5 295,-563.5 295,-533.5 456,-533.5 456,-563.5"/>
+<text text-anchor="start" x="303" y="-551.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::JsonMappingReader</text>
+<text text-anchor="middle" x="375.5" y="-540.5" font-family="Helvetica,sans-Serif" font-size="10.00">::readMappingFromFile</text>
 </a>
 </g>
 </g>
@@ -530,8 +531,8 @@ var sectionId = 'dynsection-5';
 <g id="edge19_Node000013_Node000015" class="edge">
 <title>Node13&#45;&gt;Node15</title>
 <g id="a_edge19_Node000013_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M510.77,-582.41C484.4,-575.16 455.44,-567.2 431.18,-560.53"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="510.17,-585.87 520.74,-585.15 512.02,-579.12 510.17,-585.87"/>
+<path fill="none" stroke="#63b8ff" d="M510.82,-583.51C485.56,-576.93 457.91,-569.72 434.3,-563.57"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="510.18,-586.96 520.74,-586.1 511.94,-580.19 510.18,-586.96"/>
 </a>
 </g>
 </g>
@@ -548,8 +549,8 @@ var sectionId = 'dynsection-5';
 <g id="edge23_Node000013_Node000019" class="edge">
 <title>Node13&#45;&gt;Node19</title>
 <g id="a_edge23_Node000013_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M511.58,-581.03C507.52,-578.75 503.63,-576.25 500,-573.5 477.58,-556.54 486.59,-538.23 464,-521.5 450.16,-511.25 432.42,-504.66 416.54,-500.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="510.2,-584.26 520.7,-585.69 513.39,-578.02 510.2,-584.26"/>
+<path fill="none" stroke="#63b8ff" d="M511.68,-580.91C507.59,-578.66 503.67,-576.19 500,-573.5 478.22,-557.5 485.69,-540.61 464,-524.5 450.16,-514.22 432.6,-507.12 416.85,-502.33"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="510.32,-584.15 520.83,-585.52 513.47,-577.9 510.32,-584.15"/>
 </a>
 </g>
 </g>
@@ -575,11 +576,10 @@ var sectionId = 'dynsection-5';
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="228.5,-558 99.5,-558 99.5,-517 228.5,-517 228.5,-558"/>
-<text text-anchor="start" x="107.5" y="-546" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text text-anchor="start" x="107.5" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextFactory</text>
-<text text-anchor="middle" x="164" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
+<g id="a_Node000016"><a xlink:href="classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="233,-557.5 95,-557.5 95,-527.5 233,-527.5 233,-557.5"/>
+<text text-anchor="start" x="103" y="-545.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::Socket</text>
+<text text-anchor="middle" x="164" y="-534.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextFactory::create</text>
 </a>
 </g>
 </g>
@@ -587,18 +587,19 @@ var sectionId = 'dynsection-5';
 <g id="edge20_Node000015_Node000016" class="edge">
 <title>Node15&#45;&gt;Node16</title>
 <g id="a_edge20_Node000015_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M284.91,-542.08C266.04,-541.36 246.5,-540.61 228.81,-539.94"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="284.87,-545.58 295,-542.46 285.14,-538.59 284.87,-545.58"/>
+<path fill="none" stroke="#63b8ff" d="M284.88,-545.93C267.55,-545.44 249.66,-544.92 233.15,-544.45"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="284.9,-549.44 295,-546.22 285.1,-542.44 284.9,-549.44"/>
 </a>
 </g>
 </g>
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#a84a300c6ea4e8fc1e0370f5460a64e9a" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="233,-498.5 95,-498.5 95,-468.5 233,-468.5 233,-498.5"/>
-<text text-anchor="start" x="103" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::Socket</text>
-<text text-anchor="middle" x="164" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextFactory::create</text>
+<g id="a_Node000017"><a xlink:href="classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html#a0667981d3feaa8d66a6ba2ecb81dc900" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="228.5,-509 99.5,-509 99.5,-468 228.5,-468 228.5,-509"/>
+<text text-anchor="start" x="107.5" y="-497" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
+<text text-anchor="start" x="107.5" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextFactory</text>
+<text text-anchor="middle" x="164" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
 </a>
 </g>
 </g>
@@ -606,8 +607,8 @@ var sectionId = 'dynsection-5';
 <g id="edge21_Node000015_Node000017" class="edge">
 <title>Node15&#45;&gt;Node17</title>
 <g id="a_edge21_Node000015_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M317.15,-527.51C296.35,-521.08 272.65,-513.85 251,-507.5 240.89,-504.53 230.08,-501.45 219.66,-498.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="316.2,-530.88 326.79,-530.5 318.28,-524.19 316.2,-530.88"/>
+<path fill="none" stroke="#63b8ff" d="M312.06,-530.62C285.79,-523.09 255.26,-514.35 228.84,-506.78"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="311.33,-534.05 321.9,-533.44 313.25,-527.32 311.33,-534.05"/>
 </a>
 </g>
 </g>
@@ -626,8 +627,8 @@ var sectionId = 'dynsection-5';
 <g id="edge22_Node000015_Node000018" class="edge">
 <title>Node15&#45;&gt;Node18</title>
 <g id="a_edge22_Node000015_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M302.85,-562.94C285.7,-567.12 267.24,-571.61 249.57,-575.91"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="303.89,-566.29 312.78,-560.53 302.23,-559.49 303.89,-566.29"/>
+<path fill="none" stroke="#63b8ff" d="M298.79,-565.85C283.36,-569.38 267.01,-573.13 251.24,-576.74"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="299.82,-569.2 308.79,-563.56 298.26,-562.38 299.82,-569.2"/>
 </a>
 </g>
 </g>
@@ -644,8 +645,8 @@ var sectionId = 'dynsection-5';
 <g id="edge24_Node000019_Node000020" class="edge">
 <title>Node19&#45;&gt;Node20</title>
 <g id="a_edge24_Node000019_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M331.57,-481.22C307.87,-474.56 277.88,-466.32 251,-459.5 228.27,-453.73 201.99,-447.71 184.52,-443.81"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="330.74,-484.63 341.31,-483.97 332.64,-477.89 330.74,-484.63"/>
+<path fill="none" stroke="#63b8ff" d="M333.11,-481.11C309.2,-474.12 278.51,-465.43 251,-458.5 228.31,-452.78 202.03,-447.11 184.55,-443.48"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="332.33,-484.53 342.91,-483.99 334.3,-477.82 332.33,-484.53"/>
 </a>
 </g>
 </g>

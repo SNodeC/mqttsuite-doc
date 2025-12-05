@@ -1,7 +1,7 @@
 <map id="inja::LexerConfig" name="inja::LexerConfig">
-<area shape="rect" id="Node000001" title="Class for lexer configuration." alt="" coords="8,388,131,413"/>
+<area shape="rect" id="Node000001" title="Class for lexer configuration." alt="" coords="8,471,131,496"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="31,95,108,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,120,72,371,67,371,67,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,120,72,454,67,454,67,120"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,5,133,45"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="72,59,72,94,67,94,67,59"/>
 </map>

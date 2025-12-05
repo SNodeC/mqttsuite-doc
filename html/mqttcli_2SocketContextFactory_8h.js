@@ -1,4 +1,4 @@
 var mqttcli_2SocketContextFactory_8h =
 [
-    [ "mqtt::mqtt::SocketContextFactory", "classmqtt_1_1mqtt_1_1SocketContextFactory.html", "classmqtt_1_1mqtt_1_1SocketContextFactory" ]
+    [ "mqtt::mqttcli::SocketContextFactory", "classmqtt_1_1mqttcli_1_1SocketContextFactory.html", "classmqtt_1_1mqttcli_1_1SocketContextFactory" ]
 ];

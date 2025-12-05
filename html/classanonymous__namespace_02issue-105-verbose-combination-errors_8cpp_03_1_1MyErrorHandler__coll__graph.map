@@ -1,16 +1,8 @@
 <map id="anonymous_namespace{issue&#45;105&#45;verbose&#45;combination&#45;errors.cpp}::MyErrorHandler" name="anonymous_namespace{issue&#45;105&#45;verbose&#45;combination&#45;errors.cpp}::MyErrorHandler">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,417,232,472"/>
-<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="33,315,204,355"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,368,113,417,108,417,108,368"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="130,368,129,417,124,417,124,368"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="228,322,404,347"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="296,350,182,412,180,407,294,345"/>
-<area shape="rect" id="Node000004" href="$structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html" title=" " alt="" coords="203,183,429,252"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="319,252,319,306,313,306,313,252"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="249,95,289,120"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="270,120,270,138,273,158,278,168,273,170,268,159,264,139,265,120"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="325,95,403,120"/>
-<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="361,121,340,168,335,166,356,119"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="300,5,428,45"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="367,59,367,94,361,94,361,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,116,232,171"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="33,5,204,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,59,114,116,108,116,108,59"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="130,59,129,116,124,116,124,59"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="228,13,404,38"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="298,40,179,110,176,105,295,36"/>
 </map>

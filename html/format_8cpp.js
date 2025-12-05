@@ -1,5 +1,6 @@
 var format_8cpp =
 [
+    [ "json_validator", "classjson__validator.html", "classjson__validator" ],
     [ "main", "format_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4", null ],
     [ "uri_format_checker", "format_8cpp.html#ad78786fe40af7df294db2bea1688add5", null ],
     [ "bad_uri", "format_8cpp.html#a8acafdf16274beb44a96322b2d40e492", null ],

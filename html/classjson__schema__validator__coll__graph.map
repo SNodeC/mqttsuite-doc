@@ -1,16 +1,13 @@
 <map id="json_schema_validator" name="json_schema_validator">
-<area shape="rect" id="Node000001" title=" " alt="" coords="83,432,245,457"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,337,144,362"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,361,127,406,141,419,137,423,123,410,82,364"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="107,241,147,267"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,266,91,277,78,292,74,306,73,320,68,320,69,305,74,289,88,273,105,262"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="168,329,339,369"/>
-<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="142,265,190,303,211,318,208,322,186,307,138,269"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,371,209,410,194,423,190,420,205,406,237,368"/>
-<area shape="rect" id="Node000005" href="$classnlohmann_1_1json__uri.html" title=" " alt="" coords="223,241,359,267"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="289,268,269,315,264,313,284,266"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="252,95,329,120"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="293,120,293,225,288,225,288,120"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="227,5,355,45"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="293,59,293,94,288,94,288,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="67,477,229,503"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,374,144,399"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,398,92,424,109,452,121,465,117,469,105,455,87,426,76,400"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="168,367,339,407"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,409,194,455,178,469,174,465,190,451,235,405"/>
+<area shape="rect" id="Node000004" href="$classnlohmann_1_1json__uri.html" title=" " alt="" coords="185,271,321,296"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="256,296,256,350,251,350,251,296"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="215,95,292,120"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="256,120,256,254,251,254,251,120"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="189,5,317,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="256,59,256,94,251,94,251,59"/>
 </map>
