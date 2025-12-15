@@ -1,10 +1,11 @@
 <map id="mqtt::bridge::lib::Broker::getClientId" name="mqtt::bridge::lib::Broker::getClientId">
-<area shape="rect" id="Node000001" title=" " alt="" coords="447,35,589,75"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#a843ee73f0182cea879cd45d9e924db8e" title=" " alt="" coords="5,5,216,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="433,51,216,36,216,30,433,46"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="264,63,399,103"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="434,70,399,75,399,70,433,65"/>
-<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="250,64,187,48,189,43,251,59"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html#a1f9ab899e4c3205913ba2841ae69dc33" title=" " alt="" coords="9,69,213,109"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="250,88,213,89,213,84,250,82"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="444,52,586,97"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html#a1f9ab899e4c3205913ba2841ae69dc33" title=" " alt="" coords="8,5,212,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="429,48,396,42,302,32,212,29,212,23,302,27,396,37,435,47"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#a843ee73f0182cea879cd45d9e924db8e" title=" " alt="" coords="5,87,215,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="436,101,396,112,304,119,215,119,215,113,304,114,396,106,430,102"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="263,52,396,97"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="426,75,396,77,396,72,431,74"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="245,57,212,52,212,47,250,57"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="245,88,216,95,215,90,250,87"/>
 </map>

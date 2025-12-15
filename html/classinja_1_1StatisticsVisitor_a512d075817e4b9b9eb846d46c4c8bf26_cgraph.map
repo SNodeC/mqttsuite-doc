@@ -1,11 +1,11 @@
 <map id="inja::StatisticsVisitor::visit" name="inja::StatisticsVisitor::visit">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,161,79"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1BlockNode.html#afa264eaa0a42e9f38086e93530b164be" title=" " alt="" coords="213,15,388,41"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,45,199,40,200,45,162,50"/>
-<area shape="rect" id="Node000004" href="$classinja_1_1ExpressionListNode.html#a782d136a8fc3264603e8a7c6946ac0ef" title=" " alt="" coords="209,67,392,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,66,196,70,195,76,161,71"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1NodeVisitor.html#afecb3de947b76e68094be2a72eedea09" title=" " alt="" coords="440,5,579,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,24,426,24,426,29,388,30"/>
-<area shape="rect" id="Node000005" href="$classinja_1_1NodeVisitor.html#a675afea1f3fb02af1efb89f1d5dd4642" title=" " alt="" coords="440,69,579,109"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="392,85,426,86,426,91,392,91"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,41,161,86"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1BlockNode.html#afa264eaa0a42e9f38086e93530b164be" title=" " alt="" coords="212,16,386,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,49,199,45,194,47,162,54"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1ExpressionListNode.html#a782d136a8fc3264603e8a7c6946ac0ef" title=" " alt="" coords="209,71,390,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,72,196,78,191,79,161,77"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1NodeVisitor.html#afecb3de947b76e68094be2a72eedea09" title=" " alt="" coords="438,5,575,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,27,425,28,420,29,387,32"/>
+<area shape="rect" id="Node000005" href="$classinja_1_1NodeVisitor.html#a675afea1f3fb02af1efb89f1d5dd4642" title=" " alt="" coords="438,75,575,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="390,92,425,95,420,95,390,97"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="inja::Token" name="inja::Token">
-<area shape="rect" id="Node000001" title="Helper&#45;class for the inja Lexer." alt="" coords="44,191,124,216"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="27,95,141,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,120,87,174,81,174,81,120"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,163,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,59,87,94,81,94,81,59"/>
+<area shape="rect" id="Node000001" title="Helper&#45;class for the inja Lexer." alt="" coords="43,200,122,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,99,140,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,125,85,184,80,183,81,129"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,160,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,62,85,100,80,99,82,67"/>
 </map>

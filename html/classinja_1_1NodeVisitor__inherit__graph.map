@@ -1,7 +1,7 @@
 <map id="inja::NodeVisitor" name="inja::NodeVisitor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="72,5,192,31"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1Renderer.html" title="Class for rendering a Template with data." alt="" coords="5,79,109,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,42,71,80,68,77,108,38"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1StatisticsVisitor.html" title="A class for counting statistics on a Template." alt="" coords="133,79,280,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,38,196,77,193,80,152,42"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,5,189,33"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Renderer.html" title="Class for rendering a Template with data." alt="" coords="5,81,107,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,43,70,83,67,79,104,44"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1StatisticsVisitor.html" title="A class for counting statistics on a Template." alt="" coords="130,81,275,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,41,193,81,188,81,151,46"/>
 </map>

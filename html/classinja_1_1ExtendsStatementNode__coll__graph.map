@@ -1,11 +1,11 @@
 <map id="inja::ExtendsStatementNode" name="inja::ExtendsStatementNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="47,191,244,216"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="5,95,152,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,130,139,189,135,192,93,133"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="28,13,127,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,52,81,95,76,95,75,52"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="176,95,253,120"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,122,166,179,162,176,204,119"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="151,5,279,45"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="217,59,217,94,212,94,212,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="46,200,243,228"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="5,99,150,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,137,139,200,134,201,93,141"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="28,14,125,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,54,80,100,75,99,76,59"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="176,99,252,127"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,126,164,189,161,185,202,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="150,5,278,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,63,216,101,211,99,212,67"/>
 </map>

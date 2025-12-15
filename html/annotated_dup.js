@@ -87,8 +87,8 @@ var annotated_dup =
         [ "lib", "namespacemqtt_1_1bridge_1_1lib.html", [
           [ "Bridge", "classmqtt_1_1bridge_1_1lib_1_1Bridge.html", "classmqtt_1_1bridge_1_1lib_1_1Bridge" ],
           [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html", "classmqtt_1_1bridge_1_1lib_1_1Broker" ],
-          [ "BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore" ],
-          [ "Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", "classmqtt_1_1bridge_1_1lib_1_1Mqtt" ]
+          [ "Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", "classmqtt_1_1bridge_1_1lib_1_1Mqtt" ],
+          [ "BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore" ]
         ] ],
         [ "SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", "classmqtt_1_1bridge_1_1SocketContextFactory" ]
       ] ],
@@ -133,9 +133,9 @@ var annotated_dup =
         [ "basic_error_handler", "classnlohmann_1_1json__schema_1_1basic__error__handler.html", "classnlohmann_1_1json__schema_1_1basic__error__handler" ],
         [ "json_validator", "classnlohmann_1_1json__schema_1_1json__validator.html", "classnlohmann_1_1json__schema_1_1json__validator" ]
       ] ],
+      [ "json_uri", "classnlohmann_1_1json__uri.html", "classnlohmann_1_1json__uri" ],
       [ "JsonPatchFormatException", "classnlohmann_1_1JsonPatchFormatException.html", "classnlohmann_1_1JsonPatchFormatException" ],
-      [ "json_patch", "classnlohmann_1_1json__patch.html", "classnlohmann_1_1json__patch" ],
-      [ "json_uri", "classnlohmann_1_1json__uri.html", "classnlohmann_1_1json__uri" ]
+      [ "json_patch", "classnlohmann_1_1json__patch.html", "classnlohmann_1_1json__patch" ]
     ] ],
     [ "custom_error_handler", "classcustom__error__handler.html", "classcustom__error__handler" ],
     [ "json_patch", "classjson__patch.html", "classjson__patch" ],

@@ -1,7 +1,7 @@
 <map id="inja::LiteralNode::LiteralNode" name="inja::LiteralNode::LiteralNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,143,45"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1ExpressionNode.html#ac8595a20a68f2c929225250f0b83988b" title=" " alt="" coords="191,5,349,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,23,177,23,177,28,143,28"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec" title=" " alt="" coords="397,13,569,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="350,23,383,23,383,28,350,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,142,50"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1ExpressionNode.html#ac8595a20a68f2c929225250f0b83988b" title=" " alt="" coords="190,5,348,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,25,177,27,171,28,142,30"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec" title=" " alt="" coords="396,14,567,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,25,383,28,378,28,348,30"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="mqtt::lib::MqttMapper::extractSubscriptions" name="mqtt::lib::MqttMapper::extractSubscriptions">
-<area shape="rect" id="Node000001" title=" " alt="" coords="217,5,381,45"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a36bfd21132e7610370cec74520637f1e" title=" " alt="" coords="5,5,169,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,28,169,28,169,23,204,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="217,5,380,50"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a36bfd21132e7610370cec74520637f1e" title=" " alt="" coords="5,5,169,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,28,169,30,169,25,204,27"/>
 </map>

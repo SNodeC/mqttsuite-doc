@@ -60,9 +60,13 @@ var NAVTREEINDEX9 =
 "mqttbridge_2websocket_2SubProtocolFactory_8h.html#afce4c40f31a89bb18acd75c1756e7d0b":[11,0,1,1,1,1],
 "mqttbridge_2websocket_2SubProtocolFactory_8h_source.html":[11,0,1,1,1],
 "mqttbridge_8cpp.html":[11,0,1,2],
-"mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[11,0,1,2,0],
-"mqttbridge_8cpp.html#a3778dc96e8661f52ab44dfb543b2edca":[11,0,1,2,2],
-"mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0":[11,0,1,2,1],
+"mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[11,0,1,2,3],
+"mqttbridge_8cpp.html#a42a855cb88840465103ae50b200d2fe0":[11,0,1,2,0],
+"mqttbridge_8cpp.html#a42ab022d86966c58dd006aecc7079182":[11,0,1,2,6],
+"mqttbridge_8cpp.html#a4941a4eb2284362e544e96f5e7bbac1b":[11,0,1,2,1],
+"mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0":[11,0,1,2,4],
+"mqttbridge_8cpp.html#ab48c8d7811401295e65070e51bc8fddd":[11,0,1,2,5],
+"mqttbridge_8cpp.html#ae1ac036504dd99e9bb6ae5967850f56e":[11,0,1,2,2],
 "mqttbridge_8cpp_source.html":[11,0,1,2],
 "mqttbroker_2SocketContextFactory_8cpp.html":[11,0,2,3],
 "mqttbroker_2SocketContextFactory_8cpp_source.html":[11,0,2,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "namespacemqtt_1_1mqttintegrator_1_1websocket.html":[9,0,11,5,1],
 "namespacenlohmann.html":[9,0,12],
 "namespacenlohmann.html#af729788ccc2acf296150e3800e9a813e":[9,0,12,4],
-"namespacenlohmann_1_1json__schema.html":[9,0,12,0],
-"namespacenlohmann_1_1json__schema.html#a2e805cdf08d65b8c1dfd5cb558cb3a1e":[9,0,12,0,6],
-"namespacenlohmann_1_1json__schema.html#a3d527dae88a9fa392e682f07fdfff63c":[9,0,12,0,5],
-"namespacenlohmann_1_1json__schema.html#aa85e264f222e36fe1108824f0699db71":[9,0,12,0,7],
-"namespacenlohmann_1_1json__schema.html#acfe711c7d3edd56360380f7388dbe028":[9,0,12,0,8]
+"namespacenlohmann_1_1json__schema.html":[9,0,12,0]
 };

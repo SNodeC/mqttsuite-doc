@@ -1,7 +1,7 @@
 <map id="inja::IncludeStatementNode::IncludeStatementNode" name="inja::IncludeStatementNode::IncludeStatementNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,208,45"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html#a0bba1af707ebbe637bcfe3e1684f63d6" title=" " alt="" coords="256,5,412,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,23,242,23,242,28,209,28"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec" title=" " alt="" coords="460,13,632,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,23,446,23,446,28,412,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,208,50"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html#a0bba1af707ebbe637bcfe3e1684f63d6" title=" " alt="" coords="256,5,411,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,25,243,27,237,28,208,30"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec" title=" " alt="" coords="459,14,630,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,25,446,28,441,28,411,30"/>
 </map>

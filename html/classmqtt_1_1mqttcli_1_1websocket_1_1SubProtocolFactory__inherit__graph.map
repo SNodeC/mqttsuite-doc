@@ -1,5 +1,5 @@
 <map id="mqtt::mqttcli::websocket::SubProtocolFactory" name="mqtt::mqttcli::websocket::SubProtocolFactory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="19,108,192,148"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,205,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,74,108,108,103,108,103,74"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="19,115,192,160"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,205,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,80,108,116,103,114,103,84"/>
 </map>

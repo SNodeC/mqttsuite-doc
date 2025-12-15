@@ -111,7 +111,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for mqtt::lib::JsonMappingReader:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader__coll__graph.svg" width="456" height="332"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader__coll__graph.svg" width="454" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -199,40 +199,39 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   77</span>                            <span class="keywordflow">try</span> {</div>
 <div class="line"><span class="lineno">   78</span>                                <span class="keyword">const</span> nlohmann::json defaultPatch = <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1json__validator.html#affff379ae30b7ab48c81d5b65e34f613">validate</a>(<a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath]);</div>
 <div class="line"><span class="lineno">   79</span> </div>
-<div class="line"><span class="lineno">   80</span>                                <span class="keywordflow">if</span> (!defaultPatch.empty()) {</div>
-<div class="line"><span class="lineno">   81</span>                                    <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   82</span>                                        <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath] = <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].patch(defaultPatch);</div>
-<div class="line"><span class="lineno">   83</span>                                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   84</span>                                        VLOG(1) &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">   85</span>                                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Patching JSON with default patch failed:\n&quot;</span> &lt;&lt; defaultPatch.dump(4);</div>
-<div class="line"><span class="lineno">   86</span>                                        <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">   87</span>                                    }</div>
-<div class="line"><span class="lineno">   88</span>                                }</div>
-<div class="line"><span class="lineno">   89</span>                            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   90</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Validating JSON failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].dump(4);</div>
-<div class="line"><span class="lineno">   91</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">   92</span>                                <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">   93</span>                            }</div>
-<div class="line"><span class="lineno">   94</span>                        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   95</span>                            VLOG(1) &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">   96</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Setting root json mapping schema failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>.dump(4);</div>
-<div class="line"><span class="lineno">   97</span>                            <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">   98</span>                        }</div>
-<div class="line"><span class="lineno">   99</span>                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  100</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;JSON map file parsing failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot; at &quot;</span> &lt;&lt; mapFile.tellg();</div>
-<div class="line"><span class="lineno">  101</span>                        <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">  102</span>                    }</div>
-<div class="line"><span class="lineno">  103</span>                    mapFile.close();</div>
-<div class="line"><span class="lineno">  104</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  105</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath: &quot;</span> &lt;&lt; mapFilePath &lt;&lt; <span class="stringliteral">&quot; not found&quot;</span>;</div>
-<div class="line"><span class="lineno">  106</span>                }</div>
-<div class="line"><span class="lineno">  107</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  108</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath empty&quot;</span>;</div>
-<div class="line"><span class="lineno">  109</span>            }</div>
-<div class="line"><span class="lineno">  110</span>        }</div>
-<div class="line"><span class="lineno">  111</span> </div>
-<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath];</div>
-<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="line"><span class="lineno">   80</span>                                <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   81</span>                                    <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath] = <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].patch(defaultPatch);</div>
+<div class="line"><span class="lineno">   82</span>                                } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   83</span>                                    VLOG(1) &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">   84</span>                                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Patching JSON with default patch failed:\n&quot;</span> &lt;&lt; defaultPatch.dump(4);</div>
+<div class="line"><span class="lineno">   85</span>                                    <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
+<div class="line"><span class="lineno">   86</span>                                }</div>
+<div class="line"><span class="lineno">   87</span>                            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   88</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Validating JSON failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].dump(4);</div>
+<div class="line"><span class="lineno">   89</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">   90</span>                                <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
+<div class="line"><span class="lineno">   91</span>                            }</div>
+<div class="line"><span class="lineno">   92</span>                        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   93</span>                            VLOG(1) &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">   94</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Setting root json mapping schema failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>.dump(4);</div>
+<div class="line"><span class="lineno">   95</span>                            <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
+<div class="line"><span class="lineno">   96</span>                        }</div>
+<div class="line"><span class="lineno">   97</span>                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   98</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;JSON map file parsing failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot; at &quot;</span> &lt;&lt; mapFile.tellg();</div>
+<div class="line"><span class="lineno">   99</span>                        <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
+<div class="line"><span class="lineno">  100</span>                    }</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>                    mapFile.close();</div>
+<div class="line"><span class="lineno">  103</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  104</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath: &quot;</span> &lt;&lt; mapFilePath &lt;&lt; <span class="stringliteral">&quot; not found&quot;</span>;</div>
+<div class="line"><span class="lineno">  105</span>                }</div>
+<div class="line"><span class="lineno">  106</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  107</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath empty&quot;</span>;</div>
+<div class="line"><span class="lineno">  108</span>            }</div>
+<div class="line"><span class="lineno">  109</span>        }</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath];</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
 <div class="ttc" id="abinary-validation_8cpp_html_a820926de17b335791346eebf13c76b62"><div class="ttname"><a href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a></div><div class="ttdeci">nlohmann::json_schema::json_validator validator</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00031">binary-validation.cpp:31</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a4651167567038941293bdb96c416f327"><div class="ttname"><a href="#a4651167567038941293bdb96c416f327">mqtt::lib::JsonMappingReader::mappingJsonSchema</a></div><div class="ttdeci">static nlohmann::json mappingJsonSchema</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00062">JsonMappingReader.h:62</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_ad6c1204c931c25eb1e43d660554cedf7"><div class="ttname"><a href="#ad6c1204c931c25eb1e43d660554cedf7">mqtt::lib::JsonMappingReader::mapFileJsons</a></div><div class="ttdeci">static std::map&lt; std::string, nlohmann::json &gt; mapFileJsons</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00065">JsonMappingReader.h:65</a></div></div>
@@ -249,7 +248,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a77231994bd3ef854feb2db79dd71746b_icgraph.svg" width="506" height="210"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a77231994bd3ef854feb2db79dd71746b_icgraph.svg" width="504" height="227"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

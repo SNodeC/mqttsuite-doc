@@ -1,6 +1,6 @@
 <map id="mqtt::lib::MqttMapper::extractSubscriptions" name="mqtt::lib::MqttMapper::extractSubscriptions">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,169,45"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#a0aaa509065586f1c2cb1f2f453263eed" title=" " alt="" coords="217,5,381,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,31,204,32,204,37,170,37"/>
-<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="217,19,183,19,183,14,217,14"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,169,50"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#a0aaa509065586f1c2cb1f2f453263eed" title=" " alt="" coords="217,5,380,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,34,204,37,198,37,169,39"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="214,19,184,21,184,16,219,19"/>
 </map>

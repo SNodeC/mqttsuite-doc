@@ -1,15 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="8,63,168,88"/>
-<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html" title=" " alt="" coords="219,5,383,31"/>
-<area shape="poly" id="edge36_Node000000_Node000001" title=" " alt="" coords="148,56,252,28,254,33,150,62"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html" title=" " alt="" coords="235,55,366,95"/>
-<area shape="poly" id="edge37_Node000000_Node000002" title=" " alt="" coords="182,73,235,73,235,78,182,78"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html" title=" " alt="" coords="223,119,379,159"/>
-<area shape="poly" id="edge38_Node000000_Node000003" title=" " alt="" coords="145,90,234,117,233,122,143,95"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="5,191,171,216"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html" title=" " alt="" coords="222,183,379,223"/>
-<area shape="poly" id="edge39_Node000006_Node000005" title=" " alt="" coords="185,201,222,201,222,206,185,206"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1MqttMapper.html" title=" " alt="" coords="6,133,170,159"/>
-<area shape="poly" id="edge41_Node000004_Node000003" title=" " alt="" coords="184,140,222,139,223,144,184,146"/>
-<area shape="poly" id="edge40_Node000004_Node000005" title=" " alt="" coords="150,160,227,181,225,186,148,165"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="8,65,167,93"/>
+<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html" title=" " alt="" coords="218,5,381,33"/>
+<area shape="poly" id="edge36_Node000000_Node000001" title=" " alt="" coords="152,58,250,32,246,35,154,63"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html" title=" " alt="" coords="234,57,364,102"/>
+<area shape="poly" id="edge37_Node000000_Node000002" title=" " alt="" coords="182,77,236,78,232,80,183,82"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html" title=" " alt="" coords="222,126,377,171"/>
+<area shape="poly" id="edge38_Node000000_Node000003" title=" " alt="" coords="147,96,231,124,226,127,147,101"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,204,170,232"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html" title=" " alt="" coords="221,196,378,240"/>
+<area shape="poly" id="edge39_Node000006_Node000005" title=" " alt="" coords="185,215,223,218,218,218,186,220"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1MqttMapper.html" title=" " alt="" coords="6,143,169,170"/>
+<area shape="poly" id="edge41_Node000004_Node000003" title=" " alt="" coords="184,150,224,151,219,152,185,155"/>
+<area shape="poly" id="edge40_Node000004_Node000005" title=" " alt="" coords="153,172,223,194,218,196,152,178"/>
 </map>

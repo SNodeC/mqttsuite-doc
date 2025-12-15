@@ -260,8 +260,8 @@ var NAVTREEINDEX =
 "classnlohmann_1_1json__schema_1_1json__validator.html#ad8f46dfed69afe463732ae335879dabb",
 "globals_a.html",
 "issue-293_8cpp.html#a8ee39622edc153e58dfa5711984ac185",
-"namespacenlohmann_1_1json__schema.html#ae33bec52699b28a669ec433ac0c095f8",
-"structmqtt_1_1lib_1_1FunctionBase.html#a15fc5fdcf57f98d352c6a40500bd75cb"
+"namespacenlohmann_1_1json__schema.html#a2e805cdf08d65b8c1dfd5cb558cb3a1e",
+"structmqtt_1_1lib_1_1Function.html#a8de4d51519e287d3ae0fb1277e3623f6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

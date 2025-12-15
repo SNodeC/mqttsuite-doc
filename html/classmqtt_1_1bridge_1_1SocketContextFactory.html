@@ -111,7 +111,7 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for mqtt::bridge::SocketContextFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1SocketContextFactory__inherit__graph.svg" width="206" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1SocketContextFactory__inherit__graph.svg" width="204" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for mqtt::bridge::SocketContextFactory:</div>
@@ -155,9 +155,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00055">55</a> of file <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   56</span>        : <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>(<a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>) {</div>
-<div class="line"><span class="lineno">   57</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00061">61</a> of file <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>        : <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>(<a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>) {</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1SocketContextFactory_html_ac4d70d7ffa5afe5ae50e053a75ec48b9"><div class="ttname"><a href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">mqtt::bridge::SocketContextFactory::broker</a></div><div class="ttdeci">const mqtt::bridge::lib::Broker &amp; broker</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2SocketContextFactory_8h_source.html#l00064">SocketContextFactory.h:64</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mqttbridge_2SocketContextFactory_8h_source.html#l00064">broker</a>.</p>
@@ -188,12 +188,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00059">59</a> of file <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   59</span>                                                                                                                  {</div>
-<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::SocketContext(socketConnection, <span class="keyword">new</span> mqtt::bridge::lib::Mqtt(socketConnection-&gt;getConnectionName(), <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>));</div>
-<div class="line"><span class="lineno">   61</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">65</a> of file <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>                                                                                                                  {</div>
+<div class="line"><span class="lineno">   66</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Creating Broker instance &#39;&quot;</span> &lt;&lt; <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getName() &lt;&lt; <span class="stringliteral">&quot;&#39; of Bridge &#39;&quot;</span> &lt;&lt; <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getBridge().getName() &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
+<div class="line"><span class="lineno">   67</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Bridge client id : &quot;</span> &lt;&lt; <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getClientId();</div>
+<div class="line"><span class="lineno">   68</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Transport: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getTransport();</div>
+<div class="line"><span class="lineno">   69</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Protocol: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getProtocol();</div>
+<div class="line"><span class="lineno">   70</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Encryption: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getEncryption();</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Topics:&quot;</span>;</div>
+<div class="line"><span class="lineno">   73</span>        <span class="keyword">const</span> std::list&lt;iot::mqtt::Topic&gt;&amp; topics = <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>.getTopics();</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> iot::mqtt::Topic&amp; topic : topics) {</div>
+<div class="line"><span class="lineno">   75</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;      &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(topic.getQoS()) &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; topic.getName();</div>
+<div class="line"><span class="lineno">   76</span>        }</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::SocketContext(socketConnection, <span class="keyword">new</span> mqtt::bridge::lib::Mqtt(socketConnection-&gt;getConnectionName(), <a class="code hl_variable" href="#ac4d70d7ffa5afe5ae50e053a75ec48b9">broker</a>));</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbridge_2SocketContextFactory_8h_source.html#l00064">broker</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00059">mqtt::bridge::lib::Mqtt::Mqtt()</a>.</p>
+<p class="reference">References <a class="el" href="mqttbridge_2SocketContextFactory_8h_source.html#l00064">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00094">mqtt::bridge::lib::Broker::getBridge()</a>, <a class="el" href="Broker_8cpp_source.html#l00102">mqtt::bridge::lib::Broker::getClientId()</a>, <a class="el" href="Broker_8cpp_source.html#l00150">mqtt::bridge::lib::Broker::getEncryption()</a>, <a class="el" href="Bridge_8cpp_source.html#l00061">mqtt::bridge::lib::Bridge::getName()</a>, <a class="el" href="Broker_8cpp_source.html#l00142">mqtt::bridge::lib::Broker::getName()</a>, <a class="el" href="Broker_8cpp_source.html#l00146">mqtt::bridge::lib::Broker::getProtocol()</a>, <a class="el" href="Broker_8cpp_source.html#l00166">mqtt::bridge::lib::Broker::getTopics()</a>, <a class="el" href="Broker_8cpp_source.html#l00154">mqtt::bridge::lib::Broker::getTransport()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00059">mqtt::bridge::lib::Mqtt::Mqtt()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -225,7 +237,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="mqttbridge_2SocketContextFactory_8h_source.html#l00064">64</a> of file <a class="el" href="mqttbridge_2SocketContextFactory_8h_source.html">SocketContextFactory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00059">create()</a>, and <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00055">SocketContextFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">create()</a>, and <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00061">SocketContextFactory()</a>.</p>
 
 </div>
 </div>

@@ -1,7 +1,7 @@
 <map id="inja::Parser::load_file" name="inja::Parser::load_file">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,164,31"/>
-<area shape="rect" id="Node000002" href="$structinja_1_1FileError.html#a0912694cd232d6cd688f0f68336145c9" title=" " alt="" coords="212,5,380,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,15,198,15,198,21,164,21"/>
-<area shape="rect" id="Node000003" href="$structinja_1_1InjaError.html#a0b31b1a26674ec73a9702f41155608da" title=" " alt="" coords="428,5,600,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,15,414,15,414,21,381,21"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,164,33"/>
+<area shape="rect" id="Node000002" href="$structinja_1_1FileError.html#a0912694cd232d6cd688f0f68336145c9" title=" " alt="" coords="212,5,379,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,17,199,19,193,19,164,22"/>
+<area shape="rect" id="Node000003" href="$structinja_1_1InjaError.html#a0b31b1a26674ec73a9702f41155608da" title=" " alt="" coords="427,5,598,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,17,414,19,408,19,380,22"/>
 </map>

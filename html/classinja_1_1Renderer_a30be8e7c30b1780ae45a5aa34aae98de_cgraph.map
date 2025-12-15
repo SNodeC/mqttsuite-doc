@@ -1,11 +1,11 @@
 <map id="inja::Renderer::throw_renderer_error" name="inja::Renderer::throw_renderer_error">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,164,75"/>
-<area shape="rect" id="Node000002" href="$namespaceinja.html#ab7c8c54f2caeb72095cd78a7ff7b6c37" title=" " alt="" coords="212,13,396,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,41,198,37,199,42,165,47"/>
-<area shape="rect" id="Node000004" href="$structinja_1_1RenderError.html#a24568cf50805c33dec821fb1edfb02f5" title=" " alt="" coords="235,63,373,103"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,62,222,69,221,75,164,67"/>
-<area shape="rect" id="Node000003" href="$namespaceinja_1_1string__view.html#a898871016595d8f34d1b4ea55b3e8684" title=" " alt="" coords="461,5,599,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,23,447,23,447,28,396,28"/>
-<area shape="rect" id="Node000005" href="$structinja_1_1InjaError.html#a399b7d2f7c824c24b7794694711bafb7" title=" " alt="" coords="444,70,616,95"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="374,80,430,80,430,85,374,85"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,36,163,81"/>
+<area shape="rect" id="Node000002" href="$namespaceinja.html#ab7c8c54f2caeb72095cd78a7ff7b6c37" title=" " alt="" coords="211,14,394,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,45,198,42,192,43,164,50"/>
+<area shape="rect" id="Node000004" href="$structinja_1_1RenderError.html#a24568cf50805c33dec821fb1edfb02f5" title=" " alt="" coords="233,65,372,110"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,66,220,76,215,77,163,72"/>
+<area shape="rect" id="Node000003" href="$namespaceinja_1_1string__view.html#a898871016595d8f34d1b4ea55b3e8684" title=" " alt="" coords="460,5,596,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="394,25,447,27,441,28,394,30"/>
+<area shape="rect" id="Node000005" href="$structinja_1_1InjaError.html#a399b7d2f7c824c24b7794694711bafb7" title=" " alt="" coords="442,74,613,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="372,85,429,88,423,88,372,90"/>
 </map>

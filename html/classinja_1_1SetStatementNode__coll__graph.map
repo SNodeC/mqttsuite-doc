@@ -1,19 +1,19 @@
 <map id="inja::SetStatementNode" name="inja::SetStatementNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="143,385,311,411"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="5,129,152,155"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,168,98,237,111,276,130,313,148,335,168,354,208,383,205,387,165,358,144,339,126,316,106,278,92,238,79,169"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="123,5,221,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,43,90,131,85,128,153,40"/>
-<area shape="rect" id="Node000006" href="$classinja_1_1ExpressionListNode.html" title=" " alt="" coords="140,289,313,315"/>
-<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="176,44,183,122,200,218,224,288,219,290,195,219,178,123,171,44"/>
-<area shape="rect" id="Node000008" href="$classinja_1_1ExpressionNode.html" title=" " alt="" coords="209,80,359,105"/>
-<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="203,36,267,78,265,82,200,40"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="377,289,455,315"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="401,317,366,340,324,364,279,382,277,377,322,359,363,335,398,313"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="383,179,511,219"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="439,233,422,290,417,289,434,231"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="229,315,229,369,224,369,224,315"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="209,179,359,219"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="276,220,244,276,239,274,271,218"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="287,105,287,162,281,162,281,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="154,404,319,432"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1StatementNode.html" title=" " alt="" coords="5,134,150,162"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,174,104,249,120,290,141,330,159,352,179,372,219,404,214,404,176,376,155,355,137,332,115,293,99,250,82,179"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="121,5,218,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,47,89,136,84,133,153,42"/>
+<area shape="rect" id="Node000006" href="$classinja_1_1ExpressionListNode.html" title=" " alt="" coords="151,303,322,331"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="171,45,179,130,186,180,198,230,214,270,231,304,226,303,209,272,192,231,181,181,173,130,169,50"/>
+<area shape="rect" id="Node000008" href="$classinja_1_1ExpressionNode.html" title=" " alt="" coords="206,82,354,110"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="200,39,265,82,260,83,201,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="382,303,458,331"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="408,330,374,357,334,382,292,401,291,396,331,378,371,353,403,332"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="378,186,506,230"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="437,243,425,305,421,302,433,246"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="238,329,239,388,234,386,234,333"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="207,186,354,230"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="274,228,250,289,246,286,270,232"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="282,107,283,170,278,168,279,112"/>
 </map>

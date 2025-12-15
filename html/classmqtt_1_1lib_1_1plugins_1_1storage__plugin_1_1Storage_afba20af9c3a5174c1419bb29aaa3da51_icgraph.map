@@ -1,18 +1,18 @@
 <map id="mqtt::lib::plugins::storage_plugin::Storage::instance" name="mqtt::lib::plugins::storage_plugin::Storage::instance">
-<area shape="rect" id="Node000001" title=" " alt="" coords="469,157,653,212"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a59cfa5e554e04283efd19b66e6f5d432" title=" " alt="" coords="237,67,421,121"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="477,155,399,124,401,119,479,150"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a5d4c71bb66d3ca2fdc043a36fbb7e2aa" title=" " alt="" coords="5,5,189,60"/>
-<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="530,148,482,98,453,75,420,56,363,38,303,28,244,24,190,25,189,20,244,19,303,22,364,33,422,52,456,70,486,94,534,144"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a50175b9a412c4088905279d60ff8a899" title=" " alt="" coords="5,87,189,141"/>
-<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="455,171,189,131,190,125,456,166"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18" title=" " alt="" coords="5,171,189,225"/>
-<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="455,190,190,198,190,193,455,185"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a594347f9cee41b91bcb9da36dddfd1ec" title=" " alt="" coords="237,248,421,303"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="479,220,401,250,399,245,477,215"/>
-<area shape="rect" id="Node000007" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a0240da97e9fb3f6c9c5a13bf2b22bf69" title=" " alt="" coords="237,327,421,381"/>
-<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="529,224,481,272,423,318,403,329,400,324,420,313,478,268,525,220"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,69,189,60,190,54,224,63"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="223,106,190,109,189,103,223,100"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="256,130,160,173,158,168,254,125"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="468,164,651,226"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a59cfa5e554e04283efd19b66e6f5d432" title=" " alt="" coords="237,71,420,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="465,158,407,136,407,130,470,157"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a5d4c71bb66d3ca2fdc043a36fbb7e2aa" title=" " alt="" coords="5,5,189,67"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="525,151,479,103,451,80,419,61,362,42,302,32,243,28,190,29,188,24,243,23,303,26,363,37,421,56,454,75,483,99,531,152"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a50175b9a412c4088905279d60ff8a899" title=" " alt="" coords="5,92,189,154"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="451,180,189,140,189,134,454,176"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18" title=" " alt="" coords="5,181,189,243"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="451,201,189,211,189,206,454,197"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a594347f9cee41b91bcb9da36dddfd1ec" title=" " alt="" coords="237,257,420,319"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="470,231,408,259,406,254,465,233"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a0240da97e9fb3f6c9c5a13bf2b22bf69" title=" " alt="" coords="237,343,420,404"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="524,236,477,287,422,333,403,345,401,340,418,329,474,283,520,239"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,73,190,65,188,60,225,70"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="219,113,190,117,188,112,224,110"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="247,142,165,183,162,178,250,138"/>
 </map>

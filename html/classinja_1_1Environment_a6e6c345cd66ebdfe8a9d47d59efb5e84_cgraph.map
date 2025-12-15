@@ -1,9 +1,9 @@
 <map id="inja::Environment::render_file_with_json_file" name="inja::Environment::render_file_with_json_file">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,195,45"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#a63883423839a4c9651997e14ee9bd10b" title=" " alt="" coords="243,5,388,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,23,229,23,229,28,195,28"/>
-<area shape="rect" id="Node000003" href="$structinja_1_1FileError.html#a0912694cd232d6cd688f0f68336145c9" title=" " alt="" coords="436,13,604,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,23,422,23,422,28,388,28"/>
-<area shape="rect" id="Node000004" href="$structinja_1_1InjaError.html#a0b31b1a26674ec73a9702f41155608da" title=" " alt="" coords="652,13,824,38"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="605,23,638,23,638,28,605,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,194,50"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#a63883423839a4c9651997e14ee9bd10b" title=" " alt="" coords="242,5,386,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,25,229,27,223,28,194,30"/>
+<area shape="rect" id="Node000003" href="$structinja_1_1FileError.html#a0912694cd232d6cd688f0f68336145c9" title=" " alt="" coords="434,14,601,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,25,421,28,416,28,387,30"/>
+<area shape="rect" id="Node000004" href="$structinja_1_1InjaError.html#a0b31b1a26674ec73a9702f41155608da" title=" " alt="" coords="649,14,821,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="602,25,636,28,631,28,602,30"/>
 </map>

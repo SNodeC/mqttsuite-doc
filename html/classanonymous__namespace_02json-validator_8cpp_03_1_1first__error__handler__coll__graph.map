@@ -1,10 +1,10 @@
 <map id="anonymous_namespace{json&#45;validator.cpp}::first_error_handler" name="anonymous_namespace{json&#45;validator.cpp}::first_error_handler">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,205,176,260"/>
-<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="5,95,176,135"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,148,86,205,80,205,80,148"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="102,148,101,205,96,205,96,148"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="200,102,277,127"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="226,130,139,197,135,193,222,125"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="175,5,303,45"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="241,59,241,102,236,102,236,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,217,174,279"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="5,99,174,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,157,84,218,79,217,80,161"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="100,157,100,218,95,216,96,161"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="198,108,274,136"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="224,134,139,208,136,204,219,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="172,5,300,50"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="238,62,239,109,234,107,235,67"/>
 </map>

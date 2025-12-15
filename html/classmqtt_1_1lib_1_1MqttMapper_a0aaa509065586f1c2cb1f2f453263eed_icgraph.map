@@ -1,10 +1,10 @@
 <map id="mqtt::lib::MqttMapper::extractSubscription" name="mqtt::lib::MqttMapper::extractSubscription">
-<area shape="rect" id="Node000001" title=" " alt="" coords="641,5,805,45"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#afdb06854e763267e43a1a344535ce782" title=" " alt="" coords="429,5,593,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="628,37,593,37,593,31,628,32"/>
-<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="607,14,641,14,641,19,607,19"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html#af7b7f3ea70079f2dce04cee40e737713" title=" " alt="" coords="217,5,381,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="416,28,381,28,381,23,416,23"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a36bfd21132e7610370cec74520637f1e" title=" " alt="" coords="5,5,169,45"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="204,28,169,28,169,23,204,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="639,5,803,50"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#afdb06854e763267e43a1a344535ce782" title=" " alt="" coords="428,5,591,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="621,37,592,39,592,34,627,37"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="607,16,642,19,636,19,607,21"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html#af7b7f3ea70079f2dce04cee40e737713" title=" " alt="" coords="217,5,380,50"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="410,28,381,30,380,25,415,28"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a36bfd21132e7610370cec74520637f1e" title=" " alt="" coords="5,5,169,50"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="199,28,169,30,169,25,204,27"/>
 </map>

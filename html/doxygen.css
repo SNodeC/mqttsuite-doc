@@ -2480,7 +2480,7 @@ details[open]>summary::before {
 }
 
 html {
---timestamp: 'Fri Dec 5 2025 19:32:15';
+--timestamp: 'Mon Dec 15 2025 19:26:05';
 }
 span.timestamp { content: ' '; }
 span.timestamp:before { content: var(--timestamp); }

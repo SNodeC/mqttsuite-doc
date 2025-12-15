@@ -1,7 +1,7 @@
 <map id="getOverviewPage" name="getOverviewPage">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,45,143,70"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a9423a3d458e7642931e54069583ac30d" title=" " alt="" coords="191,5,395,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,45,177,40,178,45,143,50"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce" title=" " alt="" coords="201,69,384,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,65,188,71,188,77,143,70"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,142,76"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a9423a3d458e7642931e54069583ac30d" title=" " alt="" coords="190,5,393,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,49,177,45,172,47,143,54"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a91fc1ed46bf75fded412034533ea60ce" title=" " alt="" coords="200,75,382,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,71,187,80,182,81,142,76"/>
 </map>

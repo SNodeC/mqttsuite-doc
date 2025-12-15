@@ -131,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a750e20fe14960d3a5944ecb03bf7e269" id="r_a750e20fe14960d3a5944ecb03bf7e269"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a750e20fe14960d3a5944ecb03bf7e269">getUsername</a> () const</td></tr>
 <tr class="memitem:a8b0a98fcc637171cc995cee2a8bd5685" id="r_a8b0a98fcc637171cc995cee2a8bd5685"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b0a98fcc637171cc995cee2a8bd5685">getPassword</a> () const</td></tr>
 <tr class="memitem:a12c314cbad6137819c767bc6ead98d3e" id="r_a12c314cbad6137819c767bc6ead98d3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c314cbad6137819c767bc6ead98d3e">getLoopPrevention</a> () const</td></tr>
-<tr class="memitem:a5524fd860edafd4abd60d6a26dc2f316" id="r_a5524fd860edafd4abd60d6a26dc2f316"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5524fd860edafd4abd60d6a26dc2f316">getInstanceName</a> () const</td></tr>
+<tr class="memitem:a0cb6a0b6686369928942a63621677fc7" id="r_a0cb6a0b6686369928942a63621677fc7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cb6a0b6686369928942a63621677fc7">getName</a> () const</td></tr>
 <tr class="memitem:a95796f4a7ef94d4ca6596fb436bb97ca" id="r_a95796f4a7ef94d4ca6596fb436bb97ca"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95796f4a7ef94d4ca6596fb436bb97ca">getProtocol</a> () const</td></tr>
 <tr class="memitem:a6eb76f6da39d0e64d2795ff275841042" id="r_a6eb76f6da39d0e64d2795ff275841042"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eb76f6da39d0e64d2795ff275841042">getEncryption</a> () const</td></tr>
 <tr class="memitem:ab06b48a9b2540604ca385935b79aa351" id="r_ab06b48a9b2540604ca385935b79aa351"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab06b48a9b2540604ca385935b79aa351">getTransport</a> () const</td></tr>
@@ -420,11 +420,11 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Broker_8h_source.html#l00117">bridge</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">mqtt::bridge::lib::Mqtt::onConnack()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00095">mqtt::bridge::lib::Mqtt::onDisconnected()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00117">mqtt::bridge::lib::Mqtt::onPublish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00108">addBridgeBrokerConnection()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00129">closeBridgeBrokerConnection()</a>, <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00116">delBridgeBrokerConnection()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">mqtt::bridge::lib::Mqtt::onConnack()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00095">mqtt::bridge::lib::Mqtt::onDisconnected()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00117">mqtt::bridge::lib::Mqtt::onPublish()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_acff6cddc56c9cdc2b0688d6482034131_icgraph.svg" width="404" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_acff6cddc56c9cdc2b0688d6482034131_icgraph.svg" width="543" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -455,7 +455,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a7ef2ec65092282a8690a4c1f6ddeba8b_icgraph.svg" width="643" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a7ef2ec65092282a8690a4c1f6ddeba8b_icgraph.svg" width="640" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -482,11 +482,11 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Broker_8h_source.html#l00126">clientId</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00059">mqtt::bridge::lib::Mqtt::Mqtt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00059">mqtt::bridge::lib::Mqtt::Mqtt()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a6d2569d96d1c3c9775d3094a57d298e0_icgraph.svg" width="595" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a6d2569d96d1c3c9775d3094a57d298e0_icgraph.svg" width="592" height="138"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -537,42 +537,11 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Broker_8h_source.html#l00122">encryption</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, and <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a6eb76f6da39d0e64d2795ff275841042_icgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a5524fd860edafd4abd60d6a26dc2f316" name="a5524fd860edafd4abd60d6a26dc2f316"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5524fd860edafd4abd60d6a26dc2f316">&#9670;&#160;</a></span>getInstanceName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string &amp; mqtt::bridge::lib::Broker::getInstanceName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Broker_8cpp_source.html#l00142">142</a> of file <a class="el" href="Broker_8cpp_source.html">Broker.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  142</span>                                                   {</div>
-<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a8c9d8fc6bb8f16182ca33091015b724c">instanceName</a>;</div>
-<div class="line"><span class="lineno">  144</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="Broker_8h_source.html#l00120">instanceName</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a5524fd860edafd4abd60d6a26dc2f316_icgraph.svg" width="456" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a6eb76f6da39d0e64d2795ff275841042_icgraph.svg" width="430" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -603,7 +572,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a537a5d925a917be20f784ac106bc7d2e_icgraph.svg" width="611" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a537a5d925a917be20f784ac106bc7d2e_icgraph.svg" width="607" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -634,7 +603,38 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a12c314cbad6137819c767bc6ead98d3e_icgraph.svg" width="658" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a12c314cbad6137819c767bc6ead98d3e_icgraph.svg" width="654" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0cb6a0b6686369928942a63621677fc7" name="a0cb6a0b6686369928942a63621677fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cb6a0b6686369928942a63621677fc7">&#9670;&#160;</a></span>getName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; mqtt::bridge::lib::Broker::getName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Broker_8cpp_source.html#l00142">142</a> of file <a class="el" href="Broker_8cpp_source.html">Broker.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  142</span>                                           {</div>
+<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a8c9d8fc6bb8f16182ca33091015b724c">instanceName</a>;</div>
+<div class="line"><span class="lineno">  144</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="Broker_8h_source.html#l00120">instanceName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, and <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a0cb6a0b6686369928942a63621677fc7_icgraph.svg" width="402" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -665,7 +665,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a8b0a98fcc637171cc995cee2a8bd5685_icgraph.svg" width="618" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a8b0a98fcc637171cc995cee2a8bd5685_icgraph.svg" width="615" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -696,7 +696,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_ad86912ec39c5469f7847a254f9f722ae_icgraph.svg" width="587" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_ad86912ec39c5469f7847a254f9f722ae_icgraph.svg" width="583" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -723,11 +723,11 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Broker_8h_source.html#l00121">protocol</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, and <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a95796f4a7ef94d4ca6596fb436bb97ca_icgraph.svg" width="416" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a95796f4a7ef94d4ca6596fb436bb97ca_icgraph.svg" width="414" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -758,7 +758,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a684990f7a76ea49f37375d6f6c6d1ba4_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a684990f7a76ea49f37375d6f6c6d1ba4_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -785,11 +785,11 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Broker_8h_source.html#l00140">topics</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">mqtt::bridge::lib::Mqtt::onConnack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">mqtt::bridge::lib::Mqtt::onConnack()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a42387cd6087e5d11c2bc441a64dfaffc_icgraph.svg" width="404" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a42387cd6087e5d11c2bc441a64dfaffc_icgraph.svg" width="402" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -816,11 +816,11 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Broker_8h_source.html#l00123">transport</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, and <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_ab06b48a9b2540604ca385935b79aa351_icgraph.svg" width="424" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_ab06b48a9b2540604ca385935b79aa351_icgraph.svg" width="422" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -851,7 +851,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a750e20fe14960d3a5944ecb03bf7e269_icgraph.svg" width="623" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a750e20fe14960d3a5944ecb03bf7e269_icgraph.svg" width="620" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -882,7 +882,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a6403697d2031730753912aaaf47cb1f4_icgraph.svg" width="639" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a6403697d2031730753912aaaf47cb1f4_icgraph.svg" width="636" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -913,7 +913,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_ae421318ee7d0d6287cdb43d605277a5b_icgraph.svg" width="607" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_ae421318ee7d0d6287cdb43d605277a5b_icgraph.svg" width="604" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -944,7 +944,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a41d9b2f5e10294198b45d1e217574f60_icgraph.svg" width="623" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a41d9b2f5e10294198b45d1e217574f60_icgraph.svg" width="620" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -975,7 +975,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a345589d52b437b118f272a50df7b4b7d_icgraph.svg" width="614" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Broker_a345589d52b437b118f272a50df7b4b7d_icgraph.svg" width="611" height="160"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1159,7 +1159,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="Broker_8h_source.html#l00120">120</a> of file <a class="el" href="Broker_8h_source.html">Broker.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Broker_8cpp_source.html#l00052">Broker()</a>, and <a class="el" href="Broker_8cpp_source.html#l00142">getInstanceName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Broker_8cpp_source.html#l00052">Broker()</a>, and <a class="el" href="Broker_8cpp_source.html#l00142">getName()</a>.</p>
 
 </div>
 </div>

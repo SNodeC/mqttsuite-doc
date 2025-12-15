@@ -1,5 +1,5 @@
 <map id="inja::BlockStatementNode::accept" name="inja::BlockStatementNode::accept">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,197,45"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1NodeVisitor.html#ad338eed1ae5d4d566145a22d9051375c" title=" " alt="" coords="245,5,384,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,23,231,23,231,28,198,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,197,50"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1NodeVisitor.html#ad338eed1ae5d4d566145a22d9051375c" title=" " alt="" coords="245,5,382,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,25,232,27,226,28,197,30"/>
 </map>

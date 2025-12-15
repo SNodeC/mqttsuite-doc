@@ -6,5 +6,5 @@ var MqttMapperPlugin_8h =
     [ "inja::Arguments", "namespaceinja.html#a012d663296619810e0a7a2d1f0986357", null ],
     [ "inja::json", "namespaceinja.html#aea17f29b0aca3b98657af767e69f2473", null ],
     [ "functions", "MqttMapperPlugin_8h.html#a33a89adcfe80866f20ab94d04284b163", null ],
-    [ "voidFunctions", "MqttMapperPlugin_8h.html#a466e105feee3640432740482e6d91d87", null ]
+    [ "voidFunctions", "MqttMapperPlugin_8h.html#ac20ef2d643869d8b6859c4ce4dc2747d", null ]
 ];
