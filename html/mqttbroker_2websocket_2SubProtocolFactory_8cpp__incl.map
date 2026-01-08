@@ -1,0 +1,21 @@
+<map id="mqttbroker/websocket/SubProtocolFactory.cpp" name="mqttbroker/websocket/SubProtocolFactory.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="675,5,851,50"/>
+<area shape="rect" id="Node000002" href="$mqttbroker_2websocket_2SubProtocolFactory_8h.html" title=" " alt="" coords="264,106,420,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="672,48,433,101,413,105,411,100,432,95,677,46"/>
+<area shape="rect" id="Node000006" href="$JsonMappingReader_8h.html" title=" " alt="" coords="444,106,626,134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="711,50,583,103,581,98,706,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="651,106,734,134"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="749,49,714,96,711,92,744,52"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="758,98,912,143"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="781,48,811,87,806,85,779,53"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="936,98,1099,143"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="824,48,945,93,940,92,824,53"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1123,98,1326,143"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="851,43,1111,96,1105,97,851,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,199,217,227"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="311,136,160,195,158,190,306,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="240,191,443,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="343,133,344,176,339,173,340,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="466,191,633,235"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="372,132,488,184,483,184,371,137"/>
+</map>

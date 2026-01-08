@@ -1,0 +1,10 @@
+<map id="inja::BlockNode" name="inja::BlockNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,341,118,369"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="13,5,110,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,48,64,342,59,341,59,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="83,106,230,151"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="72,30,129,92,124,94,73,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="78,224,246,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,268,87,331,83,327,140,268"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="158,148,163,208,157,206,156,153"/>
+</map>

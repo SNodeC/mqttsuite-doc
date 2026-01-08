@@ -1,0 +1,15 @@
+<map id="inja::Parser::add_operator" name="inja::Parser::add_operator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,194,76"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Parser.html#a1b11e4984c1934c4e670a609f728ceee" title=" " alt="" coords="242,40,381,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,60,229,62,223,63,194,65"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Lexer.html#a0ec13f470ddcf0c1fb7466f6168451b2" title=" " alt="" coords="429,5,572,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,47,411,44,416,43,382,52"/>
+<area shape="rect" id="Node000006" href="$structinja_1_1ParserError.html#aa76b83dd1badd3fcf64aff6feee7583c" title=" " alt="" coords="434,75,567,119"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="382,72,422,82,416,82,381,78"/>
+<area shape="rect" id="Node000004" href="$namespaceinja.html#ab7c8c54f2caeb72095cd78a7ff7b6c37" title=" " alt="" coords="620,14,804,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="572,25,607,27,602,28,573,30"/>
+<area shape="rect" id="Node000005" href="$namespaceinja_1_1string__view.html#a898871016595d8f34d1b4ea55b3e8684" title=" " alt="" coords="852,5,988,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="804,25,839,28,833,28,804,30"/>
+<area shape="rect" id="Node000007" href="$structinja_1_1InjaError.html#a399b7d2f7c824c24b7794694711bafb7" title=" " alt="" coords="626,83,798,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="567,94,613,97,608,97,567,100"/>
+</map>

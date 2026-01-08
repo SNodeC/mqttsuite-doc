@@ -1,0 +1,11 @@
+<map id="inja::LexerConfig::update_open_chars" name="inja::LexerConfig::update_open_chars">
+<area shape="rect" id="Node000001" title=" " alt="" coords="200,109,347,154"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#a7068e0cde9fdf7d3260930694e185ccb" title="Sets the opener and closer for template comments." alt="" coords="6,5,151,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,102,150,65,129,53,128,48,153,60,224,100"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Environment.html#aa5cca8f0975585166e24c2c8ee7b064c" title="Sets the opener and closer for template expressions." alt="" coords="6,75,151,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,117,152,113,151,107,187,115"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1Environment.html#a7325934e8d2fcfd2753604830519342e" title="Sets the opener for template line statements." alt="" coords="5,144,152,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,149,153,156,151,151,187,146"/>
+<area shape="rect" id="Node000005" href="$classinja_1_1Environment.html#a3de73df9dc768bd00633a41a58fb5d41" title="Sets the opener and closer for template statements." alt="" coords="6,213,151,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="224,161,153,203,129,215,127,210,150,199,219,163"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="root_schema::schema_file" name="root_schema::schema_file">
+<area shape="rect" id="Node000001" title=" " alt="" coords="149,352,331,379"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="246,226,453,270"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="341,268,322,300,298,330,279,345,277,340,294,326,318,297,336,271"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="204,108,279,136"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="253,133,323,212,317,213,251,138"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="43,217,221,279"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="234,133,185,195,174,207,170,203,181,191,230,137"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="178,5,305,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="243,62,244,109,239,107,240,67"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="303,108,492,136"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="395,133,366,211,362,208,391,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="160,276,207,326,219,340,214,339,203,329,158,281"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,99,179,144"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="94,141,105,192,109,202,104,202,100,194,93,146"/>
+</map>

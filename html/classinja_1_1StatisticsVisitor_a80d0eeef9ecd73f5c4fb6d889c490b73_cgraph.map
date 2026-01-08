@@ -1,0 +1,7 @@
+<map id="inja::StatisticsVisitor::visit" name="inja::StatisticsVisitor::visit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,161,50"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1ExpressionNode.html#a67372edaf18af67e3c3ed0649323d829" title=" " alt="" coords="209,5,367,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,25,196,27,190,28,161,30"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1NodeVisitor.html#ac1487c93e9e91cba1bf57741842ba6d3" title=" " alt="" coords="415,5,552,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,25,402,28,397,28,367,30"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="nlohmann::json_schema::json_validator::validate" name="nlohmann::json_schema::json_validator::validate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,135,188,179"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1root__schema.html#a32f6012c2d81f29ca16e4409dd2b5ea3" title=" " alt="" coords="236,135,415,179"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,154,222,156,218,158,189,160"/>
+<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650" title=" " alt="" coords="463,5,642,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="354,132,403,96,462,60,476,56,472,58,464,65,406,101,357,136"/>
+<area shape="rect" id="Node000004" href="$classnlohmann_1_1json__uri.html#a21ba5d6a76804eabd867a2d03370c945" title=" " alt="" coords="480,75,625,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="411,132,468,119,463,121,413,137"/>
+<area shape="rect" id="Node000005" href="$classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de" title=" " alt="" coords="690,165,836,210"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="415,161,677,180,672,183,415,166"/>
+<area shape="rect" id="Node000006" href="$classnlohmann_1_1json__uri.html#a416eb06b53676b215761f43200da309f" title=" " alt="" coords="480,195,625,239"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="412,177,468,194,463,194,412,183"/>
+<area shape="rect" id="Node000007" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a2509ace246d9dcec607e75377753a5ea" title=" " alt="" coords="463,264,642,325"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="357,177,407,213,464,249,473,256,468,256,462,254,404,217,356,182"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="625,204,677,199,672,200,626,210"/>
+</map>

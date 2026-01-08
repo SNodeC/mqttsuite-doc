@@ -1,0 +1,37 @@
+<map id="nlohmann::json_schema::json_validator::validate" name="nlohmann::json_schema::json_validator::validate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="905,101,1087,146"/>
+<area shape="rect" id="Node000002" href="$readme_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="738,5,793,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="943,92,902,71,856,48,793,28,793,23,858,43,904,66,949,92"/>
+<area shape="rect" id="Node000003" href="$json-schema-validate_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="738,57,793,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="887,100,793,80,793,75,892,99"/>
+<area shape="rect" id="Node000004" href="$errors_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="738,109,793,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="887,124,794,126,793,121,892,123"/>
+<area shape="rect" id="Node000005" href="$namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#a5d2fa2fa048e5520dbcbad50438526ad" title=" " alt="" coords="391,119,626,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="887,145,857,151,739,157,627,157,627,152,738,152,856,146,892,144"/>
+<area shape="rect" id="Node000009" href="$classnlohmann_1_1json__schema_1_1json__validator.html#affff379ae30b7ab48c81d5b65e34f613" title=" " alt="" coords="674,236,857,280"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="945,153,807,237,805,232,940,155"/>
+<area shape="rect" id="Node000006" href="$namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#a4b7578a08dda4165bf9c386de4bc2bed" title=" " alt="" coords="108,38,343,99"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="382,115,336,103,335,97,387,113"/>
+<area shape="rect" id="Node000008" href="$namespaceanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03.html#a6c5072c56623259eab0124fc223a4bfc" title=" " alt="" coords="108,123,343,185"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="373,153,344,155,343,150,377,151"/>
+<area shape="rect" id="Node000007" href="$issue-105-verbose-combination-errors_8cpp.html#a8216c1645620cdb2f629cde3ac02ffef" title=" " alt="" coords="5,97,60,125"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="91,100,62,107,58,103,94,96"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="91,126,61,119,59,115,95,123"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="702,228,625,195,598,184,598,178,627,190,708,228"/>
+<area shape="rect" id="Node000010" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="402,205,615,250"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="656,245,615,243,615,237,662,245"/>
+<area shape="rect" id="Node000012" href="$format_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="482,273,536,301"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="656,271,537,287,536,282,661,269"/>
+<area shape="rect" id="Node000013" href="$issue-189-default-values_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="482,325,536,353"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="701,286,627,315,537,337,536,332,626,310,696,287"/>
+<area shape="rect" id="Node000014" href="$classnlohmann_1_1json__patch.html#ac7aea9496e07beb821fb9e5423fb76f5" title=" " alt="" coords="426,377,591,422"/>
+<area shape="poly" id="edge15_Node000009_Node000014" title=" " alt="" coords="732,290,684,331,628,367,592,382,590,377,625,362,681,327,727,292"/>
+<area shape="rect" id="Node000011" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="198,213,252,241"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="384,229,254,230,252,225,389,226"/>
+<area shape="rect" id="Node000015" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="143,342,308,387"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="408,388,308,377,308,372,414,387"/>
+<area shape="rect" id="Node000016" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="143,412,308,456"/>
+<area shape="poly" id="edge17_Node000014_Node000016" title=" " alt="" coords="414,411,308,426,308,421,408,411"/>
+<area shape="rect" id="Node000017" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,420,60,448"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="126,436,60,436,60,431,129,432"/>
+</map>

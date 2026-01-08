@@ -1,0 +1,9 @@
+<map id="mqttbroker/websocket/SubProtocolFactory.h" name="mqttbroker/websocket/SubProtocolFactory.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="258,5,425,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,106,217,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,50,160,103,158,98,284,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="240,98,443,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="343,48,344,84,339,81,340,52"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="466,98,633,143"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="392,48,489,91,483,91,391,53"/>
+</map>

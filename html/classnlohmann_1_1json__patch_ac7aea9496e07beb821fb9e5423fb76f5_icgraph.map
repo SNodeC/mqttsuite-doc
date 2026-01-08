@@ -1,0 +1,9 @@
+<map id="nlohmann::json_patch::validateJsonPatch" name="nlohmann::json_patch::validateJsonPatch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="320,40,484,85"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__patch.html#ae61d410c3afe7cf9b7a9589819e8f94a" title=" " alt="" coords="108,5,272,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="302,47,272,44,272,38,307,46"/>
+<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__patch.html#a9ed4f8e610b70b973f9fd59696d5c10b" title=" " alt="" coords="108,75,272,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,78,273,86,272,81,302,79"/>
+<area shape="rect" id="Node000004" href="$test_2json-patch_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,83,60,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,98,60,100,60,94,95,96"/>
+</map>

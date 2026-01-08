@@ -1,0 +1,10 @@
+<map id="loader" name="loader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,36,68,64"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__uri.html#a63674f908919cb2496e772e864be35de" title=" " alt="" coords="334,28,479,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,34,87,22,115,13,163,5,201,3,286,13,327,23,321,24,286,18,200,8,163,10,116,18,89,27,64,38"/>
+<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__uri.html#ab0048c647a2e7ecc718ed0a50e7cb0fb" title=" " alt="" coords="128,28,274,73"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="68,48,115,49,110,52,69,53"/>
+<area shape="rect" id="Node000004" href="$classnlohmann_1_1json__uri.html#a440d50f68e8978d2c9f476c4d2388768" title=" " alt="" coords="116,96,286,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="68,62,117,82,136,91,131,91,115,87,67,67"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="250,93,317,76,322,75,251,98"/>
+</map>

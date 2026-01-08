@@ -1,0 +1,19 @@
+<map id="nlohmann::json_schema::basic_error_handler::reset" name="nlohmann::json_schema::basic_error_handler::reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="379,139,558,200"/>
+<area shape="rect" id="Node000002" href="$classanonymous__namespace_02errors_8cpp_03_1_1store__ptr__err__handler.html#a6ec34c8b4446fbc630e09395d1294ea7" title=" " alt="" coords="130,5,309,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="410,130,330,81,307,70,307,65,332,76,415,129"/>
+<area shape="rect" id="Node000004" href="$classanonymous__namespace_02issue-149-entry-selection_8cpp_03_1_1store__err__handler.html#a0fa00e8651a19f68baebfb81dd180127" title=" " alt="" coords="108,91,331,152"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="361,150,332,146,331,140,366,149"/>
+<area shape="rect" id="Node000006" href="$classanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03_1_1store__ptr__err__handler.html#a3c865eb04befc464fa20800f42b5845d" title=" " alt="" coords="130,177,309,256"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="361,190,310,202,309,197,366,188"/>
+<area shape="rect" id="Node000008" href="$classstore__ptr__err__handler.html#aa0d1c04e90196bbfe464de25bc2c8cf9" title=" " alt="" coords="139,279,300,324"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="421,209,378,242,332,269,300,283,299,278,330,264,376,238,416,211"/>
+<area shape="rect" id="Node000003" href="$errors_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,22,60,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,38,61,38,59,34,116,34"/>
+<area shape="rect" id="Node000005" href="$issue-149-entry-selection_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,108,60,135"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="90,123,61,124,59,119,94,120"/>
+<area shape="rect" id="Node000007" href="$issue-70-root-schema-constructor_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,202,60,230"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="112,218,61,219,59,214,116,214"/>
+<area shape="rect" id="Node000009" href="$binary-validation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,288,60,315"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="122,304,60,304,60,299,125,299"/>
+</map>

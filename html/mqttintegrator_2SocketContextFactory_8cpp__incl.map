@@ -1,0 +1,21 @@
+<map id="mqttintegrator/SocketContextFactory.cpp" name="mqttintegrator/SocketContextFactory.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="382,5,596,50"/>
+<area shape="rect" id="Node000002" href="$mqttintegrator_2SocketContextFactory_8h.html" title=" " alt="" coords="43,106,217,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="401,53,198,105,196,100,404,48"/>
+<area shape="rect" id="Node000005" href="$JsonMappingReader_8h.html" title=" " alt="" coords="240,106,422,134"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="453,49,369,101,366,96,449,52"/>
+<area shape="rect" id="Node000006" href="$mqttintegrator_2lib_2Mqtt_8h.html" title=" " alt="" coords="447,106,530,134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="490,48,491,92,486,89,487,52"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="555,98,708,143"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="523,48,587,90,582,89,522,53"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="732,106,915,134"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="569,48,762,102,757,102,569,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,191,183,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,133,110,178,106,175,123,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="206,199,264,227"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="146,132,211,188,206,189,144,137"/>
+<area shape="rect" id="Node000007" href="$MqttMapper_8h.html" title=" " alt="" coords="356,199,488,227"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="482,133,442,189,439,184,477,136"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="512,199,671,227"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="504,132,568,189,562,188,502,137"/>
+</map>
