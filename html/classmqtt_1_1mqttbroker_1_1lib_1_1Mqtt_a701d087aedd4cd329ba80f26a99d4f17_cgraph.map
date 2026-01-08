@@ -1,9 +1,0 @@
-<map id="mqtt::mqttbroker::lib::Mqtt::onDisconnected" name="mqtt::mqttbroker::lib::Mqtt::onDisconnected">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,177,85"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a141dedccc7faab0f7fd3f1107030864d" title=" " alt="" coords="225,5,390,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,46,212,43,207,44,177,51"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a472d48d30d9626c722b64ddce4002e5f" title=" " alt="" coords="226,75,388,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,73,214,81,208,82,177,79"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07170b2273f528a0498479600ad2a95b" title=" " alt="" coords="438,5,613,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,25,425,27,420,28,390,30"/>
-</map>

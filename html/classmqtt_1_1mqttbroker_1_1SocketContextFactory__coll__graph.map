@@ -1,7 +1,0 @@
-<map id="mqtt::mqttbroker::SocketContextFactory" name="mqtt::mqttbroker::SocketContextFactory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="89,140,261,185"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,14,166,58"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,68,163,140,157,141,108,73"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="190,5,338,67"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,66,202,128,198,124,241,68"/>
-</map>

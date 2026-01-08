@@ -15,8 +15,7 @@ var searchData=
   ['highlights_12',['Schema Highlights',['../index.html#schema-highlights',1,'']]],
   ['host_13',['host',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a98fc1ff25d8d04e385db854da59d716f',1,'anonymous_namespace{string-format-check.cpp}']]],
   ['hostname_14',['hostname',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a8ad20cd4f38a9498e413a049333e98fe',1,'anonymous_namespace{string-format-check.cpp}']]],
-  ['href_15',['href',['../namespacemqtt_1_1mqttbroker_1_1lib.html#a02d5d1cde3771e3752ad77b18c0e2095',1,'mqtt::mqttbroker::lib::href()'],['../mqttbroker_8cpp.html#a41a2989a69eb2abb480616f166598a89',1,'href(const std::string &amp;text, const std::string &amp;link):&#160;mqttbroker.cpp'],['../mqttbroker_8cpp.html#a9dfd7c4353c3e607ddb8f6b0d920db36',1,'href(const std::string &amp;text, const std::string &amp;url, const std::string &amp;windowId, uint16_t width, uint16_t height):&#160;mqttbroker.cpp']]],
-  ['html_20templates_20for_20the_20web_20ui_20after_20the_20configuration_20has_20been_20saved_16',['(For development only) Use custom HTML templates for the Web UI (after the configuration has been saved)',['../index.html#for-development-only-use-custom-html-templates-for-the-web-ui-after-the-configuration-has-been-saved',1,'']]],
-  ['http_17',['Enable the Web Interface (HTTP)',['../index.html#enable-the-web-interface-http',1,'']]],
-  ['hunter_20package_20manager_18',['Building with Hunter package manager',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building-with-hunter-package-manager',1,'']]]
+  ['html_20templates_20for_20the_20web_20ui_20after_20the_20configuration_20has_20been_20saved_15',['(For development only) Use custom HTML templates for the Web UI (after the configuration has been saved)',['../index.html#for-development-only-use-custom-html-templates-for-the-web-ui-after-the-configuration-has-been-saved',1,'']]],
+  ['http_16',['Enable the Web Interface (HTTP)',['../index.html#enable-the-web-interface-http',1,'']]],
+  ['hunter_20package_20manager_17',['Building with Hunter package manager',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building-with-hunter-package-manager',1,'']]]
 ];

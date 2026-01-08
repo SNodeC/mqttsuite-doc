@@ -1,7 +1,0 @@
-<map id="inja::FunctionNode" name="inja::FunctionNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="13,157,145,184"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1ExpressionNode.html" title=" " alt="" coords="5,81,153,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,122,82,158,77,156,77,125"/>
-<area shape="rect" id="Node000003" href="$classinja_1_1AstNode.html" title="Base node class for the abstract syntax tree (AST)." alt="" coords="30,5,128,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,45,82,82,77,81,78,50"/>
-</map>

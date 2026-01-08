@@ -1,7 +1,0 @@
-<map id="inja::Environment::parse" name="inja::Environment::parse">
-<area shape="rect" id="Node000001" title=" " alt="" coords="198,36,342,81"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#aac36e0cfdc9e7926914e46c0cd1caada" title=" " alt="" coords="5,5,150,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,45,150,42,150,36,185,44"/>
-<area shape="rect" id="Node000003" href="$namespaceinja.html#a996f16f78b37d05e19cf44ac74d83e7e" title="render with default settings to the given output stream" alt="" coords="20,74,135,102"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,72,136,82,135,76,185,71"/>
-</map>

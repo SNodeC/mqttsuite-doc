@@ -1,9 +1,0 @@
-<map id="mqtt::lib::plugins::storage_plugin::Storage::exists" name="mqtt::lib::plugins::storage_plugin::Storage::exists">
-<area shape="rect" id="Node000001" title=" " alt="" coords="237,91,420,152"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a5d4c71bb66d3ca2fdc043a36fbb7e2aa" title=" " alt="" coords="5,5,189,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,86,183,70,182,65,232,84"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a50175b9a412c4088905279d60ff8a899" title=" " alt="" coords="5,91,189,152"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,122,190,124,189,119,224,121"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18" title=" " alt="" coords="5,176,189,238"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,157,183,178,182,173,227,159"/>
-</map>

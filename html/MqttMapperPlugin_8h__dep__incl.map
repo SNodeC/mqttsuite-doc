@@ -1,9 +1,0 @@
-<map id="lib/MqttMapperPlugin.h" name="lib/MqttMapperPlugin.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="158,5,330,33"/>
-<area shape="rect" id="Node000002" href="$MqttMapper_8cpp.html" title=" " alt="" coords="5,90,153,117"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,42,107,91,104,87,202,39"/>
-<area shape="rect" id="Node000003" href="$Double_8cpp.html" title=" " alt="" coords="176,81,312,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,47,247,82,242,79,243,51"/>
-<area shape="rect" id="Node000004" href="$Storage_8cpp.html" title=" " alt="" coords="336,81,478,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="285,38,366,80,361,80,284,43"/>
-</map>

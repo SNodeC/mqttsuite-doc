@@ -1,7 +1,0 @@
-<map id="delBridgeBrokerConnection" name="delBridgeBrokerConnection">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,204,76"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#acff6cddc56c9cdc2b0688d6482034131" title=" " alt="" coords="252,5,386,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,45,239,40,234,42,194,51"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a0e0d9cc3ced601acae6ace51438070b7" title=" " alt="" coords="252,75,386,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,74,240,84,234,84,194,79"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="formatAsLogString" name="formatAsLogString">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,148,60"/>
-<area shape="rect" id="Node000002" href="$mqttcli_2lib_2Mqtt_8cpp.html#a37ddab91e49593b85ab2a449ebe31926" title=" " alt="" coords="196,32,282,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,43,183,45,178,46,149,48"/>
-<area shape="rect" id="Node000003" href="$mqttcli_2lib_2Mqtt_8cpp.html#aeef618bbcfabda2b3bc7b08f8de636b7" title=" " alt="" coords="330,5,466,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,36,312,34,317,33,283,41"/>
-<area shape="rect" id="Node000004" href="$mqttcli_2lib_2Mqtt_8cpp.html#af65432cee33a80f84b065ea6e060d702" title=" " alt="" coords="338,57,458,85"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="283,50,326,59,320,59,282,55"/>
-</map>

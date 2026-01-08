@@ -1,9 +1,0 @@
-<map id="inja::Lexer::scan_id" name="inja::Lexer::scan_id">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,44,152,72"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1Lexer.html#a6088871283d1a03087b325b88c9396f4" title=" " alt="" coords="200,44,376,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,56,187,58,181,59,152,61"/>
-<area shape="rect" id="Node000003" href="$namespaceinja_1_1string__view.html#a898871016595d8f34d1b4ea55b3e8684" title=" " alt="" coords="424,5,560,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="376,42,411,40,406,41,377,48"/>
-<area shape="rect" id="Node000004" href="$structinja_1_1Token.html#ae215b2b1e365fc7c4060895b604e2430" title=" " alt="" coords="424,74,560,102"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="377,68,412,76,406,76,376,74"/>
-</map>

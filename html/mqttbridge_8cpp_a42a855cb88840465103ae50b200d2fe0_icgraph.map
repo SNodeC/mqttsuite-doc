@@ -1,5 +1,0 @@
-<map id="addBridgeBrokerConnection" name="addBridgeBrokerConnection">
-<area shape="rect" id="Node000001" title=" " alt="" coords="143,5,345,33"/>
-<area shape="rect" id="Node000002" href="$mqttbridge_8cpp.html#ab48c8d7811401295e65070e51bc8fddd" title=" " alt="" coords="5,5,95,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,19,95,22,95,17,130,19"/>
-</map>
