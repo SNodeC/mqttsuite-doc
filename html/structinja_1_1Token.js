@@ -34,6 +34,7 @@ var structinja_1_1Token =
       [ "GreaterEqual", "structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa758b05d899def79c9eb864ad4f96be1f", null ],
       [ "LessThan", "structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faac6d9d7bb9939f62f01c80f8b1251501c", null ],
       [ "LessEqual", "structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faad3e6fdac55bb7b0edd7834c968ba1f38", null ],
+      [ "Pipe", "structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa2ab1f3f893823298751fdf60b4e0365a", null ],
       [ "Unknown", "structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Eof", "structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa49650dcc55dc413da4032cbe44b15d37", null ]
     ] ],

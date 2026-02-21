@@ -17,5 +17,5 @@ var classinja_1_1StatisticsVisitor =
     [ "visit", "classinja_1_1StatisticsVisitor.html#a912458522605a798ac8b3746528f7dde", null ],
     [ "visit", "classinja_1_1StatisticsVisitor.html#a75f2e2c59c5f869a28540df2542dbdc5", null ],
     [ "visit", "classinja_1_1StatisticsVisitor.html#a9e320db17eb73c6b46563adcc8d142c3", null ],
-    [ "variable_counter", "classinja_1_1StatisticsVisitor.html#a66fb1e2fb03b4c8c0b4d6762f9990ab8", null ]
+    [ "variable_counter", "classinja_1_1StatisticsVisitor.html#aa662de6ff6e417360841c3ac7de6ff54", null ]
 ];

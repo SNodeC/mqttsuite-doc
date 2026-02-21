@@ -222,6 +222,7 @@ var NAVTREE =
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
+    [ "Concepts", "concepts.html", "concepts" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -251,17 +252,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BridgeStore_8cpp.html",
-"classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html#aadc5f55b348e69e83b600375ab3d1f6c",
-"classconanfile_1_1JsonSchemaValidatorConan.html#a07e69e30b8cb47ee686a6ab315a4ab16",
-"classinja_1_1FunctionStorage.html#ac2639295aca0260ec320e1c71da3e35e",
-"classinja_1_1Parser.html#a08f9845245e383ab99e73b200c3cdb5f",
-"classjson__validator.html#a48f742fda328ff2dc2de223e9452c4d1",
-"classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html#a843ee73f0182cea879cd45d9e924db8e",
-"classnlohmann_1_1json__schema_1_1error__handler.html#a6518c4580b8dd8063000e183f1541650",
-"functions_vars_f.html",
-"issue-189-default-values_8cpp.html#a4ae6988801f5542ccbfbabda9fc03914",
-"namespacemqtt_1_1mqttbridge_1_1websocket.html",
-"structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faaf5f286e73bda105e538310b3190f75c5"
+"classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html#a0c63c0b592dd401e435cd18bce150b72",
+"classanonymous__namespace_02json-validator_8cpp_03_1_1type__schema.html#a72ff3c13768d129592b9d088316d0d99",
+"classinja_1_1FunctionNode.html#a9c66fe10f08db5215304d209f55b2a74",
+"classinja_1_1NodeVisitor.html#a983925f5e5368c6c40ab5358c3cbc030",
+"classjson__uri.html#a32b1d4d5ccd0bb7c53ba64cb702a354f",
+"classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a695ccafca764022552d51da3faccbdac",
+"classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html#af183e96fd1a65a4b2257038f2c5b1dfe",
+"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a9c41a9a892b303230b8773c7431aa252",
+"classnlohmann_1_1json__uri.html#a757ed9f8e57e57b09f7e15761bf1abc9",
+"index.html#handy-patterns",
+"mqttbroker_2lib_2Mqtt_8cpp.html",
+"structinja_1_1FunctionStorage_1_1FunctionData.html#a7e038999d61d736eb2868f64e4820ad7",
+"structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

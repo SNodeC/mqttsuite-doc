@@ -6,7 +6,7 @@ var classinja_1_1Renderer =
     [ "get_argument_vector", "classinja_1_1Renderer.html#a6c3a1b74c1447dcd9f523e84599aa0f3", null ],
     [ "get_arguments", "classinja_1_1Renderer.html#a0e987388b203150124999425ae05b35e", null ],
     [ "make_result", "classinja_1_1Renderer.html#ac82b75f5ac36eea923c9670542c58e82", null ],
-    [ "print_data", "classinja_1_1Renderer.html#a4692cc499a9d133257a2c8321c174821", null ],
+    [ "print_data", "classinja_1_1Renderer.html#a91d3d0d556770540d026762e8b6e730b", null ],
     [ "render_to", "classinja_1_1Renderer.html#ace82a1b1e1db796e94c7a346c71defa2", null ],
     [ "throw_renderer_error", "classinja_1_1Renderer.html#a30be8e7c30b1780ae45a5aa34aae98de", null ],
     [ "truthy", "classinja_1_1Renderer.html#a6da7dba91a1ff1d033b1e54a96f7af8d", null ],

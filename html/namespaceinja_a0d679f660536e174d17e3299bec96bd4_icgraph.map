@@ -1,5 +1,7 @@
 <map id="inja::replace_substring" name="inja::replace_substring">
-<area shape="rect" id="Node000001" title=" " alt="" coords="202,5,370,33"/>
-<area shape="rect" id="Node000002" href="$classinja_1_1Renderer.html#a95814879e559a673bfb01c5e80abdabf" title=" " alt="" coords="5,5,154,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,19,154,22,154,17,189,19"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="202,32,370,60"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Renderer.html#a14531f0d69386b4494646f8680fdd905" title=" " alt="" coords="5,5,154,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,33,154,31,154,26,189,32"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Renderer.html#a95814879e559a673bfb01c5e80abdabf" title=" " alt="" coords="5,57,154,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,58,154,65,154,59,189,58"/>
 </map>

@@ -151,7 +151,7 @@ Private Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">   64</span>    }</div>
 <div class="ttc" id="amqttbridge_2websocket_2SubProtocolFactory_8cpp_html_a47f2e62c0dbebc787052c165afcada0e"><div class="ttname"><a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a></div><div class="ttdeci">#define NAME</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00060">SubProtocolFactory.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2websocket_2SubProtocolFactory_8cpp_source.html#l00079">mqttServerSubProtocolFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2websocket_2SubProtocolFactory_8cpp_source.html#l00080">mqttServerSubProtocolFactory()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -192,10 +192,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   70</span>            <span class="keyword">new</span> mqtt::mqttbroker::lib::Mqtt(</div>
 <div class="line"><span class="lineno">   71</span>                subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName(),</div>
 <div class="line"><span class="lineno">   72</span>                iot::mqtt::server::broker::Broker::instance(SUBSCRIPTION_MAX_QOS,</div>
-<div class="line"><span class="lineno">   73</span>                                                            utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-session-store&quot;</span>)),</div>
-<div class="line"><span class="lineno">   74</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>))[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
-<div class="line"><span class="lineno">   75</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00063">JsonMappingReader.cpp:63</a></div></div>
+<div class="line"><span class="lineno">   73</span>                                                            utils::Config::getInstance&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getSessionStore()),</div>
+<div class="line"><span class="lineno">   74</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(</div>
+<div class="line"><span class="lineno">   75</span>                    utils::Config::getInstance&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getMappingFile())[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00077">JsonMappingReader.cpp:77</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

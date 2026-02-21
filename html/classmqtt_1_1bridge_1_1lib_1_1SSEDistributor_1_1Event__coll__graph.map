@@ -1,0 +1,7 @@
+<map id="mqtt::bridge::lib::SSEDistributor::Event" name="mqtt::bridge::lib::SSEDistributor::Event">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,154,289"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,99,118,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,125,82,228,77,227,77,128"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="16,5,144,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,62,82,100,77,99,79,68"/>
+</map>

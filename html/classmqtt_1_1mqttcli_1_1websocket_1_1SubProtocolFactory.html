@@ -154,12 +154,12 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00063">63</a> of file <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   64</span>        : web::websocket::SubProtocolFactory&lt;web::websocket::client::SubProtocol&gt;::SubProtocolFactory(<a class="code hl_define" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a>) {</div>
-<div class="line"><span class="lineno">   65</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00059">59</a> of file <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   60</span>        : web::websocket::SubProtocolFactory&lt;web::websocket::client::SubProtocol&gt;::SubProtocolFactory(<a class="code hl_define" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a>) {</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
 <div class="ttc" id="amqttbridge_2websocket_2SubProtocolFactory_8cpp_html_a47f2e62c0dbebc787052c165afcada0e"><div class="ttname"><a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a></div><div class="ttdeci">#define NAME</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00060">SubProtocolFactory.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00107">mqttClientSubProtocolFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00093">mqttClientSubProtocolFactory()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -192,44 +192,34 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00067">67</a> of file <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>                                                                                                           {</div>
-<div class="line"><span class="lineno">   68</span>        <span class="keyword">const</span> CLI::App* sessionApp = subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection(<span class="stringliteral">&quot;session&quot;</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">   69</span>        <span class="keyword">const</span> CLI::App* subApp = subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection(<span class="stringliteral">&quot;sub&quot;</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">   70</span>        <span class="keyword">const</span> CLI::App* pubApp = subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection(<span class="stringliteral">&quot;pub&quot;</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">   71</span> </div>
-<div class="line"><span class="lineno">   72</span>        subApp = (subApp != <span class="keyword">nullptr</span> &amp;&amp; (*subApp)[<span class="stringliteral">&quot;--topic&quot;</span>]-&gt;count() &gt; 0) ? subApp : <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   73</span>        pubApp = (pubApp != <span class="keyword">nullptr</span> &amp;&amp; (*pubApp)[<span class="stringliteral">&quot;--topic&quot;</span>]-&gt;count() &gt; 0 &amp;&amp; (*pubApp)[<span class="stringliteral">&quot;--message&quot;</span>]-&gt;count() &gt; 0) ? pubApp : <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   74</span> </div>
-<div class="line"><span class="lineno">   75</span>        iot::mqtt::client::SubProtocol* subProtocol = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   76</span> </div>
-<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">if</span> (subApp != <span class="keyword">nullptr</span> || pubApp != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">   78</span>            subProtocol = <span class="keyword">new</span> iot::mqtt::client::SubProtocol(</div>
-<div class="line"><span class="lineno">   79</span>                subProtocolContext,</div>
-<div class="line"><span class="lineno">   80</span>                getName(),</div>
-<div class="line"><span class="lineno">   81</span>                new ::mqtt::mqttcli::lib::Mqtt(subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName(),</div>
-<div class="line"><span class="lineno">   82</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--client-id&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   83</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--qos&quot;</span>)-&gt;as&lt;uint8_t&gt;() : 0,</div>
-<div class="line"><span class="lineno">   84</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--keep-alive&quot;</span>)-&gt;as&lt;uint16_t&gt;() : 60,</div>
-<div class="line"><span class="lineno">   85</span>                                               sessionApp != <span class="keyword">nullptr</span> ? !sessionApp-&gt;get_option(<span class="stringliteral">&quot;--retain-session&quot;</span>)-&gt;as&lt;<span class="keywordtype">bool</span>&gt;() : <span class="keyword">true</span>,</div>
-<div class="line"><span class="lineno">   86</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--will-topic&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   87</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--will-message&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   88</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--will-qos&quot;</span>)-&gt;as&lt;uint8_t&gt;() : 0,</div>
-<div class="line"><span class="lineno">   89</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--will-retain&quot;</span>)-&gt;as&lt;<span class="keywordtype">bool</span>&gt;() : <span class="keyword">false</span>,</div>
-<div class="line"><span class="lineno">   90</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--username&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   91</span>                                               sessionApp != <span class="keyword">nullptr</span> ? sessionApp-&gt;get_option(<span class="stringliteral">&quot;--password&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   92</span>                                               subApp != <span class="keyword">nullptr</span> ? subApp-&gt;get_option(<span class="stringliteral">&quot;--topic&quot;</span>)-&gt;as&lt;std::list&lt;std::string&gt;&gt;()</div>
-<div class="line"><span class="lineno">   93</span>                                                                 : std::list&lt;std::string&gt;(),</div>
-<div class="line"><span class="lineno">   94</span>                                               pubApp != <span class="keyword">nullptr</span> ? pubApp-&gt;get_option(<span class="stringliteral">&quot;--topic&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   95</span>                                               pubApp != <span class="keyword">nullptr</span> ? pubApp-&gt;get_option(<span class="stringliteral">&quot;--message&quot;</span>)-&gt;as&lt;std::string&gt;() : <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   96</span>                                               pubApp != <span class="keyword">nullptr</span> ? pubApp-&gt;get_option(<span class="stringliteral">&quot;--retain&quot;</span>)-&gt;as&lt;<span class="keywordtype">bool</span>&gt;() : <span class="keyword">false</span>));</div>
-<div class="line"><span class="lineno">   97</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">   98</span>            VLOG(0) &lt;&lt; <span class="stringliteral">&quot;[&quot;</span> &lt;&lt; Color::Code::FG_RED &lt;&lt; <span class="stringliteral">&quot;Error&quot;</span> &lt;&lt; Color::Code::FG_DEFAULT &lt;&lt; <span class="stringliteral">&quot;] &quot;</span></div>
-<div class="line"><span class="lineno">   99</span>                    &lt;&lt; subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName() &lt;&lt; <span class="stringliteral">&quot;: one of &#39;sub&#39; or &#39;pub&#39; is required&quot;</span>;</div>
-<div class="line"><span class="lineno">  100</span>        }</div>
-<div class="line"><span class="lineno">  101</span> </div>
-<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">return</span> subProtocol;</div>
-<div class="line"><span class="lineno">  103</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00063">63</a> of file <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>                                                                                                           {</div>
+<div class="line"><span class="lineno">   64</span>        <span class="keyword">const</span> lib::ConfigSession* configSession =</div>
+<div class="line"><span class="lineno">   65</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection&lt;lib::ConfigSession&gt;();</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keyword">const</span> lib::ConfigSubscribe* configSubscribe =</div>
+<div class="line"><span class="lineno">   67</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection&lt;lib::ConfigSubscribe&gt;();</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keyword">const</span> lib::ConfigPublish* configPublish =</div>
+<div class="line"><span class="lineno">   69</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection&lt;lib::ConfigPublish&gt;();</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::client::SubProtocol(</div>
+<div class="line"><span class="lineno">   72</span>            subProtocolContext,</div>
+<div class="line"><span class="lineno">   73</span>            getName(),</div>
+<div class="line"><span class="lineno">   74</span>            new ::mqtt::mqttcli::lib::Mqtt(subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName(),</div>
+<div class="line"><span class="lineno">   75</span>                                           configSession-&gt;getClientId(),</div>
+<div class="line"><span class="lineno">   76</span>                                           configSession-&gt;getQoS(),</div>
+<div class="line"><span class="lineno">   77</span>                                           configSession-&gt;getKeepAlive(),</div>
+<div class="line"><span class="lineno">   78</span>                                           !configSession-&gt;getRetainSession(),</div>
+<div class="line"><span class="lineno">   79</span>                                           configSession-&gt;getWillTopic(),</div>
+<div class="line"><span class="lineno">   80</span>                                           configSession-&gt;getWillMessage(),</div>
+<div class="line"><span class="lineno">   81</span>                                           configSession-&gt;getWillQoS(),</div>
+<div class="line"><span class="lineno">   82</span>                                           configSession-&gt;getWillRetain(),</div>
+<div class="line"><span class="lineno">   83</span>                                           configSession-&gt;getUsername(),</div>
+<div class="line"><span class="lineno">   84</span>                                           configSession-&gt;getPassword(),</div>
+<div class="line"><span class="lineno">   85</span>                                           configSubscribe-&gt;getTopic(),</div>
+<div class="line"><span class="lineno">   86</span>                                           configPublish-&gt;getTopic(),</div>
+<div class="line"><span class="lineno">   87</span>                                           configPublish-&gt;getMessage(),</div>
+<div class="line"><span class="lineno">   88</span>                                           configPublish-&gt;getRetain()));</div>
+<div class="line"><span class="lineno">   89</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>

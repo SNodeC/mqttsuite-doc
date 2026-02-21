@@ -1,0 +1,7 @@
+<map id="mqtt::lib::admin::AdminOptions" name="mqtt::lib::admin::AdminOptions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,220,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="75,99,150,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,125,115,228,110,227,110,128"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="49,5,176,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,62,115,100,110,99,112,67"/>
+</map>

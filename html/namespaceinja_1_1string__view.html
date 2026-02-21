@@ -146,14 +146,14 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00311">311</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  311</span>                                                                                   {</div>
-<div class="line"><span class="lineno">  312</span>            start = std::min(start, view.size());</div>
-<div class="line"><span class="lineno">  313</span>            end = std::min(std::max(start, end), view.size());</div>
-<div class="line"><span class="lineno">  314</span>            <span class="keywordflow">return</span> view.substr(start, end - start);</div>
-<div class="line"><span class="lineno">  315</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00338">338</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  338</span>                                                                                   {</div>
+<div class="line"><span class="lineno">  339</span>            start = std::min(start, view.size());</div>
+<div class="line"><span class="lineno">  340</span>            end = std::min(std::max(start, end), view.size());</div>
+<div class="line"><span class="lineno">  341</span>            <span class="keywordflow">return</span> view.substr(start, end - start);</div>
+<div class="line"><span class="lineno">  342</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00330">inja::get_source_location()</a>, <a class="el" href="inja_8hpp_source.html#l01310">inja::Lexer::make_token()</a>, <a class="el" href="inja_8hpp_source.html#l01381">inja::Lexer::scan()</a>, and <a class="el" href="inja_8hpp_source.html#l00317">split()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00357">inja::get_source_location()</a>, <a class="el" href="inja_8hpp_source.html#l01348">inja::Lexer::make_token()</a>, <a class="el" href="inja_8hpp_source.html#l01421">inja::Lexer::scan()</a>, and <a class="el" href="inja_8hpp_source.html#l00344">split()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -189,19 +189,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00317">317</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  317</span>                                                                                                  {</div>
-<div class="line"><span class="lineno">  318</span>            <span class="keywordtype">size_t</span> idx = view.find(Separator);</div>
-<div class="line"><span class="lineno">  319</span>            <span class="keywordflow">if</span> (idx == std::string_view::npos) {</div>
-<div class="line"><span class="lineno">  320</span>                <span class="keywordflow">return</span> std::make_pair(view, std::string_view());</div>
-<div class="line"><span class="lineno">  321</span>            }</div>
-<div class="line"><span class="lineno">  322</span>            <span class="keywordflow">return</span> std::make_pair(<a class="code hl_function" href="#a898871016595d8f34d1b4ea55b3e8684">slice</a>(view, 0, idx), <a class="code hl_function" href="#a898871016595d8f34d1b4ea55b3e8684">slice</a>(view, idx + 1, std::string_view::npos));</div>
-<div class="line"><span class="lineno">  323</span>        }</div>
-<div class="ttc" id="anamespaceinja_1_1string__view_html_a898871016595d8f34d1b4ea55b3e8684"><div class="ttname"><a href="#a898871016595d8f34d1b4ea55b3e8684">inja::string_view::slice</a></div><div class="ttdeci">std::string_view slice(std::string_view view, size_t start, size_t end)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00311">inja.hpp:311</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00344">344</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  344</span>                                                                                                  {</div>
+<div class="line"><span class="lineno">  345</span>            <span class="keyword">const</span> <span class="keywordtype">size_t</span> idx = view.find(Separator);</div>
+<div class="line"><span class="lineno">  346</span>            <span class="keywordflow">if</span> (idx == std::string_view::npos) {</div>
+<div class="line"><span class="lineno">  347</span>                <span class="keywordflow">return</span> std::make_pair(view, std::string_view());</div>
+<div class="line"><span class="lineno">  348</span>            }</div>
+<div class="line"><span class="lineno">  349</span>            <span class="keywordflow">return</span> std::make_pair(<a class="code hl_function" href="#a898871016595d8f34d1b4ea55b3e8684">slice</a>(view, 0, idx), <a class="code hl_function" href="#a898871016595d8f34d1b4ea55b3e8684">slice</a>(view, idx + 1, std::string_view::npos));</div>
+<div class="line"><span class="lineno">  350</span>        }</div>
+<div class="ttc" id="anamespaceinja_1_1string__view_html_a898871016595d8f34d1b4ea55b3e8684"><div class="ttname"><a href="#a898871016595d8f34d1b4ea55b3e8684">inja::string_view::slice</a></div><div class="ttdeci">std::string_view slice(std::string_view view, size_t start, size_t end)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00338">inja.hpp:338</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00311">slice()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00338">slice()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00486">inja::DataNode::convert_dot_to_ptr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00513">inja::DataNode::convert_dot_to_ptr()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -242,12 +242,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00325">325</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  325</span>                                                                            {</div>
-<div class="line"><span class="lineno">  326</span>            <span class="keywordflow">return</span> (view.size() &gt;= prefix.size() &amp;&amp; view.compare(0, prefix.size(), prefix) == 0);</div>
-<div class="line"><span class="lineno">  327</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00352">352</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  352</span>                                                                            {</div>
+<div class="line"><span class="lineno">  353</span>            <span class="keywordflow">return</span> (view.size() &gt;= prefix.size() &amp;&amp; view.compare(0, prefix.size(), prefix) == 0);</div>
+<div class="line"><span class="lineno">  354</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l01381">inja::Lexer::scan()</a>, <a class="el" href="inja_8hpp_source.html#l01128">inja::Lexer::scan_body()</a>, and <a class="el" href="inja_8hpp_source.html#l01368">inja::Lexer::start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l01421">inja::Lexer::scan()</a>, <a class="el" href="inja_8hpp_source.html#l01164">inja::Lexer::scan_body()</a>, and <a class="el" href="inja_8hpp_source.html#l01408">inja::Lexer::start()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

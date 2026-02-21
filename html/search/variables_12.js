@@ -1,14 +1,20 @@
 var searchData=
 [
-  ['rectangle_5fschema_0',['rectangle_schema',['../issue-189-default-values_8cpp.html#a4ae6988801f5542ccbfbabda9fc03914',1,'issue-189-default-values.cpp']]],
-  ['regname_1',['regName',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5',1,'anonymous_namespace{string-format-check.cpp}']]],
-  ['render_5fconfig_2',['render_config',['../classinja_1_1Environment.html#a6ab69bc8cdfd6174e847cb92d3b7a978',1,'inja::Environment']]],
-  ['require_5fvalid_5flayout_3',['require_valid_layout',['../_8cmake-format_8py.html#a7c21baa2d171e800a38bb35783d6077f',1,'.cmake-format.py']]],
-  ['required_5f_4',['required_',['../classanonymous__namespace_02json-validator_8cpp_03_1_1required.html#a95d64102efd51c845af5aefb3d379f3c',1,'anonymous_namespace{json-validator.cpp}::required::required_'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1object.html#ac185ff55e830b8059049f628f8638950',1,'anonymous_namespace{json-validator.cpp}::object::required_']]],
-  ['requires_5',['requires',['../classconanfile_1_1JsonSchemaValidatorConan.html#af5d367806dcc1f51cf21ad83bc55f3c7',1,'conanfile::JsonSchemaValidatorConan']]],
-  ['response_6',['response',['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html#a60a4d5e13c69047274325ea88b30e140',1,'mqtt::mqttbroker::lib::MqttModel::EventReceiver']]],
-  ['root_7',['root',['../classinja_1_1ExpressionListNode.html#ae49865d0483edaba527927bd4ca53135',1,'inja::ExpressionListNode::root'],['../structinja_1_1Template.html#a996872e23d2d6d8330abc27034ce6ed0',1,'inja::Template::root']]],
-  ['root_5f_8',['root_',['../classnlohmann_1_1json__schema_1_1json__validator.html#a61042d2b5fd8125f899666dc3b2f8d19',1,'nlohmann::json_schema::json_validator::root_'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a714d225fe6f4b3d6647791d6c302969a',1,'anonymous_namespace{json-validator.cpp}::schema::root_'],['../classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91',1,'nlohmann::json_schema::root_schema::root_'],['../classjson__validator.html#a61042d2b5fd8125f899666dc3b2f8d19',1,'json_validator::root_'],['../classroot__schema.html#a9b9df60fa53b0386b27d408760f37b91',1,'root_schema::root_']]],
-  ['root_5fdefault_9',['root_default',['../issue-243-root-default-values_8cpp.html#a2a6968f3b3b05695159b02fdbd0523bf',1,'issue-243-root-default-values.cpp']]],
-  ['ruler_5fpattern_10',['ruler_pattern',['../_8cmake-format_8py.html#ae7a41392cea3684536cbfe9e7ebda0ef',1,'.cmake-format.py']]]
+  ['realm_0',['realm',['../structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a4bc0fc449cee2d04dfc328ffd2d9bd7e',1,'mqtt::lib::admin::AdminOptions']]],
+  ['rectangle_5fschema_1',['rectangle_schema',['../issue-189-default-values_8cpp.html#a4ae6988801f5542ccbfbabda9fc03914',1,'issue-189-default-values.cpp']]],
+  ['regname_2',['regName',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5',1,'anonymous_namespace{string-format-check.cpp}']]],
+  ['render_5fconfig_3',['render_config',['../classinja_1_1Environment.html#a6ab69bc8cdfd6174e847cb92d3b7a978',1,'inja::Environment']]],
+  ['replayevents_4',['replayEvents',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a97d2cc436072eaa78369a399b5234931',1,'mqtt::bridge::lib::SSEDistributor']]],
+  ['require_5fvalid_5flayout_5',['require_valid_layout',['../_8cmake-format_8py.html#a7c21baa2d171e800a38bb35783d6077f',1,'.cmake-format.py']]],
+  ['required_5f_6',['required_',['../classanonymous__namespace_02json-validator_8cpp_03_1_1required.html#a95d64102efd51c845af5aefb3d379f3c',1,'anonymous_namespace{json-validator.cpp}::required::required_'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1object.html#ac185ff55e830b8059049f628f8638950',1,'anonymous_namespace{json-validator.cpp}::object::required_']]],
+  ['requires_7',['requires',['../classconanfile_1_1JsonSchemaValidatorConan.html#af5d367806dcc1f51cf21ad83bc55f3c7',1,'conanfile::JsonSchemaValidatorConan']]],
+  ['response_8',['response',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor_1_1EventReceiver.html#a84747d029dd2afabed8002aaeae4f727',1,'mqtt::bridge::lib::SSEDistributor::EventReceiver::response'],['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html#a60a4d5e13c69047274325ea88b30e140',1,'mqtt::mqttbroker::lib::MqttModel::EventReceiver::response']]],
+  ['restart_9',['restart',['../mqttbridge_8cpp.html#ad558c67f7e0be3cd9bc83fd17ca1aeb9',1,'mqttbridge.cpp']]],
+  ['retain_10',['retain',['../structmqtt_1_1lib_1_1MqttMapper_1_1ScheduledPublish.html#a58998e2641108c33a42c14fbed27a654',1,'mqtt::lib::MqttMapper::ScheduledPublish']]],
+  ['retainopt_11',['retainOpt',['../classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html#a8f2605291ebd01730ad491588e7eac9e',1,'mqtt::mqttcli::lib::ConfigPublish']]],
+  ['retainsessionopt_12',['retainSessionOpt',['../classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a32d9f41d291bf87955ee3f3f5a219938',1,'mqtt::mqttcli::lib::ConfigSession']]],
+  ['root_13',['root',['../classinja_1_1ExpressionListNode.html#ae49865d0483edaba527927bd4ca53135',1,'inja::ExpressionListNode::root'],['../structinja_1_1Template.html#a996872e23d2d6d8330abc27034ce6ed0',1,'inja::Template::root']]],
+  ['root_5f_14',['root_',['../classnlohmann_1_1json__schema_1_1json__validator.html#a61042d2b5fd8125f899666dc3b2f8d19',1,'nlohmann::json_schema::json_validator::root_'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html#a714d225fe6f4b3d6647791d6c302969a',1,'anonymous_namespace{json-validator.cpp}::schema::root_'],['../classnlohmann_1_1json__schema_1_1root__schema.html#a9b9df60fa53b0386b27d408760f37b91',1,'nlohmann::json_schema::root_schema::root_'],['../classjson__validator.html#a61042d2b5fd8125f899666dc3b2f8d19',1,'json_validator::root_'],['../classroot__schema.html#a9b9df60fa53b0386b27d408760f37b91',1,'root_schema::root_']]],
+  ['root_5fdefault_15',['root_default',['../issue-243-root-default-values_8cpp.html#a2a6968f3b3b05695159b02fdbd0523bf',1,'issue-243-root-default-values.cpp']]],
+  ['ruler_5fpattern_16',['ruler_pattern',['../_8cmake-format_8py.html#ae7a41392cea3684536cbfe9e7ebda0ef',1,'.cmake-format.py']]]
 ];

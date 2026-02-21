@@ -1,0 +1,9 @@
+<map id="mqtt::bridge::lib::Bridge::removeMqtt" name="mqtt::bridge::lib::Bridge::removeMqtt">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,75,157,119"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a5b12dc07a03ac23f4cb046b00a06e0c7" title=" " alt="" coords="222,5,438,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,73,204,60,234,54,230,56,205,65,158,78"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#adcd994f13bb46f04949cd1e08db44f36" title=" " alt="" coords="205,75,456,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,94,192,96,187,98,158,100"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ab6cc33c1c26ccfbd738a5ec2700f0896" title=" " alt="" coords="242,144,419,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,115,205,129,235,139,229,139,204,134,157,121"/>
+</map>

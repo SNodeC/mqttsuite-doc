@@ -1,0 +1,13 @@
+<map id="inja::Environment::render" name="inja::Environment::render">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,150,77"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#a269f21ddbdd107bf0dd9e4a0bc80e249" title=" " alt="" coords="198,32,342,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,52,185,54,180,55,150,57"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Renderer.html#ace82a1b1e1db796e94c7a346c71defa2" title=" " alt="" coords="390,14,572,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,43,377,41,372,42,343,48"/>
+<area shape="rect" id="Node000006" href="$classinja_1_1Renderer.html#ad41cbbc7443d95c301c3952f55a44606" title=" " alt="" coords="392,66,571,94"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="342,60,379,67,373,67,342,66"/>
+<area shape="rect" id="Node000004" href="$classinja_1_1BlockNode.html#afa264eaa0a42e9f38086e93530b164be" title=" " alt="" coords="620,14,795,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="573,25,607,28,602,28,573,30"/>
+<area shape="rect" id="Node000005" href="$classinja_1_1NodeVisitor.html#afecb3de947b76e68094be2a72eedea09" title=" " alt="" coords="843,5,980,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="795,25,830,28,825,28,795,30"/>
+</map>

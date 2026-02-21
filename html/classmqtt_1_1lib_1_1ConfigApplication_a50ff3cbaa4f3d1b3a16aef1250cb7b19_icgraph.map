@@ -1,0 +1,7 @@
+<map id="mqtt::lib::ConfigApplication::ConfigApplication" name="mqtt::lib::ConfigApplication::ConfigApplication">
+<area shape="rect" id="Node000001" title=" " alt="" coords="274,40,473,85"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1ConfigMqttBroker.html#ae90471dee9aa0ce8c74bbd4cc6754177" title=" " alt="" coords="16,5,215,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,47,215,44,215,38,261,46"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1ConfigMqttIntegrator.html#a94332908a8454846d05293b33814e9a6" title=" " alt="" coords="5,75,226,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,78,227,85,226,79,261,77"/>
+</map>

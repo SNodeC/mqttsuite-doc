@@ -1,0 +1,7 @@
+<map id="mqtt::bridge::ConfigBridge" name="mqtt::bridge::ConfigBridge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,222,188,250"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,99,154,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,125,99,206,94,205,94,128"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="19,5,174,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,62,99,100,94,99,96,67"/>
+</map>

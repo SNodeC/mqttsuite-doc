@@ -121,7 +121,7 @@ Collaboration diagram for mqtt::bridge::lib::Mqtt:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6e485f1bb766fbeffdd53a23fc3ced4f" id="r_a6e485f1bb766fbeffdd53a23fc3ced4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e485f1bb766fbeffdd53a23fc3ced4f">Mqtt</a> (const std::string &amp;connectionName, const <a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;<a class="el" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>)</td></tr>
+<tr class="memitem:a481f5663cbdc06d8f4d3fd5bc38481e0" id="r_a481f5663cbdc06d8f4d3fd5bc38481e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a481f5663cbdc06d8f4d3fd5bc38481e0">Mqtt</a> (const std::string &amp;connectionName, <a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;<a class="el" href="#a5a169250faf429010c359b63a8149f01">broker</a>)</td></tr>
 <tr class="memitem:afb2ec01b241f591030515cc82f237988" id="r_afb2ec01b241f591030515cc82f237988"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb2ec01b241f591030515cc82f237988">getBroker</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
@@ -138,7 +138,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9b1a640d3549c229e0ef620aeac81f4d" id="r_a9b1a640d3549c229e0ef620aeac81f4d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a></td></tr>
+<tr class="memitem:a5a169250faf429010c359b63a8149f01" id="r_a5a169250faf429010c359b63a8149f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a169250faf429010c359b63a8149f01">broker</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -169,8 +169,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6e485f1bb766fbeffdd53a23fc3ced4f" name="a6e485f1bb766fbeffdd53a23fc3ced4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e485f1bb766fbeffdd53a23fc3ced4f">&#9670;&#160;</a></span>Mqtt()</h2>
+<a id="a481f5663cbdc06d8f4d3fd5bc38481e0" name="a481f5663cbdc06d8f4d3fd5bc38481e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a481f5663cbdc06d8f4d3fd5bc38481e0">&#9670;&#160;</a></span>Mqtt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +186,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>broker</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>broker</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -196,38 +196,38 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00059">59</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   60</span>        : iot::mqtt::client::Mqtt(connectionName, <span class="comment">//</span></div>
-<div class="line"><span class="lineno">   61</span>                                  <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getClientId(),</div>
-<div class="line"><span class="lineno">   62</span>                                  <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getKeepAlive(),</div>
-<div class="line"><span class="lineno">   63</span>                                  <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getSessionStoreFileName())</div>
-<div class="line"><span class="lineno">   64</span>        , <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>(<a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>) {</div>
-<div class="line"><span class="lineno">   65</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Client Id: &quot;</span> &lt;&lt; clientId;</div>
-<div class="line"><span class="lineno">   66</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Keep Alive: &quot;</span> &lt;&lt; keepAlive;</div>
-<div class="line"><span class="lineno">   67</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Prefix: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getPrefix();</div>
-<div class="line"><span class="lineno">   68</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Clean Session: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getCleanSession();</div>
-<div class="line"><span class="lineno">   69</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will Topic: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillTopic();</div>
-<div class="line"><span class="lineno">   70</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will Message: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillMessage();</div>
-<div class="line"><span class="lineno">   71</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(<a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillQoS());</div>
-<div class="line"><span class="lineno">   72</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will Retain &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillRetain();</div>
-<div class="line"><span class="lineno">   73</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Username: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getUsername();</div>
-<div class="line"><span class="lineno">   74</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Password: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getPassword();</div>
-<div class="line"><span class="lineno">   75</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Loop Prevention: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getLoopPrevention();</div>
-<div class="line"><span class="lineno">   76</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Mqtt_html_a9b1a640d3549c229e0ef620aeac81f4d"><div class="ttname"><a href="#a9b1a640d3549c229e0ef620aeac81f4d">mqtt::bridge::lib::Mqtt::broker</a></div><div class="ttdeci">const Broker &amp; broker</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">Mqtt.h:74</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00058">58</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>        : iot::mqtt::client::Mqtt(connectionName, <span class="comment">//</span></div>
+<div class="line"><span class="lineno">   60</span>                                  <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getClientId(),</div>
+<div class="line"><span class="lineno">   61</span>                                  <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getKeepAlive(),</div>
+<div class="line"><span class="lineno">   62</span>                                  <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getSessionStoreFileName())</div>
+<div class="line"><span class="lineno">   63</span>        , <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>(<a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>) {</div>
+<div class="line"><span class="lineno">   64</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Client Id: &quot;</span> &lt;&lt; clientId;</div>
+<div class="line"><span class="lineno">   65</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Keep Alive: &quot;</span> &lt;&lt; keepAlive;</div>
+<div class="line"><span class="lineno">   66</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Prefix: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getPrefix();</div>
+<div class="line"><span class="lineno">   67</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Clean Session: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getCleanSession();</div>
+<div class="line"><span class="lineno">   68</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will Topic: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillTopic();</div>
+<div class="line"><span class="lineno">   69</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will Message: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillMessage();</div>
+<div class="line"><span class="lineno">   70</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(<a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillQoS());</div>
+<div class="line"><span class="lineno">   71</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Will Retain &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillRetain();</div>
+<div class="line"><span class="lineno">   72</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Username: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getUsername();</div>
+<div class="line"><span class="lineno">   73</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Password: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getPassword();</div>
+<div class="line"><span class="lineno">   74</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Loop Prevention: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getLoopPrevention();</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Mqtt_html_a5a169250faf429010c359b63a8149f01"><div class="ttname"><a href="#a5a169250faf429010c359b63a8149f01">mqtt::bridge::lib::Mqtt::broker</a></div><div class="ttdeci">Broker &amp; broker</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">Mqtt.h:74</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00110">mqtt::bridge::lib::Broker::getCleanSession()</a>, <a class="el" href="Broker_8cpp_source.html#l00102">mqtt::bridge::lib::Broker::getClientId()</a>, <a class="el" href="Broker_8cpp_source.html#l00106">mqtt::bridge::lib::Broker::getKeepAlive()</a>, <a class="el" href="Broker_8cpp_source.html#l00138">mqtt::bridge::lib::Broker::getLoopPrevention()</a>, <a class="el" href="Broker_8cpp_source.html#l00134">mqtt::bridge::lib::Broker::getPassword()</a>, <a class="el" href="Broker_8cpp_source.html#l00158">mqtt::bridge::lib::Broker::getPrefix()</a>, <a class="el" href="Broker_8cpp_source.html#l00098">mqtt::bridge::lib::Broker::getSessionStoreFileName()</a>, <a class="el" href="Broker_8cpp_source.html#l00130">mqtt::bridge::lib::Broker::getUsername()</a>, <a class="el" href="Broker_8cpp_source.html#l00118">mqtt::bridge::lib::Broker::getWillMessage()</a>, <a class="el" href="Broker_8cpp_source.html#l00122">mqtt::bridge::lib::Broker::getWillQoS()</a>, <a class="el" href="Broker_8cpp_source.html#l00126">mqtt::bridge::lib::Broker::getWillRetain()</a>, and <a class="el" href="Broker_8cpp_source.html#l00114">mqtt::bridge::lib::Broker::getWillTopic()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00065">mqtt::bridge::SocketContextFactory::create()</a>, and <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2SocketContextFactory_8cpp_source.html#l00060">mqtt::bridge::SocketContextFactory::create()</a>, and <a class="el" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttbridge::websocket::SubProtocolFactory::create()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a6e485f1bb766fbeffdd53a23fc3ced4f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a481f5663cbdc06d8f4d3fd5bc38481e0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a6e485f1bb766fbeffdd53a23fc3ced4f_icgraph.svg" width="402" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a481f5663cbdc06d8f4d3fd5bc38481e0_icgraph.svg" width="402" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -248,14 +248,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00078">78</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   78</span>                                        {</div>
-<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>;</div>
-<div class="line"><span class="lineno">   80</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00077">77</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   77</span>                                        {</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>;</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Bridge_8cpp_source.html#l00073">mqtt::bridge::lib::Bridge::publish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Bridge_8cpp_source.html#l00107">mqtt::bridge::lib::Bridge::publish()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -290,17 +290,19 @@ Here is the caller graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">109</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  109</span>                                                             {</div>
 <div class="line"><span class="lineno">  110</span>        <span class="keywordflow">if</span> (connack.getReturnCode() == 0) {</div>
-<div class="line"><span class="lineno">  111</span>            <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getBridge().addMqtt(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  111</span>            <a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a>().<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a3e74b309f1d8aa60e4487e35abc1a8b1">mqttConnected</a>(<a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>, <span class="keyword">this</span>);</div>
 <div class="line"><span class="lineno">  112</span> </div>
-<div class="line"><span class="lineno">  113</span>            sendSubscribe(<a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getTopics());</div>
+<div class="line"><span class="lineno">  113</span>            sendSubscribe(<a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getTopics());</div>
 <div class="line"><span class="lineno">  114</span>        }</div>
 <div class="line"><span class="lineno">  115</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_a3e74b309f1d8aa60e4487e35abc1a8b1"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a3e74b309f1d8aa60e4487e35abc1a8b1">mqtt::bridge::lib::BridgeStore::mqttConnected</a></div><div class="ttdeci">void mqttConnected(Broker &amp;broker, mqtt::bridge::lib::Mqtt *mqtt) const</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00233">BridgeStore.cpp:233</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_a7b35204686d51d46798ecae6918527e1"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a></div><div class="ttdeci">static BridgeStore &amp; instance()</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00065">BridgeStore.cpp:65</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="Bridge_8cpp_source.html#l00065">mqtt::bridge::lib::Bridge::addMqtt()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00094">mqtt::bridge::lib::Broker::getBridge()</a>, and <a class="el" href="Broker_8cpp_source.html#l00166">mqtt::bridge::lib::Broker::getTopics()</a>.</p>
+<p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00166">mqtt::bridge::lib::Broker::getTopics()</a>, <a class="el" href="BridgeStore_8cpp_source.html#l00065">mqtt::bridge::lib::BridgeStore::instance()</a>, and <a class="el" href="BridgeStore_8cpp_source.html#l00233">mqtt::bridge::lib::BridgeStore::mqttConnected()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a695ccafca764022552d51da3faccbdac_cgraph.svg" width="327" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a695ccafca764022552d51da3faccbdac_cgraph.svg" width="100%" height="541"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -328,19 +330,19 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00082">82</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   82</span>                           {</div>
-<div class="line"><span class="lineno">   83</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MQTT: Initiating Session&quot;</span>;</div>
-<div class="line"><span class="lineno">   84</span> </div>
-<div class="line"><span class="lineno">   85</span>        sendConnect(<a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getCleanSession(),</div>
-<div class="line"><span class="lineno">   86</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillTopic(),</div>
-<div class="line"><span class="lineno">   87</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillMessage(),</div>
-<div class="line"><span class="lineno">   88</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillQoS(),</div>
-<div class="line"><span class="lineno">   89</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getWillRetain(),</div>
-<div class="line"><span class="lineno">   90</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getUsername(),</div>
-<div class="line"><span class="lineno">   91</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getPassword(),</div>
-<div class="line"><span class="lineno">   92</span>                    <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getLoopPrevention());</div>
-<div class="line"><span class="lineno">   93</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00081">81</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   81</span>                           {</div>
+<div class="line"><span class="lineno">   82</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MQTT: Initiating Session&quot;</span>;</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>        sendConnect(<a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getCleanSession(),</div>
+<div class="line"><span class="lineno">   85</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillTopic(),</div>
+<div class="line"><span class="lineno">   86</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillMessage(),</div>
+<div class="line"><span class="lineno">   87</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillQoS(),</div>
+<div class="line"><span class="lineno">   88</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getWillRetain(),</div>
+<div class="line"><span class="lineno">   89</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getUsername(),</div>
+<div class="line"><span class="lineno">   90</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getPassword(),</div>
+<div class="line"><span class="lineno">   91</span>                    <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getLoopPrevention());</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00110">mqtt::bridge::lib::Broker::getCleanSession()</a>, <a class="el" href="Broker_8cpp_source.html#l00138">mqtt::bridge::lib::Broker::getLoopPrevention()</a>, <a class="el" href="Broker_8cpp_source.html#l00134">mqtt::bridge::lib::Broker::getPassword()</a>, <a class="el" href="Broker_8cpp_source.html#l00130">mqtt::bridge::lib::Broker::getUsername()</a>, <a class="el" href="Broker_8cpp_source.html#l00118">mqtt::bridge::lib::Broker::getWillMessage()</a>, <a class="el" href="Broker_8cpp_source.html#l00122">mqtt::bridge::lib::Broker::getWillQoS()</a>, <a class="el" href="Broker_8cpp_source.html#l00126">mqtt::bridge::lib::Broker::getWillRetain()</a>, and <a class="el" href="Broker_8cpp_source.html#l00114">mqtt::bridge::lib::Broker::getWillTopic()</a>.</p>
 <div class="dynheader">
@@ -374,17 +376,19 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00095">95</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   95</span>                              {</div>
-<div class="line"><span class="lineno">   96</span>        <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getBridge().removeMqtt(<span class="keyword">this</span>);</div>
+<p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00094">94</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>                              {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a>().<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a9384b7d7ef7214dbe923d445e3201156">mqttDisconnected</a>(<a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   96</span> </div>
 <div class="line"><span class="lineno">   97</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MQTT: Disconnected&quot;</span>;</div>
 <div class="line"><span class="lineno">   98</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1BridgeStore_html_a9384b7d7ef7214dbe923d445e3201156"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a9384b7d7ef7214dbe923d445e3201156">mqtt::bridge::lib::BridgeStore::mqttDisconnected</a></div><div class="ttdeci">void mqttDisconnected(Broker &amp;broker, mqtt::bridge::lib::Mqtt *mqtt) const</div><div class="ttdef"><b>Definition</b> <a href="BridgeStore_8cpp_source.html#l00247">BridgeStore.cpp:247</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00094">mqtt::bridge::lib::Broker::getBridge()</a>, and <a class="el" href="Bridge_8cpp_source.html#l00069">mqtt::bridge::lib::Bridge::removeMqtt()</a>.</p>
+<p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="BridgeStore_8cpp_source.html#l00065">mqtt::bridge::lib::BridgeStore::instance()</a>, and <a class="el" href="BridgeStore_8cpp_source.html#l00247">mqtt::bridge::lib::BridgeStore::mqttDisconnected()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a0628e4ad221204e943cdb08061c99e94_cgraph.svg" width="374" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1bridge_1_1lib_1_1Mqtt_a0628e4ad221204e943cdb08061c99e94_cgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -414,10 +418,10 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00117">117</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  117</span>                                                             {</div>
-<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="#a9b1a640d3549c229e0ef620aeac81f4d">broker</a>.getBridge().publish(<span class="keyword">this</span>, publish);</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="#a5a169250faf429010c359b63a8149f01">broker</a>.getBridge().publish(<span class="keyword">this</span>, publish);</div>
 <div class="line"><span class="lineno">  119</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00094">mqtt::bridge::lib::Broker::getBridge()</a>, and <a class="el" href="Bridge_8cpp_source.html#l00073">mqtt::bridge::lib::Bridge::publish()</a>.</p>
+<p class="reference">References <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">broker</a>, <a class="el" href="Broker_8cpp_source.html#l00094">mqtt::bridge::lib::Broker::getBridge()</a>, and <a class="el" href="Bridge_8cpp_source.html#l00107">mqtt::bridge::lib::Bridge::publish()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -462,8 +466,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a9b1a640d3549c229e0ef620aeac81f4d" name="a9b1a640d3549c229e0ef620aeac81f4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1a640d3549c229e0ef620aeac81f4d">&#9670;&#160;</a></span>broker</h2>
+<a id="a5a169250faf429010c359b63a8149f01" name="a5a169250faf429010c359b63a8149f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a169250faf429010c359b63a8149f01">&#9670;&#160;</a></span>broker</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +476,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a>&amp; mqtt::bridge::lib::Mqtt::broker</td>
+          <td class="memname"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a>&amp; mqtt::bridge::lib::Mqtt::broker</td>
         </tr>
       </table>
   </td>
@@ -484,7 +488,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html#l00074">74</a> of file <a class="el" href="mqttbridge_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00078">getBroker()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00059">Mqtt()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">onConnack()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00082">onConnected()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00095">onDisconnected()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00117">onPublish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00077">getBroker()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00058">Mqtt()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00109">onConnack()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00081">onConnected()</a>, <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00094">onDisconnected()</a>, and <a class="el" href="mqttbridge_2lib_2Mqtt_8cpp_source.html#l00117">onPublish()</a>.</p>
 
 </div>
 </div>

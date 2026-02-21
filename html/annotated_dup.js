@@ -72,11 +72,17 @@ var annotated_dup =
     ] ],
     [ "mqtt", "namespacemqtt.html", [
       [ "lib", "namespacemqtt_1_1lib.html", [
+        [ "admin", "namespacemqtt_1_1lib_1_1admin.html", [
+          [ "AdminOptions", "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html", "structmqtt_1_1lib_1_1admin_1_1AdminOptions" ]
+        ] ],
         [ "plugins", "namespacemqtt_1_1lib_1_1plugins.html", [
           [ "storage_plugin", "namespacemqtt_1_1lib_1_1plugins_1_1storage__plugin.html", [
             [ "Storage", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage" ]
           ] ]
         ] ],
+        [ "ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", "classmqtt_1_1lib_1_1ConfigApplication" ],
+        [ "ConfigMqttBroker", "classmqtt_1_1lib_1_1ConfigMqttBroker.html", "classmqtt_1_1lib_1_1ConfigMqttBroker" ],
+        [ "ConfigMqttIntegrator", "classmqtt_1_1lib_1_1ConfigMqttIntegrator.html", "classmqtt_1_1lib_1_1ConfigMqttIntegrator" ],
         [ "JsonMappingReader", "classmqtt_1_1lib_1_1JsonMappingReader.html", "classmqtt_1_1lib_1_1JsonMappingReader" ],
         [ "MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", "classmqtt_1_1lib_1_1MqttMapper" ],
         [ "FunctionBase", "structmqtt_1_1lib_1_1FunctionBase.html", "structmqtt_1_1lib_1_1FunctionBase" ],
@@ -87,9 +93,11 @@ var annotated_dup =
         [ "lib", "namespacemqtt_1_1bridge_1_1lib.html", [
           [ "Bridge", "classmqtt_1_1bridge_1_1lib_1_1Bridge.html", "classmqtt_1_1bridge_1_1lib_1_1Bridge" ],
           [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html", "classmqtt_1_1bridge_1_1lib_1_1Broker" ],
+          [ "BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore" ],
           [ "Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", "classmqtt_1_1bridge_1_1lib_1_1Mqtt" ],
-          [ "BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore" ]
+          [ "SSEDistributor", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor" ]
         ] ],
+        [ "ConfigBridge", "classmqtt_1_1bridge_1_1ConfigBridge.html", "classmqtt_1_1bridge_1_1ConfigBridge" ],
         [ "SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", "classmqtt_1_1bridge_1_1SocketContextFactory" ]
       ] ],
       [ "mqttbridge", "namespacemqtt_1_1mqttbridge.html", [
@@ -113,7 +121,10 @@ var annotated_dup =
       ] ],
       [ "mqttcli", "namespacemqtt_1_1mqttcli.html", [
         [ "lib", "namespacemqtt_1_1mqttcli_1_1lib.html", [
-          [ "Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt" ]
+          [ "Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt" ],
+          [ "ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe" ],
+          [ "ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish" ],
+          [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession" ]
         ] ],
         [ "websocket", "namespacemqtt_1_1mqttcli_1_1websocket.html", [
           [ "SubProtocolFactory", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory" ]

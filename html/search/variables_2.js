@@ -8,10 +8,14 @@ var searchData=
   ['body_5',['body',['../classinja_1_1ForStatementNode.html#a4d389f58bcc3a8a5ddb24d94f52aab5e',1,'inja::ForStatementNode']]],
   ['break_5frendering_6',['break_rendering',['../classinja_1_1Renderer.html#a97d81b2430cad592573341760747169a',1,'inja::Renderer']]],
   ['bridge_7',['bridge',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#ada65a9f3a683ccaa771db8362ccb49cd',1,'mqtt::bridge::lib::Broker']]],
-  ['bridgelist_8',['bridgeList',['../classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a8924e93c40bdafbbfeb6dbabb0e6a2c0',1,'mqtt::bridge::lib::BridgeStore']]],
-  ['bridges_9',['bridges',['../mqttbridge_8cpp.html#a42ab022d86966c58dd006aecc7079182',1,'mqttbridge.cpp']]],
-  ['broker_10',['broker',['../classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a9b1a640d3549c229e0ef620aeac81f4d',1,'mqtt::bridge::lib::Mqtt::broker'],['../classmqtt_1_1bridge_1_1SocketContextFactory.html#ac4d70d7ffa5afe5ae50e053a75ec48b9',1,'mqtt::bridge::SocketContextFactory::broker'],['../classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#adf2ead7bc3a150d4a5e89830e7d316e9',1,'mqtt::mqttbroker::SocketContextFactory::broker']]],
-  ['brokers_11',['brokers',['../classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a63bc45f18d2827596069de4393ca46dd',1,'mqtt::bridge::lib::BridgeStore']]],
-  ['bson_5fschema_12',['bson_schema',['../binary-validation_8cpp.html#abd43507befb69b46a2d6e65753e385cc',1,'binary-validation.cpp']]],
-  ['bullet_5fchar_13',['bullet_char',['../_8cmake-format_8py.html#a1abf863e8e2f65fe366e33202d1043f1',1,'.cmake-format.py']]]
+  ['bridgedefinitionopt_8',['bridgeDefinitionOpt',['../classmqtt_1_1bridge_1_1ConfigBridge.html#a19a247f09ee0ca5cf53e1713f1f8d031',1,'mqtt::bridge::ConfigBridge']]],
+  ['bridgemap_9',['bridgeMap',['../classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a38cf8a6a68deeb0390fa29cfbce73dda',1,'mqtt::bridge::lib::BridgeStore']]],
+  ['bridgesc_10',['bridgeSc',['../classmqtt_1_1bridge_1_1ConfigBridge.html#ae8e1fa7e7f582a2e561187586e0d7708',1,'mqtt::bridge::ConfigBridge']]],
+  ['bridgesconfigjsonactive_11',['bridgesConfigJsonActive',['../classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a2f5f22a614657cf607113b325b9754c9',1,'mqtt::bridge::lib::BridgeStore']]],
+  ['bridgesconfigjsonstaged_12',['bridgesConfigJsonStaged',['../classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a98f2be76203e884f6c0b24e780e2f3db',1,'mqtt::bridge::lib::BridgeStore']]],
+  ['bridgesstarttimepoint_13',['bridgesStartTimePoint',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a836fd3a7518c83a469a61de98ef826af',1,'mqtt::bridge::lib::SSEDistributor']]],
+  ['broker_14',['broker',['../classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a5a169250faf429010c359b63a8149f01',1,'mqtt::bridge::lib::Mqtt::broker'],['../classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#adf2ead7bc3a150d4a5e89830e7d316e9',1,'mqtt::mqttbroker::SocketContextFactory::broker']]],
+  ['brokermap_15',['brokerMap',['../classmqtt_1_1bridge_1_1lib_1_1Bridge.html#ade255f4c0a56566ae915d2323cd2049c',1,'mqtt::bridge::lib::Bridge']]],
+  ['bson_5fschema_16',['bson_schema',['../binary-validation_8cpp.html#abd43507befb69b46a2d6e65753e385cc',1,'binary-validation.cpp']]],
+  ['bullet_5fchar_17',['bullet_char',['../_8cmake-format_8py.html#a1abf863e8e2f65fe366e33202d1043f1',1,'.cmake-format.py']]]
 ];

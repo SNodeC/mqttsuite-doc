@@ -46,6 +46,7 @@ var namespaceinja =
     [ "TemplateStorage", "namespaceinja.html#a931bd54de1093a20a02845e99266036e", null ],
     [ "VoidCallbackFunction", "namespaceinja.html#a4f2a4e263d4314dc548eadf19ea28e28", null ],
     [ "get_source_location", "namespaceinja.html#ab7c8c54f2caeb72095cd78a7ff7b6c37", null ],
+    [ "htmlescape", "namespaceinja.html#ac8e7ba7bd24cf8d0fa8c87d40297bb0c", null ],
     [ "render", "namespaceinja.html#a539106781b52cc6117fc132f927a9dec", null ],
     [ "render_to", "namespaceinja.html#a996f16f78b37d05e19cf44ac74d83e7e", null ],
     [ "replace_substring", "namespaceinja.html#a0d679f660536e174d17e3299bec96bd4", null ]

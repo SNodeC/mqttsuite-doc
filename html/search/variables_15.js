@@ -7,6 +7,8 @@ var searchData=
   ['url_4',['url',['../classconanfile_1_1JsonSchemaValidatorConan.html#a07e69e30b8cb47ee686a6ab315a4ab16',1,'conanfile::JsonSchemaValidatorConan']]],
   ['urn_5f_5',['urn_',['../classnlohmann_1_1json__uri.html#a40174958358d078f1f46fe8ad33cde40',1,'nlohmann::json_uri::urn_'],['../classjson__uri.html#a40174958358d078f1f46fe8ad33cde40',1,'json_uri::urn_']]],
   ['use_5ftabchars_6',['use_tabchars',['../_8cmake-format_8py.html#ae8d8dd08b44557cba0e8877585fb81e4',1,'.cmake-format.py']]],
-  ['username_7',['username',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html#a4fe21a496842d48cf580391480c3440d',1,'mqtt::mqttcli::lib::Mqtt::username']]],
-  ['uuid_8',['uuid',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191',1,'anonymous_namespace{string-format-check.cpp}']]]
+  ['user_7',['user',['../structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a',1,'mqtt::lib::admin::AdminOptions']]],
+  ['username_8',['username',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html#a4fe21a496842d48cf580391480c3440d',1,'mqtt::mqttcli::lib::Mqtt::username']]],
+  ['usernameopt_9',['usernameOpt',['../classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a7a1fc11ca829332a829b2dc7fa5d87ef',1,'mqtt::mqttcli::lib::ConfigSession']]],
+  ['uuid_10',['uuid',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191',1,'anonymous_namespace{string-format-check.cpp}']]]
 ];

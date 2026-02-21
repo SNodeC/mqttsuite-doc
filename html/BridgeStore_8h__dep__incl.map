@@ -1,9 +1,13 @@
 <map id="mqttbridge/lib/BridgeStore.h" name="mqttbridge/lib/BridgeStore.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="245,5,450,33"/>
-<area shape="rect" id="Node000002" href="$BridgeStore_8cpp.html" title=" " alt="" coords="5,90,226,117"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="299,40,154,91,152,86,294,37"/>
-<area shape="rect" id="Node000003" href="$mqttbridge_8cpp.html" title=" " alt="" coords="249,90,446,117"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="349,47,350,91,345,88,346,51"/>
-<area shape="rect" id="Node000004" href="$mqttbridge_2websocket_2SubProtocolFactory_8cpp.html" title=" " alt="" coords="469,81,644,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="396,36,504,80,499,80,395,42"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="449,5,654,33"/>
+<area shape="rect" id="Node000002" href="$mqttbridge_2SocketContextFactory_8cpp.html" title=" " alt="" coords="5,81,197,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="460,39,208,84,197,86,196,80,207,78,459,34"/>
+<area shape="rect" id="Node000003" href="$BridgeStore_8cpp.html" title=" " alt="" coords="220,90,440,117"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="505,38,367,91,365,86,500,39"/>
+<area shape="rect" id="Node000004" href="$mqttbridge_2lib_2Mqtt_8cpp.html" title=" " alt="" coords="464,90,639,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="554,47,554,91,550,88,550,51"/>
+<area shape="rect" id="Node000005" href="$mqttbridge_8cpp.html" title=" " alt="" coords="663,90,859,117"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="600,36,730,89,725,89,599,42"/>
+<area shape="rect" id="Node000006" href="$mqttbridge_2websocket_2SubProtocolFactory_8cpp.html" title=" " alt="" coords="883,81,1058,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="639,34,872,78,885,83,879,83,871,84,638,39"/>
 </map>

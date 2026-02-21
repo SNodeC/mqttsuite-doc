@@ -1,6 +1,6 @@
 <map id="mqtt::bridge::lib::Broker::getPrefix" name="mqtt::bridge::lib::Broker::getPrefix">
 <area shape="rect" id="Node000001" title=" " alt="" coords="444,109,577,154"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a6e485f1bb766fbeffdd53a23fc3ced4f" title=" " alt="" coords="263,75,396,119"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a481f5663cbdc06d8f4d3fd5bc38481e0" title=" " alt="" coords="263,75,396,119"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="426,116,396,112,396,107,432,116"/>
 <area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#a5122f9c1c873f5f5b036eff125416ff1" title=" " alt="" coords="263,144,396,189"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="432,147,397,156,396,151,426,148"/>

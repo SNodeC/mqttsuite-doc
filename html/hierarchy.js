@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "mqtt::lib::admin::AdminOptions", "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html", null ],
     [ "inja::AstNode", "classinja_1_1AstNode.html", [
       [ "inja::BlockNode", "classinja_1_1BlockNode.html", null ],
       [ "inja::ExpressionListNode", "classinja_1_1ExpressionListNode.html", null ],
@@ -27,6 +28,18 @@ var hierarchy =
     [ "ConanFile", null, [
       [ "conanfile.JsonSchemaValidatorConan", "classconanfile_1_1JsonSchemaValidatorConan.html", null ]
     ] ],
+    [ "mqtt::lib::ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", [
+      [ "mqtt::lib::ConfigMqttBroker", "classmqtt_1_1lib_1_1ConfigMqttBroker.html", null ],
+      [ "mqtt::lib::ConfigMqttIntegrator", "classmqtt_1_1lib_1_1ConfigMqttIntegrator.html", null ]
+    ] ],
+    [ "mqtt::bridge::ConfigBridge", "classmqtt_1_1bridge_1_1ConfigBridge.html", null ],
+    [ "net::config::ConfigSection", null, [
+      [ "mqtt::mqttcli::lib::ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", null ],
+      [ "mqtt::mqttcli::lib::ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", null ],
+      [ "mqtt::mqttcli::lib::ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", null ]
+    ] ],
+    [ "mqtt::lib::MqttMapper::DelayedQueue", "classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html", null ],
+    [ "mqtt::lib::MqttMapper::EarlierFirst", "structmqtt_1_1lib_1_1MqttMapper_1_1EarlierFirst.html", null ],
     [ "inja::Environment", "classinja_1_1Environment.html", null ],
     [ "anonymous_namespace{json-validator.cpp}::logical_combination_error_handler::error_entry", "structanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler_1_1error__entry.html", null ],
     [ "nlohmann::json_schema::error_handler", "classnlohmann_1_1json__schema_1_1error__handler.html", [
@@ -54,6 +67,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler::ErrorEntry", "structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html", null ],
+    [ "mqtt::bridge::lib::SSEDistributor::Event", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor_1_1Event.html", null ],
+    [ "mqtt::bridge::lib::SSEDistributor::EventReceiver", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor_1_1EventReceiver.html", null ],
     [ "mqtt::mqttbroker::lib::MqttModel::EventReceiver", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html", null ],
     [ "std::exception", null, [
       [ "nlohmann::JsonPatchFormatException", "classnlohmann_1_1JsonPatchFormatException.html", null ],
@@ -95,7 +110,6 @@ var hierarchy =
       [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ]
     ] ],
     [ "mqtt::mqttbroker::lib::MqttModel", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html", null ],
-    [ "mqtt::mqttbroker::lib::MqttModel::MqttModelEntry", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1MqttModelEntry.html", null ],
     [ "inja::NodeVisitor", "classinja_1_1NodeVisitor.html", [
       [ "inja::Renderer", "classinja_1_1Renderer.html", null ],
       [ "inja::StatisticsVisitor", "classinja_1_1StatisticsVisitor.html", null ]
@@ -107,6 +121,7 @@ var hierarchy =
     [ "mqtt::mqttbroker::lib::retaine", "structmqtt_1_1mqttbroker_1_1lib_1_1retaine.html", null ],
     [ "nlohmann::json_schema::root_schema", "classnlohmann_1_1json__schema_1_1root__schema.html", null ],
     [ "root_schema", "classroot__schema.html", null ],
+    [ "mqtt::lib::MqttMapper::ScheduledPublish", "structmqtt_1_1lib_1_1MqttMapper_1_1ScheduledPublish.html", null ],
     [ "anonymous_namespace{json-validator.cpp}::schema", "classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html", [
       [ "anonymous_namespace{json-validator.cpp}::array", "classanonymous__namespace_02json-validator_8cpp_03_1_1array.html", null ],
       [ "anonymous_namespace{json-validator.cpp}::array", "classanonymous__namespace_02json-validator_8cpp_03_1_1array.html", null ],
@@ -142,6 +157,7 @@ var hierarchy =
       [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ]
     ] ],
     [ "inja::SourceLocation", "structinja_1_1SourceLocation.html", null ],
+    [ "mqtt::bridge::lib::SSEDistributor", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html", null ],
     [ "mqtt::lib::plugins::storage_plugin::Storage", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html", null ],
     [ "web::websocket::SubProtocolFactory", null, [
       [ "mqtt::mqttbridge::websocket::SubProtocolFactory", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html", null ],
@@ -152,5 +168,6 @@ var hierarchy =
     [ "mqtt::mqttbroker::lib::subscribe", "structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html", null ],
     [ "inja::Template", "structinja_1_1Template.html", null ],
     [ "inja::Token", "structinja_1_1Token.html", null ],
-    [ "mqtt::mqttbroker::lib::unsubscribe", "structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html", null ]
+    [ "mqtt::mqttbroker::lib::unsubscribe", "structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html", null ],
+    [ "mqtt::lib::JsonMappingReader::VersionEntry", "structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html", null ]
 ];

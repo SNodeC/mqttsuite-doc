@@ -190,14 +190,14 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   65</span>                                                                                                                   {</div>
 <div class="line"><span class="lineno">   66</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::SocketContext(</div>
 <div class="line"><span class="lineno">   67</span>            socketConnectionr,</div>
-<div class="line"><span class="lineno">   68</span>            <span class="keyword">new</span> mqtt::mqttbroker::lib::Mqtt(</div>
-<div class="line"><span class="lineno">   69</span>                socketConnectionr-&gt;getConnectionName(),</div>
-<div class="line"><span class="lineno">   70</span>                <a class="code hl_variable" href="#adf2ead7bc3a150d4a5e89830e7d316e9">broker</a>,</div>
-<div class="line"><span class="lineno">   71</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(utils::Config::getStringOptionValue(<span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>))[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keyword">new</span> mqtt::mqttbroker::lib::Mqtt(socketConnectionr-&gt;getConnectionName(),</div>
+<div class="line"><span class="lineno">   69</span>                                            <a class="code hl_variable" href="#adf2ead7bc3a150d4a5e89830e7d316e9">broker</a>,</div>
+<div class="line"><span class="lineno">   70</span>                                            <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(</div>
+<div class="line"><span class="lineno">   71</span>                                                utils::Config::getInstance&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getMappingFile())[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
 <div class="line"><span class="lineno">   72</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00063">JsonMappingReader.cpp:63</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00077">JsonMappingReader.cpp:77</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="JsonMappingReader_8cpp_source.html#l00063">mqtt::lib::JsonMappingReader::readMappingFromFile()</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00087">mqtt::lib::ConfigApplication::getMappingFile()</a>, and <a class="el" href="JsonMappingReader_8cpp_source.html#l00077">mqtt::lib::JsonMappingReader::readMappingFromFile()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

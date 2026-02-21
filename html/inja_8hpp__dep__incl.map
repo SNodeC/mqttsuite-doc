@@ -1,9 +1,7 @@
 <map id="lib/inja.hpp" name="lib/inja.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="125,5,219,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="29,5,123,33"/>
 <area shape="rect" id="Node000002" href="$Storage_8h.html" title=" " alt="" coords="5,81,147,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,45,103,82,100,78,147,41"/>
-<area shape="rect" id="Node000004" href="$mqttbroker_8cpp.html" title=" " alt="" coords="171,90,368,117"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,41,257,89,251,90,198,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,46,79,81,73,80,75,51"/>
 <area shape="rect" id="Node000003" href="$Storage_8cpp.html" title=" " alt="" coords="5,174,147,218"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,139,79,174,73,173,74,143"/>
 </map>

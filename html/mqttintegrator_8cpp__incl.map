@@ -1,11 +1,21 @@
 <map id="mqttintegrator/mqttintegrator.cpp" name="mqttintegrator/mqttintegrator.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="117,5,359,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="337,5,579,33"/>
 <area shape="rect" id="Node000002" href="$mqttintegrator_2SocketContextFactory_8h.html" title=" " alt="" coords="78,81,251,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,32,190,72,187,68,223,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,35,233,79,231,74,407,32"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="276,81,349,109"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="252,31,291,70,286,70,251,36"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="434,33,353,76,351,71,430,35"/>
+<area shape="rect" id="Node000006" href="$ConfigApplication_8h.html" title=" " alt="" coords="374,81,542,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="460,31,460,67,456,64,456,36"/>
+<area shape="rect" id="Node000007" href="$MappingAdminRouter_8h.html" title=" " alt="" coords="566,81,760,109"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="495,31,615,75,610,76,494,36"/>
+<area shape="rect" id="Node000008" href="$mqttintegrator_2lib_2Mqtt_8h.html" title=" " alt="" coords="784,81,868,109"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="531,31,772,80,767,81,530,36"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,157,183,201"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,108,124,147,121,143,151,111"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="206,165,264,193"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="177,107,217,154,212,154,175,112"/>
+<area shape="rect" id="Node000009" href="$MqttMapper_8h.html" title=" " alt="" coords="674,165,807,193"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="815,108,766,157,764,152,810,110"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="830,165,990,193"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="840,107,889,155,884,154,838,112"/>
 </map>

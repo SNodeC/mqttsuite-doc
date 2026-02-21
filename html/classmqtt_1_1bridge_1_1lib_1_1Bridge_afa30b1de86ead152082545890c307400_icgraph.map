@@ -1,5 +1,7 @@
 <map id="mqtt::bridge::lib::Bridge::removeMqtt" name="mqtt::bridge::lib::Bridge::removeMqtt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="217,5,368,50"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a0628e4ad221204e943cdb08061c99e94" title=" " alt="" coords="5,5,169,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,28,169,30,169,25,203,27"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="489,5,640,50"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a9384b7d7ef7214dbe923d445e3201156" title=" " alt="" coords="217,5,441,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="471,28,441,30,441,25,476,28"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a0628e4ad221204e943cdb08061c99e94" title=" " alt="" coords="5,5,169,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,28,169,30,169,25,204,27"/>
 </map>

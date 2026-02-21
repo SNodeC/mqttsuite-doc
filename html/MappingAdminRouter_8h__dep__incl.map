@@ -1,0 +1,7 @@
+<map id="lib/MappingAdminRouter.h" name="lib/MappingAdminRouter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,5,331,33"/>
+<area shape="rect" id="Node000002" href="$MappingAdminRouter_8cpp.html" title=" " alt="" coords="5,81,215,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,41,133,83,131,78,196,42"/>
+<area shape="rect" id="Node000003" href="$mqttintegrator_8cpp.html" title=" " alt="" coords="238,81,480,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,38,340,81,334,81,268,44"/>
+</map>

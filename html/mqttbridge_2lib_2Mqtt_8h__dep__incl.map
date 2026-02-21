@@ -1,7 +1,9 @@
 <map id="mqttbridge/lib/Mqtt.h" name="mqttbridge/lib/Mqtt.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="124,5,283,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,5,387,33"/>
 <area shape="rect" id="Node000002" href="$mqttbridge_2SocketContextFactory_8cpp.html" title=" " alt="" coords="5,81,197,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,42,130,83,127,78,173,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,38,157,83,155,78,258,40"/>
 <area shape="rect" id="Node000003" href="$mqttbridge_2lib_2Mqtt_8cpp.html" title=" " alt="" coords="220,90,395,117"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,41,294,89,288,89,232,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,47,310,91,305,88,306,51"/>
+<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html" title=" " alt="" coords="419,90,615,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="356,36,486,89,481,89,355,42"/>
 </map>

@@ -120,8 +120,8 @@ Collaboration diagram for inja::Environment:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae3030f6fc471df494050811d021dbf11" id="r_ae3030f6fc471df494050811d021dbf11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3030f6fc471df494050811d021dbf11">Environment</a> ()</td></tr>
-<tr class="memitem:ad595ffe318565821b5265a3f05b2cefd" id="r_ad595ffe318565821b5265a3f05b2cefd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad595ffe318565821b5265a3f05b2cefd">Environment</a> (const std::string &amp;global_path)</td></tr>
-<tr class="memitem:a2a93973e23ede7f154cf99c25e7a8cf9" id="r_a2a93973e23ede7f154cf99c25e7a8cf9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a93973e23ede7f154cf99c25e7a8cf9">Environment</a> (const std::string &amp;<a class="el" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a>, const std::string &amp;<a class="el" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a>)</td></tr>
+<tr class="memitem:a444d95fa70572e7137f2cd3614d87af4" id="r_a444d95fa70572e7137f2cd3614d87af4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a444d95fa70572e7137f2cd3614d87af4">Environment</a> (const std::filesystem::path &amp;global_path)</td></tr>
+<tr class="memitem:a22f15b3ca41492cb04164d08a622ad46" id="r_a22f15b3ca41492cb04164d08a622ad46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22f15b3ca41492cb04164d08a622ad46">Environment</a> (const std::filesystem::path &amp;<a class="el" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a>, const std::filesystem::path &amp;<a class="el" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a>)</td></tr>
 <tr class="memitem:a3de73df9dc768bd00633a41a58fb5d41" id="r_a3de73df9dc768bd00633a41a58fb5d41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3de73df9dc768bd00633a41a58fb5d41">set_statement</a> (const std::string &amp;open, const std::string &amp;close)</td></tr>
 <tr class="memdesc:a3de73df9dc768bd00633a41a58fb5d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the opener and closer for template statements.  <br /></td></tr>
 <tr class="memitem:a7325934e8d2fcfd2753604830519342e" id="r_a7325934e8d2fcfd2753604830519342e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7325934e8d2fcfd2753604830519342e">set_line_statement</a> (const std::string &amp;open)</td></tr>
@@ -138,18 +138,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a7f1d50859105cad3acad42024180f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the element notation syntax.  <br /></td></tr>
 <tr class="memitem:a3306a8128013daff4e00b5b55e84f995" id="r_a3306a8128013daff4e00b5b55e84f995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3306a8128013daff4e00b5b55e84f995">set_throw_at_missing_includes</a> (bool will_throw)</td></tr>
 <tr class="memdesc:a3306a8128013daff4e00b5b55e84f995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether a missing include will throw an error.  <br /></td></tr>
+<tr class="memitem:a7684e0b43a2b6138314c3516274dae0a" id="r_a7684e0b43a2b6138314c3516274dae0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7684e0b43a2b6138314c3516274dae0a">set_html_autoescape</a> (bool will_escape)</td></tr>
+<tr class="memdesc:a7684e0b43a2b6138314c3516274dae0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether we'll automatically perform HTML escape.  <br /></td></tr>
 <tr class="memitem:a8421b8d61fc4de15f29c909bd7154f92" id="r_a8421b8d61fc4de15f29c909bd7154f92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1Template.html">Template</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8421b8d61fc4de15f29c909bd7154f92">parse</a> (std::string_view input)</td></tr>
-<tr class="memitem:aa46ccc27cc803933e0bfc9f58bba389c" id="r_aa46ccc27cc803933e0bfc9f58bba389c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1Template.html">Template</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa46ccc27cc803933e0bfc9f58bba389c">parse_template</a> (const std::string &amp;filename)</td></tr>
-<tr class="memitem:a988701e4eb7fef51f2a3bd5ec74dd156" id="r_a988701e4eb7fef51f2a3bd5ec74dd156"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1Template.html">Template</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988701e4eb7fef51f2a3bd5ec74dd156">parse_file</a> (const std::string &amp;filename)</td></tr>
+<tr class="memitem:a85717fc369572292cce46e42a32e38f5" id="r_a85717fc369572292cce46e42a32e38f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1Template.html">Template</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85717fc369572292cce46e42a32e38f5">parse_template</a> (const std::filesystem::path &amp;filename)</td></tr>
+<tr class="memitem:aec4165117f8d7242f813bb7859b86d18" id="r_aec4165117f8d7242f813bb7859b86d18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1Template.html">Template</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec4165117f8d7242f813bb7859b86d18">parse_file</a> (const std::filesystem::path &amp;filename)</td></tr>
 <tr class="memitem:aac36e0cfdc9e7926914e46c0cd1caada" id="r_aac36e0cfdc9e7926914e46c0cd1caada"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a> (std::string_view input, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data)</td></tr>
 <tr class="memitem:a3e4c7b484618c69656f6af463d6f775e" id="r_a3e4c7b484618c69656f6af463d6f775e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e4c7b484618c69656f6af463d6f775e">render</a> (const <a class="el" href="structinja_1_1Template.html">Template</a> &amp;tmpl, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data)</td></tr>
-<tr class="memitem:aaefdd9061b23f1764056689fe8c31e30" id="r_aaefdd9061b23f1764056689fe8c31e30"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaefdd9061b23f1764056689fe8c31e30">render_file</a> (const std::string &amp;filename, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data)</td></tr>
-<tr class="memitem:a6e6c345cd66ebdfe8a9d47d59efb5e84" id="r_a6e6c345cd66ebdfe8a9d47d59efb5e84"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e6c345cd66ebdfe8a9d47d59efb5e84">render_file_with_json_file</a> (const std::string &amp;filename, const std::string &amp;filename_data)</td></tr>
-<tr class="memitem:ab9334d7f4ebb85f36dcc27e1ecae2f3d" id="r_ab9334d7f4ebb85f36dcc27e1ecae2f3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9334d7f4ebb85f36dcc27e1ecae2f3d">write</a> (const std::string &amp;filename, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data, const std::string &amp;filename_out)</td></tr>
+<tr class="memitem:a3e30972fab0a5962c232f4c0f7002845" id="r_a3e30972fab0a5962c232f4c0f7002845"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e30972fab0a5962c232f4c0f7002845">render_file</a> (const std::filesystem::path &amp;filename, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data)</td></tr>
+<tr class="memitem:a815d87f3fb622a7639691803ff9a123b" id="r_a815d87f3fb622a7639691803ff9a123b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815d87f3fb622a7639691803ff9a123b">render_file_with_json_file</a> (const std::filesystem::path &amp;filename, const std::string &amp;filename_data)</td></tr>
+<tr class="memitem:ae64c18f23f81e8ee787d406ccd4d35dc" id="r_ae64c18f23f81e8ee787d406ccd4d35dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae64c18f23f81e8ee787d406ccd4d35dc">write</a> (const std::filesystem::path &amp;filename, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data, const std::string &amp;filename_out)</td></tr>
 <tr class="memitem:a832e72bad384f9c59f587ff73eb9a235" id="r_a832e72bad384f9c59f587ff73eb9a235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832e72bad384f9c59f587ff73eb9a235">write</a> (const <a class="el" href="structinja_1_1Template.html">Template</a> &amp;temp, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data, const std::string &amp;filename_out)</td></tr>
-<tr class="memitem:ad3e8c39b341641a872e62010693c27c3" id="r_ad3e8c39b341641a872e62010693c27c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3e8c39b341641a872e62010693c27c3">write_with_json_file</a> (const std::string &amp;filename, const std::string &amp;filename_data, const std::string &amp;filename_out)</td></tr>
+<tr class="memitem:ad6a6b713e78516f4f6fd68c58f309f3c" id="r_ad6a6b713e78516f4f6fd68c58f309f3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a6b713e78516f4f6fd68c58f309f3c">write_with_json_file</a> (const std::filesystem::path &amp;filename, const std::string &amp;filename_data, const std::string &amp;filename_out)</td></tr>
 <tr class="memitem:a9c6eb9a291cf99615991f999128248a7" id="r_a9c6eb9a291cf99615991f999128248a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c6eb9a291cf99615991f999128248a7">write_with_json_file</a> (const <a class="el" href="structinja_1_1Template.html">Template</a> &amp;temp, const std::string &amp;filename_data, const std::string &amp;filename_out)</td></tr>
 <tr class="memitem:a269f21ddbdd107bf0dd9e4a0bc80e249" id="r_a269f21ddbdd107bf0dd9e4a0bc80e249"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a269f21ddbdd107bf0dd9e4a0bc80e249">render_to</a> (std::ostream &amp;os, const <a class="el" href="structinja_1_1Template.html">Template</a> &amp;tmpl, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data)</td></tr>
+<tr class="memitem:ad00da8b535e5c5633ed2adec622e6cf4" id="r_ad00da8b535e5c5633ed2adec622e6cf4"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad00da8b535e5c5633ed2adec622e6cf4">render_to</a> (std::ostream &amp;os, const std::string_view input, const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;data)</td></tr>
 <tr class="memitem:a686f69e3cb4f91d439aadadfc60e1ebb" id="r_a686f69e3cb4f91d439aadadfc60e1ebb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a686f69e3cb4f91d439aadadfc60e1ebb">load_file</a> (const std::string &amp;filename)</td></tr>
 <tr class="memitem:a63883423839a4c9651997e14ee9bd10b" id="r_a63883423839a4c9651997e14ee9bd10b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a> (const std::string &amp;filename)</td></tr>
 <tr class="memitem:aacf2afb515ec7efb0b844174093fed6d" id="r_aacf2afb515ec7efb0b844174093fed6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf2afb515ec7efb0b844174093fed6d">add_callback</a> (const std::string &amp;name, const <a class="el" href="namespaceinja.html#a9b3c1dbbfa0bcf63424d53791d539e59">CallbackFunction</a> &amp;callback)</td></tr>
@@ -161,26 +164,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3467986ae633a7c546a62c387b6c613f" id="r_a3467986ae633a7c546a62c387b6c613f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3467986ae633a7c546a62c387b6c613f">add_void_callback</a> (const std::string &amp;name, int num_args, const <a class="el" href="namespaceinja.html#a4f2a4e263d4314dc548eadf19ea28e28">VoidCallbackFunction</a> &amp;callback)</td></tr>
 <tr class="memdesc:a3467986ae633a7c546a62c387b6c613f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a void callback with given number or arguments.  <br /></td></tr>
 <tr class="memitem:ab34fc09b61acaaefbbe891036f049670" id="r_ab34fc09b61acaaefbbe891036f049670"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab34fc09b61acaaefbbe891036f049670">include_template</a> (const std::string &amp;name, const <a class="el" href="structinja_1_1Template.html">Template</a> &amp;tmpl)</td></tr>
-<tr class="memitem:a7e20675dd67e09b763c1a46d97516c68" id="r_a7e20675dd67e09b763c1a46d97516c68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e20675dd67e09b763c1a46d97516c68">set_include_callback</a> (const std::function&lt; <a class="el" href="structinja_1_1Template.html">Template</a>(const std::string &amp;, const std::string &amp;)&gt; &amp;callback)</td></tr>
-<tr class="memdesc:a7e20675dd67e09b763c1a46d97516c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a function that is called when an included file is not found.  <br /></td></tr>
+<tr class="memitem:a8a86a3600eb3a23ab5073aa3ce58215f" id="r_a8a86a3600eb3a23ab5073aa3ce58215f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a86a3600eb3a23ab5073aa3ce58215f">set_include_callback</a> (const std::function&lt; <a class="el" href="structinja_1_1Template.html">Template</a>(const std::filesystem::path &amp;, const std::string &amp;)&gt; &amp;callback)</td></tr>
+<tr class="memdesc:a8a86a3600eb3a23ab5073aa3ce58215f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a function that is called when an included file is not found.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ad115ba15cd79174ebc9ed4699da35bbf" id="r_ad115ba15cd79174ebc9ed4699da35bbf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a></td></tr>
-<tr class="memitem:af3e100515d9b9e0813520ee267988ae0" id="r_af3e100515d9b9e0813520ee267988ae0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
 <tr class="memitem:a10ac5eaba2bf83bf9a13e3287c33fbe8" id="r_a10ac5eaba2bf83bf9a13e3287c33fbe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1LexerConfig.html">LexerConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a></td></tr>
 <tr class="memitem:adadbc40a2e27c7c6fb0b3b9e6e4de103" id="r_adadbc40a2e27c7c6fb0b3b9e6e4de103"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1ParserConfig.html">ParserConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a></td></tr>
 <tr class="memitem:a6ab69bc8cdfd6174e847cb92d3b7a978" id="r_a6ab69bc8cdfd6174e847cb92d3b7a978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinja_1_1RenderConfig.html">RenderConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab69bc8cdfd6174e847cb92d3b7a978">render_config</a></td></tr>
+<tr class="memitem:ab5ae0fa59d984ee34ffc734d2479d393" id="r_ab5ae0fa59d984ee34ffc734d2479d393"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a></td></tr>
+<tr class="memitem:a7e515c247dc3186d69c16ddbd1369fb9" id="r_a7e515c247dc3186d69c16ddbd1369fb9"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a278d1526a6067364d7ccca505b8cd96f" id="r_a278d1526a6067364d7ccca505b8cd96f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classinja_1_1FunctionStorage.html">FunctionStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a></td></tr>
 <tr class="memitem:a2756685c6094094b1ecbd93ecfbf55ad" id="r_a2756685c6094094b1ecbd93ecfbf55ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceinja.html#a931bd54de1093a20a02845e99266036e">TemplateStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for changing the configuration. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02851">2851</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02993">2993</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae3030f6fc471df494050811d021dbf11" name="ae3030f6fc471df494050811d021dbf11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3030f6fc471df494050811d021dbf11">&#9670;&#160;</a></span>Environment() <span class="overload">[1/3]</span></h2>
@@ -205,14 +208,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02864">2864</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2865</span>            : <a class="code hl_function" href="#ae3030f6fc471df494050811d021dbf11">Environment</a>(<span class="stringliteral">&quot;&quot;</span>) {</div>
-<div class="line"><span class="lineno"> 2866</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_ae3030f6fc471df494050811d021dbf11"><div class="ttname"><a href="#ae3030f6fc471df494050811d021dbf11">inja::Environment::Environment</a></div><div class="ttdeci">Environment()</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02864">inja.hpp:2864</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03006">3006</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3007</span>            : <a class="code hl_function" href="#ae3030f6fc471df494050811d021dbf11">Environment</a>(<span class="stringliteral">&quot;&quot;</span>) {</div>
+<div class="line"><span class="lineno"> 3008</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_ae3030f6fc471df494050811d021dbf11"><div class="ttname"><a href="#ae3030f6fc471df494050811d021dbf11">inja::Environment::Environment</a></div><div class="ttdeci">Environment()</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03006">inja.hpp:3006</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02868">Environment()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03009">Environment()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03059">inja::render()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03209">inja::render()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -226,8 +229,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad595ffe318565821b5265a3f05b2cefd" name="ad595ffe318565821b5265a3f05b2cefd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad595ffe318565821b5265a3f05b2cefd">&#9670;&#160;</a></span>Environment() <span class="overload">[2/3]</span></h2>
+<a id="a444d95fa70572e7137f2cd3614d87af4" name="a444d95fa70572e7137f2cd3614d87af4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444d95fa70572e7137f2cd3614d87af4">&#9670;&#160;</a></span>Environment() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,7 +241,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">inja::Environment::Environment </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>global_path</em></span></td><td>)</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>global_path</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -249,26 +252,26 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02868">2868</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2869</span>            : <a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a>(global_path)</div>
-<div class="line"><span class="lineno"> 2870</span>            , <a class="code hl_variable" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a>(global_path) {</div>
-<div class="line"><span class="lineno"> 2871</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_ad115ba15cd79174ebc9ed4699da35bbf"><div class="ttname"><a href="#ad115ba15cd79174ebc9ed4699da35bbf">inja::Environment::input_path</a></div><div class="ttdeci">std::string input_path</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02860">inja.hpp:2860</a></div></div>
-<div class="ttc" id="aclassinja_1_1Environment_html_af3e100515d9b9e0813520ee267988ae0"><div class="ttname"><a href="#af3e100515d9b9e0813520ee267988ae0">inja::Environment::output_path</a></div><div class="ttdeci">std::string output_path</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02861">inja.hpp:2861</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03009">3009</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3010</span>            : <a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a>(global_path)</div>
+<div class="line"><span class="lineno"> 3011</span>            , <a class="code hl_variable" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a>(global_path) {</div>
+<div class="line"><span class="lineno"> 3012</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a7e515c247dc3186d69c16ddbd1369fb9"><div class="ttname"><a href="#a7e515c247dc3186d69c16ddbd1369fb9">inja::Environment::output_path</a></div><div class="ttdeci">std::filesystem::path output_path</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03003">inja.hpp:3003</a></div></div>
+<div class="ttc" id="aclassinja_1_1Environment_html_ab5ae0fa59d984ee34ffc734d2479d393"><div class="ttname"><a href="#ab5ae0fa59d984ee34ffc734d2479d393">inja::Environment::input_path</a></div><div class="ttdeci">std::filesystem::path input_path</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03002">inja.hpp:3002</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02860">input_path</a>, and <a class="el" href="inja_8hpp_source.html#l02861">output_path</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03002">input_path</a>, and <a class="el" href="inja_8hpp_source.html#l03003">output_path</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02864">Environment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03006">Environment()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_ad595ffe318565821b5265a3f05b2cefd_icgraph.svg" width="491" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a444d95fa70572e7137f2cd3614d87af4_icgraph.svg" width="491" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a2a93973e23ede7f154cf99c25e7a8cf9" name="a2a93973e23ede7f154cf99c25e7a8cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a93973e23ede7f154cf99c25e7a8cf9">&#9670;&#160;</a></span>Environment() <span class="overload">[3/3]</span></h2>
+<a id="a22f15b3ca41492cb04164d08a622ad46" name="a22f15b3ca41492cb04164d08a622ad46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f15b3ca41492cb04164d08a622ad46">&#9670;&#160;</a></span>Environment() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,12 +282,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">inja::Environment::Environment </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>input_path</em></span>, </td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>input_path</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>output_path</em></span>&#160;)</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>output_path</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -294,12 +297,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02873">2873</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2874</span>            : <a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a>(<a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a>)</div>
-<div class="line"><span class="lineno"> 2875</span>            , <a class="code hl_variable" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a>(<a class="code hl_variable" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a>) {</div>
-<div class="line"><span class="lineno"> 2876</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03013">3013</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3014</span>            : <a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a>(<a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a>)</div>
+<div class="line"><span class="lineno"> 3015</span>            , <a class="code hl_variable" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a>(<a class="code hl_variable" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a>) {</div>
+<div class="line"><span class="lineno"> 3016</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02860">input_path</a>, and <a class="el" href="inja_8hpp_source.html#l02861">output_path</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03002">input_path</a>, and <a class="el" href="inja_8hpp_source.html#l03003">output_path</a>.</p>
 
 </div>
 </div>
@@ -333,12 +336,26 @@ Here is the caller graph for this function:</div>
 
 <p>Adds a variadic callback. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03012">3012</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3012</span>                                                                                   {</div>
-<div class="line"><span class="lineno"> 3013</span>            <a class="code hl_function" href="#aacf2afb515ec7efb0b844174093fed6d">add_callback</a>(name, -1, callback);</div>
-<div class="line"><span class="lineno"> 3014</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_aacf2afb515ec7efb0b844174093fed6d"><div class="ttname"><a href="#aacf2afb515ec7efb0b844174093fed6d">inja::Environment::add_callback</a></div><div class="ttdeci">void add_callback(const std::string &amp;name, const CallbackFunction &amp;callback)</div><div class="ttdoc">Adds a variadic callback.</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03012">inja.hpp:3012</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03162">3162</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3162</span>                                                                                   {</div>
+<div class="line"><span class="lineno"> 3163</span>            <a class="code hl_function" href="#aacf2afb515ec7efb0b844174093fed6d">add_callback</a>(name, -1, callback);</div>
+<div class="line"><span class="lineno"> 3164</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_aacf2afb515ec7efb0b844174093fed6d"><div class="ttname"><a href="#aacf2afb515ec7efb0b844174093fed6d">inja::Environment::add_callback</a></div><div class="ttdeci">void add_callback(const std::string &amp;name, const CallbackFunction &amp;callback)</div><div class="ttdoc">Adds a variadic callback.</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03162">inja.hpp:3162</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03176">add_callback()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00093">mqtt::lib::MqttMapper::MqttMapper()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aacf2afb515ec7efb0b844174093fed6d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aacf2afb515ec7efb0b844174093fed6d_icgraph.svg" width="571" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="accda3196054131f8e8cd484ef92c0627" name="accda3196054131f8e8cd484ef92c0627"></a>
@@ -375,13 +392,25 @@ Here is the caller graph for this function:</div>
 
 <p>Adds a callback with given number or arguments. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03026">3026</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3026</span>                                                                                                 {</div>
-<div class="line"><span class="lineno"> 3027</span>            <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>.add_callback(name, num_args, callback);</div>
-<div class="line"><span class="lineno"> 3028</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a278d1526a6067364d7ccca505b8cd96f"><div class="ttname"><a href="#a278d1526a6067364d7ccca505b8cd96f">inja::Environment::function_storage</a></div><div class="ttdeci">FunctionStorage function_storage</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02856">inja.hpp:2856</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03176">3176</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3176</span>                                                                                                 {</div>
+<div class="line"><span class="lineno"> 3177</span>            <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>.add_callback(name, num_args, callback);</div>
+<div class="line"><span class="lineno"> 3178</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a278d1526a6067364d7ccca505b8cd96f"><div class="ttname"><a href="#a278d1526a6067364d7ccca505b8cd96f">inja::Environment::function_storage</a></div><div class="ttdeci">FunctionStorage function_storage</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02994">inja.hpp:2994</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02856">function_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00232">inja::FunctionStorage::add_callback()</a>, and <a class="el" href="inja_8hpp_source.html#l02994">function_storage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03162">add_callback()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00093">mqtt::lib::MqttMapper::MqttMapper()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_accda3196054131f8e8cd484ef92c0627_cgraph.svg" width="619" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_accda3196054131f8e8cd484ef92c0627_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -414,12 +443,26 @@ Here is the caller graph for this function:</div>
 
 <p>Adds a variadic void callback. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03019">3019</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3019</span>                                                                                            {</div>
-<div class="line"><span class="lineno"> 3020</span>            <a class="code hl_function" href="#abf3676db94a59534d715e83f4d5e4940">add_void_callback</a>(name, -1, callback);</div>
-<div class="line"><span class="lineno"> 3021</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_abf3676db94a59534d715e83f4d5e4940"><div class="ttname"><a href="#abf3676db94a59534d715e83f4d5e4940">inja::Environment::add_void_callback</a></div><div class="ttdeci">void add_void_callback(const std::string &amp;name, const VoidCallbackFunction &amp;callback)</div><div class="ttdoc">Adds a variadic void callback.</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03019">inja.hpp:3019</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03169">3169</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3169</span>                                                                                            {</div>
+<div class="line"><span class="lineno"> 3170</span>            <a class="code hl_function" href="#abf3676db94a59534d715e83f4d5e4940">add_void_callback</a>(name, -1, callback);</div>
+<div class="line"><span class="lineno"> 3171</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_abf3676db94a59534d715e83f4d5e4940"><div class="ttname"><a href="#abf3676db94a59534d715e83f4d5e4940">inja::Environment::add_void_callback</a></div><div class="ttdeci">void add_void_callback(const std::string &amp;name, const VoidCallbackFunction &amp;callback)</div><div class="ttdoc">Adds a variadic void callback.</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03169">inja.hpp:3169</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03183">add_void_callback()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00093">mqtt::lib::MqttMapper::MqttMapper()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_abf3676db94a59534d715e83f4d5e4940_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_abf3676db94a59534d715e83f4d5e4940_icgraph.svg" width="571" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a3467986ae633a7c546a62c387b6c613f" name="a3467986ae633a7c546a62c387b6c613f"></a>
@@ -456,17 +499,29 @@ Here is the caller graph for this function:</div>
 
 <p>Adds a void callback with given number or arguments. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03033">3033</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3033</span>                                                                                                          {</div>
-<div class="line"><span class="lineno"> 3034</span>            <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>.add_callback(name, num_args, [callback](<a class="code hl_typedef" href="namespaceinja.html#a012d663296619810e0a7a2d1f0986357">Arguments</a>&amp; args) {</div>
-<div class="line"><span class="lineno"> 3035</span>                callback(args);</div>
-<div class="line"><span class="lineno"> 3036</span>                <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a>();</div>
-<div class="line"><span class="lineno"> 3037</span>            });</div>
-<div class="line"><span class="lineno"> 3038</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03183">3183</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3183</span>                                                                                                          {</div>
+<div class="line"><span class="lineno"> 3184</span>            <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>.add_callback(name, num_args, [callback](<a class="code hl_typedef" href="namespaceinja.html#a012d663296619810e0a7a2d1f0986357">Arguments</a>&amp; args) {</div>
+<div class="line"><span class="lineno"> 3185</span>                callback(args);</div>
+<div class="line"><span class="lineno"> 3186</span>                <span class="keywordflow">return</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a>();</div>
+<div class="line"><span class="lineno"> 3187</span>            });</div>
+<div class="line"><span class="lineno"> 3188</span>        }</div>
 <div class="ttc" id="anamespaceinja_html_a012d663296619810e0a7a2d1f0986357"><div class="ttname"><a href="namespaceinja.html#a012d663296619810e0a7a2d1f0986357">inja::Arguments</a></div><div class="ttdeci">std::vector&lt; const nlohmann::json * &gt; Arguments</div><div class="ttdef"><b>Definition</b> <a href="MqttMapperPlugin_8h_source.html#l00057">MqttMapperPlugin.h:57</a></div></div>
 <div class="ttc" id="anamespaceinja_html_aea17f29b0aca3b98657af767e69f2473"><div class="ttname"><a href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">inja::json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="MqttMapperPlugin_8h_source.html#l00058">MqttMapperPlugin.h:58</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02856">function_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00232">inja::FunctionStorage::add_callback()</a>, and <a class="el" href="inja_8hpp_source.html#l02994">function_storage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03169">add_void_callback()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00093">mqtt::lib::MqttMapper::MqttMapper()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a3467986ae633a7c546a62c387b6c613f_cgraph.svg" width="619" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a3467986ae633a7c546a62c387b6c613f_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -498,13 +553,13 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Includes a template with a given name into the environment. Then, a template can be rendered in another template using the include "&lt;name&gt;" syntax. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03044">3044</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3044</span>                                                                           {</div>
-<div class="line"><span class="lineno"> 3045</span>            <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>[name] = tmpl;</div>
-<div class="line"><span class="lineno"> 3046</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a2756685c6094094b1ecbd93ecfbf55ad"><div class="ttname"><a href="#a2756685c6094094b1ecbd93ecfbf55ad">inja::Environment::template_storage</a></div><div class="ttdeci">TemplateStorage template_storage</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02857">inja.hpp:2857</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03194">3194</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3194</span>                                                                           {</div>
+<div class="line"><span class="lineno"> 3195</span>            <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>[name] = tmpl;</div>
+<div class="line"><span class="lineno"> 3196</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a2756685c6094094b1ecbd93ecfbf55ad"><div class="ttname"><a href="#a2756685c6094094b1ecbd93ecfbf55ad">inja::Environment::template_storage</a></div><div class="ttdeci">TemplateStorage template_storage</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02995">inja.hpp:2995</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02857">template_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02995">template_storage</a>.</p>
 
 </div>
 </div>
@@ -531,19 +586,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02994">2994</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2994</span>                                                       {</div>
-<div class="line"><span class="lineno"> 2995</span>            Parser parser(<a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>, <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>);</div>
-<div class="line"><span class="lineno"> 2996</span>            <span class="keywordflow">return</span> parser.load_file(<a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a> + filename);</div>
-<div class="line"><span class="lineno"> 2997</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a10ac5eaba2bf83bf9a13e3287c33fbe8"><div class="ttname"><a href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">inja::Environment::lexer_config</a></div><div class="ttdeci">LexerConfig lexer_config</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02852">inja.hpp:2852</a></div></div>
-<div class="ttc" id="aclassinja_1_1Environment_html_adadbc40a2e27c7c6fb0b3b9e6e4de103"><div class="ttname"><a href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">inja::Environment::parser_config</a></div><div class="ttdeci">ParserConfig parser_config</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02853">inja.hpp:2853</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03144">3144</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3144</span>                                                       {</div>
+<div class="line"><span class="lineno"> 3145</span>            <span class="keyword">const</span> Parser parser(<a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>, <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>);</div>
+<div class="line"><span class="lineno"> 3146</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="classinja_1_1Parser.html#ab256584c508f34b282f9c802ba4bc095">Parser::load_file</a>(<a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a> / filename);</div>
+<div class="line"><span class="lineno"> 3147</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a10ac5eaba2bf83bf9a13e3287c33fbe8"><div class="ttname"><a href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">inja::Environment::lexer_config</a></div><div class="ttdeci">LexerConfig lexer_config</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02998">inja.hpp:2998</a></div></div>
+<div class="ttc" id="aclassinja_1_1Environment_html_adadbc40a2e27c7c6fb0b3b9e6e4de103"><div class="ttname"><a href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">inja::Environment::parser_config</a></div><div class="ttdeci">ParserConfig parser_config</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02999">inja.hpp:2999</a></div></div>
+<div class="ttc" id="aclassinja_1_1Parser_html_ab256584c508f34b282f9c802ba4bc095"><div class="ttname"><a href="classinja_1_1Parser.html#ab256584c508f34b282f9c802ba4bc095">inja::Parser::load_file</a></div><div class="ttdeci">static std::string load_file(const std::filesystem::path &amp;filename)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02245">inja.hpp:2245</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02856">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l02860">input_path</a>, <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l02165">inja::Parser::load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02853">parser_config</a>, and <a class="el" href="inja_8hpp_source.html#l02857">template_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02994">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l03002">input_path</a>, <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l02245">inja::Parser::load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02224">inja::Parser::Parser()</a>, <a class="el" href="inja_8hpp_source.html#l02999">parser_config</a>, and <a class="el" href="inja_8hpp_source.html#l02995">template_storage</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a686f69e3cb4f91d439aadadfc60e1ebb_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a686f69e3cb4f91d439aadadfc60e1ebb_cgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -571,21 +627,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02999">2999</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2999</span>                                                  {</div>
-<div class="line"><span class="lineno"> 3000</span>            std::ifstream file;</div>
-<div class="line"><span class="lineno"> 3001</span>            file.open(<a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a> + filename);</div>
-<div class="line"><span class="lineno"> 3002</span>            <span class="keywordflow">if</span> (file.fail()) {</div>
-<div class="line"><span class="lineno"> 3003</span>                <a class="code hl_define" href="inja_8hpp.html#af5cfdecea857a9756b2327b7990b057e">INJA_THROW</a>(FileError(<span class="stringliteral">&quot;failed accessing file at &#39;&quot;</span> + <a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a> + filename + <span class="stringliteral">&quot;&#39;&quot;</span>));</div>
-<div class="line"><span class="lineno"> 3004</span>            }</div>
-<div class="line"><span class="lineno"> 3005</span> </div>
-<div class="line"><span class="lineno"> 3006</span>            <span class="keywordflow">return</span> json::parse(std::istreambuf_iterator&lt;char&gt;(file), std::istreambuf_iterator&lt;char&gt;());</div>
-<div class="line"><span class="lineno"> 3007</span>        }</div>
-<div class="ttc" id="ainja_8hpp_html_af5cfdecea857a9756b2327b7990b057e"><div class="ttname"><a href="inja_8hpp.html#af5cfdecea857a9756b2327b7990b057e">INJA_THROW</a></div><div class="ttdeci">#define INJA_THROW(exception)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00045">inja.hpp:45</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03149">3149</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3149</span>                                                  {</div>
+<div class="line"><span class="lineno"> 3150</span>            std::ifstream file;</div>
+<div class="line"><span class="lineno"> 3151</span>            file.open(<a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a> / filename);</div>
+<div class="line"><span class="lineno"> 3152</span>            <span class="keywordflow">if</span> (file.fail()) {</div>
+<div class="line"><span class="lineno"> 3153</span>                <a class="code hl_define" href="inja_8hpp.html#af5cfdecea857a9756b2327b7990b057e">INJA_THROW</a>(FileError(<span class="stringliteral">&quot;failed accessing file at &#39;&quot;</span> + (<a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a> / filename).<span class="keywordtype">string</span>() + <span class="stringliteral">&quot;&#39;&quot;</span>));</div>
+<div class="line"><span class="lineno"> 3154</span>            }</div>
+<div class="line"><span class="lineno"> 3155</span> </div>
+<div class="line"><span class="lineno"> 3156</span>            <span class="keywordflow">return</span> json::parse(std::istreambuf_iterator&lt;char&gt;(file), std::istreambuf_iterator&lt;char&gt;());</div>
+<div class="line"><span class="lineno"> 3157</span>        }</div>
+<div class="ttc" id="ainja_8hpp_html_af5cfdecea857a9756b2327b7990b057e"><div class="ttname"><a href="inja_8hpp.html#af5cfdecea857a9756b2327b7990b057e">INJA_THROW</a></div><div class="ttdeci">#define INJA_THROW(exception)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00055">inja.hpp:55</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00290">inja::FileError::FileError()</a>, and <a class="el" href="inja_8hpp_source.html#l02860">input_path</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00317">inja::FileError::FileError()</a>, and <a class="el" href="inja_8hpp_source.html#l03002">input_path</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02962">render_file_with_json_file()</a>, <a class="el" href="inja_8hpp_source.html#l02979">write_with_json_file()</a>, and <a class="el" href="inja_8hpp_source.html#l02984">write_with_json_file()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03107">render_file_with_json_file()</a>, <a class="el" href="inja_8hpp_source.html#l03125">write_with_json_file()</a>, and <a class="el" href="inja_8hpp_source.html#l03130">write_with_json_file()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -622,15 +678,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02932">2932</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2932</span>                                             {</div>
-<div class="line"><span class="lineno"> 2933</span>            Parser parser(<a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>, <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>);</div>
-<div class="line"><span class="lineno"> 2934</span>            <span class="keywordflow">return</span> parser.parse(input, <a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a>);</div>
-<div class="line"><span class="lineno"> 2935</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03077">3077</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3077</span>                                             {</div>
+<div class="line"><span class="lineno"> 3078</span>            Parser parser(<a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>, <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>);</div>
+<div class="line"><span class="lineno"> 3079</span>            <span class="keywordflow">return</span> parser.parse(input, <a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a>);</div>
+<div class="line"><span class="lineno"> 3080</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02856">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l02860">input_path</a>, <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l02151">inja::Parser::parse()</a>, <a class="el" href="inja_8hpp_source.html#l02853">parser_config</a>, and <a class="el" href="inja_8hpp_source.html#l02857">template_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02994">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l03002">input_path</a>, <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l02234">inja::Parser::parse()</a>, <a class="el" href="inja_8hpp_source.html#l02224">inja::Parser::Parser()</a>, <a class="el" href="inja_8hpp_source.html#l02999">parser_config</a>, and <a class="el" href="inja_8hpp_source.html#l02995">template_storage</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02948">render()</a>, and <a class="el" href="inja_8hpp_source.html#l03066">inja::render_to()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03093">render()</a>, <a class="el" href="inja_8hpp_source.html#l03140">render_to()</a>, and <a class="el" href="inja_8hpp_source.html#l03216">inja::render_to()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -639,13 +695,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a8421b8d61fc4de15f29c909bd7154f92_icgraph.svg" width="348" height="107"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a8421b8d61fc4de15f29c909bd7154f92_icgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a988701e4eb7fef51f2a3bd5ec74dd156" name="a988701e4eb7fef51f2a3bd5ec74dd156"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a988701e4eb7fef51f2a3bd5ec74dd156">&#9670;&#160;</a></span>parse_file()</h2>
+<a id="aec4165117f8d7242f813bb7859b86d18" name="aec4165117f8d7242f813bb7859b86d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4165117f8d7242f813bb7859b86d18">&#9670;&#160;</a></span>parse_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,7 +712,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="structinja_1_1Template.html">Template</a> inja::Environment::parse_file </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span></td><td>)</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -667,23 +723,23 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02944">2944</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2944</span>                                                       {</div>
-<div class="line"><span class="lineno"> 2945</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#aa46ccc27cc803933e0bfc9f58bba389c">parse_template</a>(filename);</div>
-<div class="line"><span class="lineno"> 2946</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_aa46ccc27cc803933e0bfc9f58bba389c"><div class="ttname"><a href="#aa46ccc27cc803933e0bfc9f58bba389c">inja::Environment::parse_template</a></div><div class="ttdeci">Template parse_template(const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02937">inja.hpp:2937</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03089">3089</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3089</span>                                                               {</div>
+<div class="line"><span class="lineno"> 3090</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#a85717fc369572292cce46e42a32e38f5">parse_template</a>(filename);</div>
+<div class="line"><span class="lineno"> 3091</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a85717fc369572292cce46e42a32e38f5"><div class="ttname"><a href="#a85717fc369572292cce46e42a32e38f5">inja::Environment::parse_template</a></div><div class="ttdeci">Template parse_template(const std::filesystem::path &amp;filename)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03082">inja.hpp:3082</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a988701e4eb7fef51f2a3bd5ec74dd156_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aec4165117f8d7242f813bb7859b86d18_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="aa46ccc27cc803933e0bfc9f58bba389c" name="aa46ccc27cc803933e0bfc9f58bba389c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa46ccc27cc803933e0bfc9f58bba389c">&#9670;&#160;</a></span>parse_template()</h2>
+<a id="a85717fc369572292cce46e42a32e38f5" name="a85717fc369572292cce46e42a32e38f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85717fc369572292cce46e42a32e38f5">&#9670;&#160;</a></span>parse_template()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,7 +750,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="structinja_1_1Template.html">Template</a> inja::Environment::parse_template </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span></td><td>)</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -705,26 +761,26 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02937">2937</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2937</span>                                                           {</div>
-<div class="line"><span class="lineno"> 2938</span>            Parser parser(<a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>, <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>);</div>
-<div class="line"><span class="lineno"> 2939</span>            <span class="keyword">auto</span> result = Template(parser.load_file(<a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a> + <span class="keyword">static_cast&lt;</span>std::string<span class="keyword">&gt;</span>(filename)));</div>
-<div class="line"><span class="lineno"> 2940</span>            parser.parse_into_template(result, <a class="code hl_variable" href="#ad115ba15cd79174ebc9ed4699da35bbf">input_path</a> + <span class="keyword">static_cast&lt;</span>std::string<span class="keyword">&gt;</span>(filename));</div>
-<div class="line"><span class="lineno"> 2941</span>            <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno"> 2942</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03082">3082</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3082</span>                                                                   {</div>
+<div class="line"><span class="lineno"> 3083</span>            Parser parser(<a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>, <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>);</div>
+<div class="line"><span class="lineno"> 3084</span>            <span class="keyword">auto</span> result = Template(<a class="code hl_function" href="classinja_1_1Parser.html#ab256584c508f34b282f9c802ba4bc095">Parser::load_file</a>(<a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a> / filename));</div>
+<div class="line"><span class="lineno"> 3085</span>            parser.parse_into_template(result, (<a class="code hl_variable" href="#ab5ae0fa59d984ee34ffc734d2479d393">input_path</a> / filename).<span class="keywordtype">string</span>());</div>
+<div class="line"><span class="lineno"> 3086</span>            <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 3087</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02856">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l02860">input_path</a>, <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l02165">inja::Parser::load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02157">inja::Parser::parse_into_template()</a>, <a class="el" href="inja_8hpp_source.html#l02853">parser_config</a>, <a class="el" href="inja_8hpp_source.html#l00893">inja::Template::Template()</a>, and <a class="el" href="inja_8hpp_source.html#l02857">template_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02994">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l03002">input_path</a>, <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l02245">inja::Parser::load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02240">inja::Parser::parse_into_template()</a>, <a class="el" href="inja_8hpp_source.html#l02224">inja::Parser::Parser()</a>, <a class="el" href="inja_8hpp_source.html#l02999">parser_config</a>, <a class="el" href="inja_8hpp_source.html#l00919">inja::Template::Template()</a>, and <a class="el" href="inja_8hpp_source.html#l02995">template_storage</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02944">parse_file()</a>, and <a class="el" href="inja_8hpp_source.html#l02958">render_file()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03089">parse_file()</a>, and <a class="el" href="inja_8hpp_source.html#l03103">render_file()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aa46ccc27cc803933e0bfc9f58bba389c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a85717fc369572292cce46e42a32e38f5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aa46ccc27cc803933e0bfc9f58bba389c_icgraph.svg" width="348" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a85717fc369572292cce46e42a32e38f5_icgraph.svg" width="100%" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -756,14 +812,28 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02952">2952</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2952</span>                                                                 {</div>
-<div class="line"><span class="lineno"> 2953</span>            std::stringstream os;</div>
-<div class="line"><span class="lineno"> 2954</span>            <a class="code hl_function" href="#a269f21ddbdd107bf0dd9e4a0bc80e249">render_to</a>(os, tmpl, data);</div>
-<div class="line"><span class="lineno"> 2955</span>            <span class="keywordflow">return</span> os.str();</div>
-<div class="line"><span class="lineno"> 2956</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a269f21ddbdd107bf0dd9e4a0bc80e249"><div class="ttname"><a href="#a269f21ddbdd107bf0dd9e4a0bc80e249">inja::Environment::render_to</a></div><div class="ttdeci">std::ostream &amp; render_to(std::ostream &amp;os, const Template &amp;tmpl, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02989">inja.hpp:2989</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03097">3097</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3097</span>                                                                 {</div>
+<div class="line"><span class="lineno"> 3098</span>            std::stringstream os;</div>
+<div class="line"><span class="lineno"> 3099</span>            <a class="code hl_function" href="#a269f21ddbdd107bf0dd9e4a0bc80e249">render_to</a>(os, tmpl, data);</div>
+<div class="line"><span class="lineno"> 3100</span>            <span class="keywordflow">return</span> os.str();</div>
+<div class="line"><span class="lineno"> 3101</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a269f21ddbdd107bf0dd9e4a0bc80e249"><div class="ttname"><a href="#a269f21ddbdd107bf0dd9e4a0bc80e249">inja::Environment::render_to</a></div><div class="ttdeci">std::ostream &amp; render_to(std::ostream &amp;os, const Template &amp;tmpl, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03135">inja.hpp:3135</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03135">render_to()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03093">render()</a>, <a class="el" href="inja_8hpp_source.html#l03103">render_file()</a>, and <a class="el" href="inja_8hpp_source.html#l03118">write()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a3e4c7b484618c69656f6af463d6f775e_cgraph.svg" width="100%" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a3e4c7b484618c69656f6af463d6f775e_icgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
 </div>
 </div>
 <a id="aac36e0cfdc9e7926914e46c0cd1caada" name="aac36e0cfdc9e7926914e46c0cd1caada"></a>
@@ -793,24 +863,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02948">2948</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2948</span>                                                                 {</div>
-<div class="line"><span class="lineno"> 2949</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a>(<a class="code hl_function" href="#a8421b8d61fc4de15f29c909bd7154f92">parse</a>(input), data);</div>
-<div class="line"><span class="lineno"> 2950</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a8421b8d61fc4de15f29c909bd7154f92"><div class="ttname"><a href="#a8421b8d61fc4de15f29c909bd7154f92">inja::Environment::parse</a></div><div class="ttdeci">Template parse(std::string_view input)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02932">inja.hpp:2932</a></div></div>
-<div class="ttc" id="aclassinja_1_1Environment_html_aac36e0cfdc9e7926914e46c0cd1caada"><div class="ttname"><a href="#aac36e0cfdc9e7926914e46c0cd1caada">inja::Environment::render</a></div><div class="ttdeci">std::string render(std::string_view input, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02948">inja.hpp:2948</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03093">3093</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3093</span>                                                                 {</div>
+<div class="line"><span class="lineno"> 3094</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a>(<a class="code hl_function" href="#a8421b8d61fc4de15f29c909bd7154f92">parse</a>(input), data);</div>
+<div class="line"><span class="lineno"> 3095</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a8421b8d61fc4de15f29c909bd7154f92"><div class="ttname"><a href="#a8421b8d61fc4de15f29c909bd7154f92">inja::Environment::parse</a></div><div class="ttdeci">Template parse(std::string_view input)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03077">inja.hpp:3077</a></div></div>
+<div class="ttc" id="aclassinja_1_1Environment_html_aac36e0cfdc9e7926914e46c0cd1caada"><div class="ttname"><a href="#aac36e0cfdc9e7926914e46c0cd1caada">inja::Environment::render</a></div><div class="ttdeci">std::string render(std::string_view input, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03093">inja.hpp:3093</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02932">parse()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, and <a class="el" href="inja_8hpp_source.html#l03097">render()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00297">mqtt::lib::MqttMapper::publishMappedTemplate()</a>, and <a class="el" href="inja_8hpp_source.html#l03209">inja::render()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aac36e0cfdc9e7926914e46c0cd1caada_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aac36e0cfdc9e7926914e46c0cd1caada_icgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
-<a id="aaefdd9061b23f1764056689fe8c31e30" name="aaefdd9061b23f1764056689fe8c31e30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaefdd9061b23f1764056689fe8c31e30">&#9670;&#160;</a></span>render_file()</h2>
+<a id="a3e30972fab0a5962c232f4c0f7002845" name="a3e30972fab0a5962c232f4c0f7002845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e30972fab0a5962c232f4c0f7002845">&#9670;&#160;</a></span>render_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -821,7 +898,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">std::string inja::Environment::render_file </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -836,22 +913,29 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02958">2958</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2958</span>                                                                           {</div>
-<div class="line"><span class="lineno"> 2959</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a>(<a class="code hl_function" href="#aa46ccc27cc803933e0bfc9f58bba389c">parse_template</a>(filename), data);</div>
-<div class="line"><span class="lineno"> 2960</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03103">3103</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3103</span>                                                                                   {</div>
+<div class="line"><span class="lineno"> 3104</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a>(<a class="code hl_function" href="#a85717fc369572292cce46e42a32e38f5">parse_template</a>(filename), data);</div>
+<div class="line"><span class="lineno"> 3105</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>, and <a class="el" href="inja_8hpp_source.html#l03097">render()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03107">render_file_with_json_file()</a>, and <a class="el" href="inja_8hpp_source.html#l03112">write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_aaefdd9061b23f1764056689fe8c31e30_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a3e30972fab0a5962c232f4c0f7002845_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a3e30972fab0a5962c232f4c0f7002845_icgraph.svg" width="591" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a6e6c345cd66ebdfe8a9d47d59efb5e84" name="a6e6c345cd66ebdfe8a9d47d59efb5e84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e6c345cd66ebdfe8a9d47d59efb5e84">&#9670;&#160;</a></span>render_file_with_json_file()</h2>
+<a id="a815d87f3fb622a7639691803ff9a123b" name="a815d87f3fb622a7639691803ff9a123b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a815d87f3fb622a7639691803ff9a123b">&#9670;&#160;</a></span>render_file_with_json_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -862,7 +946,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">std::string inja::Environment::render_file_with_json_file </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -877,25 +961,71 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02962">2962</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2962</span>                                                                                                        {</div>
-<div class="line"><span class="lineno"> 2963</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> data = <a class="code hl_function" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a>(filename_data);</div>
-<div class="line"><span class="lineno"> 2964</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#aaefdd9061b23f1764056689fe8c31e30">render_file</a>(filename, data);</div>
-<div class="line"><span class="lineno"> 2965</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a63883423839a4c9651997e14ee9bd10b"><div class="ttname"><a href="#a63883423839a4c9651997e14ee9bd10b">inja::Environment::load_json</a></div><div class="ttdeci">json load_json(const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02999">inja.hpp:2999</a></div></div>
-<div class="ttc" id="aclassinja_1_1Environment_html_aaefdd9061b23f1764056689fe8c31e30"><div class="ttname"><a href="#aaefdd9061b23f1764056689fe8c31e30">inja::Environment::render_file</a></div><div class="ttdeci">std::string render_file(const std::string &amp;filename, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02958">inja.hpp:2958</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03107">3107</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3107</span>                                                                                                                {</div>
+<div class="line"><span class="lineno"> 3108</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> data = <a class="code hl_function" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a>(filename_data);</div>
+<div class="line"><span class="lineno"> 3109</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#a3e30972fab0a5962c232f4c0f7002845">render_file</a>(filename, data);</div>
+<div class="line"><span class="lineno"> 3110</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a3e30972fab0a5962c232f4c0f7002845"><div class="ttname"><a href="#a3e30972fab0a5962c232f4c0f7002845">inja::Environment::render_file</a></div><div class="ttdeci">std::string render_file(const std::filesystem::path &amp;filename, const json &amp;data)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03103">inja.hpp:3103</a></div></div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a63883423839a4c9651997e14ee9bd10b"><div class="ttname"><a href="#a63883423839a4c9651997e14ee9bd10b">inja::Environment::load_json</a></div><div class="ttdeci">json load_json(const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03149">inja.hpp:3149</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02999">load_json()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03149">load_json()</a>, and <a class="el" href="inja_8hpp_source.html#l03103">render_file()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a6e6c345cd66ebdfe8a9d47d59efb5e84_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a815d87f3fb622a7639691803ff9a123b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad00da8b535e5c5633ed2adec622e6cf4" name="ad00da8b535e5c5633ed2adec622e6cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad00da8b535e5c5633ed2adec622e6cf4">&#9670;&#160;</a></span>render_to() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; inja::Environment::render_to </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>os</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string_view</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03140">3140</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3140</span>                                                                                            {</div>
+<div class="line"><span class="lineno"> 3141</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="#a269f21ddbdd107bf0dd9e4a0bc80e249">render_to</a>(os, <a class="code hl_function" href="#a8421b8d61fc4de15f29c909bd7154f92">parse</a>(input), data);</div>
+<div class="line"><span class="lineno"> 3142</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, and <a class="el" href="inja_8hpp_source.html#l03135">render_to()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_ad00da8b535e5c5633ed2adec622e6cf4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a id="a269f21ddbdd107bf0dd9e4a0bc80e249" name="a269f21ddbdd107bf0dd9e4a0bc80e249"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a269f21ddbdd107bf0dd9e4a0bc80e249">&#9670;&#160;</a></span>render_to()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a269f21ddbdd107bf0dd9e4a0bc80e249">&#9670;&#160;</a></span>render_to() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -926,14 +1056,26 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02989">2989</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2989</span>                                                                                      {</div>
-<div class="line"><span class="lineno"> 2990</span>            Renderer(<a class="code hl_variable" href="#a6ab69bc8cdfd6174e847cb92d3b7a978">render_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>).render_to(os, tmpl, data);</div>
-<div class="line"><span class="lineno"> 2991</span>            <span class="keywordflow">return</span> os;</div>
-<div class="line"><span class="lineno"> 2992</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_a6ab69bc8cdfd6174e847cb92d3b7a978"><div class="ttname"><a href="#a6ab69bc8cdfd6174e847cb92d3b7a978">inja::Environment::render_config</a></div><div class="ttdeci">RenderConfig render_config</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02854">inja.hpp:2854</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03135">3135</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3135</span>                                                                                      {</div>
+<div class="line"><span class="lineno"> 3136</span>            Renderer(<a class="code hl_variable" href="#a6ab69bc8cdfd6174e847cb92d3b7a978">render_config</a>, <a class="code hl_variable" href="#a2756685c6094094b1ecbd93ecfbf55ad">template_storage</a>, <a class="code hl_variable" href="#a278d1526a6067364d7ccca505b8cd96f">function_storage</a>).render_to(os, tmpl, data);</div>
+<div class="line"><span class="lineno"> 3137</span>            <span class="keywordflow">return</span> os;</div>
+<div class="line"><span class="lineno"> 3138</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_a6ab69bc8cdfd6174e847cb92d3b7a978"><div class="ttname"><a href="#a6ab69bc8cdfd6174e847cb92d3b7a978">inja::Environment::render_config</a></div><div class="ttdeci">RenderConfig render_config</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03000">inja.hpp:3000</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02856">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l02854">render_config</a>, and <a class="el" href="inja_8hpp_source.html#l02857">template_storage</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02994">function_storage</a>, <a class="el" href="inja_8hpp_source.html#l03000">render_config</a>, <a class="el" href="inja_8hpp_source.html#l02964">inja::Renderer::render_to()</a>, <a class="el" href="inja_8hpp_source.html#l02958">inja::Renderer::Renderer()</a>, and <a class="el" href="inja_8hpp_source.html#l02995">template_storage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03097">render()</a>, <a class="el" href="inja_8hpp_source.html#l03140">render_to()</a>, and <a class="el" href="inja_8hpp_source.html#l03216">inja::render_to()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a269f21ddbdd107bf0dd9e4a0bc80e249_cgraph.svg" width="100%" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a269f21ddbdd107bf0dd9e4a0bc80e249_icgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -966,16 +1108,16 @@ Here is the call graph for this function:</div>
 
 <p>Sets the opener and closer for template comments. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02904">2904</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2904</span>                                                                        {</div>
-<div class="line"><span class="lineno"> 2905</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_open = open;</div>
-<div class="line"><span class="lineno"> 2906</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_open_force_lstrip = open + <span class="stringliteral">&quot;-&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2907</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_close = close;</div>
-<div class="line"><span class="lineno"> 2908</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_close_force_rstrip = <span class="stringliteral">&quot;-&quot;</span> + close;</div>
-<div class="line"><span class="lineno"> 2909</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
-<div class="line"><span class="lineno"> 2910</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03044">3044</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3044</span>                                                                        {</div>
+<div class="line"><span class="lineno"> 3045</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_open = open;</div>
+<div class="line"><span class="lineno"> 3046</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_open_force_lstrip = open + <span class="stringliteral">&quot;-&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3047</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_close = close;</div>
+<div class="line"><span class="lineno"> 3048</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.comment_close_force_rstrip = <span class="stringliteral">&quot;-&quot;</span> + close;</div>
+<div class="line"><span class="lineno"> 3049</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
+<div class="line"><span class="lineno"> 3050</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00929">inja::LexerConfig::comment_close</a>, <a class="el" href="inja_8hpp_source.html#l00930">inja::LexerConfig::comment_close_force_rstrip</a>, <a class="el" href="inja_8hpp_source.html#l00927">inja::LexerConfig::comment_open</a>, <a class="el" href="inja_8hpp_source.html#l00928">inja::LexerConfig::comment_open_force_lstrip</a>, <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00936">inja::LexerConfig::update_open_chars()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00955">inja::LexerConfig::comment_close</a>, <a class="el" href="inja_8hpp_source.html#l00956">inja::LexerConfig::comment_close_force_rstrip</a>, <a class="el" href="inja_8hpp_source.html#l00953">inja::LexerConfig::comment_open</a>, <a class="el" href="inja_8hpp_source.html#l00954">inja::LexerConfig::comment_open_force_lstrip</a>, <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00962">inja::LexerConfig::update_open_chars()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1013,16 +1155,16 @@ Here is the call graph for this function:</div>
 
 <p>Sets the opener and closer for template expressions. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02895">2895</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2895</span>                                                                           {</div>
-<div class="line"><span class="lineno"> 2896</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_open = open;</div>
-<div class="line"><span class="lineno"> 2897</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_open_force_lstrip = open + <span class="stringliteral">&quot;-&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2898</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_close = close;</div>
-<div class="line"><span class="lineno"> 2899</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_close_force_rstrip = <span class="stringliteral">&quot;-&quot;</span> + close;</div>
-<div class="line"><span class="lineno"> 2900</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
-<div class="line"><span class="lineno"> 2901</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03035">3035</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3035</span>                                                                           {</div>
+<div class="line"><span class="lineno"> 3036</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_open = open;</div>
+<div class="line"><span class="lineno"> 3037</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_open_force_lstrip = open + <span class="stringliteral">&quot;-&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3038</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_close = close;</div>
+<div class="line"><span class="lineno"> 3039</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.expression_close_force_rstrip = <span class="stringliteral">&quot;-&quot;</span> + close;</div>
+<div class="line"><span class="lineno"> 3040</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
+<div class="line"><span class="lineno"> 3041</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00925">inja::LexerConfig::expression_close</a>, <a class="el" href="inja_8hpp_source.html#l00926">inja::LexerConfig::expression_close_force_rstrip</a>, <a class="el" href="inja_8hpp_source.html#l00923">inja::LexerConfig::expression_open</a>, <a class="el" href="inja_8hpp_source.html#l00924">inja::LexerConfig::expression_open_force_lstrip</a>, <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00936">inja::LexerConfig::update_open_chars()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00951">inja::LexerConfig::expression_close</a>, <a class="el" href="inja_8hpp_source.html#l00952">inja::LexerConfig::expression_close_force_rstrip</a>, <a class="el" href="inja_8hpp_source.html#l00949">inja::LexerConfig::expression_open</a>, <a class="el" href="inja_8hpp_source.html#l00950">inja::LexerConfig::expression_open_force_lstrip</a>, <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00962">inja::LexerConfig::update_open_chars()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1031,8 +1173,42 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a7e20675dd67e09b763c1a46d97516c68" name="a7e20675dd67e09b763c1a46d97516c68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e20675dd67e09b763c1a46d97516c68">&#9670;&#160;</a></span>set_include_callback()</h2>
+<a id="a7684e0b43a2b6138314c3516274dae0a" name="a7684e0b43a2b6138314c3516274dae0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7684e0b43a2b6138314c3516274dae0a">&#9670;&#160;</a></span>set_html_autoescape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void inja::Environment::set_html_autoescape </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>will_escape</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets whether we'll automatically perform HTML escape. </p>
+
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03073">3073</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3073</span>                                                   {</div>
+<div class="line"><span class="lineno"> 3074</span>            <a class="code hl_variable" href="#a6ab69bc8cdfd6174e847cb92d3b7a978">render_config</a>.html_autoescape = will_escape;</div>
+<div class="line"><span class="lineno"> 3075</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l01005">inja::RenderConfig::html_autoescape</a>, and <a class="el" href="inja_8hpp_source.html#l03000">render_config</a>.</p>
+
+</div>
+</div>
+<a id="a8a86a3600eb3a23ab5073aa3ce58215f" name="a8a86a3600eb3a23ab5073aa3ce58215f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a86a3600eb3a23ab5073aa3ce58215f">&#9670;&#160;</a></span>set_include_callback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1043,7 +1219,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void inja::Environment::set_include_callback </td>
           <td>(</td>
-          <td class="paramtype">const std::function&lt; <a class="el" href="structinja_1_1Template.html">Template</a>(const std::string &amp;, const std::string &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
+          <td class="paramtype">const std::function&lt; <a class="el" href="structinja_1_1Template.html">Template</a>(const std::filesystem::path &amp;, const std::string &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1056,12 +1232,12 @@ Here is the call graph for this function:</div>
 
 <p>Sets a function that is called when an included file is not found. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03051">3051</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3051</span>                                                                                                             {</div>
-<div class="line"><span class="lineno"> 3052</span>            <a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>.include_callback = callback;</div>
-<div class="line"><span class="lineno"> 3053</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03201">3201</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3201</span>                                                                                                                     {</div>
+<div class="line"><span class="lineno"> 3202</span>            <a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>.include_callback = callback;</div>
+<div class="line"><span class="lineno"> 3203</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00971">inja::ParserConfig::include_callback</a>, and <a class="el" href="inja_8hpp_source.html#l02853">parser_config</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00997">inja::ParserConfig::include_callback</a>, and <a class="el" href="inja_8hpp_source.html#l02999">parser_config</a>.</p>
 
 </div>
 </div>
@@ -1090,13 +1266,13 @@ Here is the call graph for this function:</div>
 
 <p>Sets the opener for template line statements. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02889">2889</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2889</span>                                                       {</div>
-<div class="line"><span class="lineno"> 2890</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.line_statement = open;</div>
-<div class="line"><span class="lineno"> 2891</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
-<div class="line"><span class="lineno"> 2892</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03029">3029</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3029</span>                                                       {</div>
+<div class="line"><span class="lineno"> 3030</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.line_statement = open;</div>
+<div class="line"><span class="lineno"> 3031</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
+<div class="line"><span class="lineno"> 3032</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l00922">inja::LexerConfig::line_statement</a>, and <a class="el" href="inja_8hpp_source.html#l00936">inja::LexerConfig::update_open_chars()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l00948">inja::LexerConfig::line_statement</a>, and <a class="el" href="inja_8hpp_source.html#l00962">inja::LexerConfig::update_open_chars()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1130,12 +1306,12 @@ Here is the call graph for this function:</div>
 
 <p>Sets whether to strip the spaces and tabs from the start of a line to a block. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02918">2918</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2918</span>                                                   {</div>
-<div class="line"><span class="lineno"> 2919</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.lstrip_blocks = lstrip_blocks;</div>
-<div class="line"><span class="lineno"> 2920</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03058">3058</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3058</span>                                                   {</div>
+<div class="line"><span class="lineno"> 3059</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.lstrip_blocks = lstrip_blocks;</div>
+<div class="line"><span class="lineno"> 3060</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00934">inja::LexerConfig::lstrip_blocks</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00960">inja::LexerConfig::lstrip_blocks</a>.</p>
 
 </div>
 </div>
@@ -1164,12 +1340,12 @@ Here is the call graph for this function:</div>
 
 <p>Sets the element notation syntax. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02923">2923</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2923</span>                                                                          {</div>
-<div class="line"><span class="lineno"> 2924</span>            <a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>.search_included_templates_in_files = search_in_files;</div>
-<div class="line"><span class="lineno"> 2925</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03063">3063</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3063</span>                                                                          {</div>
+<div class="line"><span class="lineno"> 3064</span>            <a class="code hl_variable" href="#adadbc40a2e27c7c6fb0b3b9e6e4de103">parser_config</a>.search_included_templates_in_files = search_in_files;</div>
+<div class="line"><span class="lineno"> 3065</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02853">parser_config</a>, and <a class="el" href="inja_8hpp_source.html#l00969">inja::ParserConfig::search_included_templates_in_files</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02999">parser_config</a>, and <a class="el" href="inja_8hpp_source.html#l00995">inja::ParserConfig::search_included_templates_in_files</a>.</p>
 
 </div>
 </div>
@@ -1202,17 +1378,17 @@ Here is the call graph for this function:</div>
 
 <p>Sets the opener and closer for template statements. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02879">2879</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2879</span>                                                                          {</div>
-<div class="line"><span class="lineno"> 2880</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_open = open;</div>
-<div class="line"><span class="lineno"> 2881</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_open_no_lstrip = open + <span class="stringliteral">&quot;+&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2882</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_open_force_lstrip = open + <span class="stringliteral">&quot;-&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2883</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_close = close;</div>
-<div class="line"><span class="lineno"> 2884</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_close_force_rstrip = <span class="stringliteral">&quot;-&quot;</span> + close;</div>
-<div class="line"><span class="lineno"> 2885</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
-<div class="line"><span class="lineno"> 2886</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03019">3019</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3019</span>                                                                          {</div>
+<div class="line"><span class="lineno"> 3020</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_open = open;</div>
+<div class="line"><span class="lineno"> 3021</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_open_no_lstrip = open + <span class="stringliteral">&quot;+&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3022</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_open_force_lstrip = open + <span class="stringliteral">&quot;-&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3023</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_close = close;</div>
+<div class="line"><span class="lineno"> 3024</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.statement_close_force_rstrip = <span class="stringliteral">&quot;-&quot;</span> + close;</div>
+<div class="line"><span class="lineno"> 3025</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.update_open_chars();</div>
+<div class="line"><span class="lineno"> 3026</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l00920">inja::LexerConfig::statement_close</a>, <a class="el" href="inja_8hpp_source.html#l00921">inja::LexerConfig::statement_close_force_rstrip</a>, <a class="el" href="inja_8hpp_source.html#l00917">inja::LexerConfig::statement_open</a>, <a class="el" href="inja_8hpp_source.html#l00919">inja::LexerConfig::statement_open_force_lstrip</a>, <a class="el" href="inja_8hpp_source.html#l00918">inja::LexerConfig::statement_open_no_lstrip</a>, and <a class="el" href="inja_8hpp_source.html#l00936">inja::LexerConfig::update_open_chars()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, <a class="el" href="inja_8hpp_source.html#l00946">inja::LexerConfig::statement_close</a>, <a class="el" href="inja_8hpp_source.html#l00947">inja::LexerConfig::statement_close_force_rstrip</a>, <a class="el" href="inja_8hpp_source.html#l00943">inja::LexerConfig::statement_open</a>, <a class="el" href="inja_8hpp_source.html#l00945">inja::LexerConfig::statement_open_force_lstrip</a>, <a class="el" href="inja_8hpp_source.html#l00944">inja::LexerConfig::statement_open_no_lstrip</a>, and <a class="el" href="inja_8hpp_source.html#l00962">inja::LexerConfig::update_open_chars()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1246,12 +1422,12 @@ Here is the call graph for this function:</div>
 
 <p>Sets whether a missing include will throw an error. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02928">2928</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2928</span>                                                            {</div>
-<div class="line"><span class="lineno"> 2929</span>            <a class="code hl_variable" href="#a6ab69bc8cdfd6174e847cb92d3b7a978">render_config</a>.throw_at_missing_includes = will_throw;</div>
-<div class="line"><span class="lineno"> 2930</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03068">3068</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3068</span>                                                            {</div>
+<div class="line"><span class="lineno"> 3069</span>            <a class="code hl_variable" href="#a6ab69bc8cdfd6174e847cb92d3b7a978">render_config</a>.throw_at_missing_includes = will_throw;</div>
+<div class="line"><span class="lineno"> 3070</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02854">render_config</a>, and <a class="el" href="inja_8hpp_source.html#l00978">inja::RenderConfig::throw_at_missing_includes</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03000">render_config</a>, and <a class="el" href="inja_8hpp_source.html#l01004">inja::RenderConfig::throw_at_missing_includes</a>.</p>
 
 </div>
 </div>
@@ -1280,17 +1456,17 @@ Here is the call graph for this function:</div>
 
 <p>Sets whether to remove the first newline after a block. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02913">2913</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2913</span>                                               {</div>
-<div class="line"><span class="lineno"> 2914</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.trim_blocks = trim_blocks;</div>
-<div class="line"><span class="lineno"> 2915</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03053">3053</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3053</span>                                               {</div>
+<div class="line"><span class="lineno"> 3054</span>            <a class="code hl_variable" href="#a10ac5eaba2bf83bf9a13e3287c33fbe8">lexer_config</a>.trim_blocks = trim_blocks;</div>
+<div class="line"><span class="lineno"> 3055</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02852">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00933">inja::LexerConfig::trim_blocks</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02998">lexer_config</a>, and <a class="el" href="inja_8hpp_source.html#l00959">inja::LexerConfig::trim_blocks</a>.</p>
 
 </div>
 </div>
-<a id="ab9334d7f4ebb85f36dcc27e1ecae2f3d" name="ab9334d7f4ebb85f36dcc27e1ecae2f3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9334d7f4ebb85f36dcc27e1ecae2f3d">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
+<a id="ae64c18f23f81e8ee787d406ccd4d35dc" name="ae64c18f23f81e8ee787d406ccd4d35dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae64c18f23f81e8ee787d406ccd4d35dc">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1301,7 +1477,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void inja::Environment::write </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1321,14 +1497,26 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02967">2967</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2967</span>                                                                                               {</div>
-<div class="line"><span class="lineno"> 2968</span>            std::ofstream file(<a class="code hl_variable" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a> + filename_out);</div>
-<div class="line"><span class="lineno"> 2969</span>            file &lt;&lt; <a class="code hl_function" href="#aaefdd9061b23f1764056689fe8c31e30">render_file</a>(filename, data);</div>
-<div class="line"><span class="lineno"> 2970</span>            file.close();</div>
-<div class="line"><span class="lineno"> 2971</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03112">3112</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3112</span>                                                                                                       {</div>
+<div class="line"><span class="lineno"> 3113</span>            std::ofstream file(<a class="code hl_variable" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a> / filename_out);</div>
+<div class="line"><span class="lineno"> 3114</span>            file &lt;&lt; <a class="code hl_function" href="#a3e30972fab0a5962c232f4c0f7002845">render_file</a>(filename, data);</div>
+<div class="line"><span class="lineno"> 3115</span>            file.close();</div>
+<div class="line"><span class="lineno"> 3116</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02861">output_path</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03003">output_path</a>, and <a class="el" href="inja_8hpp_source.html#l03103">render_file()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03125">write_with_json_file()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_ae64c18f23f81e8ee787d406ccd4d35dc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_ae64c18f23f81e8ee787d406ccd4d35dc_icgraph.svg" width="355" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1364,19 +1552,31 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02973">2973</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2973</span>                                                                                          {</div>
-<div class="line"><span class="lineno"> 2974</span>            std::ofstream file(<a class="code hl_variable" href="#af3e100515d9b9e0813520ee267988ae0">output_path</a> + filename_out);</div>
-<div class="line"><span class="lineno"> 2975</span>            file &lt;&lt; <a class="code hl_function" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a>(temp, data);</div>
-<div class="line"><span class="lineno"> 2976</span>            file.close();</div>
-<div class="line"><span class="lineno"> 2977</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03118">3118</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3118</span>                                                                                          {</div>
+<div class="line"><span class="lineno"> 3119</span>            std::ofstream file(<a class="code hl_variable" href="#a7e515c247dc3186d69c16ddbd1369fb9">output_path</a> / filename_out);</div>
+<div class="line"><span class="lineno"> 3120</span>            file &lt;&lt; <a class="code hl_function" href="#aac36e0cfdc9e7926914e46c0cd1caada">render</a>(temp, data);</div>
+<div class="line"><span class="lineno"> 3121</span>            file.close();</div>
+<div class="line"><span class="lineno"> 3122</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02861">output_path</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03003">output_path</a>, and <a class="el" href="inja_8hpp_source.html#l03097">render()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03130">write_with_json_file()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a832e72bad384f9c59f587ff73eb9a235_cgraph.svg" width="100%" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a832e72bad384f9c59f587ff73eb9a235_icgraph.svg" width="355" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
-<a id="ad3e8c39b341641a872e62010693c27c3" name="ad3e8c39b341641a872e62010693c27c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e8c39b341641a872e62010693c27c3">&#9670;&#160;</a></span>write_with_json_file() <span class="overload">[1/2]</span></h2>
+<a id="ad6a6b713e78516f4f6fd68c58f309f3c" name="ad6a6b713e78516f4f6fd68c58f309f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a6b713e78516f4f6fd68c58f309f3c">&#9670;&#160;</a></span>write_with_json_file() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1387,7 +1587,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void inja::Environment::write_with_json_file </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1407,18 +1607,18 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02979">2979</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2979</span>                                                                                                                            {</div>
-<div class="line"><span class="lineno"> 2980</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> data = <a class="code hl_function" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a>(filename_data);</div>
-<div class="line"><span class="lineno"> 2981</span>            <a class="code hl_function" href="#ab9334d7f4ebb85f36dcc27e1ecae2f3d">write</a>(filename, data, filename_out);</div>
-<div class="line"><span class="lineno"> 2982</span>        }</div>
-<div class="ttc" id="aclassinja_1_1Environment_html_ab9334d7f4ebb85f36dcc27e1ecae2f3d"><div class="ttname"><a href="#ab9334d7f4ebb85f36dcc27e1ecae2f3d">inja::Environment::write</a></div><div class="ttdeci">void write(const std::string &amp;filename, const json &amp;data, const std::string &amp;filename_out)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l02967">inja.hpp:2967</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03125">3125</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3125</span>                                                                                                                               {</div>
+<div class="line"><span class="lineno"> 3126</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> data = <a class="code hl_function" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a>(filename_data);</div>
+<div class="line"><span class="lineno"> 3127</span>            <a class="code hl_function" href="#ae64c18f23f81e8ee787d406ccd4d35dc">write</a>(filename, data, filename_out);</div>
+<div class="line"><span class="lineno"> 3128</span>        }</div>
+<div class="ttc" id="aclassinja_1_1Environment_html_ae64c18f23f81e8ee787d406ccd4d35dc"><div class="ttname"><a href="#ae64c18f23f81e8ee787d406ccd4d35dc">inja::Environment::write</a></div><div class="ttdeci">void write(const std::filesystem::path &amp;filename, const json &amp;data, const std::string &amp;filename_out)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l03112">inja.hpp:3112</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02999">load_json()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03149">load_json()</a>, and <a class="el" href="inja_8hpp_source.html#l03112">write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_ad3e8c39b341641a872e62010693c27c3_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_ad6a6b713e78516f4f6fd68c58f309f3c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1455,17 +1655,17 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02984">2984</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2984</span>                                                                                                                       {</div>
-<div class="line"><span class="lineno"> 2985</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> data = <a class="code hl_function" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a>(filename_data);</div>
-<div class="line"><span class="lineno"> 2986</span>            <a class="code hl_function" href="#ab9334d7f4ebb85f36dcc27e1ecae2f3d">write</a>(temp, data, filename_out);</div>
-<div class="line"><span class="lineno"> 2987</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03130">3130</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3130</span>                                                                                                                       {</div>
+<div class="line"><span class="lineno"> 3131</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceinja.html#aea17f29b0aca3b98657af767e69f2473">json</a> data = <a class="code hl_function" href="#a63883423839a4c9651997e14ee9bd10b">load_json</a>(filename_data);</div>
+<div class="line"><span class="lineno"> 3132</span>            <a class="code hl_function" href="#ae64c18f23f81e8ee787d406ccd4d35dc">write</a>(temp, data, filename_out);</div>
+<div class="line"><span class="lineno"> 3133</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l02999">load_json()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03149">load_json()</a>, and <a class="el" href="inja_8hpp_source.html#l03118">write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a9c6eb9a291cf99615991f999128248a7_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classinja_1_1Environment_a9c6eb9a291cf99615991f999128248a7_cgraph.svg" width="100%" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1491,14 +1691,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02856">2856</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02994">2994</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03026">add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03033">add_void_callback()</a>, <a class="el" href="inja_8hpp_source.html#l02994">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02932">parse()</a>, <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>, and <a class="el" href="inja_8hpp_source.html#l02989">render_to()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03176">add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03183">add_void_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03144">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>, and <a class="el" href="inja_8hpp_source.html#l03135">render_to()</a>.</p>
 
 </div>
 </div>
-<a id="ad115ba15cd79174ebc9ed4699da35bbf" name="ad115ba15cd79174ebc9ed4699da35bbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad115ba15cd79174ebc9ed4699da35bbf">&#9670;&#160;</a></span>input_path</h2>
+<a id="ab5ae0fa59d984ee34ffc734d2479d393" name="ab5ae0fa59d984ee34ffc734d2479d393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5ae0fa59d984ee34ffc734d2479d393">&#9670;&#160;</a></span>input_path</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1507,7 +1707,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string inja::Environment::input_path</td>
+          <td class="memname">std::filesystem::path inja::Environment::input_path</td>
         </tr>
       </table>
   </td>
@@ -1517,9 +1717,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02860">2860</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03002">3002</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02868">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l02873">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l02994">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02999">load_json()</a>, <a class="el" href="inja_8hpp_source.html#l02932">parse()</a>, and <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03009">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l03013">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l03144">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l03149">load_json()</a>, <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, and <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>.</p>
 
 </div>
 </div>
@@ -1538,19 +1738,19 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02852">2852</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02998">2998</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02994">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02932">parse()</a>, <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>, <a class="el" href="inja_8hpp_source.html#l02904">set_comment()</a>, <a class="el" href="inja_8hpp_source.html#l02895">set_expression()</a>, <a class="el" href="inja_8hpp_source.html#l02889">set_line_statement()</a>, <a class="el" href="inja_8hpp_source.html#l02918">set_lstrip_blocks()</a>, <a class="el" href="inja_8hpp_source.html#l02879">set_statement()</a>, and <a class="el" href="inja_8hpp_source.html#l02913">set_trim_blocks()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03144">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>, <a class="el" href="inja_8hpp_source.html#l03044">set_comment()</a>, <a class="el" href="inja_8hpp_source.html#l03035">set_expression()</a>, <a class="el" href="inja_8hpp_source.html#l03029">set_line_statement()</a>, <a class="el" href="inja_8hpp_source.html#l03058">set_lstrip_blocks()</a>, <a class="el" href="inja_8hpp_source.html#l03019">set_statement()</a>, and <a class="el" href="inja_8hpp_source.html#l03053">set_trim_blocks()</a>.</p>
 
 </div>
 </div>
-<a id="af3e100515d9b9e0813520ee267988ae0" name="af3e100515d9b9e0813520ee267988ae0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3e100515d9b9e0813520ee267988ae0">&#9670;&#160;</a></span>output_path</h2>
+<a id="a7e515c247dc3186d69c16ddbd1369fb9" name="a7e515c247dc3186d69c16ddbd1369fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e515c247dc3186d69c16ddbd1369fb9">&#9670;&#160;</a></span>output_path</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1559,7 +1759,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string inja::Environment::output_path</td>
+          <td class="memname">std::filesystem::path inja::Environment::output_path</td>
         </tr>
       </table>
   </td>
@@ -1569,9 +1769,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02861">2861</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03003">3003</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02868">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l02873">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l02967">write()</a>, and <a class="el" href="inja_8hpp_source.html#l02973">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03009">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l03013">Environment()</a>, <a class="el" href="inja_8hpp_source.html#l03112">write()</a>, and <a class="el" href="inja_8hpp_source.html#l03118">write()</a>.</p>
 
 </div>
 </div>
@@ -1590,14 +1790,14 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02853">2853</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02999">2999</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02994">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02932">parse()</a>, <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>, <a class="el" href="inja_8hpp_source.html#l03051">set_include_callback()</a>, and <a class="el" href="inja_8hpp_source.html#l02923">set_search_included_templates_in_files()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03144">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>, <a class="el" href="inja_8hpp_source.html#l03201">set_include_callback()</a>, and <a class="el" href="inja_8hpp_source.html#l03063">set_search_included_templates_in_files()</a>.</p>
 
 </div>
 </div>
@@ -1616,14 +1816,14 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02854">2854</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l03000">3000</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l02989">render_to()</a>, and <a class="el" href="inja_8hpp_source.html#l02928">set_throw_at_missing_includes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03135">render_to()</a>, <a class="el" href="inja_8hpp_source.html#l03073">set_html_autoescape()</a>, and <a class="el" href="inja_8hpp_source.html#l03068">set_throw_at_missing_includes()</a>.</p>
 
 </div>
 </div>
@@ -1647,9 +1847,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02857">2857</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l02995">2995</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03044">include_template()</a>, <a class="el" href="inja_8hpp_source.html#l02994">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l02932">parse()</a>, <a class="el" href="inja_8hpp_source.html#l02937">parse_template()</a>, and <a class="el" href="inja_8hpp_source.html#l02989">render_to()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l03194">include_template()</a>, <a class="el" href="inja_8hpp_source.html#l03144">load_file()</a>, <a class="el" href="inja_8hpp_source.html#l03077">parse()</a>, <a class="el" href="inja_8hpp_source.html#l03082">parse_template()</a>, and <a class="el" href="inja_8hpp_source.html#l03135">render_to()</a>.</p>
 
 </div>
 </div>

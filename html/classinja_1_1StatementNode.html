@@ -122,11 +122,9 @@ Collaboration diagram for inja::StatementNode:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0bba1af707ebbe637bcfe3e1684f63d6" id="r_a0bba1af707ebbe637bcfe3e1684f63d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bba1af707ebbe637bcfe3e1684f63d6">StatementNode</a> (size_t <a class="el" href="classinja_1_1AstNode.html#a3ad0f455e521591d23befe13e7063b76">pos</a>)</td></tr>
-<tr class="memitem:acad5b266894cd94accd85bc79e8b2b8a" id="r_acad5b266894cd94accd85bc79e8b2b8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acad5b266894cd94accd85bc79e8b2b8a">accept</a> (<a class="el" href="classinja_1_1NodeVisitor.html">NodeVisitor</a> &amp;v) const override=0</td></tr>
+<tr class="memitem:ab8c53810773c7f6c2e31a7e82cf3cef7" id="r_ab8c53810773c7f6c2e31a7e82cf3cef7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8c53810773c7f6c2e31a7e82cf3cef7">accept</a> (<a class="el" href="classinja_1_1NodeVisitor.html">NodeVisitor</a> &amp;v) const =0</td></tr>
 <tr class="inherit_header pub_methods_classinja_1_1AstNode"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classinja_1_1AstNode')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classinja_1_1AstNode.html">inja::AstNode</a></td></tr>
 <tr class="memitem:a07cb3d5b6c13935440fc092ec8ff1fec inherit pub_methods_classinja_1_1AstNode" id="r_a07cb3d5b6c13935440fc092ec8ff1fec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">AstNode</a> (size_t <a class="el" href="classinja_1_1AstNode.html#a3ad0f455e521591d23befe13e7063b76">pos</a>)</td></tr>
-<tr class="memitem:a77473d9172fffbe66cb1864d548270a2 inherit pub_methods_classinja_1_1AstNode" id="r_a77473d9172fffbe66cb1864d548270a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinja_1_1AstNode.html#a77473d9172fffbe66cb1864d548270a2">AstNode</a> (const AstNode &amp;)=default</td></tr>
-<tr class="memitem:a200e2ab153ffcbf25936ae02e46be610 inherit pub_methods_classinja_1_1AstNode" id="r_a200e2ab153ffcbf25936ae02e46be610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">AstNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinja_1_1AstNode.html#a200e2ab153ffcbf25936ae02e46be610">operator=</a> (const <a class="el" href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">AstNode</a> &amp;)=default</td></tr>
 <tr class="memitem:ae7fc309038f8b23bc6f3041d7a81f733 inherit pub_methods_classinja_1_1AstNode" id="r_ae7fc309038f8b23bc6f3041d7a81f733"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinja_1_1AstNode.html#ae7fc309038f8b23bc6f3041d7a81f733">~AstNode</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
@@ -136,7 +134,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00653">653</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00680">680</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0bba1af707ebbe637bcfe3e1684f63d6" name="a0bba1af707ebbe637bcfe3e1684f63d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0bba1af707ebbe637bcfe3e1684f63d6">&#9670;&#160;</a></span>StatementNode()</h2>
@@ -156,20 +154,20 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00655">655</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  656</span>            : <a class="code hl_function" href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">AstNode</a>(<a class="code hl_variable" href="classinja_1_1AstNode.html#a3ad0f455e521591d23befe13e7063b76">pos</a>) {</div>
-<div class="line"><span class="lineno">  657</span>        }</div>
-<div class="ttc" id="aclassinja_1_1AstNode_html_a07cb3d5b6c13935440fc092ec8ff1fec"><div class="ttname"><a href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">inja::AstNode::AstNode</a></div><div class="ttdeci">AstNode(size_t pos)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00420">inja.hpp:420</a></div></div>
-<div class="ttc" id="aclassinja_1_1AstNode_html_a3ad0f455e521591d23befe13e7063b76"><div class="ttname"><a href="classinja_1_1AstNode.html#a3ad0f455e521591d23befe13e7063b76">inja::AstNode::pos</a></div><div class="ttdeci">size_t pos</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00418">inja.hpp:418</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00682">682</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  683</span>            : <a class="code hl_function" href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">AstNode</a>(<a class="code hl_variable" href="classinja_1_1AstNode.html#a3ad0f455e521591d23befe13e7063b76">pos</a>) {</div>
+<div class="line"><span class="lineno">  684</span>        }</div>
+<div class="ttc" id="aclassinja_1_1AstNode_html_a07cb3d5b6c13935440fc092ec8ff1fec"><div class="ttname"><a href="classinja_1_1AstNode.html#a07cb3d5b6c13935440fc092ec8ff1fec">inja::AstNode::AstNode</a></div><div class="ttdeci">AstNode(size_t pos)</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00449">inja.hpp:449</a></div></div>
+<div class="ttc" id="aclassinja_1_1AstNode_html_a3ad0f455e521591d23befe13e7063b76"><div class="ttname"><a href="classinja_1_1AstNode.html#a3ad0f455e521591d23befe13e7063b76">inja::AstNode::pos</a></div><div class="ttdeci">size_t pos</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00447">inja.hpp:447</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00420">inja::AstNode::AstNode()</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00449">inja::AstNode::AstNode()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00766">inja::BlockStatementNode::BlockStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00750">inja::ExtendsStatementNode::ExtendsStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00668">inja::ForStatementNode::ForStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00716">inja::IfStatementNode::IfStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00721">inja::IfStatementNode::IfStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00736">inja::IncludeStatementNode::IncludeStatementNode()</a>, and <a class="el" href="inja_8hpp_source.html#l00782">inja::SetStatementNode::SetStatementNode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00793">inja::BlockStatementNode::BlockStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00777">inja::ExtendsStatementNode::ExtendsStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00695">inja::ForStatementNode::ForStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00743">inja::IfStatementNode::IfStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00748">inja::IfStatementNode::IfStatementNode()</a>, <a class="el" href="inja_8hpp_source.html#l00763">inja::IncludeStatementNode::IncludeStatementNode()</a>, and <a class="el" href="inja_8hpp_source.html#l00809">inja::SetStatementNode::SetStatementNode()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -184,8 +182,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="acad5b266894cd94accd85bc79e8b2b8a" name="acad5b266894cd94accd85bc79e8b2b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acad5b266894cd94accd85bc79e8b2b8a">&#9670;&#160;</a></span>accept()</h2>
+<a id="ab8c53810773c7f6c2e31a7e82cf3cef7" name="ab8c53810773c7f6c2e31a7e82cf3cef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c53810773c7f6c2e31a7e82cf3cef7">&#9670;&#160;</a></span>accept()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,14 +200,14 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classinja_1_1AstNode.html#a50eaa5a02fb50529d24b705b2e44191b">inja::AstNode</a>.</p>
 
-<p>Implemented in <a class="el" href="classinja_1_1BlockStatementNode.html#a456620c18f76e58eca2981207366d26d">inja::BlockStatementNode</a>, <a class="el" href="classinja_1_1ExtendsStatementNode.html#ad4f3e11f069e71be7c3962cda2f40f1d">inja::ExtendsStatementNode</a>, <a class="el" href="classinja_1_1ForArrayStatementNode.html#aa347c1ee123ab27c7e3c90f6d5ee0ccd">inja::ForArrayStatementNode</a>, <a class="el" href="classinja_1_1ForObjectStatementNode.html#aa4856d914733b9b625c4c9c6ba20db91">inja::ForObjectStatementNode</a>, <a class="el" href="classinja_1_1ForStatementNode.html#acfe8721993f5820bfe9e6eb2ec26e711">inja::ForStatementNode</a>, <a class="el" href="classinja_1_1IfStatementNode.html#a06f419364dc74da505c4402016dd1573">inja::IfStatementNode</a>, <a class="el" href="classinja_1_1IncludeStatementNode.html#a3cf50db682b9aa0de72148a2a0029f7a">inja::IncludeStatementNode</a>, and <a class="el" href="classinja_1_1SetStatementNode.html#af374c51a2a57422ca2b4dbe866386b42">inja::SetStatementNode</a>.</p>
+<p>Implemented in <a class="el" href="classinja_1_1BlockStatementNode.html#a456620c18f76e58eca2981207366d26d">inja::BlockStatementNode</a>, <a class="el" href="classinja_1_1ExtendsStatementNode.html#ad4f3e11f069e71be7c3962cda2f40f1d">inja::ExtendsStatementNode</a>, <a class="el" href="classinja_1_1ForArrayStatementNode.html#aa347c1ee123ab27c7e3c90f6d5ee0ccd">inja::ForArrayStatementNode</a>, <a class="el" href="classinja_1_1ForObjectStatementNode.html#aa4856d914733b9b625c4c9c6ba20db91">inja::ForObjectStatementNode</a>, <a class="el" href="classinja_1_1ForStatementNode.html#aba097a997fe37a7b65b8c165cab5a3ec">inja::ForStatementNode</a>, <a class="el" href="classinja_1_1IfStatementNode.html#a06f419364dc74da505c4402016dd1573">inja::IfStatementNode</a>, <a class="el" href="classinja_1_1IncludeStatementNode.html#a3cf50db682b9aa0de72148a2a0029f7a">inja::IncludeStatementNode</a>, and <a class="el" href="classinja_1_1SetStatementNode.html#af374c51a2a57422ca2b4dbe866386b42">inja::SetStatementNode</a>.</p>
 
 </div>
 </div>

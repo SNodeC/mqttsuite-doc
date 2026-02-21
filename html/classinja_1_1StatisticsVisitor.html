@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a66fb1e2fb03b4c8c0b4d6762f9990ab8" id="r_a66fb1e2fb03b4c8c0b4d6762f9990ab8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66fb1e2fb03b4c8c0b4d6762f9990ab8">variable_counter</a></td></tr>
+<tr class="memitem:aa662de6ff6e417360841c3ac7de6ff54" id="r_aa662de6ff6e417360841c3ac7de6ff54"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa662de6ff6e417360841c3ac7de6ff54">variable_counter</a> {0}</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -154,7 +154,7 @@ Private Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class for counting statistics on a <a class="el" href="structinja_1_1Template.html" title="The main inja Template.">Template</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00807">807</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00834">834</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab8dfd9b9d27662d06449e2abe9767082" name="ab8dfd9b9d27662d06449e2abe9767082"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8dfd9b9d27662d06449e2abe9767082">&#9670;&#160;</a></span>StatisticsVisitor()</h2>
@@ -179,14 +179,11 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00872">872</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  873</span>            : <a class="code hl_variable" href="#a66fb1e2fb03b4c8c0b4d6762f9990ab8">variable_counter</a>(0) {</div>
-<div class="line"><span class="lineno">  874</span>        }</div>
-<div class="ttc" id="aclassinja_1_1StatisticsVisitor_html_a66fb1e2fb03b4c8c0b4d6762f9990ab8"><div class="ttname"><a href="#a66fb1e2fb03b4c8c0b4d6762f9990ab8">inja::StatisticsVisitor::variable_counter</a></div><div class="ttdeci">unsigned int variable_counter</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00870">inja.hpp:870</a></div></div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00899">899</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  899</span>                                     {</div>
+<div class="line"><span class="lineno">  900</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00870">variable_counter</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00898">inja::Template::count_variables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00924">inja::Template::count_variables()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -221,14 +218,14 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#afecb3de947b76e68094be2a72eedea09">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00808">808</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  808</span>                                                   {</div>
-<div class="line"><span class="lineno">  809</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; n : node.nodes) {</div>
-<div class="line"><span class="lineno">  810</span>                n-&gt;accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  811</span>            }</div>
-<div class="line"><span class="lineno">  812</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00835">835</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  835</span>                                                   {</div>
+<div class="line"><span class="lineno">  836</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; n : node.nodes) {</div>
+<div class="line"><span class="lineno">  837</span>                n-&gt;accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  838</span>            }</div>
+<div class="line"><span class="lineno">  839</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classinja_1_1AstNode.html#a50eaa5a02fb50529d24b705b2e44191b">inja::AstNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00431">inja::BlockNode::nodes</a>.</p>
+<p class="reference">References <a class="el" href="classinja_1_1AstNode.html#a50eaa5a02fb50529d24b705b2e44191b">inja::AstNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00458">inja::BlockNode::nodes</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -262,12 +259,12 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#ad338eed1ae5d4d566145a22d9051375c">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00862">862</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  862</span>                                                            {</div>
-<div class="line"><span class="lineno">  863</span>            node.block.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  864</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00889">889</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  889</span>                                                            {</div>
+<div class="line"><span class="lineno">  890</span>            node.block.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  891</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00437">inja::BlockNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00763">inja::BlockStatementNode::block</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00464">inja::BlockNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00790">inja::BlockStatementNode::block</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -301,12 +298,13 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a0e7441e78d2aa2f66bb21e1660b5c4be">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00821">821</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  821</span>                                             {</div>
-<div class="line"><span class="lineno">  822</span>            <a class="code hl_variable" href="#a66fb1e2fb03b4c8c0b4d6762f9990ab8">variable_counter</a> += 1;</div>
-<div class="line"><span class="lineno">  823</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00848">848</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  848</span>                                             {</div>
+<div class="line"><span class="lineno">  849</span>            <a class="code hl_variable" href="#aa662de6ff6e417360841c3ac7de6ff54">variable_counter</a> += 1;</div>
+<div class="line"><span class="lineno">  850</span>        }</div>
+<div class="ttc" id="aclassinja_1_1StatisticsVisitor_html_aa662de6ff6e417360841c3ac7de6ff54"><div class="ttname"><a href="#aa662de6ff6e417360841c3ac7de6ff54">inja::StatisticsVisitor::variable_counter</a></div><div class="ttdeci">size_t variable_counter</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00897">inja.hpp:897</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00870">variable_counter</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00897">variable_counter</a>.</p>
 
 </div>
 </div>
@@ -335,12 +333,12 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a675afea1f3fb02af1efb89f1d5dd4642">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00831">831</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  831</span>                                                            {</div>
-<div class="line"><span class="lineno">  832</span>            node.root-&gt;accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  833</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00858">858</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  858</span>                                                            {</div>
+<div class="line"><span class="lineno">  859</span>            node.root-&gt;accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  860</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00462">inja::ExpressionNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00639">inja::ExpressionListNode::root</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00489">inja::ExpressionNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00666">inja::ExpressionListNode::root</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -374,9 +372,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#ac1487c93e9e91cba1bf57741842ba6d3">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00816">816</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  816</span>                                                   {</div>
-<div class="line"><span class="lineno">  817</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00843">843</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  843</span>                                                   {</div>
+<div class="line"><span class="lineno">  844</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -405,9 +403,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a973e8d68b48660e93fb08632e0235d78">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00859">859</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  859</span>                                                         {</div>
-<div class="line"><span class="lineno">  860</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00886">886</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  886</span>                                                         {</div>
+<div class="line"><span class="lineno">  887</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -436,13 +434,13 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#afdec393895522e75eb57b142214f26ff">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00840">840</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  840</span>                                                               {</div>
-<div class="line"><span class="lineno">  841</span>            node.condition.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  842</span>            node.body.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  843</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00867">867</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  867</span>                                                               {</div>
+<div class="line"><span class="lineno">  868</span>            node.condition.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  869</span>            node.body.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  870</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00437">inja::BlockNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00648">inja::ExpressionListNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00665">inja::ForStatementNode::body</a>, and <a class="el" href="inja_8hpp_source.html#l00664">inja::ForStatementNode::condition</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00464">inja::BlockNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00675">inja::ExpressionListNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00692">inja::ForStatementNode::body</a>, and <a class="el" href="inja_8hpp_source.html#l00691">inja::ForStatementNode::condition</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -476,13 +474,13 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#ad1000c77f7cfd89078dff3a796be3774">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00845">845</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  845</span>                                                                {</div>
-<div class="line"><span class="lineno">  846</span>            node.condition.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  847</span>            node.body.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  848</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00872">872</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  872</span>                                                                {</div>
+<div class="line"><span class="lineno">  873</span>            node.condition.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  874</span>            node.body.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  875</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00437">inja::BlockNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00648">inja::ExpressionListNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00665">inja::ForStatementNode::body</a>, and <a class="el" href="inja_8hpp_source.html#l00664">inja::ForStatementNode::condition</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00464">inja::BlockNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00675">inja::ExpressionListNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00692">inja::ForStatementNode::body</a>, and <a class="el" href="inja_8hpp_source.html#l00691">inja::ForStatementNode::condition</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -516,9 +514,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a9e50994fdc3ab0c30941ed75a9223ce6">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00837">837</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  837</span>                                                     {</div>
-<div class="line"><span class="lineno">  838</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00864">864</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  864</span>                                                     {</div>
+<div class="line"><span class="lineno">  865</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -547,14 +545,14 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#aefeedf3e32542335ab27ac731744caed">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00825">825</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  825</span>                                                      {</div>
-<div class="line"><span class="lineno">  826</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; n : node.arguments) {</div>
-<div class="line"><span class="lineno">  827</span>                n-&gt;accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  828</span>            }</div>
-<div class="line"><span class="lineno">  829</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00852">852</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  852</span>                                                      {</div>
+<div class="line"><span class="lineno">  853</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; n : node.arguments) {</div>
+<div class="line"><span class="lineno">  854</span>                n-&gt;accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  855</span>            }</div>
+<div class="line"><span class="lineno">  856</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00462">inja::ExpressionNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00524">inja::FunctionNode::arguments</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00489">inja::ExpressionNode::accept()</a>, and <a class="el" href="inja_8hpp_source.html#l00551">inja::FunctionNode::arguments</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -588,14 +586,14 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#ad59394ed597ab144ef953603870d8e02">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00850">850</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  850</span>                                                         {</div>
-<div class="line"><span class="lineno">  851</span>            node.condition.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  852</span>            node.true_statement.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  853</span>            node.false_statement.accept(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  854</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00877">877</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  877</span>                                                         {</div>
+<div class="line"><span class="lineno">  878</span>            node.condition.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  879</span>            node.true_statement.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  880</span>            node.false_statement.accept(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  881</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00437">inja::BlockNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00648">inja::ExpressionListNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00708">inja::IfStatementNode::condition</a>, <a class="el" href="inja_8hpp_source.html#l00710">inja::IfStatementNode::false_statement</a>, and <a class="el" href="inja_8hpp_source.html#l00709">inja::IfStatementNode::true_statement</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00464">inja::BlockNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00675">inja::ExpressionListNode::accept()</a>, <a class="el" href="inja_8hpp_source.html#l00735">inja::IfStatementNode::condition</a>, <a class="el" href="inja_8hpp_source.html#l00737">inja::IfStatementNode::false_statement</a>, and <a class="el" href="inja_8hpp_source.html#l00736">inja::IfStatementNode::true_statement</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -629,9 +627,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a983925f5e5368c6c40ab5358c3cbc030">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00856">856</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  856</span>                                                         {</div>
-<div class="line"><span class="lineno">  857</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00883">883</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  883</span>                                                         {</div>
+<div class="line"><span class="lineno">  884</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -660,9 +658,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#ab223cf9e84e6600c08b26a26700b5346">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00818">818</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  818</span>                                                {</div>
-<div class="line"><span class="lineno">  819</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00845">845</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  845</span>                                                {</div>
+<div class="line"><span class="lineno">  846</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -691,9 +689,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a40bfd7805ebcc28bd4aee35f8defa918">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00866">866</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  866</span>                                                     {</div>
-<div class="line"><span class="lineno">  867</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00893">893</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  893</span>                                                     {</div>
+<div class="line"><span class="lineno">  894</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -722,9 +720,9 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a8ea1578c33aaaaf77fc3dfc70a393fc6">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00835">835</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  835</span>                                                  {</div>
-<div class="line"><span class="lineno">  836</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00862">862</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  862</span>                                                  {</div>
+<div class="line"><span class="lineno">  863</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -753,28 +751,29 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classinja_1_1NodeVisitor.html#a9b6e298e4f9bf472b5546642695ccc2b">inja::NodeVisitor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00814">814</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  814</span>                                             {</div>
-<div class="line"><span class="lineno">  815</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00841">841</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  841</span>                                             {</div>
+<div class="line"><span class="lineno">  842</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a66fb1e2fb03b4c8c0b4d6762f9990ab8" name="a66fb1e2fb03b4c8c0b4d6762f9990ab8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66fb1e2fb03b4c8c0b4d6762f9990ab8">&#9670;&#160;</a></span>variable_counter</h2>
+<a id="aa662de6ff6e417360841c3ac7de6ff54" name="aa662de6ff6e417360841c3ac7de6ff54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa662de6ff6e417360841c3ac7de6ff54">&#9670;&#160;</a></span>variable_counter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int inja::StatisticsVisitor::variable_counter</td>
+          <td class="memname">size_t inja::StatisticsVisitor::variable_counter {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00870">870</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00898">inja::Template::count_variables()</a>, <a class="el" href="inja_8hpp_source.html#l00872">StatisticsVisitor()</a>, and <a class="el" href="inja_8hpp_source.html#l00821">visit()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="inja_8hpp_source.html#l00897">897</a> of file <a class="el" href="inja_8hpp_source.html">inja.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  897</span>{0};</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="inja_8hpp_source.html#l00924">inja::Template::count_variables()</a>, and <a class="el" href="inja_8hpp_source.html#l00848">visit()</a>.</p>
 
 </div>
 </div>

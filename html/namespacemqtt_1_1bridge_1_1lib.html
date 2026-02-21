@@ -111,9 +111,48 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:Bridge" id="r_Bridge"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Bridge.html">Bridge</a></td></tr>
 <tr class="memitem:Broker" id="r_Broker"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a></td></tr>
-<tr class="memitem:Mqtt" id="r_Mqtt"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Mqtt.html">Mqtt</a></td></tr>
 <tr class="memitem:BridgeStore" id="r_BridgeStore"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html">BridgeStore</a></td></tr>
+<tr class="memitem:Mqtt" id="r_Mqtt"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1Mqtt.html">Mqtt</a></td></tr>
+<tr class="memitem:SSEDistributor" id="r_SSEDistributor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html">SSEDistributor</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a122a9f16e2f4c939bf4f2112379fcb1b" id="r_a122a9f16e2f4c939bf4f2112379fcb1b"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122a9f16e2f4c939bf4f2112379fcb1b">split_plus</a> (const std::string &amp;s)</td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a122a9f16e2f4c939bf4f2112379fcb1b" name="a122a9f16e2f4c939bf4f2112379fcb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122a9f16e2f4c939bf4f2112379fcb1b">&#9670;&#160;</a></span>split_plus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; std::string, std::string &gt; mqtt::bridge::lib::split_plus </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="BridgeStore_8cpp_source.html#l00251">251</a> of file <a class="el" href="BridgeStore_8cpp_source.html">BridgeStore.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  251</span>                                                                        {</div>
+<div class="line"><span class="lineno">  252</span>        <span class="keyword">const</span> <span class="keyword">auto</span> pos = s.find(<span class="charliteral">&#39;+&#39;</span>);</div>
+<div class="line"><span class="lineno">  253</span>        <span class="keywordflow">if</span> (pos == std::string::npos)</div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">return</span> {s, {}};</div>
+<div class="line"><span class="lineno">  255</span>        <span class="keywordflow">return</span> {s.substr(0, pos), s.substr(pos + 1)};</div>
+<div class="line"><span class="lineno">  256</span>    };</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

@@ -1,0 +1,20 @@
+<map id="inja::FunctionStorage::add_callback" name="inja::FunctionStorage::add_callback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="806,91,964,135"/>
+<area shape="rect" id="Node000002" href="$classinja_1_1Environment.html#accda3196054131f8e8cd484ef92c0627" title="Adds a callback with given number or arguments." alt="" coords="613,56,758,101"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="788,97,758,94,758,88,793,97"/>
+<area shape="rect" id="Node000007" href="$classinja_1_1Environment.html#a3467986ae633a7c546a62c387b6c613f" title="Adds a void callback with given number or arguments." alt="" coords="613,125,758,170"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="793,129,758,138,757,133,788,130"/>
+<area shape="rect" id="Node000003" href="$classinja_1_1Environment.html#aacf2afb515ec7efb0b844174093fed6d" title="Adds a variadic callback." alt="" coords="421,5,565,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="596,55,565,49,565,44,601,55"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1MqttMapper.html#ae244e3745588740bf513016cb0f06a74" title=" " alt="" coords="210,91,373,135"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="595,87,374,108,373,103,600,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="427,55,347,93,345,88,422,57"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a183033437406ea7be6c978ab3153bad5" title=" " alt="" coords="5,56,162,101"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="192,98,163,94,162,89,197,96"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#ad8c0b5a8b1ecd0e2eb8e54a2d186a5ae" title=" " alt="" coords="6,125,161,170"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="192,130,163,137,161,132,197,128"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="595,141,374,123,374,118,600,139"/>
+<area shape="rect" id="Node000008" href="$classinja_1_1Environment.html#abf3676db94a59534d715e83f4d5e4940" title="Adds a variadic void callback." alt="" coords="421,176,565,221"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="601,170,566,182,565,177,596,171"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="422,170,346,139,347,133,427,170"/>
+</map>

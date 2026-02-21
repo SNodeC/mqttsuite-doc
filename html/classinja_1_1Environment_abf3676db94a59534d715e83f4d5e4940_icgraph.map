@@ -1,0 +1,9 @@
+<map id="inja::Environment::add_void_callback" name="inja::Environment::add_void_callback">
+<area shape="rect" id="Node000001" title="Adds a variadic void callback." alt="" coords="421,40,565,85"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1MqttMapper.html#ae244e3745588740bf513016cb0f06a74" title=" " alt="" coords="210,40,373,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,63,374,65,373,60,408,62"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a183033437406ea7be6c978ab3153bad5" title=" " alt="" coords="5,5,162,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="192,47,162,43,162,38,197,46"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#ad8c0b5a8b1ecd0e2eb8e54a2d186a5ae" title=" " alt="" coords="6,75,161,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,79,162,87,161,81,197,78"/>
+</map>

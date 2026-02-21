@@ -28,9 +28,11 @@ var searchData=
   ['use_20websockets_20wss_25',['(Optional) Use WebSockets (WSS)',['../index.html#optional-use-websockets-wss',1,'']]],
   ['use_5ftabchars_26',['use_tabchars',['../_8cmake-format_8py.html#ae8d8dd08b44557cba0e8877585fb81e4',1,'.cmake-format.py']]],
   ['useful_20for_20development_20qa_27',['Optional (useful for development/QA)',['../index.html#optional-useful-for-developmentqa',1,'']]],
-  ['username_28',['username',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html#a4fe21a496842d48cf580391480c3440d',1,'mqtt::mqttcli::lib::Mqtt::username']]],
-  ['using_20w_29',['Persist your configuration using &lt;span class=&quot;tt&quot;&gt;-w&lt;/span&gt;',['../index.html#persist-your-configuration-using--w',1,'']]],
-  ['using_20w_20so_20you_20don’t_20repeat_20flags_30',['Persist your configuration using &lt;span class=&quot;tt&quot;&gt;-w&lt;/span&gt; (so you don’t repeat flags)',['../index.html#persist-your-configuration-using--w-so-you-dont-repeat-flags',1,'']]],
-  ['utf8_5flength_31',['utf8_length',['../classanonymous__namespace_02json-validator_8cpp_03_1_1string.html#ad3376ca03b9932ee0fdd33849ef5ebde',1,'anonymous_namespace{json-validator.cpp}::string::utf8_length(const std::string &amp;s) const'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1string.html#ad3376ca03b9932ee0fdd33849ef5ebde',1,'anonymous_namespace{json-validator.cpp}::string::utf8_length(const std::string &amp;s) const']]],
-  ['uuid_32',['uuid',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191',1,'anonymous_namespace{string-format-check.cpp}']]]
+  ['user_28',['user',['../structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a',1,'mqtt::lib::admin::AdminOptions']]],
+  ['username_29',['username',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a1fb5d1b56707baf28adb98aa95e691d8',1,'mqtt::bridge::lib::Broker::username'],['../classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html#a4fe21a496842d48cf580391480c3440d',1,'mqtt::mqttcli::lib::Mqtt::username']]],
+  ['usernameopt_30',['usernameOpt',['../classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a7a1fc11ca829332a829b2dc7fa5d87ef',1,'mqtt::mqttcli::lib::ConfigSession']]],
+  ['using_20w_31',['Persist your configuration using &lt;span class=&quot;tt&quot;&gt;-w&lt;/span&gt;',['../index.html#persist-your-configuration-using--w',1,'']]],
+  ['using_20w_20so_20you_20don’t_20repeat_20flags_32',['Persist your configuration using &lt;span class=&quot;tt&quot;&gt;-w&lt;/span&gt; (so you don’t repeat flags)',['../index.html#persist-your-configuration-using--w-so-you-dont-repeat-flags',1,'']]],
+  ['utf8_5flength_33',['utf8_length',['../classanonymous__namespace_02json-validator_8cpp_03_1_1string.html#ad3376ca03b9932ee0fdd33849ef5ebde',1,'anonymous_namespace{json-validator.cpp}::string::utf8_length(const std::string &amp;s) const'],['../classanonymous__namespace_02json-validator_8cpp_03_1_1string.html#ad3376ca03b9932ee0fdd33849ef5ebde',1,'anonymous_namespace{json-validator.cpp}::string::utf8_length(const std::string &amp;s) const']]],
+  ['uuid_34',['uuid',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191',1,'anonymous_namespace{string-format-check.cpp}']]]
 ];

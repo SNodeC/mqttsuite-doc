@@ -1,0 +1,7 @@
+<map id="closeBridges" name="closeBridges">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,110,76"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a15b52ed6fe4ca6d0b94d15ec3a4cacb8" title=" " alt="" coords="158,5,385,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,51,145,48,140,50,111,56"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ab6cc33c1c26ccfbd738a5ec2700f0896" title=" " alt="" coords="183,75,360,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,68,170,79,165,81,110,73"/>
+</map>

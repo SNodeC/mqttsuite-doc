@@ -109,7 +109,7 @@ $(function() {
 <a href="Broker_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><span class="lineno">    2</span><span class="comment"> * MQTTSuite - A lightweight MQTT Integration System</span></div>
 <div class="line"><span class="lineno">    3</span><span class="comment"> * Copyright (C) Volker Christian &lt;me@vchrist.at&gt;</span></div>
-<div class="line"><span class="lineno">    4</span><span class="comment"> *               2022, 2023, 2024, 2025</span></div>
+<div class="line"><span class="lineno">    4</span><span class="comment"> *               2022, 2023, 2024, 2025, 2026</span></div>
 <div class="line"><span class="lineno">    5</span><span class="comment"> *</span></div>
 <div class="line"><span class="lineno">    6</span><span class="comment"> * This program is free software: you can redistribute it and/or modify it</span></div>
 <div class="line"><span class="lineno">    7</span><span class="comment"> * under the terms of the GNU General Public License as published by the Free</span></div>
@@ -155,7 +155,7 @@ $(function() {
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">namespace</span> mqtt::bridge::<a class="code hl_namespace" href="namespacemqtt_1_1bridge.html">lib</a> {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">namespace</span> mqtt::<a class="code hl_namespace" href="namespacemqtt_1_1bridge.html">bridge</a>::<a class="code hl_namespace" href="namespacemqtt_1_1bridge_1_1lib.html">lib</a> {</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html#a86efcaf699022d64d0d01c0093569211">   52</a></span>    <a class="code hl_class" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">Broker</a>::<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1Broker.html#a86efcaf699022d64d0d01c0093569211">Broker</a>(<a class="code hl_class" href="classmqtt_1_1bridge_1_1lib_1_1Bridge.html">Bridge</a>&amp; bridge,</div>
@@ -322,7 +322,7 @@ $(function() {
 </div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>} <span class="comment">// namespace mqtt::bridge::lib</span></div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Bridge_html"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Bridge.html">mqtt::bridge::lib::Bridge</a></div><div class="ttdef"><b>Definition</b> <a href="Bridge_8h_source.html#l00064">Bridge.h:64</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Bridge_html"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Bridge.html">mqtt::bridge::lib::Bridge</a></div><div class="ttdef"><b>Definition</b> <a href="Bridge_8h_source.html#l00068">Bridge.h:68</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Broker_html"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Broker.html">mqtt::bridge::lib::Broker</a></div><div class="ttdef"><b>Definition</b> <a href="Broker_8h_source.html#l00063">Broker.h:63</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Broker_html_a0cb6a0b6686369928942a63621677fc7"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Broker.html#a0cb6a0b6686369928942a63621677fc7">mqtt::bridge::lib::Broker::getName</a></div><div class="ttdeci">const std::string &amp; getName() const</div><div class="ttdef"><b>Definition</b> <a href="#l00142">Broker.cpp:142</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Broker_html_a12c314cbad6137819c767bc6ead98d3e"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Broker.html#a12c314cbad6137819c767bc6ead98d3e">mqtt::bridge::lib::Broker::getLoopPrevention</a></div><div class="ttdeci">bool getLoopPrevention() const</div><div class="ttdef"><b>Definition</b> <a href="#l00138">Broker.cpp:138</a></div></div>
@@ -366,8 +366,9 @@ $(function() {
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Broker_html_ae421318ee7d0d6287cdb43d605277a5b"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Broker.html#ae421318ee7d0d6287cdb43d605277a5b">mqtt::bridge::lib::Broker::getWillQoS</a></div><div class="ttdeci">uint8_t getWillQoS() const</div><div class="ttdef"><b>Definition</b> <a href="#l00122">Broker.cpp:122</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1Broker_html_af899c763bdfcd39ab455625baa28507c"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1Broker.html#af899c763bdfcd39ab455625baa28507c">mqtt::bridge::lib::Broker::encryption</a></div><div class="ttdeci">std::string encryption</div><div class="ttdef"><b>Definition</b> <a href="Broker_8h_source.html#l00122">Broker.h:122</a></div></div>
 <div class="ttc" id="anamespaceiot_html"><div class="ttname"><a href="namespaceiot.html">iot</a></div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00045">MqttMapper.h:45</a></div></div>
-<div class="ttc" id="anamespacemqtt_1_1bridge_html"><div class="ttname"><a href="namespacemqtt_1_1bridge.html">mqtt::bridge</a></div><div class="ttdef"><b>Definition</b> <a href="Bridge_8cpp_source.html#l00053">Bridge.cpp:53</a></div></div>
-<div class="ttc" id="anamespacenlohmann_html"><div class="ttname"><a href="namespacenlohmann.html">nlohmann</a></div><div class="ttdef"><b>Definition</b> <a href="src_2json-patch_8cpp_source.html#l00071">json-patch.cpp:72</a></div></div>
+<div class="ttc" id="anamespacemqtt_1_1bridge_1_1lib_html"><div class="ttname"><a href="namespacemqtt_1_1bridge_1_1lib.html">mqtt::bridge::lib</a></div><div class="ttdef"><b>Definition</b> <a href="Bridge_8cpp_source.html#l00059">Bridge.cpp:59</a></div></div>
+<div class="ttc" id="anamespacemqtt_1_1bridge_html"><div class="ttname"><a href="namespacemqtt_1_1bridge.html">mqtt::bridge</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigBridge_8cpp_source.html#l00050">ConfigBridge.cpp:50</a></div></div>
+<div class="ttc" id="anamespacenlohmann_html"><div class="ttname"><a href="namespacenlohmann.html">nlohmann</a></div><div class="ttdef"><b>Definition</b> <a href="json-schema_8hpp_source.html#l00035">json-schema.hpp:36</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

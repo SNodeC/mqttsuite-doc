@@ -111,9 +111,13 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for mqtt::lib::JsonMappingReader:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader__coll__graph.svg" width="454" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader__coll__graph.svg" width="299" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:VersionEntry" id="r_VersionEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">VersionEntry</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a523677c475073e34918161bcb0079979" id="r_a523677c475073e34918161bcb0079979"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523677c475073e34918161bcb0079979">JsonMappingReader</a> ()=delete</td></tr>
@@ -121,16 +125,25 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a77231994bd3ef854feb2db79dd71746b" id="r_a77231994bd3ef854feb2db79dd71746b"><td class="memItemLeft" align="right" valign="top">static nlohmann::json &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77231994bd3ef854feb2db79dd71746b">readMappingFromFile</a> (const std::string &amp;mapFilePath)</td></tr>
+<tr class="memitem:aeafcd5149d659aa911e6f6dcee240ce1" id="r_aeafcd5149d659aa911e6f6dcee240ce1"><td class="memItemLeft" align="right" valign="top">static const nlohmann::json &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeafcd5149d659aa911e6f6dcee240ce1">getSchema</a> ()</td></tr>
+<tr class="memitem:ae8eff0ae26adbed7f80e15be2a5fb5ad" id="r_ae8eff0ae26adbed7f80e15be2a5fb5ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8eff0ae26adbed7f80e15be2a5fb5ad">saveDraft</a> (const std::string &amp;mapFilePath, const nlohmann::json &amp;<a class="el" href="binary-validation_8cpp.html#a8d1a5048d05f0864ffbc9534516e13a5">content</a>)</td></tr>
+<tr class="memitem:adea493de007f0dab0bea0382beedbf7d" id="r_adea493de007f0dab0bea0382beedbf7d"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adea493de007f0dab0bea0382beedbf7d">readDraftOrActive</a> (const std::string &amp;mapFilePath)</td></tr>
+<tr class="memitem:a96a4c18a4a714832619e776f67afe7b3" id="r_a96a4c18a4a714832619e776f67afe7b3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a4c18a4a714832619e776f67afe7b3">deployDraft</a> (const std::string &amp;mapFilePath)</td></tr>
+<tr class="memitem:a580a1cc4add19dda09510a53e57680b7" id="r_a580a1cc4add19dda09510a53e57680b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a580a1cc4add19dda09510a53e57680b7">discardDraft</a> (const std::string &amp;mapFilePath)</td></tr>
+<tr class="memitem:ae1fe85c10e7aaeafa92e1b80b15274af" id="r_ae1fe85c10e7aaeafa92e1b80b15274af"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1fe85c10e7aaeafa92e1b80b15274af">getDraftPath</a> (const std::string &amp;mapFilePath)</td></tr>
+<tr class="memitem:aad4d1b579cf41a56350a5592f56829a8" id="r_aad4d1b579cf41a56350a5592f56829a8"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">VersionEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4d1b579cf41a56350a5592f56829a8">getHistory</a> (const std::string &amp;mapFilePath)</td></tr>
+<tr class="memitem:a7d4a5292bbdcec7b26c1196ccd4fab22" id="r_a7d4a5292bbdcec7b26c1196ccd4fab22"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4a5292bbdcec7b26c1196ccd4fab22">rollbackTo</a> (const std::string &amp;mapFilePath, const std::string &amp;versionId)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a4651167567038941293bdb96c416f327" id="r_a4651167567038941293bdb96c416f327"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a> = nlohmann::json::parse(<a class="el" href="#aa761787ff7c9b501b6a84278f3d06074">mappingJsonSchemaString</a>)</td></tr>
 <tr class="memitem:aa761787ff7c9b501b6a84278f3d06074" id="r_aa761787ff7c9b501b6a84278f3d06074"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa761787ff7c9b501b6a84278f3d06074">mappingJsonSchemaString</a></td></tr>
-<tr class="memitem:ad6c1204c931c25eb1e43d660554cedf7" id="r_ad6c1204c931c25eb1e43d660554cedf7"><td class="memItemLeft" align="right" valign="top">static std::map&lt; std::string, nlohmann::json &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a></td></tr>
+<tr class="memitem:a9095a468e6807b7c98af44ef5f35f5b9" id="r_a9095a468e6807b7c98af44ef5f35f5b9"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a></td></tr>
+<tr class="memitem:ae280727a2b6b718ae0c8e190b78bd39a" id="r_ae280727a2b6b718ae0c8e190b78bd39a"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae280727a2b6b718ae0c8e190b78bd39a">mapFileJsonDefaultPatched</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00055">55</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00057">57</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a523677c475073e34918161bcb0079979" name="a523677c475073e34918161bcb0079979"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a523677c475073e34918161bcb0079979">&#9670;&#160;</a></span>JsonMappingReader()</h2>
@@ -158,6 +171,395 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a96a4c18a4a714832619e776f67afe7b3" name="a96a4c18a4a714832619e776f67afe7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a4c18a4a714832619e776f67afe7b3">&#9670;&#160;</a></span>deployDraft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mqtt::lib::JsonMappingReader::deployDraft </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00165">165</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  165</span>                                                                    {</div>
+<div class="line"><span class="lineno">  166</span>        std::string draftPath = <a class="code hl_function" href="#ae1fe85c10e7aaeafa92e1b80b15274af">getDraftPath</a>(mapFilePath);</div>
+<div class="line"><span class="lineno">  167</span>        <span class="keywordflow">if</span> (!fs::exists(draftPath))</div>
+<div class="line"><span class="lineno">  168</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>        <span class="comment">// 1. Inject creation timestamp into draft</span></div>
+<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  172</span>            std::ifstream f(draftPath);</div>
+<div class="line"><span class="lineno">  173</span>            nlohmann::json j;</div>
+<div class="line"><span class="lineno">  174</span>            f &gt;&gt; j;</div>
+<div class="line"><span class="lineno">  175</span>            f.close();</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>            <span class="keyword">auto</span> now = std::chrono::system_clock::now();</div>
+<div class="line"><span class="lineno">  178</span>            std::time_t now_c = std::chrono::system_clock::to_time_t(now);</div>
+<div class="line"><span class="lineno">  179</span>            std::stringstream ss;</div>
+<div class="line"><span class="lineno">  180</span>            ss &lt;&lt; std::put_time(std::gmtime(&amp;now_c), <span class="stringliteral">&quot;%Y-%m-%dT%H:%M:%SZ&quot;</span>);</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>            <span class="keywordflow">if</span> (!j.contains(<span class="stringliteral">&quot;meta&quot;</span>))</div>
+<div class="line"><span class="lineno">  183</span>                j[<span class="stringliteral">&quot;meta&quot;</span>] = nlohmann::json::object();</div>
+<div class="line"><span class="lineno">  184</span>            j[<span class="stringliteral">&quot;meta&quot;</span>][<span class="stringliteral">&quot;created&quot;</span>] = ss.str();</div>
+<div class="line"><span class="lineno">  185</span>            j[<span class="stringliteral">&quot;meta&quot;</span>][<span class="stringliteral">&quot;version&quot;</span>] = std::to_string(std::chrono::duration_cast&lt;std::chrono::seconds&gt;(now.time_since_epoch()).count());</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>            std::ofstream out(draftPath, std::ios::trunc);</div>
+<div class="line"><span class="lineno">  188</span>            out &lt;&lt; j.dump(2);</div>
+<div class="line"><span class="lineno">  189</span>            out.close();</div>
+<div class="line"><span class="lineno">  190</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  191</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Failed to inject metadata into draft: &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  192</span>        }</div>
+<div class="line"><span class="lineno">  193</span> </div>
+<div class="line"><span class="lineno">  194</span>        <span class="comment">// 2. Backup current active file</span></div>
+<div class="line"><span class="lineno">  195</span>        <span class="keywordflow">if</span> (fs::exists(mapFilePath)) {</div>
+<div class="line"><span class="lineno">  196</span>            fs::path versionDir = fs::path(mapFilePath).parent_path() / <span class="stringliteral">&quot;versions&quot;</span>;</div>
+<div class="line"><span class="lineno">  197</span>            <span class="keywordflow">if</span> (!fs::exists(versionDir)) {</div>
+<div class="line"><span class="lineno">  198</span>                fs::create_directories(versionDir);</div>
+<div class="line"><span class="lineno">  199</span>            }</div>
+<div class="line"><span class="lineno">  200</span> </div>
+<div class="line"><span class="lineno">  201</span>            <span class="keyword">auto</span> now = std::chrono::system_clock::now();</div>
+<div class="line"><span class="lineno">  202</span>            <span class="keyword">auto</span> timestamp = std::chrono::duration_cast&lt;std::chrono::seconds&gt;(now.time_since_epoch()).count();</div>
+<div class="line"><span class="lineno">  203</span>            std::string filename = fs::path(mapFilePath).filename().string();</div>
+<div class="line"><span class="lineno">  204</span>            std::string backupPath = versionDir / (filename + <span class="stringliteral">&quot;.&quot;</span> + std::to_string(timestamp));</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>            fs::copy_file(mapFilePath, backupPath, fs::copy_options::overwrite_existing);</div>
+<div class="line"><span class="lineno">  207</span> </div>
+<div class="line"><span class="lineno">  208</span>            <span class="comment">// 3. Prune old versions (Keep last 50)</span></div>
+<div class="line"><span class="lineno">  209</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  210</span>                std::vector&lt;fs::path&gt; versions;</div>
+<div class="line"><span class="lineno">  211</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; entry : fs::directory_iterator(versionDir)) {</div>
+<div class="line"><span class="lineno">  212</span>                    <span class="keywordflow">if</span> (entry.path().filename().string().starts_with(filename + <span class="stringliteral">&quot;.&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  213</span>                        versions.push_back(entry.path());</div>
+<div class="line"><span class="lineno">  214</span>                    }</div>
+<div class="line"><span class="lineno">  215</span>                }</div>
+<div class="line"><span class="lineno">  216</span>                <span class="keywordflow">if</span> (versions.size() &gt; 50) {</div>
+<div class="line"><span class="lineno">  217</span>                    std::sort(versions.begin(), versions.end(), [](<span class="keyword">const</span> fs::path&amp; a, <span class="keyword">const</span> fs::path&amp; b) {</div>
+<div class="line"><span class="lineno">  218</span>                        return fs::last_write_time(a) &lt; fs::last_write_time(b); <span class="comment">// Oldest first</span></div>
+<div class="line"><span class="lineno">  219</span>                    });</div>
+<div class="line"><span class="lineno">  220</span>                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; versions.size() - 50; ++i) {</div>
+<div class="line"><span class="lineno">  221</span>                        fs::remove(versions[i]);</div>
+<div class="line"><span class="lineno">  222</span>                    }</div>
+<div class="line"><span class="lineno">  223</span>                }</div>
+<div class="line"><span class="lineno">  224</span>            } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><span class="lineno">  225</span>            }</div>
+<div class="line"><span class="lineno">  226</span>        }</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  228</span>        <span class="comment">// 4. Promote draft to active</span></div>
+<div class="line"><span class="lineno">  229</span>        fs::rename(draftPath, mapFilePath);</div>
+<div class="line"><span class="lineno">  230</span> </div>
+<div class="line"><span class="lineno">  231</span>        <span class="comment">// Invalidate cache so next readMappingFromFile reloads it</span></div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.clear();</div>
+<div class="line"><span class="lineno">  233</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a9095a468e6807b7c98af44ef5f35f5b9"><div class="ttname"><a href="#a9095a468e6807b7c98af44ef5f35f5b9">mqtt::lib::JsonMappingReader::mapFileJson</a></div><div class="ttdeci">static nlohmann::json mapFileJson</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00087">JsonMappingReader.h:87</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_ae1fe85c10e7aaeafa92e1b80b15274af"><div class="ttname"><a href="#ae1fe85c10e7aaeafa92e1b80b15274af">mqtt::lib::JsonMappingReader::getDraftPath</a></div><div class="ttdeci">static std::string getDraftPath(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00134">JsonMappingReader.cpp:134</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="JsonMappingReader_8cpp_source.html#l00134">getDraftPath()</a>, and <a class="el" href="JsonMappingReader_8h_source.html#l00087">mapFileJson</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a96a4c18a4a714832619e776f67afe7b3_cgraph.svg" width="486" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a96a4c18a4a714832619e776f67afe7b3_icgraph.svg" width="600" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a580a1cc4add19dda09510a53e57680b7" name="a580a1cc4add19dda09510a53e57680b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a580a1cc4add19dda09510a53e57680b7">&#9670;&#160;</a></span>discardDraft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mqtt::lib::JsonMappingReader::discardDraft </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00235">235</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  235</span>                                                                     {</div>
+<div class="line"><span class="lineno">  236</span>        std::string draftPath = <a class="code hl_function" href="#ae1fe85c10e7aaeafa92e1b80b15274af">getDraftPath</a>(mapFilePath);</div>
+<div class="line"><span class="lineno">  237</span>        <span class="keywordflow">if</span> (fs::exists(draftPath)) {</div>
+<div class="line"><span class="lineno">  238</span>            fs::remove(draftPath);</div>
+<div class="line"><span class="lineno">  239</span>        }</div>
+<div class="line"><span class="lineno">  240</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="JsonMappingReader_8cpp_source.html#l00134">getDraftPath()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00299">rollbackTo()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a580a1cc4add19dda09510a53e57680b7_cgraph.svg" width="486" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a580a1cc4add19dda09510a53e57680b7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae1fe85c10e7aaeafa92e1b80b15274af" name="ae1fe85c10e7aaeafa92e1b80b15274af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1fe85c10e7aaeafa92e1b80b15274af">&#9670;&#160;</a></span>getDraftPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mqtt::lib::JsonMappingReader::getDraftPath </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00134">134</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  134</span>                                                                          {</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">return</span> mapFilePath + <span class="stringliteral">&quot;.draft&quot;</span>;</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00165">deployDraft()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00235">discardDraft()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00146">readDraftOrActive()</a>, and <a class="el" href="JsonMappingReader_8cpp_source.html#l00138">saveDraft()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_ae1fe85c10e7aaeafa92e1b80b15274af_icgraph.svg" width="100%" height="489"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aad4d1b579cf41a56350a5592f56829a8" name="aad4d1b579cf41a56350a5592f56829a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4d1b579cf41a56350a5592f56829a8">&#9670;&#160;</a></span>getHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">JsonMappingReader::VersionEntry</a> &gt; mqtt::lib::JsonMappingReader::getHistory </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00242">242</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  242</span>                                                                                                       {</div>
+<div class="line"><span class="lineno">  243</span>        std::vector&lt;VersionEntry&gt; history;</div>
+<div class="line"><span class="lineno">  244</span>        fs::path versionDir = fs::path(mapFilePath).parent_path() / <span class="stringliteral">&quot;versions&quot;</span>;</div>
+<div class="line"><span class="lineno">  245</span>        std::string baseName = fs::path(mapFilePath).filename().string();</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>        <span class="keywordflow">if</span> (!fs::exists(versionDir))</div>
+<div class="line"><span class="lineno">  248</span>            <span class="keywordflow">return</span> history;</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; entry : fs::directory_iterator(versionDir)) {</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">if</span> (entry.path().filename().string().starts_with(baseName + <span class="stringliteral">&quot;.&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  252</span>                <a class="code hl_struct" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">VersionEntry</a> v;</div>
+<div class="line"><span class="lineno">  253</span>                v.<a class="code hl_variable" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html#ac0a3956d06e327adce7c56302051d213">filename</a> = entry.path().string();</div>
+<div class="line"><span class="lineno">  254</span>                <span class="comment">// Extract ID (timestamp) from filename extension</span></div>
+<div class="line"><span class="lineno">  255</span>                v.id = entry.path().extension().string().substr(1);</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>                <span class="comment">// Peek inside JSON to get the comment</span></div>
+<div class="line"><span class="lineno">  258</span>                <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  259</span>                    std::ifstream f(v.filename);</div>
+<div class="line"><span class="lineno">  260</span>                    nlohmann::json j;</div>
+<div class="line"><span class="lineno">  261</span>                    f &gt;&gt; j;</div>
+<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">if</span> (j.contains(<span class="stringliteral">&quot;meta&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  263</span>                        <span class="keywordflow">if</span> (j[<span class="stringliteral">&quot;meta&quot;</span>].contains(<span class="stringliteral">&quot;comment&quot;</span>))</div>
+<div class="line"><span class="lineno">  264</span>                            v.comment = j[<span class="stringliteral">&quot;meta&quot;</span>][<span class="stringliteral">&quot;comment&quot;</span>];</div>
+<div class="line"><span class="lineno">  265</span>                        <span class="keywordflow">if</span> (j[<span class="stringliteral">&quot;meta&quot;</span>].contains(<span class="stringliteral">&quot;created&quot;</span>))</div>
+<div class="line"><span class="lineno">  266</span>                            v.date = j[<span class="stringliteral">&quot;meta&quot;</span>][<span class="stringliteral">&quot;created&quot;</span>];</div>
+<div class="line"><span class="lineno">  267</span>                    }</div>
+<div class="line"><span class="lineno">  268</span>                } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><span class="lineno">  269</span>                }</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>                <span class="comment">// Fallback date if not in meta</span></div>
+<div class="line"><span class="lineno">  272</span>                <span class="keywordflow">if</span> (v.date.empty()) {</div>
+<div class="line"><span class="lineno">  273</span>                    <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  274</span>                        <span class="keywordtype">long</span> <span class="keywordtype">long</span> ts = std::stoll(v.id);</div>
+<div class="line"><span class="lineno">  275</span>                        std::time_t t = <span class="keyword">static_cast&lt;</span>std::time_t<span class="keyword">&gt;</span>(ts);</div>
+<div class="line"><span class="lineno">  276</span>                        std::stringstream ss;</div>
+<div class="line"><span class="lineno">  277</span>                        ss &lt;&lt; std::put_time(std::gmtime(&amp;t), <span class="stringliteral">&quot;%Y-%m-%dT%H:%M:%SZ&quot;</span>);</div>
+<div class="line"><span class="lineno">  278</span>                        v.date = ss.str();</div>
+<div class="line"><span class="lineno">  279</span>                    } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><span class="lineno">  280</span>                        v.date = <span class="stringliteral">&quot;Unknown&quot;</span>;</div>
+<div class="line"><span class="lineno">  281</span>                    }</div>
+<div class="line"><span class="lineno">  282</span>                }</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>                history.push_back(v);</div>
+<div class="line"><span class="lineno">  285</span>            }</div>
+<div class="line"><span class="lineno">  286</span>        }</div>
+<div class="line"><span class="lineno">  287</span>        <span class="comment">// Sort by ID (descending)</span></div>
+<div class="line"><span class="lineno">  288</span>        std::sort(history.begin(), history.end(), [](<span class="keyword">const</span> <a class="code hl_struct" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">VersionEntry</a>&amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">VersionEntry</a>&amp; b) {</div>
+<div class="line"><span class="lineno">  289</span>            <span class="comment">// String comparison of timestamps works if they are same length, but better to be safe</span></div>
+<div class="line"><span class="lineno">  290</span>            try {</div>
+<div class="line"><span class="lineno">  291</span>                return std::stoll(a.id) &gt; std::stoll(b.id);</div>
+<div class="line"><span class="lineno">  292</span>            } catch (...) {</div>
+<div class="line"><span class="lineno">  293</span>                <span class="keywordflow">return</span> a.id &gt; b.id;</div>
+<div class="line"><span class="lineno">  294</span>            }</div>
+<div class="line"><span class="lineno">  295</span>        });</div>
+<div class="line"><span class="lineno">  296</span>        <span class="keywordflow">return</span> history;</div>
+<div class="line"><span class="lineno">  297</span>    }</div>
+<div class="ttc" id="astructmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry_html"><div class="ttname"><a href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html">mqtt::lib::JsonMappingReader::VersionEntry</a></div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00073">JsonMappingReader.h:73</a></div></div>
+<div class="ttc" id="astructmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry_html_ac0a3956d06e327adce7c56302051d213"><div class="ttname"><a href="structmqtt_1_1lib_1_1JsonMappingReader_1_1VersionEntry.html#ac0a3956d06e327adce7c56302051d213">mqtt::lib::JsonMappingReader::VersionEntry::filename</a></div><div class="ttdeci">std::string filename</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00075">JsonMappingReader.h:75</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="JsonMappingReader_8h_source.html#l00074">mqtt::lib::JsonMappingReader::VersionEntry::id</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_aad4d1b579cf41a56350a5592f56829a8_icgraph.svg" width="600" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aeafcd5149d659aa911e6f6dcee240ce1" name="aeafcd5149d659aa911e6f6dcee240ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeafcd5149d659aa911e6f6dcee240ce1">&#9670;&#160;</a></span>getSchema()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const nlohmann::json &amp; mqtt::lib::JsonMappingReader::getSchema </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00130">130</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  130</span>                                                     {</div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>;</div>
+<div class="line"><span class="lineno">  132</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a4651167567038941293bdb96c416f327"><div class="ttname"><a href="#a4651167567038941293bdb96c416f327">mqtt::lib::JsonMappingReader::mappingJsonSchema</a></div><div class="ttdeci">static nlohmann::json mappingJsonSchema</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00084">JsonMappingReader.h:84</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="JsonMappingReader_8h_source.html#l00084">mappingJsonSchema</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_aeafcd5149d659aa911e6f6dcee240ce1_icgraph.svg" width="600" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="adea493de007f0dab0bea0382beedbf7d" name="adea493de007f0dab0bea0382beedbf7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adea493de007f0dab0bea0382beedbf7d">&#9670;&#160;</a></span>readDraftOrActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json mqtt::lib::JsonMappingReader::readDraftOrActive </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00146">146</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  146</span>                                                                                  {</div>
+<div class="line"><span class="lineno">  147</span>        std::string draftPath = <a class="code hl_function" href="#ae1fe85c10e7aaeafa92e1b80b15274af">getDraftPath</a>(mapFilePath);</div>
+<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">if</span> (fs::exists(draftPath)) {</div>
+<div class="line"><span class="lineno">  149</span>            std::ifstream f(draftPath);</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">if</span> (f) {</div>
+<div class="line"><span class="lineno">  151</span>                nlohmann::json j;</div>
+<div class="line"><span class="lineno">  152</span>                f &gt;&gt; j;</div>
+<div class="line"><span class="lineno">  153</span>                <span class="keywordflow">return</span> j;</div>
+<div class="line"><span class="lineno">  154</span>            }</div>
+<div class="line"><span class="lineno">  155</span>        }</div>
+<div class="line"><span class="lineno">  156</span>        <span class="comment">// Fallback to active file</span></div>
+<div class="line"><span class="lineno">  157</span>        std::ifstream f(mapFilePath);</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">if</span> (!f)</div>
+<div class="line"><span class="lineno">  159</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Cannot open mapping file: &quot;</span> + mapFilePath);</div>
+<div class="line"><span class="lineno">  160</span>        nlohmann::json j;</div>
+<div class="line"><span class="lineno">  161</span>        f &gt;&gt; j;</div>
+<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">return</span> j;</div>
+<div class="line"><span class="lineno">  163</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="JsonMappingReader_8cpp_source.html#l00134">getDraftPath()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_adea493de007f0dab0bea0382beedbf7d_cgraph.svg" width="486" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_adea493de007f0dab0bea0382beedbf7d_icgraph.svg" width="600" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a77231994bd3ef854feb2db79dd71746b" name="a77231994bd3ef854feb2db79dd71746b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77231994bd3ef854feb2db79dd71746b">&#9670;&#160;</a></span>readMappingFromFile()</h2>
 
@@ -181,65 +583,67 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00063">63</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   63</span>                                                                                     {</div>
-<div class="line"><span class="lineno">   64</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>.contains(mapFilePath)) {</div>
-<div class="line"><span class="lineno">   65</span>            <span class="keywordflow">if</span> (!mapFilePath.empty()) {</div>
-<div class="line"><span class="lineno">   66</span>                std::ifstream mapFile(mapFilePath);</div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>                <span class="keywordflow">if</span> (mapFile.is_open()) {</div>
-<div class="line"><span class="lineno">   69</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath: &quot;</span> &lt;&lt; mapFilePath;</div>
-<div class="line"><span class="lineno">   70</span> </div>
-<div class="line"><span class="lineno">   71</span>                    <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   72</span>                        mapFile &gt;&gt; <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath];</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>                        <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   75</span>                            <span class="keyword">const</span> nlohmann::json_schema::json_validator <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>(<a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>);</div>
-<div class="line"><span class="lineno">   76</span> </div>
-<div class="line"><span class="lineno">   77</span>                            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   78</span>                                <span class="keyword">const</span> nlohmann::json defaultPatch = <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1json__validator.html#affff379ae30b7ab48c81d5b65e34f613">validate</a>(<a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath]);</div>
-<div class="line"><span class="lineno">   79</span> </div>
-<div class="line"><span class="lineno">   80</span>                                <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   81</span>                                    <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath] = <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].patch(defaultPatch);</div>
-<div class="line"><span class="lineno">   82</span>                                } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   83</span>                                    VLOG(1) &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">   84</span>                                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Patching JSON with default patch failed:\n&quot;</span> &lt;&lt; defaultPatch.dump(4);</div>
-<div class="line"><span class="lineno">   85</span>                                    <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">   86</span>                                }</div>
-<div class="line"><span class="lineno">   87</span>                            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   88</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Validating JSON failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].dump(4);</div>
-<div class="line"><span class="lineno">   89</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">   90</span>                                <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">   91</span>                            }</div>
-<div class="line"><span class="lineno">   92</span>                        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   93</span>                            VLOG(1) &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">   94</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Setting root json mapping schema failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>.dump(4);</div>
-<div class="line"><span class="lineno">   95</span>                            <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">   96</span>                        }</div>
-<div class="line"><span class="lineno">   97</span>                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   98</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;JSON map file parsing failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot; at &quot;</span> &lt;&lt; mapFile.tellg();</div>
-<div class="line"><span class="lineno">   99</span>                        <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath].clear();</div>
-<div class="line"><span class="lineno">  100</span>                    }</div>
-<div class="line"><span class="lineno">  101</span> </div>
-<div class="line"><span class="lineno">  102</span>                    mapFile.close();</div>
-<div class="line"><span class="lineno">  103</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  104</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath: &quot;</span> &lt;&lt; mapFilePath &lt;&lt; <span class="stringliteral">&quot; not found&quot;</span>;</div>
-<div class="line"><span class="lineno">  105</span>                }</div>
-<div class="line"><span class="lineno">  106</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  107</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath empty&quot;</span>;</div>
-<div class="line"><span class="lineno">  108</span>            }</div>
-<div class="line"><span class="lineno">  109</span>        }</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ad6c1204c931c25eb1e43d660554cedf7">mapFileJsons</a>[mapFilePath];</div>
-<div class="line"><span class="lineno">  112</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00077">77</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   77</span>                                                                                     {</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.empty()) {</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">if</span> (!mapFilePath.empty()) {</div>
+<div class="line"><span class="lineno">   80</span>                std::ifstream mapFile(mapFilePath);</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">if</span> (mapFile.is_open()) {</div>
+<div class="line"><span class="lineno">   83</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath: &quot;</span> &lt;&lt; mapFilePath;</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>                    <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   86</span>                        mapFile &gt;&gt; <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>;</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>                        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   89</span>                            <span class="keyword">const</span> nlohmann::json_schema::json_validator <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>(</div>
+<div class="line"><span class="lineno">   90</span>                                <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>, <span class="keyword">nullptr</span>, <a class="code hl_function" href="namespacenlohmann_1_1json__schema.html#aa85e264f222e36fe1108824f0699db71">nlohmann::json_schema::default_string_format_check</a>);</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>                            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   93</span>                                <span class="keyword">const</span> nlohmann::json defaultPatch = <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1json__validator.html#affff379ae30b7ab48c81d5b65e34f613">validate</a>(<a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>);</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>                                <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   96</span>                                    <a class="code hl_variable" href="#ae280727a2b6b718ae0c8e190b78bd39a">mapFileJsonDefaultPatched</a> = <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.patch(defaultPatch);</div>
+<div class="line"><span class="lineno">   97</span>                                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Patched: \n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.dump(4);</div>
+<div class="line"><span class="lineno">   98</span>                                } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   99</span>                                    VLOG(1) &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  100</span>                                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Patching JSON with default patch failed:\n&quot;</span> &lt;&lt; defaultPatch.dump(4);</div>
+<div class="line"><span class="lineno">  101</span>                                    <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.clear();</div>
+<div class="line"><span class="lineno">  102</span>                                }</div>
+<div class="line"><span class="lineno">  103</span>                            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  104</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Validating JSON failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.dump(4);</div>
+<div class="line"><span class="lineno">  105</span>                                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  106</span>                                <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.clear();</div>
+<div class="line"><span class="lineno">  107</span>                            }</div>
+<div class="line"><span class="lineno">  108</span>                        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  109</span>                            VLOG(1) &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  110</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Setting root json mapping schema failed:\n&quot;</span> &lt;&lt; <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>.dump(4);</div>
+<div class="line"><span class="lineno">  111</span>                            <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.clear();</div>
+<div class="line"><span class="lineno">  112</span>                        }</div>
+<div class="line"><span class="lineno">  113</span>                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  114</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;JSON map file parsing failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot; at &quot;</span> &lt;&lt; mapFile.tellg();</div>
+<div class="line"><span class="lineno">  115</span>                        <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.clear();</div>
+<div class="line"><span class="lineno">  116</span>                    }</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>                    mapFile.close();</div>
+<div class="line"><span class="lineno">  119</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  120</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath: &quot;</span> &lt;&lt; mapFilePath &lt;&lt; <span class="stringliteral">&quot; not found&quot;</span>;</div>
+<div class="line"><span class="lineno">  121</span>                }</div>
+<div class="line"><span class="lineno">  122</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  123</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;MappingFilePath empty&quot;</span>;</div>
+<div class="line"><span class="lineno">  124</span>            }</div>
+<div class="line"><span class="lineno">  125</span>        }</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ae280727a2b6b718ae0c8e190b78bd39a">mapFileJsonDefaultPatched</a>;</div>
+<div class="line"><span class="lineno">  128</span>    }</div>
 <div class="ttc" id="abinary-validation_8cpp_html_a820926de17b335791346eebf13c76b62"><div class="ttname"><a href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a></div><div class="ttdeci">nlohmann::json_schema::json_validator validator</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00031">binary-validation.cpp:31</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a4651167567038941293bdb96c416f327"><div class="ttname"><a href="#a4651167567038941293bdb96c416f327">mqtt::lib::JsonMappingReader::mappingJsonSchema</a></div><div class="ttdeci">static nlohmann::json mappingJsonSchema</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00062">JsonMappingReader.h:62</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_ad6c1204c931c25eb1e43d660554cedf7"><div class="ttname"><a href="#ad6c1204c931c25eb1e43d660554cedf7">mqtt::lib::JsonMappingReader::mapFileJsons</a></div><div class="ttdeci">static std::map&lt; std::string, nlohmann::json &gt; mapFileJsons</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00065">JsonMappingReader.h:65</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_ae280727a2b6b718ae0c8e190b78bd39a"><div class="ttname"><a href="#ae280727a2b6b718ae0c8e190b78bd39a">mqtt::lib::JsonMappingReader::mapFileJsonDefaultPatched</a></div><div class="ttdeci">static nlohmann::json mapFileJsonDefaultPatched</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8h_source.html#l00088">JsonMappingReader.h:88</a></div></div>
 <div class="ttc" id="aclassnlohmann_1_1json__schema_1_1json__validator_html_affff379ae30b7ab48c81d5b65e34f613"><div class="ttname"><a href="classnlohmann_1_1json__schema_1_1json__validator.html#affff379ae30b7ab48c81d5b65e34f613">nlohmann::json_schema::json_validator::validate</a></div><div class="ttdeci">json validate(const json &amp;) const</div><div class="ttdef"><b>Definition</b> <a href="json-validator_8cpp_source.html#l01505">json-validator.cpp:1505</a></div></div>
+<div class="ttc" id="anamespacenlohmann_1_1json__schema_html_aa85e264f222e36fe1108824f0699db71"><div class="ttname"><a href="namespacenlohmann_1_1json__schema.html#aa85e264f222e36fe1108824f0699db71">nlohmann::json_schema::default_string_format_check</a></div><div class="ttdeci">void default_string_format_check(const std::string &amp;format, const std::string &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="string-format-check_8cpp_source.html#l00353">string-format-check.cpp:353</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01466">nlohmann::json_schema::json_validator::json_validator()</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00065">mapFileJsons</a>, and <a class="el" href="JsonMappingReader_8h_source.html#l00062">mappingJsonSchema</a>.</p>
+<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00087">mapFileJson</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00088">mapFileJsonDefaultPatched</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00084">mappingJsonSchema</a>, and <a class="el" href="json-validator_8cpp_source.html#l01505">nlohmann::json_schema::json_validator::validate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2SocketContextFactory_8cpp_source.html#l00065">mqtt::mqttbroker::SocketContextFactory::create()</a>, <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00065">mqtt::mqttintegrator::SocketContextFactory::create()</a>, and <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00066">mqtt::mqttintegrator::websocket::SubProtocolFactory::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2SocketContextFactory_8cpp_source.html#l00065">mqtt::mqttbroker::SocketContextFactory::create()</a>, <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00066">mqtt::mqttintegrator::SocketContextFactory::create()</a>, and <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00067">mqtt::mqttintegrator::websocket::SubProtocolFactory::create()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -253,9 +657,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad6c1204c931c25eb1e43d660554cedf7" name="ad6c1204c931c25eb1e43d660554cedf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6c1204c931c25eb1e43d660554cedf7">&#9670;&#160;</a></span>mapFileJsons</h2>
+<a id="a7d4a5292bbdcec7b26c1196ccd4fab22" name="a7d4a5292bbdcec7b26c1196ccd4fab22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d4a5292bbdcec7b26c1196ccd4fab22">&#9670;&#160;</a></span>rollbackTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +667,136 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt; std::string, nlohmann::json &gt; mqtt::lib::JsonMappingReader::mapFileJsons</td>
+          <td class="memname">void mqtt::lib::JsonMappingReader::rollbackTo </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>versionId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00299">299</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  299</span>                                                                                               {</div>
+<div class="line"><span class="lineno">  300</span>        fs::path versionDir = fs::path(mapFilePath).parent_path() / <span class="stringliteral">&quot;versions&quot;</span>;</div>
+<div class="line"><span class="lineno">  301</span>        std::string baseName = fs::path(mapFilePath).filename().string();</div>
+<div class="line"><span class="lineno">  302</span>        fs::path backupPath = versionDir / (baseName + <span class="stringliteral">&quot;.&quot;</span> + versionId);</div>
+<div class="line"><span class="lineno">  303</span> </div>
+<div class="line"><span class="lineno">  304</span>        <span class="keywordflow">if</span> (!fs::exists(backupPath)) {</div>
+<div class="line"><span class="lineno">  305</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Version not found: &quot;</span> + versionId);</div>
+<div class="line"><span class="lineno">  306</span>        }</div>
+<div class="line"><span class="lineno">  307</span> </div>
+<div class="line"><span class="lineno">  308</span>        <span class="comment">// Validate before rollback</span></div>
+<div class="line"><span class="lineno">  309</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  310</span>            std::ifstream f(backupPath);</div>
+<div class="line"><span class="lineno">  311</span>            nlohmann::json j;</div>
+<div class="line"><span class="lineno">  312</span>            f &gt;&gt; j;</div>
+<div class="line"><span class="lineno">  313</span>            <span class="keyword">const</span> nlohmann::json_schema::json_validator <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>(</div>
+<div class="line"><span class="lineno">  314</span>                <a class="code hl_variable" href="#a4651167567038941293bdb96c416f327">mappingJsonSchema</a>, <span class="keyword">nullptr</span>, <a class="code hl_function" href="namespacenlohmann_1_1json__schema.html#aa85e264f222e36fe1108824f0699db71">nlohmann::json_schema::default_string_format_check</a>);</div>
+<div class="line"><span class="lineno">  315</span>            <a class="code hl_typedef" href="binary-validation_8cpp.html#a820926de17b335791346eebf13c76b62">validator</a>.<a class="code hl_function" href="classnlohmann_1_1json__schema_1_1json__validator.html#affff379ae30b7ab48c81d5b65e34f613">validate</a>(j);</div>
+<div class="line"><span class="lineno">  316</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  317</span>            <span class="keywordflow">throw</span> std::runtime_error(std::string(<span class="stringliteral">&quot;Cannot rollback: Version is invalid against current schema: &quot;</span>) + e.what());</div>
+<div class="line"><span class="lineno">  318</span>        }</div>
+<div class="line"><span class="lineno">  319</span> </div>
+<div class="line"><span class="lineno">  320</span>        <span class="comment">// Overwrite active file</span></div>
+<div class="line"><span class="lineno">  321</span>        fs::copy_file(backupPath, mapFilePath, fs::copy_options::overwrite_existing);</div>
+<div class="line"><span class="lineno">  322</span> </div>
+<div class="line"><span class="lineno">  323</span>        <span class="comment">// Delete any existing draft to avoid confusion</span></div>
+<div class="line"><span class="lineno">  324</span>        <a class="code hl_function" href="#a580a1cc4add19dda09510a53e57680b7">discardDraft</a>(mapFilePath);</div>
+<div class="line"><span class="lineno">  325</span> </div>
+<div class="line"><span class="lineno">  326</span>        <a class="code hl_variable" href="#a9095a468e6807b7c98af44ef5f35f5b9">mapFileJson</a>.clear();</div>
+<div class="line"><span class="lineno">  327</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a580a1cc4add19dda09510a53e57680b7"><div class="ttname"><a href="#a580a1cc4add19dda09510a53e57680b7">mqtt::lib::JsonMappingReader::discardDraft</a></div><div class="ttdeci">static void discardDraft(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00235">JsonMappingReader.cpp:235</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="string-format-check_8cpp_source.html#l00353">nlohmann::json_schema::default_string_format_check()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00235">discardDraft()</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00087">mapFileJson</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00084">mappingJsonSchema</a>, and <a class="el" href="json-validator_8cpp_source.html#l01505">nlohmann::json_schema::json_validator::validate()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a7d4a5292bbdcec7b26c1196ccd4fab22_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_a7d4a5292bbdcec7b26c1196ccd4fab22_icgraph.svg" width="600" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae8eff0ae26adbed7f80e15be2a5fb5ad" name="ae8eff0ae26adbed7f80e15be2a5fb5ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8eff0ae26adbed7f80e15be2a5fb5ad">&#9670;&#160;</a></span>saveDraft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mqtt::lib::JsonMappingReader::saveDraft </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>content</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8cpp_source.html#l00138">138</a> of file <a class="el" href="JsonMappingReader_8cpp_source.html">JsonMappingReader.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  138</span>                                                                                               {</div>
+<div class="line"><span class="lineno">  139</span>        std::ofstream out(<a class="code hl_function" href="#ae1fe85c10e7aaeafa92e1b80b15274af">getDraftPath</a>(mapFilePath), std::ios::trunc);</div>
+<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">if</span> (!out) {</div>
+<div class="line"><span class="lineno">  141</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Cannot open draft file for writing: &quot;</span> + <a class="code hl_function" href="#ae1fe85c10e7aaeafa92e1b80b15274af">getDraftPath</a>(mapFilePath));</div>
+<div class="line"><span class="lineno">  142</span>        }</div>
+<div class="line"><span class="lineno">  143</span>        out &lt;&lt; <a class="code hl_function" href="binary-validation_8cpp.html#a8d1a5048d05f0864ffbc9534516e13a5">content</a>.dump(2) &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  144</span>    }</div>
+<div class="ttc" id="abinary-validation_8cpp_html_a8d1a5048d05f0864ffbc9534516e13a5"><div class="ttname"><a href="binary-validation_8cpp.html#a8d1a5048d05f0864ffbc9534516e13a5">content</a></div><div class="ttdeci">static void content(const std::string &amp;contentEncoding, const std::string &amp;contentMediaType, const json &amp;instance)</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00094">binary-validation.cpp:94</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="JsonMappingReader_8cpp_source.html#l00134">getDraftPath()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_ae8eff0ae26adbed7f80e15be2a5fb5ad_cgraph.svg" width="486" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1JsonMappingReader_ae8eff0ae26adbed7f80e15be2a5fb5ad_icgraph.svg" width="600" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a9095a468e6807b7c98af44ef5f35f5b9" name="a9095a468e6807b7c98af44ef5f35f5b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9095a468e6807b7c98af44ef5f35f5b9">&#9670;&#160;</a></span>mapFileJson</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json mqtt::lib::JsonMappingReader::mapFileJson</td>
         </tr>
       </table>
   </td>
@@ -274,9 +806,35 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00065">65</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00087">87</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00063">readMappingFromFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00165">deployDraft()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00077">readMappingFromFile()</a>, and <a class="el" href="JsonMappingReader_8cpp_source.html#l00299">rollbackTo()</a>.</p>
+
+</div>
+</div>
+<a id="ae280727a2b6b718ae0c8e190b78bd39a" name="ae280727a2b6b718ae0c8e190b78bd39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae280727a2b6b718ae0c8e190b78bd39a">&#9670;&#160;</a></span>mapFileJsonDefaultPatched</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json mqtt::lib::JsonMappingReader::mapFileJsonDefaultPatched</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00088">88</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00077">readMappingFromFile()</a>.</p>
 
 </div>
 </div>
@@ -300,9 +858,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00062">62</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00084">84</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00063">readMappingFromFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00130">getSchema()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00077">readMappingFromFile()</a>, and <a class="el" href="JsonMappingReader_8cpp_source.html#l00299">rollbackTo()</a>.</p>
 
 </div>
 </div>
@@ -326,7 +884,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00063">63</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="JsonMappingReader_8h_source.html#l00085">85</a> of file <a class="el" href="JsonMappingReader_8h_source.html">JsonMappingReader.h</a>.</p>
 
 </div>
 </div>

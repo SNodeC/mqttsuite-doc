@@ -1,0 +1,18 @@
+<map id="handleConnector" name="handleConnector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,137,180"/>
+<area shape="rect" id="Node000002" href="$mqttbridge_8cpp.html#a90732e510a2e6efcd8d0ab7912f5b043" title=" " alt="" coords="185,152,320,180"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,164,171,165,167,168,138,169"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a94cc67c07a763979a3625d806474a972" title=" " alt="" coords="378,5,581,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="264,150,306,106,335,81,367,60,381,55,376,58,369,65,338,86,310,110,267,154"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a6163c6302162edf63fbfb851cf995bb0" title=" " alt="" coords="368,75,591,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="299,149,392,123,387,126,301,154"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1" title=" " alt="" coords="400,144,560,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="320,164,386,166,381,167,321,169"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ab6cc33c1c26ccfbd738a5ec2700f0896" title=" " alt="" coords="661,204,839,249"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="293,178,369,198,440,209,513,216,649,226,643,226,513,222,440,214,367,204,293,183"/>
+<area shape="rect" id="Node000007" href="$mqttbridge_8cpp.html#ac4db1bc049804762ae0893100ec95dec" title=" " alt="" coords="430,263,530,291"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="271,178,315,211,369,243,417,262,412,262,367,247,312,215,270,183"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="530,265,643,246,649,245,531,270"/>
+<area shape="rect" id="Node000008" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a2b97b3e1b7139a536dc1d9a7192bb9de" title=" " alt="" coords="639,273,861,318"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="530,278,626,287,621,287,530,283"/>
+</map>
