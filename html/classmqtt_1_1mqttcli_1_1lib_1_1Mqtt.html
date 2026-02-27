@@ -352,9 +352,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html#l00285">285</a> of file <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  285</span>                                                             {</div>
-<div class="line"><span class="lineno">  286</span>        <span class="keywordtype">bool</span> sendDisconnectFlag = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  287</span> </div>
-<div class="line"><span class="lineno">  288</span>        <span class="keywordflow">if</span> (connack.getReturnCode() == 0) {</div>
+<div class="line"><span class="lineno">  286</span>        <span class="keywordflow">if</span> (connack.getReturnCode() == 0) {</div>
+<div class="line"><span class="lineno">  287</span>            <span class="keywordtype">bool</span> sendDisconnectFlag = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  288</span> </div>
 <div class="line"><span class="lineno">  289</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#aaefa0ce925ca3eb33611ad62bef62eda">subTopics</a>.empty()) {</div>
 <div class="line"><span class="lineno">  290</span>                VLOG(0) &lt;&lt; <span class="stringliteral">&quot;MQTT Subscribe&quot;</span>;</div>
 <div class="line"><span class="lineno">  291</span> </div>

@@ -195,9 +195,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00063">63</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   64</span>        : <a class="code hl_variable" href="#ad780683b24e9ce5fd722d83d001981f7">onlineSinceTimePoint</a>(std::chrono::system_clock::now()) {</div>
-<div class="line"><span class="lineno">   65</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00064">64</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>        : <a class="code hl_variable" href="#ad780683b24e9ce5fd722d83d001981f7">onlineSinceTimePoint</a>(std::chrono::system_clock::now()) {</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_ad780683b24e9ce5fd722d83d001981f7"><div class="ttname"><a href="#ad780683b24e9ce5fd722d83d001981f7">mqtt::bridge::lib::SSEDistributor::onlineSinceTimePoint</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; onlineSinceTimePoint</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8h_source.html#l00157">SSEDistributor.h:157</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00157">onlineSinceTimePoint</a>.</p>
@@ -299,25 +299,25 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00073">73</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   74</span>                                                                                         {</div>
-<div class="line"><span class="lineno">   75</span>        <span class="keyword">auto</span>&amp; eventReceiver = <a class="code hl_variable" href="#abb0d9e62b124b92341eb52036b66f033">eventReceiverList</a>.emplace_back(response);</div>
-<div class="line"><span class="lineno">   76</span> </div>
-<div class="line"><span class="lineno">   77</span>        response-&gt;getSocketContext()-&gt;onDisconnected([<span class="keyword">this</span>, &amp;eventReceiver]() {</div>
-<div class="line"><span class="lineno">   78</span>            <a class="code hl_variable" href="#abb0d9e62b124b92341eb52036b66f033">eventReceiverList</a>.remove(eventReceiver);</div>
-<div class="line"><span class="lineno">   79</span>        });</div>
-<div class="line"><span class="lineno">   80</span> </div>
-<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; event : <a class="code hl_variable" href="#a97d2cc436072eaa78369a399b5234931">replayEvents</a>) {</div>
-<div class="line"><span class="lineno">   82</span>            <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(response, event.getData(), event.getEvent(), event.getId());</div>
-<div class="line"><span class="lineno">   83</span>        }</div>
-<div class="line"><span class="lineno">   84</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00074">74</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>                                                                                         {</div>
+<div class="line"><span class="lineno">   76</span>        <span class="keyword">auto</span>&amp; eventReceiver = <a class="code hl_variable" href="#abb0d9e62b124b92341eb52036b66f033">eventReceiverList</a>.emplace_back(response);</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        response-&gt;getSocketContext()-&gt;onDisconnected([<span class="keyword">this</span>, &amp;eventReceiver]() {</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_variable" href="#abb0d9e62b124b92341eb52036b66f033">eventReceiverList</a>.remove(eventReceiver);</div>
+<div class="line"><span class="lineno">   80</span>        });</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; event : <a class="code hl_variable" href="#a97d2cc436072eaa78369a399b5234931">replayEvents</a>) {</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(response, event.getData(), event.getEvent(), event.getId());</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="line"><span class="lineno">   85</span>    }</div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a97d2cc436072eaa78369a399b5234931"><div class="ttname"><a href="#a97d2cc436072eaa78369a399b5234931">mqtt::bridge::lib::SSEDistributor::replayEvents</a></div><div class="ttdeci">std::list&lt; Event &gt; replayEvents</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8h_source.html#l00161">SSEDistributor.h:161</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a9f5043f5f0189719413e23c74b3a55c2"><div class="ttname"><a href="#a9f5043f5f0189719413e23c74b3a55c2">mqtt::bridge::lib::SSEDistributor::sendEvent</a></div><div class="ttdeci">static void sendEvent(const std::shared_ptr&lt; express::Response &gt; &amp;response, const std::string &amp;data, const std::string &amp;event, const std::string &amp;id)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00086">SSEDistributor.cpp:86</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a9f5043f5f0189719413e23c74b3a55c2"><div class="ttname"><a href="#a9f5043f5f0189719413e23c74b3a55c2">mqtt::bridge::lib::SSEDistributor::sendEvent</a></div><div class="ttdeci">static void sendEvent(const std::shared_ptr&lt; express::Response &gt; &amp;response, const std::string &amp;data, const std::string &amp;event, const std::string &amp;id)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00087">SSEDistributor.cpp:87</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_abb0d9e62b124b92341eb52036b66f033"><div class="ttname"><a href="#abb0d9e62b124b92341eb52036b66f033">mqtt::bridge::lib::SSEDistributor::eventReceiverList</a></div><div class="ttdeci">std::list&lt; EventReceiver &gt; eventReceiverList</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8h_source.html#l00156">SSEDistributor.h:156</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00156">eventReceiverList</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00270">mqtt::bridge::lib::SSEDistributor::Event::getData()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00274">mqtt::bridge::lib::SSEDistributor::Event::getEvent()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00278">mqtt::bridge::lib::SSEDistributor::Event::getId()</a>, <a class="el" href="SSEDistributor_8h_source.html#l00161">replayEvents</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00086">sendEvent()</a>.</p>
+<p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00156">eventReceiverList</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00271">mqtt::bridge::lib::SSEDistributor::Event::getData()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00275">mqtt::bridge::lib::SSEDistributor::Event::getEvent()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00279">mqtt::bridge::lib::SSEDistributor::Event::getId()</a>, <a class="el" href="SSEDistributor_8h_source.html#l00161">replayEvents</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00087">sendEvent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00572">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00564">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -346,13 +346,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00143">143</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  143</span>                                                                   {</div>
-<div class="line"><span class="lineno">  144</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
-<div class="line"><span class="lineno">  145</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_disabled&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  146</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a8ee49146118a6d1016311f388061ecc3"><div class="ttname"><a href="#a8ee49146118a6d1016311f388061ecc3">mqtt::bridge::lib::SSEDistributor::sendJsonEvent</a></div><div class="ttdeci">static void sendJsonEvent(const std::shared_ptr&lt; express::Response &gt; &amp;response, const nlohmann::json &amp;json, const std::string &amp;event=&quot;&quot;, const std::string &amp;id=&quot;&quot;)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00102">SSEDistributor.cpp:102</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_ae175f78eb030a996687f4606171418f6"><div class="ttname"><a href="#ae175f78eb030a996687f4606171418f6">mqtt::bridge::lib::SSEDistributor::timePointToString</a></div><div class="ttdeci">static std::string timePointToString(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;timePoint)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00202">SSEDistributor.cpp:202</a></div></div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00144">144</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  144</span>                                                                   {</div>
+<div class="line"><span class="lineno">  145</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
+<div class="line"><span class="lineno">  146</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_disabled&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  147</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a8ee49146118a6d1016311f388061ecc3"><div class="ttname"><a href="#a8ee49146118a6d1016311f388061ecc3">mqtt::bridge::lib::SSEDistributor::sendJsonEvent</a></div><div class="ttdeci">static void sendJsonEvent(const std::shared_ptr&lt; express::Response &gt; &amp;response, const nlohmann::json &amp;json, const std::string &amp;event=&quot;&quot;, const std::string &amp;id=&quot;&quot;)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00103">SSEDistributor.cpp:103</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_ae175f78eb030a996687f4606171418f6"><div class="ttname"><a href="#ae175f78eb030a996687f4606171418f6">mqtt::bridge::lib::SSEDistributor::timePointToString</a></div><div class="ttdeci">static std::string timePointToString(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;timePoint)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00203">SSEDistributor.cpp:203</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -373,10 +373,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00131">131</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  131</span>                                        {</div>
-<div class="line"><span class="lineno">  132</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_started&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  133</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00132">132</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  132</span>                                        {</div>
+<div class="line"><span class="lineno">  133</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_started&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  134</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -412,10 +412,10 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00198">198</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  198</span>                                                     {</div>
-<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(<a class="code hl_variable" href="#a836fd3a7518c83a469a61de98ef826af">bridgesStartTimePoint</a>);</div>
-<div class="line"><span class="lineno">  200</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00199">199</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  199</span>                                                     {</div>
+<div class="line"><span class="lineno">  200</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(<a class="code hl_variable" href="#a836fd3a7518c83a469a61de98ef826af">bridgesStartTimePoint</a>);</div>
+<div class="line"><span class="lineno">  201</span>    }</div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a836fd3a7518c83a469a61de98ef826af"><div class="ttname"><a href="#a836fd3a7518c83a469a61de98ef826af">mqtt::bridge::lib::SSEDistributor::bridgesStartTimePoint</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; bridgesStartTimePoint</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8h_source.html#l00158">SSEDistributor.h:158</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00158">bridgesStartTimePoint</a>.</p>
@@ -437,16 +437,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00125">125</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  125</span>                                         {</div>
-<div class="line"><span class="lineno">  126</span>        <a class="code hl_variable" href="#a97d2cc436072eaa78369a399b5234931">replayEvents</a>.clear();</div>
-<div class="line"><span class="lineno">  127</span> </div>
-<div class="line"><span class="lineno">  128</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_starting&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  129</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00126">126</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  126</span>                                         {</div>
+<div class="line"><span class="lineno">  127</span>        <a class="code hl_variable" href="#a97d2cc436072eaa78369a399b5234931">replayEvents</a>.clear();</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_starting&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  130</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>, and <a class="el" href="SSEDistributor_8h_source.html#l00161">replayEvents</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00343">startBridges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00311">startBridges()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -470,14 +470,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00139">139</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  139</span>                                        {</div>
-<div class="line"><span class="lineno">  140</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_stopped&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  141</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00140">140</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  140</span>                                        {</div>
+<div class="line"><span class="lineno">  141</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_stopped&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00127">tryRestartBridges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00124">tryRestartBridges()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -501,14 +501,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00135">135</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  135</span>                                         {</div>
-<div class="line"><span class="lineno">  136</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_stopping&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  137</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00136">136</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  136</span>                                         {</div>
+<div class="line"><span class="lineno">  137</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}}, <span class="stringliteral">&quot;bridges_stopping&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00173">closeBridges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbridge_8cpp_source.html#l00170">closeBridges()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -532,11 +532,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00153">153</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  153</span>                                                                  {</div>
-<div class="line"><span class="lineno">  154</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
-<div class="line"><span class="lineno">  155</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_started&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  156</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00154">154</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  154</span>                                                                  {</div>
+<div class="line"><span class="lineno">  155</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
+<div class="line"><span class="lineno">  156</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_started&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -564,11 +564,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00148">148</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  148</span>                                                                   {</div>
-<div class="line"><span class="lineno">  149</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
-<div class="line"><span class="lineno">  150</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_starting&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  151</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00149">149</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  149</span>                                                                   {</div>
+<div class="line"><span class="lineno">  150</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
+<div class="line"><span class="lineno">  151</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_starting&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -589,11 +589,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00163">163</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  163</span>                                                                  {</div>
-<div class="line"><span class="lineno">  164</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
-<div class="line"><span class="lineno">  165</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_stopped&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  166</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00164">164</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  164</span>                                                                  {</div>
+<div class="line"><span class="lineno">  165</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
+<div class="line"><span class="lineno">  166</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_stopped&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  167</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -621,11 +621,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00158">158</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  158</span>                                                                   {</div>
-<div class="line"><span class="lineno">  159</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
-<div class="line"><span class="lineno">  160</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_stopping&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  161</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00159">159</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  159</span>                                                                   {</div>
+<div class="line"><span class="lineno">  160</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>(</div>
+<div class="line"><span class="lineno">  161</span>            {{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;name&quot;</span>, bridgeName}}, <span class="stringliteral">&quot;bridge_stopping&quot;</span>, std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  162</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -650,12 +650,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00180">180</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  180</span>                                                                                                   {</div>
-<div class="line"><span class="lineno">  181</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
-<div class="line"><span class="lineno">  182</span>                      <span class="stringliteral">&quot;broker_connected&quot;</span>,</div>
-<div class="line"><span class="lineno">  183</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  184</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00181">181</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  181</span>                                                                                                   {</div>
+<div class="line"><span class="lineno">  182</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
+<div class="line"><span class="lineno">  183</span>                      <span class="stringliteral">&quot;broker_connected&quot;</span>,</div>
+<div class="line"><span class="lineno">  184</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  185</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -687,12 +687,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00174">174</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  174</span>                                                                                                    {</div>
-<div class="line"><span class="lineno">  175</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
-<div class="line"><span class="lineno">  176</span>                      <span class="stringliteral">&quot;broker_connecting&quot;</span>,</div>
-<div class="line"><span class="lineno">  177</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  178</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00175">175</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  175</span>                                                                                                    {</div>
+<div class="line"><span class="lineno">  176</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
+<div class="line"><span class="lineno">  177</span>                      <span class="stringliteral">&quot;broker_connecting&quot;</span>,</div>
+<div class="line"><span class="lineno">  178</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -717,12 +717,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00168">168</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  168</span>                                                                                                  {</div>
-<div class="line"><span class="lineno">  169</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
-<div class="line"><span class="lineno">  170</span>                      <span class="stringliteral">&quot;broker_disabled&quot;</span>,</div>
-<div class="line"><span class="lineno">  171</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  172</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00169">169</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  169</span>                                                                                                  {</div>
+<div class="line"><span class="lineno">  170</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
+<div class="line"><span class="lineno">  171</span>                      <span class="stringliteral">&quot;broker_disabled&quot;</span>,</div>
+<div class="line"><span class="lineno">  172</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  173</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -747,12 +747,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00192">192</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  192</span>                                                                                                      {</div>
-<div class="line"><span class="lineno">  193</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
-<div class="line"><span class="lineno">  194</span>                      <span class="stringliteral">&quot;broker_disconnected&quot;</span>,</div>
-<div class="line"><span class="lineno">  195</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  196</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00193">193</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  193</span>                                                                                                      {</div>
+<div class="line"><span class="lineno">  194</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
+<div class="line"><span class="lineno">  195</span>                      <span class="stringliteral">&quot;broker_disconnected&quot;</span>,</div>
+<div class="line"><span class="lineno">  196</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -784,12 +784,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00186">186</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  186</span>                                                                                                       {</div>
-<div class="line"><span class="lineno">  187</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
-<div class="line"><span class="lineno">  188</span>                      <span class="stringliteral">&quot;broker_disconnecting&quot;</span>,</div>
-<div class="line"><span class="lineno">  189</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
-<div class="line"><span class="lineno">  190</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00187">187</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  187</span>                                                                                                       {</div>
+<div class="line"><span class="lineno">  188</span>        <a class="code hl_function" href="#a8ee49146118a6d1016311f388061ecc3">sendJsonEvent</a>({{<span class="stringliteral">&quot;at&quot;</span>, <a class="code hl_function" href="#ae175f78eb030a996687f4606171418f6">timePointToString</a>(std::chrono::system_clock::now())}, {<span class="stringliteral">&quot;bridge&quot;</span>, bridgeName}, {<span class="stringliteral">&quot;instance&quot;</span>, instanceName}},</div>
+<div class="line"><span class="lineno">  189</span>                      <span class="stringliteral">&quot;broker_disconnecting&quot;</span>,</div>
+<div class="line"><span class="lineno">  190</span>                      std::to_string(<span class="keywordtype">id</span>++));</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00159">id</a>.</p>
 
@@ -822,30 +822,30 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00217">217</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  218</span>                                                                                                          {</div>
-<div class="line"><span class="lineno">  219</span>        <span class="keyword">using </span>seconds_duration_type = std::chrono::duration&lt;std::chrono::seconds::rep&gt;::rep;</div>
-<div class="line"><span class="lineno">  220</span> </div>
-<div class="line"><span class="lineno">  221</span>        seconds_duration_type totalSeconds = std::chrono::duration_cast&lt;std::chrono::seconds&gt;(later - bevore).count();</div>
-<div class="line"><span class="lineno">  222</span> </div>
-<div class="line"><span class="lineno">  223</span>        <span class="comment">// Compute days, hours, minutes, and seconds</span></div>
-<div class="line"><span class="lineno">  224</span>        seconds_duration_type days = totalSeconds / 86400; <span class="comment">// 86400 seconds in a day</span></div>
-<div class="line"><span class="lineno">  225</span>        seconds_duration_type remainder = totalSeconds % 86400;</div>
-<div class="line"><span class="lineno">  226</span>        seconds_duration_type hours = remainder / 3600;</div>
-<div class="line"><span class="lineno">  227</span>        remainder = remainder % 3600;</div>
-<div class="line"><span class="lineno">  228</span>        seconds_duration_type minutes = remainder / 60;</div>
-<div class="line"><span class="lineno">  229</span>        seconds_duration_type seconds = remainder % 60;</div>
-<div class="line"><span class="lineno">  230</span> </div>
-<div class="line"><span class="lineno">  231</span>        <span class="comment">// Format the components into a string using stringstream</span></div>
-<div class="line"><span class="lineno">  232</span>        std::ostringstream oss;</div>
-<div class="line"><span class="lineno">  233</span>        <span class="keywordflow">if</span> (days &gt; 0) {</div>
-<div class="line"><span class="lineno">  234</span>            oss &lt;&lt; days &lt;&lt; <span class="stringliteral">&quot; day&quot;</span> &lt;&lt; (days == 1 ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;s&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  235</span>        }</div>
-<div class="line"><span class="lineno">  236</span>        oss &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; hours &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; minutes &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2)</div>
-<div class="line"><span class="lineno">  237</span>            &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; seconds;</div>
-<div class="line"><span class="lineno">  238</span> </div>
-<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">return</span> oss.str();</div>
-<div class="line"><span class="lineno">  240</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00218">218</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  219</span>                                                                                                          {</div>
+<div class="line"><span class="lineno">  220</span>        <span class="keyword">using </span>seconds_duration_type = std::chrono::duration&lt;std::chrono::seconds::rep&gt;::rep;</div>
+<div class="line"><span class="lineno">  221</span> </div>
+<div class="line"><span class="lineno">  222</span>        seconds_duration_type totalSeconds = std::chrono::duration_cast&lt;std::chrono::seconds&gt;(later - bevore).count();</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>        <span class="comment">// Compute days, hours, minutes, and seconds</span></div>
+<div class="line"><span class="lineno">  225</span>        seconds_duration_type days = totalSeconds / 86400; <span class="comment">// 86400 seconds in a day</span></div>
+<div class="line"><span class="lineno">  226</span>        seconds_duration_type remainder = totalSeconds % 86400;</div>
+<div class="line"><span class="lineno">  227</span>        seconds_duration_type hours = remainder / 3600;</div>
+<div class="line"><span class="lineno">  228</span>        remainder = remainder % 3600;</div>
+<div class="line"><span class="lineno">  229</span>        seconds_duration_type minutes = remainder / 60;</div>
+<div class="line"><span class="lineno">  230</span>        seconds_duration_type seconds = remainder % 60;</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>        <span class="comment">// Format the components into a string using stringstream</span></div>
+<div class="line"><span class="lineno">  233</span>        std::ostringstream oss;</div>
+<div class="line"><span class="lineno">  234</span>        <span class="keywordflow">if</span> (days &gt; 0) {</div>
+<div class="line"><span class="lineno">  235</span>            oss &lt;&lt; days &lt;&lt; <span class="stringliteral">&quot; day&quot;</span> &lt;&lt; (days == 1 ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;s&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  236</span>        }</div>
+<div class="line"><span class="lineno">  237</span>        oss &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; hours &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; minutes &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; std::setw(2)</div>
+<div class="line"><span class="lineno">  238</span>            &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; seconds;</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">return</span> oss.str();</div>
+<div class="line"><span class="lineno">  241</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -872,15 +872,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00067">67</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>                                             {</div>
-<div class="line"><span class="lineno">   68</span>        <span class="keyword">static</span> <a class="code hl_function" href="#a6e0d59805d74c5bcf4bf09969b1683a3">SSEDistributor</a> sseDistributor;</div>
-<div class="line"><span class="lineno">   69</span> </div>
-<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">return</span> sseDistributor;</div>
-<div class="line"><span class="lineno">   71</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a6e0d59805d74c5bcf4bf09969b1683a3"><div class="ttname"><a href="#a6e0d59805d74c5bcf4bf09969b1683a3">mqtt::bridge::lib::SSEDistributor::SSEDistributor</a></div><div class="ttdeci">SSEDistributor()</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00063">SSEDistributor.cpp:63</a></div></div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00068">68</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>                                             {</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keyword">static</span> <a class="code hl_function" href="#a6e0d59805d74c5bcf4bf09969b1683a3">SSEDistributor</a> sseDistributor;</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">return</span> sseDistributor;</div>
+<div class="line"><span class="lineno">   72</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a6e0d59805d74c5bcf4bf09969b1683a3"><div class="ttname"><a href="#a6e0d59805d74c5bcf4bf09969b1683a3">mqtt::bridge::lib::SSEDistributor::SSEDistributor</a></div><div class="ttdeci">SSEDistributor()</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00064">SSEDistributor.cpp:64</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="Bridge_8cpp_source.html#l00085">mqtt::bridge::lib::Bridge::addMqtt()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00173">closeBridges()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00572">main()</a>, <a class="el" href="BridgeStore_8cpp_source.html#l00233">mqtt::bridge::lib::BridgeStore::mqttConnected()</a>, <a class="el" href="Bridge_8cpp_source.html#l00096">mqtt::bridge::lib::Bridge::removeMqtt()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00343">startBridges()</a>, and <a class="el" href="mqttbridge_8cpp_source.html#l00127">tryRestartBridges()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Bridge_8cpp_source.html#l00085">mqtt::bridge::lib::Bridge::addMqtt()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00170">closeBridges()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00564">main()</a>, <a class="el" href="BridgeStore_8cpp_source.html#l00233">mqtt::bridge::lib::BridgeStore::mqttConnected()</a>, <a class="el" href="Bridge_8cpp_source.html#l00096">mqtt::bridge::lib::Bridge::removeMqtt()</a>, <a class="el" href="mqttbridge_8cpp_source.html#l00311">startBridges()</a>, and <a class="el" href="mqttbridge_8cpp_source.html#l00124">tryRestartBridges()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -976,21 +976,21 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00086">86</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   89</span>                                                        {</div>
-<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">if</span> (response-&gt;isConnected()) {</div>
-<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">if</span> (!event.empty()) {</div>
-<div class="line"><span class="lineno">   92</span>                response-&gt;sendFragment(<span class="stringliteral">&quot;event:&quot;</span> + event);</div>
-<div class="line"><span class="lineno">   93</span>            }</div>
-<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">if</span> (!<span class="keywordtype">id</span>.empty()) {</div>
-<div class="line"><span class="lineno">   95</span>                response-&gt;sendFragment(<span class="stringliteral">&quot;id:&quot;</span> + <span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno">   96</span>            }</div>
-<div class="line"><span class="lineno">   97</span>            response-&gt;sendFragment(<span class="stringliteral">&quot;data:&quot;</span> + data);</div>
-<div class="line"><span class="lineno">   98</span>            response-&gt;sendFragment();</div>
-<div class="line"><span class="lineno">   99</span>        }</div>
-<div class="line"><span class="lineno">  100</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00087">87</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   90</span>                                                        {</div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">if</span> (response-&gt;isConnected()) {</div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">if</span> (!event.empty()) {</div>
+<div class="line"><span class="lineno">   93</span>                response-&gt;sendFragment(<span class="stringliteral">&quot;event:&quot;</span> + event);</div>
+<div class="line"><span class="lineno">   94</span>            }</div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">if</span> (!<span class="keywordtype">id</span>.empty()) {</div>
+<div class="line"><span class="lineno">   96</span>                response-&gt;sendFragment(<span class="stringliteral">&quot;id:&quot;</span> + <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">   97</span>            }</div>
+<div class="line"><span class="lineno">   98</span>            response-&gt;sendFragment(<span class="stringliteral">&quot;data:&quot;</span> + data);</div>
+<div class="line"><span class="lineno">   99</span>            response-&gt;sendFragment();</div>
+<div class="line"><span class="lineno">  100</span>        }</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00073">addEventReceiver()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00109">sendEvent()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00102">sendJsonEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00074">addEventReceiver()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00110">sendEvent()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00103">sendJsonEvent()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1031,22 +1031,22 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00109">109</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  109</span>                                                                                                     {</div>
-<div class="line"><span class="lineno">  110</span>        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Server sent event: &quot;</span> &lt;&lt; <span class="keyword">event</span> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> &lt;&lt; data;</div>
-<div class="line"><span class="lineno">  111</span> </div>
-<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; eventReceiver : <a class="code hl_variable" href="#abb0d9e62b124b92341eb52036b66f033">eventReceiverList</a>) {</div>
-<div class="line"><span class="lineno">  113</span>            <span class="keywordflow">if</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; response = eventReceiver.getResponse()) {</div>
-<div class="line"><span class="lineno">  114</span>                <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(response, data, event, <span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno">  115</span>            }</div>
-<div class="line"><span class="lineno">  116</span>        }</div>
-<div class="line"><span class="lineno">  117</span> </div>
-<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="#a97d2cc436072eaa78369a399b5234931">replayEvents</a>.emplace_back(data, event, <span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno">  119</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00110">110</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  110</span>                                                                                                     {</div>
+<div class="line"><span class="lineno">  111</span>        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Server sent event: &quot;</span> &lt;&lt; <span class="keyword">event</span> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> &lt;&lt; data;</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; eventReceiver : <a class="code hl_variable" href="#abb0d9e62b124b92341eb52036b66f033">eventReceiverList</a>) {</div>
+<div class="line"><span class="lineno">  114</span>            <span class="keywordflow">if</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; response = eventReceiver.getResponse()) {</div>
+<div class="line"><span class="lineno">  115</span>                <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(response, data, event, <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>        <a class="code hl_variable" href="#a97d2cc436072eaa78369a399b5234931">replayEvents</a>.emplace_back(data, event, <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00156">eventReceiverList</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00256">mqtt::bridge::lib::SSEDistributor::EventReceiver::getResponse()</a>, <a class="el" href="SSEDistributor_8h_source.html#l00161">replayEvents</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00086">sendEvent()</a>.</p>
+<p class="reference">References <a class="el" href="SSEDistributor_8h_source.html#l00156">eventReceiverList</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00257">mqtt::bridge::lib::SSEDistributor::EventReceiver::getResponse()</a>, <a class="el" href="SSEDistributor_8h_source.html#l00161">replayEvents</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00087">sendEvent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00121">sendJsonEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00122">sendJsonEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1092,13 +1092,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00121">121</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  121</span>                                                                                                            {</div>
-<div class="line"><span class="lineno">  122</span>        <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(<a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump(), event, <span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno">  123</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00122">122</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  122</span>                                                                                                            {</div>
+<div class="line"><span class="lineno">  123</span>        <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(<a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump(), event, <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  124</span>    }</div>
 <div class="ttc" id="abinary-validation_8cpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00030">binary-validation.cpp:30</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="SSEDistributor_8cpp_source.html#l00109">sendEvent()</a>.</p>
+<p class="reference">References <a class="el" href="SSEDistributor_8cpp_source.html#l00110">sendEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1144,12 +1144,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00102">102</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  105</span>                                                            {</div>
-<div class="line"><span class="lineno">  106</span>        <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(response, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump(), event, <span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno">  107</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00103">103</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  106</span>                                                            {</div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_function" href="#a9f5043f5f0189719413e23c74b3a55c2">sendEvent</a>(response, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump(), event, <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="SSEDistributor_8cpp_source.html#l00086">sendEvent()</a>.</p>
+<p class="reference">References <a class="el" href="SSEDistributor_8cpp_source.html#l00087">sendEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1181,21 +1181,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00202">202</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  202</span>                                                                                                           {</div>
-<div class="line"><span class="lineno">  203</span>        std::time_t time = std::chrono::system_clock::to_time_t(timePoint);</div>
-<div class="line"><span class="lineno">  204</span>        std::tm* tm_ptr = std::gmtime(&amp;time);</div>
-<div class="line"><span class="lineno">  205</span> </div>
-<div class="line"><span class="lineno">  206</span>        <span class="keywordtype">char</span> buffer[100];</div>
-<div class="line"><span class="lineno">  207</span>        std::string onlineSince = <span class="stringliteral">&quot;Formatting error&quot;</span>;</div>
-<div class="line"><span class="lineno">  208</span> </div>
-<div class="line"><span class="lineno">  209</span>        <span class="comment">// Format: &quot;2025-02-02 14:30:00&quot;</span></div>
-<div class="line"><span class="lineno">  210</span>        <span class="keywordflow">if</span> (std::strftime(buffer, <span class="keyword">sizeof</span>(buffer), <span class="stringliteral">&quot;%Y-%m-%d %H:%M:%S&quot;</span>, tm_ptr)) {</div>
-<div class="line"><span class="lineno">  211</span>            onlineSince = std::string(buffer) + <span class="stringliteral">&quot; UTC&quot;</span>;</div>
-<div class="line"><span class="lineno">  212</span>        }</div>
-<div class="line"><span class="lineno">  213</span> </div>
-<div class="line"><span class="lineno">  214</span>        <span class="keywordflow">return</span> onlineSince;</div>
-<div class="line"><span class="lineno">  215</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="SSEDistributor_8cpp_source.html#l00203">203</a> of file <a class="el" href="SSEDistributor_8cpp_source.html">SSEDistributor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  203</span>                                                                                                           {</div>
+<div class="line"><span class="lineno">  204</span>        std::time_t time = std::chrono::system_clock::to_time_t(timePoint);</div>
+<div class="line"><span class="lineno">  205</span>        <span class="keyword">const</span> std::tm* tm_ptr = std::gmtime(&amp;time);</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>        <span class="keywordtype">char</span> buffer[100];</div>
+<div class="line"><span class="lineno">  208</span>        std::string onlineSince = <span class="stringliteral">&quot;Formatting error&quot;</span>;</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>        <span class="comment">// Format: &quot;2025-02-02 14:30:00&quot;</span></div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">if</span> (std::strftime(buffer, <span class="keyword">sizeof</span>(buffer), <span class="stringliteral">&quot;%Y-%m-%d %H:%M:%S&quot;</span>, tm_ptr)) {</div>
+<div class="line"><span class="lineno">  212</span>            onlineSince = std::string(buffer) + <span class="stringliteral">&quot; UTC&quot;</span>;</div>
+<div class="line"><span class="lineno">  213</span>        }</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>        <span class="keywordflow">return</span> onlineSince;</div>
+<div class="line"><span class="lineno">  216</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1222,7 +1222,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="SSEDistributor_8h_source.html#l00158">158</a> of file <a class="el" href="SSEDistributor_8h_source.html">SSEDistributor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00198">bridgesStartedAt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00199">bridgesStartedAt()</a>.</p>
 
 </div>
 </div>
@@ -1248,7 +1248,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="SSEDistributor_8h_source.html#l00156">156</a> of file <a class="el" href="SSEDistributor_8h_source.html">SSEDistributor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00073">addEventReceiver()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00109">sendEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00074">addEventReceiver()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00110">sendEvent()</a>.</p>
 
 </div>
 </div>
@@ -1274,7 +1274,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="SSEDistributor_8h_source.html#l00159">159</a> of file <a class="el" href="SSEDistributor_8h_source.html">SSEDistributor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00143">bridgeDisabled()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00131">bridgesStarted()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00125">bridgesStarting()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00139">bridgesStopped()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00135">bridgesStopping()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00153">bridgeStarted()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00148">bridgeStarting()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00163">bridgeStopped()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00158">bridgeStopping()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00180">brokerConnected()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00174">brokerConnecting()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00168">brokerDisabled()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00192">brokerDisconnected()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00186">brokerDisconnecting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00144">bridgeDisabled()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00132">bridgesStarted()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00126">bridgesStarting()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00140">bridgesStopped()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00136">bridgesStopping()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00154">bridgeStarted()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00149">bridgeStarting()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00164">bridgeStopped()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00159">bridgeStopping()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00181">brokerConnected()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00175">brokerConnecting()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00169">brokerDisabled()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00193">brokerDisconnected()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00187">brokerDisconnecting()</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1300,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="SSEDistributor_8h_source.html#l00157">157</a> of file <a class="el" href="SSEDistributor_8h_source.html">SSEDistributor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00063">SSEDistributor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00064">SSEDistributor()</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1326,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="SSEDistributor_8h_source.html#l00161">161</a> of file <a class="el" href="SSEDistributor_8h_source.html">SSEDistributor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00073">addEventReceiver()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00125">bridgesStarting()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00109">sendEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SSEDistributor_8cpp_source.html#l00074">addEventReceiver()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00126">bridgesStarting()</a>, and <a class="el" href="SSEDistributor_8cpp_source.html#l00110">sendEvent()</a>.</p>
 
 </div>
 </div>

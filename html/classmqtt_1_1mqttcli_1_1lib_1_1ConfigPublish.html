@@ -123,7 +123,6 @@ Collaboration diagram for mqtt::mqttcli::lib::ConfigPublish:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a070716c4633c27182a927b03a1ea88a0" id="r_a070716c4633c27182a927b03a1ea88a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a070716c4633c27182a927b03a1ea88a0">ConfigPublish</a> (net::config::ConfigInstance *<a class="el" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>)</td></tr>
 <tr class="memitem:a4b6ebc08d6f4b80320ec379df7fa3c50" id="r_a4b6ebc08d6f4b80320ec379df7fa3c50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b6ebc08d6f4b80320ec379df7fa3c50">~ConfigPublish</a> () override</td></tr>
-<tr class="memitem:a564940274ccfd8c5c6b71e90217310f4" id="r_a564940274ccfd8c5c6b71e90217310f4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a070716c4633c27182a927b03a1ea88a0">ConfigPublish</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564940274ccfd8c5c6b71e90217310f4">setConfigSubscribe</a> (net::config::ConfigSection *<a class="el" href="#a9b68b838af9a81efd42832fabb374297">configSubscribe</a>)</td></tr>
 <tr class="memitem:a66bf024dfd67d7a7d415c3e8240597df" id="r_a66bf024dfd67d7a7d415c3e8240597df"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66bf024dfd67d7a7d415c3e8240597df">getTopic</a> () const</td></tr>
 <tr class="memitem:af773abb68169d7f8ee2574fa1e338c37" id="r_af773abb68169d7f8ee2574fa1e338c37"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a070716c4633c27182a927b03a1ea88a0">ConfigPublish</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af773abb68169d7f8ee2574fa1e338c37">setTopic</a> (const std::string &amp;topic)</td></tr>
 <tr class="memitem:ade27cd6cfd24db1dc53da11c2a27c64e" id="r_ade27cd6cfd24db1dc53da11c2a27c64e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade27cd6cfd24db1dc53da11c2a27c64e">getMessage</a> () const</td></tr>
@@ -141,11 +140,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a66e1d52153ad5ca61386c85dbc45d043" id="r_a66e1d52153ad5ca61386c85dbc45d043"><td class="memItemLeft" align="right" valign="top">CLI::Option *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a></td></tr>
 <tr class="memitem:abfa30ecfcb70419c321efceccdfa0d83" id="r_abfa30ecfcb70419c321efceccdfa0d83"><td class="memItemLeft" align="right" valign="top">CLI::Option *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a></td></tr>
 <tr class="memitem:a8f2605291ebd01730ad491588e7eac9e" id="r_a8f2605291ebd01730ad491588e7eac9e"><td class="memItemLeft" align="right" valign="top">CLI::Option *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a></td></tr>
-<tr class="memitem:a9b68b838af9a81efd42832fabb374297" id="r_a9b68b838af9a81efd42832fabb374297"><td class="memItemLeft" align="right" valign="top">net::config::ConfigSection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b68b838af9a81efd42832fabb374297">configSubscribe</a> = nullptr</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00085">85</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00082">82</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a070716c4633c27182a927b03a1ea88a0" name="a070716c4633c27182a927b03a1ea88a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a070716c4633c27182a927b03a1ea88a0">&#9670;&#160;</a></span>ConfigPublish()</h2>
@@ -162,57 +160,31 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00106">106</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  107</span>        : net::config::ConfigSection(<a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="keyword">this</span>, <span class="stringliteral">&quot;Applications (at least one required)&quot;</span>) {</div>
-<div class="line"><span class="lineno">  108</span>        <a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a> = addOptionFunction&lt;std::string&gt;(</div>
-<div class="line"><span class="lineno">  109</span>                       <span class="stringliteral">&quot;--topic&quot;</span>,</div>
-<div class="line"><span class="lineno">  110</span>                       [configPublish = <span class="keyword">this</span>]([[maybe_unused]] <span class="keyword">const</span> std::string&amp; value) {</div>
-<div class="line"><span class="lineno">  111</span>                           <span class="keywordflow">if</span> (!value.empty()) {</div>
-<div class="line"><span class="lineno">  112</span>                               configPublish-&gt;required(configPublish-&gt;topicOpt, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  113</span> </div>
-<div class="line"><span class="lineno">  114</span>                               <span class="keywordflow">if</span> (configPublish-&gt;configSubscribe != <span class="keyword">nullptr</span> &amp;&amp; !configPublish-&gt;getRequired()) {</div>
-<div class="line"><span class="lineno">  115</span>                                   configPublish-&gt;configSubscribe-&gt;required(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  116</span>                               }</div>
-<div class="line"><span class="lineno">  117</span>                           }</div>
-<div class="line"><span class="lineno">  118</span>                       },</div>
-<div class="line"><span class="lineno">  119</span>                       <span class="stringliteral">&quot;List of topics subscribing to&quot;</span>)</div>
-<div class="line"><span class="lineno">  120</span>                       -&gt;group(sectionSc-&gt;get_formatter()-&gt;get_label(<span class="stringliteral">&quot;Persistent Options&quot;</span>))</div>
-<div class="line"><span class="lineno">  121</span>                       -&gt;type_name(<span class="stringliteral">&quot;string list&quot;</span>)</div>
-<div class="line"><span class="lineno">  122</span>                       -&gt;take_all()</div>
-<div class="line"><span class="lineno">  123</span>                       -&gt;configurable();</div>
-<div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>        <a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a> = addOptionFunction&lt;std::string&gt;(</div>
-<div class="line"><span class="lineno">  126</span>                         <span class="stringliteral">&quot;--message&quot;</span>,</div>
-<div class="line"><span class="lineno">  127</span>                         [configPublish = <span class="keyword">this</span>]([[maybe_unused]] <span class="keyword">const</span> std::string&amp; value) {</div>
-<div class="line"><span class="lineno">  128</span>                             configPublish-&gt;required(configPublish-&gt;messageOpt, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  129</span> </div>
-<div class="line"><span class="lineno">  130</span>                             <span class="keywordflow">if</span> (configPublish-&gt;configSubscribe != <span class="keyword">nullptr</span> &amp;&amp; !configPublish-&gt;getRequired()) {</div>
-<div class="line"><span class="lineno">  131</span>                                 configPublish-&gt;configSubscribe-&gt;required(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  132</span>                             }</div>
-<div class="line"><span class="lineno">  133</span>                         },</div>
-<div class="line"><span class="lineno">  134</span>                         <span class="stringliteral">&quot;List of topics subscribing to&quot;</span>)</div>
-<div class="line"><span class="lineno">  135</span>                         -&gt;group(sectionSc-&gt;get_formatter()-&gt;get_label(<span class="stringliteral">&quot;Persistent Options&quot;</span>))</div>
-<div class="line"><span class="lineno">  136</span>                         -&gt;type_name(<span class="stringliteral">&quot;string list&quot;</span>)</div>
-<div class="line"><span class="lineno">  137</span>                         -&gt;take_all()</div>
-<div class="line"><span class="lineno">  138</span>                         -&gt;configurable();</div>
-<div class="line"><span class="lineno">  139</span> </div>
-<div class="line"><span class="lineno">  140</span>        <a class="code hl_variable" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a> = addFlag(<span class="stringliteral">&quot;--retain{true}&quot;</span>, <span class="stringliteral">&quot;Message retain&quot;</span>, <span class="stringliteral">&quot;bool&quot;</span>)</div>
-<div class="line"><span class="lineno">  141</span>                        -&gt;group(sectionSc-&gt;get_formatter()-&gt;get_label(<span class="stringliteral">&quot;Persistent Options&quot;</span>))</div>
-<div class="line"><span class="lineno">  142</span>                        -&gt;default_str(<span class="stringliteral">&quot;false&quot;</span>)</div>
-<div class="line"><span class="lineno">  143</span>                        -&gt;check(CLI::IsMember({<span class="stringliteral">&quot;true&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>}))</div>
-<div class="line"><span class="lineno">  144</span>                        -&gt;configurable();</div>
-<div class="line"><span class="lineno">  145</span> </div>
-<div class="line"><span class="lineno">  146</span>        required(<a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a>);</div>
-<div class="line"><span class="lineno">  147</span>        required(<a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a>);</div>
-<div class="line"><span class="lineno">  148</span> </div>
-<div class="line"><span class="lineno">  149</span>        required(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  150</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a66e1d52153ad5ca61386c85dbc45d043"><div class="ttname"><a href="#a66e1d52153ad5ca61386c85dbc45d043">mqtt::mqttcli::lib::ConfigPublish::topicOpt</a></div><div class="ttdeci">CLI::Option * topicOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00106">ConfigSections.h:106</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a8f2605291ebd01730ad491588e7eac9e"><div class="ttname"><a href="#a8f2605291ebd01730ad491588e7eac9e">mqtt::mqttcli::lib::ConfigPublish::retainOpt</a></div><div class="ttdeci">CLI::Option * retainOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00108">ConfigSections.h:108</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_abfa30ecfcb70419c321efceccdfa0d83"><div class="ttname"><a href="#abfa30ecfcb70419c321efceccdfa0d83">mqtt::mqttcli::lib::ConfigPublish::messageOpt</a></div><div class="ttdeci">CLI::Option * messageOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00107">ConfigSections.h:107</a></div></div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00085">85</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   86</span>        : net::config::ConfigSection(<a class="code hl_variable" href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a>, <span class="keyword">this</span>, <span class="stringliteral">&quot;Applications (at least one required)&quot;</span>) {</div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a> = addOption(<span class="stringliteral">&quot;--topic&quot;</span>, <span class="stringliteral">&quot;List of topics subscribing to&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;())</div>
+<div class="line"><span class="lineno">   88</span>                       -&gt;group(sectionSc-&gt;get_formatter()-&gt;get_label(<span class="stringliteral">&quot;Persistent Options&quot;</span>))</div>
+<div class="line"><span class="lineno">   89</span>                       -&gt;configurable();</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>        <a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a> = addOption(<span class="stringliteral">&quot;--message&quot;</span>, <span class="stringliteral">&quot;Message to be published&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;())</div>
+<div class="line"><span class="lineno">   92</span>                         -&gt;group(sectionSc-&gt;get_formatter()-&gt;get_label(<span class="stringliteral">&quot;Persistent Options&quot;</span>))</div>
+<div class="line"><span class="lineno">   93</span>                         -&gt;configurable();</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_variable" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a> = addFlag(<span class="stringliteral">&quot;--retain{true}&quot;</span>, <span class="stringliteral">&quot;Message retain&quot;</span>, <span class="stringliteral">&quot;bool&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>, CLI::IsMember({<span class="stringliteral">&quot;true&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>}))</div>
+<div class="line"><span class="lineno">   96</span>                        -&gt;group(sectionSc-&gt;get_formatter()-&gt;get_label(<span class="stringliteral">&quot;Persistent Options&quot;</span>))</div>
+<div class="line"><span class="lineno">   97</span>                        -&gt;configurable();</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>        required(<a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a>);</div>
+<div class="line"><span class="lineno">  100</span>        required(<a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a>);</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>        required(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a66e1d52153ad5ca61386c85dbc45d043"><div class="ttname"><a href="#a66e1d52153ad5ca61386c85dbc45d043">mqtt::mqttcli::lib::ConfigPublish::topicOpt</a></div><div class="ttdeci">CLI::Option * topicOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00101">ConfigSections.h:101</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a8f2605291ebd01730ad491588e7eac9e"><div class="ttname"><a href="#a8f2605291ebd01730ad491588e7eac9e">mqtt::mqttcli::lib::ConfigPublish::retainOpt</a></div><div class="ttdeci">CLI::Option * retainOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00103">ConfigSections.h:103</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_abfa30ecfcb70419c321efceccdfa0d83"><div class="ttname"><a href="#abfa30ecfcb70419c321efceccdfa0d83">mqtt::mqttcli::lib::ConfigPublish::messageOpt</a></div><div class="ttdeci">CLI::Option * messageOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00102">ConfigSections.h:102</a></div></div>
 <div class="ttc" id="aissue-93_8cpp_html_a44068119bf1b501581a96d624c4f4b8c"><div class="ttname"><a href="issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c">instance</a></div><div class="ttdeci">static const auto instance</div><div class="ttdef"><b>Definition</b> <a href="issue-93_8cpp_source.html#l00014">issue-93.cpp:14</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00110">configSubscribe</a>, <a class="el" href="ConfigSections_8h_source.html#l00107">messageOpt</a>, <a class="el" href="ConfigSections_8h_source.html#l00108">retainOpt</a>, and <a class="el" href="ConfigSections_8h_source.html#l00106">topicOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00102">messageOpt</a>, <a class="el" href="ConfigSections_8h_source.html#l00103">retainOpt</a>, and <a class="el" href="ConfigSections_8h_source.html#l00101">topicOpt</a>.</p>
 
 </div>
 </div>
@@ -239,9 +211,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00152">152</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  152</span>                                  {</div>
-<div class="line"><span class="lineno">  153</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00105">105</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  105</span>                                  {</div>
+<div class="line"><span class="lineno">  106</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -261,12 +233,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00171">171</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  171</span>                                              {</div>
-<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  173</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00118">118</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  118</span>                                              {</div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00107">messageOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00102">messageOpt</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttcli_2SocketContextFactory_8cpp_source.html#l00059">mqtt::mqttcli::SocketContextFactory::create()</a>.</p>
 <div class="dynheader">
@@ -292,12 +264,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00181">181</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  181</span>                                        {</div>
-<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a>-&gt;as&lt;<span class="keywordtype">bool</span>&gt;();</div>
-<div class="line"><span class="lineno">  183</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00128">128</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  128</span>                                        {</div>
+<div class="line"><span class="lineno">  129</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a>-&gt;as&lt;<span class="keywordtype">bool</span>&gt;();</div>
+<div class="line"><span class="lineno">  130</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00108">retainOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00103">retainOpt</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttcli_2SocketContextFactory_8cpp_source.html#l00059">mqtt::mqttcli::SocketContextFactory::create()</a>.</p>
 <div class="dynheader">
@@ -323,52 +295,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00161">161</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  161</span>                                            {</div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  163</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00108">108</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  108</span>                                            {</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  110</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00106">topicOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00101">topicOpt</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttcli_2SocketContextFactory_8cpp_source.html#l00059">mqtt::mqttcli::SocketContextFactory::create()</a>, and <a class="el" href="mqttcli_8cpp_source.html#l00178">createConfig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttcli_2SocketContextFactory_8cpp_source.html#l00059">mqtt::mqttcli::SocketContextFactory::create()</a>, and <a class="el" href="mqttcli_8cpp_source.html#l00204">createConfig()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_a66bf024dfd67d7a7d415c3e8240597df_icgraph.svg" width="622" height="107"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a564940274ccfd8c5c6b71e90217310f4" name="a564940274ccfd8c5c6b71e90217310f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a564940274ccfd8c5c6b71e90217310f4">&#9670;&#160;</a></span>setConfigSubscribe()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="#a070716c4633c27182a927b03a1ea88a0">ConfigPublish</a> &amp; mqtt::mqttcli::lib::ConfigPublish::setConfigSubscribe </td>
-          <td>(</td>
-          <td class="paramtype">net::config::ConfigSection *</td>          <td class="paramname"><span class="paramname"><em>configSubscribe</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00155">155</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  155</span>                                                                                         {</div>
-<div class="line"><span class="lineno">  156</span>        this-&gt;<a class="code hl_variable" href="#a9b68b838af9a81efd42832fabb374297">configSubscribe</a> = <a class="code hl_variable" href="#a9b68b838af9a81efd42832fabb374297">configSubscribe</a>;</div>
-<div class="line"><span class="lineno">  157</span> </div>
-<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  159</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a9b68b838af9a81efd42832fabb374297"><div class="ttname"><a href="#a9b68b838af9a81efd42832fabb374297">mqtt::mqttcli::lib::ConfigPublish::configSubscribe</a></div><div class="ttdeci">net::config::ConfigSection * configSubscribe</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00110">ConfigSections.h:110</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00110">configSubscribe</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="mqttcli_8cpp_source.html#l00178">createConfig()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_a564940274ccfd8c5c6b71e90217310f4_icgraph.svg" width="526" height="72"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -388,14 +326,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00175">175</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  175</span>                                                                           {</div>
-<div class="line"><span class="lineno">  176</span>        <a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a>-&gt;default_val(message);</div>
-<div class="line"><span class="lineno">  177</span> </div>
-<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  179</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00122">122</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  122</span>                                                                           {</div>
+<div class="line"><span class="lineno">  123</span>        <a class="code hl_variable" href="#abfa30ecfcb70419c321efceccdfa0d83">messageOpt</a>-&gt;default_val(message);</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00107">messageOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00102">messageOpt</a>.</p>
 
 </div>
 </div>
@@ -414,14 +352,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00185">185</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  185</span>                                                             {</div>
-<div class="line"><span class="lineno">  186</span>        <a class="code hl_variable" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a>-&gt;default_val(retain);</div>
-<div class="line"><span class="lineno">  187</span> </div>
-<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  189</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00132">132</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  132</span>                                                             {</div>
+<div class="line"><span class="lineno">  133</span>        <a class="code hl_variable" href="#a8f2605291ebd01730ad491588e7eac9e">retainOpt</a>-&gt;default_val(retain);</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00108">retainOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00103">retainOpt</a>.</p>
 
 </div>
 </div>
@@ -440,44 +378,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00165">165</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  165</span>                                                                       {</div>
-<div class="line"><span class="lineno">  166</span>        <a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a>-&gt;default_val(topic);</div>
-<div class="line"><span class="lineno">  167</span> </div>
-<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  169</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00112">112</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  112</span>                                                                       {</div>
+<div class="line"><span class="lineno">  113</span>        <a class="code hl_variable" href="#a66e1d52153ad5ca61386c85dbc45d043">topicOpt</a>-&gt;default_val(topic);</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00106">topicOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00101">topicOpt</a>.</p>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a9b68b838af9a81efd42832fabb374297" name="a9b68b838af9a81efd42832fabb374297"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b68b838af9a81efd42832fabb374297">&#9670;&#160;</a></span>configSubscribe</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">net::config::ConfigSection* mqtt::mqttcli::lib::ConfigPublish::configSubscribe = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00110">110</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00106">ConfigPublish()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00155">setConfigSubscribe()</a>.</p>
-
-</div>
-</div>
 <a id="a3b3f302bf1fc675d9c1706688f2558de" name="a3b3f302bf1fc675d9c1706688f2558de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b3f302bf1fc675d9c1706688f2558de">&#9670;&#160;</a></span>description</h2>
 
@@ -498,8 +410,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00088">88</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   88</span>{<span class="stringliteral">&quot;Configuration for application mqttpub&quot;</span>};</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00085">85</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   85</span>{<span class="stringliteral">&quot;Configuration for application mqttpub&quot;</span>};</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -523,9 +435,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00107">107</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00102">102</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00106">ConfigPublish()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00171">getMessage()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00175">setMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00085">ConfigPublish()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00118">getMessage()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00122">setMessage()</a>.</p>
 
 </div>
 </div>
@@ -549,8 +461,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00087">87</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   87</span>{<span class="stringliteral">&quot;pub&quot;</span>};</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00084">84</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{<span class="stringliteral">&quot;pub&quot;</span>};</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -574,9 +486,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00108">108</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00103">103</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00106">ConfigPublish()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00181">getRetain()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00185">setRetain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00085">ConfigPublish()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00128">getRetain()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00132">setRetain()</a>.</p>
 
 </div>
 </div>
@@ -600,9 +512,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00106">106</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00101">101</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00106">ConfigPublish()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00161">getTopic()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00165">setTopic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00085">ConfigPublish()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00108">getTopic()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00112">setTopic()</a>.</p>
 
 </div>
 </div>

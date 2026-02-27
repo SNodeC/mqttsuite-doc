@@ -1,21 +1,9 @@
 <map id="mqttbridge/lib/SSEDistributor.cpp" name="mqttbridge/lib/SSEDistributor.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="442,5,679,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="112,5,350,33"/>
 <area shape="rect" id="Node000002" href="$SSEDistributor_8h.html" title=" " alt="" coords="5,81,132,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="466,36,147,83,147,78,465,31"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="155,81,214,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="475,33,360,56,229,83,228,78,359,50,470,34"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="238,81,390,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,33,373,79,372,74,514,34"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="413,81,500,109"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="544,33,488,75,486,70,539,34"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="523,81,598,109"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="562,32,563,67,558,64,559,35"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="622,81,723,109"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="581,31,643,73,638,72,580,36"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="748,81,893,109"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="607,31,762,76,757,76,607,36"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="917,81,991,109"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="647,31,764,51,904,80,899,80,763,56,647,36"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="1014,81,1248,109"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="663,31,1016,78,1011,79,663,36"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,34,112,77,110,72,199,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="156,81,307,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,32,233,67,229,64,229,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="330,81,564,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,31,397,75,392,76,269,36"/>
 </map>

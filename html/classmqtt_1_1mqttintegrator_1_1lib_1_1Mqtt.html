@@ -157,7 +157,7 @@ Static Private Attributes</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classmqtt_1_1lib_1_1MqttMapper"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classmqtt_1_1lib_1_1MqttMapper')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html">mqtt::lib::MqttMapper</a></td></tr>
 <tr class="memitem:a122f07417797498849120fe755c4fdbb inherit pro_methods_classmqtt_1_1lib_1_1MqttMapper" id="r_a122f07417797498849120fe755c4fdbb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html#a122f07417797498849120fe755c4fdbb">dump</a> ()</td></tr>
-<tr class="memitem:af7b7f3ea70079f2dce04cee40e737713 inherit pro_methods_classmqtt_1_1lib_1_1MqttMapper" id="r_af7b7f3ea70079f2dce04cee40e737713"><td class="memItemLeft" align="right" valign="top">std::list&lt; iot::mqtt::Topic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html#af7b7f3ea70079f2dce04cee40e737713">extractSubscriptions</a> ()</td></tr>
+<tr class="memitem:a38f496c62e177cfd542ef1aa4e33ece2 inherit pro_methods_classmqtt_1_1lib_1_1MqttMapper" id="r_a38f496c62e177cfd542ef1aa4e33ece2"><td class="memItemLeft" align="right" valign="top">std::list&lt; iot::mqtt::Topic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a> () const</td></tr>
 <tr class="memitem:a279b13d33784be36c0b524a8796e194a inherit pro_methods_classmqtt_1_1lib_1_1MqttMapper" id="r_a279b13d33784be36c0b524a8796e194a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html#a279b13d33784be36c0b524a8796e194a">publishMappings</a> (const iot::mqtt::packets::Publish &amp;publish)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -240,7 +240,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   77</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Username: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a7f641b96ba8a9851ad96c323b8781a6c">connectionJson</a>[<span class="stringliteral">&quot;username&quot;</span>];</div>
 <div class="line"><span class="lineno">   78</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Password: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a7f641b96ba8a9851ad96c323b8781a6c">connectionJson</a>[<span class="stringliteral">&quot;password&quot;</span>];</div>
 <div class="line"><span class="lineno">   79</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a6d335a671524304c2b65916256e1121a"><div class="ttname"><a href="classmqtt_1_1lib_1_1MqttMapper.html#a6d335a671524304c2b65916256e1121a">mqtt::lib::MqttMapper::mappingJson</a></div><div class="ttdeci">const nlohmann::json &amp; mappingJson</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00104">MqttMapper.h:104</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a6d335a671524304c2b65916256e1121a"><div class="ttname"><a href="classmqtt_1_1lib_1_1MqttMapper.html#a6d335a671524304c2b65916256e1121a">mqtt::lib::MqttMapper::mappingJson</a></div><div class="ttdeci">const nlohmann::json &amp; mappingJson</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00105">MqttMapper.h:105</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_html_a7f641b96ba8a9851ad96c323b8781a6c"><div class="ttname"><a href="#a7f641b96ba8a9851ad96c323b8781a6c">mqtt::mqttintegrator::lib::Mqtt::connectionJson</a></div><div class="ttdeci">const nlohmann::json &amp; connectionJson</div><div class="ttdef"><b>Definition</b> <a href="mqttintegrator_2lib_2Mqtt_8h_source.html#l00084">Mqtt.h:84</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_html_a84e2a56f64fd91a73865ab3058699034"><div class="ttname"><a href="#a84e2a56f64fd91a73865ab3058699034">mqtt::mqttintegrator::lib::Mqtt::instances</a></div><div class="ttdeci">static std::set&lt; Mqtt * &gt; instances</div><div class="ttdef"><b>Definition</b> <a href="mqttintegrator_2lib_2Mqtt_8h_source.html#l00086">Mqtt.h:86</a></div></div>
 </div><!-- fragment -->
@@ -525,7 +525,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mqttintegrator_2lib_2Mqtt_8h_source.html#l00086">instances</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttintegrator_8cpp_source.html#l00151">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttintegrator_8cpp_source.html#l00176">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

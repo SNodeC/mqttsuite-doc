@@ -222,7 +222,6 @@ var NAVTREE =
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
-    [ "Concepts", "concepts.html", "concepts" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -259,12 +258,12 @@ var NAVTREEINDEX =
 "classjson__uri.html#a32b1d4d5ccd0bb7c53ba64cb702a354f",
 "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a695ccafca764022552d51da3faccbdac",
 "classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html#af183e96fd1a65a4b2257038f2c5b1dfe",
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a9c41a9a892b303230b8773c7431aa252",
-"classnlohmann_1_1json__uri.html#a757ed9f8e57e57b09f7e15761bf1abc9",
-"index.html#handy-patterns",
-"mqttbroker_2lib_2Mqtt_8cpp.html",
-"structinja_1_1FunctionStorage_1_1FunctionData.html#a7e038999d61d736eb2868f64e4820ad7",
-"structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html"
+"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#ad758678b3471a7ccd4dfb05ae1362b25",
+"classnlohmann_1_1json__uri.html#ab0048c647a2e7ecc718ed0a50e7cb0fb",
+"index.html#mandatory",
+"mqttbroker_8cpp.html",
+"structinja_1_1InjaError.html#a399b7d2f7c824c24b7794694711bafb7",
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -122,7 +122,74 @@ Classes</h2></td></tr>
 <tr class="memitem:FunctionBase" id="r_FunctionBase"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmqtt_1_1lib_1_1FunctionBase.html">FunctionBase</a></td></tr>
 <tr class="memitem:Function" id="r_Function"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmqtt_1_1lib_1_1Function.html">Function</a></td></tr>
 <tr class="memitem:VoidFunction" id="r_VoidFunction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmqtt_1_1lib_1_1VoidFunction.html">VoidFunction</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abb2b9f49004ff393059e90118faa30fc" id="r_abb2b9f49004ff393059e90118faa30fc"><td class="memItemLeft" align="right" valign="top">static CLI::Validator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2b9f49004ff393059e90118faa30fc">parent_dir_exists_and_target_not_dir</a> ()</td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="abb2b9f49004ff393059e90118faa30fc" name="abb2b9f49004ff393059e90118faa30fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2b9f49004ff393059e90118faa30fc">&#9670;&#160;</a></span>parent_dir_exists_and_target_not_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CLI::Validator mqtt::lib::parent_dir_exists_and_target_not_dir </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00056">56</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>                                                               {</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> CLI::Validator(</div>
+<div class="line"><span class="lineno">   58</span>            [](<span class="keyword">const</span> std::string&amp; value) -&gt; std::string {</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keyword">namespace </span>fs = std::filesystem;</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>                fs::path p{value};</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>                fs::path parent = p.parent_path();</div>
+<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">if</span> (parent.empty())</div>
+<div class="line"><span class="lineno">   65</span>                    parent = fs::path{<span class="stringliteral">&quot;.&quot;</span>};</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>                std::error_code ec;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">if</span> (!fs::exists(parent, ec) || ec)</div>
+<div class="line"><span class="lineno">   70</span>                    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Parent directory does not exist: &quot;</span> + parent.string();</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">if</span> (!fs::is_directory(parent, ec) || ec)</div>
+<div class="line"><span class="lineno">   73</span>                    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Parent path is not a directory: &quot;</span> + parent.string();</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>                <span class="comment">// Only forbid: target is an existing directory (including symlink-to-dir)</span></div>
+<div class="line"><span class="lineno">   76</span>                <span class="keywordflow">if</span> (fs::exists(p, ec) &amp;&amp; !ec &amp;&amp; fs::is_directory(p, ec) &amp;&amp; !ec)</div>
+<div class="line"><span class="lineno">   77</span>                    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Target must not be an existing directory: &quot;</span> + p.string();</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>                <span class="keywordflow">return</span> {}; <span class="comment">// OK</span></div>
+<div class="line"><span class="lineno">   80</span>            },</div>
+<div class="line"><span class="lineno">   81</span>            <span class="stringliteral">&quot;PATH(parent exists, target not directory)&quot;</span>,</div>
+<div class="line"><span class="lineno">   82</span>            <span class="stringliteral">&quot;ParentExistsTargetNotDir&quot;</span>);</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00085">mqtt::lib::ConfigApplication::ConfigApplication()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="namespacemqtt_1_1lib_abb2b9f49004ff393059e90118faa30fc_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

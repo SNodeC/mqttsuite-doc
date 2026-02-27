@@ -1,8 +1,9 @@
 <map id="mqttbridge/lib/BridgeStore.h" name="mqttbridge/lib/BridgeStore.h">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,211,33"/>
-<area shape="rect" id="Node000002" href="$Bridge_8h.html" title=" " alt="" coords="18,81,113,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,31,83,69,78,66,99,36"/>
+<area shape="rect" id="Node000002" href="$Bridge_8h.html" title=" " alt="" coords="60,81,156,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,31,111,66,105,65,107,36"/>
 <area shape="rect" id="Node000003" href="$Broker_8h.html" title=" " alt="" coords="60,157,156,184"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="114,31,128,81,128,109,120,143,115,141,123,108,123,81,112,36"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,107,96,143,90,143,72,112"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,107,111,142,105,140,107,112"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,232,169,260"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,183,110,218,106,216,106,187"/>
 </map>

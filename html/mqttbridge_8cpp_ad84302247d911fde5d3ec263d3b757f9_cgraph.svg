@@ -49,7 +49,7 @@
 <script type="application/ecmascript">
 var viewWidth = 806;
 var viewHeight = 243;
-var sectionId = 'dynsection-12';
+var sectionId = 'dynsection-11';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -282,7 +282,7 @@ var sectionId = 'dynsection-12';
 </g>
 <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
  <g id="arrow_out" transform="scale(0.3 0.3)">
-  <a xlink:href="mqttbridge_8cpp_aa382a8e9f03e8e276adb2877d62c9a67_cgraph_org.svg" target="_base">
+  <a xlink:href="mqttbridge_8cpp_ad84302247d911fde5d3ec263d3b757f9_cgraph_org.svg" target="_base">
    <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
         fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
    <path id="arrow"

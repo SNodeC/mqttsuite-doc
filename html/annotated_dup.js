@@ -143,10 +143,10 @@ var annotated_dup =
     ] ],
     [ "nlohmann", "namespacenlohmann.html", [
       [ "json_schema", "namespacenlohmann_1_1json__schema.html", [
+        [ "root_schema", "classnlohmann_1_1json__schema_1_1root__schema.html", "classnlohmann_1_1json__schema_1_1root__schema" ],
         [ "error_handler", "classnlohmann_1_1json__schema_1_1error__handler.html", "classnlohmann_1_1json__schema_1_1error__handler" ],
         [ "basic_error_handler", "classnlohmann_1_1json__schema_1_1basic__error__handler.html", "classnlohmann_1_1json__schema_1_1basic__error__handler" ],
-        [ "json_validator", "classnlohmann_1_1json__schema_1_1json__validator.html", "classnlohmann_1_1json__schema_1_1json__validator" ],
-        [ "root_schema", "classnlohmann_1_1json__schema_1_1root__schema.html", "classnlohmann_1_1json__schema_1_1root__schema" ]
+        [ "json_validator", "classnlohmann_1_1json__schema_1_1json__validator.html", "classnlohmann_1_1json__schema_1_1json__validator" ]
       ] ],
       [ "json_uri", "classnlohmann_1_1json__uri.html", "classnlohmann_1_1json__uri" ],
       [ "JsonPatchFormatException", "classnlohmann_1_1JsonPatchFormatException.html", "classnlohmann_1_1JsonPatchFormatException" ],

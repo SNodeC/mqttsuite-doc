@@ -135,7 +135,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a122f07417797498849120fe755c4fdbb" id="r_a122f07417797498849120fe755c4fdbb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122f07417797498849120fe755c4fdbb">dump</a> ()</td></tr>
-<tr class="memitem:af7b7f3ea70079f2dce04cee40e737713" id="r_af7b7f3ea70079f2dce04cee40e737713"><td class="memItemLeft" align="right" valign="top">std::list&lt; iot::mqtt::Topic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7b7f3ea70079f2dce04cee40e737713">extractSubscriptions</a> ()</td></tr>
+<tr class="memitem:a38f496c62e177cfd542ef1aa4e33ece2" id="r_a38f496c62e177cfd542ef1aa4e33ece2"><td class="memItemLeft" align="right" valign="top">std::list&lt; iot::mqtt::Topic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a> () const</td></tr>
 <tr class="memitem:a279b13d33784be36c0b524a8796e194a" id="r_a279b13d33784be36c0b524a8796e194a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a279b13d33784be36c0b524a8796e194a">publishMappings</a> (const iot::mqtt::packets::Publish &amp;publish)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -163,7 +163,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00071">71</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00072">72</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae244e3745588740bf513016cb0f06a74" name="ae244e3745588740bf513016cb0f06a74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae244e3745588740bf513016cb0f06a74">&#9670;&#160;</a></span>MqttMapper() <span class="overload">[1/2]</span></h2>
@@ -243,12 +243,12 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  153</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Loading plugins done&quot;</span>;</div>
 <div class="line"><span class="lineno">  154</span>        }</div>
 <div class="line"><span class="lineno">  155</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a6d335a671524304c2b65916256e1121a"><div class="ttname"><a href="#a6d335a671524304c2b65916256e1121a">mqtt::lib::MqttMapper::mappingJson</a></div><div class="ttdeci">const nlohmann::json &amp; mappingJson</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00104">MqttMapper.h:104</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aa5341c7fb53f10be81874732243d3fe6"><div class="ttname"><a href="#aa5341c7fb53f10be81874732243d3fe6">mqtt::lib::MqttMapper::pluginHandles</a></div><div class="ttdeci">std::list&lt; void * &gt; pluginHandles</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00106">MqttMapper.h:106</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_adf5a4c4753717fc459666f6e51b8379b"><div class="ttname"><a href="#adf5a4c4753717fc459666f6e51b8379b">mqtt::lib::MqttMapper::injaEnvironment</a></div><div class="ttdeci">inja::Environment * injaEnvironment</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00108">MqttMapper.h:108</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aed412dc16d3639e522ae44307134eadf"><div class="ttname"><a href="#aed412dc16d3639e522ae44307134eadf">mqtt::lib::MqttMapper::delayedQueue</a></div><div class="ttdeci">DelayedQueue delayedQueue</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00153">MqttMapper.h:153</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a6d335a671524304c2b65916256e1121a"><div class="ttname"><a href="#a6d335a671524304c2b65916256e1121a">mqtt::lib::MqttMapper::mappingJson</a></div><div class="ttdeci">const nlohmann::json &amp; mappingJson</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00105">MqttMapper.h:105</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aa5341c7fb53f10be81874732243d3fe6"><div class="ttname"><a href="#aa5341c7fb53f10be81874732243d3fe6">mqtt::lib::MqttMapper::pluginHandles</a></div><div class="ttdeci">std::list&lt; void * &gt; pluginHandles</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00107">MqttMapper.h:107</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_adf5a4c4753717fc459666f6e51b8379b"><div class="ttname"><a href="#adf5a4c4753717fc459666f6e51b8379b">mqtt::lib::MqttMapper::injaEnvironment</a></div><div class="ttdeci">inja::Environment * injaEnvironment</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00109">MqttMapper.h:109</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aed412dc16d3639e522ae44307134eadf"><div class="ttname"><a href="#aed412dc16d3639e522ae44307134eadf">mqtt::lib::MqttMapper::delayedQueue</a></div><div class="ttdeci">DelayedQueue delayedQueue</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00154">MqttMapper.h:154</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03162">inja::Environment::add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03176">inja::Environment::add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03169">inja::Environment::add_void_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03183">inja::Environment::add_void_callback()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00433">mqtt::lib::MqttMapper::DelayedQueue::DelayedQueue()</a>, <a class="el" href="MqttMapper_8h_source.html#l00153">delayedQueue</a>, <a class="el" href="MqttMapper_8h_source.html#l00108">injaEnvironment</a>, <a class="el" href="MqttMapper_8h_source.html#l00104">mappingJson</a>, <a class="el" href="MqttMapperPlugin_8h_source.html#l00068">mqtt::lib::FunctionBase::name</a>, <a class="el" href="MqttMapperPlugin_8h_source.html#l00069">mqtt::lib::FunctionBase::numArgs</a>, and <a class="el" href="MqttMapper_8h_source.html#l00106">pluginHandles</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l03162">inja::Environment::add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03176">inja::Environment::add_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03169">inja::Environment::add_void_callback()</a>, <a class="el" href="inja_8hpp_source.html#l03183">inja::Environment::add_void_callback()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00433">mqtt::lib::MqttMapper::DelayedQueue::DelayedQueue()</a>, <a class="el" href="MqttMapper_8h_source.html#l00154">delayedQueue</a>, <a class="el" href="MqttMapper_8h_source.html#l00109">injaEnvironment</a>, <a class="el" href="MqttMapper_8h_source.html#l00105">mappingJson</a>, <a class="el" href="MqttMapperPlugin_8h_source.html#l00068">mqtt::lib::FunctionBase::name</a>, <a class="el" href="MqttMapperPlugin_8h_source.html#l00069">mqtt::lib::FunctionBase::numArgs</a>, and <a class="el" href="MqttMapper_8h_source.html#l00107">pluginHandles</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00060">mqtt::mqttbroker::lib::Mqtt::Mqtt()</a>, and <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00063">mqtt::mqttintegrator::lib::Mqtt::Mqtt()</a>.</p>
 <div class="dynheader">
@@ -321,7 +321,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  162</span>        }</div>
 <div class="line"><span class="lineno">  163</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00108">injaEnvironment</a>, and <a class="el" href="MqttMapper_8h_source.html#l00106">pluginHandles</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00109">injaEnvironment</a>, and <a class="el" href="MqttMapper_8h_source.html#l00107">pluginHandles</a>.</p>
 
 </div>
 </div>
@@ -354,7 +354,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  166</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a6d335a671524304c2b65916256e1121a">mappingJson</a>.dump();</div>
 <div class="line"><span class="lineno">  167</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00104">mappingJson</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00105">mappingJson</a>.</p>
 
 </div>
 </div>
@@ -401,10 +401,10 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  250</span>        }</div>
 <div class="line"><span class="lineno">  251</span> </div>
 <div class="line"><span class="lineno">  252</span>        <span class="keywordflow">if</span> (topicLevelJson.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  253</span>            <a class="code hl_function" href="#af7b7f3ea70079f2dce04cee40e737713">extractSubscriptions</a>(topicLevelJson, topic + ((topic.empty() || topic == <span class="stringliteral">&quot;/&quot;</span>) &amp;&amp; !name.empty() ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;/&quot;</span>) + name, topicList);</div>
+<div class="line"><span class="lineno">  253</span>            <a class="code hl_function" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a>(topicLevelJson, topic + ((topic.empty() || topic == <span class="stringliteral">&quot;/&quot;</span>) &amp;&amp; !name.empty() ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;/&quot;</span>) + name, topicList);</div>
 <div class="line"><span class="lineno">  254</span>        }</div>
 <div class="line"><span class="lineno">  255</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_af7b7f3ea70079f2dce04cee40e737713"><div class="ttname"><a href="#af7b7f3ea70079f2dce04cee40e737713">mqtt::lib::MqttMapper::extractSubscriptions</a></div><div class="ttdeci">std::list&lt; iot::mqtt::Topic &gt; extractSubscriptions()</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00169">MqttMapper.cpp:169</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a38f496c62e177cfd542ef1aa4e33ece2"><div class="ttname"><a href="#a38f496c62e177cfd542ef1aa4e33ece2">mqtt::lib::MqttMapper::extractSubscriptions</a></div><div class="ttdeci">std::list&lt; iot::mqtt::Topic &gt; extractSubscriptions() const</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00169">MqttMapper.cpp:169</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00258">extractSubscriptions()</a>.</p>
 
@@ -422,8 +422,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af7b7f3ea70079f2dce04cee40e737713" name="af7b7f3ea70079f2dce04cee40e737713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7b7f3ea70079f2dce04cee40e737713">&#9670;&#160;</a></span>extractSubscriptions() <span class="overload">[1/2]</span></h2>
+<a id="a38f496c62e177cfd542ef1aa4e33ece2" name="a38f496c62e177cfd542ef1aa4e33ece2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38f496c62e177cfd542ef1aa4e33ece2">&#9670;&#160;</a></span>extractSubscriptions() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,7 +435,7 @@ Here is the caller graph for this function:</div>
           <td class="memname">std::list&lt; iot::mqtt::Topic &gt; mqtt::lib::MqttMapper::extractSubscriptions </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -446,26 +446,26 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00169">169</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  169</span>                                                           {</div>
+<div class="fragment"><div class="line"><span class="lineno">  169</span>                                                                 {</div>
 <div class="line"><span class="lineno">  170</span>        std::list&lt;iot::mqtt::Topic&gt; topicList;</div>
 <div class="line"><span class="lineno">  171</span> </div>
-<div class="line"><span class="lineno">  172</span>        <a class="code hl_function" href="#af7b7f3ea70079f2dce04cee40e737713">extractSubscriptions</a>(<a class="code hl_variable" href="#a6d335a671524304c2b65916256e1121a">mappingJson</a>, <span class="stringliteral">&quot;&quot;</span>, topicList);</div>
+<div class="line"><span class="lineno">  172</span>        <a class="code hl_function" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a>(<a class="code hl_variable" href="#a6d335a671524304c2b65916256e1121a">mappingJson</a>, <span class="stringliteral">&quot;&quot;</span>, topicList);</div>
 <div class="line"><span class="lineno">  173</span> </div>
 <div class="line"><span class="lineno">  174</span>        <span class="keywordflow">return</span> topicList;</div>
 <div class="line"><span class="lineno">  175</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00258">extractSubscriptions()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00104">mappingJson</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00258">extractSubscriptions()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00105">mappingJson</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00112">mqtt::mqttintegrator::lib::Mqtt::onConnack()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1MqttMapper_af7b7f3ea70079f2dce04cee40e737713_cgraph.svg" width="598" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1MqttMapper_a38f496c62e177cfd542ef1aa4e33ece2_cgraph.svg" width="598" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1MqttMapper_af7b7f3ea70079f2dce04cee40e737713_icgraph.svg" width="386" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1MqttMapper_a38f496c62e177cfd542ef1aa4e33ece2_icgraph.svg" width="386" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -925,7 +925,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="astructinja_1_1SourceLocation_html_a1e2fa7b29c73a132931c0cdd0ebd0d80"><div class="ttname"><a href="structinja_1_1SourceLocation.html#a1e2fa7b29c73a132931c0cdd0ebd0d80">inja::SourceLocation::line</a></div><div class="ttdeci">size_t line</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00278">inja.hpp:278</a></div></div>
 <div class="ttc" id="astructinja_1_1SourceLocation_html_af30f2583f88e64efd5b1866feb8b4703"><div class="ttname"><a href="structinja_1_1SourceLocation.html#af30f2583f88e64efd5b1866feb8b4703">inja::SourceLocation::column</a></div><div class="ttdeci">size_t column</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00279">inja.hpp:279</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00279">inja::SourceLocation::column</a>, <a class="el" href="MqttMapper_8h_source.html#l00108">injaEnvironment</a>, <a class="el" href="inja_8hpp_source.html#l00278">inja::SourceLocation::line</a>, <a class="el" href="inja_8hpp_source.html#l00286">inja::InjaError::location</a>, <a class="el" href="inja_8hpp_source.html#l00284">inja::InjaError::message</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00233">publishMapping()</a>, <a class="el" href="inja_8hpp_source.html#l03093">inja::Environment::render()</a>, and <a class="el" href="inja_8hpp_source.html#l00283">inja::InjaError::type</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00279">inja::SourceLocation::column</a>, <a class="el" href="MqttMapper_8h_source.html#l00109">injaEnvironment</a>, <a class="el" href="inja_8hpp_source.html#l00278">inja::SourceLocation::line</a>, <a class="el" href="inja_8hpp_source.html#l00286">inja::InjaError::location</a>, <a class="el" href="inja_8hpp_source.html#l00284">inja::InjaError::message</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00233">publishMapping()</a>, <a class="el" href="inja_8hpp_source.html#l03093">inja::Environment::render()</a>, and <a class="el" href="inja_8hpp_source.html#l00283">inja::InjaError::type</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00352">publishMappedTemplates()</a>.</p>
 <div class="dynheader">
@@ -1111,7 +1111,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  238</span>        }</div>
 <div class="line"><span class="lineno">  239</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00153">delayedQueue</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00479">mqtt::lib::MqttMapper::DelayedQueue::delayPublish()</a>, and <a class="el" href="#a621835aa27e24b3893052ef5227f6deb">publishMapping()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00154">delayedQueue</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00479">mqtt::lib::MqttMapper::DelayedQueue::delayPublish()</a>, and <a class="el" href="#a621835aa27e24b3893052ef5227f6deb">publishMapping()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00375">publishMappedMessage()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00297">publishMappedTemplate()</a>.</p>
 <div class="dynheader">
@@ -1209,7 +1209,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a5c22589cf651d660d38bf23d0b4e0706"><div class="ttname"><a href="#a5c22589cf651d660d38bf23d0b4e0706">mqtt::lib::MqttMapper::publishMappedMessages</a></div><div class="ttdeci">void publishMappedMessages(const nlohmann::json &amp;staticMapping, const iot::mqtt::packets::Publish &amp;publish)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00423">MqttMapper.cpp:423</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aae1c8da19646ae1ada8d497fef0df12d"><div class="ttname"><a href="#aae1c8da19646ae1ada8d497fef0df12d">mqtt::lib::MqttMapper::publishMappedTemplates</a></div><div class="ttdeci">void publishMappedTemplates(const nlohmann::json &amp;templateMapping, nlohmann::json &amp;json, const iot::mqtt::packets::Publish &amp;publish)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00352">MqttMapper.cpp:352</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00270">findMatchingTopicLevel()</a>, <a class="el" href="MqttMapper_8h_source.html#l00104">mappingJson</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00423">publishMappedMessages()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00352">publishMappedTemplates()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00270">findMatchingTopicLevel()</a>, <a class="el" href="MqttMapper_8h_source.html#l00105">mappingJson</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00423">publishMappedMessages()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00352">publishMappedTemplates()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00085">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>, <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00126">mqtt::mqttintegrator::lib::Mqtt::onPublish()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00115">mqtt::mqttbroker::lib::Mqtt::publishMapping()</a>.</p>
 <div class="dynheader">
@@ -1246,7 +1246,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00153">153</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00154">154</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00093">MqttMapper()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00233">publishMapping()</a>.</p>
 
@@ -1272,7 +1272,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00108">108</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00109">109</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00093">MqttMapper()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00297">publishMappedTemplate()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00157">~MqttMapper()</a>.</p>
 
@@ -1298,7 +1298,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00104">104</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00105">105</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00165">dump()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00169">extractSubscriptions()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00093">MqttMapper()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00177">publishMappings()</a>.</p>
 
@@ -1324,7 +1324,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00106">106</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00107">107</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00093">MqttMapper()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00157">~MqttMapper()</a>.</p>
 

@@ -317,7 +317,7 @@ var sectionId = 'dynsection-11';
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="mqttbridge_8cpp.html#a051da9845e1c1a4dfd9f952bb73c2548" target="_top" xlink:title=" ">
+<g id="a_Node000013"><a xlink:href="mqttbridge_8cpp.html#ad84302247d911fde5d3ec263d3b757f9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="67,-116.12 0,-116.12 0,-95.38 67,-95.38 67,-116.12"/>
 <text xml:space="preserve" text-anchor="middle" x="33.5" y="-102.62" font-family="Helvetica,sans-Serif" font-size="10.00">startClient</text>
 </a>
@@ -335,7 +335,7 @@ var sectionId = 'dynsection-11';
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="mqttbridge_8cpp.html#aa382a8e9f03e8e276adb2877d62c9a67" target="_top" xlink:title=" ">
+<g id="a_Node000014"><a xlink:href="mqttbridge_8cpp.html#a1c2878ce9e95e211ae0fd04d12ea43f7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="67,-77.12 0,-77.12 0,-56.38 67,-56.38 67,-77.12"/>
 <text xml:space="preserve" text-anchor="middle" x="33.5" y="-63.62" font-family="Helvetica,sans-Serif" font-size="10.00">startClient</text>
 </a>

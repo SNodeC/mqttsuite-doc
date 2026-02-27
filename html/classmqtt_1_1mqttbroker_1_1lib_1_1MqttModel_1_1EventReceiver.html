@@ -125,7 +125,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00076">76</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00077">77</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aac1c0c0d95a25bd28d49398da5671794" name="aac1c0c0d95a25bd28d49398da5671794"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac1c0c0d95a25bd28d49398da5671794">&#9670;&#160;</a></span>EventReceiver()</h2>
@@ -142,19 +142,19 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00161">161</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  162</span>        : <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>(<a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>)</div>
-<div class="line"><span class="lineno">  163</span>        , <a class="code hl_variable" href="#ac63c45892ab39abac4a2cb0185c61ecf">heartbeatTimer</a>(core::timer::Timer::intervalTimer(</div>
-<div class="line"><span class="lineno">  164</span>              [<a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>] {</div>
-<div class="line"><span class="lineno">  165</span>                  <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>-&gt;sendFragment(<span class="stringliteral">&quot;:keep-alive&quot;</span>);</div>
-<div class="line"><span class="lineno">  166</span>                  <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>-&gt;sendFragment();</div>
-<div class="line"><span class="lineno">  167</span>              },</div>
-<div class="line"><span class="lineno">  168</span>              39)) {</div>
-<div class="line"><span class="lineno">  169</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver_html_a60a4d5e13c69047274325ea88b30e140"><div class="ttname"><a href="#a60a4d5e13c69047274325ea88b30e140">mqtt::mqttbroker::lib::MqttModel::EventReceiver::response</a></div><div class="ttdeci">std::weak_ptr&lt; express::Response &gt; response</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00082">MqttModel.h:82</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver_html_ac63c45892ab39abac4a2cb0185c61ecf"><div class="ttname"><a href="#ac63c45892ab39abac4a2cb0185c61ecf">mqtt::mqttbroker::lib::MqttModel::EventReceiver::heartbeatTimer</a></div><div class="ttdeci">core::timer::Timer heartbeatTimer</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00086">MqttModel.h:86</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00158">158</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  159</span>        : <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>(<a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>)</div>
+<div class="line"><span class="lineno">  160</span>        , <a class="code hl_variable" href="#ac63c45892ab39abac4a2cb0185c61ecf">heartbeatTimer</a>(core::timer::Timer::intervalTimer(</div>
+<div class="line"><span class="lineno">  161</span>              [<a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>] {</div>
+<div class="line"><span class="lineno">  162</span>                  <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>-&gt;sendFragment(<span class="stringliteral">&quot;:keep-alive&quot;</span>);</div>
+<div class="line"><span class="lineno">  163</span>                  <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>-&gt;sendFragment();</div>
+<div class="line"><span class="lineno">  164</span>              },</div>
+<div class="line"><span class="lineno">  165</span>              39)) {</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver_html_a60a4d5e13c69047274325ea88b30e140"><div class="ttname"><a href="#a60a4d5e13c69047274325ea88b30e140">mqtt::mqttbroker::lib::MqttModel::EventReceiver::response</a></div><div class="ttdeci">std::weak_ptr&lt; express::Response &gt; response</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00083">MqttModel.h:83</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver_html_ac63c45892ab39abac4a2cb0185c61ecf"><div class="ttname"><a href="#ac63c45892ab39abac4a2cb0185c61ecf">mqtt::mqttbroker::lib::MqttModel::EventReceiver::heartbeatTimer</a></div><div class="ttdeci">core::timer::Timer heartbeatTimer</div><div class="ttdef"><b>Definition</b> <a href="MqttModel_8h_source.html#l00087">MqttModel.h:87</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00086">heartbeatTimer</a>, and <a class="el" href="MqttModel_8h_source.html#l00082">response</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00087">heartbeatTimer</a>, and <a class="el" href="MqttModel_8h_source.html#l00083">response</a>.</p>
 
 </div>
 </div>
@@ -173,12 +173,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00171">171</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  171</span>                                           {</div>
-<div class="line"><span class="lineno">  172</span>        <a class="code hl_variable" href="#ac63c45892ab39abac4a2cb0185c61ecf">heartbeatTimer</a>.cancel();</div>
-<div class="line"><span class="lineno">  173</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00168">168</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  168</span>                                           {</div>
+<div class="line"><span class="lineno">  169</span>        <a class="code hl_variable" href="#ac63c45892ab39abac4a2cb0185c61ecf">heartbeatTimer</a>.cancel();</div>
+<div class="line"><span class="lineno">  170</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00086">heartbeatTimer</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00087">heartbeatTimer</a>.</p>
 
 </div>
 </div>
@@ -198,12 +198,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00175">175</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  175</span>                                                                      {</div>
-<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>.lock() == other.response.lock();</div>
-<div class="line"><span class="lineno">  177</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8cpp_source.html#l00172">172</a> of file <a class="el" href="MqttModel_8cpp_source.html">MqttModel.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  172</span>                                                                      {</div>
+<div class="line"><span class="lineno">  173</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a60a4d5e13c69047274325ea88b30e140">response</a>.lock() == other.response.lock();</div>
+<div class="line"><span class="lineno">  174</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00082">response</a>.</p>
+<p class="reference">References <a class="el" href="MqttModel_8h_source.html#l00083">response</a>.</p>
 
 </div>
 </div>
@@ -220,9 +220,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00086">86</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00087">87</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00161">EventReceiver()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00171">~EventReceiver()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00158">EventReceiver()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00168">~EventReceiver()</a>.</p>
 
 </div>
 </div>
@@ -238,9 +238,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00082">82</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttModel_8h_source.html#l00083">83</a> of file <a class="el" href="MqttModel_8h_source.html">MqttModel.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00161">EventReceiver()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00175">operator==()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00327">mqtt::mqttbroker::lib::MqttModel::sendEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttModel_8cpp_source.html#l00158">EventReceiver()</a>, <a class="el" href="MqttModel_8cpp_source.html#l00172">operator==()</a>, and <a class="el" href="MqttModel_8cpp_source.html#l00324">mqtt::mqttbroker::lib::MqttModel::sendEvent()</a>.</p>
 
 </div>
 </div>

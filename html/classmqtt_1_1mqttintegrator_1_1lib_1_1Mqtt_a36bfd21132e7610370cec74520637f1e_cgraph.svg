@@ -68,7 +68,7 @@ var sectionId = 'dynsection-3';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#af7b7f3ea70079f2dce04cee40e737713" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#a38f496c62e177cfd542ef1aa4e33ece2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="281,-33.5 158.5,-33.5 158.5,0 281,0 281,-33.5"/>
 <text xml:space="preserve" text-anchor="start" x="166.5" y="-20" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
 <text xml:space="preserve" text-anchor="middle" x="219.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">::extractSubscriptions</text>

@@ -8,6 +8,5 @@ var json_schema_8hpp =
     [ "nlohmann::json_schema::content_checker", "namespacenlohmann_1_1json__schema.html#ae33bec52699b28a669ec433ac0c095f8", null ],
     [ "nlohmann::json_schema::format_checker", "namespacenlohmann_1_1json__schema.html#a3d527dae88a9fa392e682f07fdfff63c", null ],
     [ "nlohmann::json_schema::schema_loader", "namespacenlohmann_1_1json__schema.html#a2e805cdf08d65b8c1dfd5cb558cb3a1e", null ],
-    [ "nlohmann::json_schema::default_string_format_check", "namespacenlohmann_1_1json__schema.html#aa85e264f222e36fe1108824f0699db71", null ],
-    [ "nlohmann::json_schema::draft7_schema_builtin", "namespacenlohmann_1_1json__schema.html#acfe711c7d3edd56360380f7388dbe028", null ]
+    [ "nlohmann::json_schema::default_string_format_check", "namespacenlohmann_1_1json__schema.html#aa85e264f222e36fe1108824f0699db71", null ]
 ];

@@ -1,17 +1,23 @@
 <map id="mqttintegrator/websocket/SubProtocolFactory.cpp" name="mqttintegrator/websocket/SubProtocolFactory.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="528,5,718,50"/>
-<area shape="rect" id="Node000002" href="$mqttintegrator_2websocket_2SubProtocolFactory_8h.html" title=" " alt="" coords="258,98,415,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="545,51,397,96,396,91,550,50"/>
-<area shape="rect" id="Node000006" href="$ConfigApplication_8h.html" title=" " alt="" coords="439,98,607,126"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="599,49,552,90,550,86,594,52"/>
-<area shape="rect" id="Node000007" href="$JsonMappingReader_8h.html" title=" " alt="" coords="632,98,814,126"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="650,48,698,88,693,87,649,53"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="839,98,922,126"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="692,48,828,93,822,93,691,53"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,182,212,210"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,127,160,179,158,174,297,126"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="235,174,438,218"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,124,339,159,334,156,335,128"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="461,174,622,218"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="370,124,476,167,471,168,369,129"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="786,5,975,50"/>
+<area shape="rect" id="Node000002" href="$mqttintegrator_2websocket_2SubProtocolFactory_8h.html" title=" " alt="" coords="258,106,415,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="783,42,618,68,428,101,405,105,404,100,427,95,618,63,788,41"/>
+<area shape="rect" id="Node000006" href="$ConfigApplication_8h.html" title=" " alt="" coords="439,106,607,134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="798,50,591,105,590,100,792,51"/>
+<area shape="rect" id="Node000007" href="$JsonMappingReader_8h.html" title=" " alt="" coords="632,106,814,134"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="845,50,760,101,758,96,840,51"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="839,106,922,134"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="882,48,883,93,878,89,879,52"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="946,98,1100,143"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="915,48,979,90,974,89,914,53"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1124,98,1312,143"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="962,48,1125,94,1120,94,961,53"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1335,98,1538,143"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="976,40,1323,97,1317,98,975,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,199,212,227"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,136,157,195,155,191,301,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="235,191,438,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,133,339,176,334,173,335,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="461,191,622,235"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="367,132,481,184,476,184,366,137"/>
 </map>

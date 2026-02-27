@@ -8,7 +8,7 @@ var classmqtt_1_1lib_1_1MqttMapper =
     [ "~MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html#aec15ec5b24d2ccf4357d0b696781b4ce", null ],
     [ "dump", "classmqtt_1_1lib_1_1MqttMapper.html#a122f07417797498849120fe755c4fdbb", null ],
     [ "extractSubscription", "classmqtt_1_1lib_1_1MqttMapper.html#a0aaa509065586f1c2cb1f2f453263eed", null ],
-    [ "extractSubscriptions", "classmqtt_1_1lib_1_1MqttMapper.html#af7b7f3ea70079f2dce04cee40e737713", null ],
+    [ "extractSubscriptions", "classmqtt_1_1lib_1_1MqttMapper.html#a38f496c62e177cfd542ef1aa4e33ece2", null ],
     [ "extractSubscriptions", "classmqtt_1_1lib_1_1MqttMapper.html#afdb06854e763267e43a1a344535ce782", null ],
     [ "findMatchingTopicLevel", "classmqtt_1_1lib_1_1MqttMapper.html#a5af625b2a3f4493a48e1cb531c3ac1ed", null ],
     [ "operator=", "classmqtt_1_1lib_1_1MqttMapper.html#a11ade2219a11b993e18bc323ff53016e", null ],

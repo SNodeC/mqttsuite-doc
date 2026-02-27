@@ -1,9 +1,5 @@
 <map id="createConfig" name="createConfig">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,91,110,119"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html#a66bf024dfd67d7a7d415c3e8240597df" title=" " alt="" coords="170,5,350,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,88,157,60,178,54,173,57,159,65,92,93"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a9c41a9a892b303230b8773c7431aa252" title=" " alt="" coords="158,74,362,136"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,102,144,104,140,106,111,108"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html#a564940274ccfd8c5c6b71e90217310f4" title=" " alt="" coords="166,160,354,221"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="92,117,159,145,173,153,168,153,157,150,92,122"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,14,110,42"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html#a66bf024dfd67d7a7d415c3e8240597df" title=" " alt="" coords="158,5,338,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,25,145,27,139,28,110,30"/>
 </map>

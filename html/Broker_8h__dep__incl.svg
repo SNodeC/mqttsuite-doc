@@ -49,7 +49,7 @@
 <script type="application/ecmascript">
 var viewWidth = 798;
 var viewHeight = 212;
-var sectionId = 'dynsection-0';
+var sectionId = 'dynsection-1';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -59,8 +59,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="474,-203.75 345.5,-203.75 345.5,-183 474,-183 474,-203.75"/>
-<text xml:space="preserve" text-anchor="middle" x="409.75" y="-190.25" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.h</text>
+<polygon fill="#999999" stroke="#666666" points="467,-203.75 338.5,-203.75 338.5,-183 467,-183 467,-203.75"/>
+<text xml:space="preserve" text-anchor="middle" x="402.75" y="-190.25" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.h</text>
 </a>
 </g>
 </g>
@@ -68,8 +68,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="Bridge_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="382,-147 253.5,-147 253.5,-126.25 382,-126.25 382,-147"/>
-<text xml:space="preserve" text-anchor="middle" x="317.75" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Bridge.h</text>
+<polygon fill="white" stroke="#666666" points="391,-147 262.5,-147 262.5,-126.25 391,-126.25 391,-147"/>
+<text xml:space="preserve" text-anchor="middle" x="326.75" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Bridge.h</text>
 </a>
 </g>
 </g>
@@ -77,26 +77,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M383.5,-176.76C367.58,-167.28 347.75,-155.48 334.06,-147.33"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="381.62,-179.71 392,-181.81 385.2,-173.69 381.62,-179.71"/>
-</a>
-</g>
-</g>
-<!-- Node4 -->
-<g id="Node000004" class="node">
-<title>Node4</title>
-<g id="a_Node000004"><a xlink:href="BridgeStore_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="486.75,-90.25 332.75,-90.25 332.75,-69.5 486.75,-69.5 486.75,-90.25"/>
-<text xml:space="preserve" text-anchor="middle" x="409.75" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/BridgeStore.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge9_Node000001_Node000004" class="edge">
-<title>Node1&#45;&gt;Node4</title>
-<g id="a_edge9_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M409.75,-171.47C409.75,-147.34 409.75,-108.67 409.75,-90.68"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="406.25,-171.35 409.75,-181.36 413.25,-171.36 406.25,-171.35"/>
+<path fill="none" stroke="#63b8ff" d="M379.93,-175.94C366.98,-166.61 351.21,-155.25 340.22,-147.33"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="377.78,-178.7 387.93,-181.7 381.87,-173.02 377.78,-178.7"/>
 </a>
 </g>
 </g>
@@ -104,17 +86,17 @@ var sectionId = 'dynsection-0';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="Broker_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="577.62,-147 437.88,-147 437.88,-126.25 577.62,-126.25 577.62,-147"/>
-<text xml:space="preserve" text-anchor="middle" x="507.75" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.cpp</text>
+<polygon fill="white" stroke="#666666" points="548.62,-147 408.88,-147 408.88,-126.25 548.62,-126.25 548.62,-147"/>
+<text xml:space="preserve" text-anchor="middle" x="478.75" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/Broker.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
-<g id="edge10_Node000001_Node000010" class="edge">
+<g id="edge9_Node000001_Node000010" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<g id="a_edge10_Node000001_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M437.23,-177.03C454.27,-167.5 475.65,-155.56 490.38,-147.33"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="435.61,-173.92 428.59,-181.85 439.03,-180.03 435.61,-173.92"/>
+<g id="a_edge9_Node000001_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M425.57,-175.94C438.52,-166.61 454.29,-155.25 465.28,-147.33"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="423.63,-173.02 417.57,-181.7 427.72,-178.7 423.63,-173.02"/>
 </a>
 </g>
 </g>
@@ -131,8 +113,17 @@ var sectionId = 'dynsection-0';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M295.83,-119.19C283.39,-109.86 268.24,-98.5 257.69,-90.58"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="293.39,-121.73 303.49,-124.93 297.59,-116.13 293.39,-121.73"/>
+<path fill="none" stroke="#63b8ff" d="M302.54,-119.46C288.49,-110.08 271.26,-98.57 259.28,-90.58"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="300.57,-122.35 310.83,-125 304.46,-116.53 300.57,-122.35"/>
+</a>
+</g>
+</g>
+<!-- Node4 -->
+<g id="Node000004" class="node">
+<title>Node4</title>
+<g id="a_Node000004"><a xlink:href="BridgeStore_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="486.75,-90.25 332.75,-90.25 332.75,-69.5 486.75,-69.5 486.75,-90.25"/>
+<text xml:space="preserve" text-anchor="middle" x="409.75" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">mqttbridge/lib/BridgeStore.h</text>
 </a>
 </g>
 </g>
@@ -140,8 +131,8 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000002_Node000004" class="edge">
 <title>Node2&#45;&gt;Node4</title>
 <g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M344,-120.01C359.92,-110.53 379.75,-98.73 393.44,-90.58"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="342.3,-116.94 335.5,-125.06 345.88,-122.96 342.3,-116.94"/>
+<path fill="none" stroke="#63b8ff" d="M350.84,-119.73C365.14,-110.3 382.8,-98.65 395.04,-90.58"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="349.27,-116.58 342.85,-125 353.13,-122.42 349.27,-116.58"/>
 </a>
 </g>
 </g>

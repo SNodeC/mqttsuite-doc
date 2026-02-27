@@ -1,5 +1,7 @@
 <map id="mqttbridge/lib/Bridge.h" name="mqttbridge/lib/Bridge.h">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,177,33"/>
 <area shape="rect" id="Node000002" href="$Broker_8h.html" title=" " alt="" coords="43,81,139,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,32,94,66,88,64,89,36"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,31,94,66,88,65,90,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="30,157,152,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,107,94,142,88,140,89,111"/>
 </map>
