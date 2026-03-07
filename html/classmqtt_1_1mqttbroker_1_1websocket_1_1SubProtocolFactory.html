@@ -191,10 +191,10 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   70</span>            getName(),</div>
 <div class="line"><span class="lineno">   71</span>            <span class="keyword">new</span> mqtt::mqttbroker::lib::Mqtt(</div>
 <div class="line"><span class="lineno">   72</span>                subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName(),</div>
-<div class="line"><span class="lineno">   73</span>                iot::mqtt::server::broker::Broker::instance(SUBSCRIPTION_MAX_QOS,</div>
-<div class="line"><span class="lineno">   74</span>                                                            utils::Config::getInstance&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getSessionStore()),</div>
+<div class="line"><span class="lineno">   73</span>                iot::mqtt::server::broker::Broker::instance(</div>
+<div class="line"><span class="lineno">   74</span>                    SUBSCRIPTION_MAX_QOS, utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getSessionStore()),</div>
 <div class="line"><span class="lineno">   75</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(</div>
-<div class="line"><span class="lineno">   76</span>                    utils::Config::getInstance&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getMappingFile())[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
+<div class="line"><span class="lineno">   76</span>                    utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttBroker&gt;()-&gt;getMappingFile())[<span class="stringliteral">&quot;mapping&quot;</span>]));</div>
 <div class="line"><span class="lineno">   77</span>    }</div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00077">JsonMappingReader.cpp:77</a></div></div>
 </div><!-- fragment -->

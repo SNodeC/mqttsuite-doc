@@ -1,9 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"index.html#mandatory":[2,2,0,0],
-"index.html#mandatory-libraries-and-frameworks":[2,2,1],
-"index.html#mapping-sections":[4,3],
-"index.html#minimal-shapes":[4,1,1,0],
 "index.html#minimum-required-compiler-versions":[2,1],
 "index.html#mqtt-client-options":[6,1,1,3],
 "index.html#mqtt-mapping-description":[4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX10 =
 "mqttbroker_2websocket_2SubProtocolFactory_8cpp_source.html":[11,0,2,1,0],
 "mqttbroker_2websocket_2SubProtocolFactory_8h.html":[11,0,2,1,1],
 "mqttbroker_2websocket_2SubProtocolFactory_8h.html#a6b50b1307ab45e086283ba2795f76ec0":[11,0,2,1,1,1],
-"mqttbroker_2websocket_2SubProtocolFactory_8h_source.html":[11,0,2,1,1]
+"mqttbroker_2websocket_2SubProtocolFactory_8h_source.html":[11,0,2,1,1],
+"mqttbroker_8cpp.html":[11,0,2,2],
+"mqttbroker_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[11,0,2,2,1],
+"mqttbroker_8cpp.html#a46b7a86346a951e89a84682b281c6f14":[11,0,2,2,0],
+"mqttbroker_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0":[11,0,2,2,2]
 };

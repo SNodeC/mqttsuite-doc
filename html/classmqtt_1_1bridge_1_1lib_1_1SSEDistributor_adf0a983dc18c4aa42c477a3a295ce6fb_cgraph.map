@@ -1,0 +1,13 @@
+<map id="mqtt::bridge::lib::SSEDistributor::brokerDisconnecting" name="mqtt::bridge::lib::SSEDistributor::brokerDisconnecting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,91,261,136"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ae352efe457441f0669d10132f46b514e" title=" " alt="" coords="309,52,526,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,93,296,91,291,92,262,99"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ae175f78eb030a996687f4606171418f6" title=" " alt="" coords="318,121,517,183"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="261,128,305,136,300,137,261,134"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a33c28a238f0853d09effb76ed6c49d45" title=" " alt="" coords="574,52,764,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="526,72,561,75,556,75,527,77"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor_1_1EventReceiver.html#ab7cf8f80c46f3ef696bf07dcb779255c" title=" " alt="" coords="812,5,1029,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="764,58,799,55,794,56,765,63"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a9f5043f5f0189719413e23c74b3a55c2" title=" " alt="" coords="825,91,1016,136"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="765,87,813,97,807,97,765,92"/>
+</map>

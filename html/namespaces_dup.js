@@ -31,6 +31,5 @@ var namespaces_dup =
     [ "inja", "namespaceinja.html", "namespaceinja" ],
     [ "iot", "namespaceiot.html", "namespaceiot" ],
     [ "mqtt", "namespacemqtt.html", "namespacemqtt" ],
-    [ "net", "namespacenet.html", "namespacenet" ],
     [ "nlohmann", "namespacenlohmann.html", "namespacenlohmann" ]
 ];

@@ -195,11 +195,11 @@ Here is the caller graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html#l00063">63</a> of file <a class="el" href="mqttcli_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   63</span>                                                                                                           {</div>
 <div class="line"><span class="lineno">   64</span>        <span class="keyword">const</span> lib::ConfigSession* configSession =</div>
-<div class="line"><span class="lineno">   65</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection&lt;lib::ConfigSession&gt;();</div>
+<div class="line"><span class="lineno">   65</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSubCommand&lt;lib::ConfigSession&gt;();</div>
 <div class="line"><span class="lineno">   66</span>        <span class="keyword">const</span> lib::ConfigSubscribe* configSubscribe =</div>
-<div class="line"><span class="lineno">   67</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection&lt;lib::ConfigSubscribe&gt;();</div>
+<div class="line"><span class="lineno">   67</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSubCommand&lt;lib::ConfigSubscribe&gt;();</div>
 <div class="line"><span class="lineno">   68</span>        <span class="keyword">const</span> lib::ConfigPublish* configPublish =</div>
-<div class="line"><span class="lineno">   69</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSection&lt;lib::ConfigPublish&gt;();</div>
+<div class="line"><span class="lineno">   69</span>            subProtocolContext-&gt;getSocketConnection()-&gt;getConfigInstance()-&gt;getSubCommand&lt;lib::ConfigPublish&gt;();</div>
 <div class="line"><span class="lineno">   70</span> </div>
 <div class="line"><span class="lineno">   71</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::client::SubProtocol(</div>
 <div class="line"><span class="lineno">   72</span>            subProtocolContext,</div>

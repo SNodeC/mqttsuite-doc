@@ -1,17 +1,13 @@
 var NAVTREEINDEX9 =
 {
-"classnlohmann_1_1json__uri.html#ab0048c647a2e7ecc718ed0a50e7cb0fb":[10,0,8,1,9],
-"classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee":[9,0,13,1,10],
-"classnlohmann_1_1json__uri.html#ab01bdcb8bf65ee07703d1ccb69c9f3ee":[10,0,8,1,10],
-"classnlohmann_1_1json__uri.html#ab601a9e32d487e9484f12c57ec1befc1":[9,0,13,1,4],
 "classnlohmann_1_1json__uri.html#ab601a9e32d487e9484f12c57ec1befc1":[10,0,8,1,4],
-"classnlohmann_1_1json__uri.html#abe3def646445d167ccbbace13d52f2e0":[9,0,13,1,19],
+"classnlohmann_1_1json__uri.html#abe3def646445d167ccbbace13d52f2e0":[9,0,12,1,19],
 "classnlohmann_1_1json__uri.html#abe3def646445d167ccbbace13d52f2e0":[10,0,8,1,19],
-"classnlohmann_1_1json__uri.html#ac7c48d4c541b35361f36f69f78b909c8":[9,0,13,1,21],
+"classnlohmann_1_1json__uri.html#ac7c48d4c541b35361f36f69f78b909c8":[9,0,12,1,21],
 "classnlohmann_1_1json__uri.html#ac7c48d4c541b35361f36f69f78b909c8":[10,0,8,1,21],
-"classnlohmann_1_1json__uri.html#ac820a4af501f6523bbbe0a4948be4768":[9,0,13,1,2],
+"classnlohmann_1_1json__uri.html#ac820a4af501f6523bbbe0a4948be4768":[9,0,12,1,2],
 "classnlohmann_1_1json__uri.html#ac820a4af501f6523bbbe0a4948be4768":[10,0,8,1,2],
-"classnlohmann_1_1json__uri.html#acef9db8f1ac5317e1f124453d9587938":[9,0,13,1,1],
+"classnlohmann_1_1json__uri.html#acef9db8f1ac5317e1f124453d9587938":[9,0,12,1,1],
 "classnlohmann_1_1json__uri.html#acef9db8f1ac5317e1f124453d9587938":[10,0,8,1,1],
 "classroot__schema.html":[10,0,14],
 "classroot__schema.html#a32f6012c2d81f29ca16e4409dd2b5ea3":[10,0,14,17],
@@ -249,5 +245,9 @@ var NAVTREEINDEX9 =
 "index.html#json-mapping-template-object":[4,3,2],
 "index.html#libraries":[2,2,1,1],
 "index.html#license":[0,0],
-"index.html#making-configuration-persistent-recommended":[3,6,1]
+"index.html#making-configuration-persistent-recommended":[3,6,1],
+"index.html#mandatory":[2,2,0,0],
+"index.html#mandatory-libraries-and-frameworks":[2,2,1],
+"index.html#mapping-sections":[4,3],
+"index.html#minimal-shapes":[4,1,1,0]
 };

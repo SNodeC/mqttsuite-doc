@@ -1,3 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classroot__schema.html" title=" " alt="" coords="5,5,111,33"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,117,154,145"/>
+<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1ConfigBridge.html" title=" " alt="" coords="205,5,398,33"/>
+<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="107,105,150,73,201,43,236,32,232,35,203,48,153,78,111,109"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1ConfigApplication.html" title=" " alt="" coords="202,57,401,85"/>
+<area shape="poly" id="edge62_Node000000_Node000002" title=" " alt="" coords="143,110,201,94,245,84,240,87,202,99,146,115"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html" title=" " alt="" coords="236,109,366,154"/>
+<area shape="poly" id="edge65_Node000000_Node000005" title=" " alt="" coords="168,129,238,130,233,132,170,134"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html" title=" " alt="" coords="236,178,366,223"/>
+<area shape="poly" id="edge66_Node000000_Node000006" title=" " alt="" coords="141,147,238,179,233,181,140,153"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html" title=" " alt="" coords="234,248,368,292"/>
+<area shape="poly" id="edge67_Node000000_Node000007" title=" " alt="" coords="105,153,149,194,203,233,237,250,231,250,200,237,146,198,103,159"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1ConfigMqttBroker.html" title=" " alt="" coords="460,32,658,60"/>
+<area shape="poly" id="edge63_Node000002_Node000003" title=" " alt="" coords="415,57,462,55,457,56,417,62"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1ConfigMqttIntegrator.html" title=" " alt="" coords="449,84,669,112"/>
+<area shape="poly" id="edge64_Node000002_Node000004" title=" " alt="" coords="416,80,451,86,446,87,417,86"/>
 </map>

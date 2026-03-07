@@ -1,9 +1,11 @@
 <map id="mqtt::lib::ConfigMqttBroker" name="mqtt::lib::ConfigMqttBroker">
-<area shape="rect" id="Node000001" title=" " alt="" coords="60,222,248,250"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="92,222,280,250"/>
 <area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1ConfigApplication.html" title=" " alt="" coords="5,99,194,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,139,151,223,146,223,110,143"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="218,99,331,127"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,126,180,213,177,208,259,127"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="197,5,352,50"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="276,63,277,101,272,99,273,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,137,180,222,175,223,116,141"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="31,14,168,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,54,102,100,97,99,99,59"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="218,99,331,127"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,126,207,211,204,207,263,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,5,352,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="276,63,277,101,272,99,273,67"/>
 </map>

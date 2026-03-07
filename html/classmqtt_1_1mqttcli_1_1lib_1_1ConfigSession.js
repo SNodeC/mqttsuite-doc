@@ -1,6 +1,6 @@
 var classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession =
 [
-    [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a234fdd449c4dc894e15da33d4edbc5f2", null ],
+    [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a7af3b075ad14c163fcfed806d8ec7901", null ],
     [ "~ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#aca5cee0aa1924bd7b794c7762fed20fe", null ],
     [ "getClientId", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a2fd9f98eedee65a5f118363675b116bf", null ],
     [ "getKeepAlive", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#ad64b645be02d41965b15072fd2325ffa", null ],
@@ -23,9 +23,9 @@ var classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession =
     [ "setWillRetain", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a5803692450370510d3e6712dbc18a04b", null ],
     [ "setWillTopic", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a0e9a3f386f3600ede6b226080fd82910", null ],
     [ "clientIdOpt", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#ae0c97e8868595be9b0c7a108863d8893", null ],
-    [ "description", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a587551573ab133dda7f1af2013fafbd3", null ],
+    [ "DESCRIPTION", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#adac221f3dd3064d550283cc556b55569", null ],
     [ "keepAliveOpt", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a18c4505393e1244b6cb6599da46502d9", null ],
-    [ "name", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#acb02d0b0ecba4e369a11fef0fae5c22f", null ],
+    [ "NAME", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a23484ea1daf767af80a36443b8fa6937", null ],
     [ "passwordOpt", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a1f1ca92e69323702b6c0991a75edfeb7", null ],
     [ "qoSOpt", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#ac8d1e72874be6cd6307e17b4e6925975", null ],
     [ "retainSessionOpt", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#a32d9f41d291bf87955ee3f3f5a219938", null ],

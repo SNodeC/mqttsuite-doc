@@ -118,7 +118,8 @@ $(function() {
 <code>#include &lt;express/middleware/StaticMiddleware.h&gt;</code><br />
 <code>#include &lt;express/tls/in/Server.h&gt;</code><br />
 <code>#include &lt;iot/mqtt/MqttContext.h&gt;</code><br />
-<code>#include &lt;net/config/ConfigInstanceAPI.hpp&gt;</code><br />
+<code>#include &lt;net/config/ConfigInstance.h&gt;</code><br />
+<code>#include &lt;utils/Config.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for mqttbridge.cpp:</div>
 <div class="dyncontent">
@@ -225,7 +226,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  181</span>            <a class="code hl_namespace" href="namespacemqtt.html">mqtt</a>-&gt;getMqttContext()</div>
 <div class="line"><span class="lineno">  182</span>                -&gt;getSocketConnection()</div>
 <div class="line"><span class="lineno">  183</span>                -&gt;getConfigInstance()</div>
-<div class="line"><span class="lineno">  184</span>                -&gt;getSection&lt;net::config::ConfigPhysicalSocketClient&gt;()</div>
+<div class="line"><span class="lineno">  184</span>                -&gt;getSubCommand&lt;net::config::ConfigPhysicalSocketClient&gt;()</div>
 <div class="line"><span class="lineno">  185</span>                -&gt;setReconnect(<span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno">  186</span>        }</div>
 <div class="line"><span class="lineno">  187</span>    }</div>
@@ -250,13 +251,13 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="amqttbridge_8cpp_html_a2e1da1f9b6fe1c0cd5905b5eca934cc8"><div class="ttname"><a href="#a2e1da1f9b6fe1c0cd5905b5eca934cc8">activeConnectors</a></div><div class="ttdeci">static std::set&lt; core::eventreceiver::ConnectEventReceiver * &gt; activeConnectors</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_8cpp_source.html#l00117">mqttbridge.cpp:117</a></div></div>
 <div class="ttc" id="amqttbridge_8cpp_html_ad18812dccf9da914ee256128370b32cf"><div class="ttname"><a href="#ad18812dccf9da914ee256128370b32cf">autoConnectControllers</a></div><div class="ttdeci">static std::set&lt; std::shared_ptr&lt; core::socket::stream::AutoConnectControl &gt; &gt; autoConnectControllers</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_8cpp_source.html#l00118">mqttbridge.cpp:118</a></div></div>
 <div class="ttc" id="amqttbridge_8cpp_html_ad558c67f7e0be3cd9bc83fd17ca1aeb9"><div class="ttname"><a href="#ad558c67f7e0be3cd9bc83fd17ca1aeb9">restart</a></div><div class="ttdeci">static bool restart</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_8cpp_source.html#l00120">mqttbridge.cpp:120</a></div></div>
-<div class="ttc" id="anamespacemqtt_html"><div class="ttname"><a href="namespacemqtt.html">mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00054">ConfigApplication.cpp:54</a></div></div>
+<div class="ttc" id="anamespacemqtt_html"><div class="ttname"><a href="namespacemqtt.html">mqtt</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00048">ConfigApplication.cpp:48</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="mqttbridge_8cpp_source.html#l00118">autoConnectControllers</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00136">mqtt::bridge::lib::SSEDistributor::bridgesStopping()</a>, <a class="el" href="SSEDistributor_8cpp_source.html#l00068">mqtt::bridge::lib::SSEDistributor::instance()</a>, and <a class="el" href="mqttbridge_8cpp_source.html#l00120">restart</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_ac0dd8cd8684c94ee9b34a82905b2fbd3_cgraph.svg" width="391" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_ac0dd8cd8684c94ee9b34a82905b2fbd3_cgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -298,7 +299,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_abaecb3a278e25c3770ab0ae7253e04a7_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_abaecb3a278e25c3770ab0ae7253e04a7_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -380,7 +381,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_a0d29fd238d0a229ef0f176e1159f8b1a_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_a0d29fd238d0a229ef0f176e1159f8b1a_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -419,7 +420,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  570</span>    web::websocket::client::SubProtocolFactorySelector::link(<span class="stringliteral">&quot;mqtt&quot;</span>, <a class="code hl_function" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a535cca85dc4c17559d0fca865699bb61">mqttClientSubProtocolFactory</a>);</div>
 <div class="line"><span class="lineno">  571</span><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="lineno">  572</span> </div>
-<div class="line"><span class="lineno">  573</span>    utils::Config::addInstance&lt;mqtt::bridge::ConfigBridge&gt;();</div>
+<div class="line"><span class="lineno">  573</span>    utils::Config::configRoot.newSubCommand&lt;<a class="code hl_class" href="classmqtt_1_1bridge_1_1ConfigBridge.html">mqtt::bridge::ConfigBridge</a>&gt;();</div>
 <div class="line"><span class="lineno">  574</span> </div>
 <div class="line"><span class="lineno">  575</span>    core::SNodeC::init(argc, argv);</div>
 <div class="line"><span class="lineno">  576</span> </div>
@@ -480,41 +481,43 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  631</span>        res-&gt;redirect(<span class="stringliteral">&quot;/config/index.html&quot;</span>);</div>
 <div class="line"><span class="lineno">  632</span>    });</div>
 <div class="line"><span class="lineno">  633</span> </div>
-<div class="line"><span class="lineno">  634</span>    router.use(<span class="stringliteral">&quot;/config&quot;</span>, express::middleware::StaticMiddleware(utils::Config::getInstance&lt;mqtt::bridge::ConfigBridge&gt;()-&gt;getHtmlDir()));</div>
-<div class="line"><span class="lineno">  635</span> </div>
-<div class="line"><span class="lineno">  636</span>    router.get(<span class="stringliteral">&quot;*&quot;</span>, [] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  637</span>        res-&gt;redirect(<span class="stringliteral">&quot;/config/index.html&quot;</span>);</div>
-<div class="line"><span class="lineno">  638</span>    });</div>
-<div class="line"><span class="lineno">  639</span> </div>
-<div class="line"><span class="lineno">  640</span>    express::legacy::in::Server( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  641</span>        <span class="stringliteral">&quot;admin-legacy&quot;</span>,</div>
-<div class="line"><span class="lineno">  642</span>        router,</div>
-<div class="line"><span class="lineno">  643</span>        <a class="code hl_function" href="#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>, <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  644</span>        [](net::in::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  645</span>            config.setPort(8081);</div>
-<div class="line"><span class="lineno">  646</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  647</span>            config.setReuseAddress();</div>
-<div class="line"><span class="lineno">  648</span>        });</div>
-<div class="line"><span class="lineno">  649</span> </div>
-<div class="line"><span class="lineno">  650</span>    express::tls::in::Server( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  651</span>        <span class="stringliteral">&quot;admin-tls&quot;</span>,</div>
-<div class="line"><span class="lineno">  652</span>        router,</div>
-<div class="line"><span class="lineno">  653</span>        <a class="code hl_function" href="#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  654</span>        [](net::in::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  655</span>            config.setPort(8082);</div>
-<div class="line"><span class="lineno">  656</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  657</span>            config.setReuseAddress();</div>
-<div class="line"><span class="lineno">  658</span>        });</div>
-<div class="line"><span class="lineno">  659</span> </div>
-<div class="line"><span class="lineno">  660</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a>().loadAndValidate(</div>
-<div class="line"><span class="lineno">  661</span>            utils::Config::getInstance&lt;mqtt::bridge::ConfigBridge&gt;()-&gt;getDefinitionFile())) {</div>
-<div class="line"><span class="lineno">  662</span>        <a class="code hl_function" href="#ac4db1bc049804762ae0893100ec95dec">startBridges</a>();</div>
-<div class="line"><span class="lineno">  663</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  664</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Loading bridge definition file failed&quot;</span>;</div>
-<div class="line"><span class="lineno">  665</span>    }</div>
-<div class="line"><span class="lineno">  666</span> </div>
-<div class="line"><span class="lineno">  667</span>    <span class="keywordflow">return</span> core::SNodeC::start();</div>
-<div class="line"><span class="lineno">  668</span>}</div>
+<div class="line"><span class="lineno">  634</span>    router.use(<span class="stringliteral">&quot;/config&quot;</span>,</div>
+<div class="line"><span class="lineno">  635</span>               express::middleware::StaticMiddleware(utils::Config::configRoot.getSubCommand&lt;mqtt::bridge::ConfigBridge&gt;()-&gt;getHtmlDir()));</div>
+<div class="line"><span class="lineno">  636</span> </div>
+<div class="line"><span class="lineno">  637</span>    router.get(<span class="stringliteral">&quot;*&quot;</span>, [] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  638</span>        res-&gt;redirect(<span class="stringliteral">&quot;/config/index.html&quot;</span>);</div>
+<div class="line"><span class="lineno">  639</span>    });</div>
+<div class="line"><span class="lineno">  640</span> </div>
+<div class="line"><span class="lineno">  641</span>    express::legacy::in::Server( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  642</span>        <span class="stringliteral">&quot;admin-legacy&quot;</span>,</div>
+<div class="line"><span class="lineno">  643</span>        router,</div>
+<div class="line"><span class="lineno">  644</span>        <a class="code hl_function" href="#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>, <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  645</span>        [](net::in::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
+<div class="line"><span class="lineno">  646</span>            config.setPort(8081);</div>
+<div class="line"><span class="lineno">  647</span>            config.setRetry();</div>
+<div class="line"><span class="lineno">  648</span>            config.setReuseAddress();</div>
+<div class="line"><span class="lineno">  649</span>        });</div>
+<div class="line"><span class="lineno">  650</span> </div>
+<div class="line"><span class="lineno">  651</span>    express::tls::in::Server( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  652</span>        <span class="stringliteral">&quot;admin-tls&quot;</span>,</div>
+<div class="line"><span class="lineno">  653</span>        router,</div>
+<div class="line"><span class="lineno">  654</span>        <a class="code hl_function" href="#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
+<div class="line"><span class="lineno">  655</span>        [](net::in::stream::tls::config::ConfigSocketServer&amp; config) {</div>
+<div class="line"><span class="lineno">  656</span>            config.setPort(8082);</div>
+<div class="line"><span class="lineno">  657</span>            config.setRetry();</div>
+<div class="line"><span class="lineno">  658</span>            config.setReuseAddress();</div>
+<div class="line"><span class="lineno">  659</span>        });</div>
+<div class="line"><span class="lineno">  660</span> </div>
+<div class="line"><span class="lineno">  661</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#a7b35204686d51d46798ecae6918527e1">mqtt::bridge::lib::BridgeStore::instance</a>().loadAndValidate(</div>
+<div class="line"><span class="lineno">  662</span>            utils::Config::configRoot.getSubCommand&lt;mqtt::bridge::ConfigBridge&gt;()-&gt;getDefinitionFile())) {</div>
+<div class="line"><span class="lineno">  663</span>        <a class="code hl_function" href="#ac4db1bc049804762ae0893100ec95dec">startBridges</a>();</div>
+<div class="line"><span class="lineno">  664</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  665</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Loading bridge definition file failed&quot;</span>;</div>
+<div class="line"><span class="lineno">  666</span>    }</div>
+<div class="line"><span class="lineno">  667</span> </div>
+<div class="line"><span class="lineno">  668</span>    <span class="keywordflow">return</span> core::SNodeC::start();</div>
+<div class="line"><span class="lineno">  669</span>}</div>
+<div class="ttc" id="aclassmqtt_1_1bridge_1_1ConfigBridge_html"><div class="ttname"><a href="classmqtt_1_1bridge_1_1ConfigBridge.html">mqtt::bridge::ConfigBridge</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigBridge_8h_source.html#l00056">ConfigBridge.h:56</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1bridge_1_1lib_1_1SSEDistributor_html_a5f477f1ef99152b7d2cb547ac4cec934"><div class="ttname"><a href="classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a5f477f1ef99152b7d2cb547ac4cec934">mqtt::bridge::lib::SSEDistributor::addEventReceiver</a></div><div class="ttdeci">void addEventReceiver(const std::shared_ptr&lt; express::Response &gt; &amp;response, const std::string &amp;lastEventId)</div><div class="ttdef"><b>Definition</b> <a href="SSEDistributor_8cpp_source.html#l00074">SSEDistributor.cpp:74</a></div></div>
 <div class="ttc" id="amqttbridge_2websocket_2SubProtocolFactory_8cpp_html_a535cca85dc4c17559d0fca865699bb61"><div class="ttname"><a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a535cca85dc4c17559d0fca865699bb61">mqttClientSubProtocolFactory</a></div><div class="ttdeci">web::websocket::SubProtocolFactory&lt; web::websocket::client::SubProtocol &gt; * mqttClientSubProtocolFactory()</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00096">SubProtocolFactory.cpp:96</a></div></div>
 <div class="ttc" id="amqttbridge_8cpp_html_a7cb8447e3290d506bf8a79ddeca2c7d0"><div class="ttname"><a href="#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a></div><div class="ttdeci">static void reportState(const std::string &amp;instanceName, const core::socket::SocketAddress &amp;socketAddress, const core::socket::State &amp;state)</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_8cpp_source.html#l00203">mqttbridge.cpp:203</a></div></div>
@@ -878,7 +881,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_ac4db1bc049804762ae0893100ec95dec_cgraph.svg" width="380" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_ac4db1bc049804762ae0893100ec95dec_cgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -949,7 +952,7 @@ template&lt;template&lt; typename SocketContextFactoryT, typename... ArgsT &gt; 
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_ad84302247d911fde5d3ec263d3b757f9_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_ad84302247d911fde5d3ec263d3b757f9_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1036,7 +1039,7 @@ template&lt;typename HttpClient&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_a1c2878ce9e95e211ae0fd04d12ea43f7_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_a1c2878ce9e95e211ae0fd04d12ea43f7_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1080,7 +1083,7 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  136</span> </div>
 <div class="line"><span class="lineno">  137</span>            <a class="code hl_function" href="#ac4db1bc049804762ae0893100ec95dec">startBridges</a>();</div>
 <div class="line"><span class="lineno">  138</span> </div>
-<div class="line"><span class="lineno">  139</span>            utils::Config::parse2();</div>
+<div class="line"><span class="lineno">  139</span>            utils::Config::parse();</div>
 <div class="line"><span class="lineno">  140</span> </div>
 <div class="line"><span class="lineno">  141</span>            <a class="code hl_variable" href="#ad558c67f7e0be3cd9bc83fd17ca1aeb9">restart</a> = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  142</span>        });</div>
@@ -1095,7 +1098,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_a90732e510a2e6efcd8d0ab7912f5b043_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="mqttbridge_8cpp_a90732e510a2e6efcd8d0ab7912f5b043_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

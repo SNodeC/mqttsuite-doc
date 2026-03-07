@@ -92,10 +92,10 @@ var annotated_dup =
       [ "bridge", "namespacemqtt_1_1bridge.html", [
         [ "lib", "namespacemqtt_1_1bridge_1_1lib.html", [
           [ "Bridge", "classmqtt_1_1bridge_1_1lib_1_1Bridge.html", "classmqtt_1_1bridge_1_1lib_1_1Bridge" ],
-          [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html", "classmqtt_1_1bridge_1_1lib_1_1Broker" ],
           [ "BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore" ],
-          [ "Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", "classmqtt_1_1bridge_1_1lib_1_1Mqtt" ],
-          [ "SSEDistributor", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor" ]
+          [ "SSEDistributor", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor" ],
+          [ "Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html", "classmqtt_1_1bridge_1_1lib_1_1Broker" ],
+          [ "Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", "classmqtt_1_1bridge_1_1lib_1_1Mqtt" ]
         ] ],
         [ "ConfigBridge", "classmqtt_1_1bridge_1_1ConfigBridge.html", "classmqtt_1_1bridge_1_1ConfigBridge" ],
         [ "SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", "classmqtt_1_1bridge_1_1SocketContextFactory" ]
@@ -121,10 +121,10 @@ var annotated_dup =
       ] ],
       [ "mqttcli", "namespacemqtt_1_1mqttcli.html", [
         [ "lib", "namespacemqtt_1_1mqttcli_1_1lib.html", [
-          [ "Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt" ],
           [ "ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe" ],
           [ "ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish" ],
-          [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession" ]
+          [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession" ],
+          [ "Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt" ]
         ] ],
         [ "websocket", "namespacemqtt_1_1mqttcli_1_1websocket.html", [
           [ "SubProtocolFactory", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory" ]

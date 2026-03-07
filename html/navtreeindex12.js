@@ -1,12 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"structinja_1_1InjaError.html#a399b7d2f7c824c24b7794694711bafb7":[9,0,9,3,1],
-"structinja_1_1InjaError.html#a399b7d2f7c824c24b7794694711bafb7":[10,0,6,2,1],
-"structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1":[9,0,9,3,4],
-"structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1":[10,0,6,2,4],
-"structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033":[9,0,9,3,2],
-"structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033":[10,0,6,2,2],
-"structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877":[9,0,9,3,3],
 "structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877":[10,0,6,2,3],
 "structinja_1_1LexerConfig.html":[9,0,9,28],
 "structinja_1_1LexerConfig.html":[10,0,6,27],
@@ -249,5 +242,12 @@ var NAVTREEINDEX12 =
 "structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html#a9a6eebceb202d8739f48cbb195f9a2a7":[9,0,11,3,0,0,0],
 "structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html#a9a6eebceb202d8739f48cbb195f9a2a7":[10,0,7,3,0,0,0],
 "structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html#ab8e2a8873bc4e34dafc6aaa098dc1b6d":[9,0,11,3,0,0,2],
-"structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html#ab8e2a8873bc4e34dafc6aaa098dc1b6d":[10,0,7,3,0,0,2]
+"structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html#ab8e2a8873bc4e34dafc6aaa098dc1b6d":[10,0,7,3,0,0,2],
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html":[9,0,11,3,0,1],
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html":[10,0,7,3,0,1],
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html#a36acf6ccb905202b54c0ec2f6dc8d1a1":[9,0,11,3,0,1,0],
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html#a36acf6ccb905202b54c0ec2f6dc8d1a1":[10,0,7,3,0,1,0],
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html#ad36035758905fceed841a1edc2821c9a":[9,0,11,3,0,1,1],
+"structmqtt_1_1mqttbroker_1_1lib_1_1unsubscribe.html#ad36035758905fceed841a1edc2821c9a":[10,0,7,3,0,1,1],
+"structnlohmann_1_1json__schema_1_1root__schema_1_1schema__file.html":[9,0,12,0,0,0]
 };

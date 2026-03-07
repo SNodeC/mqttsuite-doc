@@ -28,16 +28,6 @@ var hierarchy =
     [ "ConanFile", null, [
       [ "conanfile.JsonSchemaValidatorConan", "classconanfile_1_1JsonSchemaValidatorConan.html", null ]
     ] ],
-    [ "mqtt::lib::ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", [
-      [ "mqtt::lib::ConfigMqttBroker", "classmqtt_1_1lib_1_1ConfigMqttBroker.html", null ],
-      [ "mqtt::lib::ConfigMqttIntegrator", "classmqtt_1_1lib_1_1ConfigMqttIntegrator.html", null ]
-    ] ],
-    [ "mqtt::bridge::ConfigBridge", "classmqtt_1_1bridge_1_1ConfigBridge.html", null ],
-    [ "net::config::ConfigSection", null, [
-      [ "mqtt::mqttcli::lib::ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", null ],
-      [ "mqtt::mqttcli::lib::ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", null ],
-      [ "mqtt::mqttcli::lib::ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", null ]
-    ] ],
     [ "mqtt::lib::MqttMapper::DelayedQueue", "classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html", null ],
     [ "mqtt::lib::MqttMapper::EarlierFirst", "structmqtt_1_1lib_1_1MqttMapper_1_1EarlierFirst.html", null ],
     [ "inja::Environment", "classinja_1_1Environment.html", null ],
@@ -159,6 +149,16 @@ var hierarchy =
     [ "inja::SourceLocation", "structinja_1_1SourceLocation.html", null ],
     [ "mqtt::bridge::lib::SSEDistributor", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html", null ],
     [ "mqtt::lib::plugins::storage_plugin::Storage", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html", null ],
+    [ "utils::SubCommand", null, [
+      [ "mqtt::bridge::ConfigBridge", "classmqtt_1_1bridge_1_1ConfigBridge.html", null ],
+      [ "mqtt::lib::ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", [
+        [ "mqtt::lib::ConfigMqttBroker", "classmqtt_1_1lib_1_1ConfigMqttBroker.html", null ],
+        [ "mqtt::lib::ConfigMqttIntegrator", "classmqtt_1_1lib_1_1ConfigMqttIntegrator.html", null ]
+      ] ],
+      [ "mqtt::mqttcli::lib::ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", null ],
+      [ "mqtt::mqttcli::lib::ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", null ],
+      [ "mqtt::mqttcli::lib::ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", null ]
+    ] ],
     [ "web::websocket::SubProtocolFactory", null, [
       [ "mqtt::mqttbridge::websocket::SubProtocolFactory", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttbroker::websocket::SubProtocolFactory", "classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html", null ],

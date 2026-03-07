@@ -1,13 +1,25 @@
 <map id="mqtt::bridge::lib::BridgeStore::mqttDisconnected" name="mqtt::bridge::lib::BridgeStore::mqttDisconnected">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,230,85"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#acff6cddc56c9cdc2b0688d6482034131" title=" " alt="" coords="286,5,420,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,43,273,39,268,41,231,48"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#afa30b1de86ead152082545890c307400" title=" " alt="" coords="278,75,429,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,76,265,83,260,84,231,82"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a5b12dc07a03ac23f4cb046b00a06e0c7" title=" " alt="" coords="494,5,711,50"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="428,73,476,60,502,55,507,54,478,65,430,78"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#adcd994f13bb46f04949cd1e08db44f36" title=" " alt="" coords="477,75,728,119"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="429,94,464,97,459,97,430,100"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ab6cc33c1c26ccfbd738a5ec2700f0896" title=" " alt="" coords="514,144,691,189"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="429,115,478,129,507,139,502,139,476,134,429,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,91,230,136"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1Broker.html#acff6cddc56c9cdc2b0688d6482034131" title=" " alt="" coords="286,56,420,101"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,94,273,90,268,92,231,99"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1bridge_1_1lib_1_1Bridge.html#afa30b1de86ead152082545890c307400" title=" " alt="" coords="278,126,429,170"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,127,265,134,260,135,231,133"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a5b12dc07a03ac23f4cb046b00a06e0c7" title=" " alt="" coords="494,126,711,170"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="429,146,482,148,477,148,430,151"/>
+<area shape="rect" id="Node000010" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#adcd994f13bb46f04949cd1e08db44f36" title=" " alt="" coords="477,56,728,101"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="428,124,476,111,502,107,507,105,478,116,430,130"/>
+<area shape="rect" id="Node000011" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ab6cc33c1c26ccfbd738a5ec2700f0896" title=" " alt="" coords="514,195,691,240"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="429,167,478,180,507,191,502,190,476,185,429,172"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ae352efe457441f0669d10132f46b514e" title=" " alt="" coords="776,52,994,97"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="691,123,779,102,784,101,692,128"/>
+<area shape="rect" id="Node000009" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ae175f78eb030a996687f4606171418f6" title=" " alt="" coords="785,121,985,183"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="711,147,772,150,767,151,711,152"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a33c28a238f0853d09effb76ed6c49d45" title=" " alt="" coords="1042,52,1232,97"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="994,72,1029,75,1023,75,994,77"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor_1_1EventReceiver.html#ab7cf8f80c46f3ef696bf07dcb779255c" title=" " alt="" coords="1280,5,1496,67"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1232,58,1262,56,1267,55,1233,63"/>
+<area shape="rect" id="Node000008" href="$classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a9f5043f5f0189719413e23c74b3a55c2" title=" " alt="" coords="1293,91,1483,136"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1233,87,1280,97,1275,96,1232,92"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="728,74,763,76,758,77,729,80"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="692,99,773,122,767,122,691,104"/>
 </map>
