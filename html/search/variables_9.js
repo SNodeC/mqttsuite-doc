@@ -12,7 +12,7 @@ var searchData=
   ['instance_9',['instance',['../issue-93_8cpp.html#a44068119bf1b501581a96d624c4f4b8c',1,'issue-93.cpp']]],
   ['instance_5f_10',['instance_',['../classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html#a050daa09964e12bb45f604a0b4075e76',1,'anonymous_namespace{json-validator.cpp}::first_error_handler::instance_'],['../structanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler_1_1error__entry.html#a696d073785ac71681735cdeaba1f5ecb',1,'anonymous_namespace{json-validator.cpp}::logical_combination_error_handler::error_entry::instance_']]],
   ['instancename_11',['instanceName',['../classmqtt_1_1bridge_1_1lib_1_1Broker.html#a8c9d8fc6bb8f16182ca33091015b724c',1,'mqtt::bridge::lib::Broker']]],
-  ['instances_12',['instances',['../classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a84e2a56f64fd91a73865ab3058699034',1,'mqtt::mqttintegrator::lib::Mqtt']]],
+  ['instances_12',['instances',['../structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a520863b64d9dc9208f5783d383393e54',1,'mqtt::lib::admin::ReloadResult']]],
   ['intance_13',['intance',['../structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#aa5917b50f07bd63319e56c1b60c903c5',1,'anonymous_namespace{issue-105-verbose-combination-errors.cpp}::MyErrorHandler::ErrorEntry']]],
   ['internal_5fvar_5fpattern_14',['internal_var_pattern',['../_8cmake-format_8py.html#af9c631e8cfc4c939bb25dbc0d6a70829',1,'.cmake-format.py']]],
   ['ipv4address_15',['ipv4Address',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html#ade6fe956201eb3ef34901499abe0ce69',1,'anonymous_namespace{string-format-check.cpp}']]],

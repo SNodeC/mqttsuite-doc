@@ -257,13 +257,13 @@ var NAVTREEINDEX =
 "classinja_1_1NodeVisitor.html#a983925f5e5368c6c40ab5358c3cbc030",
 "classjson__uri.html#a32b1d4d5ccd0bb7c53ba64cb702a354f",
 "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#afb2ec01b241f591030515cc82f237988",
-"classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html#afd48818c9ad670ece3e05039a7e29e54",
-"classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html#a00e159e75456d7444062294e467bc1d8",
-"classnlohmann_1_1json__uri.html#ab601a9e32d487e9484f12c57ec1befc1",
-"index.html#minimum-required-compiler-versions",
-"mqttbroker_8cpp.html#aa9363d0fb23c5579b9c054c18881d9bd",
-"structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877",
-"structnlohmann_1_1json__schema_1_1root__schema_1_1schema__file.html"
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18",
+"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a9e799935d50c470765cd036a4912c79a",
+"classnlohmann_1_1json__uri.html#a024acf65dc3388f4c651bd26c4ed0390",
+"index.html#connection-options-summary",
+"mqttbridge_2websocket_2SubProtocolFactory_8h.html",
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#aa5917b50f07bd63319e56c1b60c903c5",
+"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a3da362a8b70c32a6188afbd1f3d06994"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

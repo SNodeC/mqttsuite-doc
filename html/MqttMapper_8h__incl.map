@@ -1,5 +1,7 @@
 <map id="lib/MqttMapper.h" name="lib/MqttMapper.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="10,5,142,33"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,147,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,32,79,66,73,65,74,36"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="122,5,255,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,196,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,33,129,73,126,69,170,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="219,81,336,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,31,253,71,248,71,204,36"/>
 </map>

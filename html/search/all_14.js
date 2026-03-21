@@ -5,7 +5,7 @@ var searchData=
   ['need_20logic_2',['Switch to a template mapping when you need logic',['../index.html#switch-to-a-template-mapping-when-you-need-logic',1,'']]],
   ['network_20transport_20selection_20addressing_3',['&lt;span class=&quot;tt&quot;&gt;network&lt;/span&gt; (transport selection + addressing)',['../index.html#network-transport-selection--addressing',1,'']]],
   ['new_20in_20version_202_4',['New in version 2',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#new-in-version-2',1,'']]],
-  ['nextseq_5',['nextSeq',['../classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html#a4c7af98e45af7f7d0a197c33752827be',1,'mqtt::lib::MqttMapper::DelayedQueue']]],
+  ['nextseq_5',['nextSeq',['../classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue.html#a033fe2b9bfea9c6b3f3aa2276fe631a4',1,'mqtt::mqttbroker::lib::Mqtt::DelayedQueue::nextSeq'],['../classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue.html#a17edce59065c369b8a0d026ca42f2c19',1,'mqtt::mqttintegrator::lib::Mqtt::DelayedQueue::nextSeq']]],
   ['nlohmann_6',['nlohmann',['../namespacenlohmann.html',1,'']]],
   ['nlohmann_20json_20integration_7',['nlohmann-json integration',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#nlohmann-json-integration',1,'']]],
   ['nlohmann_3a_3ajson_5fschema_8',['json_schema',['../namespacenlohmann_1_1json__schema.html',1,'nlohmann']]],

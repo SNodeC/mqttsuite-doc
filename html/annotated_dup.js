@@ -73,7 +73,8 @@ var annotated_dup =
     [ "mqtt", "namespacemqtt.html", [
       [ "lib", "namespacemqtt_1_1lib.html", [
         [ "admin", "namespacemqtt_1_1lib_1_1admin.html", [
-          [ "AdminOptions", "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html", "structmqtt_1_1lib_1_1admin_1_1AdminOptions" ]
+          [ "AdminOptions", "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html", "structmqtt_1_1lib_1_1admin_1_1AdminOptions" ],
+          [ "ReloadResult", "structmqtt_1_1lib_1_1admin_1_1ReloadResult.html", "structmqtt_1_1lib_1_1admin_1_1ReloadResult" ]
         ] ],
         [ "plugins", "namespacemqtt_1_1lib_1_1plugins.html", [
           [ "storage_plugin", "namespacemqtt_1_1lib_1_1plugins_1_1storage__plugin.html", [
@@ -121,10 +122,10 @@ var annotated_dup =
       ] ],
       [ "mqttcli", "namespacemqtt_1_1mqttcli.html", [
         [ "lib", "namespacemqtt_1_1mqttcli_1_1lib.html", [
+          [ "Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt" ],
           [ "ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe" ],
           [ "ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish" ],
-          [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession" ],
-          [ "Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt" ]
+          [ "ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession" ]
         ] ],
         [ "websocket", "namespacemqtt_1_1mqttcli_1_1websocket.html", [
           [ "SubProtocolFactory", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory" ]

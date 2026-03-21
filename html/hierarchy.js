@@ -28,8 +28,10 @@ var hierarchy =
     [ "ConanFile", null, [
       [ "conanfile.JsonSchemaValidatorConan", "classconanfile_1_1JsonSchemaValidatorConan.html", null ]
     ] ],
-    [ "mqtt::lib::MqttMapper::DelayedQueue", "classmqtt_1_1lib_1_1MqttMapper_1_1DelayedQueue.html", null ],
-    [ "mqtt::lib::MqttMapper::EarlierFirst", "structmqtt_1_1lib_1_1MqttMapper_1_1EarlierFirst.html", null ],
+    [ "mqtt::mqttbroker::lib::Mqtt::DelayedQueue", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue.html", null ],
+    [ "mqtt::mqttintegrator::lib::Mqtt::DelayedQueue", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue.html", null ],
+    [ "mqtt::mqttbroker::lib::Mqtt::EarlierFirst", "structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1EarlierFirst.html", null ],
+    [ "mqtt::mqttintegrator::lib::Mqtt::DelayedQueue::EarlierFirst", "structmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue_1_1EarlierFirst.html", null ],
     [ "inja::Environment", "classinja_1_1Environment.html", null ],
     [ "anonymous_namespace{json-validator.cpp}::logical_combination_error_handler::error_entry", "structanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler_1_1error__entry.html", null ],
     [ "nlohmann::json_schema::error_handler", "classnlohmann_1_1json__schema_1_1error__handler.html", [
@@ -95,10 +97,7 @@ var hierarchy =
     [ "iot::mqtt::server::Mqtt", null, [
       [ "mqtt::mqttbroker::lib::Mqtt", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html", null ]
     ] ],
-    [ "mqtt::lib::MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", [
-      [ "mqtt::mqttbroker::lib::Mqtt", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html", null ],
-      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ]
-    ] ],
+    [ "mqtt::lib::MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", null ],
     [ "mqtt::mqttbroker::lib::MqttModel", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html", null ],
     [ "inja::NodeVisitor", "classinja_1_1NodeVisitor.html", [
       [ "inja::Renderer", "classinja_1_1Renderer.html", null ],
@@ -107,11 +106,14 @@ var hierarchy =
     [ "inja::Parser", "classinja_1_1Parser.html", null ],
     [ "inja::ParserConfig", "structinja_1_1ParserConfig.html", null ],
     [ "mqtt::mqttbroker::lib::release", "structmqtt_1_1mqttbroker_1_1lib_1_1release.html", null ],
+    [ "mqtt::lib::admin::ReloadResult", "structmqtt_1_1lib_1_1admin_1_1ReloadResult.html", null ],
     [ "inja::RenderConfig", "structinja_1_1RenderConfig.html", null ],
     [ "mqtt::mqttbroker::lib::retaine", "structmqtt_1_1mqttbroker_1_1lib_1_1retaine.html", null ],
     [ "nlohmann::json_schema::root_schema", "classnlohmann_1_1json__schema_1_1root__schema.html", null ],
     [ "root_schema", "classroot__schema.html", null ],
     [ "mqtt::lib::MqttMapper::ScheduledPublish", "structmqtt_1_1lib_1_1MqttMapper_1_1ScheduledPublish.html", null ],
+    [ "mqtt::mqttbroker::lib::Mqtt::ScheduledPublish", "structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html", null ],
+    [ "mqtt::mqttintegrator::lib::Mqtt::ScheduledPublish", "structmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1ScheduledPublish.html", null ],
     [ "anonymous_namespace{json-validator.cpp}::schema", "classanonymous__namespace_02json-validator_8cpp_03_1_1schema.html", [
       [ "anonymous_namespace{json-validator.cpp}::array", "classanonymous__namespace_02json-validator_8cpp_03_1_1array.html", null ],
       [ "anonymous_namespace{json-validator.cpp}::array", "classanonymous__namespace_02json-validator_8cpp_03_1_1array.html", null ],

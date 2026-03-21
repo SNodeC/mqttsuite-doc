@@ -154,12 +154,12 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00063">63</a> of file <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   64</span>        : web::websocket::SubProtocolFactory&lt;web::websocket::client::SubProtocol&gt;::SubProtocolFactory(<a class="code hl_define" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a>) {</div>
-<div class="line"><span class="lineno">   65</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00059">59</a> of file <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   60</span>        : web::websocket::SubProtocolFactory&lt;web::websocket::client::SubProtocol&gt;::SubProtocolFactory(<a class="code hl_define" href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a>) {</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
 <div class="ttc" id="amqttbridge_2websocket_2SubProtocolFactory_8cpp_html_a47f2e62c0dbebc787052c165afcada0e"><div class="ttname"><a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e">NAME</a></div><div class="ttdeci">#define NAME</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html#l00060">SubProtocolFactory.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00089">mqttClientSubProtocolFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00075">mqttClientSubProtocolFactory()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -192,35 +192,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00067">67</a> of file <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>                                                                                                           {</div>
-<div class="line"><span class="lineno">   68</span>        iot::mqtt::client::SubProtocol* subProtocol = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   69</span> </div>
-<div class="line"><span class="lineno">   70</span>        nlohmann::json&amp; mappingJson = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a>(</div>
-<div class="line"><span class="lineno">   71</span>            utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttIntegrator&gt;()-&gt;getMappingFile());</div>
-<div class="line"><span class="lineno">   72</span> </div>
-<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">if</span> (mappingJson.contains(<span class="stringliteral">&quot;connection&quot;</span>)) {</div>
-<div class="line"><span class="lineno">   74</span>            subProtocol = <span class="keyword">new</span> iot::mqtt::client::SubProtocol(</div>
-<div class="line"><span class="lineno">   75</span>                subProtocolContext,</div>
-<div class="line"><span class="lineno">   76</span>                getName(),</div>
-<div class="line"><span class="lineno">   77</span>                <span class="keyword">new</span> mqtt::mqttintegrator::lib::Mqtt(</div>
-<div class="line"><span class="lineno">   78</span>                    subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName(),</div>
-<div class="line"><span class="lineno">   79</span>                    mappingJson[<span class="stringliteral">&quot;connection&quot;</span>],</div>
-<div class="line"><span class="lineno">   80</span>                    mappingJson[<span class="stringliteral">&quot;mapping&quot;</span>],</div>
-<div class="line"><span class="lineno">   81</span>                    utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttIntegrator&gt;()-&gt;getSessionStore()));</div>
-<div class="line"><span class="lineno">   82</span>        }</div>
-<div class="line"><span class="lineno">   83</span> </div>
-<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">return</span> subProtocol;</div>
-<div class="line"><span class="lineno">   85</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a77231994bd3ef854feb2db79dd71746b"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a77231994bd3ef854feb2db79dd71746b">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json &amp; readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00077">JsonMappingReader.cpp:77</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html#l00063">63</a> of file <a class="el" href="mqttintegrator_2websocket_2SubProtocolFactory_8cpp_source.html">SubProtocolFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>                                                                                                           {</div>
+<div class="line"><span class="lineno">   64</span>        mqtt::lib::ConfigMqttIntegrator* config = utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttIntegrator&gt;();</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::client::SubProtocol(</div>
+<div class="line"><span class="lineno">   67</span>            subProtocolContext,</div>
+<div class="line"><span class="lineno">   68</span>            getName(),</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keyword">new</span> mqtt::mqttintegrator::lib::Mqtt(</div>
+<div class="line"><span class="lineno">   70</span>                subProtocolContext-&gt;getSocketConnection()-&gt;getConnectionName(), config-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>(), config-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#af6e93a086140ee5a1da0fb93a2d05b89">getSessionStore</a>()));</div>
+<div class="line"><span class="lineno">   71</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a59cb7bb2531c0192a9b1669c44e42de8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">mqtt::lib::ConfigApplication::getMqttMapper</a></div><div class="ttdeci">const std::shared_ptr&lt; MqttMapper &gt; getMqttMapper() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00110">ConfigApplication.cpp:110</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_af6e93a086140ee5a1da0fb93a2d05b89"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#af6e93a086140ee5a1da0fb93a2d05b89">mqtt::lib::ConfigApplication::getSessionStore</a></div><div class="ttdeci">std::string getSessionStore() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00090">ConfigApplication.cpp:90</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00078">mqtt::lib::ConfigApplication::getMappingFile()</a>, and <a class="el" href="JsonMappingReader_8cpp_source.html#l00077">mqtt::lib::JsonMappingReader::readMappingFromFile()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory_ae88373a69cdee4d08cf58c4c618041d6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

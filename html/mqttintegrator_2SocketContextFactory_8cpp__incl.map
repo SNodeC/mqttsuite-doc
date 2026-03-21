@@ -1,29 +1,23 @@
 <map id="mqttintegrator/SocketContextFactory.cpp" name="mqttintegrator/SocketContextFactory.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="648,5,862,50"/>
-<area shape="rect" id="Node000002" href="$mqttintegrator_2SocketContextFactory_8h.html" title=" " alt="" coords="117,106,290,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="645,45,485,70,302,101,278,105,276,100,302,95,484,65,650,43"/>
-<area shape="rect" id="Node000005" href="$ConfigApplication_8h.html" title=" " alt="" coords="314,106,482,134"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="667,52,466,105,464,100,672,50"/>
-<area shape="rect" id="Node000007" href="$JsonMappingReader_8h.html" title=" " alt="" coords="507,106,689,134"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="720,50,635,101,633,96,715,52"/>
-<area shape="rect" id="Node000008" href="$mqttintegrator_2lib_2Mqtt_8h.html" title=" " alt="" coords="714,106,797,134"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="757,48,758,92,753,89,754,52"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="821,98,975,143"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="790,48,854,90,849,89,789,53"/>
-<area shape="rect" id="Node000013" title=" " alt="" coords="998,106,1182,134"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="836,48,1029,102,1024,102,835,53"/>
-<area shape="rect" id="Node000014" title=" " alt="" coords="1206,106,1313,134"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="863,39,1021,61,1195,95,1210,102,1205,101,1193,101,1020,67,863,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="426,5,640,50"/>
+<area shape="rect" id="Node000002" href="$mqttintegrator_2SocketContextFactory_8h.html" title=" " alt="" coords="21,106,194,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,53,185,105,183,100,432,48"/>
+<area shape="rect" id="Node000004" href="$ConfigApplication_8h.html" title=" " alt="" coords="224,106,393,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,50,356,103,354,98,477,52"/>
+<area shape="rect" id="Node000006" href="$mqttintegrator_2lib_2Mqtt_8h.html" title=" " alt="" coords="420,106,504,134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="518,49,483,96,480,92,514,52"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="528,98,681,143"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="551,48,581,87,576,85,549,53"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="705,106,888,134"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="596,48,746,101,741,101,596,53"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="912,106,1020,134"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="640,43,766,65,901,95,916,102,911,101,900,101,765,71,640,48"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,191,183,235"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="186,136,133,183,130,179,190,133"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="206,199,264,227"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="209,132,228,185,223,184,207,137"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="320,199,476,227"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="400,133,400,185,396,183,396,137"/>
-<area shape="rect" id="Node000009" href="$MqttMapper_8h.html" title=" " alt="" coords="604,199,736,227"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="745,133,694,190,691,186,741,136"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="760,199,919,227"/>
-<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="768,132,820,189,815,187,766,137"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="599,283,741,311"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="672,226,672,270,668,266,668,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,133,102,176,97,174,104,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="206,199,363,227"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="307,133,294,186,290,183,303,136"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="386,199,546,227"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="464,133,467,185,463,182,461,136"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="570,199,760,227"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="492,132,624,193,619,193,491,137"/>
 </map>

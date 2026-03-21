@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1210;
+var viewWidth = 1054;
 var viewHeight = 181;
 var sectionId = 'dynsection-0';
 </script>
@@ -59,9 +59,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="840.38,-172.5 698.38,-172.5 698.38,-139 840.38,-139 840.38,-172.5"/>
-<text xml:space="preserve" text-anchor="start" x="706.38" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/websocket</text>
-<text xml:space="preserve" text-anchor="middle" x="769.38" y="-146.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>
+<polygon fill="#999999" stroke="#666666" points="737.38,-172.5 595.38,-172.5 595.38,-139 737.38,-139 737.38,-172.5"/>
+<text xml:space="preserve" text-anchor="start" x="603.38" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">mqttintegrator/websocket</text>
+<text xml:space="preserve" text-anchor="middle" x="666.38" y="-146.25" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>
 </a>
 </g>
 </g>
@@ -78,8 +78,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M698.21,-143.98C614.59,-131.32 476.73,-110.46 393.54,-97.87"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="394.09,-94.41 383.68,-96.38 393.04,-101.33 394.09,-94.41"/>
+<path fill="none" stroke="#63b8ff" d="M594.89,-140.68C532.64,-128.43 443.36,-110.86 384.41,-99.26"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="385.37,-95.88 374.89,-97.39 384.02,-102.75 385.37,-95.88"/>
 </a>
 </g>
 </g>
@@ -96,17 +96,17 @@ var sectionId = 'dynsection-0';
 <g id="edge5_Node000001_Node000006" class="edge">
 <title>Node1&#45;&gt;Node6</title>
 <g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M705.18,-138.58C658.13,-126.73 595.15,-110.87 551.71,-99.93"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="552.58,-96.54 542.03,-97.49 550.87,-103.33 552.58,-96.54"/>
+<path fill="none" stroke="#63b8ff" d="M626.85,-138.58C599.03,-127.2 562.17,-112.12 535.6,-101.25"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="537.24,-98.14 526.66,-97.59 534.59,-104.62 537.24,-98.14"/>
 </a>
 </g>
 </g>
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="JsonMappingReader_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="719.75,-96.62 583,-96.62 583,-75.88 719.75,-75.88 719.75,-96.62"/>
-<text xml:space="preserve" text-anchor="middle" x="651.38" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">lib/JsonMappingReader.h</text>
+<g id="a_Node000008"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="644.62,-96.62 582.12,-96.62 582.12,-75.88 644.62,-75.88 644.62,-96.62"/>
+<text xml:space="preserve" text-anchor="middle" x="613.38" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">lib/Mqtt.h</text>
 </a>
 </g>
 </g>
@@ -114,8 +114,8 @@ var sectionId = 'dynsection-0';
 <g id="edge7_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
 <g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M741.11,-138.58C722.1,-127.71 697.18,-113.45 678.43,-102.73"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="680.19,-99.7 669.77,-97.77 676.71,-105.78 680.19,-99.7"/>
+<path fill="none" stroke="#63b8ff" d="M653.81,-138.75C646.11,-128.94 636.22,-116.34 628.14,-106.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="630.95,-103.97 622.02,-98.26 625.44,-108.29 630.95,-103.97"/>
 </a>
 </g>
 </g>
@@ -123,8 +123,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="800.62,-96.62 738.12,-96.62 738.12,-75.88 800.62,-75.88 800.62,-96.62"/>
-<text xml:space="preserve" text-anchor="middle" x="769.38" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">lib/Mqtt.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="777.88,-103 662.88,-103 662.88,-69.5 777.88,-69.5 777.88,-103"/>
+<text xml:space="preserve" text-anchor="start" x="670.88" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/socket/stream</text>
+<text xml:space="preserve" text-anchor="middle" x="720.38" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">/SocketConnection.h</text>
 </a>
 </g>
 </g>
@@ -132,8 +133,8 @@ var sectionId = 'dynsection-0';
 <g id="edge8_Node000001_Node000009" class="edge">
 <title>Node1&#45;&gt;Node9</title>
 <g id="a_edge8_Node000001_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M769.38,-138.75C769.38,-129.65 769.38,-118.14 769.38,-108.32"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="772.88,-108.59 769.38,-98.59 765.88,-108.59 772.88,-108.59"/>
+<path fill="none" stroke="#63b8ff" d="M679.17,-138.75C685.56,-130.77 693.43,-120.93 700.58,-112"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="703.21,-114.31 706.72,-104.31 697.74,-109.94 703.21,-114.31"/>
 </a>
 </g>
 </g>
@@ -141,9 +142,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="933.88,-103 818.88,-103 818.88,-69.5 933.88,-69.5 933.88,-103"/>
-<text xml:space="preserve" text-anchor="start" x="826.88" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/socket/stream</text>
-<text xml:space="preserve" text-anchor="middle" x="876.38" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">/SocketConnection.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="876.62,-96.62 796.12,-96.62 796.12,-75.88 876.62,-75.88 876.62,-96.62"/>
+<text xml:space="preserve" text-anchor="middle" x="836.38" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">utils/Config.h</text>
 </a>
 </g>
 </g>
@@ -151,8 +151,8 @@ var sectionId = 'dynsection-0';
 <g id="edge9_Node000001_Node000010" class="edge">
 <title>Node1&#45;&gt;Node10</title>
 <g id="a_edge9_Node000001_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M795,-138.58C808.9,-129.82 826.28,-118.85 841.4,-109.31"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="843.08,-112.39 849.67,-104.09 839.35,-106.47 843.08,-112.39"/>
+<path fill="none" stroke="#63b8ff" d="M707.09,-138.58C735.76,-127.2 773.74,-112.12 801.11,-101.25"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="802.36,-104.52 810.36,-97.58 799.77,-98.02 802.36,-104.52"/>
 </a>
 </g>
 </g>
@@ -160,8 +160,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1032.62,-96.62 952.12,-96.62 952.12,-75.88 1032.62,-75.88 1032.62,-96.62"/>
-<text xml:space="preserve" text-anchor="middle" x="992.38" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">utils/Config.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="1046.25,-103 894.5,-103 894.5,-69.5 1046.25,-69.5 1046.25,-103"/>
+<text xml:space="preserve" text-anchor="start" x="902.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/SubProtocol</text>
+<text xml:space="preserve" text-anchor="middle" x="970.38" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">Context.h</text>
 </a>
 </g>
 </g>
@@ -169,27 +170,8 @@ var sectionId = 'dynsection-0';
 <g id="edge10_Node000001_Node000011" class="edge">
 <title>Node1&#45;&gt;Node11</title>
 <g id="a_edge10_Node000001_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M825.11,-138.51C859.29,-128.47 903.93,-115.2 943.38,-103 945.93,-102.21 948.56,-101.39 951.21,-100.55"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="952.17,-103.92 960.64,-97.56 950.05,-97.25 952.17,-103.92"/>
-</a>
-</g>
-</g>
-<!-- Node12 -->
-<g id="Node000012" class="node">
-<title>Node12</title>
-<g id="a_Node000012"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1202.25,-103 1050.5,-103 1050.5,-69.5 1202.25,-69.5 1202.25,-103"/>
-<text xml:space="preserve" text-anchor="start" x="1058.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/SubProtocol</text>
-<text xml:space="preserve" text-anchor="middle" x="1126.38" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">Context.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node12 -->
-<g id="edge11_Node000001_Node000012" class="edge">
-<title>Node1&#45;&gt;Node12</title>
-<g id="a_edge11_Node000001_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M840.76,-141.25C897.85,-130.46 978.12,-115.28 1039.04,-103.76"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1039.51,-107.24 1048.69,-101.94 1038.21,-100.36 1039.51,-107.24"/>
+<path fill="none" stroke="#63b8ff" d="M737.65,-138.92C782.17,-129.04 839.7,-116.27 886.42,-105.89"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="886.95,-109.36 895.96,-103.77 885.44,-102.52 886.95,-109.36"/>
 </a>
 </g>
 </g>

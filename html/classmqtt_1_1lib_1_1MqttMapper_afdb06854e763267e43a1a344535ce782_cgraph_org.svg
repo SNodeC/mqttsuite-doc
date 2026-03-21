@@ -32,17 +32,8 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M122.76,-10.16C130.65,-10.02 138.8,-9.97 146.85,-10.02"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="146.59,-13.52 156.63,-10.14 146.68,-6.52 146.59,-13.52"/>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge2_Node000002_Node000001" class="edge">
-<title>Node2&#45;&gt;Node1</title>
-<g id="a_edge2_Node000002_Node000001"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M158.15,-23.35C150.25,-23.49 142.1,-23.53 134.05,-23.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="134.31,-19.98 124.27,-23.36 134.23,-26.98 134.31,-19.98"/>
+<path fill="none" stroke="#63b8ff" d="M122.76,-16.75C130.65,-16.75 138.8,-16.75 146.85,-16.75"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="146.63,-20.25 156.63,-16.75 146.63,-13.25 146.63,-20.25"/>
 </a>
 </g>
 </g>

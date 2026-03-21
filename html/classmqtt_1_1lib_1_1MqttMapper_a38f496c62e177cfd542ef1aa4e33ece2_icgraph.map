@@ -1,5 +1,11 @@
 <map id="mqtt::lib::MqttMapper::extractSubscriptions" name="mqtt::lib::MqttMapper::extractSubscriptions">
-<area shape="rect" id="Node000001" title=" " alt="" coords="217,5,380,50"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a36bfd21132e7610370cec74520637f1e" title=" " alt="" coords="5,5,169,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,28,169,30,169,25,204,27"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="593,40,757,85"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a0764f1f93c913ad19fdb57ea2a9d505f" title=" " alt="" coords="384,5,540,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="575,47,540,43,541,38,581,47"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a64ef665bc3f72016e96e6687b115248e" title=" " alt="" coords="379,75,545,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="581,78,546,86,545,81,575,78"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#ab7b00a5009b380c027776dd13ffeed09" title=" " alt="" coords="108,75,331,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="361,97,331,100,331,94,366,97"/>
+<area shape="rect" id="Node000005" href="$mqttintegrator_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,83,60,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="89,98,60,100,60,94,94,96"/>
 </map>
