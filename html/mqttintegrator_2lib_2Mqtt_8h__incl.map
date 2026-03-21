@@ -1,7 +1,5 @@
 <map id="mqttintegrator/lib/Mqtt.h" name="mqttintegrator/lib/Mqtt.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="116,5,252,50"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,5,153,50"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,98,165,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,50,114,90,111,86,155,51"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="188,98,379,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,48,259,88,253,88,209,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,48,88,83,82,82,83,52"/>
 </map>

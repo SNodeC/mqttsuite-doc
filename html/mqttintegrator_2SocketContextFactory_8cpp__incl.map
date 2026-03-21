@@ -1,23 +1,21 @@
 <map id="mqttintegrator/SocketContextFactory.cpp" name="mqttintegrator/SocketContextFactory.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="426,5,640,50"/>
-<area shape="rect" id="Node000002" href="$mqttintegrator_2SocketContextFactory_8h.html" title=" " alt="" coords="21,106,194,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,53,185,105,183,100,432,48"/>
-<area shape="rect" id="Node000004" href="$ConfigApplication_8h.html" title=" " alt="" coords="224,106,393,134"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,50,356,103,354,98,477,52"/>
-<area shape="rect" id="Node000006" href="$mqttintegrator_2lib_2Mqtt_8h.html" title=" " alt="" coords="420,106,504,134"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="518,49,483,96,480,92,514,52"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="528,98,681,143"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="551,48,581,87,576,85,549,53"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="705,106,888,134"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="596,48,746,101,741,101,596,53"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="912,106,1020,134"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="640,43,766,65,901,95,916,102,911,101,900,101,765,71,640,48"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="402,5,616,50"/>
+<area shape="rect" id="Node000002" href="$mqttintegrator_2SocketContextFactory_8h.html" title=" " alt="" coords="7,106,181,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,53,170,105,169,100,410,48"/>
+<area shape="rect" id="Node000004" href="$ConfigApplication_8h.html" title=" " alt="" coords="204,106,373,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="454,52,335,103,333,98,458,50"/>
+<area shape="rect" id="Node000006" href="$mqttintegrator_2lib_2Mqtt_8h.html" title=" " alt="" coords="396,106,480,134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="494,49,459,96,456,92,490,52"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="504,98,657,143"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="527,48,557,87,552,85,525,53"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="681,106,864,134"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="572,48,722,101,717,101,572,53"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="888,106,996,134"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="616,43,742,65,877,95,892,102,887,101,876,101,741,71,616,48"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,191,183,235"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,133,102,176,97,174,104,137"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="206,199,363,227"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="307,133,294,186,290,183,303,136"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="386,199,546,227"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="464,133,467,185,463,182,461,136"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="570,199,760,227"/>
-<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="492,132,624,193,619,193,491,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,132,97,176,91,174,92,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="208,199,364,227"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="290,133,289,185,285,183,286,136"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="388,199,547,227"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="444,132,461,186,456,183,441,137"/>
 </map>

@@ -118,7 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37e5a957bf78b65b6ced634a23dfe69e" id="r_a37e5a957bf78b65b6ced634a23dfe69e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e5a957bf78b65b6ced634a23dfe69e">~DelayedQueue</a> ()</td></tr>
 <tr class="memitem:a0cea5b90a1434e82da43bd2f4c6dd47c" id="r_a0cea5b90a1434e82da43bd2f4c6dd47c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cea5b90a1434e82da43bd2f4c6dd47c">delayPublish</a> (const utils::Timeval &amp;delay, const iot::mqtt::packets::Publish &amp;publish)</td></tr>
 <tr class="memitem:ae9c0aaadb5e9b1f16aa0eb8623b242af" id="r_ae9c0aaadb5e9b1f16aa0eb8623b242af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">empty</a> () const</td></tr>
-<tr class="memitem:a9d3512eada04535ec44d72daf80af359" id="r_a9d3512eada04535ec44d72daf80af359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html">ScheduledPublish</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d3512eada04535ec44d72daf80af359">top</a> () const</td></tr>
+<tr class="memitem:a9d3512eada04535ec44d72daf80af359" id="r_a9d3512eada04535ec44d72daf80af359"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html">ScheduledPublish</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d3512eada04535ec44d72daf80af359">top</a> () const</td></tr>
 <tr class="memitem:a40839353dcd46a0fd8aaefd9ecd49002" id="r_a40839353dcd46a0fd8aaefd9ecd49002"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40839353dcd46a0fd8aaefd9ecd49002">pop</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -135,7 +135,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00092">92</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00091">91</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a88ee46810da7cc3ae39fd3039ba5b7b1" name="a88ee46810da7cc3ae39fd3039ba5b7b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88ee46810da7cc3ae39fd3039ba5b7b1">&#9670;&#160;</a></span>DelayedQueue()</h2>
@@ -160,14 +160,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00079">79</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   80</span>        : <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>(<a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>) {</div>
-<div class="line"><span class="lineno">   81</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a1e2839cca7a4b50a18fc2d729a5c4387"><div class="ttname"><a href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::mqtt</a></div><div class="ttdeci">Mqtt * mqtt</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">Mqtt.h:104</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00086">86</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   87</span>        : <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>(<a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>) {</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a1e2839cca7a4b50a18fc2d729a5c4387"><div class="ttname"><a href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::mqtt</a></div><div class="ttdeci">Mqtt * mqtt</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00103">Mqtt.h:103</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">mqtt</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00103">mqtt</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00063">mqtt::mqttbroker::lib::Mqtt::Mqtt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00070">mqtt::mqttbroker::lib::Mqtt::Mqtt()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -191,13 +191,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00083">83</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   83</span>                                    {</div>
-<div class="line"><span class="lineno">   84</span>        <a class="code hl_variable" href="#ad15753ad80c79001e36e69319f2d3525">delayTimer</a>.cancel();</div>
-<div class="line"><span class="lineno">   85</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_ad15753ad80c79001e36e69319f2d3525"><div class="ttname"><a href="#ad15753ad80c79001e36e69319f2d3525">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::delayTimer</a></div><div class="ttdeci">core::timer::Timer delayTimer</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00108">Mqtt.h:108</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00090">90</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   90</span>                                    {</div>
+<div class="line"><span class="lineno">   91</span>        <a class="code hl_variable" href="#ad15753ad80c79001e36e69319f2d3525">delayTimer</a>.cancel();</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_ad15753ad80c79001e36e69319f2d3525"><div class="ttname"><a href="#ad15753ad80c79001e36e69319f2d3525">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::delayTimer</a></div><div class="ttdeci">core::timer::Timer delayTimer</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00107">Mqtt.h:107</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00108">delayTimer</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00107">delayTimer</a>.</p>
 
 </div>
 </div>
@@ -225,34 +225,34 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">101</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  101</span>                                         {</div>
-<div class="line"><span class="lineno">  102</span>        <a class="code hl_variable" href="#ad15753ad80c79001e36e69319f2d3525">delayTimer</a>.cancel();</div>
-<div class="line"><span class="lineno">  103</span> </div>
-<div class="line"><span class="lineno">  104</span>        <span class="keyword">auto</span> delay = <a class="code hl_function" href="#a9d3512eada04535ec44d72daf80af359">top</a>().<a class="code hl_variable" href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#a3af1af402c7e21c24d3ab3301901271d">when</a> - utils::Timeval::currentTime();</div>
-<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">if</span> (delay &lt; utils::Timeval{}) {</div>
-<div class="line"><span class="lineno">  106</span>            delay = utils::Timeval{};</div>
-<div class="line"><span class="lineno">  107</span>        }</div>
-<div class="line"><span class="lineno">  108</span> </div>
-<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="#ad15753ad80c79001e36e69319f2d3525">delayTimer</a> = core::timer::Timer::singleshotTimer(</div>
-<div class="line"><span class="lineno">  110</span>            [<span class="keyword">this</span>]() {</div>
-<div class="line"><span class="lineno">  111</span>                <a class="code hl_function" href="#abe935c28141087ad3eadf41acab44702">processDue</a>();</div>
-<div class="line"><span class="lineno">  112</span> </div>
-<div class="line"><span class="lineno">  113</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">empty</a>()) {</div>
-<div class="line"><span class="lineno">  114</span>                    <a class="code hl_function" href="#a8becf2d97fc0f71a12ae5e84ea8b2a66">armDelayTimer</a>();</div>
-<div class="line"><span class="lineno">  115</span>                }</div>
-<div class="line"><span class="lineno">  116</span>            },</div>
-<div class="line"><span class="lineno">  117</span>            delay);</div>
-<div class="line"><span class="lineno">  118</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a8becf2d97fc0f71a12ae5e84ea8b2a66"><div class="ttname"><a href="#a8becf2d97fc0f71a12ae5e84ea8b2a66">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::armDelayTimer</a></div><div class="ttdeci">void armDelayTimer()</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">Mqtt.cpp:101</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a9d3512eada04535ec44d72daf80af359"><div class="ttname"><a href="#a9d3512eada04535ec44d72daf80af359">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::top</a></div><div class="ttdeci">ScheduledPublish const &amp; top() const</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00129">Mqtt.cpp:129</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_abe935c28141087ad3eadf41acab44702"><div class="ttname"><a href="#abe935c28141087ad3eadf41acab44702">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::processDue</a></div><div class="ttdeci">void processDue()</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">Mqtt.cpp:87</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_ae9c0aaadb5e9b1f16aa0eb8623b242af"><div class="ttname"><a href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00125">Mqtt.cpp:125</a></div></div>
-<div class="ttc" id="astructmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish_html_a3af1af402c7e21c24d3ab3301901271d"><div class="ttname"><a href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#a3af1af402c7e21c24d3ab3301901271d">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::when</a></div><div class="ttdeci">utils::Timeval when</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00082">Mqtt.h:82</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">108</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  108</span>                                         {</div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="#ad15753ad80c79001e36e69319f2d3525">delayTimer</a>.cancel();</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>        <span class="keyword">auto</span> delay = <a class="code hl_function" href="#a9d3512eada04535ec44d72daf80af359">top</a>().<a class="code hl_variable" href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#a3af1af402c7e21c24d3ab3301901271d">when</a> - utils::Timeval::currentTime();</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">if</span> (delay &lt; utils::Timeval{}) {</div>
+<div class="line"><span class="lineno">  113</span>            delay = utils::Timeval{};</div>
+<div class="line"><span class="lineno">  114</span>        }</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>        <a class="code hl_variable" href="#ad15753ad80c79001e36e69319f2d3525">delayTimer</a> = core::timer::Timer::singleshotTimer(</div>
+<div class="line"><span class="lineno">  117</span>            [<span class="keyword">this</span>]() {</div>
+<div class="line"><span class="lineno">  118</span>                <a class="code hl_function" href="#abe935c28141087ad3eadf41acab44702">processDue</a>();</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">empty</a>()) {</div>
+<div class="line"><span class="lineno">  121</span>                    <a class="code hl_function" href="#a8becf2d97fc0f71a12ae5e84ea8b2a66">armDelayTimer</a>();</div>
+<div class="line"><span class="lineno">  122</span>                }</div>
+<div class="line"><span class="lineno">  123</span>            },</div>
+<div class="line"><span class="lineno">  124</span>            delay);</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a8becf2d97fc0f71a12ae5e84ea8b2a66"><div class="ttname"><a href="#a8becf2d97fc0f71a12ae5e84ea8b2a66">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::armDelayTimer</a></div><div class="ttdeci">void armDelayTimer()</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">Mqtt.cpp:108</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a9d3512eada04535ec44d72daf80af359"><div class="ttname"><a href="#a9d3512eada04535ec44d72daf80af359">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::top</a></div><div class="ttdeci">const ScheduledPublish &amp; top() const</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00136">Mqtt.cpp:136</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_abe935c28141087ad3eadf41acab44702"><div class="ttname"><a href="#abe935c28141087ad3eadf41acab44702">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::processDue</a></div><div class="ttdeci">void processDue()</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">Mqtt.cpp:94</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_ae9c0aaadb5e9b1f16aa0eb8623b242af"><div class="ttname"><a href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00132">Mqtt.cpp:132</a></div></div>
+<div class="ttc" id="astructmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish_html_a3af1af402c7e21c24d3ab3301901271d"><div class="ttname"><a href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#a3af1af402c7e21c24d3ab3301901271d">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::when</a></div><div class="ttdeci">utils::Timeval when</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00064">Mqtt.cpp:64</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00108">delayTimer</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00125">empty()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">processDue()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00129">top()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00082">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::when</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00107">delayTimer</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00132">empty()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">processDue()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00136">top()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00064">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::when</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00120">delayPublish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00127">delayPublish()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -285,17 +285,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00120">120</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  120</span>                                                                                                       {</div>
-<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.push({utils::Timeval::currentTime() + delay, <a class="code hl_variable" href="#a033fe2b9bfea9c6b3f3aa2276fe631a4">nextSeq</a>++, publish, delay});</div>
-<div class="line"><span class="lineno">  122</span>        <a class="code hl_function" href="#a8becf2d97fc0f71a12ae5e84ea8b2a66">armDelayTimer</a>();</div>
-<div class="line"><span class="lineno">  123</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a033fe2b9bfea9c6b3f3aa2276fe631a4"><div class="ttname"><a href="#a033fe2b9bfea9c6b3f3aa2276fe631a4">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::nextSeq</a></div><div class="ttdeci">std::size_t nextSeq</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">Mqtt.h:105</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_aa59e6c858a4bd8945c248621c88a8c34"><div class="ttname"><a href="#aa59e6c858a4bd8945c248621c88a8c34">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::minHeap</a></div><div class="ttdeci">std::priority_queue&lt; ScheduledPublish, std::vector&lt; ScheduledPublish &gt;, EarlierFirst &gt; minHeap</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00106">Mqtt.h:106</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00127">127</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>                                                                                                       {</div>
+<div class="line"><span class="lineno">  128</span>        <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.push({utils::Timeval::currentTime() + delay, <a class="code hl_variable" href="#a033fe2b9bfea9c6b3f3aa2276fe631a4">nextSeq</a>++, publish, delay});</div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="#a8becf2d97fc0f71a12ae5e84ea8b2a66">armDelayTimer</a>();</div>
+<div class="line"><span class="lineno">  130</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a033fe2b9bfea9c6b3f3aa2276fe631a4"><div class="ttname"><a href="#a033fe2b9bfea9c6b3f3aa2276fe631a4">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::nextSeq</a></div><div class="ttdeci">std::size_t nextSeq</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">Mqtt.h:104</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_aa59e6c858a4bd8945c248621c88a8c34"><div class="ttname"><a href="#aa59e6c858a4bd8945c248621c88a8c34">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::minHeap</a></div><div class="ttdeci">std::priority_queue&lt; ScheduledPublish, std::vector&lt; ScheduledPublish &gt;, EarlierFirst &gt; minHeap</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">Mqtt.h:105</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00106">minHeap</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">nextSeq</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">minHeap</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">nextSeq</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00151">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00158">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -324,14 +324,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00125">125</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  125</span>                                       {</div>
-<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.empty();</div>
-<div class="line"><span class="lineno">  127</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00132">132</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  132</span>                                       {</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.empty();</div>
+<div class="line"><span class="lineno">  134</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00106">minHeap</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">minHeap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">processDue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">processDue()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -355,14 +355,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00133">133</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  133</span>                               {</div>
-<div class="line"><span class="lineno">  134</span>        <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.pop();</div>
-<div class="line"><span class="lineno">  135</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00140">140</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  140</span>                               {</div>
+<div class="line"><span class="lineno">  141</span>        <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.pop();</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00106">minHeap</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">minHeap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">processDue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">processDue()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -394,26 +394,26 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">87</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   87</span>                                      {</div>
-<div class="line"><span class="lineno">   88</span>        <span class="keyword">const</span> <span class="keyword">auto</span> now = utils::Timeval::currentTime();</div>
-<div class="line"><span class="lineno">   89</span> </div>
-<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">while</span> (!<a class="code hl_function" href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">empty</a>() &amp;&amp; <a class="code hl_function" href="#a9d3512eada04535ec44d72daf80af359">top</a>().when &lt;= now) {</div>
-<div class="line"><span class="lineno">   91</span>            <span class="keyword">const</span> iot::mqtt::packets::Publish duePublish = <a class="code hl_function" href="#a9d3512eada04535ec44d72daf80af359">top</a>().<a class="code hl_variable" href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#ae825d2b3435dff6fe9f75a8a13455e95">publish</a>;</div>
-<div class="line"><span class="lineno">   92</span>            <a class="code hl_function" href="#a40839353dcd46a0fd8aaefd9ecd49002">pop</a>();</div>
-<div class="line"><span class="lineno">   93</span> </div>
-<div class="line"><span class="lineno">   94</span>            <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>-&gt;broker-&gt;publish(</div>
-<div class="line"><span class="lineno">   95</span>                <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>-&gt;clientId, duePublish.getTopic(), duePublish.getMessage(), duePublish.getQoS(), duePublish.getRetain());</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">94</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>                                      {</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keyword">const</span> <span class="keyword">auto</span> now = utils::Timeval::currentTime();</div>
 <div class="line"><span class="lineno">   96</span> </div>
-<div class="line"><span class="lineno">   97</span>            <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>-&gt;onPublish(duePublish);</div>
-<div class="line"><span class="lineno">   98</span>        }</div>
-<div class="line"><span class="lineno">   99</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a40839353dcd46a0fd8aaefd9ecd49002"><div class="ttname"><a href="#a40839353dcd46a0fd8aaefd9ecd49002">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::pop</a></div><div class="ttdeci">void pop()</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00133">Mqtt.cpp:133</a></div></div>
-<div class="ttc" id="astructmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish_html_ae825d2b3435dff6fe9f75a8a13455e95"><div class="ttname"><a href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#ae825d2b3435dff6fe9f75a8a13455e95">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::publish</a></div><div class="ttdeci">iot::mqtt::packets::Publish publish</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8h_source.html#l00084">Mqtt.h:84</a></div></div>
+<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">while</span> (!<a class="code hl_function" href="#ae9c0aaadb5e9b1f16aa0eb8623b242af">empty</a>() &amp;&amp; <a class="code hl_function" href="#a9d3512eada04535ec44d72daf80af359">top</a>().when &lt;= now) {</div>
+<div class="line"><span class="lineno">   98</span>            <span class="keyword">const</span> iot::mqtt::packets::Publish duePublish = <a class="code hl_function" href="#a9d3512eada04535ec44d72daf80af359">top</a>().<a class="code hl_variable" href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#ae825d2b3435dff6fe9f75a8a13455e95">publish</a>;</div>
+<div class="line"><span class="lineno">   99</span>            <a class="code hl_function" href="#a40839353dcd46a0fd8aaefd9ecd49002">pop</a>();</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>-&gt;broker-&gt;publish(</div>
+<div class="line"><span class="lineno">  102</span>                <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>-&gt;clientId, duePublish.getTopic(), duePublish.getMessage(), duePublish.getQoS(), duePublish.getRetain());</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>            <a class="code hl_variable" href="#a1e2839cca7a4b50a18fc2d729a5c4387">mqtt</a>-&gt;onPublish(duePublish);</div>
+<div class="line"><span class="lineno">  105</span>        }</div>
+<div class="line"><span class="lineno">  106</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue_html_a40839353dcd46a0fd8aaefd9ecd49002"><div class="ttname"><a href="#a40839353dcd46a0fd8aaefd9ecd49002">mqtt::mqttbroker::lib::Mqtt::DelayedQueue::pop</a></div><div class="ttdeci">void pop()</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00140">Mqtt.cpp:140</a></div></div>
+<div class="ttc" id="astructmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish_html_ae825d2b3435dff6fe9f75a8a13455e95"><div class="ttname"><a href="structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1ScheduledPublish.html#ae825d2b3435dff6fe9f75a8a13455e95">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::publish</a></div><div class="ttdeci">iot::mqtt::packets::Publish publish</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00066">Mqtt.cpp:66</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00125">empty()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">mqtt</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00151">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00133">pop()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00084">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::publish</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00129">top()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00082">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::when</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00132">empty()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00103">mqtt</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00158">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00140">pop()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00066">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::publish</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00136">top()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00064">mqtt::mqttbroker::lib::Mqtt::ScheduledPublish::when</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -442,14 +442,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00129">129</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  129</span>                                                            {</div>
-<div class="line"><span class="lineno">  130</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.top();</div>
-<div class="line"><span class="lineno">  131</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00136">136</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  136</span>                                                            {</div>
+<div class="line"><span class="lineno">  137</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa59e6c858a4bd8945c248621c88a8c34">minHeap</a>.top();</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00106">minHeap</a>.</p>
+<p class="reference">References <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">minHeap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">processDue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">processDue()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -479,9 +479,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00108">108</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00107">107</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00101">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00083">~DelayedQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00108">armDelayTimer()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00090">~DelayedQueue()</a>.</p>
 
 </div>
 </div>
@@ -505,9 +505,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00106">106</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">105</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00120">delayPublish()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00125">empty()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00133">pop()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00129">top()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00127">delayPublish()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00132">empty()</a>, <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00140">pop()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00136">top()</a>.</p>
 
 </div>
 </div>
@@ -531,9 +531,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">104</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00103">103</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00079">DelayedQueue()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00087">processDue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00086">DelayedQueue()</a>, and <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00094">processDue()</a>.</p>
 
 </div>
 </div>
@@ -557,9 +557,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00105">105</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html#l00104">104</a> of file <a class="el" href="mqttbroker_2lib_2Mqtt_8h_source.html">Mqtt.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00120">delayPublish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00127">delayPublish()</a>.</p>
 
 </div>
 </div>
