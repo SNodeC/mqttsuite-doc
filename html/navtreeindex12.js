@@ -1,5 +1,11 @@
 var NAVTREEINDEX12 =
 {
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html":[10,0,1,0,0],
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#a120513e64a3e38ff315d2647df302da2":[9,0,1,0,0,2],
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#a120513e64a3e38ff315d2647df302da2":[10,0,1,0,0,2],
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#a95e25aeba0b2f9861d90f24da4dc4f6f":[9,0,1,0,0,1],
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#a95e25aeba0b2f9861d90f24da4dc4f6f":[10,0,1,0,0,1],
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#aa5917b50f07bd63319e56c1b60c903c5":[9,0,1,0,0,0],
 "structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#aa5917b50f07bd63319e56c1b60c903c5":[10,0,1,0,0,0],
 "structanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler_1_1error__entry.html":[9,0,5,4,0],
 "structanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler_1_1error__entry.html":[10,0,4,4,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX12 =
 "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html":[10,0,7,0,0,0],
 "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a4bc0fc449cee2d04dfc328ffd2d9bd7e":[9,0,11,0,0,0,1],
 "structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a4bc0fc449cee2d04dfc328ffd2d9bd7e":[10,0,7,0,0,0,1],
-"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d":[9,0,11,0,0,0,0],
-"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d":[10,0,7,0,0,0,0],
-"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a":[9,0,11,0,0,0,2],
-"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a":[10,0,7,0,0,0,2],
-"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html":[9,0,11,0,0,1],
-"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html":[10,0,7,0,0,1],
-"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a3da362a8b70c32a6188afbd1f3d06994":[9,0,11,0,0,1,3]
+"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d":[9,0,11,0,0,0,0]
 };

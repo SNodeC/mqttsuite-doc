@@ -256,14 +256,14 @@ var NAVTREEINDEX =
 "classinja_1_1FunctionNode.html#a9c66fe10f08db5215304d209f55b2a74",
 "classinja_1_1NodeVisitor.html#a983925f5e5368c6c40ab5358c3cbc030",
 "classjson__uri.html#a32b1d4d5ccd0bb7c53ba64cb702a354f",
-"classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#afb2ec01b241f591030515cc82f237988",
-"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18",
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a9e799935d50c470765cd036a4912c79a",
-"classnlohmann_1_1json__uri.html#a024acf65dc3388f4c651bd26c4ed0390",
-"index.html#connection-options-summary",
-"mqttbridge_2websocket_2SubProtocolFactory_8h.html",
-"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html#aa5917b50f07bd63319e56c1b60c903c5",
-"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a3da362a8b70c32a6188afbd1f3d06994"
+"classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a695ccafca764022552d51da3faccbdac",
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a59cfa5e554e04283efd19b66e6f5d432",
+"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a56b463e5a2e95db45a21ec44e0b78199",
+"classnlohmann_1_1json__schema_1_1root__schema.html#ad309223baec182d227689d60462cc271",
+"index.html#configuration",
+"mqttbridge_2lib_2Mqtt_8h.html",
+"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html",
+"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

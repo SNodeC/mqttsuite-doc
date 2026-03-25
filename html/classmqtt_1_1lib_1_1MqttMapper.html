@@ -168,7 +168,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00073">73</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00076">76</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a8616b92f0b5fa8052ec0173df60ee619" name="a8616b92f0b5fa8052ec0173df60ee619"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8616b92f0b5fa8052ec0173df60ee619">&#9670;&#160;</a></span>MappedPublishes</h2>
@@ -182,7 +182,7 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00080">80</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00083">83</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
 </div>
 </div>
@@ -202,12 +202,12 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00097">97</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   98</span>        : <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>(<span class="keyword">new</span> inja::Environment) {</div>
-<div class="line"><span class="lineno">   99</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_adf5a4c4753717fc459666f6e51b8379b"><div class="ttname"><a href="#adf5a4c4753717fc459666f6e51b8379b">mqtt::lib::MqttMapper::injaEnvironment</a></div><div class="ttdeci">inja::Environment * injaEnvironment</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00130">MqttMapper.h:130</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00099">99</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  100</span>        : <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>(<span class="keyword">new</span> inja::Environment) {</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_adf5a4c4753717fc459666f6e51b8379b"><div class="ttname"><a href="#adf5a4c4753717fc459666f6e51b8379b">mqtt::lib::MqttMapper::injaEnvironment</a></div><div class="ttdeci">inja::Environment * injaEnvironment</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00133">MqttMapper.h:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00130">injaEnvironment</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00133">injaEnvironment</a>.</p>
 
 </div>
 </div>
@@ -259,17 +259,17 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00101">101</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  101</span>                            {</div>
-<div class="line"><span class="lineno">  102</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>;</div>
-<div class="line"><span class="lineno">  103</span> </div>
-<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">for</span> (<span class="keywordtype">void</span>* pluginHandle : <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>) {</div>
-<div class="line"><span class="lineno">  105</span>            core::DynamicLoader::dlClose(pluginHandle);</div>
-<div class="line"><span class="lineno">  106</span>        }</div>
-<div class="line"><span class="lineno">  107</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aa5341c7fb53f10be81874732243d3fe6"><div class="ttname"><a href="#aa5341c7fb53f10be81874732243d3fe6">mqtt::lib::MqttMapper::pluginHandles</a></div><div class="ttdeci">std::list&lt; void * &gt; pluginHandles</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00128">MqttMapper.h:128</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00103">103</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  103</span>                            {</div>
+<div class="line"><span class="lineno">  104</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>;</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">for</span> (<span class="keywordtype">void</span>* pluginHandle : <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>) {</div>
+<div class="line"><span class="lineno">  107</span>            core::DynamicLoader::dlClose(pluginHandle);</div>
+<div class="line"><span class="lineno">  108</span>        }</div>
+<div class="line"><span class="lineno">  109</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aa5341c7fb53f10be81874732243d3fe6"><div class="ttname"><a href="#aa5341c7fb53f10be81874732243d3fe6">mqtt::lib::MqttMapper::pluginHandles</a></div><div class="ttdeci">std::list&lt; void * &gt; pluginHandles</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00131">MqttMapper.h:131</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00130">injaEnvironment</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00133">injaEnvironment</a>.</p>
 
 </div>
 </div>
@@ -289,13 +289,13 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00205">205</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  205</span>                               {</div>
-<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.dump();</div>
-<div class="line"><span class="lineno">  207</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a5afc5a77a22ad9611b1ede42b3b7ff12"><div class="ttname"><a href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mqtt::lib::MqttMapper::mappingJson</a></div><div class="ttdeci">nlohmann::json mappingJson</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00126">MqttMapper.h:126</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00207">207</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  207</span>                               {</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.dump();</div>
+<div class="line"><span class="lineno">  209</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a5afc5a77a22ad9611b1ede42b3b7ff12"><div class="ttname"><a href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mqtt::lib::MqttMapper::mappingJson</a></div><div class="ttdeci">nlohmann::json mappingJson</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00129">MqttMapper.h:129</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00126">mappingJson</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00129">mappingJson</a>.</p>
 
 </div>
 </div>
@@ -331,23 +331,23 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00288">288</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  290</span>                                                                           {</div>
-<div class="line"><span class="lineno">  291</span>        <span class="keyword">const</span> std::string name = topicLevelJson[<span class="stringliteral">&quot;name&quot;</span>];</div>
-<div class="line"><span class="lineno">  292</span> </div>
-<div class="line"><span class="lineno">  293</span>        <span class="keywordflow">if</span> (topicLevelJson.contains(<span class="stringliteral">&quot;subscription&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  294</span>            <span class="keyword">const</span> uint8_t qoS = topicLevelJson[<span class="stringliteral">&quot;subscription&quot;</span>][<span class="stringliteral">&quot;qos&quot;</span>];</div>
-<div class="line"><span class="lineno">  295</span> </div>
-<div class="line"><span class="lineno">  296</span>            topicList.emplace_back(topic + ((topic.empty() || topic == <span class="stringliteral">&quot;/&quot;</span>) &amp;&amp; !name.empty() ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;/&quot;</span>) + name, qoS);</div>
-<div class="line"><span class="lineno">  297</span>        }</div>
-<div class="line"><span class="lineno">  298</span> </div>
-<div class="line"><span class="lineno">  299</span>        <span class="keywordflow">if</span> (topicLevelJson.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  300</span>            <a class="code hl_function" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a>(topicLevelJson, topic + ((topic.empty() || topic == <span class="stringliteral">&quot;/&quot;</span>) &amp;&amp; !name.empty() ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;/&quot;</span>) + name, topicList);</div>
-<div class="line"><span class="lineno">  301</span>        }</div>
-<div class="line"><span class="lineno">  302</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a38f496c62e177cfd542ef1aa4e33ece2"><div class="ttname"><a href="#a38f496c62e177cfd542ef1aa4e33ece2">mqtt::lib::MqttMapper::extractSubscriptions</a></div><div class="ttdeci">std::list&lt; iot::mqtt::Topic &gt; extractSubscriptions() const</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00213">MqttMapper.cpp:213</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00290">290</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  292</span>                                                                           {</div>
+<div class="line"><span class="lineno">  293</span>        <span class="keyword">const</span> std::string name = topicLevelJson[<span class="stringliteral">&quot;name&quot;</span>];</div>
+<div class="line"><span class="lineno">  294</span> </div>
+<div class="line"><span class="lineno">  295</span>        <span class="keywordflow">if</span> (topicLevelJson.contains(<span class="stringliteral">&quot;subscription&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  296</span>            <span class="keyword">const</span> uint8_t qoS = topicLevelJson[<span class="stringliteral">&quot;subscription&quot;</span>][<span class="stringliteral">&quot;qos&quot;</span>];</div>
+<div class="line"><span class="lineno">  297</span> </div>
+<div class="line"><span class="lineno">  298</span>            topicList.emplace_back(topic + ((topic.empty() || topic == <span class="stringliteral">&quot;/&quot;</span>) &amp;&amp; !name.empty() ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;/&quot;</span>) + name, qoS);</div>
+<div class="line"><span class="lineno">  299</span>        }</div>
+<div class="line"><span class="lineno">  300</span> </div>
+<div class="line"><span class="lineno">  301</span>        <span class="keywordflow">if</span> (topicLevelJson.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  302</span>            <a class="code hl_function" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a>(topicLevelJson, topic + ((topic.empty() || topic == <span class="stringliteral">&quot;/&quot;</span>) &amp;&amp; !name.empty() ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;/&quot;</span>) + name, topicList);</div>
+<div class="line"><span class="lineno">  303</span>        }</div>
+<div class="line"><span class="lineno">  304</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a38f496c62e177cfd542ef1aa4e33ece2"><div class="ttname"><a href="#a38f496c62e177cfd542ef1aa4e33ece2">mqtt::lib::MqttMapper::extractSubscriptions</a></div><div class="ttdeci">std::list&lt; iot::mqtt::Topic &gt; extractSubscriptions() const</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00215">MqttMapper.cpp:215</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00305">extractSubscriptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00307">extractSubscriptions()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -371,14 +371,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00213">213</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  213</span>                                                                 {</div>
-<div class="line"><span class="lineno">  214</span>        std::list&lt;iot::mqtt::Topic&gt; topicList;</div>
-<div class="line"><span class="lineno">  215</span> </div>
-<div class="line"><span class="lineno">  216</span>        <a class="code hl_function" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a>(<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>], <span class="stringliteral">&quot;&quot;</span>, topicList);</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00215">215</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  215</span>                                                                 {</div>
+<div class="line"><span class="lineno">  216</span>        std::list&lt;iot::mqtt::Topic&gt; topicList;</div>
 <div class="line"><span class="lineno">  217</span> </div>
-<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">return</span> topicList;</div>
-<div class="line"><span class="lineno">  219</span>    }</div>
+<div class="line"><span class="lineno">  218</span>        <a class="code hl_function" href="#a38f496c62e177cfd542ef1aa4e33ece2">extractSubscriptions</a>(<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>], <span class="stringliteral">&quot;&quot;</span>, topicList);</div>
+<div class="line"><span class="lineno">  219</span> </div>
+<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">return</span> topicList;</div>
+<div class="line"><span class="lineno">  221</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00072">mqtt::mqttintegrator::lib::Mqtt::Mqtt()</a>, and <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00150">mqtt::mqttintegrator::lib::Mqtt::resubscribe()</a>.</p>
 <div class="dynheader">
@@ -421,23 +421,23 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00305">305</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  305</span>                                                                                                                              {</div>
-<div class="line"><span class="lineno">  306</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  307</span>            <span class="keyword">const</span> nlohmann::json&amp; topicLevels = <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;topic_level&quot;</span>];</div>
-<div class="line"><span class="lineno">  308</span> </div>
-<div class="line"><span class="lineno">  309</span>            <span class="keywordflow">if</span> (topicLevels.is_object()) {</div>
-<div class="line"><span class="lineno">  310</span>                <a class="code hl_function" href="#a0aaa509065586f1c2cb1f2f453263eed">extractSubscription</a>(topicLevels, topic, topicList);</div>
-<div class="line"><span class="lineno">  311</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  312</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; topicLevel : topicLevels) {</div>
-<div class="line"><span class="lineno">  313</span>                    <a class="code hl_function" href="#a0aaa509065586f1c2cb1f2f453263eed">extractSubscription</a>(topicLevel, topic, topicList);</div>
-<div class="line"><span class="lineno">  314</span>                }</div>
-<div class="line"><span class="lineno">  315</span>            }</div>
-<div class="line"><span class="lineno">  316</span>        }</div>
-<div class="line"><span class="lineno">  317</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a0aaa509065586f1c2cb1f2f453263eed"><div class="ttname"><a href="#a0aaa509065586f1c2cb1f2f453263eed">mqtt::lib::MqttMapper::extractSubscription</a></div><div class="ttdeci">static void extractSubscription(const nlohmann::json &amp;topicLevelJson, const std::string &amp;topic, std::list&lt; iot::mqtt::Topic &gt; &amp;topicList)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00288">MqttMapper.cpp:288</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00307">307</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  307</span>                                                                                                                              {</div>
+<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  309</span>            <span class="keyword">const</span> nlohmann::json&amp; topicLevels = <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;topic_level&quot;</span>];</div>
+<div class="line"><span class="lineno">  310</span> </div>
+<div class="line"><span class="lineno">  311</span>            <span class="keywordflow">if</span> (topicLevels.is_object()) {</div>
+<div class="line"><span class="lineno">  312</span>                <a class="code hl_function" href="#a0aaa509065586f1c2cb1f2f453263eed">extractSubscription</a>(topicLevels, topic, topicList);</div>
+<div class="line"><span class="lineno">  313</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  314</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; topicLevel : topicLevels) {</div>
+<div class="line"><span class="lineno">  315</span>                    <a class="code hl_function" href="#a0aaa509065586f1c2cb1f2f453263eed">extractSubscription</a>(topicLevel, topic, topicList);</div>
+<div class="line"><span class="lineno">  316</span>                }</div>
+<div class="line"><span class="lineno">  317</span>            }</div>
+<div class="line"><span class="lineno">  318</span>        }</div>
+<div class="line"><span class="lineno">  319</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a0aaa509065586f1c2cb1f2f453263eed"><div class="ttname"><a href="#a0aaa509065586f1c2cb1f2f453263eed">mqtt::lib::MqttMapper::extractSubscription</a></div><div class="ttdeci">static void extractSubscription(const nlohmann::json &amp;topicLevelJson, const std::string &amp;topic, std::list&lt; iot::mqtt::Topic &gt; &amp;topicList)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00290">MqttMapper.cpp:290</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00288">extractSubscription()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00290">extractSubscription()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -473,38 +473,38 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00319">319</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  319</span>                                                                                                          {</div>
-<div class="line"><span class="lineno">  320</span>        nlohmann::json foundTopicLevel;</div>
-<div class="line"><span class="lineno">  321</span> </div>
-<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">if</span> (topicLevel.is_object()) {</div>
-<div class="line"><span class="lineno">  323</span>            <span class="keyword">const</span> std::string::size_type slashPosition = topic.find(<span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><span class="lineno">  324</span>            <span class="keyword">const</span> std::string topicLevelName = topic.substr(0, slashPosition);</div>
-<div class="line"><span class="lineno">  325</span> </div>
-<div class="line"><span class="lineno">  326</span>            <span class="keywordflow">if</span> (topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == topicLevelName || topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == <span class="stringliteral">&quot;+&quot;</span> || topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == <span class="stringliteral">&quot;#&quot;</span>) {</div>
-<div class="line"><span class="lineno">  327</span>                <span class="keywordflow">if</span> (slashPosition == std::string::npos) {</div>
-<div class="line"><span class="lineno">  328</span>                    foundTopicLevel = topicLevel;</div>
-<div class="line"><span class="lineno">  329</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (topicLevel.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  330</span>                    foundTopicLevel = <a class="code hl_function" href="#a5af625b2a3f4493a48e1cb531c3ac1ed">findMatchingTopicLevel</a>(topicLevel[<span class="stringliteral">&quot;topic_level&quot;</span>], topic.substr(slashPosition + 1));</div>
-<div class="line"><span class="lineno">  331</span>                }</div>
-<div class="line"><span class="lineno">  332</span>            }</div>
-<div class="line"><span class="lineno">  333</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (topicLevel.is_array()) {</div>
-<div class="line"><span class="lineno">  334</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; topicLevelEntry : topicLevel) {</div>
-<div class="line"><span class="lineno">  335</span>                foundTopicLevel = <a class="code hl_function" href="#a5af625b2a3f4493a48e1cb531c3ac1ed">findMatchingTopicLevel</a>(topicLevelEntry, topic);</div>
-<div class="line"><span class="lineno">  336</span> </div>
-<div class="line"><span class="lineno">  337</span>                <span class="keywordflow">if</span> (!foundTopicLevel.empty()) {</div>
-<div class="line"><span class="lineno">  338</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  339</span>                }</div>
-<div class="line"><span class="lineno">  340</span>            }</div>
-<div class="line"><span class="lineno">  341</span>        }</div>
-<div class="line"><span class="lineno">  342</span> </div>
-<div class="line"><span class="lineno">  343</span>        <span class="keywordflow">return</span> foundTopicLevel;</div>
-<div class="line"><span class="lineno">  344</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a5af625b2a3f4493a48e1cb531c3ac1ed"><div class="ttname"><a href="#a5af625b2a3f4493a48e1cb531c3ac1ed">mqtt::lib::MqttMapper::findMatchingTopicLevel</a></div><div class="ttdeci">nlohmann::json findMatchingTopicLevel(const nlohmann::json &amp;topicLevel, const std::string &amp;topic)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00319">MqttMapper.cpp:319</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00321">321</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  321</span>                                                                                                          {</div>
+<div class="line"><span class="lineno">  322</span>        nlohmann::json foundTopicLevel;</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>        <span class="keywordflow">if</span> (topicLevel.is_object()) {</div>
+<div class="line"><span class="lineno">  325</span>            <span class="keyword">const</span> std::string::size_type slashPosition = topic.find(<span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno">  326</span>            <span class="keyword">const</span> std::string topicLevelName = topic.substr(0, slashPosition);</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>            <span class="keywordflow">if</span> (topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == topicLevelName || topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == <span class="stringliteral">&quot;+&quot;</span> || topicLevel[<span class="stringliteral">&quot;name&quot;</span>] == <span class="stringliteral">&quot;#&quot;</span>) {</div>
+<div class="line"><span class="lineno">  329</span>                <span class="keywordflow">if</span> (slashPosition == std::string::npos) {</div>
+<div class="line"><span class="lineno">  330</span>                    foundTopicLevel = topicLevel;</div>
+<div class="line"><span class="lineno">  331</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (topicLevel.contains(<span class="stringliteral">&quot;topic_level&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  332</span>                    foundTopicLevel = <a class="code hl_function" href="#a5af625b2a3f4493a48e1cb531c3ac1ed">findMatchingTopicLevel</a>(topicLevel[<span class="stringliteral">&quot;topic_level&quot;</span>], topic.substr(slashPosition + 1));</div>
+<div class="line"><span class="lineno">  333</span>                }</div>
+<div class="line"><span class="lineno">  334</span>            }</div>
+<div class="line"><span class="lineno">  335</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (topicLevel.is_array()) {</div>
+<div class="line"><span class="lineno">  336</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; topicLevelEntry : topicLevel) {</div>
+<div class="line"><span class="lineno">  337</span>                foundTopicLevel = <a class="code hl_function" href="#a5af625b2a3f4493a48e1cb531c3ac1ed">findMatchingTopicLevel</a>(topicLevelEntry, topic);</div>
+<div class="line"><span class="lineno">  338</span> </div>
+<div class="line"><span class="lineno">  339</span>                <span class="keywordflow">if</span> (!foundTopicLevel.empty()) {</div>
+<div class="line"><span class="lineno">  340</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  341</span>                }</div>
+<div class="line"><span class="lineno">  342</span>            }</div>
+<div class="line"><span class="lineno">  343</span>        }</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>        <span class="keywordflow">return</span> foundTopicLevel;</div>
+<div class="line"><span class="lineno">  346</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a5af625b2a3f4493a48e1cb531c3ac1ed"><div class="ttname"><a href="#a5af625b2a3f4493a48e1cb531c3ac1ed">mqtt::lib::MqttMapper::findMatchingTopicLevel</a></div><div class="ttdeci">nlohmann::json findMatchingTopicLevel(const nlohmann::json &amp;topicLevel, const std::string &amp;topic)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00321">MqttMapper.cpp:321</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00319">findMatchingTopicLevel()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00321">findMatchingTopicLevel()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00319">findMatchingTopicLevel()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00229">getMappings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00321">findMatchingTopicLevel()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00231">getMappings()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -533,10 +533,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00209">209</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  209</span>                                                        {</div>
-<div class="line"><span class="lineno">  210</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;connection&quot;</span>];</div>
-<div class="line"><span class="lineno">  211</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00211">211</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  211</span>                                                        {</div>
+<div class="line"><span class="lineno">  212</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;connection&quot;</span>];</div>
+<div class="line"><span class="lineno">  213</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00072">mqtt::mqttintegrator::lib::Mqtt::Mqtt()</a>, and <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00113">mqtt::mqttintegrator::lib::Mqtt::onConnected()</a>.</p>
 <div class="dynheader">
@@ -562,14 +562,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00201">201</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  201</span>                                                     {</div>
-<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>;</div>
-<div class="line"><span class="lineno">  203</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00203">203</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  203</span>                                                     {</div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>;</div>
+<div class="line"><span class="lineno">  205</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00126">mappingJson</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00129">mappingJson</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -593,71 +593,71 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00229">229</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  229</span>                                                                                          {</div>
-<div class="line"><span class="lineno">  230</span>        <a class="code hl_typedef" href="#a8616b92f0b5fa8052ec0173df60ee619">MappedPublishes</a> mappedPublishes;</div>
-<div class="line"><span class="lineno">  231</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.contains(<span class="stringliteral">&quot;mapping&quot;</span>) &amp;&amp; !<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>].empty()) {</div>
-<div class="line"><span class="lineno">  232</span>            nlohmann::json matchingTopicLevel = <a class="code hl_function" href="#a5af625b2a3f4493a48e1cb531c3ac1ed">findMatchingTopicLevel</a>(<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>][<span class="stringliteral">&quot;topic_level&quot;</span>], publish.getTopic());</div>
-<div class="line"><span class="lineno">  233</span> </div>
-<div class="line"><span class="lineno">  234</span>            <span class="keywordflow">if</span> (!matchingTopicLevel.empty()) {</div>
-<div class="line"><span class="lineno">  235</span>                <span class="keyword">const</span> nlohmann::json&amp; subscription = matchingTopicLevel[<span class="stringliteral">&quot;subscription&quot;</span>];</div>
-<div class="line"><span class="lineno">  236</span> </div>
-<div class="line"><span class="lineno">  237</span>                <span class="keywordflow">if</span> (subscription.contains(<span class="stringliteral">&quot;static&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  238</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Topic mapping found for:&quot;</span>;</div>
-<div class="line"><span class="lineno">  239</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Type: static&quot;</span>;</div>
-<div class="line"><span class="lineno">  240</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic: &quot;</span> &lt;&lt; publish.getTopic();</div>
-<div class="line"><span class="lineno">  241</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message: &quot;</span> &lt;&lt; publish.getMessage();</div>
-<div class="line"><span class="lineno">  242</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(publish.getQoS());</div>
-<div class="line"><span class="lineno">  243</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Retain: &quot;</span> &lt;&lt; publish.getRetain();</div>
-<div class="line"><span class="lineno">  244</span> </div>
-<div class="line"><span class="lineno">  245</span>                    <a class="code hl_function" href="#adfca0d6475af23914dfc25b4056184b5">getStaticMappings</a>(subscription[<span class="stringliteral">&quot;static&quot;</span>], publish, mappedPublishes);</div>
-<div class="line"><span class="lineno">  246</span>                }</div>
-<div class="line"><span class="lineno">  247</span> </div>
-<div class="line"><span class="lineno">  248</span>                <span class="keywordflow">if</span> (subscription.contains(<span class="stringliteral">&quot;value&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  249</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Topic mapping found for:&quot;</span>;</div>
-<div class="line"><span class="lineno">  250</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Type: value&quot;</span>;</div>
-<div class="line"><span class="lineno">  251</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic: &quot;</span> &lt;&lt; publish.getTopic();</div>
-<div class="line"><span class="lineno">  252</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message: &quot;</span> &lt;&lt; publish.getMessage();</div>
-<div class="line"><span class="lineno">  253</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(publish.getQoS());</div>
-<div class="line"><span class="lineno">  254</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Retain: &quot;</span> &lt;&lt; publish.getRetain();</div>
-<div class="line"><span class="lineno">  255</span> </div>
-<div class="line"><span class="lineno">  256</span>                    nlohmann::json <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>;</div>
-<div class="line"><span class="lineno">  257</span>                    <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;message&quot;</span>] = publish.getMessage();</div>
-<div class="line"><span class="lineno">  258</span> </div>
-<div class="line"><span class="lineno">  259</span>                    <a class="code hl_function" href="#a87fc6345c899ea6a7e58069daa666306">getTemplateMappings</a>(subscription[<span class="stringliteral">&quot;value&quot;</span>], <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, publish, mappedPublishes);</div>
-<div class="line"><span class="lineno">  260</span>                }</div>
-<div class="line"><span class="lineno">  261</span> </div>
-<div class="line"><span class="lineno">  262</span>                <span class="keywordflow">if</span> (subscription.contains(<span class="stringliteral">&quot;json&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  263</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Topic mapping found for:&quot;</span>;</div>
-<div class="line"><span class="lineno">  264</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Type: json&quot;</span>;</div>
-<div class="line"><span class="lineno">  265</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic: &quot;</span> &lt;&lt; publish.getTopic();</div>
-<div class="line"><span class="lineno">  266</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message: &quot;</span> &lt;&lt; publish.getMessage();</div>
-<div class="line"><span class="lineno">  267</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(publish.getQoS());</div>
-<div class="line"><span class="lineno">  268</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Retain: &quot;</span> &lt;&lt; publish.getRetain();</div>
-<div class="line"><span class="lineno">  269</span> </div>
-<div class="line"><span class="lineno">  270</span>                    <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  271</span>                        nlohmann::json <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>;</div>
-<div class="line"><span class="lineno">  272</span>                        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;message&quot;</span>] = nlohmann::json::parse(publish.getMessage());</div>
-<div class="line"><span class="lineno">  273</span> </div>
-<div class="line"><span class="lineno">  274</span>                        <a class="code hl_function" href="#a87fc6345c899ea6a7e58069daa666306">getTemplateMappings</a>(subscription[<span class="stringliteral">&quot;json&quot;</span>], <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, publish, mappedPublishes);</div>
-<div class="line"><span class="lineno">  275</span>                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::parse_error&amp; e) {</div>
-<div class="line"><span class="lineno">  276</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Parsing message into json failed: &quot;</span> &lt;&lt; publish.getMessage();</div>
-<div class="line"><span class="lineno">  277</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;     What: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span></div>
-<div class="line"><span class="lineno">  278</span>                                &lt;&lt; <span class="stringliteral">&quot;     Exception Id: &quot;</span> &lt;&lt; e.id &lt;&lt; <span class="charliteral">&#39;\n&#39;</span></div>
-<div class="line"><span class="lineno">  279</span>                                &lt;&lt; <span class="stringliteral">&quot;     Byte position of error: &quot;</span> &lt;&lt; e.byte;</div>
-<div class="line"><span class="lineno">  280</span>                    }</div>
-<div class="line"><span class="lineno">  281</span>                }</div>
-<div class="line"><span class="lineno">  282</span>            }</div>
-<div class="line"><span class="lineno">  283</span>        }</div>
-<div class="line"><span class="lineno">  284</span> </div>
-<div class="line"><span class="lineno">  285</span>        <span class="keywordflow">return</span> mappedPublishes;</div>
-<div class="line"><span class="lineno">  286</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00231">231</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  231</span>                                                                                          {</div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_typedef" href="#a8616b92f0b5fa8052ec0173df60ee619">MappedPublishes</a> mappedPublishes;</div>
+<div class="line"><span class="lineno">  233</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.contains(<span class="stringliteral">&quot;mapping&quot;</span>) &amp;&amp; !<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>].empty()) {</div>
+<div class="line"><span class="lineno">  234</span>            nlohmann::json matchingTopicLevel = <a class="code hl_function" href="#a5af625b2a3f4493a48e1cb531c3ac1ed">findMatchingTopicLevel</a>(<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>][<span class="stringliteral">&quot;topic_level&quot;</span>], publish.getTopic());</div>
+<div class="line"><span class="lineno">  235</span> </div>
+<div class="line"><span class="lineno">  236</span>            <span class="keywordflow">if</span> (!matchingTopicLevel.empty()) {</div>
+<div class="line"><span class="lineno">  237</span>                <span class="keyword">const</span> nlohmann::json&amp; subscription = matchingTopicLevel[<span class="stringliteral">&quot;subscription&quot;</span>];</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>                <span class="keywordflow">if</span> (subscription.contains(<span class="stringliteral">&quot;static&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  240</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Topic mapping found for:&quot;</span>;</div>
+<div class="line"><span class="lineno">  241</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Type: static&quot;</span>;</div>
+<div class="line"><span class="lineno">  242</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic: &quot;</span> &lt;&lt; publish.getTopic();</div>
+<div class="line"><span class="lineno">  243</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message: &quot;</span> &lt;&lt; publish.getMessage();</div>
+<div class="line"><span class="lineno">  244</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(publish.getQoS());</div>
+<div class="line"><span class="lineno">  245</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Retain: &quot;</span> &lt;&lt; publish.getRetain();</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>                    <a class="code hl_function" href="#adfca0d6475af23914dfc25b4056184b5">getStaticMappings</a>(subscription[<span class="stringliteral">&quot;static&quot;</span>], publish, mappedPublishes);</div>
+<div class="line"><span class="lineno">  248</span>                }</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>                <span class="keywordflow">if</span> (subscription.contains(<span class="stringliteral">&quot;value&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  251</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Topic mapping found for:&quot;</span>;</div>
+<div class="line"><span class="lineno">  252</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Type: value&quot;</span>;</div>
+<div class="line"><span class="lineno">  253</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic: &quot;</span> &lt;&lt; publish.getTopic();</div>
+<div class="line"><span class="lineno">  254</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message: &quot;</span> &lt;&lt; publish.getMessage();</div>
+<div class="line"><span class="lineno">  255</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(publish.getQoS());</div>
+<div class="line"><span class="lineno">  256</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Retain: &quot;</span> &lt;&lt; publish.getRetain();</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>                    nlohmann::json <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>;</div>
+<div class="line"><span class="lineno">  259</span>                    <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;message&quot;</span>] = publish.getMessage();</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>                    <a class="code hl_function" href="#a87fc6345c899ea6a7e58069daa666306">getTemplateMappings</a>(subscription[<span class="stringliteral">&quot;value&quot;</span>], <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, publish, mappedPublishes);</div>
+<div class="line"><span class="lineno">  262</span>                }</div>
+<div class="line"><span class="lineno">  263</span> </div>
+<div class="line"><span class="lineno">  264</span>                <span class="keywordflow">if</span> (subscription.contains(<span class="stringliteral">&quot;json&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  265</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Topic mapping found for:&quot;</span>;</div>
+<div class="line"><span class="lineno">  266</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Type: json&quot;</span>;</div>
+<div class="line"><span class="lineno">  267</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic: &quot;</span> &lt;&lt; publish.getTopic();</div>
+<div class="line"><span class="lineno">  268</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message: &quot;</span> &lt;&lt; publish.getMessage();</div>
+<div class="line"><span class="lineno">  269</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span>uint16_t<span class="keyword">&gt;</span>(publish.getQoS());</div>
+<div class="line"><span class="lineno">  270</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Retain: &quot;</span> &lt;&lt; publish.getRetain();</div>
+<div class="line"><span class="lineno">  271</span> </div>
+<div class="line"><span class="lineno">  272</span>                    <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  273</span>                        nlohmann::json <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>;</div>
+<div class="line"><span class="lineno">  274</span>                        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;message&quot;</span>] = nlohmann::json::parse(publish.getMessage());</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>                        <a class="code hl_function" href="#a87fc6345c899ea6a7e58069daa666306">getTemplateMappings</a>(subscription[<span class="stringliteral">&quot;json&quot;</span>], <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, publish, mappedPublishes);</div>
+<div class="line"><span class="lineno">  277</span>                    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::parse_error&amp; e) {</div>
+<div class="line"><span class="lineno">  278</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Parsing message into json failed: &quot;</span> &lt;&lt; publish.getMessage();</div>
+<div class="line"><span class="lineno">  279</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;     What: &quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span></div>
+<div class="line"><span class="lineno">  280</span>                                &lt;&lt; <span class="stringliteral">&quot;     Exception Id: &quot;</span> &lt;&lt; e.id &lt;&lt; <span class="charliteral">&#39;\n&#39;</span></div>
+<div class="line"><span class="lineno">  281</span>                                &lt;&lt; <span class="stringliteral">&quot;     Byte position of error: &quot;</span> &lt;&lt; e.byte;</div>
+<div class="line"><span class="lineno">  282</span>                    }</div>
+<div class="line"><span class="lineno">  283</span>                }</div>
+<div class="line"><span class="lineno">  284</span>            }</div>
+<div class="line"><span class="lineno">  285</span>        }</div>
+<div class="line"><span class="lineno">  286</span> </div>
+<div class="line"><span class="lineno">  287</span>        <span class="keywordflow">return</span> mappedPublishes;</div>
+<div class="line"><span class="lineno">  288</span>    }</div>
 <div class="ttc" id="abinary-validation_8cpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="binary-validation_8cpp_source.html#l00030">binary-validation.cpp:30</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a8616b92f0b5fa8052ec0173df60ee619"><div class="ttname"><a href="#a8616b92f0b5fa8052ec0173df60ee619">mqtt::lib::MqttMapper::MappedPublishes</a></div><div class="ttdeci">std::pair&lt; std::vector&lt; iot::mqtt::packets::Publish &gt;, std::vector&lt; ScheduledPublish &gt; &gt; MappedPublishes</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00080">MqttMapper.h:80</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a87fc6345c899ea6a7e58069daa666306"><div class="ttname"><a href="#a87fc6345c899ea6a7e58069daa666306">mqtt::lib::MqttMapper::getTemplateMappings</a></div><div class="ttdeci">void getTemplateMappings(const nlohmann::json &amp;templateMapping, nlohmann::json &amp;json, const iot::mqtt::packets::Publish &amp;publish, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00401">MqttMapper.cpp:401</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_adfca0d6475af23914dfc25b4056184b5"><div class="ttname"><a href="#adfca0d6475af23914dfc25b4056184b5">mqtt::lib::MqttMapper::getStaticMappings</a></div><div class="ttdeci">static void getStaticMappings(const nlohmann::json &amp;staticMapping, const iot::mqtt::packets::Publish &amp;publish, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00482">MqttMapper.cpp:482</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a8616b92f0b5fa8052ec0173df60ee619"><div class="ttname"><a href="#a8616b92f0b5fa8052ec0173df60ee619">mqtt::lib::MqttMapper::MappedPublishes</a></div><div class="ttdeci">std::pair&lt; std::vector&lt; iot::mqtt::packets::Publish &gt;, std::vector&lt; ScheduledPublish &gt; &gt; MappedPublishes</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00083">MqttMapper.h:83</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a87fc6345c899ea6a7e58069daa666306"><div class="ttname"><a href="#a87fc6345c899ea6a7e58069daa666306">mqtt::lib::MqttMapper::getTemplateMappings</a></div><div class="ttdeci">void getTemplateMappings(const nlohmann::json &amp;templateMapping, nlohmann::json &amp;json, const iot::mqtt::packets::Publish &amp;publish, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00403">MqttMapper.cpp:403</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_adfca0d6475af23914dfc25b4056184b5"><div class="ttname"><a href="#adfca0d6475af23914dfc25b4056184b5">mqtt::lib::MqttMapper::getStaticMappings</a></div><div class="ttdeci">static void getStaticMappings(const nlohmann::json &amp;staticMapping, const iot::mqtt::packets::Publish &amp;publish, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00484">MqttMapper.cpp:484</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00319">findMatchingTopicLevel()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00482">getStaticMappings()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00401">getTemplateMappings()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00321">findMatchingTopicLevel()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00484">getStaticMappings()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00403">getTemplateMappings()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttbroker_2lib_2Mqtt_8cpp_source.html#l00158">mqtt::mqttbroker::lib::Mqtt::onPublish()</a>, and <a class="el" href="mqttintegrator_2lib_2Mqtt_8cpp_source.html#l00136">mqtt::mqttintegrator::lib::Mqtt::onPublish()</a>.</p>
 <div class="dynheader">
@@ -696,15 +696,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00109">109</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  109</span>                                           {</div>
-<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ac28716824a521b90b7b94410fe993498">mappingJsonSchemaString</a>;</div>
-<div class="line"><span class="lineno">  111</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_ac28716824a521b90b7b94410fe993498"><div class="ttname"><a href="#ac28716824a521b90b7b94410fe993498">mqtt::lib::MqttMapper::mappingJsonSchemaString</a></div><div class="ttdeci">static const std::string mappingJsonSchemaString</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00134">MqttMapper.h:134</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00111">111</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  111</span>                                           {</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ac28716824a521b90b7b94410fe993498">mappingJsonSchemaString</a>;</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_ac28716824a521b90b7b94410fe993498"><div class="ttname"><a href="#ac28716824a521b90b7b94410fe993498">mqtt::lib::MqttMapper::mappingJsonSchemaString</a></div><div class="ttdeci">static const std::string mappingJsonSchemaString</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00137">MqttMapper.h:137</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00134">mappingJsonSchemaString</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00137">mappingJsonSchemaString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -745,21 +745,21 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00482">482</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  484</span>                                                                         {</div>
-<div class="line"><span class="lineno">  485</span>        <span class="keywordflow">if</span> (staticMapping.is_object()) {</div>
-<div class="line"><span class="lineno">  486</span>            <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(staticMapping, publish, mappedPublishes);</div>
-<div class="line"><span class="lineno">  487</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (staticMapping.is_array()) {</div>
-<div class="line"><span class="lineno">  488</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; concreteStaticMapping : staticMapping) {</div>
-<div class="line"><span class="lineno">  489</span>                <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(concreteStaticMapping, publish, mappedPublishes);</div>
-<div class="line"><span class="lineno">  490</span>            }</div>
-<div class="line"><span class="lineno">  491</span>        }</div>
-<div class="line"><span class="lineno">  492</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_af74123455930d8600d3b9d6b1b3db82f"><div class="ttname"><a href="#af74123455930d8600d3b9d6b1b3db82f">mqtt::lib::MqttMapper::publishMappedMessage</a></div><div class="ttdeci">static void publishMappedMessage(const std::string &amp;topic, const std::string &amp;message, uint8_t qoS, bool retain, double delay, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00425">MqttMapper.cpp:425</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00484">484</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  486</span>                                                                         {</div>
+<div class="line"><span class="lineno">  487</span>        <span class="keywordflow">if</span> (staticMapping.is_object()) {</div>
+<div class="line"><span class="lineno">  488</span>            <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(staticMapping, publish, mappedPublishes);</div>
+<div class="line"><span class="lineno">  489</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (staticMapping.is_array()) {</div>
+<div class="line"><span class="lineno">  490</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; concreteStaticMapping : staticMapping) {</div>
+<div class="line"><span class="lineno">  491</span>                <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(concreteStaticMapping, publish, mappedPublishes);</div>
+<div class="line"><span class="lineno">  492</span>            }</div>
+<div class="line"><span class="lineno">  493</span>        }</div>
+<div class="line"><span class="lineno">  494</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_af74123455930d8600d3b9d6b1b3db82f"><div class="ttname"><a href="#af74123455930d8600d3b9d6b1b3db82f">mqtt::lib::MqttMapper::publishMappedMessage</a></div><div class="ttdeci">static void publishMappedMessage(const std::string &amp;topic, const std::string &amp;message, uint8_t qoS, bool retain, double delay, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00427">MqttMapper.cpp:427</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00445">publishMappedMessage()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00447">publishMappedMessage()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00229">getMappings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00231">getMappings()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -810,32 +810,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00401">401</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  404</span>                                                                           {</div>
-<div class="line"><span class="lineno">  405</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;topic&quot;</span>] = publish.getTopic();</div>
-<div class="line"><span class="lineno">  406</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;qos&quot;</span>] = publish.getQoS();</div>
-<div class="line"><span class="lineno">  407</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;retain&quot;</span>] = publish.getRetain();</div>
-<div class="line"><span class="lineno">  408</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;package_identifier&quot;</span>] = publish.getPacketIdentifier();</div>
-<div class="line"><span class="lineno">  409</span> </div>
-<div class="line"><span class="lineno">  410</span>        <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  411</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Render data: &quot;</span> &lt;&lt; <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump();</div>
-<div class="line"><span class="lineno">  412</span> </div>
-<div class="line"><span class="lineno">  413</span>            <span class="keywordflow">if</span> (templateMapping.is_object()) {</div>
-<div class="line"><span class="lineno">  414</span>                <a class="code hl_function" href="#af9adb23cc42f2128abccb8edd5ad6396">publishMappedTemplate</a>(templateMapping, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, mappedPublishes);</div>
-<div class="line"><span class="lineno">  415</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  416</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; concreteTemplateMapping : templateMapping) {</div>
-<div class="line"><span class="lineno">  417</span>                    <a class="code hl_function" href="#af9adb23cc42f2128abccb8edd5ad6396">publishMappedTemplate</a>(concreteTemplateMapping, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, mappedPublishes);</div>
-<div class="line"><span class="lineno">  418</span>                }</div>
-<div class="line"><span class="lineno">  419</span>            }</div>
-<div class="line"><span class="lineno">  420</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  421</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;JSON Exception during Render data:\n&quot;</span> &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">  422</span>        }</div>
-<div class="line"><span class="lineno">  423</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_af9adb23cc42f2128abccb8edd5ad6396"><div class="ttname"><a href="#af9adb23cc42f2128abccb8edd5ad6396">mqtt::lib::MqttMapper::publishMappedTemplate</a></div><div class="ttdeci">void publishMappedTemplate(const nlohmann::json &amp;templateMapping, nlohmann::json &amp;json, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00346">MqttMapper.cpp:346</a></div></div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00403">403</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  406</span>                                                                           {</div>
+<div class="line"><span class="lineno">  407</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;topic&quot;</span>] = publish.getTopic();</div>
+<div class="line"><span class="lineno">  408</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;qos&quot;</span>] = publish.getQoS();</div>
+<div class="line"><span class="lineno">  409</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;retain&quot;</span>] = publish.getRetain();</div>
+<div class="line"><span class="lineno">  410</span>        <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;package_identifier&quot;</span>] = publish.getPacketIdentifier();</div>
+<div class="line"><span class="lineno">  411</span> </div>
+<div class="line"><span class="lineno">  412</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  413</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Render data: &quot;</span> &lt;&lt; <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump();</div>
+<div class="line"><span class="lineno">  414</span> </div>
+<div class="line"><span class="lineno">  415</span>            <span class="keywordflow">if</span> (templateMapping.is_object()) {</div>
+<div class="line"><span class="lineno">  416</span>                <a class="code hl_function" href="#af9adb23cc42f2128abccb8edd5ad6396">publishMappedTemplate</a>(templateMapping, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, mappedPublishes);</div>
+<div class="line"><span class="lineno">  417</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  418</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; concreteTemplateMapping : templateMapping) {</div>
+<div class="line"><span class="lineno">  419</span>                    <a class="code hl_function" href="#af9adb23cc42f2128abccb8edd5ad6396">publishMappedTemplate</a>(concreteTemplateMapping, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, mappedPublishes);</div>
+<div class="line"><span class="lineno">  420</span>                }</div>
+<div class="line"><span class="lineno">  421</span>            }</div>
+<div class="line"><span class="lineno">  422</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  423</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;JSON Exception during Render data:\n&quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  424</span>        }</div>
+<div class="line"><span class="lineno">  425</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_af9adb23cc42f2128abccb8edd5ad6396"><div class="ttname"><a href="#af9adb23cc42f2128abccb8edd5ad6396">mqtt::lib::MqttMapper::publishMappedTemplate</a></div><div class="ttdeci">void publishMappedTemplate(const nlohmann::json &amp;templateMapping, nlohmann::json &amp;json, MappedPublishes &amp;mappedPublishes)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00348">MqttMapper.cpp:348</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00346">publishMappedTemplate()</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00348">publishMappedTemplate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00229">getMappings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00231">getMappings()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -906,43 +906,43 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00445">445</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  447</span>                                                                            {</div>
-<div class="line"><span class="lineno">  448</span>        <span class="keyword">const</span> nlohmann::json&amp; messageMapping = staticMapping[<span class="stringliteral">&quot;message_mapping&quot;</span>];</div>
-<div class="line"><span class="lineno">  449</span> </div>
-<div class="line"><span class="lineno">  450</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message mapping: &quot;</span> &lt;&lt; messageMapping.dump();</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00447">447</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  449</span>                                                                            {</div>
+<div class="line"><span class="lineno">  450</span>        <span class="keyword">const</span> nlohmann::json&amp; messageMapping = staticMapping[<span class="stringliteral">&quot;message_mapping&quot;</span>];</div>
 <div class="line"><span class="lineno">  451</span> </div>
-<div class="line"><span class="lineno">  452</span>        <span class="keywordflow">if</span> (messageMapping.is_object()) {</div>
-<div class="line"><span class="lineno">  453</span>            <span class="keywordflow">if</span> (messageMapping[<span class="stringliteral">&quot;message&quot;</span>] == publish.getMessage()) {</div>
-<div class="line"><span class="lineno">  454</span>                <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(staticMapping[<span class="stringliteral">&quot;mapped_topic&quot;</span>],</div>
-<div class="line"><span class="lineno">  455</span>                                     messageMapping[<span class="stringliteral">&quot;mapped_message&quot;</span>],</div>
-<div class="line"><span class="lineno">  456</span>                                     staticMapping[<span class="stringliteral">&quot;qos&quot;</span>],</div>
-<div class="line"><span class="lineno">  457</span>                                     staticMapping[<span class="stringliteral">&quot;retain&quot;</span>],</div>
-<div class="line"><span class="lineno">  458</span>                                     staticMapping[<span class="stringliteral">&quot;delay&quot;</span>],</div>
-<div class="line"><span class="lineno">  459</span>                                     mappedPublishes);</div>
-<div class="line"><span class="lineno">  460</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  461</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    no matching mapped message found&quot;</span>;</div>
-<div class="line"><span class="lineno">  462</span>            }</div>
-<div class="line"><span class="lineno">  463</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  464</span>            <span class="keyword">const</span> nlohmann::json::const_iterator matchedMessageMappingIterator =</div>
-<div class="line"><span class="lineno">  465</span>                std::find_if(messageMapping.begin(), messageMapping.end(), [&amp;publish](<span class="keyword">const</span> nlohmann::json&amp; messageMappingCandidat) {</div>
-<div class="line"><span class="lineno">  466</span>                    return messageMappingCandidat[<span class="stringliteral">&quot;message&quot;</span>] == publish.getMessage();</div>
-<div class="line"><span class="lineno">  467</span>                });</div>
-<div class="line"><span class="lineno">  468</span> </div>
-<div class="line"><span class="lineno">  469</span>            <span class="keywordflow">if</span> (matchedMessageMappingIterator != messageMapping.end()) {</div>
-<div class="line"><span class="lineno">  470</span>                <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(staticMapping[<span class="stringliteral">&quot;mapped_topic&quot;</span>],</div>
-<div class="line"><span class="lineno">  471</span>                                     (*matchedMessageMappingIterator)[<span class="stringliteral">&quot;mapped_message&quot;</span>],</div>
-<div class="line"><span class="lineno">  472</span>                                     staticMapping[<span class="stringliteral">&quot;qos&quot;</span>],</div>
-<div class="line"><span class="lineno">  473</span>                                     staticMapping[<span class="stringliteral">&quot;retain&quot;</span>],</div>
-<div class="line"><span class="lineno">  474</span>                                     staticMapping[<span class="stringliteral">&quot;delay&quot;</span>],</div>
-<div class="line"><span class="lineno">  475</span>                                     mappedPublishes);</div>
-<div class="line"><span class="lineno">  476</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  477</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    no matching mapped message found&quot;</span>;</div>
-<div class="line"><span class="lineno">  478</span>            }</div>
-<div class="line"><span class="lineno">  479</span>        }</div>
-<div class="line"><span class="lineno">  480</span>    }</div>
+<div class="line"><span class="lineno">  452</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message mapping: &quot;</span> &lt;&lt; messageMapping.dump();</div>
+<div class="line"><span class="lineno">  453</span> </div>
+<div class="line"><span class="lineno">  454</span>        <span class="keywordflow">if</span> (messageMapping.is_object()) {</div>
+<div class="line"><span class="lineno">  455</span>            <span class="keywordflow">if</span> (messageMapping[<span class="stringliteral">&quot;message&quot;</span>] == publish.getMessage()) {</div>
+<div class="line"><span class="lineno">  456</span>                <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(staticMapping[<span class="stringliteral">&quot;mapped_topic&quot;</span>],</div>
+<div class="line"><span class="lineno">  457</span>                                     messageMapping[<span class="stringliteral">&quot;mapped_message&quot;</span>],</div>
+<div class="line"><span class="lineno">  458</span>                                     staticMapping[<span class="stringliteral">&quot;qos&quot;</span>],</div>
+<div class="line"><span class="lineno">  459</span>                                     staticMapping[<span class="stringliteral">&quot;retain&quot;</span>],</div>
+<div class="line"><span class="lineno">  460</span>                                     staticMapping[<span class="stringliteral">&quot;delay&quot;</span>],</div>
+<div class="line"><span class="lineno">  461</span>                                     mappedPublishes);</div>
+<div class="line"><span class="lineno">  462</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  463</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    no matching mapped message found&quot;</span>;</div>
+<div class="line"><span class="lineno">  464</span>            }</div>
+<div class="line"><span class="lineno">  465</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  466</span>            <span class="keyword">const</span> nlohmann::json::const_iterator matchedMessageMappingIterator =</div>
+<div class="line"><span class="lineno">  467</span>                std::find_if(messageMapping.begin(), messageMapping.end(), [&amp;publish](<span class="keyword">const</span> nlohmann::json&amp; messageMappingCandidat) {</div>
+<div class="line"><span class="lineno">  468</span>                    return messageMappingCandidat[<span class="stringliteral">&quot;message&quot;</span>] == publish.getMessage();</div>
+<div class="line"><span class="lineno">  469</span>                });</div>
+<div class="line"><span class="lineno">  470</span> </div>
+<div class="line"><span class="lineno">  471</span>            <span class="keywordflow">if</span> (matchedMessageMappingIterator != messageMapping.end()) {</div>
+<div class="line"><span class="lineno">  472</span>                <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(staticMapping[<span class="stringliteral">&quot;mapped_topic&quot;</span>],</div>
+<div class="line"><span class="lineno">  473</span>                                     (*matchedMessageMappingIterator)[<span class="stringliteral">&quot;mapped_message&quot;</span>],</div>
+<div class="line"><span class="lineno">  474</span>                                     staticMapping[<span class="stringliteral">&quot;qos&quot;</span>],</div>
+<div class="line"><span class="lineno">  475</span>                                     staticMapping[<span class="stringliteral">&quot;retain&quot;</span>],</div>
+<div class="line"><span class="lineno">  476</span>                                     staticMapping[<span class="stringliteral">&quot;delay&quot;</span>],</div>
+<div class="line"><span class="lineno">  477</span>                                     mappedPublishes);</div>
+<div class="line"><span class="lineno">  478</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  479</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    no matching mapped message found&quot;</span>;</div>
+<div class="line"><span class="lineno">  480</span>            }</div>
+<div class="line"><span class="lineno">  481</span>        }</div>
+<div class="line"><span class="lineno">  482</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00482">getStaticMappings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00484">getStaticMappings()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -998,27 +998,27 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00425">425</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  426</span>                                                                                                                                    {</div>
-<div class="line"><span class="lineno">  427</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped topic:&quot;</span>;</div>
-<div class="line"><span class="lineno">  428</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; topic;</div>
-<div class="line"><span class="lineno">  429</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped message:&quot;</span>;</div>
-<div class="line"><span class="lineno">  430</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; message;</div>
-<div class="line"><span class="lineno">  431</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Send mapping:&quot;</span> &lt;&lt; (delay &gt; 0 ? <span class="stringliteral">&quot; delayed&quot;</span> : <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">  432</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Topic: &quot;</span> &lt;&lt; topic;</div>
-<div class="line"><span class="lineno">  433</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Message: &quot;</span> &lt;&lt; message;</div>
-<div class="line"><span class="lineno">  434</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(qoS);</div>
-<div class="line"><span class="lineno">  435</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    retain: &quot;</span> &lt;&lt; retain;</div>
-<div class="line"><span class="lineno">  436</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Delay: &quot;</span> &lt;&lt; delay;</div>
-<div class="line"><span class="lineno">  437</span> </div>
-<div class="line"><span class="lineno">  438</span>        <span class="keywordflow">if</span> (delay &lt; 0.0) {</div>
-<div class="line"><span class="lineno">  439</span>            mappedPublishes.first.emplace_back(0, topic, message, qoS, <span class="keyword">false</span>, retain);</div>
-<div class="line"><span class="lineno">  440</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  441</span>            mappedPublishes.second.push_back({delay, iot::mqtt::packets::Publish(0, topic, message, qoS, <span class="keyword">false</span>, retain)});</div>
-<div class="line"><span class="lineno">  442</span>        }</div>
-<div class="line"><span class="lineno">  443</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00427">427</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  428</span>                                                                                                                                    {</div>
+<div class="line"><span class="lineno">  429</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped topic:&quot;</span>;</div>
+<div class="line"><span class="lineno">  430</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; topic;</div>
+<div class="line"><span class="lineno">  431</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped message:&quot;</span>;</div>
+<div class="line"><span class="lineno">  432</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; message;</div>
+<div class="line"><span class="lineno">  433</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Send mapping:&quot;</span> &lt;&lt; (delay &gt; 0 ? <span class="stringliteral">&quot; delayed&quot;</span> : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  434</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Topic: &quot;</span> &lt;&lt; topic;</div>
+<div class="line"><span class="lineno">  435</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Message: &quot;</span> &lt;&lt; message;</div>
+<div class="line"><span class="lineno">  436</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(qoS);</div>
+<div class="line"><span class="lineno">  437</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    retain: &quot;</span> &lt;&lt; retain;</div>
+<div class="line"><span class="lineno">  438</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Delay: &quot;</span> &lt;&lt; delay;</div>
+<div class="line"><span class="lineno">  439</span> </div>
+<div class="line"><span class="lineno">  440</span>        <span class="keywordflow">if</span> (delay &lt; 0.0) {</div>
+<div class="line"><span class="lineno">  441</span>            mappedPublishes.first.emplace_back(0, topic, message, qoS, <span class="keyword">false</span>, retain);</div>
+<div class="line"><span class="lineno">  442</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  443</span>            mappedPublishes.second.push_back({delay, iot::mqtt::packets::Publish(0, topic, message, qoS, <span class="keyword">false</span>, retain)});</div>
+<div class="line"><span class="lineno">  444</span>        }</div>
+<div class="line"><span class="lineno">  445</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00346">publishMappedTemplate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00348">publishMappedTemplate()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1059,70 +1059,70 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00346">346</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  346</span>                                                                                                                                    {</div>
-<div class="line"><span class="lineno">  347</span>        <span class="keyword">const</span> std::string&amp; mappingTemplate = templateMapping[<span class="stringliteral">&quot;mapping_template&quot;</span>];</div>
-<div class="line"><span class="lineno">  348</span>        <span class="keyword">const</span> std::string&amp; mappedTopic = templateMapping[<span class="stringliteral">&quot;mapped_topic&quot;</span>];</div>
-<div class="line"><span class="lineno">  349</span> </div>
-<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  351</span>            <span class="comment">// Render topic</span></div>
-<div class="line"><span class="lineno">  352</span>            <span class="keyword">const</span> std::string renderedTopic = <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;render(mappedTopic, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>);</div>
-<div class="line"><span class="lineno">  353</span>            <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;mapped_topic&quot;</span>] = renderedTopic;</div>
-<div class="line"><span class="lineno">  354</span> </div>
-<div class="line"><span class="lineno">  355</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped topic template: &quot;</span> &lt;&lt; mappedTopic;</div>
-<div class="line"><span class="lineno">  356</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; renderedTopic;</div>
-<div class="line"><span class="lineno">  357</span> </div>
-<div class="line"><span class="lineno">  358</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  359</span>                <span class="comment">// Render message</span></div>
-<div class="line"><span class="lineno">  360</span>                <span class="keyword">const</span> std::string renderedMessage = <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;render(mappingTemplate, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>);</div>
-<div class="line"><span class="lineno">  361</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped message template: &quot;</span> &lt;&lt; mappingTemplate;</div>
-<div class="line"><span class="lineno">  362</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; renderedMessage;</div>
-<div class="line"><span class="lineno">  363</span> </div>
-<div class="line"><span class="lineno">  364</span>                <span class="keyword">const</span> nlohmann::json&amp; suppressions = templateMapping[<span class="stringliteral">&quot;suppressions&quot;</span>];</div>
-<div class="line"><span class="lineno">  365</span>                <span class="keyword">const</span> <span class="keywordtype">bool</span> retain = templateMapping[<span class="stringliteral">&quot;retain&quot;</span>];</div>
-<div class="line"><span class="lineno">  366</span> </div>
-<div class="line"><span class="lineno">  367</span>                <span class="keywordflow">if</span> (suppressions.empty() || std::find(suppressions.begin(), suppressions.end(), renderedMessage) == suppressions.end() ||</div>
-<div class="line"><span class="lineno">  368</span>                    (retain &amp;&amp; renderedMessage.empty())) {</div>
-<div class="line"><span class="lineno">  369</span>                    <span class="keyword">const</span> uint8_t qoS = templateMapping[<span class="stringliteral">&quot;qos&quot;</span>];</div>
-<div class="line"><span class="lineno">  370</span>                    <span class="keyword">const</span> <span class="keywordtype">double</span> delay = templateMapping[<span class="stringliteral">&quot;delay&quot;</span>];</div>
-<div class="line"><span class="lineno">  371</span> </div>
-<div class="line"><span class="lineno">  372</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Send mapping:&quot;</span> &lt;&lt; (delay &gt; 0 ? <span class="stringliteral">&quot; delayed&quot;</span> : <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">  373</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Topic: &quot;</span> &lt;&lt; renderedTopic;</div>
-<div class="line"><span class="lineno">  374</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Message: &quot;</span> &lt;&lt; renderedMessage &lt;&lt; <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  375</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(qoS);</div>
-<div class="line"><span class="lineno">  376</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    retain: &quot;</span> &lt;&lt; retain;</div>
-<div class="line"><span class="lineno">  377</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Delay: &quot;</span> &lt;&lt; delay;</div>
-<div class="line"><span class="lineno">  378</span> </div>
-<div class="line"><span class="lineno">  379</span>                    <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(renderedTopic, renderedMessage, qoS, retain, delay, mappedPublishes);</div>
-<div class="line"><span class="lineno">  380</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  381</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Rendered message: &#39;&quot;</span> &lt;&lt; renderedMessage &lt;&lt; <span class="stringliteral">&quot;&#39; in suppression list:&quot;</span>;</div>
-<div class="line"><span class="lineno">  382</span>                    <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; item : suppressions) {</div>
-<div class="line"><span class="lineno">  383</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;         &#39;&quot;</span> &lt;&lt; item.get&lt;std::string&gt;() &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
-<div class="line"><span class="lineno">  384</span>                    }</div>
-<div class="line"><span class="lineno">  385</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Send mapping: suppressed&quot;</span>;</div>
-<div class="line"><span class="lineno">  386</span>                }</div>
-<div class="line"><span class="lineno">  387</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> inja::InjaError&amp; e) {</div>
-<div class="line"><span class="lineno">  388</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message template rendering failed: &quot;</span> &lt;&lt; mappingTemplate &lt;&lt; <span class="stringliteral">&quot; : &quot;</span> &lt;&lt; <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump();</div>
-<div class="line"><span class="lineno">  389</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    What: &quot;</span> &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">  390</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1">type</a> &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877">message</a>;</div>
-<div class="line"><span class="lineno">  391</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA (line:column):&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#a1e2fa7b29c73a132931c0cdd0ebd0d80">line</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#af30f2583f88e64efd5b1866feb8b4703">column</a>;</div>
-<div class="line"><span class="lineno">  392</span>            }</div>
-<div class="line"><span class="lineno">  393</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> inja::InjaError&amp; e) {</div>
-<div class="line"><span class="lineno">  394</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic template rendering failed: &quot;</span> &lt;&lt; mappingTemplate &lt;&lt; <span class="stringliteral">&quot; : &quot;</span> &lt;&lt; <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump();</div>
-<div class="line"><span class="lineno">  395</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    What: &quot;</span> &lt;&lt; e.what();</div>
-<div class="line"><span class="lineno">  396</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1">type</a> &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877">message</a>;</div>
-<div class="line"><span class="lineno">  397</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA (line:column):&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#a1e2fa7b29c73a132931c0cdd0ebd0d80">line</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#af30f2583f88e64efd5b1866feb8b4703">column</a>;</div>
-<div class="line"><span class="lineno">  398</span>        }</div>
-<div class="line"><span class="lineno">  399</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00348">348</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  348</span>                                                                                                                                    {</div>
+<div class="line"><span class="lineno">  349</span>        <span class="keyword">const</span> std::string&amp; mappingTemplate = templateMapping[<span class="stringliteral">&quot;mapping_template&quot;</span>];</div>
+<div class="line"><span class="lineno">  350</span>        <span class="keyword">const</span> std::string&amp; mappedTopic = templateMapping[<span class="stringliteral">&quot;mapped_topic&quot;</span>];</div>
+<div class="line"><span class="lineno">  351</span> </div>
+<div class="line"><span class="lineno">  352</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  353</span>            <span class="comment">// Render topic</span></div>
+<div class="line"><span class="lineno">  354</span>            <span class="keyword">const</span> std::string renderedTopic = <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;render(mappedTopic, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>);</div>
+<div class="line"><span class="lineno">  355</span>            <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>[<span class="stringliteral">&quot;mapped_topic&quot;</span>] = renderedTopic;</div>
+<div class="line"><span class="lineno">  356</span> </div>
+<div class="line"><span class="lineno">  357</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped topic template: &quot;</span> &lt;&lt; mappedTopic;</div>
+<div class="line"><span class="lineno">  358</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; renderedTopic;</div>
+<div class="line"><span class="lineno">  359</span> </div>
+<div class="line"><span class="lineno">  360</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  361</span>                <span class="comment">// Render message</span></div>
+<div class="line"><span class="lineno">  362</span>                <span class="keyword">const</span> std::string renderedMessage = <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;render(mappingTemplate, <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>);</div>
+<div class="line"><span class="lineno">  363</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Mapped message template: &quot;</span> &lt;&lt; mappingTemplate;</div>
+<div class="line"><span class="lineno">  364</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    -&gt; &quot;</span> &lt;&lt; renderedMessage;</div>
+<div class="line"><span class="lineno">  365</span> </div>
+<div class="line"><span class="lineno">  366</span>                <span class="keyword">const</span> nlohmann::json&amp; suppressions = templateMapping[<span class="stringliteral">&quot;suppressions&quot;</span>];</div>
+<div class="line"><span class="lineno">  367</span>                <span class="keyword">const</span> <span class="keywordtype">bool</span> retain = templateMapping[<span class="stringliteral">&quot;retain&quot;</span>];</div>
+<div class="line"><span class="lineno">  368</span> </div>
+<div class="line"><span class="lineno">  369</span>                <span class="keywordflow">if</span> (suppressions.empty() || std::find(suppressions.begin(), suppressions.end(), renderedMessage) == suppressions.end() ||</div>
+<div class="line"><span class="lineno">  370</span>                    (retain &amp;&amp; renderedMessage.empty())) {</div>
+<div class="line"><span class="lineno">  371</span>                    <span class="keyword">const</span> uint8_t qoS = templateMapping[<span class="stringliteral">&quot;qos&quot;</span>];</div>
+<div class="line"><span class="lineno">  372</span>                    <span class="keyword">const</span> <span class="keywordtype">double</span> delay = templateMapping[<span class="stringliteral">&quot;delay&quot;</span>];</div>
+<div class="line"><span class="lineno">  373</span> </div>
+<div class="line"><span class="lineno">  374</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Send mapping:&quot;</span> &lt;&lt; (delay &gt; 0 ? <span class="stringliteral">&quot; delayed&quot;</span> : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  375</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Topic: &quot;</span> &lt;&lt; renderedTopic;</div>
+<div class="line"><span class="lineno">  376</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Message: &quot;</span> &lt;&lt; renderedMessage &lt;&lt; <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  377</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    QoS: &quot;</span> &lt;&lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(qoS);</div>
+<div class="line"><span class="lineno">  378</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    retain: &quot;</span> &lt;&lt; retain;</div>
+<div class="line"><span class="lineno">  379</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Delay: &quot;</span> &lt;&lt; delay;</div>
+<div class="line"><span class="lineno">  380</span> </div>
+<div class="line"><span class="lineno">  381</span>                    <a class="code hl_function" href="#af74123455930d8600d3b9d6b1b3db82f">publishMappedMessage</a>(renderedTopic, renderedMessage, qoS, retain, delay, mappedPublishes);</div>
+<div class="line"><span class="lineno">  382</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  383</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    Rendered message: &#39;&quot;</span> &lt;&lt; renderedMessage &lt;&lt; <span class="stringliteral">&quot;&#39; in suppression list:&quot;</span>;</div>
+<div class="line"><span class="lineno">  384</span>                    <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; item : suppressions) {</div>
+<div class="line"><span class="lineno">  385</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;         &#39;&quot;</span> &lt;&lt; item.get&lt;std::string&gt;() &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
+<div class="line"><span class="lineno">  386</span>                    }</div>
+<div class="line"><span class="lineno">  387</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Send mapping: suppressed&quot;</span>;</div>
+<div class="line"><span class="lineno">  388</span>                }</div>
+<div class="line"><span class="lineno">  389</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> inja::InjaError&amp; e) {</div>
+<div class="line"><span class="lineno">  390</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Message template rendering failed: &quot;</span> &lt;&lt; mappingTemplate &lt;&lt; <span class="stringliteral">&quot; : &quot;</span> &lt;&lt; <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump();</div>
+<div class="line"><span class="lineno">  391</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    What: &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  392</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1">type</a> &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877">message</a>;</div>
+<div class="line"><span class="lineno">  393</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA (line:column):&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#a1e2fa7b29c73a132931c0cdd0ebd0d80">line</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#af30f2583f88e64efd5b1866feb8b4703">column</a>;</div>
+<div class="line"><span class="lineno">  394</span>            }</div>
+<div class="line"><span class="lineno">  395</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> inja::InjaError&amp; e) {</div>
+<div class="line"><span class="lineno">  396</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Topic template rendering failed: &quot;</span> &lt;&lt; mappingTemplate &lt;&lt; <span class="stringliteral">&quot; : &quot;</span> &lt;&lt; <a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>.dump();</div>
+<div class="line"><span class="lineno">  397</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    What: &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  398</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1">type</a> &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877">message</a>;</div>
+<div class="line"><span class="lineno">  399</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    INJA (line:column):&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#a1e2fa7b29c73a132931c0cdd0ebd0d80">line</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">location</a>.<a class="code hl_variable" href="structinja_1_1SourceLocation.html#af30f2583f88e64efd5b1866feb8b4703">column</a>;</div>
+<div class="line"><span class="lineno">  400</span>        }</div>
+<div class="line"><span class="lineno">  401</span>    }</div>
 <div class="ttc" id="astructinja_1_1InjaError_html_a427af6ae1ff2209118a01c03a6f650a1"><div class="ttname"><a href="structinja_1_1InjaError.html#a427af6ae1ff2209118a01c03a6f650a1">inja::InjaError::type</a></div><div class="ttdeci">const std::string type</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00283">inja.hpp:283</a></div></div>
 <div class="ttc" id="astructinja_1_1InjaError_html_a42b0040364f55512c36ae90303fad033"><div class="ttname"><a href="structinja_1_1InjaError.html#a42b0040364f55512c36ae90303fad033">inja::InjaError::location</a></div><div class="ttdeci">const SourceLocation location</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00286">inja.hpp:286</a></div></div>
 <div class="ttc" id="astructinja_1_1InjaError_html_a632ac8e10b0f029b6ca4efa5b0378877"><div class="ttname"><a href="structinja_1_1InjaError.html#a632ac8e10b0f029b6ca4efa5b0378877">inja::InjaError::message</a></div><div class="ttdeci">const std::string message</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00284">inja.hpp:284</a></div></div>
 <div class="ttc" id="astructinja_1_1SourceLocation_html_a1e2fa7b29c73a132931c0cdd0ebd0d80"><div class="ttname"><a href="structinja_1_1SourceLocation.html#a1e2fa7b29c73a132931c0cdd0ebd0d80">inja::SourceLocation::line</a></div><div class="ttdeci">size_t line</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00278">inja.hpp:278</a></div></div>
 <div class="ttc" id="astructinja_1_1SourceLocation_html_af30f2583f88e64efd5b1866feb8b4703"><div class="ttname"><a href="structinja_1_1SourceLocation.html#af30f2583f88e64efd5b1866feb8b4703">inja::SourceLocation::column</a></div><div class="ttdeci">size_t column</div><div class="ttdef"><b>Definition</b> <a href="inja_8hpp_source.html#l00279">inja.hpp:279</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00279">inja::SourceLocation::column</a>, <a class="el" href="MqttMapper_8h_source.html#l00130">injaEnvironment</a>, <a class="el" href="inja_8hpp_source.html#l00278">inja::SourceLocation::line</a>, <a class="el" href="inja_8hpp_source.html#l00286">inja::InjaError::location</a>, <a class="el" href="inja_8hpp_source.html#l00284">inja::InjaError::message</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00425">publishMappedMessage()</a>, <a class="el" href="inja_8hpp_source.html#l03093">inja::Environment::render()</a>, and <a class="el" href="inja_8hpp_source.html#l00283">inja::InjaError::type</a>.</p>
+<p class="reference">References <a class="el" href="inja_8hpp_source.html#l00279">inja::SourceLocation::column</a>, <a class="el" href="MqttMapper_8h_source.html#l00133">injaEnvironment</a>, <a class="el" href="inja_8hpp_source.html#l00278">inja::SourceLocation::line</a>, <a class="el" href="inja_8hpp_source.html#l00286">inja::InjaError::location</a>, <a class="el" href="inja_8hpp_source.html#l00284">inja::InjaError::message</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00427">publishMappedMessage()</a>, <a class="el" href="inja_8hpp_source.html#l03093">inja::Environment::render()</a>, and <a class="el" href="inja_8hpp_source.html#l00283">inja::InjaError::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00401">getTemplateMappings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00403">getTemplateMappings()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1151,99 +1151,99 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00113">113</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  113</span>                                                        { <span class="comment">// can throw</span></div>
-<div class="line"><span class="lineno">  114</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>;</div>
-<div class="line"><span class="lineno">  115</span> </div>
-<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">for</span> (<span class="keywordtype">void</span>* handle : <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>) {</div>
-<div class="line"><span class="lineno">  117</span>            core::DynamicLoader::dlClose(handle);</div>
-<div class="line"><span class="lineno">  118</span>        }</div>
-<div class="line"><span class="lineno">  119</span>        <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>.clear();</div>
-<div class="line"><span class="lineno">  120</span> </div>
-<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a> = <span class="keyword">new</span> inja::Environment;</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00115">115</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  115</span>                                                        { <span class="comment">// can throw</span></div>
+<div class="line"><span class="lineno">  116</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>;</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">for</span> (<span class="keywordtype">void</span>* handle : <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>) {</div>
+<div class="line"><span class="lineno">  119</span>            core::DynamicLoader::dlClose(handle);</div>
+<div class="line"><span class="lineno">  120</span>        }</div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>.clear();</div>
 <div class="line"><span class="lineno">  122</span> </div>
-<div class="line"><span class="lineno">  123</span>        nlohmann::json defaultPatch;</div>
+<div class="line"><span class="lineno">  123</span>        <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a> = <span class="keyword">new</span> inja::Environment;</div>
 <div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  126</span>            defaultPatch = <a class="code hl_variable" href="#aa119b43adb42c62ad254cd4cb5dc7a34">validator</a>.validate(<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>);</div>
-<div class="line"><span class="lineno">  127</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Validating JSON failed: Mapping JSON = &quot;</span> + <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.dump(4) + <span class="stringliteral">&quot;\n&quot;</span> + e.what());</div>
-<div class="line"><span class="lineno">  129</span>        }</div>
-<div class="line"><span class="lineno">  130</span> </div>
-<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  132</span>            <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a> = <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.patch(defaultPatch);</div>
-<div class="line"><span class="lineno">  133</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  134</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Patching JSON with default patch failed: Default patch = &quot;</span> + defaultPatch.dump(4) + <span class="stringliteral">&quot;\n&quot;</span> + e.what());</div>
-<div class="line"><span class="lineno">  135</span>        }</div>
-<div class="line"><span class="lineno">  136</span> </div>
-<div class="line"><span class="lineno">  137</span>        <span class="keywordtype">bool</span> mustReconnect = this-&gt;<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;connection&quot;</span>] != <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;connection&quot;</span>];</div>
+<div class="line"><span class="lineno">  125</span>        nlohmann::json defaultPatch;</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  128</span>            defaultPatch = <a class="code hl_variable" href="#aa119b43adb42c62ad254cd4cb5dc7a34">validator</a>.validate(<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>);</div>
+<div class="line"><span class="lineno">  129</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Validating JSON failed: Mapping JSON = &quot;</span> + <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.dump(4) + <span class="stringliteral">&quot;\n&quot;</span> + e.what());</div>
+<div class="line"><span class="lineno">  131</span>        }</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  134</span>            <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a> = <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>.patch(defaultPatch);</div>
+<div class="line"><span class="lineno">  135</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Patching JSON with default patch failed: Default patch = &quot;</span> + defaultPatch.dump(4) + <span class="stringliteral">&quot;\n&quot;</span> + e.what());</div>
+<div class="line"><span class="lineno">  137</span>        }</div>
 <div class="line"><span class="lineno">  138</span> </div>
-<div class="line"><span class="lineno">  139</span>        this-&gt;<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a> = <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>;</div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordtype">bool</span> mustReconnect = this-&gt;<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;connection&quot;</span>] != <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;connection&quot;</span>];</div>
 <div class="line"><span class="lineno">  140</span> </div>
-<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>].contains(<span class="stringliteral">&quot;plugins&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; pluginJson : <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>][<span class="stringliteral">&quot;plugins&quot;</span>]) {</div>
-<div class="line"><span class="lineno">  143</span>                <span class="keyword">const</span> std::string plugin = pluginJson;</div>
-<div class="line"><span class="lineno">  144</span> </div>
-<div class="line"><span class="lineno">  145</span>                <span class="keywordtype">void</span>* handle = core::DynamicLoader::dlOpen(plugin);</div>
+<div class="line"><span class="lineno">  141</span>        this-&gt;<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a> = <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>;</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>].contains(<span class="stringliteral">&quot;plugins&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">for</span> (<span class="keyword">const</span> nlohmann::json&amp; pluginJson : <a class="code hl_variable" href="#a5afc5a77a22ad9611b1ede42b3b7ff12">mappingJson</a>[<span class="stringliteral">&quot;mapping&quot;</span>][<span class="stringliteral">&quot;plugins&quot;</span>]) {</div>
+<div class="line"><span class="lineno">  145</span>                <span class="keyword">const</span> std::string plugin = pluginJson;</div>
 <div class="line"><span class="lineno">  146</span> </div>
-<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">if</span> (handle != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">  148</span>                    <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>.push_back(handle);</div>
-<div class="line"><span class="lineno">  149</span> </div>
-<div class="line"><span class="lineno">  150</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Loading plugin: &quot;</span> &lt;&lt; plugin &lt;&lt; <span class="stringliteral">&quot; ...&quot;</span>;</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordtype">void</span>* handle = core::DynamicLoader::dlOpen(plugin);</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">if</span> (handle != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">  150</span>                    <a class="code hl_variable" href="#aa5341c7fb53f10be81874732243d3fe6">pluginHandles</a>.push_back(handle);</div>
 <div class="line"><span class="lineno">  151</span> </div>
-<div class="line"><span class="lineno">  152</span>                    <span class="keyword">const</span> std::vector&lt;mqtt::lib::Function&gt;* loadedFunctions =</div>
-<div class="line"><span class="lineno">  153</span>                        <span class="keyword">static_cast&lt;</span>std::vector&lt;mqtt::lib::Function&gt;*<span class="keyword">&gt;</span>(core::DynamicLoader::dlSym(handle, <span class="stringliteral">&quot;functions&quot;</span>));</div>
-<div class="line"><span class="lineno">  154</span>                    <span class="keywordflow">if</span> (loadedFunctions != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">  155</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;none void callbacks&#39;&quot;</span>;</div>
-<div class="line"><span class="lineno">  156</span>                        <span class="keywordflow">for</span> (<span class="keyword">const</span> mqtt::lib::Function&amp; function : *loadedFunctions) {</div>
-<div class="line"><span class="lineno">  157</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; function.name;</div>
-<div class="line"><span class="lineno">  158</span> </div>
-<div class="line"><span class="lineno">  159</span>                            <span class="keywordflow">if</span> (function.numArgs &gt;= 0) {</div>
-<div class="line"><span class="lineno">  160</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_callback(function.name, function.numArgs, function.function);</div>
-<div class="line"><span class="lineno">  161</span>                            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  162</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_callback(function.name, function.function);</div>
-<div class="line"><span class="lineno">  163</span>                            }</div>
-<div class="line"><span class="lineno">  164</span>                        }</div>
-<div class="line"><span class="lineno">  165</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;none void callbacks done&#39;&quot;</span>;</div>
-<div class="line"><span class="lineno">  166</span>                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  167</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  No inja none &#39;void callbacks found&#39; in plugin &quot;</span> &lt;&lt; plugin;</div>
-<div class="line"><span class="lineno">  168</span>                    }</div>
-<div class="line"><span class="lineno">  169</span> </div>
-<div class="line"><span class="lineno">  170</span>                    <span class="keyword">const</span> std::vector&lt;mqtt::lib::VoidFunction&gt;* loadedVoidFunctions =</div>
-<div class="line"><span class="lineno">  171</span>                        <span class="keyword">static_cast&lt;</span>std::vector&lt;mqtt::lib::VoidFunction&gt;*<span class="keyword">&gt;</span>(core::DynamicLoader::dlSym(handle, <span class="stringliteral">&quot;voidFunctions&quot;</span>));</div>
-<div class="line"><span class="lineno">  172</span>                    <span class="keywordflow">if</span> (loadedVoidFunctions != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">  173</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;void callbacks&#39;&quot;</span>;</div>
-<div class="line"><span class="lineno">  174</span>                        <span class="keywordflow">for</span> (<span class="keyword">const</span> mqtt::lib::VoidFunction&amp; voidFunction : *loadedVoidFunctions) {</div>
-<div class="line"><span class="lineno">  175</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; voidFunction.name;</div>
-<div class="line"><span class="lineno">  176</span> </div>
-<div class="line"><span class="lineno">  177</span>                            <span class="keywordflow">if</span> (voidFunction.numArgs &gt;= 0) {</div>
-<div class="line"><span class="lineno">  178</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_void_callback(voidFunction.name, voidFunction.numArgs, voidFunction.function);</div>
-<div class="line"><span class="lineno">  179</span>                            } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  180</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_void_callback(voidFunction.name, voidFunction.function);</div>
-<div class="line"><span class="lineno">  181</span>                            }</div>
-<div class="line"><span class="lineno">  182</span>                        }</div>
-<div class="line"><span class="lineno">  183</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;void callbacks&#39; done&quot;</span>;</div>
-<div class="line"><span class="lineno">  184</span>                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  185</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  No inja &#39;void callbacks&#39; found in plugin &quot;</span> &lt;&lt; plugin;</div>
-<div class="line"><span class="lineno">  186</span>                    }</div>
-<div class="line"><span class="lineno">  187</span> </div>
-<div class="line"><span class="lineno">  188</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Loading plugin done: &quot;</span> &lt;&lt; plugin;</div>
-<div class="line"><span class="lineno">  189</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  190</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Error loading plugin: &quot;</span> &lt;&lt; plugin;</div>
-<div class="line"><span class="lineno">  191</span>                    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Error loading plugin &#39;&quot;</span> + plugin + <span class="stringliteral">&quot;&#39;: &quot;</span> + core::DynamicLoader::dlError());</div>
-<div class="line"><span class="lineno">  192</span>                }</div>
-<div class="line"><span class="lineno">  193</span>            }</div>
-<div class="line"><span class="lineno">  194</span> </div>
-<div class="line"><span class="lineno">  195</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Loading plugins done&quot;</span>;</div>
-<div class="line"><span class="lineno">  196</span>        }</div>
-<div class="line"><span class="lineno">  197</span> </div>
-<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">return</span> mustReconnect;</div>
-<div class="line"><span class="lineno">  199</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aa119b43adb42c62ad254cd4cb5dc7a34"><div class="ttname"><a href="#aa119b43adb42c62ad254cd4cb5dc7a34">mqtt::lib::MqttMapper::validator</a></div><div class="ttdeci">static const nlohmann::json_schema::json_validator validator</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00132">MqttMapper.h:132</a></div></div>
+<div class="line"><span class="lineno">  152</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Loading plugin: &quot;</span> &lt;&lt; plugin &lt;&lt; <span class="stringliteral">&quot; ...&quot;</span>;</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>                    <span class="keyword">const</span> std::vector&lt;mqtt::lib::Function&gt;* loadedFunctions =</div>
+<div class="line"><span class="lineno">  155</span>                        <span class="keyword">static_cast&lt;</span>std::vector&lt;mqtt::lib::Function&gt;*<span class="keyword">&gt;</span>(core::DynamicLoader::dlSym(handle, <span class="stringliteral">&quot;functions&quot;</span>));</div>
+<div class="line"><span class="lineno">  156</span>                    <span class="keywordflow">if</span> (loadedFunctions != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">  157</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;none void callbacks&#39;&quot;</span>;</div>
+<div class="line"><span class="lineno">  158</span>                        <span class="keywordflow">for</span> (<span class="keyword">const</span> mqtt::lib::Function&amp; function : *loadedFunctions) {</div>
+<div class="line"><span class="lineno">  159</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; function.name;</div>
+<div class="line"><span class="lineno">  160</span> </div>
+<div class="line"><span class="lineno">  161</span>                            <span class="keywordflow">if</span> (function.numArgs &gt;= 0) {</div>
+<div class="line"><span class="lineno">  162</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_callback(function.name, function.numArgs, function.function);</div>
+<div class="line"><span class="lineno">  163</span>                            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  164</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_callback(function.name, function.function);</div>
+<div class="line"><span class="lineno">  165</span>                            }</div>
+<div class="line"><span class="lineno">  166</span>                        }</div>
+<div class="line"><span class="lineno">  167</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;none void callbacks done&#39;&quot;</span>;</div>
+<div class="line"><span class="lineno">  168</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  169</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  No inja none &#39;void callbacks found&#39; in plugin &quot;</span> &lt;&lt; plugin;</div>
+<div class="line"><span class="lineno">  170</span>                    }</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>                    <span class="keyword">const</span> std::vector&lt;mqtt::lib::VoidFunction&gt;* loadedVoidFunctions =</div>
+<div class="line"><span class="lineno">  173</span>                        <span class="keyword">static_cast&lt;</span>std::vector&lt;mqtt::lib::VoidFunction&gt;*<span class="keyword">&gt;</span>(core::DynamicLoader::dlSym(handle, <span class="stringliteral">&quot;voidFunctions&quot;</span>));</div>
+<div class="line"><span class="lineno">  174</span>                    <span class="keywordflow">if</span> (loadedVoidFunctions != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">  175</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;void callbacks&#39;&quot;</span>;</div>
+<div class="line"><span class="lineno">  176</span>                        <span class="keywordflow">for</span> (<span class="keyword">const</span> mqtt::lib::VoidFunction&amp; voidFunction : *loadedVoidFunctions) {</div>
+<div class="line"><span class="lineno">  177</span>                            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; voidFunction.name;</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>                            <span class="keywordflow">if</span> (voidFunction.numArgs &gt;= 0) {</div>
+<div class="line"><span class="lineno">  180</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_void_callback(voidFunction.name, voidFunction.numArgs, voidFunction.function);</div>
+<div class="line"><span class="lineno">  181</span>                            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  182</span>                                <a class="code hl_variable" href="#adf5a4c4753717fc459666f6e51b8379b">injaEnvironment</a>-&gt;add_void_callback(voidFunction.name, voidFunction.function);</div>
+<div class="line"><span class="lineno">  183</span>                            }</div>
+<div class="line"><span class="lineno">  184</span>                        }</div>
+<div class="line"><span class="lineno">  185</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Registering inja &#39;void callbacks&#39; done&quot;</span>;</div>
+<div class="line"><span class="lineno">  186</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  187</span>                        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  No inja &#39;void callbacks&#39; found in plugin &quot;</span> &lt;&lt; plugin;</div>
+<div class="line"><span class="lineno">  188</span>                    }</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Loading plugin done: &quot;</span> &lt;&lt; plugin;</div>
+<div class="line"><span class="lineno">  191</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  192</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;  Error loading plugin: &quot;</span> &lt;&lt; plugin;</div>
+<div class="line"><span class="lineno">  193</span>                    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Error loading plugin &#39;&quot;</span> + plugin + <span class="stringliteral">&quot;&#39;: &quot;</span> + core::DynamicLoader::dlError());</div>
+<div class="line"><span class="lineno">  194</span>                }</div>
+<div class="line"><span class="lineno">  195</span>            }</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Loading plugins done&quot;</span>;</div>
+<div class="line"><span class="lineno">  198</span>        }</div>
+<div class="line"><span class="lineno">  199</span> </div>
+<div class="line"><span class="lineno">  200</span>        <span class="keywordflow">return</span> mustReconnect;</div>
+<div class="line"><span class="lineno">  201</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_aa119b43adb42c62ad254cd4cb5dc7a34"><div class="ttname"><a href="#aa119b43adb42c62ad254cd4cb5dc7a34">mqtt::lib::MqttMapper::validator</a></div><div class="ttdeci">static const nlohmann::json_schema::json_validator validator</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8h_source.html#l00135">MqttMapper.h:135</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00130">injaEnvironment</a>, <a class="el" href="MqttMapper_8h_source.html#l00126">mappingJson</a>, <a class="el" href="MqttMapper_8h_source.html#l00128">pluginHandles</a>, <a class="el" href="json-validator_8cpp_source.html#l01505">nlohmann::json_schema::json_validator::validate()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00132">validator</a>.</p>
+<p class="reference">References <a class="el" href="MqttMapper_8h_source.html#l00133">injaEnvironment</a>, <a class="el" href="MqttMapper_8h_source.html#l00129">mappingJson</a>, <a class="el" href="MqttMapper_8h_source.html#l00131">pluginHandles</a>, <a class="el" href="json-validator_8cpp_source.html#l01505">nlohmann::json_schema::json_validator::validate()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00135">validator</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00056">mqtt::lib::ConfigApplication::ConfigApplication()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00104">mqtt::lib::ConfigApplication::setMapping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00056">mqtt::lib::ConfigApplication::ConfigApplication()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00103">mqtt::lib::ConfigApplication::setMapping()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1280,12 +1280,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00221">221</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  221</span>                                                                    {</div>
-<div class="line"><span class="lineno">  222</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa119b43adb42c62ad254cd4cb5dc7a34">validator</a>.validate(<a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>);</div>
-<div class="line"><span class="lineno">  223</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00223">223</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  223</span>                                                                    {</div>
+<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa119b43adb42c62ad254cd4cb5dc7a34">validator</a>.validate(<a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>);</div>
+<div class="line"><span class="lineno">  225</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01505">nlohmann::json_schema::json_validator::validate()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00132">validator</a>.</p>
+<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01505">nlohmann::json_schema::json_validator::validate()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00135">validator</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="JsonMappingReader_8cpp_source.html#l00265">mqtt::lib::JsonMappingReader::rollbackTo()</a>.</p>
 <div class="dynheader">
@@ -1328,14 +1328,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00225">225</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  225</span>                                                                                                                 {</div>
-<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa119b43adb42c62ad254cd4cb5dc7a34">validator</a>.validate(<a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, err);</div>
-<div class="line"><span class="lineno">  227</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8cpp_source.html#l00227">227</a> of file <a class="el" href="MqttMapper_8cpp_source.html">MqttMapper.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  227</span>                                                                                                                 {</div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa119b43adb42c62ad254cd4cb5dc7a34">validator</a>.validate(<a class="code hl_typedef" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>, err);</div>
+<div class="line"><span class="lineno">  229</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01511">nlohmann::json_schema::json_validator::validate()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00132">validator</a>.</p>
+<p class="reference">References <a class="el" href="json-validator_8cpp_source.html#l01511">nlohmann::json_schema::json_validator::validate()</a>, and <a class="el" href="MqttMapper_8h_source.html#l00135">validator</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1370,9 +1370,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00130">130</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00133">133</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00097">MqttMapper()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00346">publishMappedTemplate()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00113">setMapping()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00101">~MqttMapper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00099">MqttMapper()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00348">publishMappedTemplate()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00115">setMapping()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00103">~MqttMapper()</a>.</p>
 
 </div>
 </div>
@@ -1396,9 +1396,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00126">126</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00129">129</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00205">dump()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00201">getMapping()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00113">setMapping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00207">dump()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00203">getMapping()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00115">setMapping()</a>.</p>
 
 </div>
 </div>
@@ -1422,9 +1422,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00134">134</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00137">137</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00109">getSchema()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00111">getSchema()</a>.</p>
 
 </div>
 </div>
@@ -1448,9 +1448,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00128">128</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00131">131</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00113">setMapping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00115">setMapping()</a>.</p>
 
 </div>
 </div>
@@ -1474,9 +1474,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00132">132</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MqttMapper_8h_source.html#l00135">135</a> of file <a class="el" href="MqttMapper_8h_source.html">MqttMapper.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00113">setMapping()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00221">validate()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00225">validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MqttMapper_8cpp_source.html#l00115">setMapping()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00223">validate()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00227">validate()</a>.</p>
 
 </div>
 </div>

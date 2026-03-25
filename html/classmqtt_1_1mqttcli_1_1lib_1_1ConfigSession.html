@@ -181,32 +181,32 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00125">125</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  126</span>        : utils::SubCommand(parent, <span class="keyword">this</span>, <span class="stringliteral">&quot;Applications&quot;</span>)</div>
-<div class="line"><span class="lineno">  127</span>        , <a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  128</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--client-id&quot;</span>, <span class="stringliteral">&quot;MQTT Client-ID&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  129</span>        , <a class="code hl_variable" href="#ac8d1e72874be6cd6307e17b4e6925975">qoSOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  130</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--qos&quot;</span>, <span class="stringliteral">&quot;Quality of service&quot;</span>, <span class="stringliteral">&quot;uint8_t&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>, CLI::Range(0, 2)), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  131</span>        , <a class="code hl_variable" href="#a32d9f41d291bf87955ee3f3f5a219938">retainSessionOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  132</span>              setConfigurable(</div>
-<div class="line"><span class="lineno">  133</span>                  addFlag(<span class="stringliteral">&quot;--retain-session{true},-r{true}&quot;</span>, <span class="stringliteral">&quot;Clean session&quot;</span>, <span class="stringliteral">&quot;bool&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>, CLI::IsMember({<span class="stringliteral">&quot;true&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>})), <span class="keyword">true</span>)</div>
-<div class="line"><span class="lineno">  134</span>                  -&gt;needs(<a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>))</div>
-<div class="line"><span class="lineno">  135</span>        , <a class="code hl_variable" href="#a18c4505393e1244b6cb6599da46502d9">keepAliveOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  136</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--keep-alive&quot;</span>, <span class="stringliteral">&quot;Quality of service&quot;</span>, <span class="stringliteral">&quot;uint16_t&quot;</span>, <span class="stringliteral">&quot;60&quot;</span>, CLI::TypeValidator&lt;uint16_t&gt;()), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  137</span>        , <a class="code hl_variable" href="#aeb84dbbb8f7b5e204860d07649928d6a">willTopicOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  138</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--will-topic&quot;</span>, <span class="stringliteral">&quot;MQTT will topic&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  139</span>        , <a class="code hl_variable" href="#a34f6cca6dae7f3edc82935052b07b8ea">willMessageOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  140</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--will-message&quot;</span>, <span class="stringliteral">&quot;MQTT will message&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  141</span>        , <a class="code hl_variable" href="#af867f693660c2cd73decf7373bc96f65">willQoSOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  142</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--will-qos&quot;</span>, <span class="stringliteral">&quot;MQTT will quality of service&quot;</span>, <span class="stringliteral">&quot;uint8_t&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>, CLI::TypeValidator&lt;uint8_t&gt;()), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  143</span>        , <a class="code hl_variable" href="#afc713391e1cf8c988c284e060893807f">willRetainOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  144</span>              setConfigurable(addFlag(<span class="stringliteral">&quot;--will-retain{true}&quot;</span>, <span class="stringliteral">&quot;MQTT will message retain&quot;</span>, <span class="stringliteral">&quot;bool&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>, CLI::IsMember({<span class="stringliteral">&quot;true&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>})),</div>
-<div class="line"><span class="lineno">  145</span>                              <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  146</span>        , <a class="code hl_variable" href="#a7a1fc11ca829332a829b2dc7fa5d87ef">usernameOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  147</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--username&quot;</span>, <span class="stringliteral">&quot;MQTT username&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  148</span>        , <a class="code hl_variable" href="#a1f1ca92e69323702b6c0991a75edfeb7">passwordOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  149</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--password&quot;</span>, <span class="stringliteral">&quot;MQTT password&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>)) {</div>
-<div class="line"><span class="lineno">  150</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00123">123</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  124</span>        : utils::SubCommand(parent, <span class="keyword">this</span>, <span class="stringliteral">&quot;Applications&quot;</span>)</div>
+<div class="line"><span class="lineno">  125</span>        , <a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  126</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--client-id&quot;</span>, <span class="stringliteral">&quot;MQTT Client-ID&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  127</span>        , <a class="code hl_variable" href="#ac8d1e72874be6cd6307e17b4e6925975">qoSOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  128</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--qos&quot;</span>, <span class="stringliteral">&quot;Quality of service&quot;</span>, <span class="stringliteral">&quot;uint8_t&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>, CLI::Range(0, 2)), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  129</span>        , <a class="code hl_variable" href="#a32d9f41d291bf87955ee3f3f5a219938">retainSessionOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  130</span>              setConfigurable(</div>
+<div class="line"><span class="lineno">  131</span>                  addFlag(<span class="stringliteral">&quot;--retain-session{true},-r{true}&quot;</span>, <span class="stringliteral">&quot;Clean session&quot;</span>, <span class="stringliteral">&quot;bool&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>, CLI::IsMember({<span class="stringliteral">&quot;true&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>})), <span class="keyword">true</span>)</div>
+<div class="line"><span class="lineno">  132</span>                  -&gt;needs(<a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>))</div>
+<div class="line"><span class="lineno">  133</span>        , <a class="code hl_variable" href="#a18c4505393e1244b6cb6599da46502d9">keepAliveOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  134</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--keep-alive&quot;</span>, <span class="stringliteral">&quot;Quality of service&quot;</span>, <span class="stringliteral">&quot;uint16_t&quot;</span>, <span class="stringliteral">&quot;60&quot;</span>, CLI::TypeValidator&lt;uint16_t&gt;()), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  135</span>        , <a class="code hl_variable" href="#aeb84dbbb8f7b5e204860d07649928d6a">willTopicOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  136</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--will-topic&quot;</span>, <span class="stringliteral">&quot;MQTT will topic&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  137</span>        , <a class="code hl_variable" href="#a34f6cca6dae7f3edc82935052b07b8ea">willMessageOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  138</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--will-message&quot;</span>, <span class="stringliteral">&quot;MQTT will message&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  139</span>        , <a class="code hl_variable" href="#af867f693660c2cd73decf7373bc96f65">willQoSOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  140</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--will-qos&quot;</span>, <span class="stringliteral">&quot;MQTT will quality of service&quot;</span>, <span class="stringliteral">&quot;uint8_t&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>, CLI::TypeValidator&lt;uint8_t&gt;()), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  141</span>        , <a class="code hl_variable" href="#afc713391e1cf8c988c284e060893807f">willRetainOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  142</span>              setConfigurable(addFlag(<span class="stringliteral">&quot;--will-retain{true}&quot;</span>, <span class="stringliteral">&quot;MQTT will message retain&quot;</span>, <span class="stringliteral">&quot;bool&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>, CLI::IsMember({<span class="stringliteral">&quot;true&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>})),</div>
+<div class="line"><span class="lineno">  143</span>                              <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  144</span>        , <a class="code hl_variable" href="#a7a1fc11ca829332a829b2dc7fa5d87ef">usernameOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  145</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--username&quot;</span>, <span class="stringliteral">&quot;MQTT username&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  146</span>        , <a class="code hl_variable" href="#a1f1ca92e69323702b6c0991a75edfeb7">passwordOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  147</span>              setConfigurable(addOption(<span class="stringliteral">&quot;--password&quot;</span>, <span class="stringliteral">&quot;MQTT password&quot;</span>, <span class="stringliteral">&quot;string&quot;</span>, CLI::TypeValidator&lt;std::string&gt;()), <span class="keyword">true</span>)) {</div>
+<div class="line"><span class="lineno">  148</span>    }</div>
 <div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSession_html_a18c4505393e1244b6cb6599da46502d9"><div class="ttname"><a href="#a18c4505393e1244b6cb6599da46502d9">mqtt::mqttcli::lib::ConfigSession::keepAliveOpt</a></div><div class="ttdeci">CLI::Option * keepAliveOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00151">ConfigSections.h:151</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSession_html_a1f1ca92e69323702b6c0991a75edfeb7"><div class="ttname"><a href="#a1f1ca92e69323702b6c0991a75edfeb7">mqtt::mqttcli::lib::ConfigSession::passwordOpt</a></div><div class="ttdeci">CLI::Option * passwordOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00157">ConfigSections.h:157</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSession_html_a32d9f41d291bf87955ee3f3f5a219938"><div class="ttname"><a href="#a32d9f41d291bf87955ee3f3f5a219938">mqtt::mqttcli::lib::ConfigSession::retainSessionOpt</a></div><div class="ttdeci">CLI::Option * retainSessionOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00150">ConfigSections.h:150</a></div></div>
@@ -240,15 +240,11 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00152">152</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  152</span>                                  {</div>
-<div class="line"><span class="lineno">  153</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -267,10 +263,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00155">155</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  155</span>                                               {</div>
-<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  157</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00152">152</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  152</span>                                               {</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  154</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00148">clientIdOpt</a>.</p>
 
@@ -298,10 +294,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00185">185</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  185</span>                                               {</div>
-<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a18c4505393e1244b6cb6599da46502d9">keepAliveOpt</a>-&gt;as&lt;uint16_t&gt;();</div>
-<div class="line"><span class="lineno">  187</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00182">182</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  182</span>                                               {</div>
+<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a18c4505393e1244b6cb6599da46502d9">keepAliveOpt</a>-&gt;as&lt;uint16_t&gt;();</div>
+<div class="line"><span class="lineno">  184</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00151">keepAliveOpt</a>.</p>
 
@@ -329,10 +325,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00245">245</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  245</span>                                               {</div>
-<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a1f1ca92e69323702b6c0991a75edfeb7">passwordOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  247</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00242">242</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  242</span>                                               {</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a1f1ca92e69323702b6c0991a75edfeb7">passwordOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  244</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00157">passwordOpt</a>.</p>
 
@@ -360,10 +356,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00165">165</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  165</span>                                        {</div>
-<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ac8d1e72874be6cd6307e17b4e6925975">qoSOpt</a>-&gt;as&lt;uint8_t&gt;();</div>
-<div class="line"><span class="lineno">  167</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00162">162</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  162</span>                                        {</div>
+<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#ac8d1e72874be6cd6307e17b4e6925975">qoSOpt</a>-&gt;as&lt;uint8_t&gt;();</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00149">qoSOpt</a>.</p>
 
@@ -391,10 +387,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00175">175</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  175</span>                                               {</div>
-<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a32d9f41d291bf87955ee3f3f5a219938">retainSessionOpt</a>-&gt;as&lt;<span class="keywordtype">bool</span>&gt;();</div>
-<div class="line"><span class="lineno">  177</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00172">172</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  172</span>                                               {</div>
+<div class="line"><span class="lineno">  173</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a32d9f41d291bf87955ee3f3f5a219938">retainSessionOpt</a>-&gt;as&lt;<span class="keywordtype">bool</span>&gt;();</div>
+<div class="line"><span class="lineno">  174</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00150">retainSessionOpt</a>.</p>
 
@@ -422,10 +418,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00235">235</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  235</span>                                               {</div>
-<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a7a1fc11ca829332a829b2dc7fa5d87ef">usernameOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  237</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00232">232</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  232</span>                                               {</div>
+<div class="line"><span class="lineno">  233</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a7a1fc11ca829332a829b2dc7fa5d87ef">usernameOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  234</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00156">usernameOpt</a>.</p>
 
@@ -453,10 +449,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00205">205</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  205</span>                                                  {</div>
-<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a34f6cca6dae7f3edc82935052b07b8ea">willMessageOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  207</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00202">202</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  202</span>                                                  {</div>
+<div class="line"><span class="lineno">  203</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a34f6cca6dae7f3edc82935052b07b8ea">willMessageOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  204</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00153">willMessageOpt</a>.</p>
 
@@ -484,10 +480,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00215">215</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  215</span>                                            {</div>
-<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#af867f693660c2cd73decf7373bc96f65">willQoSOpt</a>-&gt;as&lt;uint8_t&gt;();</div>
-<div class="line"><span class="lineno">  217</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00212">212</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  212</span>                                            {</div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#af867f693660c2cd73decf7373bc96f65">willQoSOpt</a>-&gt;as&lt;uint8_t&gt;();</div>
+<div class="line"><span class="lineno">  214</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00154">willQoSOpt</a>.</p>
 
@@ -515,10 +511,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00225">225</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  225</span>                                            {</div>
-<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#afc713391e1cf8c988c284e060893807f">willRetainOpt</a>-&gt;as&lt;<span class="keywordtype">bool</span>&gt;();</div>
-<div class="line"><span class="lineno">  227</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00222">222</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  222</span>                                            {</div>
+<div class="line"><span class="lineno">  223</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#afc713391e1cf8c988c284e060893807f">willRetainOpt</a>-&gt;as&lt;<span class="keywordtype">bool</span>&gt;();</div>
+<div class="line"><span class="lineno">  224</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00155">willRetainOpt</a>.</p>
 
@@ -546,10 +542,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00195">195</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  195</span>                                                {</div>
-<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aeb84dbbb8f7b5e204860d07649928d6a">willTopicOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  197</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00192">192</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  192</span>                                                {</div>
+<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aeb84dbbb8f7b5e204860d07649928d6a">willTopicOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  194</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00152">willTopicOpt</a>.</p>
 
@@ -577,12 +573,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00159">159</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  159</span>                                                                                   {</div>
-<div class="line"><span class="lineno">  160</span>        <a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>-&gt;default_val(clientId)-&gt;clear();</div>
-<div class="line"><span class="lineno">  161</span> </div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  163</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00156">156</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  156</span>                                                                                   {</div>
+<div class="line"><span class="lineno">  157</span>        <a class="code hl_variable" href="#ae0c97e8868595be9b0c7a108863d8893">clientIdOpt</a>-&gt;default_val(clientId)-&gt;clear();</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  160</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00148">clientIdOpt</a>.</p>
 
@@ -603,12 +599,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00189">189</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  189</span>                                                                             {</div>
-<div class="line"><span class="lineno">  190</span>        <a class="code hl_variable" href="#a18c4505393e1244b6cb6599da46502d9">keepAliveOpt</a>-&gt;default_val(keepAlive)-&gt;clear();</div>
-<div class="line"><span class="lineno">  191</span> </div>
-<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  193</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00186">186</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  186</span>                                                                             {</div>
+<div class="line"><span class="lineno">  187</span>        <a class="code hl_variable" href="#a18c4505393e1244b6cb6599da46502d9">keepAliveOpt</a>-&gt;default_val(keepAlive)-&gt;clear();</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  190</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00151">keepAliveOpt</a>.</p>
 
@@ -629,12 +625,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00249">249</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  249</span>                                                                                   {</div>
-<div class="line"><span class="lineno">  250</span>        <a class="code hl_variable" href="#a1f1ca92e69323702b6c0991a75edfeb7">passwordOpt</a>-&gt;default_val(password)-&gt;clear();</div>
-<div class="line"><span class="lineno">  251</span> </div>
-<div class="line"><span class="lineno">  252</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  253</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00246">246</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  246</span>                                                                                   {</div>
+<div class="line"><span class="lineno">  247</span>        <a class="code hl_variable" href="#a1f1ca92e69323702b6c0991a75edfeb7">passwordOpt</a>-&gt;default_val(password)-&gt;clear();</div>
+<div class="line"><span class="lineno">  248</span> </div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  250</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00157">passwordOpt</a>.</p>
 
@@ -655,12 +651,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00169">169</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  169</span>                                                                {</div>
-<div class="line"><span class="lineno">  170</span>        <a class="code hl_variable" href="#ac8d1e72874be6cd6307e17b4e6925975">qoSOpt</a>-&gt;default_val(qoS)-&gt;clear();</div>
-<div class="line"><span class="lineno">  171</span> </div>
-<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  173</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00166">166</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  166</span>                                                                {</div>
+<div class="line"><span class="lineno">  167</span>        <a class="code hl_variable" href="#ac8d1e72874be6cd6307e17b4e6925975">qoSOpt</a>-&gt;default_val(qoS)-&gt;clear();</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  170</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00149">qoSOpt</a>.</p>
 
@@ -681,12 +677,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00179">179</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  179</span>                                                                                 {</div>
-<div class="line"><span class="lineno">  180</span>        <a class="code hl_variable" href="#a32d9f41d291bf87955ee3f3f5a219938">retainSessionOpt</a>-&gt;default_val(retainSession)-&gt;clear();</div>
-<div class="line"><span class="lineno">  181</span> </div>
-<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  183</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00176">176</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  176</span>                                                                                 {</div>
+<div class="line"><span class="lineno">  177</span>        <a class="code hl_variable" href="#a32d9f41d291bf87955ee3f3f5a219938">retainSessionOpt</a>-&gt;default_val(retainSession)-&gt;clear();</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  180</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00150">retainSessionOpt</a>.</p>
 
@@ -707,12 +703,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00239">239</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  239</span>                                                                                    {</div>
-<div class="line"><span class="lineno">  240</span>        <a class="code hl_variable" href="#a7a1fc11ca829332a829b2dc7fa5d87ef">usernameOpt</a>-&gt;default_val(username)-&gt;clear();</div>
-<div class="line"><span class="lineno">  241</span> </div>
-<div class="line"><span class="lineno">  242</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  243</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00236">236</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  236</span>                                                                                    {</div>
+<div class="line"><span class="lineno">  237</span>        <a class="code hl_variable" href="#a7a1fc11ca829332a829b2dc7fa5d87ef">usernameOpt</a>-&gt;default_val(username)-&gt;clear();</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  240</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00156">usernameOpt</a>.</p>
 
@@ -733,12 +729,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00219">219</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  219</span>                                                                         {</div>
-<div class="line"><span class="lineno">  220</span>        <a class="code hl_variable" href="#af867f693660c2cd73decf7373bc96f65">willQoSOpt</a>-&gt;default_val(willQoS)-&gt;clear();</div>
-<div class="line"><span class="lineno">  221</span> </div>
-<div class="line"><span class="lineno">  222</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  223</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00216">216</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  216</span>                                                                         {</div>
+<div class="line"><span class="lineno">  217</span>        <a class="code hl_variable" href="#af867f693660c2cd73decf7373bc96f65">willQoSOpt</a>-&gt;default_val(willQoS)-&gt;clear();</div>
+<div class="line"><span class="lineno">  218</span> </div>
+<div class="line"><span class="lineno">  219</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  220</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00154">willQoSOpt</a>.</p>
 
@@ -759,12 +755,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00209">209</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  209</span>                                                                                         {</div>
-<div class="line"><span class="lineno">  210</span>        <a class="code hl_variable" href="#a34f6cca6dae7f3edc82935052b07b8ea">willMessageOpt</a>-&gt;default_val(willMessage)-&gt;clear();</div>
-<div class="line"><span class="lineno">  211</span> </div>
-<div class="line"><span class="lineno">  212</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  213</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00206">206</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  206</span>                                                                                         {</div>
+<div class="line"><span class="lineno">  207</span>        <a class="code hl_variable" href="#a34f6cca6dae7f3edc82935052b07b8ea">willMessageOpt</a>-&gt;default_val(willMessage)-&gt;clear();</div>
+<div class="line"><span class="lineno">  208</span> </div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00153">willMessageOpt</a>.</p>
 
@@ -785,12 +781,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00229">229</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  229</span>                                                                           {</div>
-<div class="line"><span class="lineno">  230</span>        <a class="code hl_variable" href="#afc713391e1cf8c988c284e060893807f">willRetainOpt</a>-&gt;default_val(willRetain)-&gt;clear();</div>
-<div class="line"><span class="lineno">  231</span> </div>
-<div class="line"><span class="lineno">  232</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  233</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00226">226</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  226</span>                                                                           {</div>
+<div class="line"><span class="lineno">  227</span>        <a class="code hl_variable" href="#afc713391e1cf8c988c284e060893807f">willRetainOpt</a>-&gt;default_val(willRetain)-&gt;clear();</div>
+<div class="line"><span class="lineno">  228</span> </div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  230</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00155">willRetainOpt</a>.</p>
 
@@ -811,12 +807,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00199">199</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  199</span>                                                                                     {</div>
-<div class="line"><span class="lineno">  200</span>        <a class="code hl_variable" href="#aeb84dbbb8f7b5e204860d07649928d6a">willTopicOpt</a>-&gt;default_val(willTopic)-&gt;clear();</div>
-<div class="line"><span class="lineno">  201</span> </div>
-<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  203</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00196">196</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  196</span>                                                                                     {</div>
+<div class="line"><span class="lineno">  197</span>        <a class="code hl_variable" href="#aeb84dbbb8f7b5e204860d07649928d6a">willTopicOpt</a>-&gt;default_val(willTopic)-&gt;clear();</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  200</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00152">willTopicOpt</a>.</p>
 
@@ -845,7 +841,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00148">148</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00125">ConfigSession()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00155">getClientId()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00159">setClientId()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00123">ConfigSession()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00152">getClientId()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00156">setClientId()</a>.</p>
 
 </div>
 </div>
@@ -896,7 +892,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00151">151</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00185">getKeepAlive()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00189">setKeepAlive()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00182">getKeepAlive()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00186">setKeepAlive()</a>.</p>
 
 </div>
 </div>
@@ -947,7 +943,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00157">157</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00245">getPassword()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00249">setPassword()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00242">getPassword()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00246">setPassword()</a>.</p>
 
 </div>
 </div>
@@ -973,7 +969,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00149">149</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00125">ConfigSession()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00165">getQoS()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00169">setQos()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00123">ConfigSession()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00162">getQoS()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00166">setQos()</a>.</p>
 
 </div>
 </div>
@@ -999,7 +995,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00150">150</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00125">ConfigSession()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00175">getRetainSession()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00179">setRetainSession()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00123">ConfigSession()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00172">getRetainSession()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00176">setRetainSession()</a>.</p>
 
 </div>
 </div>
@@ -1025,7 +1021,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00156">156</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00235">getUsername()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00239">settUsername()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00232">getUsername()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00236">settUsername()</a>.</p>
 
 </div>
 </div>
@@ -1051,7 +1047,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00153">153</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00205">getWillMessage()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00209">setWillMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00202">getWillMessage()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00206">setWillMessage()</a>.</p>
 
 </div>
 </div>
@@ -1077,7 +1073,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00154">154</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00215">getWillQoS()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00219">settWillQoS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00212">getWillQoS()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00216">settWillQoS()</a>.</p>
 
 </div>
 </div>
@@ -1103,7 +1099,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00155">155</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00225">getWillRetain()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00229">setWillRetain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00222">getWillRetain()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00226">setWillRetain()</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1125,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00152">152</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00195">getWillTopic()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00199">setWillTopic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00192">getWillTopic()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00196">setWillTopic()</a>.</p>
 
 </div>
 </div>

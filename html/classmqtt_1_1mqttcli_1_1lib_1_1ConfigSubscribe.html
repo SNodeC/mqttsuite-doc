@@ -187,15 +187,11 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00059">59</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   59</span>                                      {</div>
-<div class="line"><span class="lineno">   60</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -214,16 +210,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00062">62</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   62</span>                                                       {</div>
-<div class="line"><span class="lineno">   63</span>        std::list&lt;std::string&gt; topicList = <a class="code hl_variable" href="#aa9f05a13fd0094ab946c2d2330e3f136">topicOpt</a>-&gt;as&lt;std::list&lt;std::string&gt;&gt;();</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">if</span> (topicList.front().empty()) {</div>
-<div class="line"><span class="lineno">   66</span>            topicList.pop_front();</div>
-<div class="line"><span class="lineno">   67</span>        }</div>
-<div class="line"><span class="lineno">   68</span> </div>
-<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span> topicList;</div>
-<div class="line"><span class="lineno">   70</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00061">61</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   61</span>                                                       {</div>
+<div class="line"><span class="lineno">   62</span>        std::list&lt;std::string&gt; topicList = <a class="code hl_variable" href="#aa9f05a13fd0094ab946c2d2330e3f136">topicOpt</a>-&gt;as&lt;std::list&lt;std::string&gt;&gt;();</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>        <span class="keywordflow">if</span> (topicList.front().empty()) {</div>
+<div class="line"><span class="lineno">   65</span>            topicList.pop_front();</div>
+<div class="line"><span class="lineno">   66</span>        }</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">return</span> topicList;</div>
+<div class="line"><span class="lineno">   69</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00071">topicOpt</a>.</p>
 
@@ -251,12 +247,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00072">72</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   72</span>                                                                           {</div>
-<div class="line"><span class="lineno">   73</span>        <a class="code hl_variable" href="#aa9f05a13fd0094ab946c2d2330e3f136">topicOpt</a>-&gt;default_val(topic);</div>
-<div class="line"><span class="lineno">   74</span> </div>
-<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">   76</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigSections_8cpp_source.html#l00071">71</a> of file <a class="el" href="ConfigSections_8cpp_source.html">ConfigSections.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   71</span>                                                                           {</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_variable" href="#aa9f05a13fd0094ab946c2d2330e3f136">topicOpt</a>-&gt;default_val(topic);</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="ConfigSections_8h_source.html#l00071">topicOpt</a>.</p>
 
@@ -335,7 +331,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="ConfigSections_8h_source.html#l00071">71</a> of file <a class="el" href="ConfigSections_8h_source.html">ConfigSections.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00049">ConfigSubscribe()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00062">getTopic()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00072">setTopic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigSections_8cpp_source.html#l00049">ConfigSubscribe()</a>, <a class="el" href="ConfigSections_8cpp_source.html#l00061">getTopic()</a>, and <a class="el" href="ConfigSections_8cpp_source.html#l00071">setTopic()</a>.</p>
 
 </div>
 </div>

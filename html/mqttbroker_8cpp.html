@@ -412,10 +412,10 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  377</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_TCP_IPV4</span></div>
 <div class="line"><span class="lineno">  378</span>    net::in::stream::legacy::Server&lt;mqtt::mqttbroker::SocketContextFactory&gt;( <span class="comment">//</span></div>
 <div class="line"><span class="lineno">  379</span>        <span class="stringliteral">&quot;in-mqtt&quot;</span>,</div>
-<div class="line"><span class="lineno">  380</span>        [](net::in::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  381</span>            config.setPort(1883);</div>
-<div class="line"><span class="lineno">  382</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  383</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  380</span>        [](net::in::stream::legacy::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  381</span>            config-&gt;setPort(1883);</div>
+<div class="line"><span class="lineno">  382</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  383</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  384</span>        },</div>
 <div class="line"><span class="lineno">  385</span>        broker)</div>
 <div class="line"><span class="lineno">  386</span>        .listen([](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; socketAddress, core::socket::State state) {</div>
@@ -425,10 +425,10 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  390</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_TLS_IPV4</span></div>
 <div class="line"><span class="lineno">  391</span>    net::in::stream::tls::Server&lt;mqtt::mqttbroker::SocketContextFactory&gt;( <span class="comment">//</span></div>
 <div class="line"><span class="lineno">  392</span>        <span class="stringliteral">&quot;in-mqtts&quot;</span>,</div>
-<div class="line"><span class="lineno">  393</span>        [](net::in::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  394</span>            config.setPort(8883);</div>
-<div class="line"><span class="lineno">  395</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  396</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  393</span>        [](net::in::stream::tls::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  394</span>            config-&gt;setPort(8883);</div>
+<div class="line"><span class="lineno">  395</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  396</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  397</span>        },</div>
 <div class="line"><span class="lineno">  398</span>        broker)</div>
 <div class="line"><span class="lineno">  399</span>        .listen([](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; socketAddress, core::socket::State state) {</div>
@@ -440,12 +440,12 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  405</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_TCP_IPV6</span></div>
 <div class="line"><span class="lineno">  406</span>    net::in6::stream::legacy::Server&lt;mqtt::mqttbroker::SocketContextFactory&gt;( <span class="comment">//</span></div>
 <div class="line"><span class="lineno">  407</span>        <span class="stringliteral">&quot;in6-mqtt&quot;</span>,</div>
-<div class="line"><span class="lineno">  408</span>        [](net::in6::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  409</span>            config.setPort(1883);</div>
-<div class="line"><span class="lineno">  410</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  411</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  408</span>        [](net::in6::stream::legacy::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  409</span>            config-&gt;setPort(1883);</div>
+<div class="line"><span class="lineno">  410</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  411</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  412</span> </div>
-<div class="line"><span class="lineno">  413</span>            config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  413</span>            config-&gt;setIPv6Only();</div>
 <div class="line"><span class="lineno">  414</span>        },</div>
 <div class="line"><span class="lineno">  415</span>        broker)</div>
 <div class="line"><span class="lineno">  416</span>        .listen([](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; socketAddress, core::socket::State state) {</div>
@@ -455,12 +455,12 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  420</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_TLS_IPV6</span></div>
 <div class="line"><span class="lineno">  421</span>    net::in6::stream::tls::Server&lt;mqtt::mqttbroker::SocketContextFactory&gt;( <span class="comment">//</span></div>
 <div class="line"><span class="lineno">  422</span>        <span class="stringliteral">&quot;in6-mqtts&quot;</span>,</div>
-<div class="line"><span class="lineno">  423</span>        [](net::in6::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  424</span>            config.setPort(8883);</div>
-<div class="line"><span class="lineno">  425</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  426</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  423</span>        [](net::in6::stream::tls::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  424</span>            config-&gt;setPort(8883);</div>
+<div class="line"><span class="lineno">  425</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  426</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  427</span> </div>
-<div class="line"><span class="lineno">  428</span>            config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  428</span>            config-&gt;setIPv6Only();</div>
 <div class="line"><span class="lineno">  429</span>        },</div>
 <div class="line"><span class="lineno">  430</span>        broker)</div>
 <div class="line"><span class="lineno">  431</span>        .listen([](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; socketAddress, core::socket::State state) {</div>
@@ -472,9 +472,9 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  437</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_UNIX</span></div>
 <div class="line"><span class="lineno">  438</span>    net::un::stream::legacy::Server&lt;mqtt::mqttbroker::SocketContextFactory&gt;( <span class="comment">//</span></div>
 <div class="line"><span class="lineno">  439</span>        <span class="stringliteral">&quot;un-mqtt&quot;</span>,</div>
-<div class="line"><span class="lineno">  440</span>        [](net::un::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  441</span>            config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
-<div class="line"><span class="lineno">  442</span>            config.setRetry();</div>
+<div class="line"><span class="lineno">  440</span>        [](net::un::stream::legacy::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  441</span>            config-&gt;setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config-&gt;getInstanceName());</div>
+<div class="line"><span class="lineno">  442</span>            config-&gt;setRetry();</div>
 <div class="line"><span class="lineno">  443</span>        },</div>
 <div class="line"><span class="lineno">  444</span>        broker)</div>
 <div class="line"><span class="lineno">  445</span>        .listen([](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; socketAddress, core::socket::State state) {</div>
@@ -484,9 +484,9 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  449</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_UNIX_TLS</span></div>
 <div class="line"><span class="lineno">  450</span>    net::un::stream::tls::Server&lt;mqtt::mqttbroker::SocketContextFactory&gt;( <span class="comment">//</span></div>
 <div class="line"><span class="lineno">  451</span>        <span class="stringliteral">&quot;un-mqtts&quot;</span>,</div>
-<div class="line"><span class="lineno">  452</span>        [](net::un::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  453</span>            config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
-<div class="line"><span class="lineno">  454</span>            config.setRetry();</div>
+<div class="line"><span class="lineno">  452</span>        [](net::un::stream::tls::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  453</span>            config-&gt;setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config-&gt;getInstanceName());</div>
+<div class="line"><span class="lineno">  454</span>            config-&gt;setRetry();</div>
 <div class="line"><span class="lineno">  455</span>        },</div>
 <div class="line"><span class="lineno">  456</span>        broker)</div>
 <div class="line"><span class="lineno">  457</span>        .listen([](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; socketAddress, core::socket::State state) {</div>
@@ -501,10 +501,10 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  466</span>        <span class="stringliteral">&quot;in-http&quot;</span>,</div>
 <div class="line"><span class="lineno">  467</span>        router,</div>
 <div class="line"><span class="lineno">  468</span>        <a class="code hl_function" href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  469</span>        [](net::in::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  470</span>            config.setPort(8080);</div>
-<div class="line"><span class="lineno">  471</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  472</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  469</span>        [](net::in::stream::legacy::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  470</span>            config-&gt;setPort(8080);</div>
+<div class="line"><span class="lineno">  471</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  472</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  473</span>        });</div>
 <div class="line"><span class="lineno">  474</span> </div>
 <div class="line"><span class="lineno">  475</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_TLS_IPV4</span></div>
@@ -512,10 +512,10 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  477</span>        <span class="stringliteral">&quot;in-https&quot;</span>,</div>
 <div class="line"><span class="lineno">  478</span>        router,</div>
 <div class="line"><span class="lineno">  479</span>        <a class="code hl_function" href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  480</span>        [](net::in::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  481</span>            config.setPort(8088);</div>
-<div class="line"><span class="lineno">  482</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  483</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  480</span>        [](net::in::stream::tls::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  481</span>            config-&gt;setPort(8088);</div>
+<div class="line"><span class="lineno">  482</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  483</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  484</span>        });</div>
 <div class="line"><span class="lineno">  485</span><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="lineno">  486</span><span class="preprocessor">#endif</span></div>
@@ -525,12 +525,12 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  490</span>        <span class="stringliteral">&quot;in6-http&quot;</span>,</div>
 <div class="line"><span class="lineno">  491</span>        router,</div>
 <div class="line"><span class="lineno">  492</span>        <a class="code hl_function" href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  493</span>        [](net::in6::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  494</span>            config.setPort(8080);</div>
-<div class="line"><span class="lineno">  495</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  496</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  493</span>        [](net::in6::stream::legacy::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  494</span>            config-&gt;setPort(8080);</div>
+<div class="line"><span class="lineno">  495</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  496</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  497</span> </div>
-<div class="line"><span class="lineno">  498</span>            config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  498</span>            config-&gt;setIPv6Only();</div>
 <div class="line"><span class="lineno">  499</span>        });</div>
 <div class="line"><span class="lineno">  500</span> </div>
 <div class="line"><span class="lineno">  501</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_TLS_IPV6</span></div>
@@ -538,12 +538,12 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  503</span>        <span class="stringliteral">&quot;in6-https&quot;</span>,</div>
 <div class="line"><span class="lineno">  504</span>        router,</div>
 <div class="line"><span class="lineno">  505</span>        <a class="code hl_function" href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  506</span>        [](net::in6::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  507</span>            config.setPort(8088);</div>
-<div class="line"><span class="lineno">  508</span>            config.setRetry();</div>
-<div class="line"><span class="lineno">  509</span>            config.setDisableNagleAlgorithm();</div>
+<div class="line"><span class="lineno">  506</span>        [](net::in6::stream::tls::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  507</span>            config-&gt;setPort(8088);</div>
+<div class="line"><span class="lineno">  508</span>            config-&gt;setRetry();</div>
+<div class="line"><span class="lineno">  509</span>            config-&gt;setDisableNagleAlgorithm();</div>
 <div class="line"><span class="lineno">  510</span> </div>
-<div class="line"><span class="lineno">  511</span>            config.setIPv6Only();</div>
+<div class="line"><span class="lineno">  511</span>            config-&gt;setIPv6Only();</div>
 <div class="line"><span class="lineno">  512</span>        });</div>
 <div class="line"><span class="lineno">  513</span><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="lineno">  514</span><span class="preprocessor">#endif</span></div>
@@ -553,8 +553,8 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  518</span>        <span class="stringliteral">&quot;un-http&quot;</span>,</div>
 <div class="line"><span class="lineno">  519</span>        router,</div>
 <div class="line"><span class="lineno">  520</span>        <a class="code hl_function" href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  521</span>        [](net::un::stream::legacy::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  522</span>            config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
+<div class="line"><span class="lineno">  521</span>        [](net::un::stream::legacy::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  522</span>            config-&gt;setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config-&gt;getInstanceName());</div>
 <div class="line"><span class="lineno">  523</span>        });</div>
 <div class="line"><span class="lineno">  524</span> </div>
 <div class="line"><span class="lineno">  525</span><span class="preprocessor">#ifdef CONFIG_MQTTSUITE_BROKER_UNIX_TLS</span></div>
@@ -562,8 +562,8 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  527</span>        <span class="stringliteral">&quot;un-https&quot;</span>,</div>
 <div class="line"><span class="lineno">  528</span>        router,</div>
 <div class="line"><span class="lineno">  529</span>        <a class="code hl_function" href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a>,</div>
-<div class="line"><span class="lineno">  530</span>        [](net::un::stream::tls::config::ConfigSocketServer&amp; config) {</div>
-<div class="line"><span class="lineno">  531</span>            config.setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config.getInstanceName());</div>
+<div class="line"><span class="lineno">  530</span>        [](net::un::stream::tls::config::ConfigSocketServer* config) {</div>
+<div class="line"><span class="lineno">  531</span>            config-&gt;setSunPath(<span class="stringliteral">&quot;/tmp/&quot;</span> + utils::Config::getApplicationName() + <span class="stringliteral">&quot;-&quot;</span> + config-&gt;getInstanceName());</div>
 <div class="line"><span class="lineno">  532</span>        });</div>
 <div class="line"><span class="lineno">  533</span><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="lineno">  534</span><span class="preprocessor">#endif</span></div>
@@ -571,7 +571,7 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  536</span>    <span class="keywordflow">return</span> core::SNodeC::start();</div>
 <div class="line"><span class="lineno">  537</span>}</div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigMqttBroker_html"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigMqttBroker.html">mqtt::lib::ConfigMqttBroker</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00085">ConfigApplication.h:85</a></div></div>
-<div class="ttc" id="amqttbridge_8cpp_html_a7cb8447e3290d506bf8a79ddeca2c7d0"><div class="ttname"><a href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a></div><div class="ttdeci">static void reportState(const std::string &amp;instanceName, const core::socket::SocketAddress &amp;socketAddress, const core::socket::State &amp;state)</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_8cpp_source.html#l00205">mqttbridge.cpp:205</a></div></div>
+<div class="ttc" id="amqttbridge_8cpp_html_a7cb8447e3290d506bf8a79ddeca2c7d0"><div class="ttname"><a href="mqttbridge_8cpp.html#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a></div><div class="ttdeci">static void reportState(const std::string &amp;instanceName, const core::socket::SocketAddress &amp;socketAddress, const core::socket::State &amp;state)</div><div class="ttdef"><b>Definition</b> <a href="mqttbridge_8cpp_source.html#l00209">mqttbridge.cpp:209</a></div></div>
 <div class="ttc" id="amqttbroker_8cpp_html_a46b7a86346a951e89a84682b281c6f14"><div class="ttname"><a href="#a46b7a86346a951e89a84682b281c6f14">getRouter</a></div><div class="ttdeci">static express::Router getRouter(std::shared_ptr&lt; iot::mqtt::server::broker::Broker &gt; broker, const std::string &amp;webRoot)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00148">mqttbroker.cpp:148</a></div></div>
 <div class="ttc" id="amqttbroker_8cpp_html_a7cb8447e3290d506bf8a79ddeca2c7d0"><div class="ttname"><a href="#a7cb8447e3290d506bf8a79ddeca2c7d0">reportState</a></div><div class="ttdeci">static void reportState(const std::string &amp;instanceName, const core::socket::SocketAddress &amp;socketAddress, const core::socket::State &amp;state)</div><div class="ttdef"><b>Definition</b> <a href="mqttbroker_8cpp_source.html#l00351">mqttbroker.cpp:351</a></div></div>
 </div><!-- fragment -->

@@ -31,7 +31,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="mqttbridge_8cpp.html#ad84302247d911fde5d3ec263d3b757f9" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="mqttbridge_8cpp.html#af09c260aadd6ecb0d1b525f4c32dfe66" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="67,-59.75 0,-59.75 0,-39 67,-39 67,-59.75"/>
 <text xml:space="preserve" text-anchor="middle" x="33.5" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">startClient</text>
 </a>
@@ -49,7 +49,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="mqttbridge_8cpp.html#a1c2878ce9e95e211ae0fd04d12ea43f7" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="mqttbridge_8cpp.html#a00990f1cf72003ba869a2e9a5ada485a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="67,-20.75 0,-20.75 0,0 67,0 67,-20.75"/>
 <text xml:space="preserve" text-anchor="middle" x="33.5" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">startClient</text>
 </a>

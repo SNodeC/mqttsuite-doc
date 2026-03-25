@@ -142,18 +142,18 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html#l00275">275</a> of file <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  275</span>                                                      {</div>
-<div class="line"><span class="lineno">  276</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> qoS = std::stoul(qoSString);</div>
-<div class="line"><span class="lineno">  277</span> </div>
-<div class="line"><span class="lineno">  278</span>        <span class="keywordflow">if</span> (qoS &gt; 2) {</div>
-<div class="line"><span class="lineno">  279</span>            <span class="keywordflow">throw</span> std::out_of_range(<span class="stringliteral">&quot;qos &quot;</span> + qoSString + <span class="stringliteral">&quot; not in range [0..2]&quot;</span>);</div>
-<div class="line"><span class="lineno">  280</span>        }</div>
-<div class="line"><span class="lineno">  281</span> </div>
-<div class="line"><span class="lineno">  282</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(qoS);</div>
-<div class="line"><span class="lineno">  283</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html#l00272">272</a> of file <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html">Mqtt.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  272</span>                                                      {</div>
+<div class="line"><span class="lineno">  273</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> qoS = std::stoul(qoSString);</div>
+<div class="line"><span class="lineno">  274</span> </div>
+<div class="line"><span class="lineno">  275</span>        <span class="keywordflow">if</span> (qoS &gt; 2) {</div>
+<div class="line"><span class="lineno">  276</span>            <span class="keywordflow">throw</span> std::out_of_range(<span class="stringliteral">&quot;qos &quot;</span> + qoSString + <span class="stringliteral">&quot; not in range [0..2]&quot;</span>);</div>
+<div class="line"><span class="lineno">  277</span>        }</div>
+<div class="line"><span class="lineno">  278</span> </div>
+<div class="line"><span class="lineno">  279</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(qoS);</div>
+<div class="line"><span class="lineno">  280</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html#l00285">mqtt::mqttcli::lib::Mqtt::onConnack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttcli_2lib_2Mqtt_8cpp_source.html#l00282">mqtt::mqttcli::lib::Mqtt::onConnack()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

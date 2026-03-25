@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"index.html#configuration":[3,1],
+"index.html#configuration-1":[5,1],
+"index.html#configure-the-sdk":[2,4,3],
+"index.html#connect-to-a-plain-mqtt-broker-over-tcpipv4":[5,3,1],
+"index.html#connection-instances-of-default-builds-of-mqttbroker":[3,0],
+"index.html#connection-instances-of-default-builds-of-mqttintegrator":[5,0],
 "index.html#connection-options-summary":[4,1,0],
 "index.html#copyright":[0,1],
 "index.html#create-a-minimal-bridge-configjson":[6,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "mqttbridge_2SocketContextFactory_8h.html":[11,0,1,6],
 "mqttbridge_2SocketContextFactory_8h_source.html":[11,0,1,6],
 "mqttbridge_2lib_2Mqtt_8cpp.html":[11,0,1,0,6],
-"mqttbridge_2lib_2Mqtt_8cpp_source.html":[11,0,1,0,6],
-"mqttbridge_2lib_2Mqtt_8h.html":[11,0,1,0,7],
-"mqttbridge_2lib_2Mqtt_8h_source.html":[11,0,1,0,7],
-"mqttbridge_2websocket_2SubProtocolFactory_8cpp.html":[11,0,1,1,0],
-"mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a47f2e62c0dbebc787052c165afcada0e":[11,0,1,1,0,0],
-"mqttbridge_2websocket_2SubProtocolFactory_8cpp.html#a535cca85dc4c17559d0fca865699bb61":[11,0,1,1,0,1],
-"mqttbridge_2websocket_2SubProtocolFactory_8cpp_source.html":[11,0,1,1,0]
+"mqttbridge_2lib_2Mqtt_8cpp_source.html":[11,0,1,0,6]
 };

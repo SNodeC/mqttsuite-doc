@@ -1,5 +1,11 @@
 var NAVTREEINDEX13 =
 {
+"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d":[10,0,7,0,0,0,0],
+"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a":[9,0,11,0,0,0,2],
+"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a":[10,0,7,0,0,0,2],
+"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html":[9,0,11,0,0,1],
+"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html":[10,0,7,0,0,1],
+"structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a3da362a8b70c32a6188afbd1f3d06994":[9,0,11,0,0,1,3],
 "structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a3da362a8b70c32a6188afbd1f3d06994":[10,0,7,0,0,1,3],
 "structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a4d5209df1f1c0474876338cd3cc500c8":[9,0,11,0,0,1,2],
 "structmqtt_1_1lib_1_1admin_1_1ReloadResult.html#a4d5209df1f1c0474876338cd3cc500c8":[10,0,7,0,0,1,2],

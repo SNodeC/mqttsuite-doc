@@ -162,221 +162,221 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MappingAdminRouter_8cpp_source.html#l00065">65</a> of file <a class="el" href="MappingAdminRouter_8cpp_source.html">MappingAdminRouter.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   65</span>                                                                                                                                 {</div>
-<div class="line"><span class="lineno">   66</span>        express::Router api;</div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>        api.use(express::middleware::JsonMiddleware());</div>
-<div class="line"><span class="lineno">   69</span>        api.use(express::middleware::BasicAuthentication(opt.<a class="code hl_variable" href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a">user</a>, opt.<a class="code hl_variable" href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d">pass</a>, opt.<a class="code hl_variable" href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a4bc0fc449cee2d04dfc328ffd2d9bd7e">realm</a>));</div>
-<div class="line"><span class="lineno">   70</span> </div>
-<div class="line"><span class="lineno">   71</span>        <span class="comment">// GET /schema</span></div>
-<div class="line"><span class="lineno">   72</span>        api.get(<span class="stringliteral">&quot;/schema&quot;</span>, [] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">   73</span>            res-&gt;status(200).send(<a class="code hl_function" href="classmqtt_1_1lib_1_1MqttMapper.html#ae3245c4889a8c73dd7d2b88c0d13502f">MqttMapper::getSchema</a>());</div>
-<div class="line"><span class="lineno">   74</span>        });</div>
-<div class="line"><span class="lineno">   75</span> </div>
-<div class="line"><span class="lineno">   76</span>        <span class="comment">// GET /config</span></div>
-<div class="line"><span class="lineno">   77</span>        api.get(<span class="stringliteral">&quot;/config&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">   78</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   79</span>                res-&gt;status(200).json(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>()-&gt;getMapping());</div>
-<div class="line"><span class="lineno">   80</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">   81</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Failed to load configuration&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">   82</span>            }</div>
-<div class="line"><span class="lineno">   83</span>        });</div>
-<div class="line"><span class="lineno">   84</span> </div>
-<div class="line"><span class="lineno">   85</span>        <span class="comment">// PATCH /config</span></div>
-<div class="line"><span class="lineno">   86</span>        api.patch(<span class="stringliteral">&quot;/config&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   88</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
-<div class="line"><span class="lineno">   89</span>                nlohmann::json patchOps = nlohmann::json::parse(bodyStr);</div>
-<div class="line"><span class="lineno">   90</span> </div>
-<div class="line"><span class="lineno">   91</span>                nlohmann::json current = configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>()-&gt;getMapping();</div>
-<div class="line"><span class="lineno">   92</span>                current = current.patch(patchOps);</div>
-<div class="line"><span class="lineno">   93</span> </div>
-<div class="line"><span class="lineno">   94</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae8eff0ae26adbed7f80e15be2a5fb5ad">JsonMappingReader::saveDraft</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>(), current);</div>
+<p class="definition">Definition at line <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">67</a> of file <a class="el" href="MappingAdminRouter_8cpp_source.html">MappingAdminRouter.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   67</span>                                                                                                                                 {</div>
+<div class="line"><span class="lineno">   68</span>        express::Router api;</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        api.use(express::middleware::JsonMiddleware());</div>
+<div class="line"><span class="lineno">   71</span>        api.use(express::middleware::BasicAuthentication(opt.<a class="code hl_variable" href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a">user</a>, opt.<a class="code hl_variable" href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d">pass</a>, opt.<a class="code hl_variable" href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a4bc0fc449cee2d04dfc328ffd2d9bd7e">realm</a>));</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        <span class="comment">// GET /schema</span></div>
+<div class="line"><span class="lineno">   74</span>        api.get(<span class="stringliteral">&quot;/schema&quot;</span>, [] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">   75</span>            res-&gt;status(200).send(<a class="code hl_function" href="classmqtt_1_1lib_1_1MqttMapper.html#ae3245c4889a8c73dd7d2b88c0d13502f">MqttMapper::getSchema</a>());</div>
+<div class="line"><span class="lineno">   76</span>        });</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        <span class="comment">// GET /config</span></div>
+<div class="line"><span class="lineno">   79</span>        api.get(<span class="stringliteral">&quot;/config&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">   80</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   81</span>                res-&gt;status(200).json(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>()-&gt;getMapping());</div>
+<div class="line"><span class="lineno">   82</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   83</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Failed to load configuration&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">   84</span>            }</div>
+<div class="line"><span class="lineno">   85</span>        });</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>        <span class="comment">// PATCH /config</span></div>
+<div class="line"><span class="lineno">   88</span>        api.patch(<span class="stringliteral">&quot;/config&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
+<div class="line"><span class="lineno">   91</span>                nlohmann::json patchOps = nlohmann::json::parse(bodyStr);</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>                nlohmann::json current = configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>()-&gt;getMapping();</div>
+<div class="line"><span class="lineno">   94</span>                current = current.patch(patchOps);</div>
 <div class="line"><span class="lineno">   95</span> </div>
-<div class="line"><span class="lineno">   96</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;patched&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>()}});</div>
-<div class="line"><span class="lineno">   97</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::parse_error&amp; e) {</div>
-<div class="line"><span class="lineno">   98</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Invalid JSON body&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">   99</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  100</span>                res-&gt;status(422).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Patch application failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  101</span>            }</div>
-<div class="line"><span class="lineno">  102</span>        });</div>
-<div class="line"><span class="lineno">  103</span> </div>
-<div class="line"><span class="lineno">  104</span>        <span class="comment">// POST /config (replace full draft config)</span></div>
-<div class="line"><span class="lineno">  105</span>        api.post(<span class="stringliteral">&quot;/config&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  107</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
-<div class="line"><span class="lineno">  108</span>                nlohmann::json replacement = nlohmann::json::parse(bodyStr);</div>
-<div class="line"><span class="lineno">  109</span> </div>
-<div class="line"><span class="lineno">  110</span>                <span class="keywordflow">if</span> (!replacement.is_object()) {</div>
-<div class="line"><span class="lineno">  111</span>                    res-&gt;status(422).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Config replacement must be a JSON object&quot;</span>}});</div>
-<div class="line"><span class="lineno">  112</span>                    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  113</span>                }</div>
-<div class="line"><span class="lineno">  114</span> </div>
-<div class="line"><span class="lineno">  115</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae8eff0ae26adbed7f80e15be2a5fb5ad">JsonMappingReader::saveDraft</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>(), replacement);</div>
+<div class="line"><span class="lineno">   96</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae8eff0ae26adbed7f80e15be2a5fb5ad">JsonMappingReader::saveDraft</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>(), current);</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;patched&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>()}});</div>
+<div class="line"><span class="lineno">   99</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::parse_error&amp; e) {</div>
+<div class="line"><span class="lineno">  100</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Invalid JSON body&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  101</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  102</span>                res-&gt;status(422).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Patch application failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  103</span>            }</div>
+<div class="line"><span class="lineno">  104</span>        });</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>        <span class="comment">// POST /config (replace full draft config)</span></div>
+<div class="line"><span class="lineno">  107</span>        api.post(<span class="stringliteral">&quot;/config&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  109</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
+<div class="line"><span class="lineno">  110</span>                nlohmann::json replacement = nlohmann::json::parse(bodyStr);</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">if</span> (!replacement.is_object()) {</div>
+<div class="line"><span class="lineno">  113</span>                    res-&gt;status(422).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Config replacement must be a JSON object&quot;</span>}});</div>
+<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  115</span>                }</div>
 <div class="line"><span class="lineno">  116</span> </div>
-<div class="line"><span class="lineno">  117</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;replaced&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>()}});</div>
-<div class="line"><span class="lineno">  118</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::parse_error&amp; e) {</div>
-<div class="line"><span class="lineno">  119</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Invalid JSON body&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  120</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  121</span>                res-&gt;status(422).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Config replacement failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  122</span>            }</div>
-<div class="line"><span class="lineno">  123</span>        });</div>
-<div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>        <span class="comment">// POST /config/deploy</span></div>
-<div class="line"><span class="lineno">  126</span>        api.post(<span class="stringliteral">&quot;/config/deploy&quot;</span>, [configApplication, onDeploy] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  127</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  128</span>                nlohmann::json newMappingJson = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a055e5cf6b145f6f17d29f9efa0fa4d58">JsonMappingReader::deployDraft</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>());</div>
-<div class="line"><span class="lineno">  129</span> </div>
-<div class="line"><span class="lineno">  130</span>                <span class="keywordtype">bool</span> mustReconnect = configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe">setMapping</a>(newMappingJson); <span class="comment">// throws in case of an error during loading</span></div>
-<div class="line"><span class="lineno">  131</span>                                                                                    <span class="comment">// or validation. This exeption is catched</span></div>
-<div class="line"><span class="lineno">  132</span>                                                                                    <span class="comment">// in the MappingAdminRouter</span></div>
-<div class="line"><span class="lineno">  133</span>                <a class="code hl_struct" href="structmqtt_1_1lib_1_1admin_1_1ReloadResult.html">ReloadResult</a> reloadResult;</div>
-<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">if</span> (onDeploy) {</div>
-<div class="line"><span class="lineno">  135</span>                    reloadResult = onDeploy(mustReconnect);</div>
-<div class="line"><span class="lineno">  136</span>                }</div>
-<div class="line"><span class="lineno">  137</span> </div>
-<div class="line"><span class="lineno">  138</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;deploy-ack&quot;</span>},</div>
-<div class="line"><span class="lineno">  139</span>                                       {<span class="stringliteral">&quot;reload_mode&quot;</span>, reloadResult.mode},</div>
-<div class="line"><span class="lineno">  140</span>                                       {<span class="stringliteral">&quot;instances&quot;</span>, reloadResult.instances},</div>
-<div class="line"><span class="lineno">  141</span>                                       {<span class="stringliteral">&quot;subscribed&quot;</span>, reloadResult.subscribed},</div>
-<div class="line"><span class="lineno">  142</span>                                       {<span class="stringliteral">&quot;unsubscribed&quot;</span>, reloadResult.unsubscribed}});</div>
-<div class="line"><span class="lineno">  143</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  144</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Deploy failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  145</span>            }</div>
-<div class="line"><span class="lineno">  146</span>        });</div>
-<div class="line"><span class="lineno">  147</span> </div>
-<div class="line"><span class="lineno">  148</span>        <span class="comment">// POST /config/validate</span></div>
-<div class="line"><span class="lineno">  149</span>        api.post(<span class="stringliteral">&quot;/config/validate&quot;</span>, [] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  151</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
-<div class="line"><span class="lineno">  152</span>                <span class="keyword">auto</span> document = nlohmann::json::parse(bodyStr);</div>
-<div class="line"><span class="lineno">  153</span> </div>
-<div class="line"><span class="lineno">  154</span>                nlohmann::json_schema::basic_error_handler err;</div>
-<div class="line"><span class="lineno">  155</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1MqttMapper.html#a801514c624b0467df9018502f3dca46e">MqttMapper::validate</a>(document, err);</div>
-<div class="line"><span class="lineno">  156</span> </div>
-<div class="line"><span class="lineno">  157</span>                <span class="keywordflow">if</span> (err) {</div>
-<div class="line"><span class="lineno">  158</span>                    res-&gt;status(422).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Validation failed&quot;</span>}});</div>
-<div class="line"><span class="lineno">  159</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  160</span>                    res-&gt;status(200).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">true</span>}});</div>
-<div class="line"><span class="lineno">  161</span>                }</div>
-<div class="line"><span class="lineno">  162</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  163</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Validation exception&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  164</span>            }</div>
-<div class="line"><span class="lineno">  165</span>        });</div>
-<div class="line"><span class="lineno">  166</span> </div>
-<div class="line"><span class="lineno">  167</span>        <span class="comment">// GET /config/validateDraft</span></div>
-<div class="line"><span class="lineno">  168</span>        api.get(<span class="stringliteral">&quot;/config/validateDraft&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  169</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  170</span>                <span class="keyword">const</span> std::string draftPath = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae1fe85c10e7aaeafa92e1b80b15274af">JsonMappingReader::getDraftPath</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>());</div>
-<div class="line"><span class="lineno">  171</span> </div>
-<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">if</span> (!std::filesystem::exists(draftPath)) {</div>
-<div class="line"><span class="lineno">  173</span>                    res-&gt;status(404).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No draft configuration available&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
-<div class="line"><span class="lineno">  174</span>                    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  175</span>                }</div>
-<div class="line"><span class="lineno">  176</span> </div>
-<div class="line"><span class="lineno">  177</span>                std::ifstream draftFile(draftPath);</div>
-<div class="line"><span class="lineno">  178</span>                <span class="keywordflow">if</span> (!draftFile) {</div>
-<div class="line"><span class="lineno">  179</span>                    res-&gt;status(500).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot open draft configuration&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
-<div class="line"><span class="lineno">  180</span>                    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  181</span>                }</div>
-<div class="line"><span class="lineno">  182</span> </div>
-<div class="line"><span class="lineno">  183</span>                nlohmann::json draftDocument;</div>
-<div class="line"><span class="lineno">  184</span>                draftFile &gt;&gt; draftDocument;</div>
-<div class="line"><span class="lineno">  185</span> </div>
-<div class="line"><span class="lineno">  186</span>                nlohmann::json_schema::basic_error_handler err;</div>
-<div class="line"><span class="lineno">  187</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1MqttMapper.html#a801514c624b0467df9018502f3dca46e">MqttMapper::validate</a>(draftDocument, err);</div>
-<div class="line"><span class="lineno">  188</span> </div>
-<div class="line"><span class="lineno">  189</span>                <span class="keywordflow">if</span> (err) {</div>
-<div class="line"><span class="lineno">  190</span>                    res-&gt;status(422).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Draft validation failed&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
-<div class="line"><span class="lineno">  191</span>                } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">  192</span>                    res-&gt;status(200).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">true</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
-<div class="line"><span class="lineno">  193</span>                }</div>
-<div class="line"><span class="lineno">  194</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  195</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Draft validation exception&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  196</span>            }</div>
-<div class="line"><span class="lineno">  197</span>        });</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>        <span class="comment">// POST /config/rollback</span></div>
-<div class="line"><span class="lineno">  200</span>        api.post(<span class="stringliteral">&quot;/config/rollback&quot;</span>, [configApplication, onDeploy] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  201</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  202</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
-<div class="line"><span class="lineno">  203</span>                <span class="keyword">auto</span> jsonBody = nlohmann::json::parse(bodyStr);</div>
-<div class="line"><span class="lineno">  204</span> </div>
-<div class="line"><span class="lineno">  205</span>                <span class="keywordflow">if</span> (!jsonBody.contains(<span class="stringliteral">&quot;version_id&quot;</span>)) {</div>
-<div class="line"><span class="lineno">  206</span>                    res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Missing version_id&quot;</span>}});</div>
-<div class="line"><span class="lineno">  207</span>                    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  208</span>                }</div>
-<div class="line"><span class="lineno">  209</span> </div>
-<div class="line"><span class="lineno">  210</span>                std::string versionId = jsonBody[<span class="stringliteral">&quot;version_id&quot;</span>];</div>
+<div class="line"><span class="lineno">  117</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae8eff0ae26adbed7f80e15be2a5fb5ad">JsonMappingReader::saveDraft</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>(), replacement);</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;replaced&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>()}});</div>
+<div class="line"><span class="lineno">  120</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> nlohmann::json::parse_error&amp; e) {</div>
+<div class="line"><span class="lineno">  121</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Invalid JSON body&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  122</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  123</span>                res-&gt;status(422).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Config replacement failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  124</span>            }</div>
+<div class="line"><span class="lineno">  125</span>        });</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>        <span class="comment">// POST /config/deploy</span></div>
+<div class="line"><span class="lineno">  128</span>        api.post(<span class="stringliteral">&quot;/config/deploy&quot;</span>, [configApplication, onDeploy] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  130</span>                nlohmann::json newMappingJson = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a055e5cf6b145f6f17d29f9efa0fa4d58">JsonMappingReader::deployDraft</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>());</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordtype">bool</span> mustReconnect = configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe">setMapping</a>(newMappingJson); <span class="comment">// throws in case of an error during loading</span></div>
+<div class="line"><span class="lineno">  133</span>                                                                                    <span class="comment">// or validation. This exeption is catched</span></div>
+<div class="line"><span class="lineno">  134</span>                                                                                    <span class="comment">// in the MappingAdminRouter</span></div>
+<div class="line"><span class="lineno">  135</span>                <a class="code hl_struct" href="structmqtt_1_1lib_1_1admin_1_1ReloadResult.html">ReloadResult</a> reloadResult;</div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">if</span> (onDeploy) {</div>
+<div class="line"><span class="lineno">  137</span>                    reloadResult = onDeploy(mustReconnect);</div>
+<div class="line"><span class="lineno">  138</span>                }</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;deploy-ack&quot;</span>},</div>
+<div class="line"><span class="lineno">  141</span>                                       {<span class="stringliteral">&quot;reload_mode&quot;</span>, reloadResult.mode},</div>
+<div class="line"><span class="lineno">  142</span>                                       {<span class="stringliteral">&quot;instances&quot;</span>, reloadResult.instances},</div>
+<div class="line"><span class="lineno">  143</span>                                       {<span class="stringliteral">&quot;subscribed&quot;</span>, reloadResult.subscribed},</div>
+<div class="line"><span class="lineno">  144</span>                                       {<span class="stringliteral">&quot;unsubscribed&quot;</span>, reloadResult.unsubscribed}});</div>
+<div class="line"><span class="lineno">  145</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  146</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Deploy failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  147</span>            }</div>
+<div class="line"><span class="lineno">  148</span>        });</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>        <span class="comment">// POST /config/validate</span></div>
+<div class="line"><span class="lineno">  151</span>        api.post(<span class="stringliteral">&quot;/config/validate&quot;</span>, [] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  152</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  153</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
+<div class="line"><span class="lineno">  154</span>                <span class="keyword">auto</span> document = nlohmann::json::parse(bodyStr);</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>                nlohmann::json_schema::basic_error_handler err;</div>
+<div class="line"><span class="lineno">  157</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1MqttMapper.html#a801514c624b0467df9018502f3dca46e">MqttMapper::validate</a>(document, err);</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>                <span class="keywordflow">if</span> (err) {</div>
+<div class="line"><span class="lineno">  160</span>                    res-&gt;status(422).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Validation failed&quot;</span>}});</div>
+<div class="line"><span class="lineno">  161</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  162</span>                    res-&gt;status(200).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">true</span>}});</div>
+<div class="line"><span class="lineno">  163</span>                }</div>
+<div class="line"><span class="lineno">  164</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  165</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Validation exception&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  166</span>            }</div>
+<div class="line"><span class="lineno">  167</span>        });</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>        <span class="comment">// GET /config/validateDraft</span></div>
+<div class="line"><span class="lineno">  170</span>        api.get(<span class="stringliteral">&quot;/config/validateDraft&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keyword">const</span> std::string draftPath = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae1fe85c10e7aaeafa92e1b80b15274af">JsonMappingReader::getDraftPath</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>());</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>                <span class="keywordflow">if</span> (!std::filesystem::exists(draftPath)) {</div>
+<div class="line"><span class="lineno">  175</span>                    res-&gt;status(404).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No draft configuration available&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
+<div class="line"><span class="lineno">  176</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  177</span>                }</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>                std::ifstream draftFile(draftPath);</div>
+<div class="line"><span class="lineno">  180</span>                <span class="keywordflow">if</span> (!draftFile) {</div>
+<div class="line"><span class="lineno">  181</span>                    res-&gt;status(500).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot open draft configuration&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
+<div class="line"><span class="lineno">  182</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  183</span>                }</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>                nlohmann::json draftDocument;</div>
+<div class="line"><span class="lineno">  186</span>                draftFile &gt;&gt; draftDocument;</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>                nlohmann::json_schema::basic_error_handler err;</div>
+<div class="line"><span class="lineno">  189</span>                <a class="code hl_function" href="classmqtt_1_1lib_1_1MqttMapper.html#a801514c624b0467df9018502f3dca46e">MqttMapper::validate</a>(draftDocument, err);</div>
+<div class="line"><span class="lineno">  190</span> </div>
+<div class="line"><span class="lineno">  191</span>                <span class="keywordflow">if</span> (err) {</div>
+<div class="line"><span class="lineno">  192</span>                    res-&gt;status(422).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Draft validation failed&quot;</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
+<div class="line"><span class="lineno">  193</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  194</span>                    res-&gt;status(200).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">true</span>}, {<span class="stringliteral">&quot;path&quot;</span>, draftPath}});</div>
+<div class="line"><span class="lineno">  195</span>                }</div>
+<div class="line"><span class="lineno">  196</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  197</span>                res-&gt;status(400).json({{<span class="stringliteral">&quot;valid&quot;</span>, <span class="keyword">false</span>}, {<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Draft validation exception&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  198</span>            }</div>
+<div class="line"><span class="lineno">  199</span>        });</div>
+<div class="line"><span class="lineno">  200</span> </div>
+<div class="line"><span class="lineno">  201</span>        <span class="comment">// POST /config/rollback</span></div>
+<div class="line"><span class="lineno">  202</span>        api.post(<span class="stringliteral">&quot;/config/rollback&quot;</span>, [configApplication, onDeploy] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  203</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  204</span>                <span class="keyword">const</span> std::string bodyStr(req-&gt;body.begin(), req-&gt;body.end());</div>
+<div class="line"><span class="lineno">  205</span>                <span class="keyword">auto</span> jsonBody = nlohmann::json::parse(bodyStr);</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>                <span class="keywordflow">if</span> (!jsonBody.contains(<span class="stringliteral">&quot;version_id&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  208</span>                    res-&gt;status(400).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Missing version_id&quot;</span>}});</div>
+<div class="line"><span class="lineno">  209</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  210</span>                }</div>
 <div class="line"><span class="lineno">  211</span> </div>
-<div class="line"><span class="lineno">  212</span>                nlohmann::json rolledbackMappingJson = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a0af761ff8c2b92bdd3111c573f633e99">JsonMappingReader::rollbackTo</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>(), versionId);</div>
+<div class="line"><span class="lineno">  212</span>                std::string versionId = jsonBody[<span class="stringliteral">&quot;version_id&quot;</span>];</div>
 <div class="line"><span class="lineno">  213</span> </div>
-<div class="line"><span class="lineno">  214</span>                <span class="keywordtype">bool</span> mustReconnect = configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe">setMapping</a>(rolledbackMappingJson); <span class="comment">// throws in case of an error during loading</span></div>
-<div class="line"><span class="lineno">  215</span>                                                                                           <span class="comment">// or validation. This exeption is catched</span></div>
-<div class="line"><span class="lineno">  216</span>                                                                                           <span class="comment">// in the MappingAdminRouter</span></div>
-<div class="line"><span class="lineno">  217</span>                <a class="code hl_struct" href="structmqtt_1_1lib_1_1admin_1_1ReloadResult.html">ReloadResult</a> reloadResult;</div>
-<div class="line"><span class="lineno">  218</span>                <span class="keywordflow">if</span> (onDeploy) {</div>
-<div class="line"><span class="lineno">  219</span>                    reloadResult = onDeploy(mustReconnect); <span class="comment">// Trigger hot-reload</span></div>
-<div class="line"><span class="lineno">  220</span>                }</div>
-<div class="line"><span class="lineno">  221</span> </div>
-<div class="line"><span class="lineno">  222</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;deploy-ack&quot;</span>},</div>
-<div class="line"><span class="lineno">  223</span>                                       {<span class="stringliteral">&quot;reload_mode&quot;</span>, reloadResult.mode},</div>
-<div class="line"><span class="lineno">  224</span>                                       {<span class="stringliteral">&quot;instances&quot;</span>, reloadResult.instances},</div>
-<div class="line"><span class="lineno">  225</span>                                       {<span class="stringliteral">&quot;subscribed&quot;</span>, reloadResult.subscribed},</div>
-<div class="line"><span class="lineno">  226</span>                                       {<span class="stringliteral">&quot;unsubscribed&quot;</span>, reloadResult.unsubscribed}});</div>
-<div class="line"><span class="lineno">  227</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  228</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Rollback failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
-<div class="line"><span class="lineno">  229</span>            }</div>
-<div class="line"><span class="lineno">  230</span>        });</div>
-<div class="line"><span class="lineno">  231</span> </div>
-<div class="line"><span class="lineno">  232</span>        <span class="comment">// GET /config/history</span></div>
-<div class="line"><span class="lineno">  233</span>        api.get(<span class="stringliteral">&quot;/config/history&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  234</span>            <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">  235</span>                <span class="keyword">auto</span> history = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#aad4d1b579cf41a56350a5592f56829a8">JsonMappingReader::getHistory</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>());</div>
-<div class="line"><span class="lineno">  236</span>                nlohmann::json list = nlohmann::json::array();</div>
-<div class="line"><span class="lineno">  237</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; h : history) {</div>
-<div class="line"><span class="lineno">  238</span>                    list.push_back({{<span class="stringliteral">&quot;id&quot;</span>, h.id}, {<span class="stringliteral">&quot;comment&quot;</span>, h.comment}, {<span class="stringliteral">&quot;date&quot;</span>, h.date}});</div>
-<div class="line"><span class="lineno">  239</span>                }</div>
-<div class="line"><span class="lineno">  240</span>                res-&gt;status(200).json(list);</div>
-<div class="line"><span class="lineno">  241</span>            } <span class="keywordflow">catch</span> ([[maybe_unused]] <span class="keyword">const</span> std::exception&amp; e) {</div>
-<div class="line"><span class="lineno">  242</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Failed to fetch history&quot;</span>}});</div>
-<div class="line"><span class="lineno">  243</span>            }</div>
-<div class="line"><span class="lineno">  244</span>        });</div>
-<div class="line"><span class="lineno">  245</span> </div>
-<div class="line"><span class="lineno">  246</span>        api.get(<span class="stringliteral">&quot;/&quot;</span>, [] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  247</span>            res-&gt;redirect(<span class="stringliteral">&quot;/ui&quot;</span>);</div>
-<div class="line"><span class="lineno">  248</span>        });</div>
-<div class="line"><span class="lineno">  249</span> </div>
-<div class="line"><span class="lineno">  250</span>        api.get(<span class="stringliteral">&quot;/ui&quot;</span>, [] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  251</span>            res-&gt;redirect(<span class="stringliteral">&quot;/ui/index.html&quot;</span>);</div>
-<div class="line"><span class="lineno">  252</span>        });</div>
-<div class="line"><span class="lineno">  253</span> </div>
-<div class="line"><span class="lineno">  254</span>        api.use(<span class="stringliteral">&quot;/ui&quot;</span>,</div>
-<div class="line"><span class="lineno">  255</span>                express::middleware::StaticMiddleware(<span class="stringliteral">&quot;/home/voc/tmp/integrator/mqtt-integrator-ui/dist/mqtt-integrator-ui/browser&quot;</span>));</div>
-<div class="line"><span class="lineno">  256</span> </div>
-<div class="line"><span class="lineno">  257</span>        api.get(<span class="stringliteral">&quot;*&quot;</span>, [] APPLICATION(req, res) {</div>
-<div class="line"><span class="lineno">  258</span>            res-&gt;redirect(<span class="stringliteral">&quot;/ui/index.html&quot;</span>);</div>
-<div class="line"><span class="lineno">  259</span>        });</div>
-<div class="line"><span class="lineno">  260</span> </div>
-<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">return</span> api;</div>
-<div class="line"><span class="lineno">  262</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a3950b6b32f2481e904a1263b92f3c9f8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">mqtt::lib::ConfigApplication::getMappingFilename</a></div><div class="ttdeci">std::string getMappingFilename() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00100">ConfigApplication.cpp:100</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a59cb7bb2531c0192a9b1669c44e42de8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">mqtt::lib::ConfigApplication::getMqttMapper</a></div><div class="ttdeci">const std::shared_ptr&lt; MqttMapper &gt; getMqttMapper() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00110">ConfigApplication.cpp:110</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_acc4e1282f8a60972f892a8bf9c7259fe"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe">mqtt::lib::ConfigApplication::setMapping</a></div><div class="ttdeci">bool setMapping(const nlohmann::json &amp;json)</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00104">ConfigApplication.cpp:104</a></div></div>
+<div class="line"><span class="lineno">  214</span>                nlohmann::json rolledbackMappingJson = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#a0af761ff8c2b92bdd3111c573f633e99">JsonMappingReader::rollbackTo</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>(), versionId);</div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>                <span class="keywordtype">bool</span> mustReconnect = configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe">setMapping</a>(rolledbackMappingJson); <span class="comment">// throws in case of an error during loading</span></div>
+<div class="line"><span class="lineno">  217</span>                                                                                           <span class="comment">// or validation. This exeption is catched</span></div>
+<div class="line"><span class="lineno">  218</span>                                                                                           <span class="comment">// in the MappingAdminRouter</span></div>
+<div class="line"><span class="lineno">  219</span>                <a class="code hl_struct" href="structmqtt_1_1lib_1_1admin_1_1ReloadResult.html">ReloadResult</a> reloadResult;</div>
+<div class="line"><span class="lineno">  220</span>                <span class="keywordflow">if</span> (onDeploy) {</div>
+<div class="line"><span class="lineno">  221</span>                    reloadResult = onDeploy(mustReconnect); <span class="comment">// Trigger hot-reload</span></div>
+<div class="line"><span class="lineno">  222</span>                }</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>                res-&gt;status(200).json({{<span class="stringliteral">&quot;status&quot;</span>, <span class="stringliteral">&quot;deploy-ack&quot;</span>},</div>
+<div class="line"><span class="lineno">  225</span>                                       {<span class="stringliteral">&quot;reload_mode&quot;</span>, reloadResult.mode},</div>
+<div class="line"><span class="lineno">  226</span>                                       {<span class="stringliteral">&quot;instances&quot;</span>, reloadResult.instances},</div>
+<div class="line"><span class="lineno">  227</span>                                       {<span class="stringliteral">&quot;subscribed&quot;</span>, reloadResult.subscribed},</div>
+<div class="line"><span class="lineno">  228</span>                                       {<span class="stringliteral">&quot;unsubscribed&quot;</span>, reloadResult.unsubscribed}});</div>
+<div class="line"><span class="lineno">  229</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  230</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Rollback failed&quot;</span>}, {<span class="stringliteral">&quot;details&quot;</span>, e.what()}});</div>
+<div class="line"><span class="lineno">  231</span>            }</div>
+<div class="line"><span class="lineno">  232</span>        });</div>
+<div class="line"><span class="lineno">  233</span> </div>
+<div class="line"><span class="lineno">  234</span>        <span class="comment">// GET /config/history</span></div>
+<div class="line"><span class="lineno">  235</span>        api.get(<span class="stringliteral">&quot;/config/history&quot;</span>, [configApplication] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  236</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  237</span>                <span class="keyword">auto</span> history = <a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#aad4d1b579cf41a56350a5592f56829a8">JsonMappingReader::getHistory</a>(configApplication-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a>());</div>
+<div class="line"><span class="lineno">  238</span>                nlohmann::json list = nlohmann::json::array();</div>
+<div class="line"><span class="lineno">  239</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; h : history) {</div>
+<div class="line"><span class="lineno">  240</span>                    list.push_back({{<span class="stringliteral">&quot;id&quot;</span>, h.id}, {<span class="stringliteral">&quot;comment&quot;</span>, h.comment}, {<span class="stringliteral">&quot;date&quot;</span>, h.date}});</div>
+<div class="line"><span class="lineno">  241</span>                }</div>
+<div class="line"><span class="lineno">  242</span>                res-&gt;status(200).json(list);</div>
+<div class="line"><span class="lineno">  243</span>            } <span class="keywordflow">catch</span> ([[maybe_unused]] <span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  244</span>                res-&gt;status(500).json({{<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Failed to fetch history&quot;</span>}});</div>
+<div class="line"><span class="lineno">  245</span>            }</div>
+<div class="line"><span class="lineno">  246</span>        });</div>
+<div class="line"><span class="lineno">  247</span> </div>
+<div class="line"><span class="lineno">  248</span>        api.get(<span class="stringliteral">&quot;/&quot;</span>, [] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  249</span>            res-&gt;redirect(<span class="stringliteral">&quot;/ui&quot;</span>);</div>
+<div class="line"><span class="lineno">  250</span>        });</div>
+<div class="line"><span class="lineno">  251</span> </div>
+<div class="line"><span class="lineno">  252</span>        api.get(<span class="stringliteral">&quot;/ui&quot;</span>, [] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  253</span>            res-&gt;redirect(<span class="stringliteral">&quot;/ui/index.html&quot;</span>);</div>
+<div class="line"><span class="lineno">  254</span>        });</div>
+<div class="line"><span class="lineno">  255</span> </div>
+<div class="line"><span class="lineno">  256</span>        api.use(<span class="stringliteral">&quot;/ui&quot;</span>,</div>
+<div class="line"><span class="lineno">  257</span>                express::middleware::StaticMiddleware(<span class="stringliteral">&quot;/home/voc/tmp/integrator/mqtt-integrator-ui/dist/mqtt-integrator-ui/browser&quot;</span>));</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>        api.get(<span class="stringliteral">&quot;*&quot;</span>, [] APPLICATION(req, res) {</div>
+<div class="line"><span class="lineno">  260</span>            res-&gt;redirect(<span class="stringliteral">&quot;/ui/index.html&quot;</span>);</div>
+<div class="line"><span class="lineno">  261</span>        });</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>        <span class="keywordflow">return</span> api;</div>
+<div class="line"><span class="lineno">  264</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a3950b6b32f2481e904a1263b92f3c9f8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a3950b6b32f2481e904a1263b92f3c9f8">mqtt::lib::ConfigApplication::getMappingFilename</a></div><div class="ttdeci">std::string getMappingFilename() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00099">ConfigApplication.cpp:99</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a59cb7bb2531c0192a9b1669c44e42de8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">mqtt::lib::ConfigApplication::getMqttMapper</a></div><div class="ttdeci">const std::shared_ptr&lt; MqttMapper &gt; getMqttMapper() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00109">ConfigApplication.cpp:109</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_acc4e1282f8a60972f892a8bf9c7259fe"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe">mqtt::lib::ConfigApplication::setMapping</a></div><div class="ttdeci">bool setMapping(const nlohmann::json &amp;json)</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00103">ConfigApplication.cpp:103</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a055e5cf6b145f6f17d29f9efa0fa4d58"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a055e5cf6b145f6f17d29f9efa0fa4d58">mqtt::lib::JsonMappingReader::deployDraft</a></div><div class="ttdeci">static nlohmann::json deployDraft(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00129">JsonMappingReader.cpp:129</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_a0af761ff8c2b92bdd3111c573f633e99"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#a0af761ff8c2b92bdd3111c573f633e99">mqtt::lib::JsonMappingReader::rollbackTo</a></div><div class="ttdeci">static nlohmann::json rollbackTo(const std::string &amp;mapFilePath, const std::string &amp;versionId)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00265">JsonMappingReader.cpp:265</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_aad4d1b579cf41a56350a5592f56829a8"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#aad4d1b579cf41a56350a5592f56829a8">mqtt::lib::JsonMappingReader::getHistory</a></div><div class="ttdeci">static std::vector&lt; VersionEntry &gt; getHistory(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00208">JsonMappingReader.cpp:208</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_ae1fe85c10e7aaeafa92e1b80b15274af"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae1fe85c10e7aaeafa92e1b80b15274af">mqtt::lib::JsonMappingReader::getDraftPath</a></div><div class="ttdeci">static std::string getDraftPath(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00098">JsonMappingReader.cpp:98</a></div></div>
 <div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_ae8eff0ae26adbed7f80e15be2a5fb5ad"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#ae8eff0ae26adbed7f80e15be2a5fb5ad">mqtt::lib::JsonMappingReader::saveDraft</a></div><div class="ttdeci">static void saveDraft(const std::string &amp;mapFilePath, const nlohmann::json &amp;content)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00102">JsonMappingReader.cpp:102</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a801514c624b0467df9018502f3dca46e"><div class="ttname"><a href="classmqtt_1_1lib_1_1MqttMapper.html#a801514c624b0467df9018502f3dca46e">mqtt::lib::MqttMapper::validate</a></div><div class="ttdeci">static const nlohmann::json validate(const nlohmann::json &amp;json)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00221">MqttMapper.cpp:221</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_ae3245c4889a8c73dd7d2b88c0d13502f"><div class="ttname"><a href="classmqtt_1_1lib_1_1MqttMapper.html#ae3245c4889a8c73dd7d2b88c0d13502f">mqtt::lib::MqttMapper::getSchema</a></div><div class="ttdeci">static const std::string &amp; getSchema()</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00109">MqttMapper.cpp:109</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_a801514c624b0467df9018502f3dca46e"><div class="ttname"><a href="classmqtt_1_1lib_1_1MqttMapper.html#a801514c624b0467df9018502f3dca46e">mqtt::lib::MqttMapper::validate</a></div><div class="ttdeci">static const nlohmann::json validate(const nlohmann::json &amp;json)</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00223">MqttMapper.cpp:223</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1MqttMapper_html_ae3245c4889a8c73dd7d2b88c0d13502f"><div class="ttname"><a href="classmqtt_1_1lib_1_1MqttMapper.html#ae3245c4889a8c73dd7d2b88c0d13502f">mqtt::lib::MqttMapper::getSchema</a></div><div class="ttdeci">static const std::string &amp; getSchema()</div><div class="ttdef"><b>Definition</b> <a href="MqttMapper_8cpp_source.html#l00111">MqttMapper.cpp:111</a></div></div>
 <div class="ttc" id="astructmqtt_1_1lib_1_1admin_1_1AdminOptions_html_a4bc0fc449cee2d04dfc328ffd2d9bd7e"><div class="ttname"><a href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a4bc0fc449cee2d04dfc328ffd2d9bd7e">mqtt::lib::admin::AdminOptions::realm</a></div><div class="ttdeci">std::string realm</div><div class="ttdef"><b>Definition</b> <a href="MappingAdminRouter_8h_source.html#l00064">MappingAdminRouter.h:64</a></div></div>
 <div class="ttc" id="astructmqtt_1_1lib_1_1admin_1_1AdminOptions_html_a8012d4f1ffe0509eabdbb8ddfc45039d"><div class="ttname"><a href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d">mqtt::lib::admin::AdminOptions::pass</a></div><div class="ttdeci">std::string pass</div><div class="ttdef"><b>Definition</b> <a href="MappingAdminRouter_8h_source.html#l00063">MappingAdminRouter.h:63</a></div></div>
 <div class="ttc" id="astructmqtt_1_1lib_1_1admin_1_1AdminOptions_html_ac887b9a86e723a6cc35b01844b7e0b8a"><div class="ttname"><a href="structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#ac887b9a86e723a6cc35b01844b7e0b8a">mqtt::lib::admin::AdminOptions::user</a></div><div class="ttdeci">std::string user</div><div class="ttdef"><b>Definition</b> <a href="MappingAdminRouter_8h_source.html#l00062">MappingAdminRouter.h:62</a></div></div>
 <div class="ttc" id="astructmqtt_1_1lib_1_1admin_1_1ReloadResult_html"><div class="ttname"><a href="structmqtt_1_1lib_1_1admin_1_1ReloadResult.html">mqtt::lib::admin::ReloadResult</a></div><div class="ttdef"><b>Definition</b> <a href="MappingAdminRouter_8h_source.html#l00067">MappingAdminRouter.h:67</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="JsonMappingReader_8h_source.html#l00074">mqtt::lib::JsonMappingReader::VersionEntry::comment</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00075">mqtt::lib::JsonMappingReader::VersionEntry::date</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00129">mqtt::lib::JsonMappingReader::deployDraft()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00098">mqtt::lib::JsonMappingReader::getDraftPath()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00208">mqtt::lib::JsonMappingReader::getHistory()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00201">mqtt::lib::MqttMapper::getMapping()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00100">mqtt::lib::ConfigApplication::getMappingFilename()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00110">mqtt::lib::ConfigApplication::getMqttMapper()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00109">mqtt::lib::MqttMapper::getSchema()</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00072">mqtt::lib::JsonMappingReader::VersionEntry::id</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00069">mqtt::lib::admin::ReloadResult::instances</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00068">mqtt::lib::admin::ReloadResult::mode</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00063">mqtt::lib::admin::AdminOptions::pass</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00064">mqtt::lib::admin::AdminOptions::realm</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00265">mqtt::lib::JsonMappingReader::rollbackTo()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00102">mqtt::lib::JsonMappingReader::saveDraft()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00104">mqtt::lib::ConfigApplication::setMapping()</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00070">mqtt::lib::admin::ReloadResult::subscribed</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00071">mqtt::lib::admin::ReloadResult::unsubscribed</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00062">mqtt::lib::admin::AdminOptions::user</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00225">mqtt::lib::MqttMapper::validate()</a>.</p>
+<p class="reference">References <a class="el" href="JsonMappingReader_8h_source.html#l00074">mqtt::lib::JsonMappingReader::VersionEntry::comment</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00075">mqtt::lib::JsonMappingReader::VersionEntry::date</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00129">mqtt::lib::JsonMappingReader::deployDraft()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00098">mqtt::lib::JsonMappingReader::getDraftPath()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00208">mqtt::lib::JsonMappingReader::getHistory()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00203">mqtt::lib::MqttMapper::getMapping()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00099">mqtt::lib::ConfigApplication::getMappingFilename()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00109">mqtt::lib::ConfigApplication::getMqttMapper()</a>, <a class="el" href="MqttMapper_8cpp_source.html#l00111">mqtt::lib::MqttMapper::getSchema()</a>, <a class="el" href="JsonMappingReader_8h_source.html#l00072">mqtt::lib::JsonMappingReader::VersionEntry::id</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00069">mqtt::lib::admin::ReloadResult::instances</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00068">mqtt::lib::admin::ReloadResult::mode</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00063">mqtt::lib::admin::AdminOptions::pass</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00064">mqtt::lib::admin::AdminOptions::realm</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00265">mqtt::lib::JsonMappingReader::rollbackTo()</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00102">mqtt::lib::JsonMappingReader::saveDraft()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00103">mqtt::lib::ConfigApplication::setMapping()</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00070">mqtt::lib::admin::ReloadResult::subscribed</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00071">mqtt::lib::admin::ReloadResult::unsubscribed</a>, <a class="el" href="MappingAdminRouter_8h_source.html#l00062">mqtt::lib::admin::AdminOptions::user</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00227">mqtt::lib::MqttMapper::validate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

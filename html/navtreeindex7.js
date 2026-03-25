@@ -1,5 +1,11 @@
 var NAVTREEINDEX7 =
 {
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a59cfa5e554e04283efd19b66e6f5d432":[10,0,7,0,1,0,0,3],
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a5d4c71bb66d3ca2fdc043a36fbb7e2aa":[9,0,11,0,1,1,0,5],
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a5d4c71bb66d3ca2fdc043a36fbb7e2aa":[10,0,7,0,1,0,0,5],
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a69049bca116d5403d17d16540de8de0a":[9,0,11,0,1,1,0,6],
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a69049bca116d5403d17d16540de8de0a":[10,0,7,0,1,0,0,6],
+"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18":[9,0,11,0,1,1,0,9],
 "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a70768017593ed8cf0a8555c3ebebaa18":[10,0,7,0,1,0,0,9],
 "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a7fb2a7e7d31a538bc3515775828f74a5":[9,0,11,0,1,1,0,0],
 "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a7fb2a7e7d31a538bc3515775828f74a5":[10,0,7,0,1,0,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#afc713391e1cf8c988c284e060893807f":[10,0,7,4,0,3,32],
 "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html":[9,0,11,4,0,1],
 "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html":[10,0,7,4,0,1],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a56b463e5a2e95db45a21ec44e0b78199":[9,0,11,4,0,1,1],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a56b463e5a2e95db45a21ec44e0b78199":[10,0,7,4,0,1,1],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a684dca485c5192a0f809754d12654733":[9,0,11,4,0,1,0],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a684dca485c5192a0f809754d12654733":[10,0,7,4,0,1,0],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a6b4600aa8d1cb13f01d1849e2aefacf4":[9,0,11,4,0,1,2],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a6b4600aa8d1cb13f01d1849e2aefacf4":[10,0,7,4,0,1,2],
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a9e799935d50c470765cd036a4912c79a":[9,0,11,4,0,1,4]
+"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a56b463e5a2e95db45a21ec44e0b78199":[9,0,11,4,0,1,1]
 };

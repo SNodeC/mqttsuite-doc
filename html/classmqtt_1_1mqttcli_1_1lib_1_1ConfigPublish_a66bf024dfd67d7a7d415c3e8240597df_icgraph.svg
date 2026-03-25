@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="mqttcli_8cpp.html#ae9bf3025477720cd13903895c2e6a73a" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="mqttcli_8cpp.html#af217f0a4dca9613ed8c4ceea84cad3cb" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="247.25,-20.75 169,-20.75 169,0 247.25,0 247.25,-20.75"/>
 <text xml:space="preserve" text-anchor="middle" x="208.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">createConfig</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="mqttcli_8cpp.html#a2abd5a21366024ca45e7cab54c94b5f2" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="mqttcli_8cpp.html#aa77513aa1da0971667cddd0126d1bea9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="94,-20.75 0,-20.75 0,0 94,0 94,-20.75"/>
 <text xml:space="preserve" text-anchor="middle" x="47" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">createWSConfig</text>
 </a>
