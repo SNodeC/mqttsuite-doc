@@ -1,0 +1,8 @@
+<map id="mqtt::mqttstore::lib::anonymous_namespace{StoragePlan.cpp}::ProjectionValidationErrorHandler" name="mqtt::mqttstore::lib::anonymous_namespace{StoragePlan.cpp}::ProjectionValidationErrorHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,191,210,269"/>
+<area shape="rect" id="Node000002" href="$classnlohmann_1_1json__schema_1_1basic__error__handler.html" title=" " alt="" coords="23,98,192,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,155,102,192,96,190,98,160"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="118,155,119,192,114,190,115,160"/>
+<area shape="rect" id="Node000003" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="23,5,192,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,62,110,99,105,98,107,68"/>
+</map>

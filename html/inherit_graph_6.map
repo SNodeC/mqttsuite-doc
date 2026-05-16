@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classinja_1_1Environment.html" title="Class for changing the configuration." alt="" coords="5,5,142,33"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,144,177,189"/>
+<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1SocketContextFactory.html" title=" " alt="" coords="236,5,440,50"/>
+<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="125,131,170,94,223,60,253,49,249,52,226,65,173,99,129,135"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html" title=" " alt="" coords="246,75,430,119"/>
+<area shape="poly" id="edge15_Node000000_Node000002" title=" " alt="" coords="187,137,258,118,254,121,189,142"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttcli_1_1SocketContextFactory.html" title=" " alt="" coords="234,144,442,189"/>
+<area shape="poly" id="edge16_Node000000_Node000003" title=" " alt="" coords="191,164,236,165,231,167,193,169"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html" title=" " alt="" coords="252,213,424,258"/>
+<area shape="poly" id="edge17_Node000000_Node000004" title=" " alt="" coords="188,191,258,212,253,214,188,196"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttstore_1_1SocketContextFactory.html" title=" " alt="" coords="225,283,451,327"/>
+<area shape="poly" id="edge18_Node000000_Node000005" title=" " alt="" coords="128,197,173,234,226,268,254,282,248,282,223,273,170,238,126,202"/>
 </map>

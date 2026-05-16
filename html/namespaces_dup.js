@@ -8,6 +8,7 @@ var namespaces_dup =
       [ "patch_schema", "namespaceanonymous__namespace_02json-patch_8cpp_03.html#a79131602ed1f430c1aaaed3c6a4f5beb", null ]
     ] ],
     [ "anonymous_namespace{json-validator.cpp}", "namespaceanonymous__namespace_02json-validator_8cpp_03.html", "namespaceanonymous__namespace_02json-validator_8cpp_03" ],
+    [ "anonymous_namespace{SocketContextFactory.cpp}", "namespaceanonymous__namespace_02SocketContextFactory_8cpp_03.html", "namespaceanonymous__namespace_02SocketContextFactory_8cpp_03" ],
     [ "anonymous_namespace{string-format-check.cpp}", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html", [
       [ "is_ascii", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a63b1fb98ca5a11d6c9c782a5f117d8bb", null ],
       [ "range_check", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a6340a152b415fab84af156f3afff080b", null ],
@@ -26,6 +27,7 @@ var namespaces_dup =
       [ "regName", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html#af9627d084d7fc8db80f3506b9679beb5", null ],
       [ "uuid", "namespaceanonymous__namespace_02string-format-check_8cpp_03.html#a760de03fac73dd367a44cf8a09944191", null ]
     ] ],
+    [ "anonymous_namespace{SubProtocolFactory.cpp}", "namespaceanonymous__namespace_02SubProtocolFactory_8cpp_03.html", "namespaceanonymous__namespace_02SubProtocolFactory_8cpp_03" ],
     [ "conanfile", "namespaceconanfile.html", "namespaceconanfile" ],
     [ "express", "namespaceexpress.html", null ],
     [ "inja", "namespaceinja.html", "namespaceinja" ],

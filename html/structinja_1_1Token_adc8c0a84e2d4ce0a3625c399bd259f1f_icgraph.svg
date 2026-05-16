@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 2181;
+var viewWidth = 2127;
 var viewHeight = 381;
 var sectionId = 'dynsection-2';
 </script>
@@ -59,8 +59,8 @@ var sectionId = 'dynsection-2';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="2172.5,-309.75 2057.5,-309.75 2057.5,-289 2172.5,-289 2172.5,-309.75"/>
-<text xml:space="preserve" text-anchor="middle" x="2115" y="-296.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Token::describe</text>
+<polygon fill="#999999" stroke="#666666" points="2118.5,-309.75 2003.5,-309.75 2003.5,-289 2118.5,-289 2118.5,-309.75"/>
+<text xml:space="preserve" text-anchor="middle" x="2061" y="-296.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Token::describe</text>
 </a>
 </g>
 </g>
@@ -68,9 +68,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="classinja_1_1Parser.html#a7dda6b9f4295c215e097f45d573d8d69" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2021.5,-285.12 1917.75,-285.12 1917.75,-251.62 2021.5,-251.62 2021.5,-285.12"/>
-<text xml:space="preserve" text-anchor="start" x="1925.75" y="-271.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
-<text xml:space="preserve" text-anchor="middle" x="1969.62" y="-258.88" font-family="Helvetica,sans-Serif" font-size="10.00">_expression</text>
+<polygon fill="white" stroke="#666666" points="1967.5,-285.12 1863.75,-285.12 1863.75,-251.62 1967.5,-251.62 1967.5,-285.12"/>
+<text xml:space="preserve" text-anchor="start" x="1871.75" y="-271.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
+<text xml:space="preserve" text-anchor="middle" x="1915.62" y="-258.88" font-family="Helvetica,sans-Serif" font-size="10.00">_expression</text>
 </a>
 </g>
 </g>
@@ -78,8 +78,8 @@ var sectionId = 'dynsection-2';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2052.84,-286.15C2042.55,-283.93 2031.97,-281.64 2021.96,-279.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2051.86,-289.52 2062.38,-288.21 2053.34,-282.68 2051.86,-289.52"/>
+<path fill="none" stroke="#63b8ff" d="M1998.84,-286.15C1988.55,-283.93 1977.97,-281.64 1967.96,-279.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1997.86,-289.52 2008.38,-288.21 1999.34,-282.68 1997.86,-289.52"/>
 </a>
 </g>
 </g>
@@ -87,55 +87,55 @@ var sectionId = 'dynsection-2';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="classinja_1_1Parser.html#a325c55a6c060f76d0d83b4d187b1ef33" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1742,-233.75 1614.25,-233.75 1614.25,-213 1742,-213 1742,-233.75"/>
-<text xml:space="preserve" text-anchor="middle" x="1678.12" y="-220.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse_into</text>
+<polygon fill="white" stroke="#666666" points="1688,-233.75 1560.25,-233.75 1560.25,-213 1688,-213 1688,-233.75"/>
+<text xml:space="preserve" text-anchor="middle" x="1624.12" y="-220.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse_into</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge41_Node000001_Node000004" class="edge">
+<g id="edge35_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<g id="a_edge41_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2092.29,-281.63C2074.46,-268.19 2047.92,-250.66 2021.5,-242.38 1927.63,-212.94 1812.29,-213.59 1742.31,-217.75"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2090.01,-284.29 2100.05,-287.67 2094.31,-278.77 2090.01,-284.29"/>
+<g id="a_edge35_Node000001_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M2038.29,-281.63C2020.46,-268.19 1993.92,-250.66 1967.5,-242.38 1873.63,-212.94 1758.29,-213.59 1688.31,-217.75"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2036.01,-284.29 2046.05,-287.67 2040.31,-278.77 2036.01,-284.29"/>
 </a>
 </g>
 </g>
-<!-- Node24 -->
-<g id="Node000024" class="node">
-<title>Node24</title>
-<g id="a_Node000024"><a xlink:href="classinja_1_1Parser.html#afdea619b58c4db677d49c0481d6a9a4b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1290.5,-311.12 1186.75,-311.12 1186.75,-277.62 1290.5,-277.62 1290.5,-311.12"/>
-<text xml:space="preserve" text-anchor="start" x="1194.75" y="-297.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
-<text xml:space="preserve" text-anchor="middle" x="1238.62" y="-284.88" font-family="Helvetica,sans-Serif" font-size="10.00">_statement</text>
+<!-- Node21 -->
+<g id="Node000021" class="node">
+<title>Node21</title>
+<g id="a_Node000021"><a xlink:href="classinja_1_1Parser.html#afdea619b58c4db677d49c0481d6a9a4b" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1236.5,-311.12 1132.75,-311.12 1132.75,-277.62 1236.5,-277.62 1236.5,-311.12"/>
+<text xml:space="preserve" text-anchor="start" x="1140.75" y="-297.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
+<text xml:space="preserve" text-anchor="middle" x="1184.62" y="-284.88" font-family="Helvetica,sans-Serif" font-size="10.00">_statement</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node24 -->
-<g id="edge42_Node000001_Node000024" class="edge">
-<title>Node1&#45;&gt;Node24</title>
-<g id="a_edge42_Node000001_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2079.52,-314.5C2026.96,-336.14 1923.13,-373.38 1830.88,-373.38 1830.88,-373.38 1830.88,-373.38 1525.38,-373.38 1433.24,-373.38 1330.25,-334.75 1276.62,-311.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2080.67,-317.81 2088.54,-310.72 2077.97,-311.36 2080.67,-317.81"/>
+<!-- Node1&#45;&gt;Node21 -->
+<g id="edge36_Node000001_Node000021" class="edge">
+<title>Node1&#45;&gt;Node21</title>
+<g id="a_edge36_Node000001_Node000021"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M2025.52,-314.5C1972.96,-336.14 1869.13,-373.38 1776.88,-373.38 1776.88,-373.38 1776.88,-373.38 1471.38,-373.38 1379.24,-373.38 1276.25,-334.75 1222.62,-311.52"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2026.67,-317.81 2034.54,-310.72 2023.97,-311.36 2026.67,-317.81"/>
 </a>
 </g>
 </g>
-<!-- Node31 -->
-<g id="Node000031" class="node">
-<title>Node31</title>
-<g id="a_Node000031"><a xlink:href="classinja_1_1Parser.html#a1bd2c3127357715521ec111c39a7e823" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1881.75,-345.12 1778,-345.12 1778,-311.62 1881.75,-311.62 1881.75,-345.12"/>
-<text xml:space="preserve" text-anchor="start" x="1786" y="-331.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
-<text xml:space="preserve" text-anchor="middle" x="1829.88" y="-318.88" font-family="Helvetica,sans-Serif" font-size="10.00">_filename</text>
+<!-- Node28 -->
+<g id="Node000028" class="node">
+<title>Node28</title>
+<g id="a_Node000028"><a xlink:href="classinja_1_1Parser.html#a1bd2c3127357715521ec111c39a7e823" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1827.75,-345.12 1724,-345.12 1724,-311.62 1827.75,-311.62 1827.75,-345.12"/>
+<text xml:space="preserve" text-anchor="start" x="1732" y="-331.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
+<text xml:space="preserve" text-anchor="middle" x="1775.88" y="-318.88" font-family="Helvetica,sans-Serif" font-size="10.00">_filename</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node31 -->
-<g id="edge39_Node000001_Node000031" class="edge">
-<title>Node1&#45;&gt;Node31</title>
-<g id="a_edge39_Node000001_Node000031"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2046.11,-309.36C2037.83,-310.45 2029.48,-311.48 2021.5,-312.38 1974.3,-317.67 1920.35,-322.04 1881.92,-324.87"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2046.37,-312.85 2055.82,-308.05 2045.44,-305.92 2046.37,-312.85"/>
+<!-- Node1&#45;&gt;Node28 -->
+<g id="edge33_Node000001_Node000028" class="edge">
+<title>Node1&#45;&gt;Node28</title>
+<g id="a_edge33_Node000001_Node000028"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1992.11,-309.36C1983.83,-310.45 1975.48,-311.48 1967.5,-312.38 1920.3,-317.67 1866.35,-322.04 1827.92,-324.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1992.37,-312.85 2001.82,-308.05 1991.44,-305.92 1992.37,-312.85"/>
 </a>
 </g>
 </g>
@@ -143,8 +143,8 @@ var sectionId = 'dynsection-2';
 <g id="edge2_Node000002_Node000002" class="edge">
 <title>Node2&#45;&gt;Node2</title>
 <g id="a_edge2_Node000002_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1992.76,-296.84C1988.83,-300.62 1981.12,-303.12 1969.62,-303.12 1948.61,-303.12 1940.23,-294.74 1944.5,-285.54"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1996.2,-297.48 1994.49,-287.03 1989.31,-296.27 1996.2,-297.48"/>
+<path fill="none" stroke="#63b8ff" d="M1938.76,-296.84C1934.83,-300.62 1927.12,-303.12 1915.62,-303.12 1894.61,-303.12 1886.23,-294.74 1890.5,-285.54"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1942.2,-297.48 1940.49,-287.03 1935.31,-296.27 1942.2,-297.48"/>
 </a>
 </g>
 </g>
@@ -152,9 +152,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="classinja_1_1Parser.html#aeb66164c89e8c71cae3c93c24d7c7be2" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1881.75,-285.12 1778,-285.12 1778,-251.62 1881.75,-251.62 1881.75,-285.12"/>
-<text xml:space="preserve" text-anchor="start" x="1786" y="-271.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
-<text xml:space="preserve" text-anchor="middle" x="1829.88" y="-258.88" font-family="Helvetica,sans-Serif" font-size="10.00">_expression</text>
+<polygon fill="white" stroke="#666666" points="1827.75,-285.12 1724,-285.12 1724,-251.62 1827.75,-251.62 1827.75,-285.12"/>
+<text xml:space="preserve" text-anchor="start" x="1732" y="-271.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
+<text xml:space="preserve" text-anchor="middle" x="1775.88" y="-258.88" font-family="Helvetica,sans-Serif" font-size="10.00">_expression</text>
 </a>
 </g>
 </g>
@@ -162,8 +162,8 @@ var sectionId = 'dynsection-2';
 <g id="edge3_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge3_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1905.86,-268.38C1897.95,-268.38 1889.92,-268.38 1882.21,-268.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1905.82,-271.88 1915.82,-268.38 1905.82,-264.88 1905.82,-271.88"/>
+<path fill="none" stroke="#63b8ff" d="M1851.86,-268.38C1843.95,-268.38 1835.92,-268.38 1828.21,-268.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1851.82,-271.88 1861.82,-268.38 1851.82,-264.88 1851.82,-271.88"/>
 </a>
 </g>
 </g>
@@ -171,17 +171,17 @@ var sectionId = 'dynsection-2';
 <g id="edge4_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge4_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1766.9,-249.75C1749.19,-244.43 1730.48,-238.81 1714.91,-234.13"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1765.72,-253.05 1776.31,-252.58 1767.74,-246.35 1765.72,-253.05"/>
+<path fill="none" stroke="#63b8ff" d="M1712.9,-249.75C1695.19,-244.43 1676.48,-238.81 1660.91,-234.13"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1711.72,-253.05 1722.31,-252.58 1713.74,-246.35 1711.72,-253.05"/>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node24 -->
-<g id="edge38_Node000003_Node000024" class="edge">
-<title>Node3&#45;&gt;Node24</title>
-<g id="a_edge38_Node000003_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1766.36,-271.13C1649.19,-276.3 1398.65,-287.36 1290.77,-292.12"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1766.27,-274.64 1776.1,-270.7 1765.96,-267.65 1766.27,-274.64"/>
+<!-- Node3&#45;&gt;Node21 -->
+<g id="edge32_Node000003_Node000021" class="edge">
+<title>Node3&#45;&gt;Node21</title>
+<g id="a_edge32_Node000003_Node000021"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1712.36,-271.13C1595.19,-276.3 1344.65,-287.36 1236.77,-292.12"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1712.27,-274.64 1722.1,-270.7 1711.96,-267.65 1712.27,-274.64"/>
 </a>
 </g>
 </g>
@@ -189,8 +189,8 @@ var sectionId = 'dynsection-2';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="classinja_1_1Parser.html#ae9cf060e992d2a12b7fd47b346d8bd64" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1578.25,-134.75 1474.5,-134.75 1474.5,-114 1578.25,-114 1578.25,-134.75"/>
-<text xml:space="preserve" text-anchor="middle" x="1526.38" y="-121.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
+<polygon fill="white" stroke="#666666" points="1524.25,-134.75 1420.5,-134.75 1420.5,-114 1524.25,-114 1524.25,-134.75"/>
+<text xml:space="preserve" text-anchor="middle" x="1472.38" y="-121.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
 </a>
 </g>
 </g>
@@ -198,27 +198,27 @@ var sectionId = 'dynsection-2';
 <g id="edge5_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <g id="a_edge5_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1651.55,-206.47C1620.67,-186.05 1569.65,-152.32 1543.67,-135.14"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1649.28,-209.16 1659.55,-211.76 1653.14,-203.32 1649.28,-209.16"/>
+<path fill="none" stroke="#63b8ff" d="M1597.55,-206.47C1566.67,-186.05 1515.65,-152.32 1489.67,-135.14"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1595.28,-209.16 1605.55,-211.76 1599.14,-203.32 1595.28,-209.16"/>
 </a>
 </g>
 </g>
-<!-- Node22 -->
-<g id="Node000022" class="node">
-<title>Node22</title>
-<g id="a_Node000022"><a xlink:href="classinja_1_1Parser.html#af2b8ee63877e6b685f30c87d204bbe8b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1578.25,-228.12 1474.5,-228.12 1474.5,-194.62 1578.25,-194.62 1578.25,-228.12"/>
-<text xml:space="preserve" text-anchor="start" x="1482.5" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
-<text xml:space="preserve" text-anchor="middle" x="1526.38" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">_into_template</text>
+<!-- Node19 -->
+<g id="Node000019" class="node">
+<title>Node19</title>
+<g id="a_Node000019"><a xlink:href="classinja_1_1Parser.html#af2b8ee63877e6b685f30c87d204bbe8b" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1524.25,-228.12 1420.5,-228.12 1420.5,-194.62 1524.25,-194.62 1524.25,-228.12"/>
+<text xml:space="preserve" text-anchor="start" x="1428.5" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::parse</text>
+<text xml:space="preserve" text-anchor="middle" x="1472.38" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">_into_template</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node22 -->
-<g id="edge28_Node000004_Node000022" class="edge">
-<title>Node4&#45;&gt;Node22</title>
-<g id="a_edge28_Node000004_Node000022"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1602.6,-217.4C1594.47,-216.75 1586.33,-216.1 1578.57,-215.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1602.3,-220.89 1612.54,-218.2 1602.85,-213.91 1602.3,-220.89"/>
+<!-- Node4&#45;&gt;Node19 -->
+<g id="edge22_Node000004_Node000019" class="edge">
+<title>Node4&#45;&gt;Node19</title>
+<g id="a_edge22_Node000004_Node000019"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1548.6,-217.4C1540.47,-216.75 1532.33,-216.1 1524.57,-215.48"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1548.3,-220.89 1558.54,-218.2 1548.85,-213.91 1548.3,-220.89"/>
 </a>
 </g>
 </g>
@@ -226,9 +226,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="classinja_1_1Environment.html#a8421b8d61fc4de15f29c909bd7154f92" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1437.75,-98.12 1329.5,-98.12 1329.5,-64.62 1437.75,-64.62 1437.75,-98.12"/>
-<text xml:space="preserve" text-anchor="start" x="1337.5" y="-84.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1383.62" y="-71.88" font-family="Helvetica,sans-Serif" font-size="10.00">parse</text>
+<polygon fill="white" stroke="#666666" points="1383.75,-98.12 1275.5,-98.12 1275.5,-64.62 1383.75,-64.62 1383.75,-98.12"/>
+<text xml:space="preserve" text-anchor="start" x="1283.5" y="-84.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1329.62" y="-71.88" font-family="Helvetica,sans-Serif" font-size="10.00">parse</text>
 </a>
 </g>
 </g>
@@ -236,8 +236,8 @@ var sectionId = 'dynsection-2';
 <g id="edge6_Node000005_Node000006" class="edge">
 <title>Node5&#45;&gt;Node6</title>
 <g id="a_edge6_Node000005_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1479.2,-110.27C1466.11,-106.27 1451.74,-101.88 1438.24,-97.75"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1477.82,-113.51 1488.41,-113.08 1479.87,-106.81 1477.82,-113.51"/>
+<path fill="none" stroke="#63b8ff" d="M1425.2,-110.27C1412.11,-106.27 1397.74,-101.88 1384.24,-97.75"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1423.82,-113.51 1434.41,-113.08 1425.87,-106.81 1423.82,-113.51"/>
 </a>
 </g>
 </g>
@@ -245,9 +245,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:href="classinja_1_1Environment.html#aac36e0cfdc9e7926914e46c0cd1caada" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1292.75,-124.12 1184.5,-124.12 1184.5,-90.62 1292.75,-90.62 1292.75,-124.12"/>
-<text xml:space="preserve" text-anchor="start" x="1192.5" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1238.62" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">render</text>
+<polygon fill="white" stroke="#666666" points="1238.75,-124.12 1130.5,-124.12 1130.5,-90.62 1238.75,-90.62 1238.75,-124.12"/>
+<text xml:space="preserve" text-anchor="start" x="1138.5" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1184.62" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">render</text>
 </a>
 </g>
 </g>
@@ -255,55 +255,55 @@ var sectionId = 'dynsection-2';
 <g id="edge7_Node000006_Node000007" class="edge">
 <title>Node6&#45;&gt;Node7</title>
 <g id="a_edge7_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1318.33,-93.07C1309.83,-94.61 1301.2,-96.18 1292.92,-97.69"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1318.68,-96.56 1327.89,-91.33 1317.42,-89.67 1318.68,-96.56"/>
+<path fill="none" stroke="#63b8ff" d="M1264.33,-93.07C1255.83,-94.61 1247.2,-96.18 1238.92,-97.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1264.68,-96.56 1273.89,-91.33 1263.42,-89.67 1264.68,-96.56"/>
 </a>
 </g>
 </g>
-<!-- Node20 -->
-<g id="Node000020" class="node">
-<title>Node20</title>
-<g id="a_Node000020"><a xlink:href="classinja_1_1Environment.html#ad00da8b535e5c5633ed2adec622e6cf4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1292.75,-72.12 1184.5,-72.12 1184.5,-38.62 1292.75,-38.62 1292.75,-72.12"/>
-<text xml:space="preserve" text-anchor="start" x="1192.5" y="-58.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1238.62" y="-45.88" font-family="Helvetica,sans-Serif" font-size="10.00">render_to</text>
+<!-- Node17 -->
+<g id="Node000017" class="node">
+<title>Node17</title>
+<g id="a_Node000017"><a xlink:href="classinja_1_1Environment.html#ad00da8b535e5c5633ed2adec622e6cf4" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1238.75,-72.12 1130.5,-72.12 1130.5,-38.62 1238.75,-38.62 1238.75,-72.12"/>
+<text xml:space="preserve" text-anchor="start" x="1138.5" y="-58.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1184.62" y="-45.88" font-family="Helvetica,sans-Serif" font-size="10.00">render_to</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node20 -->
-<g id="edge26_Node000006_Node000020" class="edge">
-<title>Node6&#45;&gt;Node20</title>
-<g id="a_edge26_Node000006_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1318.33,-69.68C1309.83,-68.14 1301.2,-66.57 1292.92,-65.06"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1317.42,-73.08 1327.89,-71.42 1318.68,-66.19 1317.42,-73.08"/>
+<!-- Node6&#45;&gt;Node17 -->
+<g id="edge20_Node000006_Node000017" class="edge">
+<title>Node6&#45;&gt;Node17</title>
+<g id="a_edge20_Node000006_Node000017"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1264.33,-69.68C1255.83,-68.14 1247.2,-66.57 1238.92,-65.06"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1263.42,-73.08 1273.89,-71.42 1264.68,-66.19 1263.42,-73.08"/>
 </a>
 </g>
 </g>
-<!-- Node21 -->
-<g id="Node000021" class="node">
-<title>Node21</title>
-<g id="a_Node000021"><a xlink:href="namespaceinja.html#a996f16f78b37d05e19cf44ac74d83e7e" target="_top" xlink:title="render with default settings to the given output stream">
-<polygon fill="white" stroke="#666666" points="1281.88,-20.75 1195.38,-20.75 1195.38,0 1281.88,0 1281.88,-20.75"/>
-<text xml:space="preserve" text-anchor="middle" x="1238.62" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::render_to</text>
+<!-- Node18 -->
+<g id="Node000018" class="node">
+<title>Node18</title>
+<g id="a_Node000018"><a xlink:href="namespaceinja.html#a996f16f78b37d05e19cf44ac74d83e7e" target="_top" xlink:title="render with default settings to the given output stream">
+<polygon fill="white" stroke="#666666" points="1227.88,-20.75 1141.38,-20.75 1141.38,0 1227.88,0 1227.88,-20.75"/>
+<text xml:space="preserve" text-anchor="middle" x="1184.62" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::render_to</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node21 -->
-<g id="edge27_Node000006_Node000021" class="edge">
-<title>Node6&#45;&gt;Node21</title>
-<g id="a_edge27_Node000006_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1346.61,-58.53C1330.49,-48.84 1311.03,-37.85 1292.75,-29.38 1286.44,-26.45 1279.54,-23.69 1272.87,-21.22"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1344.52,-61.36 1354.88,-63.58 1348.16,-55.38 1344.52,-61.36"/>
+<!-- Node6&#45;&gt;Node18 -->
+<g id="edge21_Node000006_Node000018" class="edge">
+<title>Node6&#45;&gt;Node18</title>
+<g id="a_edge21_Node000006_Node000018"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1292.61,-58.53C1276.49,-48.84 1257.03,-37.85 1238.75,-29.38 1232.44,-26.45 1225.54,-23.69 1218.87,-21.22"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1290.52,-61.36 1300.88,-63.58 1294.16,-55.38 1290.52,-61.36"/>
 </a>
 </g>
 </g>
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#af9adb23cc42f2128abccb8edd5ad6396" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1148.5,-124.12 1007.25,-124.12 1007.25,-90.62 1148.5,-90.62 1148.5,-124.12"/>
-<text xml:space="preserve" text-anchor="start" x="1015.25" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
-<text xml:space="preserve" text-anchor="middle" x="1077.88" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">::publishMappedTemplate</text>
+<g id="a_Node000008"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#acf8390856383106d469d448b358d3f17" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1085.12,-124.12 962.62,-124.12 962.62,-90.62 1085.12,-90.62 1085.12,-124.12"/>
+<text xml:space="preserve" text-anchor="start" x="970.62" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
+<text xml:space="preserve" text-anchor="middle" x="1023.88" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">::getMappedTemplate</text>
 </a>
 </g>
 </g>
@@ -311,36 +311,36 @@ var sectionId = 'dynsection-2';
 <g id="edge8_Node000007_Node000008" class="edge">
 <title>Node7&#45;&gt;Node8</title>
 <g id="a_edge8_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1172.93,-107.38C1165.03,-107.38 1156.93,-107.38 1148.95,-107.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1172.81,-110.88 1182.81,-107.38 1172.81,-103.88 1172.81,-110.88"/>
+<path fill="none" stroke="#63b8ff" d="M1118.96,-107.38C1107.87,-107.38 1096.4,-107.38 1085.43,-107.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1118.81,-110.88 1128.81,-107.38 1118.81,-103.88 1118.81,-110.88"/>
 </a>
 </g>
 </g>
-<!-- Node19 -->
-<g id="Node000019" class="node">
-<title>Node19</title>
-<g id="a_Node000019"><a xlink:href="namespaceinja.html#a539106781b52cc6117fc132f927a9dec" target="_top" xlink:title="render with default settings to a string">
-<polygon fill="white" stroke="#666666" points="1113.62,-72.75 1042.12,-72.75 1042.12,-52 1113.62,-52 1113.62,-72.75"/>
-<text xml:space="preserve" text-anchor="middle" x="1077.88" y="-59.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::render</text>
+<!-- Node16 -->
+<g id="Node000016" class="node">
+<title>Node16</title>
+<g id="a_Node000016"><a xlink:href="namespaceinja.html#a539106781b52cc6117fc132f927a9dec" target="_top" xlink:title="render with default settings to a string">
+<polygon fill="white" stroke="#666666" points="1059.62,-72.75 988.12,-72.75 988.12,-52 1059.62,-52 1059.62,-72.75"/>
+<text xml:space="preserve" text-anchor="middle" x="1023.88" y="-59.25" font-family="Helvetica,sans-Serif" font-size="10.00">inja::render</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node19 -->
-<g id="edge25_Node000007_Node000019" class="edge">
-<title>Node7&#45;&gt;Node19</title>
-<g id="a_edge25_Node000007_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1173.48,-88.52C1165.08,-86.09 1156.59,-83.66 1148.5,-81.38 1137.29,-78.21 1125.03,-74.84 1113.97,-71.82"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1172.38,-91.84 1182.96,-91.27 1174.33,-85.12 1172.38,-91.84"/>
+<!-- Node7&#45;&gt;Node16 -->
+<g id="edge19_Node000007_Node000016" class="edge">
+<title>Node7&#45;&gt;Node16</title>
+<g id="a_edge19_Node000007_Node000016"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1119.48,-88.52C1111.08,-86.09 1102.59,-83.66 1094.5,-81.38 1083.29,-78.21 1071.03,-74.84 1059.97,-71.82"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1118.38,-91.84 1128.96,-91.27 1120.33,-85.12 1118.38,-91.84"/>
 </a>
 </g>
 </g>
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#a87fc6345c899ea6a7e58069daa666306" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="971.25,-124.12 841.25,-124.12 841.25,-90.62 971.25,-90.62 971.25,-124.12"/>
-<text xml:space="preserve" text-anchor="start" x="849.25" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
-<text xml:space="preserve" text-anchor="middle" x="906.25" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">::getTemplateMappings</text>
+<g id="a_Node000009"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#a120ac05abf400a4f1c4a5758ecd99f74" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="917.25,-124.12 787.25,-124.12 787.25,-90.62 917.25,-90.62 917.25,-124.12"/>
+<text xml:space="preserve" text-anchor="start" x="795.25" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
+<text xml:space="preserve" text-anchor="middle" x="852.25" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">::getTemplateMappings</text>
 </a>
 </g>
 </g>
@@ -348,8 +348,8 @@ var sectionId = 'dynsection-2';
 <g id="edge9_Node000008_Node000009" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge9_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M995.59,-107.38C987.54,-107.38 979.46,-107.38 971.62,-107.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="995.39,-110.88 1005.39,-107.38 995.39,-103.88 995.39,-110.88"/>
+<path fill="none" stroke="#63b8ff" d="M951.15,-107.38C940.03,-107.38 928.6,-107.38 917.65,-107.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="951.08,-110.88 961.08,-107.38 951.08,-103.88 951.08,-110.88"/>
 </a>
 </g>
 </g>
@@ -357,9 +357,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="classmqtt_1_1lib_1_1MqttMapper.html#a542c86edf273308138357e4773c55d3c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="805.25,-124.12 682.75,-124.12 682.75,-90.62 805.25,-90.62 805.25,-124.12"/>
-<text xml:space="preserve" text-anchor="start" x="690.75" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
-<text xml:space="preserve" text-anchor="middle" x="744" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">::getMappings</text>
+<polygon fill="white" stroke="#666666" points="751.25,-124.12 628.75,-124.12 628.75,-90.62 751.25,-90.62 751.25,-124.12"/>
+<text xml:space="preserve" text-anchor="start" x="636.75" y="-110.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::lib::MqttMapper</text>
+<text xml:space="preserve" text-anchor="middle" x="690" y="-97.88" font-family="Helvetica,sans-Serif" font-size="10.00">::getMappings</text>
 </a>
 </g>
 </g>
@@ -367,8 +367,8 @@ var sectionId = 'dynsection-2';
 <g id="edge10_Node000009_Node000010" class="edge">
 <title>Node9&#45;&gt;Node10</title>
 <g id="a_edge10_Node000009_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M829.67,-107.38C821.61,-107.38 813.49,-107.38 805.63,-107.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="829.48,-110.88 839.48,-107.38 829.48,-103.88 829.48,-110.88"/>
+<path fill="none" stroke="#63b8ff" d="M775.67,-107.38C767.61,-107.38 759.49,-107.38 751.63,-107.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="775.48,-110.88 785.48,-107.38 775.48,-103.88 775.48,-110.88"/>
 </a>
 </g>
 </g>
@@ -376,9 +376,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html#a35dd670ca3b7d67cffbbce1cf7c71ffb" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="646.75,-159.12 529.5,-159.12 529.5,-125.62 646.75,-125.62 646.75,-159.12"/>
-<text xml:space="preserve" text-anchor="start" x="537.5" y="-145.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text xml:space="preserve" text-anchor="middle" x="588.12" y="-132.88" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::onPublish</text>
+<polygon fill="white" stroke="#666666" points="592.75,-150.12 475.5,-150.12 475.5,-116.62 592.75,-116.62 592.75,-150.12"/>
+<text xml:space="preserve" text-anchor="start" x="483.5" y="-136.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text xml:space="preserve" text-anchor="middle" x="534.12" y="-123.88" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::onPublish</text>
 </a>
 </g>
 </g>
@@ -386,8 +386,8 @@ var sectionId = 'dynsection-2';
 <g id="edge11_Node000010_Node000011" class="edge">
 <title>Node10&#45;&gt;Node11</title>
 <g id="a_edge11_Node000010_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M671.53,-123.63C663.33,-125.5 655.05,-127.38 647.06,-129.2"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="672.18,-127.07 681.15,-121.44 670.62,-120.25 672.18,-127.07"/>
+<path fill="none" stroke="#63b8ff" d="M617.53,-119.45C609.33,-120.84 601.05,-122.24 593.06,-123.59"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="617.86,-122.95 627.13,-117.83 616.69,-116.04 617.86,-122.95"/>
 </a>
 </g>
 </g>
@@ -395,9 +395,9 @@ var sectionId = 'dynsection-2';
 <g id="Node000015" class="node">
 <title>Node15</title>
 <g id="a_Node000015"><a xlink:href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html#a211408365844787ce77340f454b9cbd0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="646.38,-89.12 529.88,-89.12 529.88,-55.62 646.38,-55.62 646.38,-89.12"/>
-<text xml:space="preserve" text-anchor="start" x="537.88" y="-75.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text xml:space="preserve" text-anchor="middle" x="588.12" y="-62.88" font-family="Helvetica,sans-Serif" font-size="10.00">::lib::Mqtt::onPublish</text>
+<polygon fill="white" stroke="#666666" points="592.38,-98.12 475.88,-98.12 475.88,-64.62 592.38,-64.62 592.38,-98.12"/>
+<text xml:space="preserve" text-anchor="start" x="483.88" y="-84.62" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
+<text xml:space="preserve" text-anchor="middle" x="534.12" y="-71.88" font-family="Helvetica,sans-Serif" font-size="10.00">::lib::Mqtt::onPublish</text>
 </a>
 </g>
 </g>
@@ -405,8 +405,8 @@ var sectionId = 'dynsection-2';
 <g id="edge18_Node000010_Node000015" class="edge">
 <title>Node10&#45;&gt;Node15</title>
 <g id="a_edge18_Node000010_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M671.45,-91.1C663.19,-89.22 654.85,-87.32 646.81,-85.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="670.62,-94.5 681.15,-93.31 672.18,-87.68 670.62,-94.5"/>
+<path fill="none" stroke="#63b8ff" d="M617.45,-95.29C609.19,-93.89 600.85,-92.48 592.81,-91.12"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="616.69,-98.71 627.13,-96.92 617.86,-91.8 616.69,-98.71"/>
 </a>
 </g>
 </g>
@@ -414,8 +414,8 @@ var sectionId = 'dynsection-2';
 <g id="edge12_Node000011_Node000011" class="edge">
 <title>Node11&#45;&gt;Node11</title>
 <g id="a_edge12_Node000011_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M614.3,-170.51C610.04,-174.47 601.31,-177.12 588.12,-177.12 564.68,-177.12 555.34,-168.74 560.1,-159.54"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="617.69,-171.47 615.89,-161.03 610.78,-170.31 617.69,-171.47"/>
+<path fill="none" stroke="#63b8ff" d="M560.3,-161.51C556.04,-165.47 547.31,-168.12 534.12,-168.12 510.68,-168.12 501.34,-159.74 506.1,-150.54"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="563.69,-162.47 561.89,-152.03 556.78,-161.31 563.69,-162.47"/>
 </a>
 </g>
 </g>
@@ -423,10 +423,10 @@ var sectionId = 'dynsection-2';
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue.html#abe935c28141087ad3eadf41acab44702" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="484.5,-216.5 362,-216.5 362,-170.25 484.5,-170.25 484.5,-216.5"/>
-<text xml:space="preserve" text-anchor="start" x="370" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text xml:space="preserve" text-anchor="start" x="370" y="-190.25" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::DelayedQueue</text>
-<text xml:space="preserve" text-anchor="middle" x="423.25" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">::processDue</text>
+<polygon fill="white" stroke="#666666" points="439.5,-181.5 317,-181.5 317,-135.25 439.5,-135.25 439.5,-181.5"/>
+<text xml:space="preserve" text-anchor="start" x="325" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text xml:space="preserve" text-anchor="start" x="325" y="-155.25" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::DelayedQueue</text>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">::processDue</text>
 </a>
 </g>
 </g>
@@ -434,8 +434,8 @@ var sectionId = 'dynsection-2';
 <g id="edge13_Node000011_Node000012" class="edge">
 <title>Node11&#45;&gt;Node12</title>
 <g id="a_edge13_Node000011_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M521.52,-162.92C509.44,-166.7 496.88,-170.63 484.96,-174.37"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="522.5,-166.28 530.99,-159.95 520.4,-159.6 522.5,-166.28"/>
+<path fill="none" stroke="#63b8ff" d="M464.09,-144.59C456.02,-145.9 447.83,-147.23 439.88,-148.52"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="464.59,-148.06 473.9,-143 463.46,-141.15 464.59,-148.06"/>
 </a>
 </g>
 </g>
@@ -443,10 +443,10 @@ var sectionId = 'dynsection-2';
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue.html#a8becf2d97fc0f71a12ae5e84ea8b2a66" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="308,-216.5 185.5,-216.5 185.5,-170.25 308,-170.25 308,-216.5"/>
-<text xml:space="preserve" text-anchor="start" x="193.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text xml:space="preserve" text-anchor="start" x="193.5" y="-190.25" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::DelayedQueue</text>
-<text xml:space="preserve" text-anchor="middle" x="246.75" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">::armDelayTimer</text>
+<polygon fill="white" stroke="#666666" points="281,-181.5 158.5,-181.5 158.5,-135.25 281,-135.25 281,-181.5"/>
+<text xml:space="preserve" text-anchor="start" x="166.5" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text xml:space="preserve" text-anchor="start" x="166.5" y="-155.25" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::DelayedQueue</text>
+<text xml:space="preserve" text-anchor="middle" x="219.75" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">::armDelayTimer</text>
 </a>
 </g>
 </g>
@@ -454,8 +454,8 @@ var sectionId = 'dynsection-2';
 <g id="edge14_Node000012_Node000013" class="edge">
 <title>Node12&#45;&gt;Node13</title>
 <g id="a_edge14_Node000012_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M350.21,-193.38C336.35,-193.38 321.95,-193.38 308.48,-193.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="350.19,-196.88 360.19,-193.38 350.19,-189.88 350.19,-196.88"/>
+<path fill="none" stroke="#63b8ff" d="M305.45,-158.38C297.4,-158.38 289.25,-158.38 281.35,-158.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="305.23,-161.88 315.23,-158.38 305.23,-154.88 305.23,-161.88"/>
 </a>
 </g>
 </g>
@@ -463,8 +463,8 @@ var sectionId = 'dynsection-2';
 <g id="edge15_Node000013_Node000013" class="edge">
 <title>Node13&#45;&gt;Node13</title>
 <g id="a_edge15_Node000013_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M275.78,-227.24C270.75,-231.61 261.08,-234.5 246.75,-234.5 222.62,-234.5 211.68,-226.3 213.95,-216.63"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="278.99,-228.65 279.05,-218.05 272.39,-226.3 278.99,-228.65"/>
+<path fill="none" stroke="#63b8ff" d="M245.82,-192.24C241.31,-196.61 232.62,-199.5 219.75,-199.5 198.08,-199.5 188.26,-191.3 190.29,-181.63"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="249.04,-193.66 248.75,-183.07 242.37,-191.53 249.04,-193.66"/>
 </a>
 </g>
 </g>
@@ -472,10 +472,10 @@ var sectionId = 'dynsection-2';
 <g id="Node000014" class="node">
 <title>Node14</title>
 <g id="a_Node000014"><a xlink:href="classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue.html#a0cea5b90a1434e82da43bd2f4c6dd47c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="131.5,-190.5 9,-190.5 9,-144.25 131.5,-144.25 131.5,-190.5"/>
-<text xml:space="preserve" text-anchor="start" x="17" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
-<text xml:space="preserve" text-anchor="start" x="17" y="-164.25" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::DelayedQueue</text>
-<text xml:space="preserve" text-anchor="middle" x="70.25" y="-151.5" font-family="Helvetica,sans-Serif" font-size="10.00">::delayPublish</text>
+<polygon fill="white" stroke="#666666" points="122.5,-155.5 0,-155.5 0,-109.25 122.5,-109.25 122.5,-155.5"/>
+<text xml:space="preserve" text-anchor="start" x="8" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttbroker::lib</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-129.25" font-family="Helvetica,sans-Serif" font-size="10.00">::Mqtt::DelayedQueue</text>
+<text xml:space="preserve" text-anchor="middle" x="61.25" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">::delayPublish</text>
 </a>
 </g>
 </g>
@@ -483,8 +483,8 @@ var sectionId = 'dynsection-2';
 <g id="edge16_Node000013_Node000014" class="edge">
 <title>Node13&#45;&gt;Node14</title>
 <g id="a_edge16_Node000013_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M174.13,-182.7C160.13,-180.62 145.58,-178.45 131.98,-176.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="173.3,-186.12 183.71,-184.13 174.34,-179.2 173.3,-186.12"/>
+<path fill="none" stroke="#63b8ff" d="M146.95,-146.45C138.9,-145.11 130.75,-143.75 122.85,-142.44"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="146.31,-149.89 156.75,-148.07 147.46,-142.98 146.31,-149.89"/>
 </a>
 </g>
 </g>
@@ -492,255 +492,168 @@ var sectionId = 'dynsection-2';
 <g id="edge17_Node000014_Node000011" class="edge">
 <title>Node14&#45;&gt;Node11</title>
 <g id="a_edge17_Node000014_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M143.36,-163.16C154.45,-162.54 165.78,-161.93 176.5,-161.38 302.29,-154.88 449.82,-148.31 529.31,-144.85"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="143.21,-159.66 133.42,-163.72 143.6,-166.65 143.21,-159.66"/>
+<path fill="none" stroke="#63b8ff" d="M134.28,-127.39C142.45,-126.98 150.65,-126.62 158.5,-126.38 283.33,-122.49 314.7,-121.72 439.5,-126.38 451.06,-126.81 463.42,-127.54 475.23,-128.37"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="134.11,-123.9 124.32,-127.94 134.5,-130.89 134.11,-123.9"/>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node15 -->
-<g id="edge19_Node000015_Node000015" class="edge">
-<title>Node15&#45;&gt;Node15</title>
-<g id="a_edge19_Node000015_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M614.3,-100.51C610.04,-104.47 601.31,-107.12 588.12,-107.12 564.68,-107.12 555.34,-98.74 560.1,-89.54"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="617.69,-101.47 615.89,-91.03 610.78,-100.31 617.69,-101.47"/>
+<!-- Node20 -->
+<g id="Node000020" class="node">
+<title>Node20</title>
+<g id="a_Node000020"><a xlink:href="classinja_1_1Parser.html#aa756be380c1083f47c6bd774eb3c8c38" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1384.5,-228.12 1274.75,-228.12 1274.75,-194.62 1384.5,-194.62 1384.5,-228.12"/>
+<text xml:space="preserve" text-anchor="start" x="1282.75" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::add_to</text>
+<text xml:space="preserve" text-anchor="middle" x="1329.62" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">_template_storage</text>
 </a>
 </g>
 </g>
-<!-- Node16 -->
-<g id="Node000016" class="node">
-<title>Node16</title>
-<g id="a_Node000016"><a xlink:href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue.html#ad8803a587bf94d106c9a501c01ac8ea8" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="493.5,-96.5 353,-96.5 353,-50.25 493.5,-50.25 493.5,-96.5"/>
-<text xml:space="preserve" text-anchor="start" x="361" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text xml:space="preserve" text-anchor="start" x="361" y="-70.25" font-family="Helvetica,sans-Serif" font-size="10.00">::lib::Mqtt::DelayedQueue</text>
-<text xml:space="preserve" text-anchor="middle" x="423.25" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">::processDue</text>
+<!-- Node19&#45;&gt;Node20 -->
+<g id="edge23_Node000019_Node000020" class="edge">
+<title>Node19&#45;&gt;Node20</title>
+<g id="a_edge23_Node000019_Node000020"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1408.68,-211.38C1400.74,-211.38 1392.67,-211.38 1384.88,-211.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1408.65,-214.88 1418.65,-211.38 1408.65,-207.88 1408.65,-214.88"/>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
-<g id="edge20_Node000015_Node000016" class="edge">
-<title>Node15&#45;&gt;Node16</title>
-<g id="a_edge20_Node000015_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M518.34,-72.8C510.19,-72.85 501.88,-72.9 493.73,-72.95"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="518.21,-76.3 528.19,-72.74 518.17,-69.3 518.21,-76.3"/>
+<!-- Node22 -->
+<g id="Node000022" class="node">
+<title>Node22</title>
+<g id="a_Node000022"><a xlink:href="classinja_1_1Environment.html#a85717fc369572292cce46e42a32e38f5" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1383.75,-176.12 1275.5,-176.12 1275.5,-142.62 1383.75,-142.62 1383.75,-176.12"/>
+<text xml:space="preserve" text-anchor="start" x="1283.5" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1329.62" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">parse_template</text>
 </a>
 </g>
 </g>
-<!-- Node17 -->
-<g id="Node000017" class="node">
-<title>Node17</title>
-<g id="a_Node000017"><a xlink:href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue.html#a110f0813ded3a278c42dab9337c2a723" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="317,-96.5 176.5,-96.5 176.5,-50.25 317,-50.25 317,-96.5"/>
-<text xml:space="preserve" text-anchor="start" x="184.5" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text xml:space="preserve" text-anchor="start" x="184.5" y="-70.25" font-family="Helvetica,sans-Serif" font-size="10.00">::lib::Mqtt::DelayedQueue</text>
-<text xml:space="preserve" text-anchor="middle" x="246.75" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">::armDelayTimer</text>
+<!-- Node19&#45;&gt;Node22 -->
+<g id="edge26_Node000019_Node000022" class="edge">
+<title>Node19&#45;&gt;Node22</title>
+<g id="a_edge26_Node000019_Node000022"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1414.22,-190.26C1401.86,-185.69 1388.94,-180.92 1377.05,-176.53"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1412.89,-193.5 1423.48,-193.68 1415.31,-186.93 1412.89,-193.5"/>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
-<g id="edge21_Node000016_Node000017" class="edge">
-<title>Node16&#45;&gt;Node17</title>
-<g id="a_edge21_Node000016_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M341.02,-73.38C333.11,-73.38 325.14,-73.38 317.36,-73.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="341.02,-76.88 351.02,-73.38 341.02,-69.88 341.02,-76.88"/>
+<!-- Node20&#45;&gt;Node21 -->
+<g id="edge24_Node000020_Node000021" class="edge">
+<title>Node20&#45;&gt;Node21</title>
+<g id="a_edge24_Node000020_Node000021"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1288.97,-234.16C1284.18,-236.92 1279.35,-239.71 1274.75,-242.38 1254.75,-253.96 1232.28,-267.07 1214.9,-277.23"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1290.46,-237.34 1297.37,-229.32 1286.96,-231.27 1290.46,-237.34"/>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node17 -->
-<g id="edge22_Node000017_Node000017" class="edge">
-<title>Node17&#45;&gt;Node17</title>
-<g id="a_edge22_Node000017_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M275.78,-107.24C270.75,-111.61 261.08,-114.5 246.75,-114.5 222.62,-114.5 211.68,-106.3 213.95,-96.63"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="278.99,-108.65 279.05,-98.05 272.39,-106.3 278.99,-108.65"/>
-</a>
-</g>
-</g>
-<!-- Node18 -->
-<g id="Node000018" class="node">
-<title>Node18</title>
-<g id="a_Node000018"><a xlink:href="classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue.html#a95c8667b0cef676e6edcb1760ed4a7f9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="140.5,-71.5 0,-71.5 0,-25.25 140.5,-25.25 140.5,-71.5"/>
-<text xml:space="preserve" text-anchor="start" x="8" y="-58" font-family="Helvetica,sans-Serif" font-size="10.00">mqtt::mqttintegrator</text>
-<text xml:space="preserve" text-anchor="start" x="8" y="-45.25" font-family="Helvetica,sans-Serif" font-size="10.00">::lib::Mqtt::DelayedQueue</text>
-<text xml:space="preserve" text-anchor="middle" x="70.25" y="-32.5" font-family="Helvetica,sans-Serif" font-size="10.00">::delayPublish</text>
-</a>
-</g>
-</g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge23_Node000017_Node000018" class="edge">
-<title>Node17&#45;&gt;Node18</title>
-<g id="a_edge23_Node000017_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M164.8,-61.78C156.8,-60.63 148.73,-59.48 140.86,-58.35"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="164.14,-65.22 174.53,-63.17 165.13,-58.29 164.14,-65.22"/>
-</a>
-</g>
-</g>
-<!-- Node18&#45;&gt;Node15 -->
-<g id="edge24_Node000018_Node000015" class="edge">
-<title>Node18&#45;&gt;Node15</title>
-<g id="a_edge24_Node000018_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M152.35,-38.63C237.8,-30.32 376.03,-22.43 493.5,-41.38 510.74,-44.16 529.11,-49.64 544.96,-55.24"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="152.01,-35.15 142.41,-39.63 152.71,-42.11 152.01,-35.15"/>
+<!-- Node21&#45;&gt;Node4 -->
+<g id="edge25_Node000021_Node000004" class="edge">
+<title>Node21&#45;&gt;Node4</title>
+<g id="a_edge25_Node000021_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1248.08,-284.24C1331.02,-270.78 1476.69,-247.14 1559.98,-233.62"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1247.62,-280.77 1238.31,-285.83 1248.74,-287.68 1247.62,-280.77"/>
 </a>
 </g>
 </g>
 <!-- Node23 -->
 <g id="Node000023" class="node">
 <title>Node23</title>
-<g id="a_Node000023"><a xlink:href="classinja_1_1Parser.html#aa756be380c1083f47c6bd774eb3c8c38" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1438.5,-228.12 1328.75,-228.12 1328.75,-194.62 1438.5,-194.62 1438.5,-228.12"/>
-<text xml:space="preserve" text-anchor="start" x="1336.75" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Parser::add_to</text>
-<text xml:space="preserve" text-anchor="middle" x="1383.62" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">_template_storage</text>
+<g id="a_Node000023"><a xlink:href="classinja_1_1Environment.html#aec4165117f8d7242f813bb7859b86d18" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1238.75,-228.12 1130.5,-228.12 1130.5,-194.62 1238.75,-194.62 1238.75,-228.12"/>
+<text xml:space="preserve" text-anchor="start" x="1138.5" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1184.62" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">parse_file</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node23 -->
-<g id="edge29_Node000022_Node000023" class="edge">
+<g id="edge27_Node000022_Node000023" class="edge">
 <title>Node22&#45;&gt;Node23</title>
-<g id="a_edge29_Node000022_Node000023"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1462.68,-211.38C1454.74,-211.38 1446.67,-211.38 1438.88,-211.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1462.65,-214.88 1472.65,-211.38 1462.65,-207.88 1462.65,-214.88"/>
+<g id="a_edge27_Node000022_Node000023"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1270.94,-180.35C1258.27,-184.96 1245,-189.79 1232.8,-194.22"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1271.78,-183.77 1279.98,-177.06 1269.39,-177.19 1271.78,-183.77"/>
+</a>
+</g>
+</g>
+<!-- Node24 -->
+<g id="Node000024" class="node">
+<title>Node24</title>
+<g id="a_Node000024"><a xlink:href="classinja_1_1Environment.html#a3e30972fab0a5962c232f4c0f7002845" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1238.75,-176.12 1130.5,-176.12 1130.5,-142.62 1238.75,-142.62 1238.75,-176.12"/>
+<text xml:space="preserve" text-anchor="start" x="1138.5" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1184.62" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">render_file</text>
+</a>
+</g>
+</g>
+<!-- Node22&#45;&gt;Node24 -->
+<g id="edge28_Node000022_Node000024" class="edge">
+<title>Node22&#45;&gt;Node24</title>
+<g id="a_edge28_Node000022_Node000024"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1264.04,-159.38C1255.64,-159.38 1247.11,-159.38 1238.92,-159.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1263.86,-162.88 1273.86,-159.38 1263.86,-155.88 1263.86,-162.88"/>
 </a>
 </g>
 </g>
 <!-- Node25 -->
 <g id="Node000025" class="node">
 <title>Node25</title>
-<g id="a_Node000025"><a xlink:href="classinja_1_1Environment.html#a85717fc369572292cce46e42a32e38f5" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1437.75,-176.12 1329.5,-176.12 1329.5,-142.62 1437.75,-142.62 1437.75,-176.12"/>
-<text xml:space="preserve" text-anchor="start" x="1337.5" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1383.62" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">parse_template</text>
+<g id="a_Node000025"><a xlink:href="classinja_1_1Environment.html#a815d87f3fb622a7639691803ff9a123b" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1094.5,-228.12 953.25,-228.12 953.25,-194.62 1094.5,-194.62 1094.5,-228.12"/>
+<text xml:space="preserve" text-anchor="start" x="961.25" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1023.88" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">render_file_with_json_file</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node25 -->
-<g id="edge32_Node000022_Node000025" class="edge">
-<title>Node22&#45;&gt;Node25</title>
-<g id="a_edge32_Node000022_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1468.22,-190.26C1455.86,-185.69 1442.94,-180.92 1431.05,-176.53"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1466.89,-193.5 1477.48,-193.68 1469.31,-186.93 1466.89,-193.5"/>
-</a>
-</g>
-</g>
-<!-- Node23&#45;&gt;Node24 -->
-<g id="edge30_Node000023_Node000024" class="edge">
-<title>Node23&#45;&gt;Node24</title>
-<g id="a_edge30_Node000023_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1342.97,-234.16C1338.18,-236.92 1333.35,-239.71 1328.75,-242.38 1308.75,-253.96 1286.28,-267.07 1268.9,-277.23"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1344.46,-237.34 1351.37,-229.32 1340.96,-231.27 1344.46,-237.34"/>
-</a>
-</g>
-</g>
-<!-- Node24&#45;&gt;Node4 -->
-<g id="edge31_Node000024_Node000004" class="edge">
-<title>Node24&#45;&gt;Node4</title>
-<g id="a_edge31_Node000024_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1302.08,-284.24C1385.02,-270.78 1530.69,-247.14 1613.98,-233.62"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1301.62,-280.77 1292.31,-285.83 1302.74,-287.68 1301.62,-280.77"/>
+<!-- Node24&#45;&gt;Node25 -->
+<g id="edge29_Node000024_Node000025" class="edge">
+<title>Node24&#45;&gt;Node25</title>
+<g id="a_edge29_Node000024_Node000025"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1120.49,-180.06C1106.24,-184.72 1091.27,-189.63 1077.51,-194.13"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1121.35,-183.46 1129.77,-177.02 1119.17,-176.8 1121.35,-183.46"/>
 </a>
 </g>
 </g>
 <!-- Node26 -->
 <g id="Node000026" class="node">
 <title>Node26</title>
-<g id="a_Node000026"><a xlink:href="classinja_1_1Environment.html#aec4165117f8d7242f813bb7859b86d18" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1292.75,-228.12 1184.5,-228.12 1184.5,-194.62 1292.75,-194.62 1292.75,-228.12"/>
-<text xml:space="preserve" text-anchor="start" x="1192.5" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1238.62" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">parse_file</text>
+<g id="a_Node000026"><a xlink:href="classinja_1_1Environment.html#ae64c18f23f81e8ee787d406ccd4d35dc" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1078,-176.12 969.75,-176.12 969.75,-142.62 1078,-142.62 1078,-176.12"/>
+<text xml:space="preserve" text-anchor="start" x="977.75" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="1023.88" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">write</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
-<g id="edge33_Node000025_Node000026" class="edge">
-<title>Node25&#45;&gt;Node26</title>
-<g id="a_edge33_Node000025_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1324.94,-180.35C1312.27,-184.96 1299,-189.79 1286.8,-194.22"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1325.78,-183.77 1333.98,-177.06 1323.39,-177.19 1325.78,-183.77"/>
+<!-- Node24&#45;&gt;Node26 -->
+<g id="edge30_Node000024_Node000026" class="edge">
+<title>Node24&#45;&gt;Node26</title>
+<g id="a_edge30_Node000024_Node000026"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1119.11,-159.38C1105.56,-159.38 1091.4,-159.38 1078.31,-159.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1118.81,-162.88 1128.81,-159.38 1118.81,-155.88 1118.81,-162.88"/>
 </a>
 </g>
 </g>
 <!-- Node27 -->
 <g id="Node000027" class="node">
 <title>Node27</title>
-<g id="a_Node000027"><a xlink:href="classinja_1_1Environment.html#a3e30972fab0a5962c232f4c0f7002845" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1292.75,-176.12 1184.5,-176.12 1184.5,-142.62 1292.75,-142.62 1292.75,-176.12"/>
-<text xml:space="preserve" text-anchor="start" x="1192.5" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1238.62" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">render_file</text>
+<g id="a_Node000027"><a xlink:href="classinja_1_1Environment.html#ad6a6b713e78516f4f6fd68c58f309f3c" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="909,-176.12 795.5,-176.12 795.5,-142.62 909,-142.62 909,-176.12"/>
+<text xml:space="preserve" text-anchor="start" x="803.5" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
+<text xml:space="preserve" text-anchor="middle" x="852.25" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">write_with_json_file</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node27 -->
-<g id="edge34_Node000025_Node000027" class="edge">
-<title>Node25&#45;&gt;Node27</title>
-<g id="a_edge34_Node000025_Node000027"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1318.04,-159.38C1309.64,-159.38 1301.11,-159.38 1292.92,-159.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1317.86,-162.88 1327.86,-159.38 1317.86,-155.88 1317.86,-162.88"/>
+<!-- Node26&#45;&gt;Node27 -->
+<g id="edge31_Node000026_Node000027" class="edge">
+<title>Node26&#45;&gt;Node27</title>
+<g id="a_edge31_Node000026_Node000027"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M958.2,-159.38C942.16,-159.38 925.1,-159.38 909.49,-159.38"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="958.16,-162.88 968.16,-159.38 958.16,-155.88 958.16,-162.88"/>
 </a>
 </g>
 </g>
-<!-- Node28 -->
-<g id="Node000028" class="node">
-<title>Node28</title>
-<g id="a_Node000028"><a xlink:href="classinja_1_1Environment.html#a815d87f3fb622a7639691803ff9a123b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1148.5,-228.12 1007.25,-228.12 1007.25,-194.62 1148.5,-194.62 1148.5,-228.12"/>
-<text xml:space="preserve" text-anchor="start" x="1015.25" y="-214.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1077.88" y="-201.88" font-family="Helvetica,sans-Serif" font-size="10.00">render_file_with_json_file</text>
-</a>
-</g>
-</g>
-<!-- Node27&#45;&gt;Node28 -->
-<g id="edge35_Node000027_Node000028" class="edge">
-<title>Node27&#45;&gt;Node28</title>
-<g id="a_edge35_Node000027_Node000028"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1174.49,-180.06C1160.24,-184.72 1145.27,-189.63 1131.51,-194.13"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1175.35,-183.46 1183.77,-177.02 1173.17,-176.8 1175.35,-183.46"/>
-</a>
-</g>
-</g>
-<!-- Node29 -->
-<g id="Node000029" class="node">
-<title>Node29</title>
-<g id="a_Node000029"><a xlink:href="classinja_1_1Environment.html#ae64c18f23f81e8ee787d406ccd4d35dc" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1132,-176.12 1023.75,-176.12 1023.75,-142.62 1132,-142.62 1132,-176.12"/>
-<text xml:space="preserve" text-anchor="start" x="1031.75" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="1077.88" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">write</text>
-</a>
-</g>
-</g>
-<!-- Node27&#45;&gt;Node29 -->
-<g id="edge36_Node000027_Node000029" class="edge">
-<title>Node27&#45;&gt;Node29</title>
-<g id="a_edge36_Node000027_Node000029"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1173.11,-159.38C1159.56,-159.38 1145.4,-159.38 1132.31,-159.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1172.81,-162.88 1182.81,-159.38 1172.81,-155.88 1172.81,-162.88"/>
-</a>
-</g>
-</g>
-<!-- Node30 -->
-<g id="Node000030" class="node">
-<title>Node30</title>
-<g id="a_Node000030"><a xlink:href="classinja_1_1Environment.html#ad6a6b713e78516f4f6fd68c58f309f3c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="963,-176.12 849.5,-176.12 849.5,-142.62 963,-142.62 963,-176.12"/>
-<text xml:space="preserve" text-anchor="start" x="857.5" y="-162.62" font-family="Helvetica,sans-Serif" font-size="10.00">inja::Environment::</text>
-<text xml:space="preserve" text-anchor="middle" x="906.25" y="-149.88" font-family="Helvetica,sans-Serif" font-size="10.00">write_with_json_file</text>
-</a>
-</g>
-</g>
-<!-- Node29&#45;&gt;Node30 -->
-<g id="edge37_Node000029_Node000030" class="edge">
-<title>Node29&#45;&gt;Node30</title>
-<g id="a_edge37_Node000029_Node000030"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1012.2,-159.38C996.16,-159.38 979.1,-159.38 963.49,-159.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1012.16,-162.88 1022.16,-159.38 1012.16,-155.88 1012.16,-162.88"/>
-</a>
-</g>
-</g>
-<!-- Node31&#45;&gt;Node24 -->
-<g id="edge40_Node000031_Node000024" class="edge">
-<title>Node31&#45;&gt;Node24</title>
-<g id="a_edge40_Node000031_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1766.35,-325.88C1671.62,-321.93 1486.1,-313.52 1328.75,-302.38 1316.51,-301.51 1303.33,-300.41 1290.97,-299.32"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1766.07,-329.37 1776.21,-326.29 1766.36,-322.38 1766.07,-329.37"/>
+<!-- Node28&#45;&gt;Node21 -->
+<g id="edge34_Node000028_Node000021" class="edge">
+<title>Node28&#45;&gt;Node21</title>
+<g id="a_edge34_Node000028_Node000021"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1712.35,-325.88C1617.62,-321.93 1432.1,-313.52 1274.75,-302.38 1262.51,-301.51 1249.33,-300.41 1236.97,-299.32"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1712.07,-329.37 1722.21,-326.29 1712.36,-322.38 1712.07,-329.37"/>
 </a>
 </g>
 </g>

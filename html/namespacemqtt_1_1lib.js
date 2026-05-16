@@ -5,8 +5,8 @@ var namespacemqtt_1_1lib =
     [ "ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", "classmqtt_1_1lib_1_1ConfigApplication" ],
     [ "ConfigMqttBroker", "classmqtt_1_1lib_1_1ConfigMqttBroker.html", "classmqtt_1_1lib_1_1ConfigMqttBroker" ],
     [ "ConfigMqttIntegrator", "classmqtt_1_1lib_1_1ConfigMqttIntegrator.html", "classmqtt_1_1lib_1_1ConfigMqttIntegrator" ],
-    [ "JsonMappingReader", "classmqtt_1_1lib_1_1JsonMappingReader.html", "classmqtt_1_1lib_1_1JsonMappingReader" ],
     [ "MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", "classmqtt_1_1lib_1_1MqttMapper" ],
+    [ "JsonMappingReader", "classmqtt_1_1lib_1_1JsonMappingReader.html", "classmqtt_1_1lib_1_1JsonMappingReader" ],
     [ "FunctionBase", "structmqtt_1_1lib_1_1FunctionBase.html", "structmqtt_1_1lib_1_1FunctionBase" ],
     [ "Function", "structmqtt_1_1lib_1_1Function.html", "structmqtt_1_1lib_1_1Function" ],
     [ "VoidFunction", "structmqtt_1_1lib_1_1VoidFunction.html", "structmqtt_1_1lib_1_1VoidFunction" ]

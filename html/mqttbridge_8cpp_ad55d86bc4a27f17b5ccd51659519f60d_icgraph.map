@@ -1,5 +1,5 @@
 <map id="restartBridges" name="restartBridges">
-<area shape="rect" id="Node000001" title=" " alt="" coords="161,5,274,33"/>
-<area shape="rect" id="Node000002" href="$mqttbridge_8cpp.html#a950144f64b7a01a366fb06aecf986214" title=" " alt="" coords="5,5,113,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,19,113,22,113,17,148,19"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="221,5,334,33"/>
+<area shape="rect" id="Node000002" href="$mqttbridge_8cpp.html#a3d16d2e23b0d4b9300255adc9883e1f4" title=" " alt="" coords="5,5,173,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,19,173,22,173,17,208,19"/>
 </map>

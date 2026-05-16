@@ -1,9 +1,7 @@
 <map id="lib/JsonMappingReader.h" name="lib/JsonMappingReader.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="220,5,403,33"/>
-<area shape="rect" id="Node000002" href="$ConfigApplication_8cpp.html" title=" " alt="" coords="5,81,189,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,40,136,83,135,78,256,37"/>
-<area shape="rect" id="Node000003" href="$JsonMappingReader_8cpp.html" title=" " alt="" coords="213,81,410,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="314,47,314,82,310,79,310,51"/>
-<area shape="rect" id="Node000004" href="$MappingAdminRouter_8cpp.html" title=" " alt="" coords="435,81,644,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="367,36,502,80,496,81,366,41"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="126,5,308,33"/>
+<area shape="rect" id="Node000002" href="$JsonMappingReader_8cpp.html" title=" " alt="" coords="5,81,203,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,41,125,83,123,78,182,42"/>
+<area shape="rect" id="Node000003" href="$MappingAdminRouter_8cpp.html" title=" " alt="" coords="227,81,437,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,39,314,81,309,81,250,44"/>
 </map>

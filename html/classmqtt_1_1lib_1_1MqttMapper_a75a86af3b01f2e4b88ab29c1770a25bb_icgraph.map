@@ -1,11 +1,15 @@
 <map id="mqtt::lib::MqttMapper::setMapping" name="mqtt::lib::MqttMapper::setMapping">
-<area shape="rect" id="Node000001" title=" " alt="" coords="526,40,689,85"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1ConfigApplication.html#a03af16ca63647b5696ac6ff1e803e201" title=" " alt="" coords="279,5,478,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="508,48,479,45,479,40,514,48"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1ConfigApplication.html#acc4e1282f8a60972f892a8bf9c7259fe" title=" " alt="" coords="279,75,478,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="514,77,479,85,478,79,508,77"/>
-<area shape="rect" id="Node000004" href="$namespacemqtt_1_1lib_1_1admin.html#a4f7e70f5f0447050e4a1f47eff271811" title=" " alt="" coords="5,40,231,85"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="261,82,231,80,231,75,266,81"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1lib_1_1ConfigApplication.html#a6efe0870e795237bb9a142ce388626f7" title=" " alt="" coords="18,109,218,154"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="261,113,218,121,218,116,266,112"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="773,75,937,119"/>
+<area shape="rect" id="Node000002" href="$namespacemqtt_1_1lib_1_1admin.html#a4f7e70f5f0447050e4a1f47eff271811" title=" " alt="" coords="500,5,725,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="758,70,693,53,694,48,763,70"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1MqttMapper.html#a5f1e17b0d9efec0ec96aca4603ff7bca" title=" " alt="" coords="531,75,694,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="755,97,695,100,695,94,761,97"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1ConfigApplication.html#a47d2012a0d29ba4851e2fd53daeb8ee3" title=" " alt="" coords="513,144,712,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="763,124,694,146,693,141,758,125"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1lib_1_1ConfigApplication.html#a3268b5a375d1324ffecb8dc7293ce838" title=" " alt="" coords="253,144,452,189"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="495,167,452,169,452,164,500,166"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1lib_1_1ConfigApplication.html#a03af16ca63647b5696ac6ff1e803e201" title=" " alt="" coords="5,109,205,154"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="235,151,205,148,205,143,240,150"/>
+<area shape="rect" id="Node000007" href="$classmqtt_1_1lib_1_1ConfigApplication.html#a8f18adbc047bfb12e7ea05bd87db4855" title=" " alt="" coords="5,179,205,223"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="235,183,206,190,205,184,240,182"/>
 </map>

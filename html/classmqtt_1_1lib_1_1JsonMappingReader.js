@@ -8,7 +8,6 @@ var classmqtt_1_1lib_1_1JsonMappingReader =
     [ "getDraftPath", "classmqtt_1_1lib_1_1JsonMappingReader.html#ae1fe85c10e7aaeafa92e1b80b15274af", null ],
     [ "getHistory", "classmqtt_1_1lib_1_1JsonMappingReader.html#aad4d1b579cf41a56350a5592f56829a8", null ],
     [ "readDraftOrActive", "classmqtt_1_1lib_1_1JsonMappingReader.html#adea493de007f0dab0bea0382beedbf7d", null ],
-    [ "readMappingFromFile", "classmqtt_1_1lib_1_1JsonMappingReader.html#acf32b745d871016dd908378674994b07", null ],
     [ "rollbackTo", "classmqtt_1_1lib_1_1JsonMappingReader.html#a0af761ff8c2b92bdd3111c573f633e99", null ],
     [ "saveDraft", "classmqtt_1_1lib_1_1JsonMappingReader.html#ae8eff0ae26adbed7f80e15be2a5fb5ad", null ]
 ];

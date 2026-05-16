@@ -1,11 +1,11 @@
 <map id="mqtt::bridge::lib::BridgeStore::activateStaged" name="mqtt::bridge::lib::BridgeStore::activateStaged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="421,36,624,81"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="161,5,373,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,44,374,43,374,38,408,44"/>
-<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html#ad55d86bc4a27f17b5ccd51659519f60d" title=" " alt="" coords="210,74,324,102"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="408,72,324,84,324,79,403,72"/>
-<area shape="rect" id="Node000003" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="32,14,86,42"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,29,87,30,86,25,147,26"/>
-<area shape="rect" id="Node000005" href="$mqttbridge_8cpp.html#a950144f64b7a01a366fb06aecf986214" title=" " alt="" coords="5,74,113,102"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="192,88,113,90,113,85,197,87"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="481,36,684,81"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html#ab8ade196caaa4d233f8dc1625619ed9a" title=" " alt="" coords="221,5,433,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="463,44,434,43,434,38,468,44"/>
+<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html#ad55d86bc4a27f17b5ccd51659519f60d" title=" " alt="" coords="270,74,384,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="468,72,384,84,384,79,463,72"/>
+<area shape="rect" id="Node000003" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="62,14,116,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,29,117,30,116,25,208,26"/>
+<area shape="rect" id="Node000005" href="$mqttbridge_8cpp.html#a3d16d2e23b0d4b9300255adc9883e1f4" title=" " alt="" coords="5,74,173,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="252,88,173,90,173,85,257,87"/>
 </map>

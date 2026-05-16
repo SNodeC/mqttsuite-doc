@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_3a_0',[':',['../index.html#example-tcptls',1,'Example (TCP/TLS):'],['../index.html#example-unix-domain-websockets-tls-layered-on-the-ws-endpoint',1,'Example (Unix Domain WebSockets, TLS layered on the WS endpoint):'],['../index.html#example-websocketstls',1,'Example (WebSockets/TLS):'],['../index.html#example-websocketstls-1',1,'Example (WebSockets/TLS):'],['../index.html#run-the-integrator-for-this-mapping-in-mqtt',1,'Run the integrator for this mapping (in-mqtt):'],['../index.html#verify-example',1,'Verify (example):']]]
+  ['5_20persist_20the_20configuration_0',['5. Persist the configuration',['../md_docs_2mqttstore-user-guide.html#autotoc_md5-persist-the-configuration',1,'']]],
+  ['5_20to_2011pm_1',['Rendered output → &lt;span class=&quot;tt&quot;&gt;5 to 11pm&lt;/span&gt;',['../index.html#rendered-output--5-to-11pm',1,'']]]
 ];

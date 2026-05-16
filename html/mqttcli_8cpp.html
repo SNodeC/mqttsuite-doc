@@ -108,7 +108,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="mqttcli_2SocketContextFactory_8h_source.html">SocketContextFactory.h</a>&quot;</code><br />
 <code>#include &quot;config.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="ConfigSections_8h_source.html">lib/ConfigSections.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mqttcli_2lib_2ConfigSections_8h_source.html">lib/ConfigSections.h</a>&quot;</code><br />
 <code>#include &lt;core/SNodeC.h&gt;</code><br />
 <code>#include &lt;net/config/ConfigInstance.h&gt;</code><br />
 <code>#include &lt;net/in/stream/legacy/SocketClient.h&gt;</code><br />
@@ -199,12 +199,12 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  230</span>        }</div>
 <div class="line"><span class="lineno">  231</span>    });</div>
 <div class="line"><span class="lineno">  232</span>}</div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html">mqtt::mqttcli::lib::ConfigPublish</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00074">ConfigSections.h:74</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a66bf024dfd67d7a7d415c3e8240597df"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html#a66bf024dfd67d7a7d415c3e8240597df">mqtt::mqttcli::lib::ConfigPublish::getTopic</a></div><div class="ttdeci">std::string getTopic() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8cpp_source.html#l00093">ConfigSections.cpp:93</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSession_html"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html">mqtt::mqttcli::lib::ConfigSession</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00098">ConfigSections.h:98</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe_html"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html">mqtt::mqttcli::lib::ConfigSubscribe</a></div><div class="ttdef"><b>Definition</b> <a href="ConfigSections_8h_source.html#l00057">ConfigSections.h:57</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html">mqtt::mqttcli::lib::ConfigPublish</a></div><div class="ttdef"><b>Definition</b> <a href="mqttcli_2lib_2ConfigSections_8h_source.html#l00074">ConfigSections.h:74</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish_html_a66bf024dfd67d7a7d415c3e8240597df"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html#a66bf024dfd67d7a7d415c3e8240597df">mqtt::mqttcli::lib::ConfigPublish::getTopic</a></div><div class="ttdeci">std::string getTopic() const</div><div class="ttdef"><b>Definition</b> <a href="mqttcli_2lib_2ConfigSections_8cpp_source.html#l00093">ConfigSections.cpp:93</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSession_html"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html">mqtt::mqttcli::lib::ConfigSession</a></div><div class="ttdef"><b>Definition</b> <a href="mqttcli_2lib_2ConfigSections_8h_source.html#l00098">ConfigSections.h:98</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe_html"><div class="ttname"><a href="classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html">mqtt::mqttcli::lib::ConfigSubscribe</a></div><div class="ttdef"><b>Definition</b> <a href="mqttcli_2lib_2ConfigSections_8h_source.html#l00057">ConfigSections.h:57</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigSections_8cpp_source.html#l00093">mqtt::mqttcli::lib::ConfigPublish::getTopic()</a>.</p>
+<p class="reference">References <a class="el" href="mqttcli_2lib_2ConfigSections_8cpp_source.html#l00093">mqtt::mqttcli::lib::ConfigPublish::getTopic()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mqttcli_8cpp_source.html#l00234">createWSConfig()</a>.</p>
 <div class="dynheader">
@@ -291,8 +291,8 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="mqttcli_8cpp_source.html#l00104">104</a> of file <a class="el" href="mqttcli_8cpp_source.html">mqttcli.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  104</span>                                                                                                                         {</div>
-<div class="line"><span class="lineno">  105</span>    VLOG(1) &lt;&lt; req-&gt;getSocketContext()-&gt;getSocketConnection()-&gt;getConnectionName() &lt;&lt; <span class="stringliteral">&quot; HTTP response for: &quot;</span> &lt;&lt; req-&gt;method &lt;&lt; <span class="stringliteral">&quot; &quot;</span></div>
-<div class="line"><span class="lineno">  106</span>            &lt;&lt; req-&gt;url &lt;&lt; <span class="stringliteral">&quot; HTTP/&quot;</span> &lt;&lt; req-&gt;httpMajor &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; req-&gt;httpMinor &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><span class="lineno">  105</span>    VLOG(1) &lt;&lt; req-&gt;getConnectionName() &lt;&lt; <span class="stringliteral">&quot; HTTP response for: &quot;</span> &lt;&lt; req-&gt;method &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; req-&gt;url &lt;&lt; <span class="stringliteral">&quot; HTTP/&quot;</span> &lt;&lt; req-&gt;httpMajor &lt;&lt; <span class="stringliteral">&quot;.&quot;</span></div>
+<div class="line"><span class="lineno">  106</span>            &lt;&lt; req-&gt;httpMinor &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
 <div class="line"><span class="lineno">  107</span>            &lt;&lt; httputils::toString(req-&gt;method,</div>
 <div class="line"><span class="lineno">  108</span>                                   req-&gt;url,</div>
 <div class="line"><span class="lineno">  109</span>                                   <span class="stringliteral">&quot;HTTP/&quot;</span> + std::to_string(req-&gt;httpMajor) + <span class="stringliteral">&quot;.&quot;</span> + std::to_string(req-&gt;httpMinor),</div>

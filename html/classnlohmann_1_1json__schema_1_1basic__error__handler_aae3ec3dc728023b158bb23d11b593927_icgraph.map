@@ -1,15 +1,17 @@
 <map id="nlohmann::json_schema::basic_error_handler::error" name="nlohmann::json_schema::basic_error_handler::error">
-<area shape="rect" id="Node000001" title=" " alt="" coords="275,228,454,290"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="275,271,454,332"/>
 <area shape="rect" id="Node000002" href="$classanonymous__namespace_02errors_8cpp_03_1_1store__ptr__err__handler.html#a52f0ac600d8646698907e9094c125ef9" title=" " alt="" coords="26,5,206,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="336,215,290,147,260,112,225,81,207,68,206,63,228,77,263,108,294,144,342,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,256,324,216,298,168,265,122,225,81,207,67,206,62,228,77,269,118,302,166,329,213,348,257"/>
 <area shape="rect" id="Node000003" href="$classanonymous__namespace_02issue-149-entry-selection_8cpp_03_1_1store__err__handler.html#a410c6dae38a5260bff3f647def3a122c" title=" " alt="" coords="5,91,227,152"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,219,269,193,225,167,204,156,203,150,228,162,272,188,314,218"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="326,259,281,212,225,166,208,156,207,150,228,162,285,208,332,258"/>
 <area shape="rect" id="Node000004" href="$classanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03_1_1store__ptr__err__handler.html#a2109be67ea1860359958f1fdaaa88d81" title=" " alt="" coords="26,177,206,256"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,242,207,234,206,229,262,240"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,267,207,250,206,244,263,265"/>
 <area shape="rect" id="Node000005" href="$classcustom__error__handler.html#a028c0db53b8d6a7cf9e8caf62e54667d" title=" " alt="" coords="34,279,198,324"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="257,278,199,290,197,285,262,276"/>
-<area shape="rect" id="Node000006" href="$classstore__ptr__err__handler.html#a565d710a8321fd938af8cc6f6407e630" title=" " alt="" coords="36,348,196,393"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="303,297,228,339,197,350,195,346,226,334,298,299"/>
-<area shape="rect" id="Node000007" href="$readme_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="89,417,143,445"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="336,301,290,358,260,385,228,408,185,425,144,432,143,426,183,419,225,403,257,381,286,355,332,303"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="257,303,199,304,197,299,262,300"/>
+<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03_1_1ProjectionValidationErrorHandler.html#adb9d3327df1fb4a7876f0155b0e140f3" title=" " alt="" coords="6,348,226,426"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="258,339,227,351,225,347,262,336"/>
+<area shape="rect" id="Node000007" href="$classstore__ptr__err__handler.html#a565d710a8321fd938af8cc6f6407e630" title=" " alt="" coords="36,450,196,494"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="332,343,285,395,258,419,228,440,198,455,195,450,225,435,254,415,282,391,327,346"/>
+<area shape="rect" id="Node000008" href="$readme_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="89,518,143,546"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="347,345,328,387,302,431,268,473,228,509,208,520,185,527,144,534,143,529,184,522,206,515,225,505,265,470,297,428,324,385,343,348"/>
 </map>

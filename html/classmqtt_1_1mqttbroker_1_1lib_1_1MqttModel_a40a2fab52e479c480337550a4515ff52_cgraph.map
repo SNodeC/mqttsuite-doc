@@ -1,7 +1,9 @@
 <map id="mqtt::mqttbroker::lib::MqttModel::addEventReceiver" name="mqtt::mqttbroker::lib::MqttModel::addEventReceiver">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,231,85"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#acca53577f6014b5d170b4badfd675f53" title=" " alt="" coords="279,5,482,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,45,266,43,261,44,231,50"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#adee9c82d70f6ea30bbc0217efc16d440" title=" " alt="" coords="289,75,472,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,75,276,83,271,83,231,80"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,91,231,136"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel_1_1EventReceiver.html#af43d1bf9f3b994c70d4f6ab419c9092e" title=" " alt="" coords="280,5,481,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,88,268,69,263,71,197,93"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#acca53577f6014b5d170b4badfd675f53" title=" " alt="" coords="279,91,482,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,111,266,113,261,114,231,116"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#adee9c82d70f6ea30bbc0217efc16d440" title=" " alt="" coords="289,160,472,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,134,281,156,276,156,205,139"/>
 </map>

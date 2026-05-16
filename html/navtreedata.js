@@ -210,6 +210,38 @@ var NAVTREE =
       [ "Handy Patterns", "index.html#handy-patterns", null ],
       [ "Notes", "index.html#notes-3", null ]
     ] ],
+    [ "MQTTStore", "index.html#mqttstore", [
+      [ "What gets stored", "index.html#what-gets-stored", null ],
+      [ "Quick start", "index.html#quick-start", null ],
+      [ "Optional typed projections", "index.html#optional-typed-projections", null ],
+      [ "Recommended production flow", "index.html#recommended-production-flow", null ]
+    ] ],
+    [ "MQTTStore User Guide", "md_docs_2mqttstore-user-guide.html", [
+      [ "1. What MQTTStore creates automatically", "md_docs_2mqttstore-user-guide.html#autotoc_md1-what-mqttstore-creates-automatically", null ],
+      [ "2. MariaDB bootstrap: database, user, and permissions", "md_docs_2mqttstore-user-guide.html#autotoc_md2-mariadb-bootstrap-database-user-and-permissions", [
+        [ "Permission profiles", "md_docs_2mqttstore-user-guide.html#permission-profiles", null ]
+      ] ],
+      [ "3. Optional: create projection tables", "md_docs_2mqttstore-user-guide.html#autotoc_md3-optional-create-projection-tables", null ],
+      [ "4. Start MQTTStore with automatic raw-table generation", "md_docs_2mqttstore-user-guide.html#autotoc_md4-start-mqttstore-with-automatic-raw-table-generation", [
+        [ "Working <span class=\"tt\">--projection-file</span> walkthrough", "md_docs_2mqttstore-user-guide.html#working---projection-file-walkthrough", null ]
+      ] ],
+      [ "5. Persist the configuration", "md_docs_2mqttstore-user-guide.html#autotoc_md5-persist-the-configuration", null ],
+      [ "6. Generate example MQTT traffic", "md_docs_2mqttstore-user-guide.html#autotoc_md6-generate-example-mqtt-traffic", [
+        [ "JSON telemetry", "md_docs_2mqttstore-user-guide.html#json-telemetry", null ],
+        [ "Plain text status", "md_docs_2mqttstore-user-guide.html#plain-text-status", null ],
+        [ "Retained state", "md_docs_2mqttstore-user-guide.html#retained-state", null ],
+        [ "QoS 1 publish", "md_docs_2mqttstore-user-guide.html#qos-1-publish", null ],
+        [ "Subscribing with a QoS override", "md_docs_2mqttstore-user-guide.html#subscribing-with-a-qos-override", null ]
+      ] ],
+      [ "7. Verify stored data", "md_docs_2mqttstore-user-guide.html#autotoc_md7-verify-stored-data", null ],
+      [ "8. Operational recommendations", "md_docs_2mqttstore-user-guide.html#autotoc_md8-operational-recommendations", null ],
+      [ "9. Troubleshooting", "md_docs_2mqttstore-user-guide.html#autotoc_md9-troubleshooting", [
+        [ "MQTTStore starts but no rows appear", "md_docs_2mqttstore-user-guide.html#mqttstore-starts-but-no-rows-appear", null ],
+        [ "Raw table is not created", "md_docs_2mqttstore-user-guide.html#raw-table-is-not-created", null ],
+        [ "Projection rows are missing", "md_docs_2mqttstore-user-guide.html#projection-rows-are-missing", null ],
+        [ "Permission denied", "md_docs_2mqttstore-user-guide.html#permission-denied", null ]
+      ] ]
+    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -251,19 +283,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BridgeStore_8cpp.html",
-"classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination.html#a0c63c0b592dd401e435cd18bce150b72",
-"classanonymous__namespace_02json-validator_8cpp_03_1_1type__schema.html#a72ff3c13768d129592b9d088316d0d99",
-"classinja_1_1FunctionNode.html#a9c66fe10f08db5215304d209f55b2a74",
-"classinja_1_1NodeVisitor.html#a983925f5e5368c6c40ab5358c3cbc030",
-"classjson__uri.html#a32b1d4d5ccd0bb7c53ba64cb702a354f",
-"classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a695ccafca764022552d51da3faccbdac",
-"classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html#a59cfa5e554e04283efd19b66e6f5d432",
-"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html#a56b463e5a2e95db45a21ec44e0b78199",
-"classnlohmann_1_1json__schema_1_1root__schema.html#ad309223baec182d227689d60462cc271",
-"index.html#configuration",
-"mqttbridge_2lib_2Mqtt_8h.html",
-"structanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler_1_1ErrorEntry.html",
-"structmqtt_1_1lib_1_1admin_1_1AdminOptions.html#a8012d4f1ffe0509eabdbb8ddfc45039d"
+"classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html#ac5110fced14cb596522739c225bc10d7",
+"classanonymous__namespace_02json-validator_8cpp_03_1_1type__schema.html#a5d3a0c0e5013da7a1fc0a0d4e45772b9",
+"classinja_1_1FunctionNode.html#a81a035ea2ae9d5feece15c5aa4c13adc",
+"classinja_1_1NodeVisitor.html#a739c94592f2970dafcae37e2d641f22f",
+"classjson__schema__validator.html#a81acbee49dbfe121a1d02df7e764e56a",
+"classmqtt_1_1bridge_1_1lib_1_1Mqtt.html#a5847611e17b94be67e5cf9743fb03a58",
+"classmqtt_1_1lib_1_1MqttMapper.html#adfca0d6475af23914dfc25b4056184b5",
+"classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html#ad2e3ca382078e232c55479835bb24952",
+"classmqtt_1_1mqttstore_1_1lib_1_1ConfigStorage.html#a0097ee5bbddfe0ac91757f74ab8c0f2e",
+"classnlohmann_1_1json__schema_1_1root__schema.html#a7e890c03f941280b76fbdb4d5bb73065",
+"index.html#a-more-complex-hierarchy",
+"json-schema-test_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe",
+"namespacemembers_enum.html",
+"structinja_1_1Token.html#a2e482ca14ccd167bf744a85c83af14faa453fb623e752c5993f65bc410fd74fe5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -119,45 +119,14 @@ Collaboration diagram for mqtt::mqttintegrator::SocketContextFactory:</div>
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1mqttintegrator_1_1SocketContextFactory__coll__graph.svg" width="172" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a3370f571029d87d453a00ced6c989141" id="r_a3370f571029d87d453a00ced6c989141"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3370f571029d87d453a00ced6c989141">SocketContextFactory</a> ()</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:a0667981d3feaa8d66a6ba2ecb81dc900" id="r_a0667981d3feaa8d66a6ba2ecb81dc900"><td class="memItemLeft" align="right" valign="top">core::socket::stream::SocketContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0667981d3feaa8d66a6ba2ecb81dc900">create</a> (core::socket::stream::SocketConnection *socketConnection) final</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8h_source.html#l00053">53</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8h_source.html">SocketContextFactory.h</a>.</p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3370f571029d87d453a00ced6c989141" name="a3370f571029d87d453a00ced6c989141"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3370f571029d87d453a00ced6c989141">&#9670;&#160;</a></span>SocketContextFactory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mqtt::mqttintegrator::SocketContextFactory::SocketContextFactory </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00059">59</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   59</span>                                               {</div>
-<div class="line"><span class="lineno">   60</span>    }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a0667981d3feaa8d66a6ba2ecb81dc900" name="a0667981d3feaa8d66a6ba2ecb81dc900"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0667981d3feaa8d66a6ba2ecb81dc900">&#9670;&#160;</a></span>create()</h2>
 
@@ -176,23 +145,23 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel final">final</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00062">62</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   62</span>                                                                                                                  {</div>
-<div class="line"><span class="lineno">   63</span>        mqtt::lib::ConfigMqttIntegrator* config = utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttIntegrator&gt;();</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::SocketContext(</div>
-<div class="line"><span class="lineno">   66</span>            socketConnection,</div>
-<div class="line"><span class="lineno">   67</span>            <span class="keyword">new</span> mqtt::mqttintegrator::lib::Mqtt(socketConnection-&gt;getConnectionName(), config-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>(), config-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#af6e93a086140ee5a1da0fb93a2d05b89">getSessionStore</a>()));</div>
-<div class="line"><span class="lineno">   68</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a59cb7bb2531c0192a9b1669c44e42de8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">mqtt::lib::ConfigApplication::getMqttMapper</a></div><div class="ttdeci">const std::shared_ptr&lt; MqttMapper &gt; getMqttMapper() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00109">ConfigApplication.cpp:109</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_af6e93a086140ee5a1da0fb93a2d05b89"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#af6e93a086140ee5a1da0fb93a2d05b89">mqtt::lib::ConfigApplication::getSessionStore</a></div><div class="ttdeci">std::string getSessionStore() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00089">ConfigApplication.cpp:89</a></div></div>
+<p class="definition">Definition at line <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00059">59</a> of file <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html">SocketContextFactory.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>                                                                                                                  {</div>
+<div class="line"><span class="lineno">   60</span>        mqtt::lib::ConfigMqttIntegrator* config = utils::Config::configRoot.getSubCommand&lt;mqtt::lib::ConfigMqttIntegrator&gt;();</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> iot::mqtt::SocketContext(</div>
+<div class="line"><span class="lineno">   63</span>            socketConnection,</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keyword">new</span> mqtt::mqttintegrator::lib::Mqtt(socketConnection-&gt;getConnectionName(), config-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a>(), config-&gt;<a class="code hl_function" href="classmqtt_1_1lib_1_1ConfigApplication.html#af6e93a086140ee5a1da0fb93a2d05b89">getSessionStore</a>()));</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a59cb7bb2531c0192a9b1669c44e42de8"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#a59cb7bb2531c0192a9b1669c44e42de8">mqtt::lib::ConfigApplication::getMqttMapper</a></div><div class="ttdeci">const std::shared_ptr&lt; MqttMapper &gt; getMqttMapper() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00105">ConfigApplication.cpp:105</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_af6e93a086140ee5a1da0fb93a2d05b89"><div class="ttname"><a href="classmqtt_1_1lib_1_1ConfigApplication.html#af6e93a086140ee5a1da0fb93a2d05b89">mqtt::lib::ConfigApplication::getSessionStore</a></div><div class="ttdeci">std::string getSessionStore() const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00101">ConfigApplication.cpp:101</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00109">mqtt::lib::ConfigApplication::getMqttMapper()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00089">mqtt::lib::ConfigApplication::getSessionStore()</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00105">mqtt::lib::ConfigApplication::getMqttMapper()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00101">mqtt::lib::ConfigApplication::getSessionStore()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

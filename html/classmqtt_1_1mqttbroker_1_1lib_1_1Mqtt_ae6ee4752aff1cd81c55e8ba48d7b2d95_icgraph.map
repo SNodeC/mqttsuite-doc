@@ -1,5 +1,7 @@
 <map id="mqtt::mqttbroker::lib::Mqtt::Mqtt" name="mqtt::mqttbroker::lib::Mqtt::Mqtt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="237,5,393,50"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#ab59d29bf1c3775b8c766ff107d7f1204" title=" " alt="" coords="5,5,189,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,28,189,30,189,25,224,27"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="263,40,419,85"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1SocketContextFactory.html#ab59d29bf1c3775b8c766ff107d7f1204" title=" " alt="" coords="18,5,202,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,49,202,44,202,39,250,48"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html#a7bb9a950eb304da73e1728377f9e4c67" title=" " alt="" coords="5,75,215,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,77,216,84,215,79,250,76"/>
 </map>

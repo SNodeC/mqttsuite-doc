@@ -103,7 +103,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="ConfigSections_8h.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="mqttcli_2lib_2ConfigSections_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="335.88,-96.62 223.12,-96.62 223.12,-75.88 335.88,-75.88 335.88,-96.62"/>
 <text xml:space="preserve" text-anchor="middle" x="279.5" y="-83.12" font-family="Helvetica,sans-Serif" font-size="10.00">lib/ConfigSections.h</text>
 </a>

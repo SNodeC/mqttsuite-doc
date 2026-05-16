@@ -6,5 +6,7 @@ var searchData=
   ['anonymous_5fnamespace_7bissue_2d70_2droot_2dschema_2dconstructor_2ecpp_7d_3',['anonymous_namespace{issue-70-root-schema-constructor.cpp}',['../namespaceanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bjson_2dpatch_2ecpp_7d_4',['anonymous_namespace{json-patch.cpp}',['../namespaceanonymous__namespace_02json-patch_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bjson_2dvalidator_2ecpp_7d_5',['anonymous_namespace{json-validator.cpp}',['../namespaceanonymous__namespace_02json-validator_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bstring_2dformat_2dcheck_2ecpp_7d_6',['anonymous_namespace{string-format-check.cpp}',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html',1,'']]]
+  ['anonymous_5fnamespace_7bsocketcontextfactory_2ecpp_7d_6',['anonymous_namespace{SocketContextFactory.cpp}',['../namespaceanonymous__namespace_02SocketContextFactory_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bstring_2dformat_2dcheck_2ecpp_7d_7',['anonymous_namespace{string-format-check.cpp}',['../namespaceanonymous__namespace_02string-format-check_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bsubprotocolfactory_2ecpp_7d_8',['anonymous_namespace{SubProtocolFactory.cpp}',['../namespaceanonymous__namespace_02SubProtocolFactory_8cpp_03.html',1,'']]]
 ];

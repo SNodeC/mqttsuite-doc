@@ -112,7 +112,7 @@ $(function() {
 <hr  />
 <h1 class="doxsection"><a class="anchor" id="overview"></a>
 Overview</h1>
-<p>The <a href="https://snodec.github.io/mqttsuite-doc/html/index.html"><b>MQTTSuite</b></a> is a lightweight, production-ready MQTT 3.1.1 integration system composed of four focused applications</p>
+<p>The <a href="https://snodec.github.io/mqttsuite-doc/html/index.html"><b>MQTTSuite</b></a> is a lightweight, production-ready MQTT 3.1.1 integration system composed of five focused applications</p>
 <p><b>MQTTBroker</b></p>
 <ul>
 <li><em>Role:</em> Full MQTT broker (MQTT 3.1.1)</li>
@@ -132,6 +132,11 @@ Overview</h1>
 <ul>
 <li><em>Role:</em> Command-line client</li>
 <li><em>Highlights:</em> Subscribe to topics and/or publish messages</li>
+</ul>
+<p><b>MQTTStore</b></p>
+<ul>
+<li><em>Role:</em> Generic MQTT-to-MariaDB persistence service</li>
+<li><em>Highlights:</em> Subscribes to arbitrary MQTT topic filters; stores raw MQTT envelopes; optionally projects JSON payload fields into typed tables</li>
 </ul>
 <p>powered by <a href="https://github.com/SNodeC/snode.c"><b>SNode.C</b></a>, a single-threaded, single-tasking C++ networking framework. All of these applications have built-in support for encrypted and unencrypted stream sockets and WebSockets over IPv4/IPv6 and UNIX domain sockets.</p>
 <p>Thanks to its small footprint, MQTTSuite is especially suitable for resource-constrained systems (embedded Linux, routers, SBCs).</p>
@@ -365,6 +370,13 @@ Table of Content</h1>
 </li>
 <li><a class="el" href="#handy-patterns">Handy Patterns</a></li>
 <li><a class="el" href="#notes-3">Notes</a></li>
+</ul>
+</li>
+<li><a class="el" href="#mqttstore">MQTTStore</a><ul>
+<li><a class="el" href="#what-gets-stored">What gets stored</a></li>
+<li><a class="el" href="#quick-start">Quick start</a></li>
+<li><a class="el" href="#optional-typed-projections">Optional typed projections</a></li>
+<li><a class="el" href="#recommended-production-flow">Recommended production flow</a></li>
 </ul>
 </li>
 </ul>
@@ -2098,8 +2110,125 @@ Handy Patterns</h2>
 <h2 class="doxsection"><a class="anchor" id="notes-3"></a>
 Notes</h2>
 <ul>
-<li><b>Protocol:</b> MQTT <b>3.1.1</b> (align your client expectations accordingly). </li>
+<li><b>Protocol:</b> MQTT <b>3.1.1</b> (align your client expectations accordingly).</li>
 </ul>
+<hr  />
+<h1 class="doxsection"><a class="anchor" id="mqttstore"></a>
+MQTTStore</h1>
+<p>For a full operational walkthrough, including automatic raw-table generation, MariaDB user grants, projection tables, and example MQTT traffic, see <a class="el" href="md_docs_2mqttstore-user-guide.html"><span class="tt">docs/mqttstore-user-guide.md</span></a>.</p>
+<p><b>MQTTStore</b> is the generic persistence service for the recommended MQTTSuite data pipeline:</p>
+<div class="fragment"><div class="line">MQTT devices -&gt; mqttbroker -&gt; optional mqttintegrator normalization -&gt; mqttstore -&gt; MariaDB</div>
+</div><!-- fragment --><p>The service is intentionally schema-neutral at the MQTT boundary. Every accepted publish can be stored as a raw MQTT envelope before any domain-specific interpretation happens. Optional projections can then copy selected JSON fields into operator-managed typed tables.</p>
+<h2 class="doxsection"><a class="anchor" id="what-gets-stored"></a>
+What gets stored</h2>
+<p>The automatically managed raw table defaults to <span class="tt">mqtt_messages</span> and contains:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Column  </th><th class="markdownTableHeadNone">Purpose  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">id</span>  </td><td class="markdownTableBodyNone">Monotonic database id.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">received_at</span>  </td><td class="markdownTableBodyNone">MariaDB receive timestamp with microsecond precision.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">source_instance</span>  </td><td class="markdownTableBodyNone">MQTTSuite connection instance, e.g. <span class="tt">in-mqtt</span>.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">topic</span>  </td><td class="markdownTableBodyNone">MQTT topic.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">qos</span>  </td><td class="markdownTableBodyNone">MQTT QoS of the received publish.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">retain_flag</span>  </td><td class="markdownTableBodyNone">Whether the publish was retained by the broker.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">dup_flag</span>  </td><td class="markdownTableBodyNone">MQTT duplicate flag.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">packet_identifier</span>  </td><td class="markdownTableBodyNone">MQTT packet identifier where available.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">payload</span>  </td><td class="markdownTableBodyNone">Original MQTT payload bytes as <span class="tt">LONGBLOB</span>.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">payload_text</span>  </td><td class="markdownTableBodyNone">Original payload as text when it is safe to expose as text.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">payload_json</span>  </td><td class="markdownTableBodyNone">Parsed JSON payload when parsing succeeds, otherwise <span class="tt">NULL</span>.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">payload_format</span>  </td><td class="markdownTableBodyNone"><span class="tt"><a class="el" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></span>, <span class="tt">text</span>, or <span class="tt">binary</span>.  </td></tr>
+</table>
+<p>This means TTN, Zigbee2MQTT, Home Assistant, shell-published test payloads, and vendor-specific MQTT messages all follow the same durable ingestion path.</p>
+<h2 class="doxsection"><a class="anchor" id="quick-start"></a>
+Quick start</h2>
+<div class="fragment"><div class="line">mqttstore in-mqtt \</div>
+<div class="line">            remote --host 127.0.0.1 \</div>
+<div class="line">                   --port 1883 \</div>
+<div class="line">            session --client-id mqttstore-local \</div>
+<div class="line">            sub --topic &#39;#&#39; \</div>
+<div class="line">            db --host 127.0.0.1 \</div>
+<div class="line">               --database mqtt \</div>
+<div class="line">               --username mqttstore \</div>
+<div class="line">               --password secret \</div>
+<div class="line">            storage --raw-table mqtt_messages \</div>
+<div class="line">                    --auto-create-raw-table true</div>
+</div><!-- fragment --><p>For MQTT over WebSockets:</p>
+<div class="fragment"><div class="line">mqttstore in-wsmqtt \</div>
+<div class="line">            remote --host 127.0.0.1 \</div>
+<div class="line">                   --port 8080 \</div>
+<div class="line">            sub --topic &#39;normalized/#&#39; \</div>
+<div class="line">            http --target /ws \</div>
+<div class="line">            db --database mqtt \</div>
+<div class="line">               --username mqttstore \</div>
+<div class="line">               --password secret</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="optional-typed-projections"></a>
+Optional typed projections</h2>
+<p>Raw storage is the safe default. When you also want analytics-friendly typed tables, pass a projection file (for example <span class="tt">mqttstore/examples/projections.json</span>):</p>
+<div class="fragment"><div class="line">mqttstore in-mqtt \</div>
+<div class="line">            remote --host broker.local \</div>
+<div class="line">            sub --topic &#39;normalized/#&#39; \</div>
+<div class="line">            db --database mqtt --username mqttstore --password secret \</div>
+<div class="line">            storage --projection-file /etc/mqttsuite/mqttstore-projections.json</div>
+</div><!-- fragment --><p>Example projection file:</p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;projections&quot;: [</div>
+<div class="line">    {</div>
+<div class="line">      &quot;name&quot;: &quot;room_temperature&quot;,</div>
+<div class="line">      &quot;topic&quot;: &quot;normalized/+/temperature&quot;,</div>
+<div class="line">      &quot;table&quot;: &quot;sensor_measurements&quot;,</div>
+<div class="line">      &quot;columns&quot;: {</div>
+<div class="line">        &quot;device_id&quot;: { &quot;topic_level&quot;: 1, &quot;required&quot;: true },</div>
+<div class="line">        &quot;metric&quot;: { &quot;literal&quot;: &quot;temperature&quot; },</div>
+<div class="line">        &quot;value&quot;: { &quot;json_pointer&quot;: &quot;/value&quot;, &quot;required&quot;: true },</div>
+<div class="line">        &quot;unit&quot;: { &quot;json_pointer&quot;: &quot;/unit&quot; }</div>
+<div class="line">      }</div>
+<div class="line">    }</div>
+<div class="line">  ]</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Projection notes:</p>
+<ul>
+<li><span class="tt">--projection-file</span> is an option of the <span class="tt">storage</span> configuration section, so place it after the <span class="tt">storage</span> subcommand in the SNode.C-style command line.</li>
+<li>The file is read and validated against <span class="tt">mqttstore/lib/projection-schema.json</span> during startup. MQTTStore fails fast, reports the projection file path plus schema error locations, and exits with a non-zero status if the file is malformed or does not match the schema. Restart MQTTStore after changing the projection file.</li>
+<li>The file may either contain a top-level <span class="tt">projections</span> array, as shown above, or the array itself.</li>
+<li><span class="tt">topic</span> uses MQTT-style <span class="tt">+</span> and <span class="tt">#</span> matching.</li>
+<li><span class="tt">topic_level</span> is zero-based, so <span class="tt">normalized/boiler/temperature</span> has topic level <span class="tt">1 == boiler</span>.</li>
+<li><span class="tt">literal</span> writes a constant string value.</li>
+<li><span class="tt">json_pointer</span> uses non-empty RFC-6901 style paths that start with <span class="tt">/</span>, as implemented by <span class="tt">nlohmann::json::json_pointer</span>.</li>
+<li>Shorthand column mappings such as <span class="tt">"value": "/value"</span> are accepted and mean <span class="tt">json_pointer: "/value"</span>. Use the object form when you need <span class="tt">required</span>, <span class="tt">topic_level</span>, or <span class="tt">literal</span>.</li>
+<li>Projection tables are intentionally not auto-created because they are domain schemas. Create and migrate them explicitly.</li>
+<li>SQL identifiers are restricted to alphanumeric characters and <span class="tt">_</span> before they are quoted.</li>
+</ul>
+<p>A possible projection table for the example above is:</p>
+<div class="fragment"><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> sensor_measurements (</div>
+<div class="line">    id <span class="keywordtype">BIGINT</span> UNSIGNED <span class="keyword">NOT</span> <span class="stringliteral">NULL</span> AUTO_INCREMENT <span class="keyword">PRIMARY</span> KEY,</div>
+<div class="line">    device_id <span class="keywordtype">VARCHAR</span>(<span class="stringliteral">255</span>) <span class="keyword">NOT</span> <span class="stringliteral">NULL</span>,</div>
+<div class="line">    metric <span class="keywordtype">VARCHAR</span>(<span class="stringliteral">255</span>) <span class="keyword">NOT</span> <span class="stringliteral">NULL</span>,</div>
+<div class="line">    <span class="keyword">value</span> <span class="keywordtype">DOUBLE</span> <span class="keyword">NOT</span> <span class="stringliteral">NULL</span>,</div>
+<div class="line">    unit <span class="keywordtype">VARCHAR</span>(<span class="stringliteral">64</span>) <span class="stringliteral">NULL</span>,</div>
+<div class="line">    received_at <span class="keywordtype">TIMESTAMP</span>(<span class="stringliteral">6</span>) <span class="keyword">NOT</span> <span class="stringliteral">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">CURRENT_TIMESTAMP</span>(<span class="stringliteral">6</span>),</div>
+<div class="line">    INDEX idx_device_metric_time (device_id, metric, received_at)</div>
+<div class="line">);</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="recommended-production-flow"></a>
+Recommended production flow</h2>
+<ol type="1">
+<li>Let devices publish vendor-native MQTT payloads to <b>MQTTBroker</b>.</li>
+<li>Use <b>MQTTIntegrator</b> when you need stable, normalized topics/payloads.</li>
+<li>Point <b>MQTTStore</b> at the normalized topic tree.</li>
+<li>Always keep raw storage enabled for audit/replay.</li>
+<li>Add projections only for fields that need fast reporting, dashboards, or alerts. </li>
+</ol>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->

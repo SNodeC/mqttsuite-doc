@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1571,23,890,43,488,61,321,72,194,84,164,88,162,83,194,78,320,66,488,56,890,38,1576,21"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="205,90,279,117"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1571,21,1305,25,934,32,742,40,562,50,408,65,292,84,283,86,281,81,291,78,407,60,562,45,741,34,934,27,1305,19,1576,20"/>
-<area shape="rect" id="Node000005" href="$ConfigSections_8h.html" title=" " alt="" coords="303,90,453,117"/>
+<area shape="rect" id="Node000005" href="$mqttcli_2lib_2ConfigSections_8h.html" title=" " alt="" coords="303,90,453,117"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1571,20,1380,23,1106,30,788,48,625,64,465,84,441,88,439,83,464,78,624,58,787,43,1105,24,1380,17,1576,19"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="477,90,594,117"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1571,23,1083,44,806,61,692,72,605,84,588,87,586,82,604,78,691,67,806,56,1082,39,1576,22"/>

@@ -1,0 +1,25 @@
+<map id="mqttstore/websocket/SubProtocolFactory.cpp" name="mqttstore/websocket/SubProtocolFactory.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="700,5,875,50"/>
+<area shape="rect" id="Node000002" href="$mqttstore_2websocket_2SubProtocolFactory_8h.html" title=" " alt="" coords="258,106,415,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="696,46,428,101,407,105,405,100,427,95,701,44"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="439,106,589,134"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="724,50,569,104,567,99,719,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="614,106,697,134"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="758,50,688,100,686,95,753,52"/>
+<area shape="rect" id="Node000008" href="$StoragePlan_8h.html" title=" " alt="" coords="722,106,853,134"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="789,48,789,93,785,89,785,52"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="877,98,1030,143"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="828,48,904,91,898,90,827,53"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1054,106,1254,134"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="875,48,1088,102,1083,102,875,53"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1278,98,1480,143"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="875,38,1266,97,1260,98,875,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,199,212,227"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,136,157,195,155,191,301,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="235,191,438,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,133,339,176,334,173,335,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="461,191,622,235"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="367,132,481,184,476,184,366,137"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="699,199,875,227"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="789,133,789,186,785,182,785,136"/>
+</map>

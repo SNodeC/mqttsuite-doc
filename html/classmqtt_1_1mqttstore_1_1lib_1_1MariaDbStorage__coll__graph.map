@@ -1,0 +1,19 @@
+<map id="mqtt::mqttstore::lib::MariaDbStorage" name="mqtt::mqttstore::lib::MariaDbStorage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,892,143,937"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="104,99,180,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,129,105,149,82,175,63,208,55,244,55,798,59,838,66,876,61,876,54,839,50,798,50,243,58,206,77,172,102,145,127,124"/>
+<area shape="rect" id="Node000006" href="$structmqtt_1_1mqttstore_1_1lib_1_1StoragePlan_1_1Projection.html" title=" " alt="" coords="200,521,370,565"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="141,124,139,180,140,261,144,307,152,355,165,401,183,445,209,480,241,510,236,512,205,484,179,448,160,403,147,356,139,308,135,262,134,180,140,129"/>
+<area shape="rect" id="Node000008" href="$structmqtt_1_1mqttstore_1_1lib_1_1StoragePlan_1_1ColumnMapping.html" title=" " alt="" coords="180,222,390,267"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="155,124,251,210,247,212,156,129"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="78,5,206,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="142,62,145,100,140,99,142,68"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttstore_1_1lib_1_1StoragePlan.html" title=" " alt="" coords="101,774,239,819"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,817,105,881,101,877,151,820"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="140,640,325,701"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="220,699,191,761,186,758,216,703"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="278,563,254,626,249,623,275,567"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="192,385,377,446"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="286,443,287,504,282,503,284,448"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="286,264,287,368,282,367,284,270"/>
+</map>

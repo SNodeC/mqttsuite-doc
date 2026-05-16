@@ -29,11 +29,12 @@ var classmqtt_1_1bridge_1_1lib_1_1SSEDistributor =
     [ "sendEvent", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a9f5043f5f0189719413e23c74b3a55c2", null ],
     [ "sendEvent", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a33c28a238f0853d09effb76ed6c49d45", null ],
     [ "sendJsonEvent", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ae352efe457441f0669d10132f46b514e", null ],
-    [ "sendJsonEvent", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a8ee49146118a6d1016311f388061ecc3", null ],
+    [ "sendJsonEvent1", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a245521f2a6f1b3522a9e041771d6f5c0", null ],
     [ "timePointToString", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ae175f78eb030a996687f4606171418f6", null ],
     [ "bridgesStartTimePoint", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a836fd3a7518c83a469a61de98ef826af", null ],
     [ "eventReceiverList", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#abb0d9e62b124b92341eb52036b66f033", null ],
     [ "id", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a998e2deeac00ec98d240b9b5e2262aca", null ],
+    [ "nextEventReceiverId", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a3e4203165035ade26cee413946879d03", null ],
     [ "onlineSinceTimePoint", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#ad780683b24e9ce5fd722d83d001981f7", null ],
     [ "replayEvents", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a97d2cc436072eaa78369a399b5234931", null ]
 ];

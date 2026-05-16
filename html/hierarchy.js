@@ -25,9 +25,11 @@ var hierarchy =
     [ "mqtt::bridge::lib::Bridge", "classmqtt_1_1bridge_1_1lib_1_1Bridge.html", null ],
     [ "mqtt::bridge::lib::BridgeStore", "classmqtt_1_1bridge_1_1lib_1_1BridgeStore.html", null ],
     [ "mqtt::bridge::lib::Broker", "classmqtt_1_1bridge_1_1lib_1_1Broker.html", null ],
+    [ "mqtt::mqttstore::lib::StoragePlan::ColumnMapping", "structmqtt_1_1mqttstore_1_1lib_1_1StoragePlan_1_1ColumnMapping.html", null ],
     [ "ConanFile", null, [
       [ "conanfile.JsonSchemaValidatorConan", "classconanfile_1_1JsonSchemaValidatorConan.html", null ]
     ] ],
+    [ "mqtt::mqttstore::lib::MariaDbStorage::ConnectionConfig", "structmqtt_1_1mqttstore_1_1lib_1_1MariaDbStorage_1_1ConnectionConfig.html", null ],
     [ "mqtt::mqttbroker::lib::Mqtt::DelayedQueue", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1DelayedQueue.html", null ],
     [ "mqtt::mqttintegrator::lib::Mqtt::DelayedQueue", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt_1_1DelayedQueue.html", null ],
     [ "mqtt::mqttbroker::lib::Mqtt::EarlierFirst", "structmqtt_1_1mqttbroker_1_1lib_1_1Mqtt_1_1EarlierFirst.html", null ],
@@ -54,6 +56,8 @@ var hierarchy =
         [ "custom_error_handler", "classcustom__error__handler.html", null ],
         [ "custom_error_handler", "classcustom__error__handler.html", null ],
         [ "custom_error_handler", "classcustom__error__handler.html", null ],
+        [ "mqtt::mqttstore::lib::anonymous_namespace{StoragePlan.cpp}::ProjectionValidationErrorHandler", "classmqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03_1_1ProjectionValidationErrorHandler.html", null ],
+        [ "mqtt::mqttstore::lib::anonymous_namespace{StoragePlan.cpp}::ProjectionValidationErrorHandler", "classmqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03_1_1ProjectionValidationErrorHandler.html", null ],
         [ "store_ptr_err_handler", "classstore__ptr__err__handler.html", null ],
         [ "store_ptr_err_handler", "classstore__ptr__err__handler.html", null ]
       ] ]
@@ -89,15 +93,18 @@ var hierarchy =
     [ "mqtt::lib::JsonMappingReader", "classmqtt_1_1lib_1_1JsonMappingReader.html", null ],
     [ "inja::Lexer", "classinja_1_1Lexer.html", null ],
     [ "inja::LexerConfig", "structinja_1_1LexerConfig.html", null ],
+    [ "mqtt::mqttstore::lib::MariaDbStorage", "classmqtt_1_1mqttstore_1_1lib_1_1MariaDbStorage.html", null ],
     [ "iot::mqtt::client::Mqtt", null, [
       [ "mqtt::bridge::lib::Mqtt", "classmqtt_1_1bridge_1_1lib_1_1Mqtt.html", null ],
       [ "mqtt::mqttcli::lib::Mqtt", "classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html", null ],
-      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ]
+      [ "mqtt::mqttintegrator::lib::Mqtt", "classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html", null ],
+      [ "mqtt::mqttstore::lib::Mqtt", "classmqtt_1_1mqttstore_1_1lib_1_1Mqtt.html", null ]
     ] ],
     [ "iot::mqtt::server::Mqtt", null, [
       [ "mqtt::mqttbroker::lib::Mqtt", "classmqtt_1_1mqttbroker_1_1lib_1_1Mqtt.html", null ]
     ] ],
     [ "mqtt::lib::MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", null ],
+    [ "mqtt::mqttstore::lib::MqttMessage", "structmqtt_1_1mqttstore_1_1lib_1_1MqttMessage.html", null ],
     [ "mqtt::mqttbroker::lib::MqttModel", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html", null ],
     [ "inja::NodeVisitor", "classinja_1_1NodeVisitor.html", [
       [ "inja::Renderer", "classinja_1_1Renderer.html", null ],
@@ -105,6 +112,7 @@ var hierarchy =
     ] ],
     [ "inja::Parser", "classinja_1_1Parser.html", null ],
     [ "inja::ParserConfig", "structinja_1_1ParserConfig.html", null ],
+    [ "mqtt::mqttstore::lib::StoragePlan::Projection", "structmqtt_1_1mqttstore_1_1lib_1_1StoragePlan_1_1Projection.html", null ],
     [ "mqtt::mqttbroker::lib::release", "structmqtt_1_1mqttbroker_1_1lib_1_1release.html", null ],
     [ "mqtt::lib::admin::ReloadResult", "structmqtt_1_1lib_1_1admin_1_1ReloadResult.html", null ],
     [ "inja::RenderConfig", "structinja_1_1RenderConfig.html", null ],
@@ -146,11 +154,15 @@ var hierarchy =
       [ "mqtt::bridge::SocketContextFactory", "classmqtt_1_1bridge_1_1SocketContextFactory.html", null ],
       [ "mqtt::mqttbroker::SocketContextFactory", "classmqtt_1_1mqttbroker_1_1SocketContextFactory.html", null ],
       [ "mqtt::mqttcli::SocketContextFactory", "classmqtt_1_1mqttcli_1_1SocketContextFactory.html", null ],
-      [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ]
+      [ "mqtt::mqttintegrator::SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", null ],
+      [ "mqtt::mqttstore::SocketContextFactory", "classmqtt_1_1mqttstore_1_1SocketContextFactory.html", null ]
     ] ],
     [ "inja::SourceLocation", "structinja_1_1SourceLocation.html", null ],
     [ "mqtt::bridge::lib::SSEDistributor", "classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html", null ],
     [ "mqtt::lib::plugins::storage_plugin::Storage", "classmqtt_1_1lib_1_1plugins_1_1storage__plugin_1_1Storage.html", null ],
+    [ "anonymous_namespace{SocketContextFactory.cpp}::StorageOptions", "structanonymous__namespace_02SocketContextFactory_8cpp_03_1_1StorageOptions.html", null ],
+    [ "anonymous_namespace{SubProtocolFactory.cpp}::StorageOptions", "structanonymous__namespace_02SubProtocolFactory_8cpp_03_1_1StorageOptions.html", null ],
+    [ "mqtt::mqttstore::lib::StoragePlan", "classmqtt_1_1mqttstore_1_1lib_1_1StoragePlan.html", null ],
     [ "utils::SubCommand", null, [
       [ "mqtt::bridge::ConfigBridge", "classmqtt_1_1bridge_1_1ConfigBridge.html", null ],
       [ "mqtt::lib::ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", [
@@ -159,13 +171,18 @@ var hierarchy =
       ] ],
       [ "mqtt::mqttcli::lib::ConfigPublish", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html", null ],
       [ "mqtt::mqttcli::lib::ConfigSession", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html", null ],
-      [ "mqtt::mqttcli::lib::ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", null ]
+      [ "mqtt::mqttcli::lib::ConfigSubscribe", "classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html", null ],
+      [ "mqtt::mqttstore::lib::ConfigDatabase", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigDatabase.html", null ],
+      [ "mqtt::mqttstore::lib::ConfigSession", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigSession.html", null ],
+      [ "mqtt::mqttstore::lib::ConfigStorage", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigStorage.html", null ],
+      [ "mqtt::mqttstore::lib::ConfigSubscribe", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigSubscribe.html", null ]
     ] ],
     [ "web::websocket::SubProtocolFactory", null, [
       [ "mqtt::mqttbridge::websocket::SubProtocolFactory", "classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttbroker::websocket::SubProtocolFactory", "classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html", null ],
       [ "mqtt::mqttcli::websocket::SubProtocolFactory", "classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory.html", null ],
-      [ "mqtt::mqttintegrator::websocket::SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", null ]
+      [ "mqtt::mqttintegrator::websocket::SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", null ],
+      [ "mqtt::mqttstore::websocket::SubProtocolFactory", "classmqtt_1_1mqttstore_1_1websocket_1_1SubProtocolFactory.html", null ]
     ] ],
     [ "mqtt::mqttbroker::lib::subscribe", "structmqtt_1_1mqttbroker_1_1lib_1_1subscribe.html", null ],
     [ "inja::Template", "structinja_1_1Template.html", null ],

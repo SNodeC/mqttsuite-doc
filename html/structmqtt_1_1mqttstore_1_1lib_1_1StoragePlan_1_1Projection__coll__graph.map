@@ -1,0 +1,12 @@
+<map id="mqtt::mqttstore::lib::StoragePlan::Projection" name="mqtt::mqttstore::lib::StoragePlan::Projection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,519,175,564"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,99,128,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,126,93,502,88,502,88,127"/>
+<area shape="rect" id="Node000005" href="$structmqtt_1_1mqttstore_1_1lib_1_1StoragePlan_1_1ColumnMapping.html" title=" " alt="" coords="106,222,317,267"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="102,124,182,209,178,211,102,130"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="26,5,154,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,62,93,100,88,99,90,68"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="112,385,297,446"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,445,123,509,119,505,175,447"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="212,265,209,369,204,367,209,269"/>
+</map>

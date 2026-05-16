@@ -1,11 +1,22 @@
 var searchData=
 [
-  ['json_0',['Bridge Configuration JSON',['../index.html#bridge-configuration-json',1,'']]],
-  ['json_1',['Create a minimal &lt;span class=&quot;tt&quot;&gt;bridge-config.json&lt;/span&gt;',['../index.html#create-a-minimal-bridge-configjson',1,'']]],
-  ['json_20for_20modern_20c_2',['JSON schema validator for JSON for Modern C++',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#json-schema-validator-for-json-for-modern-c',1,'']]],
-  ['json_20integration_3',['nlohmann-json integration',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#nlohmann-json-integration',1,'']]],
-  ['json_20mapping_20template_20object_4',['&lt;span class=&quot;tt&quot;&gt;json&lt;/span&gt; mapping (template, object)',['../index.html#json-mapping-template-object',1,'']]],
-  ['json_20schema_20validator_20for_20json_20for_20modern_20c_5',['JSON schema validator for JSON for Modern C++',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#json-schema-validator-for-json-for-modern-c',1,'']]],
-  ['json_3a_6',['Save as &lt;span class=&quot;tt&quot;&gt;~/mapping-example.json&lt;/span&gt;:',['../index.html#save-as-mapping-examplejson',1,'']]],
-  ['just_20run_7',['Then just run',['../index.html#then-just-run',1,'']]]
+  ['each_20item_20in_20bridges_0',['&lt;span class=&quot;tt&quot;&gt;bridge&lt;/span&gt; (each item in &lt;span class=&quot;tt&quot;&gt;bridges&lt;/span&gt;)',['../index.html#bridge-each-item-in-bridges',1,'']]],
+  ['each_20item_20in_20brokers_1',['&lt;span class=&quot;tt&quot;&gt;broker&lt;/span&gt; (each item in &lt;span class=&quot;tt&quot;&gt;brokers&lt;/span&gt;)',['../index.html#broker-each-item-in-brokers',1,'']]],
+  ['elements_20in_20detail_2',['Elements in Detail',['../index.html#elements-in-detail',1,'']]],
+  ['embed_20the_20integrator_20after_20the_20configuration_20has_20been_20saved_3',['(Optional) Embed the integrator (after the configuration has been saved)',['../index.html#optional-embed-the-integrator--after-the-configuration-has-been-saved',1,'']]],
+  ['embedded_20mqttintegrator_20when_20mqtt_20mapping_20file_20is_20provided_4',['Embedded MQTTIntegrator (when &lt;span class=&quot;tt&quot;&gt;--mqtt-mapping-file&lt;/span&gt; is provided)',['../index.html#embedded-mqttintegrator-when---mqtt-mapping-file-is-provided',1,'']]],
+  ['enable_20the_20web_20interface_20http_5',['Enable the Web Interface (HTTP)',['../index.html#enable-the-web-interface-http',1,'']]],
+  ['endpoint_20_3a_6',['Example (Unix Domain WebSockets, TLS layered on the WS endpoint):',['../index.html#example-unix-domain-websockets-tls-layered-on-the-ws-endpoint',1,'']]],
+  ['example_20_3a_7',['Verify (example):',['../index.html#verify-example',1,'']]],
+  ['example_20input_8',['Example input',['../index.html#example-input',1,'']]],
+  ['example_20json_3a_9',['Save as &lt;span class=&quot;tt&quot;&gt;~/mapping-example.json&lt;/span&gt;:',['../index.html#save-as-mapping-examplejson',1,'']]],
+  ['example_20mqtt_20traffic_10',['6. Generate example MQTT traffic',['../md_docs_2mqttstore-user-guide.html#autotoc_md6-generate-example-mqtt-traffic',1,'']]],
+  ['example_20tcp_20tls_20_3a_11',['Example (TCP/TLS):',['../index.html#example-tcptls',1,'']]],
+  ['example_20tcp_20tls_20with_20mutual_20tls_3a_12',['Example (TCP/TLS) with mutual TLS:',['../index.html#example-tcptls-with-mutual-tls',1,'']]],
+  ['example_20unix_20domain_20websockets_20tls_20layered_20on_20the_20ws_20endpoint_20_3a_13',['Example (Unix Domain WebSockets, TLS layered on the WS endpoint):',['../index.html#example-unix-domain-websockets-tls-layered-on-the-ws-endpoint',1,'']]],
+  ['example_20websockets_20tls_20_3a_14',['Example WebSockets TLS :',['../index.html#example-websocketstls',1,'Example (WebSockets/TLS):'],['../index.html#example-websocketstls-1',1,'Example (WebSockets/TLS):']]],
+  ['example_20with_20ajv_20cli_15',['Validate against the schema (example with &lt;span class=&quot;tt&quot;&gt;ajv-cli&lt;/span&gt;)',['../index.html#validate-against-the-schema-example-with-ajv-cli',1,'']]],
+  ['examples_16',['Wildcard examples',['../index.html#wildcard-examples',1,'']]],
+  ['extending_20transports_17',['Extending transports',['../index.html#extending-transports',1,'']]],
+  ['extras_18',['Template extras',['../index.html#template-extras',1,'']]]
 ];

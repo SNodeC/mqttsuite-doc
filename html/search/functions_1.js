@@ -23,5 +23,7 @@ var searchData=
   ['brokerdisabled_20',['brokerDisabled',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a8b5d90f4d9ae6fa213aba6469f795f80',1,'mqtt::bridge::lib::SSEDistributor']]],
   ['brokerdisconnected_21',['brokerDisconnected',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#adcd994f13bb46f04949cd1e08db44f36',1,'mqtt::bridge::lib::SSEDistributor']]],
   ['brokerdisconnecting_22',['brokerDisconnecting',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#adf0a983dc18c4aa42c477a3a295ce6fb',1,'mqtt::bridge::lib::SSEDistributor']]],
-  ['build_23',['build',['../classconanfile_1_1JsonSchemaValidatorConan.html#accb4576ef6666ef947b6c305d2f4230a',1,'conanfile::JsonSchemaValidatorConan']]]
+  ['build_23',['build',['../classconanfile_1_1JsonSchemaValidatorConan.html#accb4576ef6666ef947b6c305d2f4230a',1,'conanfile::JsonSchemaValidatorConan']]],
+  ['buildprojectioninsertsql_24',['buildProjectionInsertSql',['../classmqtt_1_1mqttstore_1_1lib_1_1MariaDbStorage.html#ab11126ca2866b7dd2ed1ac5b7749b782',1,'mqtt::mqttstore::lib::MariaDbStorage']]],
+  ['buildrawinsertsql_25',['buildRawInsertSql',['../classmqtt_1_1mqttstore_1_1lib_1_1MariaDbStorage.html#a1ddca7b84419ddc7192a6518a83876d3',1,'mqtt::mqttstore::lib::MariaDbStorage']]]
 ];

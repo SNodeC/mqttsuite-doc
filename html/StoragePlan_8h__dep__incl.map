@@ -1,0 +1,21 @@
+<map id="mqttstore/lib/StoragePlan.h" name="mqttstore/lib/StoragePlan.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="372,5,572,33"/>
+<area shape="rect" id="Node000002" href="$mqttstore_2SocketContextFactory_8cpp.html" title=" " alt="" coords="5,249,262,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="355,24,271,37,225,48,180,63,136,82,96,107,62,138,33,175,29,186,30,196,44,216,69,233,98,248,93,250,66,238,40,220,25,198,24,185,28,172,58,134,93,103,134,78,178,58,224,43,270,32,360,21"/>
+<area shape="rect" id="Node000003" href="$MariaDbStorage_8cpp.html" title=" " alt="" coords="44,174,285,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="376,38,322,57,267,83,238,105,212,130,175,175,171,171,208,126,234,101,264,79,320,52,381,36"/>
+<area shape="rect" id="Node000004" href="$MariaDbStorage_8h.html" title=" " alt="" coords="278,90,504,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="451,43,405,91,402,87,446,46"/>
+<area shape="rect" id="Node000005" href="$mqttstore_2lib_2Mqtt_8cpp.html" title=" " alt="" coords="414,249,581,277"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="496,42,510,60,519,80,526,128,523,176,514,219,504,251,501,247,509,218,518,176,521,129,514,82,505,63,494,47"/>
+<area shape="rect" id="Node000007" href="$StoragePlan_8cpp.html" title=" " alt="" coords="585,90,799,117"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="522,36,660,89,654,89,522,42"/>
+<area shape="rect" id="Node000008" href="$mqttstore_2websocket_2SubProtocolFactory_8cpp.html" title=" " alt="" coords="823,81,998,126"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="565,34,811,78,825,83,820,83,810,84,565,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="338,124,201,176,200,171,342,121"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="425,124,452,146,474,172,492,213,498,250,494,247,486,214,470,175,448,149,424,129"/>
+<area shape="rect" id="Node000006" href="$mqttstore_2lib_2Mqtt_8h.html" title=" " alt="" coords="308,174,460,201"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="390,131,387,175,383,172,387,135"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="327,206,179,251,178,246,322,206"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="418,207,480,249,475,249,416,213"/>
+</map>

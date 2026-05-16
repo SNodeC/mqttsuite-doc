@@ -1,9 +1,9 @@
 <map id="startBridges" name="startBridges">
-<area shape="rect" id="Node000001" title=" " alt="" coords="322,32,422,60"/>
-<area shape="rect" id="Node000002" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="190,5,244,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="304,35,245,26,245,21,309,34"/>
-<area shape="rect" id="Node000003" href="$mqttbridge_8cpp.html#ad55d86bc4a27f17b5ccd51659519f60d" title=" " alt="" coords="161,57,274,85"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,56,275,65,274,59,304,57"/>
-<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html#a950144f64b7a01a366fb06aecf986214" title=" " alt="" coords="5,57,113,85"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="143,71,113,74,113,69,148,71"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="382,32,482,60"/>
+<area shape="rect" id="Node000002" href="$mqttbridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="250,5,304,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="364,35,305,26,305,21,369,34"/>
+<area shape="rect" id="Node000003" href="$mqttbridge_8cpp.html#ad55d86bc4a27f17b5ccd51659519f60d" title=" " alt="" coords="221,57,334,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="369,56,334,65,334,59,364,57"/>
+<area shape="rect" id="Node000004" href="$mqttbridge_8cpp.html#a3d16d2e23b0d4b9300255adc9883e1f4" title=" " alt="" coords="5,57,173,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="203,71,173,74,173,69,208,71"/>
 </map>

@@ -126,10 +126,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba25771d99e9e6e8ffa69c657817ae68" id="r_aba25771d99e9e6e8ffa69c657817ae68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba25771d99e9e6e8ffa69c657817ae68">~ConfigApplication</a> () override</td></tr>
 <tr class="memitem:aa12b4fd5254b86038af6c3e6b91cda02" id="r_aa12b4fd5254b86038af6c3e6b91cda02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa2817f2ad2d67a81b0066abb90c57d4c">ConfigApplication</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12b4fd5254b86038af6c3e6b91cda02">setSessionStore</a> (const std::string &amp;sessionStore)</td></tr>
 <tr class="memitem:af6e93a086140ee5a1da0fb93a2d05b89" id="r_af6e93a086140ee5a1da0fb93a2d05b89"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e93a086140ee5a1da0fb93a2d05b89">getSessionStore</a> () const</td></tr>
-<tr class="memitem:a6efe0870e795237bb9a142ce388626f7" id="r_a6efe0870e795237bb9a142ce388626f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6efe0870e795237bb9a142ce388626f7">setMappingFile</a> (const std::string &amp;mappingFile)</td></tr>
-<tr class="memitem:a3950b6b32f2481e904a1263b92f3c9f8" id="r_a3950b6b32f2481e904a1263b92f3c9f8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a> () const</td></tr>
-<tr class="memitem:acc4e1282f8a60972f892a8bf9c7259fe" id="r_acc4e1282f8a60972f892a8bf9c7259fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4e1282f8a60972f892a8bf9c7259fe">setMapping</a> (const nlohmann::json &amp;<a class="el" href="binary-validation_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>)</td></tr>
 <tr class="memitem:a59cb7bb2531c0192a9b1669c44e42de8" id="r_a59cb7bb2531c0192a9b1669c44e42de8"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html">MqttMapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59cb7bb2531c0192a9b1669c44e42de8">getMqttMapper</a> () const</td></tr>
+<tr class="memitem:a8f18adbc047bfb12e7ea05bd87db4855" id="r_a8f18adbc047bfb12e7ea05bd87db4855"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f18adbc047bfb12e7ea05bd87db4855">setMappingFile</a> (const std::string &amp;<a class="el" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>)</td></tr>
+<tr class="memitem:a3950b6b32f2481e904a1263b92f3c9f8" id="r_a3950b6b32f2481e904a1263b92f3c9f8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3950b6b32f2481e904a1263b92f3c9f8">getMappingFilename</a> () const</td></tr>
+<tr class="memitem:a47d2012a0d29ba4851e2fd53daeb8ee3" id="r_a47d2012a0d29ba4851e2fd53daeb8ee3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47d2012a0d29ba4851e2fd53daeb8ee3">setMapping</a> (const std::string &amp;mapping) const</td></tr>
+<tr class="memitem:a1de004483654df95103b036db26a7047" id="r_a1de004483654df95103b036db26a7047"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de004483654df95103b036db26a7047">getMapping</a> (int indent=2) const</td></tr>
+<tr class="memitem:a980fd88b7ad5f1a022b17138d2f8bf0a" id="r_a980fd88b7ad5f1a022b17138d2f8bf0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a980fd88b7ad5f1a022b17138d2f8bf0a">persistMapping</a> () const</td></tr>
 <tr class="memitem:a03af16ca63647b5696ac6ff1e803e201" id="r_a03af16ca63647b5696ac6ff1e803e201"><td class="memTemplParams" colspan="2">template&lt;typename ConcretConfigApplication&gt; </td></tr>
 <tr class="memitem:a03af16ca63647b5696ac6ff1e803e201 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03af16ca63647b5696ac6ff1e803e201">ConfigApplication</a> (utils::SubCommand *parent, ConcretConfigApplication *concretConfigApplication)</td></tr>
 </table><table class="memberdecls">
@@ -138,10 +140,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:acc2e03c4d574410a8936378a57c35d13" id="r_acc2e03c4d574410a8936378a57c35d13"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmqtt_1_1lib_1_1MqttMapper.html">MqttMapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a></td></tr>
 <tr class="memitem:aa7759fec12371b6b0043d5cc5ee96758" id="r_aa7759fec12371b6b0043d5cc5ee96758"><td class="memItemLeft" align="right" valign="top">CLI::Option *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a></td></tr>
 <tr class="memitem:a380e6e913557fe4abfa2c0c5fa436817" id="r_a380e6e913557fe4abfa2c0c5fa436817"><td class="memItemLeft" align="right" valign="top">CLI::Option *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3268b5a375d1324ffecb8dc7293ce838" id="r_a3268b5a375d1324ffecb8dc7293ce838"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3268b5a375d1324ffecb8dc7293ce838">loadMapping</a> (const std::string <a class="el" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1c043f6d7292fcbbcb9f46873bbfe332" id="r_a1c043f6d7292fcbbcb9f46873bbfe332"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00062">62</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00061">61</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa2817f2ad2d67a81b0066abb90c57d4c" name="aa2817f2ad2d67a81b0066abb90c57d4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2817f2ad2d67a81b0066abb90c57d4c">&#9670;&#160;</a></span>ConfigApplication() <span class="overload">[1/2]</span></h2>
@@ -164,7 +174,7 @@ template&lt;typename ConcretConfigApplicationT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00113">mqtt::lib::ConfigMqttBroker::ConfigMqttBroker()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00139">mqtt::lib::ConfigMqttIntegrator::ConfigMqttIntegrator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00185">mqtt::lib::ConfigMqttBroker::ConfigMqttBroker()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00211">mqtt::lib::ConfigMqttIntegrator::ConfigMqttIntegrator()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -219,36 +229,42 @@ template&lt;typename ConcretConfigApplication&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00056">56</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   57</span>        : utils::SubCommand(parent, concretConfigApplication, <span class="stringliteral">&quot;Applications&quot;</span>)</div>
-<div class="line"><span class="lineno">   58</span>        , <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>(std::make_shared&lt;MqttMapper&gt;())</div>
-<div class="line"><span class="lineno">   59</span>        , <a class="code hl_variable" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a>(        <span class="comment">//</span></div>
-<div class="line"><span class="lineno">   60</span>              addOptionFunction( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">   61</span>                  <span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>,</div>
-<div class="line"><span class="lineno">   62</span>                  [<span class="keyword">this</span>](<span class="keyword">const</span> std::string&amp; mappingFile) {</div>
-<div class="line"><span class="lineno">   63</span>                      <span class="keywordflow">try</span> {</div>
-<div class="line"><span class="lineno">   64</span>                          <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>-&gt;setMapping(<a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#acf32b745d871016dd908378674994b07">JsonMappingReader::readMappingFromFile</a>(mappingFile));</div>
-<div class="line"><span class="lineno">   65</span>                      } <span class="keywordflow">catch</span> (std::runtime_error&amp; e) {</div>
-<div class="line"><span class="lineno">   66</span>                          <span class="keywordflow">throw</span> CLI::ValidationError(</div>
-<div class="line"><span class="lineno">   67</span>                              getName(), std::string(<span class="stringliteral">&quot;Activating mapping description in &#39;&quot;</span> + mappingFile + <span class="stringliteral">&quot;&#39; failed\nWhat: &quot;</span> + e.what()));</div>
-<div class="line"><span class="lineno">   68</span>                      }</div>
-<div class="line"><span class="lineno">   69</span>                  },</div>
-<div class="line"><span class="lineno">   70</span>                  <span class="stringliteral">&quot;MQTT mapping file (json format) for integration&quot;</span>,</div>
-<div class="line"><span class="lineno">   71</span>                  <span class="stringliteral">&quot;filename&quot;</span>,</div>
-<div class="line"><span class="lineno">   72</span>                  !CLI::ExistingDirectory))</div>
-<div class="line"><span class="lineno">   73</span>        , <a class="code hl_variable" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a>( <span class="comment">//</span></div>
-<div class="line"><span class="lineno">   74</span>              addOption(   <span class="comment">//</span></div>
-<div class="line"><span class="lineno">   75</span>                  <span class="stringliteral">&quot;--mqtt-session-store&quot;</span>,</div>
-<div class="line"><span class="lineno">   76</span>                  <span class="stringliteral">&quot;Path to file for the persistent session store&quot;</span>,</div>
-<div class="line"><span class="lineno">   77</span>                  <span class="stringliteral">&quot;filename&quot;</span>,</div>
-<div class="line"><span class="lineno">   78</span>                  !CLI::ExistingDirectory)) {</div>
-<div class="line"><span class="lineno">   79</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a380e6e913557fe4abfa2c0c5fa436817"><div class="ttname"><a href="#a380e6e913557fe4abfa2c0c5fa436817">mqtt::lib::ConfigApplication::sessionStoreOpt</a></div><div class="ttdeci">CLI::Option * sessionStoreOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00082">ConfigApplication.h:82</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_aa7759fec12371b6b0043d5cc5ee96758"><div class="ttname"><a href="#aa7759fec12371b6b0043d5cc5ee96758">mqtt::lib::ConfigApplication::mappingFileOpt</a></div><div class="ttdeci">CLI::Option * mappingFileOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00081">ConfigApplication.h:81</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_acc2e03c4d574410a8936378a57c35d13"><div class="ttname"><a href="#acc2e03c4d574410a8936378a57c35d13">mqtt::lib::ConfigApplication::mqttMapper</a></div><div class="ttdeci">std::shared_ptr&lt; MqttMapper &gt; mqttMapper</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00079">ConfigApplication.h:79</a></div></div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1JsonMappingReader_html_acf32b745d871016dd908378674994b07"><div class="ttname"><a href="classmqtt_1_1lib_1_1JsonMappingReader.html#acf32b745d871016dd908378674994b07">mqtt::lib::JsonMappingReader::readMappingFromFile</a></div><div class="ttdeci">static nlohmann::json readMappingFromFile(const std::string &amp;mapFilePath)</div><div class="ttdef"><b>Definition</b> <a href="JsonMappingReader_8cpp_source.html#l00071">JsonMappingReader.cpp:71</a></div></div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00063">63</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   64</span>        : utils::SubCommand(parent, concretConfigApplication, <span class="stringliteral">&quot;Applications&quot;</span>)</div>
+<div class="line"><span class="lineno">   65</span>        , <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>(std::make_shared&lt;MqttMapper&gt;())</div>
+<div class="line"><span class="lineno">   66</span>        , <a class="code hl_variable" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a>(        <span class="comment">//</span></div>
+<div class="line"><span class="lineno">   67</span>              addOptionFunction( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">   68</span>                  <span class="stringliteral">&quot;--mqtt-mapping-file&quot;</span>,</div>
+<div class="line"><span class="lineno">   69</span>                  [<span class="keyword">this</span>](<span class="keyword">const</span> std::string&amp; mappFilename) {</div>
+<div class="line"><span class="lineno">   70</span>                      <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   71</span>                          <a class="code hl_function" href="#a3268b5a375d1324ffecb8dc7293ce838">loadMapping</a>(mappFilename);</div>
+<div class="line"><span class="lineno">   72</span>                      } <span class="keywordflow">catch</span> (std::runtime_error&amp; e) {</div>
+<div class="line"><span class="lineno">   73</span>                          this-&gt;<a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>.clear();</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>                          <span class="keywordflow">throw</span> CLI::ValidationError(getName(),</div>
+<div class="line"><span class="lineno">   76</span>                                                     std::string(<span class="stringliteral">&quot;Activating mapping description in &#39;&quot;</span> + mappFilename +</div>
+<div class="line"><span class="lineno">   77</span>                                                                 <span class="stringliteral">&quot;&#39; failed\n&quot;</span></div>
+<div class="line"><span class="lineno">   78</span>                                                                 <span class="stringliteral">&quot;What: &quot;</span> +</div>
+<div class="line"><span class="lineno">   79</span>                                                                 e.what()));</div>
+<div class="line"><span class="lineno">   80</span>                      }</div>
+<div class="line"><span class="lineno">   81</span>                  },</div>
+<div class="line"><span class="lineno">   82</span>                  <span class="stringliteral">&quot;MQTT mapping file (json format) for integration&quot;</span>,</div>
+<div class="line"><span class="lineno">   83</span>                  <span class="stringliteral">&quot;filename&quot;</span>,</div>
+<div class="line"><span class="lineno">   84</span>                  !CLI::ExistingDirectory))</div>
+<div class="line"><span class="lineno">   85</span>        , <a class="code hl_variable" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a>( <span class="comment">//</span></div>
+<div class="line"><span class="lineno">   86</span>              addOption(   <span class="comment">//</span></div>
+<div class="line"><span class="lineno">   87</span>                  <span class="stringliteral">&quot;--mqtt-session-store&quot;</span>,</div>
+<div class="line"><span class="lineno">   88</span>                  <span class="stringliteral">&quot;Path to file for the persistent session store&quot;</span>,</div>
+<div class="line"><span class="lineno">   89</span>                  <span class="stringliteral">&quot;filename&quot;</span>,</div>
+<div class="line"><span class="lineno">   90</span>                  !CLI::ExistingDirectory)) {</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a1c043f6d7292fcbbcb9f46873bbfe332"><div class="ttname"><a href="#a1c043f6d7292fcbbcb9f46873bbfe332">mqtt::lib::ConfigApplication::mapFilename</a></div><div class="ttdeci">std::string mapFilename</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00088">ConfigApplication.h:88</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a3268b5a375d1324ffecb8dc7293ce838"><div class="ttname"><a href="#a3268b5a375d1324ffecb8dc7293ce838">mqtt::lib::ConfigApplication::loadMapping</a></div><div class="ttdeci">bool loadMapping(const std::string mapFilename)</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00150">ConfigApplication.cpp:150</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a380e6e913557fe4abfa2c0c5fa436817"><div class="ttname"><a href="#a380e6e913557fe4abfa2c0c5fa436817">mqtt::lib::ConfigApplication::sessionStoreOpt</a></div><div class="ttdeci">CLI::Option * sessionStoreOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00085">ConfigApplication.h:85</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_aa7759fec12371b6b0043d5cc5ee96758"><div class="ttname"><a href="#aa7759fec12371b6b0043d5cc5ee96758">mqtt::lib::ConfigApplication::mappingFileOpt</a></div><div class="ttdeci">CLI::Option * mappingFileOpt</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00084">ConfigApplication.h:84</a></div></div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_acc2e03c4d574410a8936378a57c35d13"><div class="ttname"><a href="#acc2e03c4d574410a8936378a57c35d13">mqtt::lib::ConfigApplication::mqttMapper</a></div><div class="ttdeci">std::shared_ptr&lt; MqttMapper &gt; mqttMapper</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8h_source.html#l00082">ConfigApplication.h:82</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00081">mappingFileOpt</a>, <a class="el" href="ConfigApplication_8h_source.html#l00079">mqttMapper</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00071">mqtt::lib::JsonMappingReader::readMappingFromFile()</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00115">mqtt::lib::MqttMapper::setMapping()</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00150">loadMapping()</a>, <a class="el" href="ConfigApplication_8h_source.html#l00088">mapFilename</a>, <a class="el" href="ConfigApplication_8h_source.html#l00084">mappingFileOpt</a>, and <a class="el" href="ConfigApplication_8h_source.html#l00082">mqttMapper</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -258,6 +274,42 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a1de004483654df95103b036db26a7047" name="a1de004483654df95103b036db26a7047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de004483654df95103b036db26a7047">&#9670;&#160;</a></span>getMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mqtt::lib::ConfigApplication::getMapping </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>indent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">2</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00123">123</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  123</span>                                                            {</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>-&gt;getMapping().dump(indent);</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="MqttMapper_8cpp_source.html#l00208">mqtt::lib::MqttMapper::getMapping()</a>, and <a class="el" href="ConfigApplication_8h_source.html#l00082">mqttMapper</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00127">persistMapping()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a1de004483654df95103b036db26a7047_cgraph.svg" width="422" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a1de004483654df95103b036db26a7047_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a3950b6b32f2481e904a1263b92f3c9f8" name="a3950b6b32f2481e904a1263b92f3c9f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3950b6b32f2481e904a1263b92f3c9f8">&#9670;&#160;</a></span>getMappingFilename()</h2>
 
@@ -273,12 +325,12 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00099">99</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   99</span>                                                          {</div>
-<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">  101</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00115">115</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  115</span>                                                          {</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>;</div>
+<div class="line"><span class="lineno">  117</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00081">mappingFileOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00088">mapFilename</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
 <div class="dynheader">
@@ -304,18 +356,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00109">109</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  109</span>                                                                           {</div>
-<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>;</div>
-<div class="line"><span class="lineno">  111</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00105">105</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  105</span>                                                                           {</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>;</div>
+<div class="line"><span class="lineno">  107</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00079">mqttMapper</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00082">mqttMapper</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttbroker_2SocketContextFactory_8cpp_source.html#l00063">mqtt::mqttbroker::SocketContextFactory::create()</a>, <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00062">mqtt::mqttintegrator::SocketContextFactory::create()</a>, and <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2SocketContextFactory_8cpp_source.html#l00063">mqtt::mqttbroker::SocketContextFactory::create()</a>, <a class="el" href="mqttbroker_2websocket_2SubProtocolFactory_8cpp_source.html#l00064">mqtt::mqttbroker::websocket::SubProtocolFactory::create()</a>, <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00059">mqtt::mqttintegrator::SocketContextFactory::create()</a>, and <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a59cb7bb2531c0192a9b1669c44e42de8_icgraph.svg" width="484" height="211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a59cb7bb2531c0192a9b1669c44e42de8_icgraph.svg" width="484" height="280"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -335,24 +387,156 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00089">89</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   89</span>                                                       {</div>
-<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a>-&gt;as&lt;std::string&gt;();</div>
-<div class="line"><span class="lineno">   91</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00101">101</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>                                                       {</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a>-&gt;as&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00082">sessionStoreOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00085">sessionStoreOpt</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00062">mqtt::mqttintegrator::SocketContextFactory::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mqttbroker_2websocket_2SubProtocolFactory_8cpp_source.html#l00064">mqtt::mqttbroker::websocket::SubProtocolFactory::create()</a>, and <a class="el" href="mqttintegrator_2SocketContextFactory_8cpp_source.html#l00059">mqtt::mqttintegrator::SocketContextFactory::create()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_af6e93a086140ee5a1da0fb93a2d05b89_icgraph.svg" width="430" height="72"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_af6e93a086140ee5a1da0fb93a2d05b89_icgraph.svg" width="468" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="acc4e1282f8a60972f892a8bf9c7259fe" name="acc4e1282f8a60972f892a8bf9c7259fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4e1282f8a60972f892a8bf9c7259fe">&#9670;&#160;</a></span>setMapping()</h2>
+<a id="a3268b5a375d1324ffecb8dc7293ce838" name="a3268b5a375d1324ffecb8dc7293ce838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3268b5a375d1324ffecb8dc7293ce838">&#9670;&#160;</a></span>loadMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mqtt::lib::ConfigApplication::loadMapping </td>
+          <td>(</td>
+          <td class="paramtype">const std::string</td>          <td class="paramname"><span class="paramname"><em>mapFilename</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00150">150</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  150</span>                                                                   {</div>
+<div class="line"><span class="lineno">  151</span>        VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Mapping file: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>;</div>
+<div class="line"><span class="lineno">  152</span> </div>
+<div class="line"><span class="lineno">  153</span>        this-&gt;<a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a> = <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>;</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordtype">bool</span> mustReconnect = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>.empty()) {</div>
+<div class="line"><span class="lineno">  158</span>            std::ifstream mapFile(<a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>);</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">if</span> (mapFile.is_open()) {</div>
+<div class="line"><span class="lineno">  161</span>                <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  162</span>                    mustReconnect = <a class="code hl_function" href="#a47d2012a0d29ba4851e2fd53daeb8ee3">setMapping</a>({std::istreambuf_iterator&lt;char&gt;(mapFile), std::istreambuf_iterator&lt;char&gt;()});</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>                    mapFile.close();</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>                    VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Load mapping file success&quot;</span>;</div>
+<div class="line"><span class="lineno">  167</span>                } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  168</span>                    mapFile.close();</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>                    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Loading mapping description from &#39;&quot;</span> + <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a> +</div>
+<div class="line"><span class="lineno">  171</span>                                             <span class="stringliteral">&quot;&#39; failed\n&quot;</span></div>
+<div class="line"><span class="lineno">  172</span>                                             <span class="stringliteral">&quot;What: &quot;</span> +</div>
+<div class="line"><span class="lineno">  173</span>                                             e.what());</div>
+<div class="line"><span class="lineno">  174</span>                }</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  177</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Mapping file &#39;&quot;</span> + <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a> +</div>
+<div class="line"><span class="lineno">  178</span>                               <span class="stringliteral">&quot;&#39; not found. Please provide a valid mapping file with the option --mqtt-mapping-file&quot;</span>;</div>
+<div class="line"><span class="lineno">  179</span>            }</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">return</span> mustReconnect;</div>
+<div class="line"><span class="lineno">  183</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a47d2012a0d29ba4851e2fd53daeb8ee3"><div class="ttname"><a href="#a47d2012a0d29ba4851e2fd53daeb8ee3">mqtt::lib::ConfigApplication::setMapping</a></div><div class="ttdeci">bool setMapping(const std::string &amp;mapping) const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00119">ConfigApplication.cpp:119</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00088">mapFilename</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00119">setMapping()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00063">ConfigApplication()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00109">setMappingFile()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a3268b5a375d1324ffecb8dc7293ce838_cgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a3268b5a375d1324ffecb8dc7293ce838_icgraph.svg" width="458" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a980fd88b7ad5f1a022b17138d2f8bf0a" name="a980fd88b7ad5f1a022b17138d2f8bf0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a980fd88b7ad5f1a022b17138d2f8bf0a">&#9670;&#160;</a></span>persistMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mqtt::lib::ConfigApplication::persistMapping </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00127">127</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>                                                 {</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordtype">bool</span> success = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>        std::ofstream mapFile(<a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>, std::ios::trunc);</div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">if</span> (mapFile.is_open()) {</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">  133</span>                mapFile &lt;&lt; <a class="code hl_function" href="#a1de004483654df95103b036db26a7047">getMapping</a>();</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>                success = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Write mapping file seccess&quot;</span>;</div>
+<div class="line"><span class="lineno">  138</span>            } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">  139</span>                VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Write mapping file failed: &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><span class="lineno">  140</span>            }</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>            mapFile.close();</div>
+<div class="line"><span class="lineno">  143</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  144</span>            VLOG(1) &lt;&lt; <span class="stringliteral">&quot;Cannot open mapping file for writing: &quot;</span> &lt;&lt; <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>;</div>
+<div class="line"><span class="lineno">  145</span>        }</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">return</span> success;</div>
+<div class="line"><span class="lineno">  148</span>    }</div>
+<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_a1de004483654df95103b036db26a7047"><div class="ttname"><a href="#a1de004483654df95103b036db26a7047">mqtt::lib::ConfigApplication::getMapping</a></div><div class="ttdeci">std::string getMapping(int indent=2) const</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00123">ConfigApplication.cpp:123</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00123">getMapping()</a>, and <a class="el" href="ConfigApplication_8h_source.html#l00088">mapFilename</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a980fd88b7ad5f1a022b17138d2f8bf0a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a980fd88b7ad5f1a022b17138d2f8bf0a_icgraph.svg" width="484" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a47d2012a0d29ba4851e2fd53daeb8ee3" name="a47d2012a0d29ba4851e2fd53daeb8ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d2012a0d29ba4851e2fd53daeb8ee3">&#9670;&#160;</a></span>setMapping()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,37 +544,35 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool mqtt::lib::ConfigApplication::setMapping </td>
           <td>(</td>
-          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>json</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapping</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00103">103</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  103</span>                                                                      { <span class="comment">// can throw</span></div>
-<div class="line"><span class="lineno">  104</span>        required(<a class="code hl_variable" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a>, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  105</span> </div>
-<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>-&gt;setMapping(mappingJson);</div>
-<div class="line"><span class="lineno">  107</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00119">119</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  119</span>                                                                     {</div>
+<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#acc2e03c4d574410a8936378a57c35d13">mqttMapper</a>-&gt;setMapping(nlohmann::json::parse(mapping));</div>
+<div class="line"><span class="lineno">  121</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00081">mappingFileOpt</a>, <a class="el" href="ConfigApplication_8h_source.html#l00079">mqttMapper</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00115">mqtt::lib::MqttMapper::setMapping()</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00082">mqttMapper</a>, and <a class="el" href="MqttMapper_8cpp_source.html#l00116">mqtt::lib::MqttMapper::setMapping()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MappingAdminRouter_8cpp_source.html#l00067">mqtt::lib::admin::makeMappingAdminRouter()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00093">setMappingFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00150">loadMapping()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_acc4e1282f8a60972f892a8bf9c7259fe_cgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a47d2012a0d29ba4851e2fd53daeb8ee3_cgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_acc4e1282f8a60972f892a8bf9c7259fe_icgraph.svg" width="484" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a47d2012a0d29ba4851e2fd53daeb8ee3_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a6efe0870e795237bb9a142ce388626f7" name="a6efe0870e795237bb9a142ce388626f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6efe0870e795237bb9a142ce388626f7">&#9670;&#160;</a></span>setMappingFile()</h2>
+<a id="a8f18adbc047bfb12e7ea05bd87db4855" name="a8f18adbc047bfb12e7ea05bd87db4855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f18adbc047bfb12e7ea05bd87db4855">&#9670;&#160;</a></span>setMappingFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,25 +580,24 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool mqtt::lib::ConfigApplication::setMappingFile </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mappingFile</em></span></td><td>)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>mapFilename</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00093">93</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   93</span>                                                                       { <span class="comment">// can throw</span></div>
-<div class="line"><span class="lineno">   94</span>        setDefaultValue(<a class="code hl_variable" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a>, mappingFile);</div>
-<div class="line"><span class="lineno">   95</span> </div>
-<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="#acc4e1282f8a60972f892a8bf9c7259fe">setMapping</a>(<a class="code hl_function" href="classmqtt_1_1lib_1_1JsonMappingReader.html#acf32b745d871016dd908378674994b07">JsonMappingReader::readMappingFromFile</a>(mappingFile));</div>
-<div class="line"><span class="lineno">   97</span>    }</div>
-<div class="ttc" id="aclassmqtt_1_1lib_1_1ConfigApplication_html_acc4e1282f8a60972f892a8bf9c7259fe"><div class="ttname"><a href="#acc4e1282f8a60972f892a8bf9c7259fe">mqtt::lib::ConfigApplication::setMapping</a></div><div class="ttdeci">bool setMapping(const nlohmann::json &amp;json)</div><div class="ttdef"><b>Definition</b> <a href="ConfigApplication_8cpp_source.html#l00103">ConfigApplication.cpp:103</a></div></div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00109">109</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  109</span>                                                                       {</div>
+<div class="line"><span class="lineno">  110</span>        setDefaultValue(<a class="code hl_variable" href="#aa7759fec12371b6b0043d5cc5ee96758">mappingFileOpt</a>, <a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>);</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="#a3268b5a375d1324ffecb8dc7293ce838">loadMapping</a>(<a class="code hl_variable" href="#a1c043f6d7292fcbbcb9f46873bbfe332">mapFilename</a>);</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00081">mappingFileOpt</a>, <a class="el" href="JsonMappingReader_8cpp_source.html#l00071">mqtt::lib::JsonMappingReader::readMappingFromFile()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00103">setMapping()</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8cpp_source.html#l00150">loadMapping()</a>, and <a class="el" href="ConfigApplication_8h_source.html#l00084">mappingFileOpt</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a6efe0870e795237bb9a142ce388626f7_cgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmqtt_1_1lib_1_1ConfigApplication_a8f18adbc047bfb12e7ea05bd87db4855_cgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -436,18 +617,44 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00083">83</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   83</span>                                                                                       {</div>
-<div class="line"><span class="lineno">   84</span>        setDefaultValue(<a class="code hl_variable" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a>, sessionStore);</div>
-<div class="line"><span class="lineno">   85</span> </div>
-<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">   87</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8cpp_source.html#l00095">95</a> of file <a class="el" href="ConfigApplication_8cpp_source.html">ConfigApplication.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   95</span>                                                                                       {</div>
+<div class="line"><span class="lineno">   96</span>        setDefaultValue(<a class="code hl_variable" href="#a380e6e913557fe4abfa2c0c5fa436817">sessionStoreOpt</a>, sessionStore);</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   99</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00082">sessionStoreOpt</a>.</p>
+<p class="reference">References <a class="el" href="ConfigApplication_8h_source.html#l00085">sessionStoreOpt</a>.</p>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a1c043f6d7292fcbbcb9f46873bbfe332" name="a1c043f6d7292fcbbcb9f46873bbfe332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c043f6d7292fcbbcb9f46873bbfe332">&#9670;&#160;</a></span>mapFilename</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mqtt::lib::ConfigApplication::mapFilename</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00088">88</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00063">ConfigApplication()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00115">getMappingFilename()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00150">loadMapping()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00127">persistMapping()</a>.</p>
+
+</div>
+</div>
 <a id="aa7759fec12371b6b0043d5cc5ee96758" name="aa7759fec12371b6b0043d5cc5ee96758"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7759fec12371b6b0043d5cc5ee96758">&#9670;&#160;</a></span>mappingFileOpt</h2>
 
@@ -468,9 +675,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00081">81</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00084">84</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00056">ConfigApplication()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00139">mqtt::lib::ConfigMqttIntegrator::ConfigMqttIntegrator()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00099">getMappingFilename()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00103">setMapping()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00093">setMappingFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00063">ConfigApplication()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00109">setMappingFile()</a>.</p>
 
 </div>
 </div>
@@ -494,9 +701,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00079">79</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00082">82</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00056">ConfigApplication()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00109">getMqttMapper()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00103">setMapping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00063">ConfigApplication()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00123">getMapping()</a>, <a class="el" href="ConfigApplication_8cpp_source.html#l00105">getMqttMapper()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00119">setMapping()</a>.</p>
 
 </div>
 </div>
@@ -520,9 +727,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00082">82</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConfigApplication_8h_source.html#l00085">85</a> of file <a class="el" href="ConfigApplication_8h_source.html">ConfigApplication.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00089">getSessionStore()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00083">setSessionStore()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ConfigApplication_8cpp_source.html#l00101">getSessionStore()</a>, and <a class="el" href="ConfigApplication_8cpp_source.html#l00095">setSessionStore()</a>.</p>
 
 </div>
 </div>

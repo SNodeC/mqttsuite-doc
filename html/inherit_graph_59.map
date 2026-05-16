@@ -1,17 +1,25 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,117,154,145"/>
-<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1ConfigBridge.html" title=" " alt="" coords="205,5,398,33"/>
-<area shape="poly" id="edge59_Node000000_Node000001" title=" " alt="" coords="107,105,150,73,201,43,236,32,232,35,203,48,153,78,111,109"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1lib_1_1ConfigApplication.html" title=" " alt="" coords="202,57,401,85"/>
-<area shape="poly" id="edge60_Node000000_Node000002" title=" " alt="" coords="143,110,201,94,245,84,240,87,202,99,146,115"/>
-<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigPublish.html" title=" " alt="" coords="236,109,366,154"/>
-<area shape="poly" id="edge63_Node000000_Node000005" title=" " alt="" coords="168,129,238,130,233,132,170,134"/>
-<area shape="rect" id="Node000006" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigSession.html" title=" " alt="" coords="236,178,366,223"/>
-<area shape="poly" id="edge64_Node000000_Node000006" title=" " alt="" coords="141,147,238,179,233,181,140,153"/>
-<area shape="rect" id="Node000007" href="$classmqtt_1_1mqttcli_1_1lib_1_1ConfigSubscribe.html" title=" " alt="" coords="234,248,368,292"/>
-<area shape="poly" id="edge65_Node000000_Node000007" title=" " alt="" coords="105,153,149,194,203,233,237,250,231,250,200,237,146,198,103,159"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1lib_1_1ConfigMqttBroker.html" title=" " alt="" coords="460,32,658,60"/>
-<area shape="poly" id="edge61_Node000002_Node000003" title=" " alt="" coords="415,57,462,55,457,56,417,62"/>
-<area shape="rect" id="Node000004" href="$classmqtt_1_1lib_1_1ConfigMqttIntegrator.html" title=" " alt="" coords="449,84,669,112"/>
-<area shape="poly" id="edge62_Node000002_Node000004" title=" " alt="" coords="416,80,451,86,446,87,417,86"/>
+<area shape="rect" id="Node000000" href="$classnlohmann_1_1json__schema_1_1error__handler.html" title=" " alt="" coords="5,194,185,238"/>
+<area shape="rect" id="Node000001" href="$classanonymous__namespace_02issue-105-verbose-combination-errors_8cpp_03_1_1MyErrorHandler.html" title=" " alt="" coords="233,5,468,67"/>
+<area shape="poly" id="edge44_Node000000_Node000001" title=" " alt="" coords="121,180,169,127,199,100,231,77,255,66,251,70,234,81,202,105,173,131,125,183"/>
+<area shape="rect" id="Node000002" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1first__error__handler.html" title=" " alt="" coords="261,91,440,152"/>
+<area shape="poly" id="edge45_Node000000_Node000002" title=" " alt="" coords="168,186,232,162,265,151,261,155,234,167,171,190"/>
+<area shape="rect" id="Node000003" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1logical__combination__error__handler.html" title=" " alt="" coords="261,177,440,256"/>
+<area shape="poly" id="edge46_Node000000_Node000003" title=" " alt="" coords="199,214,262,215,258,218,201,219"/>
+<area shape="rect" id="Node000004" href="$classanonymous__namespace_02json-validator_8cpp_03_1_1throwing__error__handler.html" title=" " alt="" coords="260,280,440,342"/>
+<area shape="poly" id="edge47_Node000000_Node000004" title=" " alt="" coords="171,242,267,278,263,281,172,247"/>
+<area shape="rect" id="Node000005" href="$classnlohmann_1_1json__schema_1_1basic__error__handler.html" title=" " alt="" coords="261,366,440,410"/>
+<area shape="poly" id="edge48_Node000000_Node000005" title=" " alt="" coords="123,248,172,302,202,329,234,351,263,366,258,368,231,356,199,333,168,306,123,254"/>
+<area shape="rect" id="Node000006" href="$classanonymous__namespace_02errors_8cpp_03_1_1store__ptr__err__handler.html" title=" " alt="" coords="542,139,721,200"/>
+<area shape="poly" id="edge49_Node000005_Node000006" title=" " alt="" coords="452,362,466,352,480,335,487,318,490,283,493,247,500,229,514,210,543,192,539,195,518,214,505,231,498,248,495,284,492,319,484,338,470,355,455,367"/>
+<area shape="rect" id="Node000007" href="$classanonymous__namespace_02issue-149-entry-selection_8cpp_03_1_1store__err__handler.html" title=" " alt="" coords="516,224,746,286"/>
+<area shape="poly" id="edge50_Node000005_Node000007" title=" " alt="" coords="453,359,466,351,481,338,490,324,499,310,514,295,532,288,537,285,518,300,503,313,494,327,485,342,470,356,456,364"/>
+<area shape="rect" id="Node000008" href="$classanonymous__namespace_02issue-70-root-schema-constructor_8cpp_03_1_1store__ptr__err__handler.html" title=" " alt="" coords="542,310,721,389"/>
+<area shape="poly" id="edge51_Node000005_Node000008" title=" " alt="" coords="455,371,543,361,538,363,456,376"/>
+<area shape="rect" id="Node000009" href="$classcustom__error__handler.html" title=" " alt="" coords="550,413,713,441"/>
+<area shape="poly" id="edge52_Node000005_Node000009" title=" " alt="" coords="455,400,552,415,546,416,456,405"/>
+<area shape="rect" id="Node000010" href="$classmqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03_1_1ProjectionValidationErrorHandler.html" title=" " alt="" coords="524,465,739,544"/>
+<area shape="poly" id="edge53_Node000005_Node000010" title=" " alt="" coords="421,414,537,464,532,465,420,419"/>
+<area shape="rect" id="Node000011" href="$classstore__ptr__err__handler.html" title=" " alt="" coords="551,568,711,595"/>
+<area shape="poly" id="edge54_Node000005_Node000011" title=" " alt="" coords="377,421,437,489,475,524,517,552,553,569,548,569,515,557,472,528,433,493,375,426"/>
 </map>

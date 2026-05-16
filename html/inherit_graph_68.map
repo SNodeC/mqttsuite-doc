@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,144,216,189"/>
+<area shape="rect" id="Node000001" href="$classmqtt_1_1mqttbridge_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="275,5,484,50"/>
+<area shape="poly" id="edge73_Node000000_Node000001" title=" " alt="" coords="149,132,202,95,262,60,294,49,290,52,265,65,205,99,153,136"/>
+<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttbroker_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="275,75,484,119"/>
+<area shape="poly" id="edge74_Node000000_Node000002" title=" " alt="" coords="214,137,292,118,288,121,216,142"/>
+<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttcli_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="288,144,471,189"/>
+<area shape="poly" id="edge75_Node000000_Node000003" title=" " alt="" coords="231,164,290,165,285,167,232,169"/>
+<area shape="rect" id="Node000004" href="$classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="264,213,495,258"/>
+<area shape="poly" id="edge76_Node000000_Node000004" title=" " alt="" coords="215,191,293,212,287,214,215,196"/>
+<area shape="rect" id="Node000005" href="$classmqtt_1_1mqttstore_1_1websocket_1_1SubProtocolFactory.html" title=" " alt="" coords="279,283,480,327"/>
+<area shape="poly" id="edge77_Node000000_Node000005" title=" " alt="" coords="152,196,205,233,265,268,295,282,289,282,262,273,202,238,151,201"/>
+</map>

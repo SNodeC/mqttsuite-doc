@@ -1,9 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,65,165,93"/>
-<area shape="rect" id="Node000001" href="$classmqtt_1_1bridge_1_1lib_1_1Mqtt.html" title=" " alt="" coords="213,5,376,33"/>
-<area shape="poly" id="edge36_Node000000_Node000001" title=" " alt="" coords="150,58,245,32,241,35,151,63"/>
-<area shape="rect" id="Node000002" href="$classmqtt_1_1mqttcli_1_1lib_1_1Mqtt.html" title=" " alt="" coords="229,57,360,102"/>
-<area shape="poly" id="edge37_Node000000_Node000002" title=" " alt="" coords="180,77,231,78,226,80,180,82"/>
-<area shape="rect" id="Node000003" href="$classmqtt_1_1mqttintegrator_1_1lib_1_1Mqtt.html" title=" " alt="" coords="217,126,372,171"/>
-<area shape="poly" id="edge38_Node000000_Node000003" title=" " alt="" coords="144,96,227,125,222,127,143,101"/>
+<area shape="rect" id="Node000000" href="$structinja_1_1Template.html" title="The main inja Template." alt="" coords="5,5,119,33"/>
 </map>

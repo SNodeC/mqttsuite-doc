@@ -30,6 +30,12 @@ var annotated_dup =
       [ "array", "classanonymous__namespace_02json-validator_8cpp_03_1_1array.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1array" ],
       [ "throwing_error_handler", "classanonymous__namespace_02json-validator_8cpp_03_1_1throwing__error__handler.html", "classanonymous__namespace_02json-validator_8cpp_03_1_1throwing__error__handler" ]
     ] ],
+    [ "anonymous_namespace{SocketContextFactory.cpp}", "namespaceanonymous__namespace_02SocketContextFactory_8cpp_03.html", [
+      [ "StorageOptions", "structanonymous__namespace_02SocketContextFactory_8cpp_03_1_1StorageOptions.html", "structanonymous__namespace_02SocketContextFactory_8cpp_03_1_1StorageOptions" ]
+    ] ],
+    [ "anonymous_namespace{SubProtocolFactory.cpp}", "namespaceanonymous__namespace_02SubProtocolFactory_8cpp_03.html", [
+      [ "StorageOptions", "structanonymous__namespace_02SubProtocolFactory_8cpp_03_1_1StorageOptions.html", "structanonymous__namespace_02SubProtocolFactory_8cpp_03_1_1StorageOptions" ]
+    ] ],
     [ "conanfile", "namespaceconanfile.html", [
       [ "JsonSchemaValidatorConan", "classconanfile_1_1JsonSchemaValidatorConan.html", "classconanfile_1_1JsonSchemaValidatorConan" ]
     ] ],
@@ -84,8 +90,8 @@ var annotated_dup =
         [ "ConfigApplication", "classmqtt_1_1lib_1_1ConfigApplication.html", "classmqtt_1_1lib_1_1ConfigApplication" ],
         [ "ConfigMqttBroker", "classmqtt_1_1lib_1_1ConfigMqttBroker.html", "classmqtt_1_1lib_1_1ConfigMqttBroker" ],
         [ "ConfigMqttIntegrator", "classmqtt_1_1lib_1_1ConfigMqttIntegrator.html", "classmqtt_1_1lib_1_1ConfigMqttIntegrator" ],
-        [ "JsonMappingReader", "classmqtt_1_1lib_1_1JsonMappingReader.html", "classmqtt_1_1lib_1_1JsonMappingReader" ],
         [ "MqttMapper", "classmqtt_1_1lib_1_1MqttMapper.html", "classmqtt_1_1lib_1_1MqttMapper" ],
+        [ "JsonMappingReader", "classmqtt_1_1lib_1_1JsonMappingReader.html", "classmqtt_1_1lib_1_1JsonMappingReader" ],
         [ "FunctionBase", "structmqtt_1_1lib_1_1FunctionBase.html", "structmqtt_1_1lib_1_1FunctionBase" ],
         [ "Function", "structmqtt_1_1lib_1_1Function.html", "structmqtt_1_1lib_1_1Function" ],
         [ "VoidFunction", "structmqtt_1_1lib_1_1VoidFunction.html", "structmqtt_1_1lib_1_1VoidFunction" ]
@@ -140,6 +146,25 @@ var annotated_dup =
           [ "SubProtocolFactory", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttintegrator_1_1websocket_1_1SubProtocolFactory" ]
         ] ],
         [ "SocketContextFactory", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory.html", "classmqtt_1_1mqttintegrator_1_1SocketContextFactory" ]
+      ] ],
+      [ "mqttstore", "namespacemqtt_1_1mqttstore.html", [
+        [ "lib", "namespacemqtt_1_1mqttstore_1_1lib.html", [
+          [ "anonymous_namespace{StoragePlan.cpp}", "namespacemqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03.html", [
+            [ "ProjectionValidationErrorHandler", "classmqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03_1_1ProjectionValidationErrorHandler.html", "classmqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03_1_1ProjectionValidationErrorHandler" ]
+          ] ],
+          [ "Mqtt", "classmqtt_1_1mqttstore_1_1lib_1_1Mqtt.html", "classmqtt_1_1mqttstore_1_1lib_1_1Mqtt" ],
+          [ "MariaDbStorage", "classmqtt_1_1mqttstore_1_1lib_1_1MariaDbStorage.html", "classmqtt_1_1mqttstore_1_1lib_1_1MariaDbStorage" ],
+          [ "MqttMessage", "structmqtt_1_1mqttstore_1_1lib_1_1MqttMessage.html", "structmqtt_1_1mqttstore_1_1lib_1_1MqttMessage" ],
+          [ "StoragePlan", "classmqtt_1_1mqttstore_1_1lib_1_1StoragePlan.html", "classmqtt_1_1mqttstore_1_1lib_1_1StoragePlan" ],
+          [ "ConfigSession", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigSession.html", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigSession" ],
+          [ "ConfigSubscribe", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigSubscribe.html", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigSubscribe" ],
+          [ "ConfigDatabase", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigDatabase.html", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigDatabase" ],
+          [ "ConfigStorage", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigStorage.html", "classmqtt_1_1mqttstore_1_1lib_1_1ConfigStorage" ]
+        ] ],
+        [ "websocket", "namespacemqtt_1_1mqttstore_1_1websocket.html", [
+          [ "SubProtocolFactory", "classmqtt_1_1mqttstore_1_1websocket_1_1SubProtocolFactory.html", "classmqtt_1_1mqttstore_1_1websocket_1_1SubProtocolFactory" ]
+        ] ],
+        [ "SocketContextFactory", "classmqtt_1_1mqttstore_1_1SocketContextFactory.html", "classmqtt_1_1mqttstore_1_1SocketContextFactory" ]
       ] ]
     ] ],
     [ "nlohmann", "namespacenlohmann.html", [

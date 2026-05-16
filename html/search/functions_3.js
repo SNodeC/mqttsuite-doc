@@ -11,6 +11,5 @@ var searchData=
   ['describe_8',['describe',['../structinja_1_1Token.html#adc8c0a84e2d4ce0a3625c399bd259f1f',1,'inja::Token']]],
   ['discarddraft_9',['discardDraft',['../classmqtt_1_1lib_1_1JsonMappingReader.html#a580a1cc4add19dda09510a53e57680b7',1,'mqtt::lib::JsonMappingReader']]],
   ['disconnectclient_10',['disconnectClient',['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#ab09e7898ec3a02564eaafda15941cd9e',1,'mqtt::mqttbroker::lib::MqttModel']]],
-  ['dump_11',['dump',['../classmqtt_1_1lib_1_1MqttMapper.html#a122f07417797498849120fe755c4fdbb',1,'mqtt::lib::MqttMapper']]],
-  ['durationtostring_12',['durationToString',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a56c6fd6e19efd8c87e39a8eb5f3fed10',1,'mqtt::bridge::lib::SSEDistributor::durationToString()'],['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15',1,'mqtt::mqttbroker::lib::MqttModel::durationToString()']]]
+  ['durationtostring_11',['durationToString',['../classmqtt_1_1bridge_1_1lib_1_1SSEDistributor.html#a56c6fd6e19efd8c87e39a8eb5f3fed10',1,'mqtt::bridge::lib::SSEDistributor::durationToString()'],['../classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a8b3d54a6f79701479d576e8b50f52a15',1,'mqtt::mqttbroker::lib::MqttModel::durationToString()']]]
 ];

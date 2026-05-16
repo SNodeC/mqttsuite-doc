@@ -22,5 +22,6 @@ var classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel =
     [ "eventReceiverList", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a5f69c8451e812ee155116a9a12ff851a", null ],
     [ "id", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a19426588bf9226b3b6f134ee79cb5d6b", null ],
     [ "modelMap", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a3ec386f891809b1fe4cfcb9b0707487d", null ],
+    [ "nextEventReceiverId", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a07709b77b146eace643c30537dd1d284", null ],
     [ "onlineSinceTimePoint", "classmqtt_1_1mqttbroker_1_1lib_1_1MqttModel.html#a10fe475d9f4a173c6b588220a68b4fd0", null ]
 ];

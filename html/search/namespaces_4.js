@@ -18,5 +18,10 @@ var searchData=
   ['mqtt_3a_3amqttcli_3a_3awebsocket_15',['websocket',['../namespacemqtt_1_1mqttcli_1_1websocket.html',1,'mqtt::mqttcli']]],
   ['mqtt_3a_3amqttintegrator_16',['mqttintegrator',['../namespacemqtt_1_1mqttintegrator.html',1,'mqtt']]],
   ['mqtt_3a_3amqttintegrator_3a_3alib_17',['lib',['../namespacemqtt_1_1mqttintegrator_1_1lib.html',1,'mqtt::mqttintegrator']]],
-  ['mqtt_3a_3amqttintegrator_3a_3awebsocket_18',['websocket',['../namespacemqtt_1_1mqttintegrator_1_1websocket.html',1,'mqtt::mqttintegrator']]]
+  ['mqtt_3a_3amqttintegrator_3a_3awebsocket_18',['websocket',['../namespacemqtt_1_1mqttintegrator_1_1websocket.html',1,'mqtt::mqttintegrator']]],
+  ['mqtt_3a_3amqttstore_19',['mqttstore',['../namespacemqtt_1_1mqttstore.html',1,'mqtt']]],
+  ['mqtt_3a_3amqttstore_3a_3alib_20',['lib',['../namespacemqtt_1_1mqttstore_1_1lib.html',1,'mqtt::mqttstore']]],
+  ['mqtt_3a_3amqttstore_3a_3alib_3a_3aanonymous_5fnamespace_7bmariadbstorage_2ecpp_7d_21',['anonymous_namespace{MariaDbStorage.cpp}',['../namespacemqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02MariaDbStorage_8cpp_03.html',1,'mqtt::mqttstore::lib']]],
+  ['mqtt_3a_3amqttstore_3a_3alib_3a_3aanonymous_5fnamespace_7bstorageplan_2ecpp_7d_22',['anonymous_namespace{StoragePlan.cpp}',['../namespacemqtt_1_1mqttstore_1_1lib_1_1anonymous__namespace_02StoragePlan_8cpp_03.html',1,'mqtt::mqttstore::lib']]],
+  ['mqtt_3a_3amqttstore_3a_3awebsocket_23',['websocket',['../namespacemqtt_1_1mqttstore_1_1websocket.html',1,'mqtt::mqttstore']]]
 ];

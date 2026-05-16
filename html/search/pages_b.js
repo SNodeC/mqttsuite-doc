@@ -1,6 +1,30 @@
 var searchData=
 [
-  ['glance_0',['Overall Structure (at a glance)',['../index.html#overall-structure-at-a-glance',1,'']]],
-  ['goals_1',['Design goals',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#design-goals',1,'']]],
-  ['guidance_2',['Guidance',['../index.html#additions--field-tested-guidance',1,'Additions &amp;amp; Field-Tested Guidance'],['../index.html#additions--field-tested-guidance-1',1,'Additions &amp;amp; Field-Tested Guidance'],['../index.html#additions--field-tested-guidance-2',1,'Additions &amp;amp; Field-Tested Guidance'],['../index.html#field-tested-guidance',1,'Field-Tested Guidance']]]
+  ['been_20saved_0',['been saved',['../index.html#for-development-only-use-custom-html-templates-for-the-web-ui-after-the-configuration-has-been-saved',1,'(For development only) Use custom HTML templates for the Web UI (after the configuration has been saved)'],['../index.html#optional-embed-the-integrator--after-the-configuration-has-been-saved',1,'(Optional) Embed the integrator (after the configuration has been saved)']]],
+  ['behavior_20aligned_20with_20the_20mapping_20description_1',['Behavior aligned with the Mapping Description',['../index.html#behavior-aligned-with-the-mapping-description',1,'']]],
+  ['below_2',['Attach your mapping file (canonical test case below)',['../index.html#attach-your-mapping-file-canonical-test-case-below',1,'']]],
+  ['best_20practices_20validation_20tips_3',['Best Practices &amp;amp; Validation Tips',['../index.html#best-practices--validation-tips',1,'']]],
+  ['big_20picture_4',['The &lt;span class=&quot;tt&quot;&gt;mapping&lt;/span&gt; Object (big picture)',['../index.html#the-mapping-object-big-picture',1,'']]],
+  ['bootstrap_3a_20database_20user_20and_20permissions_5',['2. MariaDB bootstrap: database, user, and permissions',['../md_docs_2mqttstore-user-guide.html#autotoc_md2-mariadb-bootstrap-database-user-and-permissions',1,'']]],
+  ['bridge_20config_20json_6',['Create a minimal &lt;span class=&quot;tt&quot;&gt;bridge-config.json&lt;/span&gt;',['../index.html#create-a-minimal-bridge-configjson',1,'']]],
+  ['bridge_20configuration_20json_7',['Bridge Configuration JSON',['../index.html#bridge-configuration-json',1,'']]],
+  ['bridge_20each_20item_20in_20bridges_8',['&lt;span class=&quot;tt&quot;&gt;bridge&lt;/span&gt; (each item in &lt;span class=&quot;tt&quot;&gt;bridges&lt;/span&gt;)',['../index.html#bridge-each-item-in-bridges',1,'']]],
+  ['bridge_3a_9',['Run the bridge:',['../index.html#run-the-bridge',1,'']]],
+  ['bridges_10',['&lt;span class=&quot;tt&quot;&gt;bridge&lt;/span&gt; (each item in &lt;span class=&quot;tt&quot;&gt;bridges&lt;/span&gt;)',['../index.html#bridge-each-item-in-bridges',1,'']]],
+  ['broker_11',['&lt;span class=&quot;tt&quot;&gt;topics&lt;/span&gt; (subscriptions for a broker)',['../index.html#topics-subscriptions-for-a-broker',1,'']]],
+  ['broker_20each_20item_20in_20brokers_12',['&lt;span class=&quot;tt&quot;&gt;broker&lt;/span&gt; (each item in &lt;span class=&quot;tt&quot;&gt;brokers&lt;/span&gt;)',['../index.html#broker-each-item-in-brokers',1,'']]],
+  ['broker_20over_20tcp_20ipv4_13',['Connect to a plain MQTT broker over TCP/IPv4',['../index.html#connect-to-a-plain-mqtt-broker-over-tcpipv4',1,'']]],
+  ['brokers_14',['&lt;span class=&quot;tt&quot;&gt;broker&lt;/span&gt; (each item in &lt;span class=&quot;tt&quot;&gt;brokers&lt;/span&gt;)',['../index.html#broker-each-item-in-brokers',1,'']]],
+  ['build_20install_20mqttsuite_15',['Build &amp;amp; Install MQTTSuite',['../index.html#build--install-mqttsuite',1,'']]],
+  ['build_20out_20of_20source_16',['Build out-of-source',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#build-out-of-source',1,'']]],
+  ['building_17',['Building',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building',1,'']]],
+  ['building_20as_20a_20cmake_20subdirectory_20from_20within_20another_20project_18',['Building as a CMake-subdirectory from within another project',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building-as-a-cmake-subdirectory-from-within-another-project',1,'']]],
+  ['building_20as_20shared_20library_19',['Building as shared library',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building-as-shared-library',1,'']]],
+  ['building_20directly_20finding_20a_20cmake_20package_20short_20',['Building directly, finding a CMake-package. (short)',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building-directly-finding-a-cmake-package-short',1,'']]],
+  ['building_20with_20hunter_20package_20manager_21',['Building with Hunter package manager',['../dir_bafb6a82dc8bfc8310328cc4c5d47780.html#building-with-hunter-package-manager',1,'']]],
+  ['builds_20of_20mqttbroker_22',['Connection instances of default builds of &lt;em&gt;MQTTBroker&lt;/em&gt;',['../index.html#connection-instances-of-default-builds-of-mqttbroker',1,'']]],
+  ['builds_20of_20mqttintegrator_23',['Connection instances of default builds of &lt;em&gt;MQTTIntegrator&lt;/em&gt;',['../index.html#connection-instances-of-default-builds-of-mqttintegrator',1,'']]],
+  ['bundled_20no_20separate_20installation_20required_24',['Bundled (no separate installation required)',['../index.html#bundled-no-separate-installation-required',1,'']]],
+  ['but_20no_20rows_20appear_25',['MQTTStore starts but no rows appear',['../md_docs_2mqttstore-user-guide.html#mqttstore-starts-but-no-rows-appear',1,'']]],
+  ['but_20the_20in_20mqtt_20instance_26',['but the in mqtt instance',['../index.html#disable-all-but-the-in-mqtt-instance',1,'Disable all but the &lt;span class=&quot;tt&quot;&gt;in-mqtt&lt;/span&gt; instance'],['../index.html#disable-all-but-the-in-mqtt-instance-1',1,'Disable all but the &lt;span class=&quot;tt&quot;&gt;in-mqtt&lt;/span&gt; instance']]]
 ];

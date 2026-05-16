@@ -5,6 +5,6 @@ var searchData=
   ['configapplication_2eh_2',['ConfigApplication.h',['../ConfigApplication_8h.html',1,'']]],
   ['configbridge_2ecpp_3',['ConfigBridge.cpp',['../ConfigBridge_8cpp.html',1,'']]],
   ['configbridge_2eh_4',['ConfigBridge.h',['../ConfigBridge_8h.html',1,'']]],
-  ['configsections_2ecpp_5',['ConfigSections.cpp',['../ConfigSections_8cpp.html',1,'']]],
-  ['configsections_2eh_6',['ConfigSections.h',['../ConfigSections_8h.html',1,'']]]
+  ['configsections_2ecpp_5',['ConfigSections.cpp',['../mqttcli_2lib_2ConfigSections_8cpp.html',1,'(Global Namespace)'],['../mqttstore_2lib_2ConfigSections_8cpp.html',1,'(Global Namespace)']]],
+  ['configsections_2eh_6',['ConfigSections.h',['../mqttcli_2lib_2ConfigSections_8h.html',1,'(Global Namespace)'],['../mqttstore_2lib_2ConfigSections_8h.html',1,'(Global Namespace)']]]
 ];
